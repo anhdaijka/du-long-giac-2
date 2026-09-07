@@ -1,0 +1,6 @@
+npc_id,name,role,location
+N01,Gate Clerk,quest-giver,Willow Crossing
+N02,Captain Lien,military investigator,North Barracks
+N03,Scholar Vu,archive scholar,County Archive
+N04,Warden Pham,pass commander,Stone Gate Pass
+N05,Masked Courier,unknown antagonist,variable
