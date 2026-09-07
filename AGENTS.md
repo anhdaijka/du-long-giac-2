@@ -16,6 +16,28 @@ This repository is a long-form fiction project. Follow this contract before any 
 - `research/` is not canon until the author promotes a fact into canonical story files.
 - `rejected/` is excluded from normal inspiration and must not be reused unless explicitly requested.
 
+## External source adaptation mode
+
+When the project begins from an existing external narrative corpus — game databases, quest/task scripts, branching dialogue, screenplay material, wiki/lore exports, legacy story bibles, or similar source systems — **do not immediately initialize or populate Story Skills from raw source rows**.
+
+Route first through the Source Adaptation Pipeline:
+
+1. Read `.agents/rules/09-source-adaptation.md`.
+2. Read `docs/playbooks/external-source-ingestion.md`.
+3. If the source is a game database, also read `docs/playbooks/game-database-novelization.md`.
+4. If the source contains mutually exclusive routes/flags/conditional dialogue, also read `docs/playbooks/branching-narrative-migration.md`.
+5. Inventory and preserve source provenance.
+6. Reconstruct source entities, chronology, branches, flags, dialogue provenance and outcomes before adapting them.
+7. Keep `DIRECT SOURCE`, `SOURCE-SUPPORTED INFERENCE`, adaptation decisions and `NOVELIZATION BRIDGE` material distinct.
+8. Obtain author approval for the adaptation contract before Story Skills canon promotion.
+9. Promote only novel-relevant approved state; raw source databases are evidence, not a second canon database.
+
+Core principle:
+
+> Preserve the source before interpreting it. Reconstruct before adapting. Adapt before canonizing.
+
+Reusable templates live in `templates/migration/`; prompts live in `prompts/migration/`; worked examples live in `examples/migrations/`.
+
 ## Before planning or drafting
 
 1. Read the relevant author constraints.
@@ -37,6 +59,8 @@ Review before rewriting. Return issue severity, location, problem, why it matter
 ## Canonization
 
 After an approved revision, prepare a canon diff. Apply only author-approved state changes, then run validation/links/continuity checks again.
+
+For external-source adaptations, canonization also requires consistency with the approved adaptation contract. If a new prose need conflicts with the source contract, stop and present the departure before changing canon.
 
 ## Git
 
