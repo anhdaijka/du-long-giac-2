@@ -1,0 +1,8 @@
+dialogue_id,speaker,condition,text
+D001,Gate Clerk,T100_active,"The courier station burned before dawn. Choose carefully whom you trust."
+D010,Captain Lien,ROUTE_LIEN,"I saw a masked rider leave the northern track before the smoke rose."
+D011,Captain Lien,ROUTE_VU,"I heard there was a rider, but I never saw the face myself."
+D020,Scholar Vu,ROUTE_VU,"The dispatch ledger names a third seal that should not exist."
+D021,Scholar Vu,ROUTE_LIEN,"Without the ledger, all I have is rumor."
+D030,Warden Pham,T130_active,"Whatever road brought you here, Stone Gate is where the stories meet."
+D040,Masked Courier,T140_active,"You are asking who carried the message. Ask instead who wrote it."
