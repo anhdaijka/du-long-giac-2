@@ -1,0 +1,8 @@
+flag,meaning,set_by,notes
+FLAG_STATION_SEEN,player inspected burned station,T100,shared
+ROUTE_LIEN,captain route chosen,T110,mutually exclusive with ROUTE_VU
+ROUTE_VU,scholar route chosen,T120,mutually exclusive with ROUTE_LIEN
+FLAG_RIDER_SEEN_BY_LIEN,Captain Lien claims direct sighting,T110,conflicts with D011 if dialogue is treated without route context
+FLAG_LEDGER_FOUND,dispatch ledger recovered,T120,route-specific evidence
+FLAG_PASS_REACHED,Stone Gate Pass reached,T130,shared convergence
+FLAG_MASKED_COURIER_FLED,masked courier escapes confrontation,T140,shared outcome
