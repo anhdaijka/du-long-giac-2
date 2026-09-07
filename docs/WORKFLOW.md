@@ -3,31 +3,35 @@
 ## State machine
 
 ```text
-idea
+[BƯỚC 1: LÊN KỊCH BẢN]
+idea / plot deck
   ↓
-plan
+plan (templates/chapter-brief.md -> briefs/chapter_XX_brief.md)
   ↓
-deterministic check
+deterministic check (npm run story:check)
   ↓
-author approval
+🛑 HARD STOP 1: AUTHOR APPROVAL (Phê duyệt Chapter Brief)
+   [DỪNG LẠI! Tuyệt đối không được viết draft nếu Brief chưa được duyệt]
+
+[BƯỚC 2: CHẤP BÚT & KIỂM ĐỊNH]
+draft (chapters/chapter_XX.md)
   ↓
-draft
+static linting (npm run lint:prose)
   ↓
-review
+review (templates/review-report.md -> reviews/chapter_XX_review.md)
   ↓
-revision plan
+🛑 HARD STOP 2: AUTHOR APPROVAL (Phê duyệt Bản thảo & Review Report)
+   [DỪNG LẠI! Tuyệt đối không tự ý canon hóa nếu Bản thảo chưa được duyệt]
+
+[BƯỚC 3: CANON HÓA & LƯU TRỮ]
+canon diff (templates/canon-diff.md -> revisions/chapter_XX_canon_diff.md)
   ↓
-author approval
+🛑 HARD STOP 3: AUTHOR APPROVAL (Phê duyệt Canon Diff)
+   [DỪNG LẠI! Chỉ cập nhật Sổ cái sau khi Tác giả duyệt Diff]
   ↓
-revise
+state update (characters/ & timeline)
   ↓
-canon diff
-  ↓
-author approval
-  ↓
-state update
-  ↓
-final check
+final check (npm run gate:check)
   ↓
 accept chapter
   ↓

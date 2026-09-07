@@ -1,0 +1,58 @@
+---
+title: "Kiến Trúc Tổng Thể Quyển 1: Động Đình Phong Vân"
+volume: 1
+chapters_count: "Dynamic Baseline (Khung cơ sở 18 chương — Tự do mở rộng theo chiều sâu kịch bản)"
+target_word_count: "80,000 - 120,000+ words (Linh hoạt theo quy mô kịch bản)"
+timeframe: "Tháng 8 đến Tháng 11 năm 1191 (Thuần Hi thập bát niên)"
+pacing: "Low-burn (Cổ điển Kim Dung, Gritty Realism, Cadence 3-1-1)"
+provenance: "KT2 Engine Tasks 0, 1, 2, 4, 5, 12, 157, Arc 00, Arc 01, Linktask Nghĩa Quân"
+---
+
+# KIẾN TRÚC TỔNG THỂ QUYỂN 1: ĐỘNG ĐÌNH PHONG VÂN
+
+> **Tôn chỉ nghệ thuật:** Nhịp điệu "cháy chậm" (low-burn). Đặt trọng tâm vào thế sự sinh kế bến sông, chiều sâu tâm lý, gánh nặng số phận và mâu thuẫn chính trị thời Nam Tống.
+> **Quy chuẩn Dung Lượng Vàng:** 4.000 – 4.800 từ / chương (Sàn cứng 3.500 từ, Trần mềm 5.200 từ).
+> **Kỷ luật Nguồn (Strict Provenance):** 100% tình tiết, địa danh, nhân vật bắt buộc truy xuất trực tiếp từ mã Task ID, Subtask ID trong SQLite `story_database.sqlite3`.
+> **Quy chế Mở rộng Linh hoạt (Fluid Expansion):** Con số 18 chương chỉ là **bộ khung cơ sở tối thiểu (baseline roadmap)**. Nếu quá trình khai phá các nhánh nhiệm vụ phụ, dã luyện, trinh thám hoặc chiều sâu quan hệ đòi hỏi thêm không gian để thở, Tác giả và Agent hoàn toàn có quyền bổ sung thêm các chương đệm/chương phân nhánh (nâng lên 20, 24 hoặc 30 chương). Quyển 1 khép lại khi và chỉ khi **chủ đề Khởi nguyên & Xuất sơn của Tam Anh** đạt độ chín muồi nghệ thuật trọn vẹn, tuyệt đối không bị đóng khung cơ học.
+
+---
+
+## HỒI THỨ NHẤT: TAM TUYẾN SƠ KHỞI (Chương 01 đến Chương 06)
+*Chủ đề:* Thiết lập 3 thế giới độc lập; phơi bày tâm lý, vết thương cốt tử và gieo mầm thân thế trước khi sóng gió ập xuống.
+
+| Chương | Tên Chương | POV | Phân Loại | Địa Bàn | Diễn Biến & Xung Đột Trọng Tâm | Nguồn Engine KT2 Chuẩn Xác |
+| :---: | :--- | :---: | :---: | :--- | :--- | :--- |
+| **01** | *Rượu Nếp Giang Tân* | **Tiêu Phùng** | Core Plot | Giang Tân Thôn | Đời sống bãi sậy; Tiêu Phùng chôm rượu nếp đến tiệm rèn Điềm Tửu Thúc đổi đầu bịt sắt cho đoản côn; Thu Di (Bạch Thu Lâm) bắt đi kéo lưới, hàn đê; bộc lộ khẩu khí bắng nhắng và mặc cảm mồ côi ăn bám. | `Task 157: Subtask 133`<br>`Task Arc 00: Subtask 1` |
+| **02** | *Chiến Thuyền Tỷ Võ* | **Tĩnh Xuyên** | Core Plot | Thanh Loa Đảo | Anh Cô (Dương Anh) vân du trở về, mang theo nghĩa tử Dương Thiết Tâm; Lâu Nhất Quan, Quý Thúc Ban bất phục; đại hội tỷ võ trên 3 tầng khoang thuyền chiến; Thiết Tâm đăng quang Tân Bang chủ; Diệp Mẫu và kỷ luật gia đình. | `Task 1: Subtask 1`<br>(*Anh Cô Trở Về*) |
+| **03** | *Hương Dược Bách Hoa* | **Hạ Nương** | Core Plot | Bách Hoa Cốc | Không gian thanh tịnh nữ phái Thúy Yên; Hạ Nương phân loại thảo mộc Điểm Thương Sơn dưới góc nhìn y lý thực chứng giải phẫu; Tân Chưởng môn Doãn Hàm Yên lo kinh tài môn phái; Tiền Chưởng môn Lệ Thu Thủy u buồn trở về. | `Task 12: Subtask 85`<br>(*La Bàn Định Bảo — Phần 1*) |
+| **04** | *Kỳ Trân Mê* | **Tiêu Phùng** | **Living Lore** | Tiền trang Ba Lăng | **Trầm tích Giang hồ & Gieo mầm Thân thế:** Tiêu Phùng đến tiền trang Tạ Hiền, tình cờ phát hiện bức thư cũ của Bạch Cương gửi Trâu Đức Khoái; Thu Di tiết lộ cha chàng là đệ tử **Ma Y Cốc** đã mất tích ở Hán Thủy Cổ Độ 17 năm trước. | `Task 157: Subtask 313`<br>(*Kỳ Trân Mê*) |
+| **05** | *Đêm Mưa Vỡ Đê* | **Tiêu Phùng** | Core Plot | Đê Ba Lăng | Bão lớn Động Đình Hồ dâng nước lũ; Tiêu Phùng xả thân dầm mưa vác đá hộ đê cứu dân chài bãi sậy; phát hiện thi thể một trinh sát lạ mặt mang mật thư tẩm độc. | `Task Arc 00: Subtask 2–4`<br>(*Hộ Đê Ba Lăng*) |
+| **06** | *Người Mất Tích* | **Tiêu Phùng** | **Road & Mystery** | Bến sông Động Đình | **Kỳ án Truy sát:** Bạch Cương trên đường về mang tin quan trọng về thân thế Tiêu Phùng thì bị truy sát, đội tiếp ứng nghĩa quân tử trận; Tiêu Phùng chạm trán thích khách ngoại bang tướng mạo quái dị. | `Task 157: Subtask 321–322`<br>(*Người Mất Tích*) |
+
+---
+
+## HỒI THỨ HAI: MÁU LỬA BA LĂNG (Chương 07 đến Chương 12)
+*Chủ đề:* Cơn lốc chính trị triều đình và họa sát thân bảo vật đồng loạt đổ ập xuống các địa bàn.
+
+| Chương | Tên Chương | POV | Phân Loại | Địa Bàn | Diễn Biến & Xung Đột Trọng Tâm | Nguồn Engine KT2 Chuẩn Xác |
+| :---: | :--- | :---: | :---: | :--- | :--- | :--- |
+| **07** | *Ám Toán Trong Đêm* | **Tĩnh Xuyên** | Core Plot | Hành Dinh Thanh Loa | Thích khách tập kích hụt Lâu Nhất Quan; kẻ thích khách chịu tra tấn vu cáo Cầu Chỉ Thủy thông đồng Thiên Nhẫn; Lâu Nhất Quan đòi chém; Thiết Tâm vào ngục thăm Cầu lão, nhìn thấu uẩn khúc ly gián. | `Task 1: Subtask 2`<br>(*Thông Địch Phản Bang*) |
+| **08** | *La Bàn Định Bảo* | **Hạ Nương** | Core Plot | Tứ Đại Hoa Viên | Lệ Thu Thủy cùng Ma Y Thần Tướng dùng la bàn đo đạc Tứ Hoa Viên; Hạ Nương dùng y lý bóc mẽ phong thủy; đụng độ bầy sói đói tại Thu Hoa Viên; tượng Chu Tước góc đông nam rạn nứt cấu trúc. | `Task 12: Subtask 85–86`<br>(*La Bàn Định Bảo — Phần 2*) |
+| **09** | *Huyết Chiến Miếu Cổ* | **Tiêu Phùng** | Core Plot | Miếu Thần Ba Lăng | Hắc y nhân tập kích miếu cổ Ba Lăng hòng cướp Vô Danh Mật Tịch; Tiêu Phùng vung đoản côn gỗ nghiến cùng nghĩa quân tử chiến giữ bí tịch; nhận ra võ công đối phương mang hơi hướng Tây Hạ. | `Task Arc 00: Subtask 5–8`<br>(*Bảo Vệ Mật Tịch*) |
+| **10** | *Hình Thiên Lĩnh Huyết Lộ*| **Tĩnh Xuyên** | Core Plot | Hình Thiên Lĩnh | Tĩnh Xuyên cùng kỵ binh thiết giáp phá vây giải cứu Tuyên phủ sứ Hàn Thác Trụ đang bị sát thủ Ngũ Độc bao vây; đối mặt với sự tàn khốc của độc trùng và thuật dịch dung. | `Task 1: Subtask 3–4`<br>(*Sát Cơ Trùng Trùng*) |
+| **11** | *Tuyệt Bích Kỳ Hoa* | **Hạ Nương** | **Mystery Lore** | Điểm Thương Sơn | **Kỳ án Y đạo & Dã Luyện:** Hạ Nương lên vách đá Điểm Thương hái thuốc; phát hiện chuyến xe bí mật áp tải thảo dược kịch độc **Mị Mị Hương** của Ngũ Độc Giáo; khám nghiệm phát hiện kỳ độc phong tỏa kinh mạch. | `Task 4: Subtask 31 & 34`<br>`Task 5: Subtask 44 & 47` |
+| **12** | *Bầu Rượu Biệt Ly* | **Tiêu Phùng** | **Road Vignette** | Bến Cỏ Lau Ba Lăng | **Khoảng lặng Xuất Sơn:** Sau trận giữ mật tịch, Bạch Thu Lâm trao thư tiến cử Tiêu Phùng sang Cái Bang Yến Tử Ổ; Điềm Tửu Thúc tặng bầu rượu nếp tiễn chân; chàng thiếu niên bãi sậy lần đầu bước ra đại giang hồ. | `Task 0: Subtask 130`<br>`Task 157: Subtask 133` |
+
+---
+
+## HỒI THỨ BA: GIAO THOA ĐẠI CỤC (Chương 13 đến Chương 18)
+*Chủ đề:* Thảm kịch thử thách nhân tính; những đường dây ngầm nối liền các nhân vật vào vận mệnh chung.
+
+| Chương | Tên Chương | POV | Phân Loại | Địa Bàn | Diễn Biến & Xung Đột Trọng Tâm | Nguồn Engine KT2 Chuẩn Xác |
+| :---: | :--- | :---: | :---: | :--- | :--- | :--- |
+| **13** | *Huyết Quang Tai* | **Hạ Nương** | Core Climax | Bách Hoa Trận | Du Long Giác phát lộ; hơn 30 sư muội bị thảm sát, hơn 100 người bị thương; trạm dã chiến đẫm máu; bức tường vô cảm sụp đổ; Ma Y Thần Tướng trao lại tàn đồ trước khi biệt tích. | `Task 12: Subtask 88–92`<br>(*Huyết Quang Tai*) |
+| **14** | *Tứ Diện Sở Ca* | **Tĩnh Xuyên** | Core Climax | Bến Mãnh Chủy | Thủy quân triều đình thoái vị vây hãm Thanh Loa; đại chiến giữ bến thuyền; Thiết Tâm bí mật thả Cầu Chỉ Thủy sang Cái Bang giải oan và viết thư cầu viện Thạch Hiên Viên. | `Task 1: Subtask 6–8`<br>(*Tứ Diện Sở Ca*) |
+| **15** | *Yến Tử Ổ Khách Lạ* | **Tiêu Phùng** | Core Plot | Tổng Đàn Cái Bang | Tiêu Phùng đến Yến Tử Ổ đúng dịp tế lễ Mộ Anh Hùng; gặp Cầu Chỉ Thủy; chuyển thư giải oan cho Thạch Hiên Viên; Thạch bang chủ lập tức phái 3 phân đà Cái Bang tiến sát Động Đình Hồ. | `Task 2: Subtask 9–13`<br>(*Ý Ngoại Trùng Phùng*) |
+| **16** | *Bạch Sơn Thạch Trường* | **Tiêu Phùng** | **Military Lore** | Xưởng Đá Bạch Sơn | **Quân Doanh dã sử & Tử sĩ Ảnh Xã:** Tiêu Phùng cùng La Phong, Củng Thiếu Trăn thâm nhập Trích Thủy Động; phát hiện thi thể thợ săn và toán Võ sĩ Kim quốc tinh nhuệ; khám phá căn cứ bí mật của tử sĩ **Ảnh Xã**. | `Task 2: Subtask 14–20`<br>(*Bạch Sơn Thạch Trường*) |
+| **17** | *Dạ Yến Vọng Tuyết* | **Hạ Nương** | Core Plot | Vọng Tuyết Lâu | Doãn Hàm Yên mở dạ yến chiêu thương tái thiết Thúy Yên; trừng trị bọn dâm tặc toan làm xằng bậy; Hạ Nương nhận Phụng Hoàng Lệnh hộ tống La Tuyết sang Đại Lý và truy tìm nguồn gốc độc dược Tây Bắc. | `Task 12: Subtask 93–95`<br>(*Giai Nhân Gặp Nạn*) |
+| **18** | *Phong Vân Hội Tụ* | **ĐA POV** | Convergence | Tam Giác Động Đình | **Đại Kết Cục Quyển 1:** Tiêu Phùng bái nhập Cái Bang với tư cách đệ tử tạp vụ bãi sậy; Tĩnh Xuyên nhận mật lệnh mang thân phận gián điệp **Mộc Nhất Lâu** thâm nhập Ngũ Độc; Hạ Nương rời bến Điền Trì. Vòng xoáy Du Long Giác chính thức mở màn. | `Task 5: Mộc Nhất Lâu`<br>`Task 2, Task 12` |

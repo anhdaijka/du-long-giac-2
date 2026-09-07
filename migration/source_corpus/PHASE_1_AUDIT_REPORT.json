@@ -1,0 +1,20 @@
+{
+  "total_tasks": 465,
+  "total_subs": 657,
+  "category_distribution": {
+    "Nhiệm vụ chính tuyến": 450,
+    "Nhiệm vụ phó bản": 3,
+    "Nhiệm vụ quân doanh": 12
+  },
+  "missing_referenced_subs_count": 1,
+  "missing_referenced_subs": [
+    {
+      "task_id": 288,
+      "task_name": "Trừng Phạt",
+      "sub_id": 463,
+      "sub_name": "Trừng Phạt"
+    }
+  ],
+  "orphan_subs_count": 0,
+  "orphan_subs": []
+}
