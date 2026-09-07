@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased — Source adaptation pipeline
+
+- Added external narrative source ingestion and provenance rules.
+- Added game quest/database novelization and branching-narrative migration playbooks.
+- Added migration templates for source inventory/maps, story graphs, branch matrices, adaptation contracts, and migration reports.
+- Added gated source-inspection, reconstruction, adaptation-proposal, and approved-canon migration prompts.
+- Added a synthetic wuxia-style quest database with worked reconstruction/adaptation artifacts.
+- Added a manual agent eval to verify new runtimes preserve source/adaptation/canon boundaries.
+- Updated onboarding and `AGENTS.md` so external-source projects route through reconstruction and author approval before Story Skills promotion.
+
 ## 1.4.0 — Optional stack readiness
 
 - Added optional capability detection.
