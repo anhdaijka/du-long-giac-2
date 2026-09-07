@@ -1,0 +1,6 @@
+task_id,title,prerequisite,start_npc,condition,objective,outcome,next_task,repeatable
+T100,Burned Station,,N01,level>=20,Inspect the burned courier station,set FLAG_STATION_SEEN,T110|T120,false
+T110,Captain's Route,T100,N02,choice=LIEN,Collect 5 broken courier seals,set ROUTE_LIEN;set FLAG_RIDER_SEEN_BY_LIEN,T130,false
+T120,Scholar's Route,T100,N03,choice=VU,Recover the missing dispatch ledger,set ROUTE_VU;set FLAG_LEDGER_FOUND,T130,false
+T130,Stone Gate Pass,T110|T120,N04,route_complete,Reach Stone Gate Pass and report,set FLAG_PASS_REACHED,T140,false
+T140,The Third Seal,T130,N04,FLAG_PASS_REACHED,Confront the masked courier,set FLAG_MASKED_COURIER_FLED,,false
