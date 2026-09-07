@@ -75,6 +75,24 @@ npm run story:next
 
 Open the repository root as both your Antigravity workspace and Obsidian vault.
 
+## Source Adaptation Pipeline
+
+Novel OS can also start from an existing narrative corpus: game quest/task databases, branching dialogue, wiki/lore exports, legacy story bibles or mixed narrative source files.
+
+Do **not** treat raw source rows as automatic Story Skills canon. Use this order:
+
+`source corpus -> inventory -> reconstruction -> story/branch graph -> adaptation contract -> author approval -> selective Story Skills canon -> outline/draft`
+
+Start with [`docs/playbooks/external-source-ingestion.md`](docs/playbooks/external-source-ingestion.md). For game data, continue with [`game-database-novelization.md`](docs/playbooks/game-database-novelization.md); for mutually exclusive routes/flags, use [`branching-narrative-migration.md`](docs/playbooks/branching-narrative-migration.md).
+
+Core rule:
+
+> **Preserve the source before interpreting it. Reconstruct before adapting. Adapt before canonizing.**
+
+Reusable migration templates live under [`templates/migration/`](templates/migration/), prompts under [`prompts/migration/`](prompts/migration/), and a synthetic quest-database walkthrough under [`examples/migrations/game-quest-database/`](examples/migrations/game-quest-database/).
+
+This layer is intentionally process-first rather than a custom ETL/parser framework. Common source formats can be inspected by the agent; automate parsers only when repeated real projects justify them.
+
 ## Author UX
 
 Open [`Home.md`](Home.md) in Obsidian. With Dataview enabled it becomes a lightweight dashboard for chapters, characters, promises, questions and editorial work. Queries are folder-scoped to avoid unnecessary full-vault scans. See [`docs/AUTHOR_UX.md`](docs/AUTHOR_UX.md).
@@ -82,6 +100,8 @@ Open [`Home.md`](Home.md) in Obsidian. With Dataview enabled it becomes a lightw
 ## Agent roles
 
 Reusable bounded role prompts live under [`prompts/`](prompts/README.md): Director, Planner, Writer, Reviewer and Researcher. These complement rather than replace `.agents/rules/`.
+
+Migration prompts provide a separate gated sequence for external source ingestion and canon promotion.
 
 ## Optional Better Writing skill
 
@@ -119,6 +139,8 @@ npm run lifecycle:test
 
 The automated fixture covers `plan -> draft -> review -> canon diff -> author approval -> state update -> final validation` across three chapters, including a promise payoff and question resolution. Creative/model compliance is tested separately with [`evals/phase3-antigravity.md`](evals/phase3-antigravity.md). See [`docs/PHASE3_LIFECYCLE.md`](docs/PHASE3_LIFECYCLE.md).
 
+The migration example under `examples/migrations/` is a documentation fixture for source reconstruction/adaptation behavior; it is not a parser regression test.
+
 ## Performance / stress testing
 
 Novel OS does not claim to control Gemini latency or guarantee prose quality. The deterministic/core layer is measurable and runs locally after bootstrap. See [`docs/PERFORMANCE.md`](docs/PERFORMANCE.md).
@@ -145,6 +167,8 @@ npm run story -- build . --format docx
 npm run story -- build . --format epub
 ```
 
+Story Skills also provides `story import` for existing prose manuscripts. That is distinct from Novel OS's Source Adaptation Pipeline: `story import` reverse-engineers manuscript chapters, while the adaptation pipeline reconstructs structured/non-prose narrative sources before selective canon promotion.
+
 ## Repository layers
 
 After story initialization, Story Skills owns its standard schema paths such as:
@@ -167,10 +191,12 @@ author/       creative constitution, style, boundaries, decision log
 research/     non-canonical evidence and source notes
 rejected/     rejected ideas that agents must not resurrect
 revisions/    review/revision working material
-templates/    chapter/review/canon/research templates
+templates/    chapter/review/canon/research/migration templates
 exports/      disposable generated outputs
 .agents/      Antigravity rules + locally installed skills
 ```
+
+An adaptation project may additionally keep raw/extracted source evidence in an author-approved non-canonical working area such as `migration/`. Do not copy the whole source database into Story Skills.
 
 Do not create a second character database, lore database, or continuity database in another app.
 
@@ -185,6 +211,8 @@ Run the deterministic story checks before making narrative recommendations.
 Do not draft prose yet.
 Tell me the current project state, unresolved setup work, and the safest next authoring action.
 ```
+
+For an external game/database source, use [`prompts/migration/inspect-source.md`](prompts/migration/inspect-source.md) before Story Skills canonization.
 
 ## Upstream updates
 
@@ -207,11 +235,12 @@ Do not auto-upgrade during active drafting. Review changes, update `config/upstr
 1. [`AGENTS.md`](AGENTS.md)
 2. [`docs/GETTING_STARTED.md`](docs/GETTING_STARTED.md)
 3. [`docs/WORKFLOW.md`](docs/WORKFLOW.md)
-4. [`docs/PHASE3_LIFECYCLE.md`](docs/PHASE3_LIFECYCLE.md)
-5. [`docs/STACK.md`](docs/STACK.md)
-6. [`docs/OBSIDIAN.md`](docs/OBSIDIAN.md)
-7. [`docs/ANTIGRAVITY.md`](docs/ANTIGRAVITY.md)
-8. [`docs/PRIVACY.md`](docs/PRIVACY.md)
+4. [`docs/playbooks/README.md`](docs/playbooks/README.md) — when adapting an existing source corpus
+5. [`docs/PHASE3_LIFECYCLE.md`](docs/PHASE3_LIFECYCLE.md)
+6. [`docs/STACK.md`](docs/STACK.md)
+7. [`docs/OBSIDIAN.md`](docs/OBSIDIAN.md)
+8. [`docs/ANTIGRAVITY.md`](docs/ANTIGRAVITY.md)
+9. [`docs/PRIVACY.md`](docs/PRIVACY.md)
 
 ## Philosophy
 
