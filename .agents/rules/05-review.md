@@ -12,8 +12,10 @@ Mandatory Quality Binding:
   - **Gate B: Blind Reader & Narrative Propulsion**
     - Pacing check: Ensure scenes develop organically within their assigned scope without premature climaxes or rushing past emotional beats.
     - Dramatic propulsion, human pressure, scene arc (clear beginning, mounting tension, Kim Dung atmospheric ending).
-  - **Gate C: Character Agency, Martial Progression & Living Texture**
-    - Martial Tier Check: Cross-check combat techniques, inner force, and weapons against the character's designated tier in `characters/<character>.md`. Flag any premature unlocks or power creep disconnected from character growth.
+  - **Gate C: Character Agency, Martial Progression, Injury Continuity & Living Texture**
+    - Martial Tier & Damage Tax Check: Cross-check combat techniques, inner force, and weapons against the character's designated tier in `worldbuilding/martial/martial_dynamics.md`. Flag any premature unlocks, power creep, or Tier 0 defeating Tier 2 without severe damage tax (L2/L3 injuries).
+    - Injury Continuity & Zero Instant Healing: Cross-check against `worldbuilding/medical/injuries_ledger.md`. Ensure wounds from prior chapters realistically hinder movement, breathing, and psychology. Flag any instant healing or magically vanished wounds.
+    - Anti-Caricature / Non-Binary Antagonist: Verify that opposing forces (Kim soldiers, rival factions, officials) possess realistic military discipline, ethnic loyalty, or relatable human motives instead of cartoonish, one-dimensional evil.
     - Living Plebeian Texture: Check integration of everyday life (local trades, prices, dialect, ambient dialogue from the corpus). Ensure the scene is not a dry "quest turn-in".
     - Authentic character voice and interpersonal dynamics.
   - **Gate D: Voice, Rhetoric & Naturalness**
@@ -24,7 +26,7 @@ Mandatory Quality Binding:
   - **Gate E: Word Count & Structural Substantiality**
     - Golden Word Count Band: **4,000 – 4,800 words** (Hard floor: 3,500 words; Soft ceiling: 5,200 words).
     - If words < 3,500: Flag as defect (insufficient scene texture or rushed beats).
-    - If words > 5,200: Flag for chapter split into two distinct, well-paced chapters.
+    - If words > 5,200: **Tự động áp dụng Cơ chế Tách Phân Đoạn Linh Hoạt (Fluid Splitting a/b/c - Quyết định D-019)**: Tách thành các chương `chapter_XXa.md`, `chapter_XXb.md` với dramatic hook kết nối tự nhiên thay vì nén ép cơ học làm hỏng văn phong. Quyển 1 hoàn toàn linh hoạt số lượng chương.
     - Ensure zero empty filler; every paragraph must advance character, texture, or conflict.
 
 Every actionable issue should include:

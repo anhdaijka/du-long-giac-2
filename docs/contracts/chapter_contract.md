@@ -23,10 +23,13 @@ provenance: "KT2 Engine Task [ID] (Subtask [ID]: [Tên Subtask Gốc]) | File XM
 
 ---
 
-## 2. QUY CHUẨN DUNG LƯỢNG VÀNG (WORD COUNT BAND)
-- **Mục tiêu chuẩn mực (Target Band)**: **4.000 – 4.800 từ**.
-- **Sàn cứng (Hard Floor)**: **3.500 từ** (Bản thảo dưới 3.500 từ sẽ bị đánh trượt tại Gate E vì thiếu chiều sâu giác quan/chi tiết dân sinh).
-- **Trần mềm (Soft Ceiling)**: **5.200 từ** (Nếu một phân cảnh tự nhiên vượt quá 5.200 từ, bắt buộc phải tách thành 2 chương độc lập có điểm ngắt dramatic hook tự nhiên).
+## 2. QUY CHUẨN DUNG LƯỢNG VÀNG & CƠ CHẾ TÁCH CHƯƠNG LINH HOẠT (A/B/C)
+- **Mục tiêu chuẩn mực (Target Band)**: **4.000 – 4.800 từ** (hoặc dải thực dụng 3.500 – 5.000 từ).
+- **Sàn cứng (Hard Floor)**: **3.500 từ** (Dưới 3.500 từ sẽ bị cảnh báo nếu thiếu chiều sâu giác quan/chi tiết sinh hoạt).
+- **Cơ chế Tách Phân Đoạn Linh Hoạt (Fluid Splitting a/b/c - Quyết định D-019)**:
+  - Quyển 1 hoàn toàn mở rộng linh hoạt quy mô (Fluid Expansion), không bị đóng khung cứng nhắc ở 18 chương.
+  - Khi một bản thảo sau khi chấp bút draft tự nhiên phát triển sâu sắc về võ học, chính trị sa trường hoặc tâm lý nhân vật mà vượt quá trần dung lượng (> 5.000 từ): **TUYỆT ĐỐI KHÔNG CẮT XÉN CƠ HỌC LÀM TỔN THƯƠNG ĐỘ GIÀU CỦA VĂN PHONG**.
+  - Thay vào đó, **tự động phân tách thành các chương phụ a/b/c** (ví dụ: `chapter_02a.md`, `chapter_02b.md`), tìm điểm ngắt kịch tính (dramatic hook / cliffhanger) tự nhiên để nối giữa hai phần, đảm bảo mỗi chương đều đạt trọn vẹn chất lượng và độ dày dặn từ ngữ.
 
 ---
 

@@ -27,9 +27,10 @@ weapon: "Bát Hàn Du Long Thương / Kiếm thuật Côn Lôn"
 ## 2. XUẤT THÂN & MỐI QUAN HỆ CHÍNH TRỊ (CANON PROVENANCE)
 * **Võ lâm xuất thân:** Từng bái sư học nghệ dưới trướng **Kiếm Hoàng Sở Khi Thiên** (Côn Lôn phái). Là đồng môn thân thiết thời hàn vi với **Lý Thăng Dương** (người sau này trở thành Đường chủ Tây Hạ Nhất Phẩm Đường).
 * **Ơn nghĩa với Triệu Nhữ Nhu:** Sau khi xuất sư về Lâm An, vì không quyền không thế nên bị đối xử lạnh nhạt, suýt chết đói thì được đại thần Triệu Nhữ Nhu cưu mang, cho cơm ăn áo mặc và ít bạc nuôi gia đình.
-* **Biến cố về đảo và Tỷ võ đoạt vị trên khoang thuyền (`Task 1: Subtask 1: Anh Cô Trở Về`):**
+* **Biến cố về đảo và Tỷ võ đoạt vị trên khoang thuyền (`Chương 02a & 02b — Task 1: Subtask 1: Anh Cô Trở Về` — ĐÃ CANON HÓA):**
   * Dương Thiết Tâm lần đầu tiên đặt chân lên Thanh Loa Đảo cùng nghĩa mẫu Dương Anh. Khi Dương Anh tuyên bố nhường chức bang chủ cho chàng, các cựu thần như Quý Thúc Ban và Lâu Nhất Quan kịch liệt dị nghị vì chàng là người mới đến.
-  * Dương Anh quyết định tổ chức tỷ võ ngay trên khoang thuyền chiến của bang chủ. Dương Thiết Tâm dùng thương pháp xuất quỷ nhập thần đánh bại các đối thủ, khiến các bô lão tâm phục khẩu phục. Dương Anh chính thức công bố chàng là Tân Bang chủ rồi lui về Hồ Tâm Cô Đảo tịnh dưỡng.
+  * Dương Anh quyết định tổ chức tỷ võ ngay trên khoang thuyền chiến của bang chủ. Dương Thiết Tâm dùng thương pháp xuất quỷ nhập thần đánh bại tam đại dũng tướng cựu trào (Tần Công Xích, Lê Việt, Lưu Mặc); sau đó khảo nghiệm và chỉ điểm thế thương cho tiểu tướng Tĩnh Xuyên, khiến toàn đảo tâm phục khẩu phục. Dương Anh chính thức trao đồng bài Bang chủ rồi lui về Hồ Tâm Cô Đảo tịnh dưỡng.
+
 * **Nhiệm vụ đầu tiên sau khi nhận chức (`Task 1: Subtask 2–8`):**
   * Vừa lên ngôi đã đối mặt biến cố Cầu Chỉ Thủy bị vu oan ám sát Lâu Nhất Quan (`Subtask 2`).
   * Đón nhận mật chiếu Hiếu Tông từ Hàn Thác Trụ, dốc toàn lực che chở Hàn đại nhân vượt trùng vây và phá giải thế bao vây Thanh Loa Đảo.

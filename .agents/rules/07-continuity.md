@@ -9,11 +9,11 @@ Preferred deterministic checks:
 4. interpret findings
 5. propose the smallest repair
 
-Durable State Update Protocol (Sau khi một chương được Author duyệt):
-- Cập nhật đồ vật bền vững (durable items, tiền bạc, vũ khí).
-- Cập nhật thương tật thể chất & biến chuyển tâm lý.
-- Cập nhật sổ cái tri thức nhân vật (`characters/<character>.md` - Epistemic Ledger).
-- Cập nhật mốc thời gian và vị trí vật lý trên bản đồ.
+Mandatory 4-Step State Persistence Protocol (Sau khi Tác giả duyệt Canon Diff):
+1. **Nhân vật Chính & Trụ cột**: Cập nhật `characters/<protagonist>.md` và các tệp `characters/anchors/*.md` liên quan (tâm lý, thương tật, sổ cái tri thức Epistemic Ledger).
+2. **Nhân vật Phụ trợ (Tier B & C)**: Bổ sung nhân vật mới hoặc cập nhật trạng thái/vết thương vào `characters/supporting_cast.md`.
+3. **Khí tài & Không gian**: Ghi nhận tình trạng vật lý, người giữ, vị trí vào `worldbuilding/artifacts/artifacts_ledger.md` và mốc thời gian vào `plot/timeline.md`.
+4. **Hạt giống cốt truyện & Giao ca**: Cập nhật tiến độ `plot/promises_tracker.md` (Planted, Advanced, Paid off) và ghi nhận vào `author/session-state.md`.
 
 Multi-POV Continuity & Synchronization Mandates:
 1. **Spatiotemporal Distance & Information Propagation Delay**:

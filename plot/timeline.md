@@ -31,13 +31,22 @@ Bách Hoa Cốc (Dược phòng Điền Trì) ───────► Lệ Thu 
 ## 1. MỐC THỜI GIAN CHI TIẾT (CHRONOLOGY)
 
 ### Giai đoạn I: Đầu thu năm 1191 (Khởi điểm độc lập)
-* **Ngày 01–05 tháng 8:**
-  * *Giang Tân Thôn:* Tiêu Phùng lêu lổng ở bãi sậy; trộm rượu nếp đổi lấy đầu bịt sắt cho đoản côn tại lò rèn Điềm Tửu Thúc (`Task 157: Subtask 133`).
-  * *Thanh Loa Đảo:* Lão Bang chủ Dương Anh sau nhiều năm vân du giang hồ trở về đảo, mang theo nghĩa tử Dương Thiết Tâm (`Task 1: Subtask 1`).
-  * *Bách Hoa Cốc:* Hạ Nương sao chế dược liệu tại Điền Trì; Tiền Chưởng môn Lệ Thu Thủy cầm la bàn cổ xuất cốc đi tìm dấu tích Du Long Giác (`Task 12: Subtask 85`).
-* **Ngày 06–10 tháng 8:**
-  * *Thanh Loa Đảo:* Các bô lão Lâu Nhất Quan, Quý Thúc Ban phản đối Thiết Tâm kế vị. Đại hội tỷ võ diễn ra trên 3 tầng khoang thuyền chiến của bang chủ. Dương Thiết Tâm thắng áp đảo bằng thương pháp Côn Lôn - Dương Gia. Dương Anh chính thức công bố Tân Bang chủ rồi lui về **Hồ Tâm Cô Đảo** (`Task 1: Subtask 1`). Tĩnh Xuyên tận mắt chứng kiến.
-  * *Giang Tân Thôn:* Bão lớn Động Đình Hồ, nước sông dâng cao uy hiếp đê Ba Lăng. Bạch Thu Lâm (Thu Di) chỉ huy hộ đê (`Task Arc 00: Subtask 1–4`). Tiêu Phùng dầm mưa vác đá cứu dân chài.
+* **Ngày 01–10 tháng 8:**
+  * *Bách Hoa Cốc:* Hạ Nương sao chế dược liệu tại Điền Trì; Tiền Chưởng môn Lệ Thu Thủy chuẩn bị xuất cốc tìm dấu tích Du Long Giác (`Task 12: Subtask 85`).
+  * *Thanh Loa Đảo:* Lão Bang chủ Dương Anh bí mật dẫn nghĩa tử Dương Thiết Tâm trở về vùng hồ Động Đình sau mười năm bặt vô âm tín (`Task 1: Subtask 1`).
+* **Ngày 12–15 tháng 8:**
+  * *Giang Tân Thôn (1191-08-12):* Tiêu Phùng lêu lổng ở bãi sậy đầm lau; trộm rượu nếp đổi lấy đầu bịt sắt cho đoản côn tại lò rèn Điềm Tửu Thúc (`Task 157: Subtask 133` — **Chương 01 đã canon hóa**).
+  * *Giang Tân Thôn (1191-08-13 – 15):* Bão lớn Động Đình Hồ, nước sông dâng cao uy hiếp đê Ba Lăng. Bạch Thu Lâm (Thu Di) chỉ huy hộ đê (`Task Arc 00: Subtask 1–4`). Tiêu Phùng dầm mưa vác đá cứu dân chài.
+* **Ngày 16 tháng 8:**
+  * *Thanh Loa Đảo (1191-08-16):* Canh năm nghe ốc lệnh nghênh giá Lão Bang chủ Anh Cô. Giờ Thìn lên soái hạm ba tầng khoang; Lão Bang chủ công bố nhường ngôi cho Dương Thiết Tâm. Lâu Nhất Quan kịch liệt phản đối; Anh Cô hạ lệnh mở cuộc đại tỷ võ trên 3 tầng khoang chiến thuyền. Dương Thiết Tâm dùng thương pháp Côn Lôn - Dương Gia đả bại Tam đại dũng tướng cựu trào (Tần Công Xích, Lê Việt, Lưu Mặc) và khảo nghiệm thế thương của Tĩnh Xuyên. Dương Thiết Tâm chính thức đăng quang Tân Bang chủ; Lão Bang chủ Anh Cô cởi bỏ chiến bào, lui về **Hồ Tâm Cô Đảo** tịnh dưỡng (`Task 1: Subtask 1` — **Chương 02a & 02b đã canon hóa**).
+* **Ngày 17 tháng 8:**
+  * *Bách Hoa Cốc (1191-08-17):* Hạ Nương sao chế dược liệu tại Dược phòng Điền Trì, cấp cứu nắn khớp cho tiểu đệ tử Tiểu Đào. Nghe chuông ngọc triệu tập lên Hậu đình Xuân Mai Nhã Trúc; chứng kiến Tiền Chưởng môn Lệ Thu Thủy tiều tụy trở về cùng dị nhân phong thủy Ma Y Thần Tướng. Hạ Nương cầm la bàn đồng 24 phương vị đo đạc đối soát 4 hoa viên (Xuân, Hạ, Thu, Đông); phát hiện dấu vết bầy sói xám Điểm Thương đào bới. Ráp bản đồ chữ thập xác định ngọc báu Du Long Giác nằm tại tâm cấm địa Bách Hoa Trận. Ma Y Thần Tướng sấm truyền "Huyết quang tai"; Lệ Thu Thủy rút kiếm hạ lệnh phá trận đào ngọc (`Task 12: Subtask 85` — **Chương 03 đã canon hóa**).
+* **Ngày 18 tháng 8:**
+  * *Ba Lăng Huyện (1191-08-18 — Sáng):* Tiêu Phùng thử đoản côn bọc sắt ở lò rèn Điềm Tửu Thúc; mang rượu nóng ra lều thợ săn độc hành Thẩm Thiết Thạch; nghe Hứa Sĩ Vĩ kể bi kịch 3 chưởng Âm kình Tương Dương; Tiêu Phùng vào hang Hắc Hùng Quật dùng rượu cay bột ớt hạ gục gấu đen, đoạt chuỗi Hắc Trân Châu di vật mẫu thân Thẩm gia trao lại cho Thẩm Hà Diệp (`Task 157: Subtask 309, 317–319` — **Chương 04a đã canon hóa**).
+  * *Ba Lăng Huyện (1191-08-18 — Trưa & Chiều):* Thu Di giao việc sang tiệm Bất Động Tiên Sinh; Tiêu Phùng sang tiền trang Tạ Hiền dọn kho đá vôi; phát hiện chìa khóa bạch đồng, tráp da trâu, chiếc khánh bạc khắc tên mình và bức thư máu Ma Y Cốc gửi Trâu Đức Khoái năm 1174. Tiêu Phùng đối chất thủ khố Trâu Đức Khoái; Trâu dẫn chàng về trướng sảnh trần tình trước Bạch Thu Lâm; Thu Di giải mã thân thế cha Tiêu Lăng Phong; hiệu giác rú vang cấp báo biến cố Tuyệt Vấn Pha; Bạch Thu Lâm cùng Tiêu Phùng phát binh xuất trận giải cứu ân nhân Bạch Cương (`Task 157: Subtask 313` — **Chương 04b đã canon hóa**).
+  * *Ba Lăng Huyện (1191-08-18 — Hoàng hôn & Đêm bão):* Tiêu Phùng cùng Bạch Thu Lâm phi kỵ đến Tuyệt Vấn Pha giải vây Bạch Cương; huyết chiến với toán thích khách Ô Sơ Sa của giặc Kim; Tiêu Phùng dùng mưu bẩn thụt gậy bãi sậy phá kình của Bách hộ Ngột Thất Hãn, trả giá đắt bằng chấn thương rạn xương sườn số 6 mạn sườn trái (L3) và nôn máu bầm; Bạch Thu Lâm chém chết Ngột Thất Hãn; Tiêu Phùng trùng phùng Bạch Cương sau 17 năm, tiếp nhận bài Sấm Thi 4 câu của Tiêu Lăng Phong; kỵ binh cấp báo giặc Kim dùng kế giương đông kích tây: phản đồ cắt gân chân Cơ quan đại sư Giới Sơn Tông, mở toang chín van xả lũ đê Ba Lăng trong đêm giông bão Động Đình (`Task 157: Subtask 320–323` — **Chương 05 đã canon hóa**).
+* **Ngày 19 tháng 8:**
+  * *Ba Lăng Huyện (1191-08-19 — Rạng sáng & Bình minh):* Tiêu Phùng dầm mưa bão, vượt bùn lầy hộ đê; cùng nghĩa quân thâm nhập thạch thất ngầm, giải cứu Cơ quan đại sư Giới Sơn Tông bị cắt đứt gân hai gót chân; áp dụng "Nguyên Lý Then Khóa Cơ Hoành" và đòn bẩy bẻ khớp then chữ Đinh hạ ba cỗ Cơ Quan Nhân Thô; cùng Bạch Thu Lâm gạt đòn bẩy đồng đen đóng chín khối cự thạch van xả lũ, cứu toàn huyện Ba Lăng khỏi cảnh đại hồng thủy; bình minh rạng rỡ, nhân dân mừng vui thoát nạn (`Task 157: Subtask 320, 312` & `Task Arc 00` — **Chương 06 đã canon hóa**).
 
 ### Giai đoạn II: Giữa thu năm 1191 (Sóng gió bùng phát)
 * **Ngày 15–20 tháng 8:**

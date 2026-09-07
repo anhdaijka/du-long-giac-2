@@ -25,9 +25,10 @@ weapon: "Băng Tâm Song Kiếm / Ám khí"
 ---
 
 ## 2. NGUỒN CƠN TAI HỌA & NGUỒN GỐC NGUYÊN BẢN (CANON PROVENANCE)
-* **Mối tình dang dở và hành trình tìm ngọc (`Task 12: Subtask 85: La Bàn Định Bảo`):**
-  * Từng có thâm tình sâu nặng với một nam tử giang hồ nhưng môn quy và thế sự ngăn trở, sau một trận mưa lớn hai người chia lìa lạc mất nhau.
-  * Trong hành trình tìm kiếm manh mối của người xưa, bà sử dụng la bàn cổ định vị và khai quật được bảo vật **Du Long Giác** tại một vùng đất bí mật mang về Bách Hoa Trận.
+* **Mối tình dang dở và hành trình tìm ngọc (`Chương 03: Hương Dược Bách Hoa — Task 12: Subtask 85: La Bàn Định Bảo` — ĐÃ CANON HÓA):**
+  - Từng có thâm tình sâu nặng với một nam tử giang hồ nhưng môn quy và thế sự ngăn trở, sau một trận mưa lớn mười lăm năm trước ở bến đò Giang Nam hai người chia lìa bặt vô âm tín.
+  - Sau hai năm lặn lội khắp chân trời góc bể tìm kiếm vô vọng, ngày 1191-08-17 bà trở về Thúy Yên Môn cùng dị nhân phong thủy Ma Y Thần Tướng. Nhờ Hạ Nương dùng la bàn đồng thau đo đạc bốn hoa viên Xuân - Hạ - Thu - Đông, bà xác định được Du Long Giác đang bị phong ấn tại trung tâm Bách Hoa Trận.
+  - Bất chấp lời cảnh báo của Ma Y Thần Tướng về thảm họa "huyết quang tai" đẫm máu và sự can ngăn của Tân Chưởng môn Doãn Hàm Yên, Lệ Thu Thủy vẫn rút song kiếm, hạ lệnh dẫn đệ tử tiến vào tiêu diệt bầy sói xám để phá cửa Bách Hoa Trận đào ngọc.
 * **Bất ngờ trước sự tàn bạo của kẻ thù (`Task 12: Subtask 86–88`):**
   * Ngay khi ngọc bích vừa về đến cốc, khí ngọc xông thiên đã kinh động đến các mạng lưới tình báo hắc ám.
   * Hàng trăm sát thủ bí ẩn võ công dị thường đồng loạt tập kích. Lệ Thu Thủy thừa nhận bà không ngờ kẻ địch lại kéo đến nhanh và khốc liệt đến thế (`Subtask 87: Họa Khởi Tiêu Tường`).

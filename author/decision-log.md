@@ -133,4 +133,44 @@
   - Cập nhật `plot/volume_01_deck.md` sang cơ chế Dynamic Baseline & Fluid Expansion.
 - **Trạng thái**: Đã phê duyệt và đồng bộ hóa toàn diện.
 
+---
+
+### [2026-09-07] — QUYẾT ĐỊNH D-019: CƠ CHẾ TÁCH PHÂN ĐOẠN LINH HOẠT (FLUID SPLITTING A/B/C)
+- **Chỉ thị Tác giả**: 
+  - Quyển 1 hoàn toàn linh hoạt về số lượng chương, không bị trói buộc cứng nhắc ở 18 chương.
+  - Khi một bản thảo sau khi chấp bút draft tự nhiên phát triển sâu sắc về độ dày giác quan, bối cảnh quân lữ, tâm lý nhân vật hay kịch chiến sa trường mà vượt quá trần dung lượng (> 5.000 từ): **CẤM TUYỆT ĐỐI việc cắt gọt, nén ép cơ học làm nghèo nàn văn phong**.
+  - Thay vào đó, tự động kích hoạt **Cơ chế Tách Phân Đoạn Linh Hoạt (a/b/c)**: chia bản thảo thành các chương liên hoàn nối tiếp (`chapter_XXa.md`, `chapter_XXb.md`), thiết lập dramatic hook kết nối tự nhiên giữa các phần.
+- **Thực thi ngay**:
+  - Tách Chương 02 (*Chiến Thuyền Tỷ Võ* - 7.246 từ) thành hai chương hoàn chỉnh:
+    - **Chương 02a**: *Chiến Thuyền Tỷ Võ — Thượng: Phong Ba Soái Hạm* (`chapters/chapter_02a.md`)
+    - **Chương 02b**: *Chiến Thuyền Tỷ Võ — Hạ: Ngọn Thương Định Ngôi* (`chapters/chapter_02b.md`)
+  - Cập nhật đồng bộ vào `docs/contracts/chapter_contract.md`, `docs/WORKFLOW.md` và `.agents/rules/05-review.md`.
+- **Trạng thái**: Đã phê duyệt chính thức và áp dụng ngay lập tức.
+
+---
+
+### [2026-09-07] — QUYẾT ĐỊNH D-020: BỊT KÍN ĐIỂM MÙ CONTINUITY & THIẾT LẬP SỔ CÁI BỀN VỮNG 3 TRỤC
+- **Chỉ thị Tác giả**: 
+  - Đặt câu hỏi chất vấn mang tính cốt tử về hệ thống: *"Sau khi duyệt diff xong thì các nhân vật mới xuất hiện (không có trong anchors) các nhân vật tier A/B/C có được thêm mới vào hay không? Nếu ko có đảm bảo tính character continuity hay ko nếu sau này có xuất hiện? Workflow có bỏ lỡ những gì khác hay không"*.
+  - Phê duyệt toàn diện giải pháp bịt kín 4 điểm mù kiến trúc của workflow.
+- **Thực thi ngay lập tức**:
+  1. *Khởi tạo Danh bạ Nhân vật Phụ trợ*: Tạo `characters/supporting_cast.md` quản lý tập trung toàn bộ nhân vật Tier B (phụ trợ định kỳ) và Tier C (dân sinh bến đò) từ Chương 01 đến 03 (Lão Trương, Diệp Mẫu, Quý Thúc Ban, Tam đại dũng tướng, Ma Y Thần Tướng, Đan Bích Tú, Tiểu Đào).
+  2. *Khởi tạo Sổ cái Khí tài Bền vững*: Tạo `worldbuilding/artifacts/artifacts_ledger.md` theo dõi vị trí, người giữ và tình trạng hao mòn/vết tích của binh khí và bảo vật (Bát Hàn Thiết Thương, Đoản côn bịt sắt, La bàn đồng cổ, Đồng bài Bang chủ, Du Long Giác).
+  3. *Khởi tạo Bảng Theo dõi Lời hứa Cốt truyện*: Tạo `plot/promises_tracker.md` quản lý các hạt giống (Planted, Advanced, Paid off, Open mysteries).
+  4. *Chuẩn hóa Giao thức Commit State 4 bước*: Cập nhật vào `docs/WORKFLOW.md` và `.agents/rules/07-continuity.md` quy trình 4 bước bắt buộc khi Tác giả duyệt Canon Diff (Cổng Dừng 3).
+- **Trạng thái**: Đã phê duyệt chính thức và thiết lập đồng bộ toàn hệ thống.
+
+---
+
+### [2026-09-07] — QUYẾT ĐỊNH D-021: PHONG CÁCH VÕ HỌC TIÊU PHÙNG (TINH QUÁI, TIỂU NHÂN THỰC DỤNG KIỂU CHÂU TINH TRÌ)
+- **Chỉ thị Tác giả**: 
+  - Cho đến khi Tiêu Phùng chính thức gia nhập Cái Bang và học võ công đàng hoàng (cuối Quyển 1 / Quyển 2), phong cách võ công và chiến đấu của chàng phải luôn giữ vững nét tinh quái, mưu mẹo, thậm chí mang phong cách "tiểu nhân thực dụng" (chuẩn phong cách phim Châu Tinh Trì / Stephen Chow / Mo Lei Tau).
+- **Hệ thống hóa nguyên tắc chiến đấu bãi sậy**:
+  1. *Không câu nệ lễ giáo đại hiệp rởm*: Tuyệt đối không đứng đọ chưởng cương mãnh khi chưa có nội lực. Đánh không lại thì tìm mẹo, luồn lách hạ bàn, ném cát bụi đá dăm mù mắt địch, rắc vôi bột, đạp hạ bộ, đập mắt cá chân, thụt đoản côn vào chấn thủy, giẫm mu bàn chân, cắn xé cấu véo khi cận chiến sống còn.
+  2. *Đòn tâm lý và khẩu khí bắng nhắng (Mouth-fighting)*: Vừa đánh vừa nói xàm, châm biếm, giả vờ sợ hãi van xin hoặc chỉ tay hô hoán để làm đối thủ phân tâm rồi bất ngờ xuất thủ hiểm hóc.
+  3. *Vỏ bọc tiểu nhân - Trái tim đại nghĩa*: Mọi thủ đoạn "bẩn" đều xuất phát từ bản năng sinh tồn thảo dã cùng đinh bến sông để bảo vệ đồng đội, cứu vớt kẻ yếu và diệt trừ kẻ ác; tạo sự tương phản cực đại (Stark Contrast) với phong phạm chính quy của Tĩnh Xuyên và y lý thanh tao của Hạ Nương.
+  4. *Đòn bẩy nghệ thuật cho Character Arc*: Sự tương phản giữa lối đánh "tiểu nhân đường phố" ở Quyển 1 với khoảnh khắc chàng ngộ ra và đánh ra chiêu thức danh môn chí cương chí chính *Kháng Long Hữu Hối* ở Quyển 4 sẽ tạo nên sức nặng lay động tột cùng cho tác phẩm.
+- **Trạng thái**: Đã phê duyệt chính thức và áp dụng ngay vào Chapter Brief & Bản thảo Chương 05 trở đi.
+
+
 

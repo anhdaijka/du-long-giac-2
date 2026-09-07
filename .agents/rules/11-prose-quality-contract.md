@@ -69,3 +69,30 @@ Mỗi chương kết thúc theo một trong hai cách thức cổ điển:
 
 - **Sàn chuẩn**: Tối thiểu 3,500 từ cho mỗi chương đầy đủ.
 - 3,500 từ là yêu cầu về độ dung dưỡng đời sống (Living Wulin: cơm áo gạo tiền, lòng kiêu hãnh nghề nghiệp, sự nhàn tản, tình làng nghĩa xóm, hơi ấm nhân gian, dư vị sau xung đột) chứ **KHÔNG PHẢI LÀ LÝ DO ĐỂ BƠM TỪ RỖNG TUẾCH (NO PADDING)**.
+
+---
+
+## 7. Kỷ Luật Phân Phổ Thể Loại & Chống Ép Nhịp Game (Genre Discipline & Anti-Quest-Rush Standards)
+
+Tuyệt đối chống lại tư duy "chạy theo quest game" (nghe NPC nói một câu -> tin ngay -> hoàn thành nhiệm vụ). Mọi phân đoạn mang yếu tố thể loại chuyên biệt BẮT BUỘC phải thực thi đúng chuẩn mực nghệ thuật:
+
+### 7.1. Phân đoạn Trinh thám / Phá án / Pháp y sa trường (Military Procedural & Detective Fairness)
+- **Cấm nhảy cóc kết luận (Detective Leap Ban)**: CẤM TUYỆT ĐỐI để nhân vật chính hoặc phụ nghe khẩu cung của nghi phạm hay lời thanh minh của người bị tình nghi rồi "xác tín ngay", "hiểu ra ngay chân tướng" chỉ sau vài câu đối thoại.
+- **Chuỗi vật chứng vật lý bắt buộc (Physical Evidence Chain)**: Mọi kết luận điều tra phải được thiết lập qua chuỗi suy luận dựa trên vật chứng cụ thể:
+  1. *Khám nghiệm hiện trường*: Điểm đột nhập, chốt gác bị vượt qua thế nào, dấu vết bùn cát, hướng gió, độ ẩm, vệt máu xối theo nước mưa, rèm trướng bị rách theo góc độ nào.
+  2. *Pháp y & Khí giới*: Vết thương nạn nhân (nông hay sâu, góc chém từ trên xuống hay xốc từ dưới lên thể hiện đao pháp thích khách cận chiến hay đao pháp kỵ binh), đặc trưng vũ khí (đoản đao, xước đao, ký hiệu lò rèn), tính chất độc dược tẩm trên lưỡi đao (hàn độc, độc thực vật thảo ô, tốc độ phát tác).
+  3. *Tâm lý học hành vi & Mâu thuẫn khẩu cung*: Phát hiện dấu hiệu "bị mớm cung" (lời khai trơn tru bất thường, cố tình nhấn mạnh đúng những từ ngữ đổ tội), cơ chế bẫy ly gián (*cui bono* - ai là kẻ thực sự hưởng lợi nếu người bị hại hoặc người bị tình nghi mất mạng).
+- **Nhãn quan sa trường hạn tri**: Tĩnh Xuyên hay các nhân vật điều tra trong bối cảnh quân sự phải nhìn vụ án qua lăng kính kỷ luật đồn trú, bố phòng chốt chặn, chứ không được suy diễn như thám tử hiện đại.
+
+### 7.2. Phân đoạn Kinh dị / Rùng rợn / Căng thẳng (Suspense & Dread Build-up)
+- **Cấm hù dọa giật gân (Anti-Cheap Jump Scare & Cliché Ban)**: Cấm dùng các cụm từ đao to búa lớn như *"sát khí ngập trời"*, *"rợn tóc gáy"*, *"lạnh sống lưng"*, *"kinh hoàng tột độ"*.
+- **Xây dựng không khí bất an qua giác quan hạn tri (Sensory Dread)**:
+  - Tận dụng không gian vật lý cô lập: thạch ngục ngầm ẩm mốc, vách đá rỉ nước hồ mặn chát, bóng tối ngột ngạt chỉ có ánh đuốc leo lét, tiếng kim loại rỉ sét cọ xát vào đá hộc.
+  - Sự biến mất bất thường của âm thanh quen thuộc: tiếng dế đêm im bặt, lính canh chốt đổi gác trễ năm phút, tiếng bước chân nhẹ hơn bình thường trên mặt ván cầu tàu.
+  - Căng thẳng tâm lý nội bộ (Psychological Paranoia): Nỗi sợ hãi sâu sắc nhất không phải quái vật, mà là sự nghi kỵ giữa những đồng đội từng vào sinh ra tử. Ánh mắt liếc nhìn nhau, bàn tay đặt hờ lên đốc kiếm khi nghe tiếng chuông báo biến.
+
+### 7.3. Phân đoạn Diễn biến Tình cảm / Tri kỷ (Low-burn Romance & Intimacy Subtext)
+- **Cấm tình cảm công nghiệp (Anti-Insta-Love)**: Không có tình yêu sét đánh hay sự gần gũi vội vã. Cảm xúc phải được nung nấu qua thời gian, sự đồng cảnh ngộ, ranh giới đạo lý và bổn phận.
+- **Show Don't Tell về khoảng cách và cử chỉ vi mô**: Thể hiện sự rung động qua ánh mắt ngập ngừng, sự im lặng giữa hai câu nói, hành động chăm sóc cụ thể (pha bát thuốc, rịt vết thương, nhường manh áo tơi chống lạnh), bàn tay khựng lại nửa chừng trước khi chạm vào áo đối phương.
+- **Rào cản nhân vật**: Cảm xúc luôn bị kìm nén bởi vết thương quá khứ, thân phận cách biệt (thiếu chủ nghĩa quân vs thiếu nữ mồ côi di dân), và gánh nặng sinh tử của thời cuộc.
+

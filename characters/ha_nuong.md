@@ -27,7 +27,10 @@ weapon: "Băng Tâm Kiếm & Băng Phách Ngân Châm"
 ## 2. XUẤT THÂN & THÂN THẾ LỊCH SỬ (BACKSTORY & PROVENANCE)
 * **Gia thế:** Con gái của một thầy thuốc bốc thuốc cứu người nổi danh tại thành Đại Lý. Từ nhỏ đã theo cha lên dãy Điểm Thương Sơn hái thuốc, thuộc làu dược tính của hàng ngàn loại thảo mộc Nam Cương.
 * **Bái nhập môn phái:** Năm 12 tuổi, được đưa vào **Thúy Yên Môn** tại Bách Hoa Cốc (bên bờ Điền Trì), theo học y lý và dược thuật phòng thân dưới trướng các vị trưởng lão và tân Chưởng môn **Doãn Hàm Yên**.
-* **Bước ngoặt định mệnh:** Đang yên bình chăm sóc dược thảo thì tai họa ập xuống khi Tiền Chưởng môn **Lệ Thu Thủy** mang ngọc bích **Du Long Giác** trở về Bách Hoa Trận, kéo theo toán sát thủ bí ẩn huyết tẩy sơn môn.
+* **Bước ngoặt định mệnh (`Chương 03: Hương Dược Bách Hoa — Task 12: Subtask 85: La Bàn Định Bảo` — ĐÃ CANON HÓA):**
+  - Ngày 1191-08-17, nàng đang sao chế dược liệu tại Dược phòng Điền Trì và xử lý cấp cứu ca rắn cắn nắn khớp cho tiểu đệ tử Tiểu Đào thì Tiền Chưởng môn Lệ Thu Thủy đột ngột trở về sau thời gian dài biệt tích cùng dị nhân phong thủy Ma Y Thần Tướng.
+  - Hạ Nương nhận lệnh từ Tân Chưởng môn Doãn Hàm Yên mang la bàn đồng cổ đo đạc phương vị tại bốn hoa viên Xuân, Hạ, Thu, Đông; phát hiện dấu chân bầy sói xám đào bới quanh đình Hạ Hoa Viên; ráp bản đồ chữ thập xác định tâm điểm ngọc khí rơi trúng trung tâm Bách Hoa Trận.
+  - Tận mắt chứng kiến sự u uất mù quáng của Lệ Thu Thủy và nghe lời sấm truyền rợn người của Ma Y Thần Tướng về thảm họa "huyết quang tai" sắp đổ ập xuống sơn môn khi khối ngọc Du Long Giác bị đào lên.
 
 ---
 

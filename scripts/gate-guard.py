@@ -26,30 +26,40 @@ def check_gates():
     errors = []
 
     for cf in chapter_files:
-        match = re.match(r"chapter_(\d+)\.md", cf)
+        match = re.match(r"chapter_(\d+[a-z]?)\.md", cf)
         if not match:
             continue
-        ch_num = match.group(1)
-        brief_file = os.path.join(BRIEFS_DIR, f"chapter_{ch_num}_brief.md")
-        review_file = os.path.join(REVIEWS_DIR, f"chapter_{ch_num}_review.md")
+        ch_str = match.group(1)
+        base_num = re.match(r"(\d+)", ch_str).group(1)
 
-        print(f"=== CHECKING GATES FOR CHAPTER {ch_num} ===")
+        # Brief can be chapter_02a_brief.md or chapter_02_brief.md
+        brief_file = os.path.join(BRIEFS_DIR, f"chapter_{ch_str}_brief.md")
+        if not os.path.exists(brief_file):
+            brief_file = os.path.join(BRIEFS_DIR, f"chapter_{base_num}_brief.md")
+
+        # Review can be chapter_02a_review.md or chapter_02_review.md
+        review_file = os.path.join(REVIEWS_DIR, f"chapter_{ch_str}_review.md")
+        if not os.path.exists(review_file):
+            review_file = os.path.join(REVIEWS_DIR, f"chapter_{base_num}_review.md")
+
+        print(f"=== CHECKING GATES FOR CHAPTER {ch_str} ===")
+
 
         # Check 1: Brief existence
         if not os.path.exists(brief_file):
-            errors.append(f"[GATE-FAIL] Chapter {ch_num} has manuscript ({cf}) but MISSING Chapter Brief ({brief_file})!")
+            errors.append(f"[GATE-FAIL] Chapter {ch_str} has manuscript ({cf}) but MISSING Chapter Brief ({brief_file})!")
         else:
             # Check if brief is approved
             with open(brief_file, "r", encoding="utf-8") as bf:
                 brief_content = bf.read()
                 if "- [x] plan approved" not in brief_content and "[x] plan approved" not in brief_content:
-                    errors.append(f"[GATE-FAIL] Chapter {ch_num} brief exists but is NOT APPROVED by Author! (Missing '- [x] plan approved')")
+                    errors.append(f"[GATE-FAIL] Chapter {ch_str} brief exists but is NOT APPROVED by Author! (Missing '- [x] plan approved')")
                 else:
                     print(f"  [PASS] Hard Stop 1 (Brief approved): {brief_file}")
 
         # Check 2: Review report existence
         if not os.path.exists(review_file):
-            errors.append(f"[GATE-FAIL] Chapter {ch_num} has manuscript ({cf}) but MISSING Review Report ({review_file})!")
+            errors.append(f"[GATE-FAIL] Chapter {ch_str} has manuscript ({cf}) but MISSING Review Report ({review_file})!")
         else:
             print(f"  [PASS] Hard Stop 2 (Review report exists): {review_file}")
 

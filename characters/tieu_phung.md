@@ -44,9 +44,10 @@ weapon: "Đoản côn gỗ nghiến bọc sắt -> Đả Cẩu Bổng (Hàng Lon
 
 ## 4. HỆ THỐNG VÕ HỌC & TIẾN TRÌNH TRƯỞNG THÀNH 5 QUYỂN (5-STAGE MARTIAL ARC)
 *Nguyên tắc Kim Dung tối cao: Tuyệt đối không đột phá thần tốc; võ công là ẩn dụ của sự va đập số phận và độ dày nhân cách.*
-* **Quyển 1: Dã Hồ Côn Pháp & Túy Bộ Bãi Sậy (17 tuổi — Sinh tồn thảo dã)**
-  * *Binh khí:* Đoản côn gỗ nghiến bọc sắt của Điềm Tửu Thúc (`Task 157: Subtask 133`).
-  * *Phong cách:* Đòn đánh thô sơ, lắt léo, dựa vào phản xạ bến nước: né tránh như cá chép, gạt chân, chọc mắt cá, ném cát vào mắt đối thủ; hoàn toàn chưa có nội lực căn bản.
+* **Quyển 1: Dã Hồ Côn Pháp & Túy Bộ Bãi Sậy — Phong cách "Tiểu nhân Châu Tinh Trì" (17 tuổi — Sinh tồn thảo dã, Decision D-021)**
+  * *Binh khí:* Đoản côn gỗ nghiến bọc sắt của Điềm Tửu Thúc (`Task 157: Subtask 133`). (Khâu sắt non bị mẻ dăm sâu sau trận Tuyệt Vấn Pha Ch.05).
+  * *Thương tật thực thể hiện tại:* Rạn xương sườn số 6 mạn sườn trái (INJ-TP-002, L3) do trúng cùi chỏ sắt của bách hộ Kim quốc Ngột Thất Hãn; nẹp tre cố định 4–6 tuần.
+  * *Phong cách chiến đấu:* Hoàn toàn chưa có nội lực chính thống; áp dụng triệt để lối đánh tinh quái, mưu mẹo, thực dụng đến mức "tiểu nhân" theo chuẩn phim Châu Tinh Trì (Stephen Chow / Mo Lei Tau). Không câu nệ phong phạm đại hiệp: ném cát sỏi mù mắt, rắc vôi bột, thụt đoản côn vào chấn thủy, đạp hạ bộ, đập mắt cá chân, giả vờ chịu thua lạy lục rồi phản đòn bất ngờ, vừa đánh vừa nói xàm gây phân tâm; vỏ bọc tiểu nhân bến sông nhưng bên trong là trái tim trượng nghĩa liều chết bảo vệ đồng đội.
   * *Tâm thế Cái Bang:* Nhập môn Yến Tử Ổ với tư cách đệ tử tạp vụ (`Task 2`), làm việc vặt, chuyển thư, canh chuồng ngựa. Thạch Hiên Viên chỉ nhìn thấy mầm mống trượng nghĩa, tuyệt đối CHƯA truyền dạy võ công cao cấp.
 * **Quyển 2: Cái Bang Lục Hợp Bổng & Đả Cẩu Trận Pháp (18 tuổi — Kỷ luật bang hội)**
   * *Binh khí:* Trúc bổng đệ tử hai túi.
@@ -64,6 +65,7 @@ weapon: "Đoản côn gỗ nghiến bọc sắt -> Đả Cẩu Bổng (Hàng Lon
 
 ## 5. MẠNG LƯỚI QUAN HỆ (RELATIONSHIPS)
 * **Bạch Thu Lâm (Thu Di):** Tôn kính tuyệt đối như mẹ ruột. Dù mồm mép hay cằn nhằn chuyện bị sai vặt quét sân gánh nước, nhưng hễ ai đụng đến một cọng tóc của Thu Di thì Tiêu Phùng sẵn sàng liều mạng đâm chém.
+* **Bạch Cương:** Ân nhân cận vệ mười bảy năm trước. Trùng phùng tại Tuyệt Vấn Pha (Chương 05), trao chiếc khánh bạc và cùng giải mã trục cuốn sấm thi.
 * **Điềm Tửu Thúc:** "Bạn nhậu già" kiêm ân sư không chính thức. Tiêu Phùng thường trộm rượu của thôn trưởng đem biếu Điềm Tửu Thúc để đổi lấy vài chiêu gậy bọc sắt.
 * **Tĩnh Xuyên (Đồng minh song hành):** Oan gia khắc khẩu. Tiêu Phùng coi tính kỷ luật sa trường lạnh lùng của Tĩnh Xuyên là "cứng nhắc như khúc gỗ gõ mõ"; nhưng trong sinh tử lại là người hiểu rõ gánh nặng đại cuộc của Tĩnh Xuyên nhất.
 * **Hạ Nương (Đồng minh song hành):** Luôn tìm cách chọc ghẹo thói giữ kẽ đoan trang của nàng tiểu thư y quán Thúy Yên, nhưng lại là người bảo bọc nàng trước những cạm bẫy tanh máu chốn giang hồ.
@@ -72,14 +74,27 @@ weapon: "Đoản côn gỗ nghiến bọc sắt -> Đả Cẩu Bổng (Hàng Lon
 ---
 
 ## 6. SỔ CÁI TRẠNG THÁI HIỆN HÀNH (DURABLE STATE LEDGER)
-* **Mốc thời gian hiện hành:** 1191-08-12 (Sau Chương 01: *Rượu Nếp Giang Tân*).
-* **Binh khí & Trang bị:** Đoản côn gỗ nghiến bãi sậy (dài 2 thước rưỡi, hai đầu bịt ống sắt non đóng 4 đinh tán đồng dẹt do Điềm Tửu Thúc rèn). Quần áo vải thô xắn gối lấm lem bùn non.
-* **Vật phẩm mang theo:** Giỏ tre đựng 1 con cá trê đen béo mầm câu ở bến đò.
+* **Mốc thời gian hiện hành:** 1191-08-19 (Rạng sáng & Bình minh — Sau Chương 06).
+* **Thể trạng thực tế:** Đang mang chấn thương L3 (INJ-TP-002: rạn xương sườn số 6 mạn sườn trái, nẹp tre cố định) kèm chấn thương L1 (INJ-TP-003: chuột rút cơ hoành và cơ bụng); miệng còn vị tanh máu bầm cũ; hơi thở nông khò khè khi vận động.
+* **Binh khí & Trang bị:** 
+  - Đoản côn gỗ nghiến bãi sậy (đầu bịt sắt non mẻ thêm một rãnh sâu do dùng bẩy bật then chốt sắt khớp gối Cơ Quan Nhân Thô; thân gỗ bám phù sa bùn đỏ Động Đình khô cứng).
+  - Đôi Lữ Hành Ngoa bằng da dê núi của Thẩm Hà Diệp (ngấm bùn lụt đỏ quạch, trầy da mép ngoài nhưng đường chỉ may thủ công vẫn chắc nịch).
+  - Quần áo vải thô ướt sũng bùn lầy, dải vải gai nẹp ngực ngấm nước lạnh và vệt máu loãng.
+* **Vật phẩm mang theo:**
+  - Chiếc khánh bạc sơ sinh khắc chìm: "Tiêu Phùng (簫逢) — Thuần Hi nguyên niên", mặt sau chạm Bát Quái ôm ngọn lửa (giắt trong ngực áo sát tim).
+  - Chìa khóa bạch đồng hoa văn mây xoắn mắt quạ (dắt bên đai lưng).
+  - Bầu rượu nếp đầm lau (được Điềm Tửu Thúc rót đầy rượu nếp mới mừng công hộ đê).
 * **Tri thức đã biết (Known Facts):**
-  - Cha là bậc trượng phu anh hùng, mất tích ở Hán Thủy Cổ Độ 17 năm trước vì một biến cố động trời.
-  - Ngọc Du Long Giác tái xuất giang hồ ở Bách Hoa Cốc - Thúy Yên Môn; sát thủ Ảnh Xã đang kéo về phương Nam.
-  - Lệnh của Thu Di: Sáng mai (1191-08-13) mang cá biếu Long Ngũ Thái Gia; sau đó đến tiệm tạp hóa Bất Động Tiên Sinh lấy vải bạt gia cố trại.
-* **Ranh giới cấm kỵ (Forbidden Unknowns):** Tuyệt đối CHƯA BIẾT thân thế Ma Y Cốc; chưa biết về Tĩnh Xuyên hay Hạ Nương.
+  - Cha ruột là **Tiêu Lăng Phong**, đại đệ tử Ma Y Cốc, người đã hy sinh thân mình cản hậu cứu chàng thoát chết tại Hán Thủy Cổ Độ năm Giáp Ngọ (1174).
+  - Đã trùng phùng Bạch Cương tại Tuyệt Vấn Pha; xác nhận thân thế qua chiếc khánh bạc.
+  - Tiếp nhận bốn câu Sấm Thi cổ của Tiêu Lăng Phong: *"Thái bạch dạ quan tinh / Trọc khí quy tam thanh / Thiên mã chấn trường dực / Long Cung trích tử anh"*.
+  - Nhận diện võ công Âm kình thuộc về lực lượng mật thám Ô Sơ Sa của Đại Kim; tiêu diệt Bách hộ Ngột Thất Hãn tại Tuyệt Vấn Pha.
+  - Biết tin tình báo khẩn cấp: Giặc Kim dùng trận Tuyệt Vấn Pha làm mồi nhử để nội gián ám hại Cơ quan đại sư Giới Sơn Tông, cắt đứt gân chân và mở toang chín van xả lũ gây vỡ đê Ba Lăng trong đêm giông bão.
+  - **Tri thức mới (Ch.06):** Nắm vững "Nguyên Lý Then Khóa Cơ Hoành" và điểm yếu then chốt chữ Đinh ở khớp máy cơ quan; trực tiếp giải cứu Giới Sơn Tông; cùng nghĩa quân đóng chín cửa cự thạch thạch thất cứu toàn bộ huyện Ba Lăng; thấu hiểu chiều sâu của hai chữ "Quốc nạn".
+* **Ranh giới cấm kỵ (Forbidden Unknowns):**
+  - Tuyệt đối CHƯA BIẾT chi tiết thảm án Ma Y Cốc tại sao xảy ra và ai chủ mưu diệt môn.
+  - CHƯA BIẾT mối liên hệ giữa ngọc Du Long Giác và Ma Y Cốc.
+  - Hoàn toàn CHƯA BIẾT tin tức gì về Tĩnh Xuyên (ở Thanh Loa Đảo) hay Hạ Nương (ở Bách Hoa Cốc cách xa 3.000 dặm).
 
 
 ---

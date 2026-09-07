@@ -46,8 +46,9 @@ weapon: "Bát Hàn Thiết Thương -> Bôn Lôi Toàn Long Thương"
 ## 4. HỆ THỐNG VÕ HỌC & TIẾN TRÌNH TRƯỞNG THÀNH 5 QUYỂN (5-STAGE MARTIAL ARC)
 *Nguyên tắc Kim Dung tối cao: Sự tiến hóa từ "Cỗ máy quân lệnh mù quáng" đến "Người gánh vác chữ Nghĩa dẹp yên can qua".*
 * **Quyển 1: Dương Gia Kỷ Luật Thương & Thế Trận Phòng Ngự (18 tuổi — Kỷ luật thị vệ)**
-  * *Binh khí:* Ngọn Bát Hàn Thiết Thương nẹp da đầu hổ của phụ thân Tĩnh Hùng.
-  * *Phong cách:* Kế thừa thương pháp trận địa từ phụ thân và lão bang chủ Dương Anh. Đòn thương chắc chắn, cương liệt, lấy đâm thẳng, gạt ngang, giữ vững đội hình làm căn bản; tuyệt đối tuân phục quân lệnh, không màng danh lợi cá nhân.
+  * *Binh khí:* Ngọn Bát Hàn Thiết Thương nẹp da đầu hổ của phụ thân Tĩnh Hùng (trên khâu sắt cán thương có vết chạm nhỏ li ti do mũi thương của Dương Thiết Tâm điểm trúng khi khảo nghiệm truyền thừa tại Chương 02b).
+  * *Phong cách:* Kế thừa thương pháp trận địa từ phụ thân và lão bang chủ Dương Anh. Đòn thương chắc chắn, cương liệt, lấy đâm thẳng, gạt ngang, giữ vững đội hình làm căn bản; tuyệt đối tuân phục quân lệnh, không màng danh lợi cá nhân. Sau màn so thương với Tân Bang chủ Dương Thiết Tâm (`Chương 02b`), chàng được chỉ điểm kiếm ý nhu hòa Côn Lôn, bắt đầu nhận thức được nhược điểm cứng nhắc của thương trận sa trường khi đối đầu với cao thủ linh hoạt.
+
 * **Quyển 2: Bôn Lôi Toàn Long Thương & Đoản Đao Gián Điệp (19 tuổi — Rạn nứt lý tưởng)**
   * *Binh khí:* Bôn Lôi Thiết Thương & Song đoản đao gián điệp Mộc Nhất Lâu.
   * *Phong cách:* Trận chiến Tứ Diện Sở Ca và phá vây Đại Mãnh Chủy tôi luyện thương thế tấn công như sấm sét. Khi nhận mật lệnh trà trộn vào Ngũ Độc Giáo dưới thân phận Mộc Nhất Lâu (`Task 5`), chàng buộc phải giấu thương pháp Thiên Vương, dùng đoản đao thích khách; bắt đầu nếm trải sự rạn nứt giữa đạo đức và quân lệnh.

@@ -38,3 +38,14 @@
 
 ### Triều Đình & Cung Đình Lâm An
 * **[[characters/anchors/han_thac_tru\|Hàn Thác Trụ]]**: Tuyên phủ sứ triều Tống mang mật chiếu Hiếu Tông định đoạt vận mệnh vương triều, được nghĩa quân hộ tống đào thoát (`Task 1, Task 2`).
+
+---
+
+## 3. NHÂN VẬT PHỤ TRỢ & DÂN SINH (TIER B & TIER C)
+
+> Toàn bộ nhân vật phụ xuất hiện định kỳ theo phân đoạn và nhân vật dân sinh bến đò được quản lý tập trung tại sổ cái:  
+> 👉 **[[characters/supporting_cast|Danh Bạ Nhân Vật Phụ Trợ (Supporting Cast Directory)]]**
+
+- **Thanh Loa Đảo & Thiên Vương**: Diệp Mẫu (mẹ Tĩnh Xuyên), Quý Thúc Ban (Tổng quản), Tần Công Xích (Quỷ đầu đao), Lê Việt (Song giản), Lưu Mặc (Thiết côn).
+- **Bách Hoa Cốc & Thúy Yên**: Ma Y Thần Tướng (Kham Dư phong thủy), Đan Bích Tú (Chấp pháp trực cổng), Tiểu Đào (Dược đệ tử).
+- **Ba Lăng Huyện & Giang Tân**: Lão Trương (Dân chài bến đò), Trâu Đức Khoái (Người giữ kho).
