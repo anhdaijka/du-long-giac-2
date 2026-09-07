@@ -182,7 +182,7 @@ Nàng siết chặt hai bờ vai gầy nhưng cứng cỏi của Tiêu Phùng, g
 
 Thu Di buông tay ra, quay lưng về phía bàn thờ tổ phụ nghĩa quân, nơi có một ngọn đèn trường minh đang cháy leo lét:
 
-"Vừa rồi trinh sát từ phía Tây Nam báo về, ngọc Du Long Giác sau ba mươi năm bặt tăm đã xuất hiện trở lại ở Đại Lý Thúy Yên Môn. Sát thủ Ảnh Xã của Kim quốc và mật thám triều đình đang rầm rộ kéo về phía nam. Ba Lăng Huyện này sắp không còn là nơi thanh bình được nữa rồi."
+"Vừa rồi trinh sát từ phía Tây Nam báo về, ngọc Du Long Giác sau ba mươi năm bặt tăm đã xuất hiện trở lại ở Đại Lý Thúy Yên Môn. Mật thám Ô Sơ Sa của Kim quốc cùng cao thủ Thiên Nhẫn Giáo và mật thám triều đình đang rầm rộ kéo về phía nam. Ba Lăng Huyện này sắp không còn là nơi thanh bình được nữa rồi."
 
 Nàng quay lại nhìn thanh đoản côn bọc sắt non bên hông Tiêu Phùng, ánh mắt phức tạp:
 

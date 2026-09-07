@@ -169,7 +169,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 - Lần đầu tiên nghe thấy danh xưng hung ngọc "Du Long Giác" và thấy được tầm ảnh hưởng ghê gớm của nó lên toàn bộ cục diện chính trị giang sơn.
 
 ### POV character must NOT learn yet
-- Chưa biết danh tính kẻ thực sự đứng sau giật dây tên thích khách Tôn Báo (toán sát thủ Ảnh Xã và mật thám triều đình).
+- Chưa biết danh tính kẻ thực sự đứng sau giật dây tên thích khách Tôn Báo (toán mật thám giặc Kim Ô Sơ Sa và gian tế nội gián).
 - Chưa biết sự tồn tại của Tiêu Phùng tại Ba Lăng Huyện và mối liên hệ với bài sấm thi về Long Cung vừa được giải mã ở Tuyệt Vấn Pha (Chương 05 & 06).
 - Chưa biết mình sắp sửa phải nhận mật lệnh mang thân phận gián điệp Mộc Nhất Lâu bước vào lãnh địa Ngũ Độc Giáo.
 

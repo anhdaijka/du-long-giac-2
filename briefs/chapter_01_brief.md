@@ -71,7 +71,7 @@ Thiết lập nhân dạng, vết thương tâm lý và xuất phát điểm c�
 
 - Cha mình là bậc trượng phu anh hùng, không phải kẻ đào binh bại hoại gia môn.
 - Sự mất tích của cha liên quan đến đại cục giang sơn và bí mật lớn.
-- Ngọc Du Long Giác đã tái xuất ở Thúy Yên, thích khách và sát thủ Ảnh Xã đang đổ về phương Nam.
+- Ngọc Du Long Giác đã tái xuất ở Thúy Yên, mật thám Ô Sơ Sa và cao thủ Thiên Nhẫn Giáo đang đổ về phương Nam.
 
 ### POV character must NOT learn yet
 

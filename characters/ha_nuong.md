@@ -75,3 +75,28 @@ weapon: "Băng Tâm Kiếm & Băng Phách Ngân Châm"
 ## 6. ĐỐI CHIẾU NGUỒN GỐC NGUYÊN BẢN (KT2 ENGINE PROVENANCE)
 * **Task 12 (`Subtask 85–95`):** Cốt lõi biến cố *Huyết Quang Tai* tại Bách Hoa Trận, trực tiếp cứu chữa thương binh và khám nghiệm thi thể của hơn 30 đệ tử Thúy Yên bị hạ sát bởi thích khách bí ẩn tranh đoạt Du Long Giác.
 * **Task 7 (`Subtask 58`):** Nhận tin báo về sự xuất hiện của hung ngọc Du Long Giác và mối liên hệ giữa các thế lực hắc y nhân với Tây Nam võ lâm.
+
+---
+
+## 7. SỔ CÁI TRẠNG THÁI HIỆN HÀNH (DURABLE STATE LEDGER)
+* **Mốc thời gian hiện hành:** 1191-08-19 (Canh ba đến Canh tư rạng sáng — Sau Chương 08b).
+* **Thể trạng thực tế:** Thể lực tiêu hao tột độ; hai đầu gối bầm dập vì trượt đá; lồng ngực đau tức nhẹ do nín thở vận kình phóng châm; màng nhĩ hơi lùng bùng do tiếp xúc gần từ trường hung ngọc Du Long Giác; đôi tay vẫn giữ trọn sự vững vàng, chuẩn xác của thầy thuốc; không mang thương tật ngoại thương chí mạng.
+* **Binh khí & Trang bị:**
+  - Hòm thuốc da hươu đeo vai trái (chứa dao róc xương trích nọc cán bạc, kéo y khoa, bình sứ rượu hoàng liên bách bộ, 01 lọ Kim Sáng Dược còn lại, gạc lụa thô).
+  - Hộp trâm Băng Phách Ngân Châm giắt bên đai lưng: **Còn 07 mũi kim bạc** (đã phóng 5 mũi trong Chương 08b: 2 mũi điểm Khuyết Bồn/Uyển Cốt hạ Hồng Y, 3 mũi điểm Ủy Trung hạ Tử Y Đầu Mục).
+  - Áo choàng lông cáo trắng muốt viền chỉ bạc do Doãn Hàm Yên trao tặng (lấm lem bùn đất sỏi đá cấm địa và dính vệt máu giặc).
+* **Vị thế & Quan hệ nội bộ:**
+  - Được Tân Chưởng môn Doãn Hàm Yên tin cẩn tuyệt đối; là nhân chứng trực tiếp báo cáo sự thật về chiến trường tâm trận và sự xuất hiện của Tây Hạ Nhất Phẩm Đường.
+  - Được Lệ Thu Thủy hoàn toàn thừa nhận bản lĩnh thực chiến: từ nghi ngờ xem thường chuyển sang chấn động và dựa vào nàng để dìu về sảnh.
+  - Cùng Đan Bích Tú và các đệ tử chấp pháp gắn kết sâu sắc qua sinh tử sa trường.
+* **Tri thức & Manh mối nắm giữ:**
+  - Trực tiếp đối đầu và nhận diện binh khí Bát Giác Lang Nha Chùy nặng 40 cân cùng giáp vảy cá dẻo của lực lượng tinh anh Tây Hạ Nhất Phẩm Đường.
+  - Trực tiếp trải nghiệm từ trường bức xạ thiên thạch của khối hung ngọc Du Long Giác (huyết quang, lạnh buốt thấu xương, rối loạn nhịp tim).
+  - Nghe thấy Lệ Thu Thủy quỳ khóc gọi tên người xưa *"Lăng Phong"* trong sương đêm khi ôm khối ngọc (gieo hạt giống nhân duyên ngầm nối về Tiêu Lăng Phong theo Quyết định D-024).
+  - Tận mắt chứng kiến pháo hoa hiệu lệnh Yên Hỏa Đài phát nổ và tiếng chuông báo động toàn phái trước nguy cơ đại chiến giữ ngọc.
+* **Ranh giới cấm kỵ (Forbidden Unknowns):**
+  - Chưa biết kẻ chủ mưu tối cao đứng đầu chiến dịch Tây Nam của Tây Hạ Nhất Phẩm Đường.
+  - Chưa biết "Lăng Phong" chính là Tiêu Lăng Phong (Ma Y Cốc, cha Tiêu Phùng) ở Ba Lăng Huyện xa xôi.
+  - Chưa biết Bùi Dực Phi cùng kỵ mã Cáp Xá Thiên Vương Bang đang phi ngựa thần tốc tiếp cận Điểm Thương Sơn.
+
+

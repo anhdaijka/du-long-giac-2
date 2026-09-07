@@ -19,34 +19,41 @@
   - **Khắc chế Hào quang Vô đối & Quản lý Thương tật (Quyết định D-022)**: Ban hành `worldbuilding/medical/injuries_ledger.md` (chuẩn L1 – L5, Zero Instant Healing, Tier Gap Damage Tax).
   - **Cơ chế Đề xuất Võ học Linh hoạt (Emergent Martial Proposition)**: Ban hành `worldbuilding/martial/martial_dynamics.md`; tuyệt đối không đóng khung lộ trình thăng cấp cứng nhắc; Agent chủ động khảo sát điểm chạm võ học & đề xuất kèm cái giá sinh học/tâm lý tại Chapter Brief để Tác giả quyết định.
   - **Phản diện Phi Nhị-Nguyên**: Tích hợp nhân tính, kỷ luật sa trường và góc nhìn dân tộc vào phe đối địch.
-- **Hồi vừa hoàn thành**: **Chương 06: *Hộ Đê Cứu Nạn*** (`chapters/chapter_06.md`).
-  - Trạng thái: **ĐÃ HOÀN TẤT CANON HÓA 100% & COMMIT STATE THÀNH CÔNG** (Vượt trọn vẹn cả 3 Cổng Dừng Cứng: Brief $\rightarrow$ Draft & Review $\rightarrow$ Canon Diff & State Commit).
-  - Quy mô: **4.974 từ** (Đạt chuẩn 5 Cổng thẩm định SOLID, 0 lỗi linter `npm run lint:prose`, `npm run gate:check` PASS 100%).
-  - Tổng dung lượng tích lũy tác phẩm: **39.422 từ** (Vượt 8/18 chương theo kế hoạch Quyển 1).
-  - Sổ cái trạng thái đã cập nhật:
-    - [worldbuilding/medical/injuries_ledger.md](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/worldbuilding/medical/injuries_ledger.md) (kích hoạt `INJ-TP-003` L1 chuột rút cơ hoành; cập nhật `INJ-TP-002` L3 rạn xương sườn tuần 2/6; thêm `INJ-GST-001` L3 đứt gân gót chân Giới Sơn Tông).
-    - [worldbuilding/martial/martial_dynamics.md](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/worldbuilding/martial/martial_dynamics.md) (giữ vững Tier 0 cho Tiêu Phùng; bổ sung kinh nghiệm cơ quan học & mẹo then khóa cơ hoành dã chiến).
-    - [characters/tieu_phung.md](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/characters/tieu_phung.md) (mốc thời gian 19-08-1191 sáng, biến dạng đoản côn, giác ngộ về quốc nạn).
-    - [worldbuilding/artifacts/artifacts_ledger.md](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/worldbuilding/artifacts/artifacts_ledger.md) (đoản côn mẻ thêm rãnh sắt, bàn giao xâu chìa khóa cửu môn).
-    - [plot/promises_tracker.md](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/plot/promises_tracker.md) (đóng `TH-010` RESOLVED; mở `TH-011` sang Cái Bang Yến Tử Ổ).
-    - [plot/timeline.md](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/plot/timeline.md) (mốc ngày 19-08-1191 giải cứu Giới Sơn Tông và đóng cửa lũ đê Ba Lăng).
-  - POV: Tiêu Phùng (17 tuổi — Đê quai Ba Lăng & Thạch thất ngầm sông Động Đình).
+- **Hồi vừa hoàn thành**: **Chương 10: *Hình Thiên Lĩnh Huyết Lộ*** (`chapters/chapter_10.md`).
+  - Trạng thái: **ĐÃ HOÀN TẤT CANON HÓA 100% & COMMIT STATE THÀNH CÔNG VÀO 4 TRỤ CỘT BỀN VỮNG** (Vượt trọn vẹn cả 3 Cổng Dừng Cứng: Brief $\rightarrow$ Draft & Review $\rightarrow$ Canon Diff & State Commit).
+  - Quy mô: **5.835 từ** (Đạt chuẩn 5 Cổng thẩm định SOLID, 0 lỗi linter `npm run lint:prose`, `npm run gate:check` PASS 100%).
+  - Tổng dung lượng tích lũy tác phẩm: **73.553 từ** (Hoàn tất trọn vẹn 14 phân bản đầu tiên của tác phẩm).
+  - Sổ cái trạng thái đã cập nhật vào 4 Trụ Cột:
+    - [Trụ cột 1]: `characters/tinh_xuyen.md` (mốc đêm 25/8/1191, hoàn tất cơ mật Hình Thiên Lĩnh, nhận mặt nạ sắt, lập mật ước với Hàn Thác Trụ);
+    - [Trụ cột 2]: `characters/supporting_cast.md` (bổ sung 6 nhân vật: Lý Tuyền, Hàn Thác Trụ, Lư Tiếu Bần, Bang Chúng Kính Trang, Viêm Dương Sứ, Lãnh Nguyệt Sứ).
+    - [Trụ cột 3]: `worldbuilding/medical/injuries_ledger.md` (`INJ-LNQ-001` L1 Lâu Nhất Quan nứt mép vảy, `INJ-LT-001` L2 Lý Tuyền, `INJ-HTT-001` L1 Hàn Thác Trụ); `worldbuilding/artifacts/artifacts_ledger.md` (Ống sáp mật Triệu Nhữ Ngu, Mặt nạ da trâu bọc sắt); `worldbuilding/factions/relationships_matrix.md` (`REL-TVB-TONG-001`, `REL-TVB-NGUDOC-001`).
+    - [Trụ cột 4]: `plot/timeline.md` (canonize mốc 25/8/1191); `plot/volume_01_deck.md` (đánh dấu ĐÃ CANON HÓA cho Ch.10); `plot/promises_tracker.md` (hoàn tất `TH-004` giai đoạn 1; gieo mầm `TH-016` lời hứa Lâm An và `TH-017` Lư Tiếu Bần).
+  - POV: Tĩnh Xuyên (18 tuổi — Thanh Loa Đảo / Hình Thiên Lĩnh).
 
 ## 2. Nhiệm vụ hiện tại (Current Active Gate)
 
-- **CỔNG DỪNG 1 (Pre-Draft Hard Stop) — CHỜ DUYỆT CHAPTER BRIEF CHƯƠNG 07**:
-  - **Mục tiêu**: **Chương 07: *Ám Toán Trong Đêm***.
-  - **Tuyến nhân vật / POV**: **Tĩnh Xuyên** (Thanh Loa Đảo — Thiên Vương Bang).
-  - **Tập tin Brief**: [briefs/chapter_07_brief.md](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/briefs/chapter_07_brief.md).
-  - **Nguồn KT2 Engine**: `Task 1: Subtask 2` (*Thông Địch Phản Bang* — XML `Stories/task_publish/sub/0000000000000002.xml`).
-  - **Hạt giống thu hoạch & kích hoạt**: `TH-003` (Mối nghi kỵ chia rẽ ngầm của Lâu Nhất Quan) & `TH-004` (Sự tin cậy của Dương Thiết Tâm với Tĩnh Xuyên).
-  - **Nội dung trọng tâm**: Thích khách tập kích hụt Lâu Nhất Quan trong đêm bão; lời khai man vu cáo Cầu Chỉ Thủy thông đồng Thiên Nhẫn Giáo; phái bảo thủ Lâu Nhất Quan đòi chém Cầu lão; Dương Thiết Tâm điềm tĩnh nhìn ra bẫy ly gián, cử Tĩnh Xuyên mang giỏ trái cây vào thạch ngục thăm dò; cuộc đối thoại khẳng khái với Cầu lão; đệ tử Phân đà Thành Đô vượt 800 dặm mang mật thư báo tin **hung ngọc Du Long Giác xuất hiện tại Thúy Yên Môn**; Bùi Dực Phi nhận lệnh xuất hành Tây Nam.
-  - **Trạng thái**: **ĐÃ SOẠN XONG CHAPTER BRIEF — ĐANG DỪNG CHỜ TÁC GIẢ THẨM DUYỆT (CỔNG DỪNG 1)**. Cấm tuyệt đối chấp bút `chapters/chapter_07.md` trước khi Tác giả phê duyệt.
+- **CỔNG DỪNG 1 (Pre-Draft Hard Stop) — CHUẨN BỊ SOẠN THẢO CHAPTER BRIEF CHƯƠNG 11**:
+  - **Tên chương dự kiến**: **Chương 11: *Tuyệt Bích Kỳ Hoa***.
+  - **POV**: Hạ Nương (16 tuổi — Y sư / Đệ tử đời thứ ba Thúy Yên Môn).
+  - **Địa bàn**: Vách đá Điểm Thương Sơn & Bách Hoa Cốc.
+  - **Mốc thời gian**: 1191-08-26 (Sáng sớm — Sau đêm sói và khai quật hung ngọc Du Long Giác).
+  - **Phân loại**: **Mystery Lore / Medical Investigation** (Khám nghiệm thảo dược kịch độc *Mị Mị Hương* của Ngũ Độc Giáo).
+  - **Nguồn Engine KT2**: `Task 4: Subtask 31 & 34` và `Task 5: Subtask 44 & 47`.
+  - **KỶ LUẬT CỔNG DỪNG 1**: CẤM TUYỆT ĐỐI viết bất kỳ dòng nào vào `chapters/chapter_11.md` trước khi Tác giả phê duyệt `briefs/chapter_11_brief.md`!
 
 ## 3. Gợi ý hành động cho Tác giả (Suggested Next Step)
 
-Tác giả xem xét bản thảo Chapter Brief tại [briefs/chapter_07_brief.md](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/briefs/chapter_07_brief.md) và có thể:
-- Phản hồi: **`"Duyệt brief chương 07, tiến hành chấp bút"`** để Agent chuyển sang giai đoạn soạn thảo bản thảo (Drafting).
-- Hoặc yêu cầu bổ sung, tinh chỉnh bất kỳ tình tiết/nhân vật nào theo ý đồ nghệ thuật của Tác giả.
+Tác giả ra lệnh:
+👉 **`"Soạn brief chương 11"`** để Agent khởi động quy trình Cổng Dừng 1 (Pre-Draft Briefing) cho Chương 11!
+
+
+
+
+
+
+
+
+
+
 
 

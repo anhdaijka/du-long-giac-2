@@ -66,3 +66,14 @@
   - **Chương 01 – 04b**: Bản năng thảo dã và ẩu đả bến sông.
   - **Chương 05**: Thể nghiệm thực tế sa trường (First Contact with Internal Force). Giữ nguyên Tier 0 thô mộc, trả giá đắt bằng chấn thương L3 để hiểu được sự khốc liệt của võ học chân chính.
   - **Chương 06**: Thể nghiệm cơ quan học và dưỡng thể dã chiến thợ thuyền. Giữ nguyên Tier 0, áp dụng trí tuệ đòn bẩy và then khóa cơ hoành vượt qua hiểm cảnh.
+
+### C. Tĩnh Xuyên (Thiên Vương Thiết Kỵ — Bậc Tier 1)
+- **Tiến trình võ học tại Chương 07a (Không đột phá cảnh giới — Nâng tầm Nhãn quan Chiến thuật & Cận chiến Không gian Hẹp)**:
+  - **Nhận diện giới hạn ngọn trường thương**: Qua việc khám nghiệm vết đao chém trên cột trướng thất và cấu tạo Xước Đao dài 8 tấc, Tĩnh Xuyên nhận ra ngọn trường thương dài 1 trượng của mình tuy uy mãnh trên bãi trống trận địa nhưng cực kỳ bất lợi trong không gian chật hẹp (trướng thất, buồng thuyền, ngục ngầm) trước các đòn xốc nách, cắt gân hạ bàn của đoản nhận cận chiến.
+  - **Pháp y khí giới & độc chất sa trường**: Học được từ Bùi Dực Phi phương pháp thử độc dã chiến bằng giấm thanh (nhận diện độc thảo ô hàn băng thạch qua phản ứng sủi bọt xám mùi củ ấu thối); nhận diện dấu vết lò rèn Ngũ Lăng (Thục Trung) qua ký hiệu ba vạch sóng nước trên sống đao.
+  - **Kế thừa thể trạng**: Khớp bả vai phải vẫn còn dư chấn ê ẩm từ cuộc tỷ võ khảo nghiệm với Dương Thiết Tâm (Chương 02b); thể lực tiêu hao sau ca tuần tra dầm mưa bão.
+- **Tiến trình võ học tại Chương 07b (Đốn ngộ Tâm thuật Giang hồ & Khí phách Sa trường)**:
+  - **Tâm thuật sa trường**: Tiếp nhận khẩu quyết và bản lĩnh điềm tĩnh trước cái chết từ Trưởng lão Cầu Chỉ Thủy; nhận thức được ranh giới giữa "Võ dũng đâm chém" và "Mưu lược chính trị".
+  - **Nhãn quan toàn cục**: Thấu hiểu đòn nghi binh chiến lược của kẻ thù giấu mặt (dùng nội biến Thanh Loa để kìm chân Thiên Vương Bang); nâng tầm tư duy từ một dũng sĩ tiền phong thành người chỉ huy phòng tuyến hậu phương.
+
+

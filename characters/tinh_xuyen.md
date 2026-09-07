@@ -75,3 +75,31 @@ weapon: "Bát Hàn Thiết Thương -> Bôn Lôi Toàn Long Thương"
 ## 6. ĐỐI CHIẾU NGUỒN GỐC NGUYÊN BẢN (KT2 ENGINE PROVENANCE)
 * **Task 1 (`Subtask 1–8`):** Được Dương Thiết Tâm phái đi điều tra gián điệp, hộ tống quan tuyên phủ Hàn Thác Trụ vượt qua vòng vây tại Hình Thiên Lĩnh và đánh phá thủy quân ở Đại Mãnh Chủy.
 * **Task 5 (`Subtask 27–38`):** Nhận mật lệnh mang danh xưng **Mộc Nhất Lâu** tiếp cận Cơ Chú (Cái Bang) và huynh muội Ân Phương – Ân Đồng tại Vật Quy Cốc; trực tiếp trải qua biến cố đau đớn kết liễu Ân Đồng trong phân đoạn *Sinh Tử Quyết Chiến [Nam]*.
+
+---
+
+## 7. SỔ CÁI TRẠNG THÁI HIỆN HÀNH (DURABLE STATE LEDGER)
+* **Mốc thời gian hiện hành:** 1191-08-25 (Đêm trăng rằm tháng Tám — Sau Chương 10).
+* **Thể trạng thực tế:** Thể lực sung mãn sau 6 ngày rèn luyện và điều tức "Động Đình Quy Tức Công"; bả vai hết hẳn dư chấn ê ẩm; áo giáp sắt bị lửa liếm sém nhẹ ở góc áo, dính tro than hỏa dược và máu độc (đã lau sạch); không mang thương tật mới.
+* **Binh khí & Trang bị:**
+  - Ngọn Bát Hàn Thiết Thương (khâu sắt cán thương có vết mẻ nhỏ; vừa cắm trên bãi cát ướt bến nam khi tiễn đoàn kỵ mã Cáp Xá).
+  - Chiếc mặt nạ da trâu bọc sắt xám lạnh do Dương Thiết Tâm trao tặng.
+  - Áo giáp thiết giáp nhẹ, thắt lưng da bò nạm đồng, túi lương khô, bầu nước, khăn vải thô.
+* **Vị thế & Quan hệ nội bộ:**
+  - Hoàn thành xuất sắc nhiệm vụ cơ mật phá vây cứu người; giữ vững vị thế trụ cột sa trường thân tín bậc nhất của Tân Bang chủ Dương Thiết Tâm (TH-004).
+  - Kết giao ân tình sinh tử với Tuyên phủ sứ Nam Tống Hàn Thác Trụ; nhận lời ước hẹn tri ân tại kinh thành Lâm An (TH-016).
+  - Thiết lập mối quan hệ kỳ dị nửa bạn nửa thù với Bạch Kỳ Chủ Ngũ Độc Giáo Lư Tiếu Bần (TH-017).
+* **Tri thức & Thông tin nắm giữ:**
+  - Nắm toàn bộ hiện trường vật chứng vụ ám sát: góc chém xốc nách, độc thảo ô hàn tính, dấu vết cọc ngầm bờ đông, đao của thợ rèn Ngũ Lăng (Thục Trung).
+  - Biết rõ toàn bộ chân tướng án oan của Cầu Chỉ Thủy (chuyến thuyền 6 hòm muối gạo cứu tế tử sĩ và ân tình với Tôn Đại Lực).
+  - Biết cơ mật phán quyết "trục xuất": Cầu lão được bí mật hộ tống sang Cái Bang Yến Tử Ổ tị nạn an toàn.
+  - Biết tin tức chấn động toàn cõi giang hồ: **Ngọc Du Long Giác phát lộ tại Thúy Yên Môn (Đại Lý)**; Bùi Dực Phi dẫn 30 kỵ mã Cáp Xá xuất chinh thám thính.
+  - Nắm bắt trực tiếp cuộc khủng hoảng quyền lực tại cung đình Lâm An: mâu thuẫn giữa phái chủ chiến (Hiếu Tông, Triệu Nhữ Ngu, Hàn Thác Trụ) và bè lũ ngoại thích Lý Hoàng hậu; biết rõ bức mật chiếu của Thái Thượng Hoàng.
+  - Biết sự phân hóa tư tưởng bên trong Ngũ Độc Giáo qua hành vi của Lư Tiếu Bần.
+* **Ranh giới cấm kỵ (Forbidden Unknowns):**
+  - Chưa biết kẻ giấu mặt mua chuộc Tôn Báo là toán mật thám Kim quốc (mạng lưới Ô Sơ Sa / Thiên Nhẫn Giáo) cấu kết gian tế địa phương.
+  - Chưa biết hiểm họa đẫm máu mà Thúy Yên Môn và Hạ Nương đang và sắp sửa gánh chịu tại Bách Hoa Cốc.
+  - Chưa biết sự hiện diện của Tiêu Phùng tại Ba Lăng Huyện và mối dây liên kết chung về ngọc Du Long Giác.
+  - Chưa biết tương lai bản thân sẽ phải mang thân phận gián điệp Mộc Nhất Lâu thâm nhập Ngũ Độc Giáo (Task 5).
+
+

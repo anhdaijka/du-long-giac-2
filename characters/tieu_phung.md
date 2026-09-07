@@ -74,26 +74,28 @@ weapon: "Đoản côn gỗ nghiến bọc sắt -> Đả Cẩu Bổng (Hàng Lon
 ---
 
 ## 6. SỔ CÁI TRẠNG THÁI HIỆN HÀNH (DURABLE STATE LEDGER)
-* **Mốc thời gian hiện hành:** 1191-08-19 (Rạng sáng & Bình minh — Sau Chương 06).
-* **Thể trạng thực tế:** Đang mang chấn thương L3 (INJ-TP-002: rạn xương sườn số 6 mạn sườn trái, nẹp tre cố định) kèm chấn thương L1 (INJ-TP-003: chuột rút cơ hoành và cơ bụng); miệng còn vị tanh máu bầm cũ; hơi thở nông khò khè khi vận động.
+* **Mốc thời gian hiện hành:** 1191-08-20 (Canh ba rạng sáng — Sau Chương 09).
+* **Thể trạng thực tế:** Vừa trải qua tái chấn động mạn sườn trái do va đập bàn thờ gỗ tại Miếu Thần Ba Lăng (Chương 09); gãy rời một thanh nẹp tre, nôn máu bầm ngất lịm; đã được Bạch Thu Lâm truyền chân khí hộ tâm khai thông phế khí và nẹp lại hai thanh tre mới tẩm rượu thuốc; thể lực kiệt quệ nhưng tâm thần tỉnh táo, hơi thở khò khè đau buốt khi vặn mình. Đang mang thương tật L3 (`INJ-TP-002`, Tuần 2/6).
 * **Binh khí & Trang bị:** 
-  - Đoản côn gỗ nghiến bãi sậy (đầu bịt sắt non mẻ thêm một rãnh sâu do dùng bẩy bật then chốt sắt khớp gối Cơ Quan Nhân Thô; thân gỗ bám phù sa bùn đỏ Động Đình khô cứng).
-  - Đôi Lữ Hành Ngoa bằng da dê núi của Thẩm Hà Diệp (ngấm bùn lụt đỏ quạch, trầy da mép ngoài nhưng đường chỉ may thủ công vẫn chắc nịch).
-  - Quần áo vải thô ướt sũng bùn lầy, dải vải gai nẹp ngực ngấm nước lạnh và vệt máu loãng.
+  - Đoản côn gỗ nghiến bãi sậy (đầu bịt sắt non mẻ thêm khía rãnh sau khi dùng thọc giàn đèn dầu lạc; thân gỗ bám bụi than và tàn tro Miếu Thần Ba Lăng).
+  - Đôi Lữ Hành Ngoa bằng da dê núi của Thẩm Hà Diệp (đã khô bùn đỏ Động Đình).
+  - Quần áo vải thô màu xám tro rộng thùng thình dính máu giặc và máu bầm của chính mình.
 * **Vật phẩm mang theo:**
   - Chiếc khánh bạc sơ sinh khắc chìm: "Tiêu Phùng (簫逢) — Thuần Hi nguyên niên", mặt sau chạm Bát Quái ôm ngọn lửa (giắt trong ngực áo sát tim).
   - Chìa khóa bạch đồng hoa văn mây xoắn mắt quạ (dắt bên đai lưng).
-  - Bầu rượu nếp đầm lau (được Điềm Tửu Thúc rót đầy rượu nếp mới mừng công hộ đê).
+  - Bầu rượu nếp đầm lau (giắt bên hông).
+  - **01 Phong thư tiến cử** niêm sáp đỏ thẫm hình hoa sen ôm đoản kiếm của Nghĩa Quân Ba Lăng do Bạch Thu Lâm trao, gửi Bang chủ Cái Bang Thạch Hiên Viên tại Yến Tử Ổ.
 * **Tri thức đã biết (Known Facts):**
   - Cha ruột là **Tiêu Lăng Phong**, đại đệ tử Ma Y Cốc, người đã hy sinh thân mình cản hậu cứu chàng thoát chết tại Hán Thủy Cổ Độ năm Giáp Ngọ (1174).
   - Đã trùng phùng Bạch Cương tại Tuyệt Vấn Pha; xác nhận thân thế qua chiếc khánh bạc.
   - Tiếp nhận bốn câu Sấm Thi cổ của Tiêu Lăng Phong: *"Thái bạch dạ quan tinh / Trọc khí quy tam thanh / Thiên mã chấn trường dực / Long Cung trích tử anh"*.
-  - Nhận diện võ công Âm kình thuộc về lực lượng mật thám Ô Sơ Sa của Đại Kim; tiêu diệt Bách hộ Ngột Thất Hãn tại Tuyệt Vấn Pha.
-  - Biết tin tình báo khẩn cấp: Giặc Kim dùng trận Tuyệt Vấn Pha làm mồi nhử để nội gián ám hại Cơ quan đại sư Giới Sơn Tông, cắt đứt gân chân và mở toang chín van xả lũ gây vỡ đê Ba Lăng trong đêm giông bão.
-  - **Tri thức mới (Ch.06):** Nắm vững "Nguyên Lý Then Khóa Cơ Hoành" và điểm yếu then chốt chữ Đinh ở khớp máy cơ quan; trực tiếp giải cứu Giới Sơn Tông; cùng nghĩa quân đóng chín cửa cự thạch thạch thất cứu toàn bộ huyện Ba Lăng; thấu hiểu chiều sâu của hai chữ "Quốc nạn".
+  - Đã trực tiếp chứng kiến cuốn da dê *Vô Danh Mật Tịch*; nắm rõ mối liên hệ giữa bản đồ Trụ Thần Thạch và bài sấm thi của cha Tiêu Lăng Phong.
+  - Biết chữ "Long Cung trích tử anh" trong sấm thi chính là khối hung ngọc *Du Long Giác* — chìa khóa định vị và kích hoạt mạng lưới Trụ Thần Thạch.
+  - Nhận diện trực tiếp toán sát thủ sa trường thuộc **Tây Hạ Nhất Phẩm Đường** qua hình xăm chim ưng quắp chùy gai, đao mỏng Tây Vực và đất sét vàng sa mạc.
+  - Nhận thức rõ thân thế của mình đã bị lộ, Ba Lăng Huyện không còn an toàn; chuẩn bị rời quê hương vượt hồ sang Cái Bang Yến Tử Ổ.
 * **Ranh giới cấm kỵ (Forbidden Unknowns):**
   - Tuyệt đối CHƯA BIẾT chi tiết thảm án Ma Y Cốc tại sao xảy ra và ai chủ mưu diệt môn.
-  - CHƯA BIẾT mối liên hệ giữa ngọc Du Long Giác và Ma Y Cốc.
+  - CHƯA BIẾT khối hung ngọc Du Long Giác hiện đang nằm tại Bách Hoa Cốc - Thúy Yên Môn.
   - Hoàn toàn CHƯA BIẾT tin tức gì về Tĩnh Xuyên (ở Thanh Loa Đảo) hay Hạ Nương (ở Bách Hoa Cốc cách xa 3.000 dặm).
 
 

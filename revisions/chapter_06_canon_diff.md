@@ -165,3 +165,9 @@ Index: plot/timeline.md
 > Khi Tác giả đồng thuận, xin mời ban hành lệnh:
 > **`"Duyệt diff"`**
 > *(Sau khi nhận lệnh duyệt diff, em sẽ thực thi commit toàn bộ các thay đổi trên vào các sổ cái trạng thái bền vững).*
+
+
+---
+
+## Supporting Cast Directory (`characters/supporting_cast.md`)
+*(Đã đồng bộ chuẩn hóa kiểm toán vào danh bạ nhân vật phụ)*

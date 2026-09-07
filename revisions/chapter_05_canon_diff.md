@@ -132,3 +132,9 @@ Index: plot/timeline.md
  - **1191-08-18 (Chiều muộn)**: Chương 04b — Kỳ Trân Mê. Thu di trao khánh bạc; còi báo động Tuyệt Vấn Pha hú vang.
 +- **1191-08-18 (Hoàng hôn đến Đêm)**: Chương 05 — Tuyệt Vấn Huyết Lộ. Huyết chiến Tuyệt Vấn Pha; Bạch Thu Lâm chém Ngột Thất Hãn; Tiêu Phùng rạn xương sườn L3; trùng phùng Bạch Cương; sấm thi Ma Y Cốc; giặc Kim mở van xả lũ đê Ba Lăng.
 ```
+
+
+---
+
+## Supporting Cast Directory (`characters/supporting_cast.md`)
+*(Đã đồng bộ chuẩn hóa kiểm toán vào danh bạ nhân vật phụ)*

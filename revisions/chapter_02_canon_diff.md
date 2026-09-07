@@ -91,3 +91,9 @@
 - [ ] accept selected only (mark above)
 - [ ] reject
 
+
+
+---
+
+## Supporting Cast Directory (`characters/supporting_cast.md`)
+*(Đã đồng bộ chuẩn hóa kiểm toán vào danh bạ nhân vật phụ)*

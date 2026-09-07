@@ -3,8 +3,12 @@
 ## State machine
 
 ```text
-[BƯỚC 1: LÊN KỊCH BẢN]
-idea / plot deck
+[BƯỚC 1: LÊN KỊCH BẢN & ĐO LƯỜNG ĐỘ HẠT (STORY DECOMPRESSION)]
+idea / plot deck (Macro Event Milestones)
+  ↓
+granularity assessment (Đánh giá độ hạt tự sự: đo lường mật độ kịch tính và dung lượng subtask; chủ động đề xuất phân bản hạt mịn XXa, XXb... bảo đảm dải dung lượng vàng 4.000 – 4.800 từ)
+  ↓
+lore verification (python scripts/lore-guard.py --query <term>)
   ↓
 plan (templates/chapter-brief.md -> briefs/chapter_XX_brief.md)
   ↓
@@ -34,13 +38,13 @@ canon diff (templates/canon-diff.md -> revisions/chapter_XX_canon_diff.md)
 🛑 HARD STOP 3: AUTHOR APPROVAL (Phê duyệt Canon Diff)
    [DỪNG LẠI! Chỉ cập nhật Sổ cái sau khi Tác giả duyệt Diff]
   ↓
-[GIAO THỨC COMMIT STATE 4 BƯỚC BẮT BUỘC]:
-   1. Cập nhật Nhân vật chính (characters/<core>.md) & Trụ cột liên quan (characters/anchors/)
-   2. Bổ sung/Cập nhật Nhân vật phụ Tier B/C vào characters/supporting_cast.md
-   3. Cập nhật Khí tài bền vững (worldbuilding/artifacts/artifacts_ledger.md) & plot/timeline.md
-   4. Cập nhật Hạt giống cốt truyện (plot/promises_tracker.md) & author/session-state.md
+[GIAO THỨC COMMIT STATE 4 TRỤ CỘT BẮT BUỘC]:
+   1. Trụ cột 1 - Nhân vật chính & Bản lề: characters/<core>.md & characters/anchors/
+   2. Trụ cột 2 - Danh bạ nhân vật phụ Tier B/C: characters/supporting_cast.md
+   3. Trụ cột 3 - Sổ cái thế giới: worldbuilding/ (injuries_ledger.md, artifacts_ledger.md, relationships_matrix.md)
+   4. Trụ cột 4 - Dòng thời gian & Lời hứa: plot/ (timeline.md, promises_tracker.md, volume_01_deck.md) & author/session-state.md
   ↓
-final check (npm run gate:check)
+final check (npm run gate:check -> Gate Guard & Lore Guard Scan)
   ↓
 accept chapter
   ↓
@@ -52,7 +56,11 @@ git commit
 Do not move into prose until the chapter has enough information to constrain it safely:
 
 - purpose
-- POV
+- POV & exact chronological age (aligned with `plot/chronology_matrix.md` — Rule TC-1 Zero Age Drift)
+- temporal continuity verification:
+  - exact calendar date (aligned with `plot/timeline.md` — Rule TC-2)
+  - delta T elapsed from last POV appearance (Rule TC-3: mandatory transition narrative if $\Delta T \ge 3$ days)
+  - travel velocity & information latency (aligned with `worldbuilding/geography/travel_matrix.md` — Rule TC-4)
 - starting state
 - ending state
 - scene order
@@ -98,15 +106,15 @@ Use fresh review context where practical. Separate:
 
 Use `templates/review-report.md`. Review first; rewrite second.
 
-## Canon diff & 4-Step State Persistence Protocol
+## Canon diff & 4-Pillar State Commitment Protocol
 
 After revision, list proposed durable changes with `templates/canon-diff.md`. Author chooses accept all, accept selected, or reject.
 
-Only then execute the **Mandatory 4-Step Diff Commitment Protocol**:
-1. **Protagonists & Anchors**: Update `characters/<protagonist>.md` and affected `characters/anchors/*.md`.
-2. **Supporting Cast (Tier B & C)**: Append newly introduced characters or update existing ones in `characters/supporting_cast.md`.
-3. **Durable Artifacts & Spatiotemporal State**: Record physical status, bearer, and location in `worldbuilding/artifacts/artifacts_ledger.md`, and record exact date in `plot/timeline.md`.
-4. **Narrative Threads & Session State**: Update `plot/promises_tracker.md` (active promises, payoffs, planted clues) and conclude chapter in `author/session-state.md`.
+Only then execute the **Mandatory 4-Pillar State Commitment Protocol**:
+1. **Trụ cột 1 - Nhân vật chính & Bản lề (Protagonists & Anchors)**: Update `characters/<protagonist>.md` and affected `characters/anchors/*.md`.
+2. **Trụ cột 2 - Danh bạ nhân vật phụ Tier B/C (Supporting Cast Directory)**: Append newly introduced characters or update existing ones in `characters/supporting_cast.md`.
+3. **Trụ cột 3 - Sổ cái thế giới (World Ledgers)**: Update physical injuries in `worldbuilding/medical/injuries_ledger.md`, artifacts in `worldbuilding/artifacts/artifacts_ledger.md`, and faction alignments in `worldbuilding/factions/relationships_matrix.md`.
+4. **Trụ cột 4 - Dòng thời gian & Lời hứa (Chronology & Narrative Threads)**: Record exact date and verify age against `plot/timeline.md`, `plot/chronology_matrix.md` & `plot/volume_01_deck.md`, update promises in `plot/promises_tracker.md`, and conclude session in `author/session-state.md`.
 
 ## Commit discipline
 

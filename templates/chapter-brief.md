@@ -5,8 +5,18 @@
 - Number:
 - Working title:
 - POV:
+- POV chronological age (aligned with `plot/chronology_matrix.md`):
+- Exact calendar date (aligned with `plot/timeline.md`):
+- Delta T from last appearance:
 - Primary location:
 - Arc(s):
+
+## Temporal continuity verification
+
+- Calendar date alignment:
+- Age consistency check:
+- Transition requirement (if $\Delta T \ge 3$ days):
+- Travel latency check (`worldbuilding/geography/travel_matrix.md`):
 
 ## Purpose
 

@@ -90,3 +90,9 @@
 - [x] accept all (Tác giả đã duyệt ngày 2026-09-07)
 - [ ] accept selected only (mark above)
 - [ ] reject
+
+
+---
+
+## Supporting Cast Directory (`characters/supporting_cast.md`)
+*(Đã đồng bộ chuẩn hóa kiểm toán vào danh bạ nhân vật phụ)*
