@@ -2,7 +2,28 @@
 
 `anhdaijka/novel-os` is a public framework/template repository. Unpublished manuscript content should normally live in a separate **private** repository.
 
-## Recommended flow
+## First decide: blank novel or source adaptation?
+
+### Blank/new novel
+
+Use the normal initialization flow below.
+
+### Existing game/database/lore source
+
+If the novel is adapted from an existing narrative corpus — game quest/task databases, branching dialogue, scripts, lore/wiki exports, legacy story bibles, etc. — do **not** immediately translate raw source rows into Story Skills canon.
+
+Before story canonization:
+
+1. read `docs/playbooks/external-source-ingestion.md`;
+2. use the game/branching playbooks when applicable;
+3. inventory and reconstruct source structure/provenance;
+4. create an adaptation contract;
+5. obtain author approval;
+6. then initialize/promote only the novel-relevant canon needed for the next drafting horizon.
+
+See `examples/migrations/game-quest-database/` for a synthetic worked example.
+
+## Recommended blank-novel flow
 
 1. Create a private repository for the novel from this template/codebase.
 2. Clone the private repository locally.
@@ -18,6 +39,6 @@
 
 Public Novel OS should contain framework code, synthetic fixtures, docs, and tests.
 
-Private novel repositories contain manuscript prose, actual character/world canon, research notes, author decisions, and session state.
+Private novel repositories contain manuscript prose, actual character/world canon, research notes, author decisions, session state, and — for source adaptations — licensed/private raw source material and migration working artifacts.
 
-Do not paste unpublished prose into public regression fixtures.
+Do not paste unpublished prose or proprietary source databases into public regression fixtures.
