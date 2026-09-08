@@ -1,0 +1,77 @@
+{
+  "chapter": "12",
+  "evidence": [
+    {
+      "evidence_id": "EV-12-001",
+      "source_kind": "sqlite.subtasks",
+      "locator": {
+        "task_id": 157,
+        "subtask_id": 307
+      },
+      "field": "describe_cleaned",
+      "excerpt": "Thu Di bảo ta đến thỉnh giáo Long Ngũ thái gia, sau đó đi gặp Điềm Tửu Thúc nhận binh khí, xem ra ngày ta dấn thân vào giang hồ ngày càng gần rồi!",
+      "match": "contains_normalized",
+      "notes": "Direct source establishes that entry into jianghu is approaching and connects Thu Di, Long Ngũ and Điềm Tửu Thúc to the preparation sequence. It does not establish the later Cái Bang recommendation-letter adaptation."
+    },
+    {
+      "evidence_id": "EV-12-002",
+      "source_kind": "sqlite.dialogues",
+      "locator": {
+        "subtask_id": 309,
+        "phase": "start"
+      },
+      "field": "cleaned_text",
+      "excerpt": "[Điềm Tửu Thúc [Chủ Tiệm Binh Khí]]: \"Thôi, đã đến lúc ngươi đi rèn luyện rồi.\"",
+      "match": "contains_normalized",
+      "notes": "Direct spoken source: Điềm Tửu Thúc tells the protagonist that it is time to go train. No wine-gourd gift is stated here."
+    },
+    {
+      "evidence_id": "EV-12-003",
+      "source_kind": "sqlite.subtasks",
+      "locator": {
+        "task_id": 157,
+        "subtask_id": 310
+      },
+      "field": "describe_cleaned",
+      "excerpt": "Thu Di bảo ta đến tìm đệ tử tiếp dẫn của thập nhị môn phái, chọn lựa kỹ môn phái mình muốn gia nhập, sau đó về tìm Thu Di.",
+      "match": "contains_normalized",
+      "notes": "Direct source establishes a twelve-sect choice. The row includes Cái Bang among the twelve but does not uniquely choose Cái Bang."
+    },
+    {
+      "evidence_id": "EV-12-004",
+      "source_kind": "sqlite.subtasks",
+      "locator": {
+        "task_id": 2,
+        "subtask_id": 9
+      },
+      "field": "describe_cleaned",
+      "excerpt": "Cái Bang đang chuẩn bị Tế lễ hàng năm để tưởng nhớ các anh hùng đã hy sinh. Vì thế Cái Bang không coi trọng tin tức tình báo của Thiên Vương, bất luận thế nào ta cũng phải gặp được [Thạch Hiên Viên tại Ngoài Yến Tử Ổ (1482/2968)] mới nói.",
+      "match": "contains_normalized",
+      "notes": "Direct source establishes Thạch Hiên Viên at Yến Tử Ổ and a route in which the player/protagonist reaches Cái Bang. It does not establish Bạch Thu Lâm as the sender of a recommendation letter."
+    },
+    {
+      "evidence_id": "EV-12-005",
+      "source_kind": "sqlite.subtasks",
+      "locator": {
+        "task_id": 19,
+        "subtask_id": 130
+      },
+      "field": "describe_cleaned",
+      "excerpt": "Sau khi suy đoán của Hàn Trung tương ứng với lời của Tiền Bỉnh Thành, ta đoan chắc Du Long Giác đã bị người Kim quốc đoạt mất.",
+      "match": "contains_normalized",
+      "notes": "Roadmap mismatch evidence: subtask 130 belongs to Task 19 and concerns Du Long Giác at Cửu Nghi Khê, not the Ba Lăng farewell scene."
+    },
+    {
+      "evidence_id": "EV-12-006",
+      "source_kind": "sqlite.subtasks",
+      "locator": {
+        "task_id": 19,
+        "subtask_id": 133
+      },
+      "field": "describe_cleaned",
+      "excerpt": "Đệ tử Ngũ Độc Giáo và Đoạt Bảo Nhân Kim quốc đánh nhau quyết kiệt trong thôn Cửu Nghi Khê, gặp Kỳ chủ và Mật Sứ Ngũ Độc Giáo phân tích lợi hại, đề nghị liên minh với Thiên Vương Bang.",
+      "match": "contains_normalized",
+      "notes": "Roadmap mismatch evidence: subtask 133 belongs to Task 19 and concerns Cửu Nghi Khê / Ngũ Độc / Du Long Giác, not an early Điềm Tửu farewell."
+    }
+  ]
+}
