@@ -1,0 +1,112 @@
+{
+  "manifest_id": "reliability_layer_v2_mvp",
+  "scope": "feat/reliability-layer-v2",
+  "deliverables": [
+    {
+      "id": "D01",
+      "description": "Verify Chapter 09 source evidence against SQLite",
+      "requires": [],
+      "checks": [
+        {
+          "type": "file_nonempty",
+          "path": "research/evidence/chapter_09.json"
+        },
+        {
+          "type": "evidence",
+          "chapter": "09"
+        }
+      ]
+    },
+    {
+      "id": "D02",
+      "description": "Classify Chapter 09 durable assertions in the Claim Ledger",
+      "requires": [
+        "D01"
+      ],
+      "checks": [
+        {
+          "type": "file_nonempty",
+          "path": "research/claims/chapter_09.json"
+        },
+        {
+          "type": "claim",
+          "chapter": "09"
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "description": "Prove a fresh full-read semantic pilot review structure for Chapter 09",
+      "requires": [
+        "D02"
+      ],
+      "checks": [
+        {
+          "type": "review",
+          "chapter": "09",
+          "review": "reviews/pilots/chapter_09_review_v2.md",
+          "require_approval": false
+        }
+      ]
+    },
+    {
+      "id": "D04",
+      "description": "Enforce forward-only durable state promotion prerequisites",
+      "requires": [
+        "D03"
+      ],
+      "checks": [
+        {
+          "type": "file_nonempty",
+          "path": "scripts/state-commit-guard.py"
+        },
+        {
+          "type": "file_nonempty",
+          "path": "scripts/state-commit-test.py"
+        }
+      ]
+    },
+    {
+      "id": "D05",
+      "description": "Make execution-plan completion verifier-owned instead of agent-owned",
+      "requires": [
+        "D04"
+      ],
+      "checks": [
+        {
+          "type": "file_nonempty",
+          "path": "scripts/execution-guard.py"
+        },
+        {
+          "type": "file_nonempty",
+          "path": "scripts/execution-test.py"
+        },
+        {
+          "type": "file_nonempty",
+          "path": "templates/execution-manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "D06",
+      "description": "Integrate Reliability v2 contracts into agent rules, documentation and CI",
+      "requires": [
+        "D05"
+      ],
+      "checks": [
+        {
+          "type": "file_nonempty",
+          "path": ".agents/rules/12-reliability-layer.md"
+        },
+        {
+          "type": "file_nonempty",
+          "path": "docs/reliability-layer-v2.md"
+        },
+        {
+          "type": "file_nonempty",
+          "path": ".github/workflows/novel-os-stress.yml"
+        }
+      ]
+    }
+  ]
+}
