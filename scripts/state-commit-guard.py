@@ -10,11 +10,13 @@ workflow:
 2. a current v2 full-read review with reviewer verdict APPROVED;
 3. a valid Evidence Packet + Claim Ledger pair;
 4. when the chapter manuscript changed in this same changeset, its v2 review must
-   also have changed, preventing an unchanged old review from authorizing new prose.
+   also have changed, preventing an unchanged old review from authorizing new prose;
+5. every changed durable-state file path is named in at least one changed approved
+   Canon Diff, preventing unrelated ledger edits from piggybacking on an approval.
 
 The guard deliberately does not use manuscript hashes or immutable revisions.
-It proves recorded workflow prerequisites, not semantic truth and not the human
-identity behind an approval checkbox.
+It proves recorded workflow prerequisites and path coverage, not semantic truth
+and not the human identity behind an approval checkbox.
 """
 from __future__ import annotations
 
@@ -59,16 +61,16 @@ def is_durable_state(path: str) -> bool:
     return path.startswith(DURABLE_PREFIXES)
 
 
-def approval_errors(diff_path: Path) -> list[str]:
+def read_approved_diff(diff_path: Path) -> tuple[str | None, list[str]]:
     if not diff_path.is_file():
-        return [f"Changed Canon Diff is missing from working tree: {diff_path}"]
+        return None, [f"Changed Canon Diff is missing from working tree: {diff_path}"]
     text = diff_path.read_text(encoding="utf-8")
     if not APPROVAL_RE.search(text):
-        return [
+        return None, [
             f"{diff_path}: missing checked author approval line "
             "(`- [x] ... Phê chuẩn ... Canon Diff ...`)."
         ]
-    return []
+    return text, []
 
 
 def find_v2_review(chapter: str) -> tuple[Path | None, list[str]]:
@@ -149,6 +151,26 @@ def chapter_prerequisite_errors(chapter: str, changed: set[str]) -> list[str]:
     return errors
 
 
+def durable_path_coverage_errors(
+    durable: list[str],
+    approved_diff_texts: dict[str, str],
+) -> list[str]:
+    errors: list[str] = []
+    for durable_path in durable:
+        covered_by = [
+            diff_path
+            for diff_path, text in approved_diff_texts.items()
+            if durable_path in text
+        ]
+        if not covered_by:
+            errors.append(
+                f"Durable file {durable_path} changed but is not named in any changed approved "
+                "Canon Diff. Add the exact repository-relative path to the relevant Canon Diff "
+                "instead of piggybacking unrelated state edits."
+            )
+    return errors
+
+
 def validate_changeset(base: str, head: str = "HEAD") -> list[str]:
     files, errors = changed_files(base, head)
     if errors:
@@ -171,10 +193,18 @@ def validate_changeset(base: str, head: str = "HEAD") -> list[str]:
         ]
 
     chapters: list[str] = []
+    approved_diff_texts: dict[str, str] = {}
     for path, chapter in changed_diff_pairs:
-        errors.extend(approval_errors(Path(path)))
+        text, diff_errors = read_approved_diff(Path(path))
+        errors.extend(diff_errors)
+        if text is not None:
+            approved_diff_texts[path] = text
         chapters.append(chapter)
 
+    if errors:
+        return errors
+
+    errors.extend(durable_path_coverage_errors(durable, approved_diff_texts))
     if errors:
         return errors
 
@@ -187,9 +217,9 @@ def validate_changeset(base: str, head: str = "HEAD") -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(
         description=(
-            "Block new durable-state promotion unless the changeset contains an "
-            "approved Canon Diff and the corresponding v2 review + claim contract pass. "
-            "Historical state is not re-audited."
+            "Block new durable-state promotion unless the changeset contains an approved Canon Diff, "
+            "the corresponding v2 review + claim contract pass, and every changed durable path is "
+            "declared in an approved changed Canon Diff. Historical state is not re-audited."
         )
     )
     parser.add_argument("--base", required=True, help="Base commit/ref for forward-only diff")
@@ -204,8 +234,8 @@ def main() -> int:
         return 1
 
     print(
-        "[STATE-COMMIT-GUARD PASS] Forward durable-state promotion prerequisites "
-        "are recorded and verifier-backed for the selected changeset. Historical "
+        "[STATE-COMMIT-GUARD PASS] Forward durable-state promotion prerequisites and "
+        "declared-path coverage are verifier-backed for the selected changeset. Historical "
         "state was not re-audited; semantic truth is not implied."
     )
     return 0
