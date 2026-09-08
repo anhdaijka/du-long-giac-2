@@ -34,4 +34,9 @@ Mandatory Rule 5: NPC Pedigree & Biological Age Sanity Protocol (`worldbuilding/
 
 Mandatory Rule 6: Adversarial Review, Evidence Grounding & Creative Voice Protection Protocol (`worldbuilding/style/author_wuxia_rubric.md`, `.agents/rules/05-review.md`). Cấm tuyệt đối Agent tự review hời hợt, tự khen hoặc đánh giá checklist cơ học thiếu trích dẫn span có số dòng cụ thể. Báo cáo Review tại Cổng Dừng 2 bắt buộc phải áp dụng tư duy Adversarial Red-Team, trích dẫn tối thiểu 4 spans nguyên bản chứng minh: (1) Khẩu khí độc bản nhân vật (bảo vệ cá tính bắng nhắng/tự trào của Tiêu Phùng, kỷ luật sa trường của Tĩnh Xuyên, y lý thực chứng của Hạ Nương; cấm đồng hóa nhân vật thành bản sao Quách Tĩnh nghiêm trang khô cứng), (2) Điểm chạm trào lộng Mo Lei Tau (25%) / Yên hỏa khí dân sinh, (3) Giới hạn sinh học & cản trở thực tế của thương tật theo `injuries_ledger.md`, (4) Dư ba kết chương. Linter và Reviewer chỉ áp dụng kỷ luật Show-Don't-Tell khắt khe lên Lời dẫn (Narrator Text); tuyệt đối cấm bắt bẻ lời thoại nhân vật trong ngoặc kép `“...”`.
 
-
+Mandatory Rule 7: Reliability Layer v2 (`.agents/rules/12-reliability-layer.md`, `docs/reliability-layer-v2.md`).
+- **Current Author Text Wins**: trước khi review/revise/continue/canon-diff phải đọc lại file chapter hiện tại. Current repository text luôn thắng draft/review/chat memory cũ. CẤM rollback hoặc overwrite revision của Tác giả để khớp bản Agent từng sinh.
+- **Entity existence ≠ claim grounding**: claim bền vững phải được phân loại `DIRECT_SOURCE`, `SOURCE_SUPPORTED_INFERENCE`, `UNRESOLVED`, `ADAPTATION_DECISION`, hoặc `NOVELIZATION_BRIDGE`; inference/unresolved/bridge không được âm thầm tự nâng thành fact.
+- **Full-Read Review**: review mới phải có `Full-Read Coverage` phủ toàn bộ chapter hiện tại và trích dẫn span `Lx-Ly` nguyên văn; dùng `scripts/review-guard.py`.
+- **Verifier-bound completion**: có verifier thì Agent không được tự tuyên bố phase hoàn tất nếu artifact/verifier tương ứng chưa PASS.
+- **Không quan liêu hóa manuscript**: cấm thêm chapter SHA, content hash, immutable revision lock, automatic rollback hoặc metadata bắt buộc cho author edit.
