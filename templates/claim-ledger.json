@@ -9,7 +9,7 @@
         "EV-XX-001"
       ],
       "durability": "durable",
-      "promotion": "eligible",
+      "promotion": "author_approval_required",
       "reasoning": ""
     },
     {

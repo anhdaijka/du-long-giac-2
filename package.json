@@ -23,6 +23,7 @@
     "lint:prose": "python scripts/meta-leakage-scanner.py",
     "claim:check": "python scripts/claim-guard.py --all",
     "review:check": "python scripts/review-guard.py",
+    "reliability:test": "python scripts/reliability-test.py",
     "os:doctor": "node scripts/os-doctor.mjs",
     "capabilities": "node scripts/capabilities.mjs",
     "upstreams:check": "node scripts/check-upstreams.mjs",

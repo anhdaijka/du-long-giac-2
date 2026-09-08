@@ -21,7 +21,7 @@ ALLOWED_STATUSES = {
     "NOVELIZATION_BRIDGE",
 }
 ALLOWED_DURABILITY = {"ephemeral", "durable"}
-ALLOWED_PROMOTION = {"eligible", "author_approval_required", "blocked"}
+ALLOWED_PROMOTION = {"author_approval_required", "blocked"}
 EV_ID_RE = re.compile(r"^EV-[A-Za-z0-9_-]+$")
 CL_ID_RE = re.compile(r"^CL-[A-Za-z0-9_-]+$")
 
@@ -140,25 +140,30 @@ def validate_claims(
             errors.append(f"{where}: reasoning must be a string when present")
             reasoning = ""
 
-        if status == "DIRECT_SOURCE" and not refs:
-            errors.append(f"{where}: DIRECT_SOURCE requires at least one evidence ID")
+        if status == "DIRECT_SOURCE":
+            if not refs:
+                errors.append(f"{where}: DIRECT_SOURCE requires at least one evidence ID")
+            if promotion != "author_approval_required":
+                errors.append(
+                    f"{where}: DIRECT_SOURCE still requires author approval before canon promotion"
+                )
 
         if status == "SOURCE_SUPPORTED_INFERENCE":
             if not refs:
                 errors.append(f"{where}: SOURCE_SUPPORTED_INFERENCE requires evidence")
             if not isinstance(reasoning, str) or not reasoning.strip():
                 errors.append(f"{where}: SOURCE_SUPPORTED_INFERENCE requires non-empty reasoning")
-            if promotion == "eligible":
+            if promotion != "author_approval_required":
                 errors.append(
-                    f"{where}: inference cannot be automatically eligible; use author_approval_required"
+                    f"{where}: SOURCE_SUPPORTED_INFERENCE requires author_approval_required"
                 )
 
         if status == "UNRESOLVED" and promotion != "blocked":
             errors.append(f"{where}: UNRESOLVED claims must use promotion='blocked'")
 
-        if status in {"ADAPTATION_DECISION", "NOVELIZATION_BRIDGE"} and promotion == "eligible":
+        if status in {"ADAPTATION_DECISION", "NOVELIZATION_BRIDGE"} and promotion != "author_approval_required":
             errors.append(
-                f"{where}: {status} cannot be automatically eligible; author approval is required"
+                f"{where}: {status} requires author_approval_required before durable canon promotion"
             )
 
         if durability == "durable" and status == "UNRESOLVED":

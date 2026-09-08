@@ -30,6 +30,8 @@ jobs:
           node-version: 20
       - name: Install pinned skills locally
         run: npm run bootstrap -- --clean
+      - name: Run Reliability Layer v2 regression guards
+        run: npm run reliability:test
       - name: Run mechanical stress fixture
         run: npm run stress:test
       - name: Run full authoring lifecycle fixture
