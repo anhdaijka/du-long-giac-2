@@ -25,7 +25,7 @@
     "claim:check": "python scripts/claim-guard.py --all",
     "review:check": "python scripts/review-guard.py --all-v2",
     "state:check": "python scripts/state-commit-guard.py",
-    "reliability:test": "python scripts/reliability-test.py && python scripts/evidence-test.py && python scripts/state-commit-test.py",
+    "reliability:test": "python scripts/reliability-test.py && python scripts/evidence-test.py && python scripts/claim-approval-test.py && python scripts/state-commit-test.py",
     "os:doctor": "node scripts/os-doctor.mjs",
     "capabilities": "node scripts/capabilities.mjs",
     "upstreams:check": "node scripts/check-upstreams.mjs",
