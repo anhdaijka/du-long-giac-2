@@ -116,9 +116,11 @@ def assert_code(label: str, result: subprocess.CompletedProcess[str], expected: 
     print(f"[PASS] {label}")
 
 
-def write_diff(root: Path, approved: bool) -> None:
+def write_diff(root: Path, approved: bool, *, durable_paths: list[str] | None = None) -> None:
     mark = "x" if approved else " "
-    text = f"""# Canon Diff\n\n## 9. Quyết Định & Chỉ Thị Của Tác Giả (Cổng Dừng Cứng 3)\n\n- [{mark}] Phê chuẩn toàn văn Đề xuất Canon Diff Chương 10.\n"""
+    durable_paths = ["characters/hero.md"] if durable_paths is None else durable_paths
+    declared = "\n".join(f"- `{path}`" for path in durable_paths)
+    text = f"""# Canon Diff\n\n## Durable Files Covered\n\n{declared}\n\n## 9. Quyết Định & Chỉ Thị Của Tác Giả (Cổng Dừng Cứng 3)\n\n- [{mark}] Phê chuẩn toàn văn Đề xuất Canon Diff Chương 10.\n"""
     (root / "revisions" / "chapter_10_canon_diff.md").write_text(text, encoding="utf-8")
 
 
@@ -149,6 +151,15 @@ def scenario_state_unapproved(root: Path) -> None:
     write_diff(root, approved=False)
     commit_all(root, "propose unapproved state")
     assert_code("unchecked canon diff cannot authorize state write", run_guard(root, base), 1)
+
+
+def scenario_approved_diff_wrong_scope(root: Path) -> None:
+    base = init_repo(root)
+    (root / "characters" / "hero.md").write_text("new durable state\n", encoding="utf-8")
+    write_diff(root, approved=True, durable_paths=["plot/timeline.md"])
+    write_review(root, approved=True)
+    commit_all(root, "piggyback state outside approved diff scope")
+    assert_code("durable file must be named in an approved changed canon diff", run_guard(root, base), 1)
 
 
 def scenario_approved_diff_missing_review(root: Path) -> None:
@@ -184,7 +195,7 @@ def scenario_state_approved(root: Path) -> None:
     write_review(root, approved=True)
     commit_all(root, "apply reviewed approved state")
     assert_code(
-        "checked canon diff + approved full review + claim contract authorize state promotion",
+        "checked canon diff + declared path + approved full review + claim contract authorize state promotion",
         run_guard(root, base),
         0,
     )
@@ -195,6 +206,7 @@ def main() -> int:
         scenario_prose_only,
         scenario_state_without_diff,
         scenario_state_unapproved,
+        scenario_approved_diff_wrong_scope,
         scenario_approved_diff_missing_review,
         scenario_review_not_approved,
         scenario_changed_chapter_stale_review,
@@ -204,7 +216,7 @@ def main() -> int:
         with tempfile.TemporaryDirectory(prefix="novel-os-state-guard-") as temp:
             scenario(Path(temp))
 
-    print("\n[STATE-COMMIT TEST PASS] Forward-only reviewed canon-promotion behavior is locked.")
+    print("\n[STATE-COMMIT TEST PASS] Forward-only reviewed canon-promotion and path-coverage behavior is locked.")
     return 0
 
 
