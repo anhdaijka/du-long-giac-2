@@ -1,0 +1,64 @@
+{
+  "chapter": "09",
+  "evidence": [
+    {
+      "evidence_id": "EV-09-001",
+      "source_kind": "sqlite.tasks",
+      "locator": {
+        "task_id": 157
+      },
+      "field": "name",
+      "excerpt": "Thân Thế Chi Mê",
+      "match": "exact_normalized",
+      "notes": "Task 157 title. This directly tests the chapter/brief provenance label against the source database."
+    },
+    {
+      "evidence_id": "EV-09-002",
+      "source_kind": "sqlite.subtasks",
+      "locator": {
+        "task_id": 157,
+        "subtask_id": 320
+      },
+      "field": "describe_cleaned",
+      "excerpt": "Cuối cùng tìm được Giới sư phụ trong doanh trại cường tặc, nhưng ông ta lại có vẻ lo lắng, đã xảy ra chuyện gì?",
+      "match": "contains_normalized",
+      "notes": "Subtask 320 — Cơ Quan Đại Sư. Candidate excerpt copied from the strict-provenance Narrative Book; Evidence Guard must confirm it against SQLite."
+    },
+    {
+      "evidence_id": "EV-09-003",
+      "source_kind": "sqlite.subtasks",
+      "locator": {
+        "task_id": 157,
+        "subtask_id": 321
+      },
+      "field": "describe_cleaned",
+      "excerpt": "Bạch Cương bị truy sát, xảy ra cùng lúc với việc nghĩa quân phản đồ phá hoại cơ quan thủy lưu, e là bọn tặc nhân muốn ta chú ý.",
+      "match": "contains_normalized",
+      "notes": "Subtask 321 — Người Mất Tích. Candidate excerpt copied from the strict-provenance Narrative Book; Evidence Guard must confirm it against SQLite."
+    },
+    {
+      "evidence_id": "EV-09-004",
+      "source_kind": "sqlite.subtasks",
+      "locator": {
+        "task_id": 157,
+        "subtask_id": 322
+      },
+      "field": "describe_cleaned",
+      "excerpt": "Thích khách bên ngoài đã bị ta tiêu diệt phân nửa, nhưng tiếp viện cứ kéo đến, tướng mạo lại quái dị, không giống nhân sĩ Trung Nguyên.",
+      "match": "contains_normalized",
+      "notes": "Subtask 322 — Chung Trừng Nguyên Hung. This does not by itself identify a single organization."
+    },
+    {
+      "evidence_id": "EV-09-005",
+      "source_kind": "sqlite.subtasks",
+      "locator": {
+        "task_id": 157,
+        "subtask_id": 323
+      },
+      "field": "describe_cleaned",
+      "excerpt": "Nhiệm vụ hiện tại là truy tìm mảnh trục cuốn, lấy ra sấm thi!",
+      "match": "contains_normalized",
+      "notes": "Subtask 323 — Nhất Ngữ Thành Sấm. Candidate excerpt copied from the strict-provenance Narrative Book; Evidence Guard must confirm it against SQLite."
+    }
+  ]
+}

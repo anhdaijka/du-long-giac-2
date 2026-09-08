@@ -2,6 +2,8 @@
 
 > **Cơ quan quản lý**: Novel OS State Ledger  
 > **Trạng thái**: Chờ Tác giả xem xét và phê chuẩn trước khi commit vào Sổ cái trạng thái bền vững (Cổng Dừng 3).
+>
+> **Path coverage**: mọi file bền vững thực sự sẽ sửa dưới `characters/`, `worldbuilding/`, hoặc `plot/` phải xuất hiện bằng **đúng repository-relative path** ở ít nhất một `Index:`/section trong Canon Diff này. Không cần lập thêm một sổ danh sách trùng lặp; chỉ cần giữ các `Index:` bên dưới chính xác và bổ sung section cho bất kỳ durable file nào ngoài mẫu.
 
 ---
 

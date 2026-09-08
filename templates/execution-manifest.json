@@ -1,0 +1,53 @@
+{
+  "manifest_id": "chapter_XX_execution",
+  "scope": "chapter_XX",
+  "deliverables": [
+    {
+      "id": "D01",
+      "description": "Prepare source-grounded Evidence Packet",
+      "requires": [],
+      "checks": [
+        {
+          "type": "file_nonempty",
+          "path": "research/evidence/chapter_XX.json"
+        },
+        {
+          "type": "evidence",
+          "chapter": "XX"
+        }
+      ]
+    },
+    {
+      "id": "D02",
+      "description": "Prepare Claim Ledger with explicit epistemic classification",
+      "requires": [
+        "D01"
+      ],
+      "checks": [
+        {
+          "type": "file_nonempty",
+          "path": "research/claims/chapter_XX.json"
+        },
+        {
+          "type": "claim",
+          "chapter": "XX"
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "description": "Produce current-manuscript full-read review",
+      "requires": [
+        "D02"
+      ],
+      "checks": [
+        {
+          "type": "review",
+          "chapter": "XX",
+          "review": "reviews/chapter_XX_review_v2.md",
+          "require_approval": false
+        }
+      ]
+    }
+  ]
+}

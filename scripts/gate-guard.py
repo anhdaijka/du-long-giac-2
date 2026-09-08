@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 """
-Gate Guard: Programmatic enforcement of Novel-OS 3 Hard-Stop Gates.
-Verifies that no chapter manuscript exists without an approved Chapter Brief and Review Report.
+Gate Guard: legacy repository gate-shape checks plus temporal/lore helpers.
+
+Important Reliability v2 boundary:
+- this file does NOT prove semantic review completeness;
+- this file does NOT prove new durable-state approval;
+- forward-only durable state approval is enforced by state-commit-guard.py;
+- v2 full-read review structure is enforced by review-guard.py.
 """
 import os
 import re
@@ -43,33 +48,37 @@ def check_gates():
         if not os.path.exists(review_file):
             review_file = os.path.join(REVIEWS_DIR, f"chapter_{base_num}_review.md")
 
-        print(f"=== CHECKING GATES FOR CHAPTER {ch_str} ===")
+        print(f"=== CHECKING LEGACY GATE SHAPE FOR CHAPTER {ch_str} ===")
 
-
-        # Check 1: Brief existence
+        # Check 1: Brief existence + recorded approval marker.
         if not os.path.exists(brief_file):
             errors.append(f"[GATE-FAIL] Chapter {ch_str} has manuscript ({cf}) but MISSING Chapter Brief ({brief_file})!")
         else:
-            # Check if brief is approved
             with open(brief_file, "r", encoding="utf-8") as bf:
                 brief_content = bf.read()
                 if "- [x] plan approved" not in brief_content and "[x] plan approved" not in brief_content:
                     errors.append(f"[GATE-FAIL] Chapter {ch_str} brief exists but is NOT APPROVED by Author! (Missing '- [x] plan approved')")
                 else:
-                    print(f"  [PASS] Hard Stop 1 (Brief approved): {brief_file}")
+                    print(f"  [PASS] Recorded Brief approval marker present: {brief_file}")
 
-        # Check 2: Review report existence & 5-Gate runner validation
+        # Check 2: Legacy review-file shape only.
+        # This does NOT prove a full semantic/full-read review. v2 reviews use review-guard.py.
         if not os.path.exists(review_file):
             errors.append(f"[GATE-FAIL] Chapter {ch_str} has manuscript ({cf}) but MISSING Review Report ({review_file})!")
         else:
             with open(review_file, "r", encoding="utf-8") as rf:
                 rev_content = rf.read()
                 if "Gate A" not in rev_content or "Gate D" not in rev_content:
-                    errors.append(f"[GATE-FAIL] Review Report ({review_file}) is incomplete! Missing 5-Gate Review Runner structure.")
+                    errors.append(f"[GATE-FAIL] Review Report ({review_file}) is incomplete! Missing legacy Gate A/Gate D structure.")
                 else:
-                    print(f"  [PASS] Hard Stop 2 (Review report verified): {review_file}")
+                    print(
+                        f"  [PASS] Legacy review shape present: {review_file} "
+                        "(not semantic/full-read verification)"
+                    )
 
-        # Check 3: Supporting Cast Protocol in Canon Diff (4-Pillar State Commitment Protocol)
+        # Check 3: Legacy Canon Diff shape only.
+        # This checks the historical 4-pillar/supporting-cast convention, NOT Author approval.
+        # New state writes are approval-gated by state-commit-guard.py.
         diff_file = os.path.join(REVISIONS_DIR, f"chapter_{ch_str}_canon_diff.md")
         if not os.path.exists(diff_file):
             diff_file = os.path.join(REVISIONS_DIR, f"chapter_{base_num}_canon_diff.md")
@@ -77,9 +86,12 @@ def check_gates():
             with open(diff_file, "r", encoding="utf-8") as df:
                 diff_content = df.read()
                 if "supporting_cast.md" not in diff_content:
-                    errors.append(f"[GATE-FAIL] Canon Diff ({diff_file}) VIOLATES Gate 3: Missing mandatory 'characters/supporting_cast.md' update/audit section!")
+                    errors.append(f"[GATE-FAIL] Canon Diff ({diff_file}) violates legacy 4-pillar shape: missing 'characters/supporting_cast.md' update/audit section!")
                 else:
-                    print(f"  [PASS] Hard Stop 3 (Supporting Cast in Diff): {diff_file}")
+                    print(
+                        f"  [PASS] Legacy Canon Diff shape includes supporting_cast.md: {diff_file} "
+                        "(not Author-approval proof)"
+                    )
 
     if errors:
         print("\n[GATE-GUARD FAILED] Violations detected:")
@@ -87,26 +99,29 @@ def check_gates():
             print(f"  - {err}")
         return 1
 
-    print("\n[GATE-GUARD PASS] All chapter manuscripts comply strictly with Novel-OS Hard-Stop Gates!")
-    
+    print(
+        "\n[GATE-GUARD PASS] Legacy artifact-shape checks passed. "
+        "This does not certify semantic review or new durable-state approval."
+    )
+
     # Run Lore Guard scan
-    print("\n--- Running Programmatic Lore Guard Scan ---")
+    print("\n--- Running Programmatic Lore Regression Scan ---")
     try:
         import subprocess
         lore_res = subprocess.run([sys.executable, "scripts/lore-guard.py", "--scan"], capture_output=False)
         if lore_res.returncode != 0:
-            print("\n[GATE-GUARD FAILED] Lore Guard detected violations in project files!")
+            print("\n[GATE-GUARD FAILED] Lore regression scanner detected encoded violations in project files!")
             return 1
     except Exception as e:
         print(f"[GATE-GUARD WARNING] Could not run lore-guard: {e}")
 
     # Run Lore Grounder check
-    print("\n--- Running Programmatic Lore Grounder Check ---")
+    print("\n--- Running Entity Grounder Check ---")
     try:
         import subprocess
         grounder_res = subprocess.run([sys.executable, "scripts/lore-grounder.py", "--all"], capture_output=False)
         if grounder_res.returncode != 0:
-            print("\n[GATE-GUARD FAILED] Lore Grounder detected critical grounding errors!")
+            print("\n[GATE-GUARD FAILED] Lore Grounder detected critical entity-grounding errors!")
             return 1
     except Exception as e:
         print(f"[GATE-GUARD WARNING] Could not run lore-grounder: {e}")
@@ -138,7 +153,6 @@ def check_temporal_continuity():
 
             # Check age consistency in Volume 1
             for char_name, exp_age in expected_ages_v1.items():
-                # Check for wrong age like "Tĩnh Xuyên (20 tuổi)"
                 wrong_age_matches = re.findall(rf"{char_name}\s*[\(—–\s]*(\d+)\s*tuổi", content, re.IGNORECASE)
                 for age_str in wrong_age_matches:
                     age_val = int(age_str)
@@ -148,7 +162,6 @@ def check_temporal_continuity():
                             f"expected {exp_age} tuổi in Volume 1 (1191) per plot/chronology_matrix.md!"
                         )
 
-            # Check for pov_age field in YAML frontmatter if present
             pov_age_match = re.search(r"pov_age:\s*(\d+)", content)
             pov_match = re.search(r"pov:\s*[\"']?([^\"'\n\r]+)[\"']?", content)
             if pov_age_match and pov_match:

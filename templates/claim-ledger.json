@@ -1,0 +1,27 @@
+{
+  "chapter": "XX",
+  "claims": [
+    {
+      "claim_id": "CL-XX-001",
+      "claim": "<explicit proposition, not merely an entity name>",
+      "epistemic_status": "DIRECT_SOURCE",
+      "evidence": [
+        "EV-XX-001"
+      ],
+      "durability": "durable",
+      "promotion": "author_approval_required",
+      "reasoning": ""
+    },
+    {
+      "claim_id": "CL-XX-002",
+      "claim": "<source-supported interpretation that is not stated directly>",
+      "epistemic_status": "SOURCE_SUPPORTED_INFERENCE",
+      "evidence": [
+        "EV-XX-001"
+      ],
+      "durability": "durable",
+      "promotion": "author_approval_required",
+      "reasoning": "<why the cited evidence supports this inference>"
+    }
+  ]
+}

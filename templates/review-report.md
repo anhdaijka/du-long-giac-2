@@ -1,7 +1,7 @@
 # Báo Cáo Thẩm Định Bản Thảo: Chương [XX] — [Tên Chương]
 ## Giao Thức Đánh Giá Phản Biện Đối Kháng (Adversarial Red-Team Review Report)
 
-> **Cơ sở thẩm định**: Kế thừa trực tiếp từ [Rule 05: Review](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/.agents/rules/05-review.md), [Rule 11: Prose Quality Contract](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/.agents/rules/11-prose-quality-contract.md), và [Author Wuxia Aesthetic Rubric](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/worldbuilding/style/author_wuxia_rubric.md).
+> **Nguyên tắc Reliability v2**: Reviewer phải đọc lại **bản chapter hiện tại trong repository** từ đầu đến cuối. Review cũ, chat memory, draft cũ hoặc kết quả linter không thay thế cho việc đọc toàn văn hiện tại.
 
 ---
 
@@ -11,83 +11,135 @@
 - **Nhân vật POV**: [Tiêu Phùng / Tĩnh Xuyên / Hạ Nương] ([Độ tuổi] tuổi)
 - **Mốc thời gian**: [YYYY-MM-DD] (Khớp `plot/timeline.md`)
 - **Dung lượng từ**: [Số từ] từ (Dải vàng: 4.000 – 4.800 từ; Sàn cứng: 3.500 từ; Trần mềm: 5.200 từ)
-- **Mã nguồn Engine KT2 (Provenance)**: `Task [ID]: Subtask [ID]` (Đối chiếu SQLite `story_database.sqlite3`)
-- **Bộ kiểm thử tự động**:
-  - `npm run lint:prose`: [PASS / FAIL] (0 rò rỉ meta, 0 từ cấm tiên hiệp/convert)
-  - `python scripts/lore-guard.py --scan`: [PASS / FAIL] (0 vi phạm lore/phả hệ)
-  - `python scripts/lore-grounder.py --chapter chapters/chapter_XX.md`: [PASS / FAIL] (100% thực thể được ground trong database và sổ cái)
+- **Mã nguồn Engine KT2 (Provenance)**: `Task [ID]: Subtask [ID]`
+- **Evidence / Claim packet**:
+  - `research/evidence/chapter_XX.json`: [PRESENT / NOT YET REQUIRED]
+  - `research/claims/chapter_XX.json`: [PRESENT / NOT YET REQUIRED]
+  - `python scripts/claim-guard.py --chapter XX`: [PASS / FAIL / NOT RUN]
+- **Bộ kiểm thử cơ học**:
+  - `npm run lint:prose`: [PASS / FAIL] — lexical/meta/style-pattern scan, **không phải semantic prose approval**
+  - `python scripts/lore-guard.py --scan`: [PASS / FAIL] — known-regression scan, **không phải Zero Hallucination proof**
+  - `python scripts/lore-grounder.py --chapter chapters/chapter_XX.md`: [PASS / WARN] — entity plausibility, **không chứng minh relation/event claims**
 
 ---
 
-## 2. Thẩm Định Độc Lập 5 Cổng Duyệt (SOLID 5-Gate Review Runner)
+## 2. Full-Read Coverage — Bắt Buộc
 
-### Gate A: Minimal Hard Regression, Provenance Lock & Closed-World Grounding
-- **Mã nguồn Engine KT2**: [Khớp nối 1-1 với Subtask nào trong database? Có tình tiết bịa đặt ngoài luồng không?]
-- **Kiểm định Không - Thời gian (Rule TC-1 đến TC-4)**: [Mốc ngày tháng, tuổi nhân vật, độ trễ di chuyển từ travel_matrix.md]
-- **Kiểm định Thực thể Đóng (Closed-World Assumption)**: [Toàn bộ NPC xuất hiện có nằm trong `supporting_cast.md` / `genealogy_matrix.md` hoặc đã được duyệt tại Chapter Brief không?]
-- **Trạng thái**: **[PASS / FAIL]**
+> Mỗi range tối đa 120 dòng. Các range phải phủ **toàn bộ file chapter hiện tại từ L1 đến EOF** và mỗi range phải có ít nhất một quan sát cụ thể. Không dùng một range khổng lồ để tự chứng nhận đã đọc.
 
-### Gate B: Blind Reader, Narrative Propulsion & Dramatic Arc
-- **Nhịp điệu kịch tính (Pacing)**: [Phát triển tự nhiên hay đốt cháy giai đoạn? Có khoảng lặng nhân gian / thế tục yên hỏa khí không?]
-- **Xung đột & Áp lực**: [Nhân vật hành động vì mục tiêu sinh tồn hay đóng vai công cụ?]
-- **Trạng thái**: **[PASS / FAIL]**
+- `L1-L[XX]` — [Quan sát cụ thể về opening, POV, causality, voice hoặc lỗi phát hiện trong chính range này]
+- `L[XX+1]-L[YY]` — [Quan sát cụ thể]
+- `L[YY+1]-L[ZZ]` — [Quan sát cụ thể]
+- [Thêm range cho đến EOF]
 
-### Gate C: Character Agency, Martial Progression & Ongoing Injury Constraints
-- **Tầng võ học (Bounded Martial Majesty)**: [Đòn thế tuân thủ cơ sinh học, có biến chiêu/phá chiêu; tuyệt đối 0 tiên hiệp/linh hồn/uy áp]
-- **Kỷ luật Thương tật (`injuries_ledger.md`)**: [Các chấn thương từ chương trước có gây đau đớn, hạn chế bước chân/hơi thở ở chương này không? Cấm tuyệt đối lành lặn tức thì]
-- **Trạng thái**: **[PASS / FAIL]**
+Kiểm tra cấu trúc:
 
-### Gate D: Voice, Rhetoric & Author Creative Register
-- **Lời dẫn (Narrator Text - Kỷ luật Khắt khe)**:
-  - Pure Show-Don't-Tell: [Có dán nhãn tâm lý hay kể lể `đó là`, `đây là`, `chàng hiểu rằng` không?]
-  - Camera Hạn Tri (Limited POV): [Có head-hopping sang đầu nhân vật khác không?]
-- **Lời thoại (Dialogue Text - Tôn Vinh Sáng Tạo)**:
-  - Khẩu khí nhân vật POV: [Có đúng chất bắng nhắng/tự trào của Tiêu Phùng, kỷ luật sa trường của Tĩnh Xuyên, hay y lý thực chứng của Hạ Nương?]
-  - Điểm chạm trào lộng (Mo Lei Tau 25% / Gintama 10%): [Có chi tiết hài hước trái khoáy, võ đường phố thực dụng, hay chuyển ngữ đương đại sang áo cổ phong không?]
-- **Trạng thái**: **[PASS / FAIL]**
-
-### Gate E: Word Count Band & Substantiality
-- **Dung lượng**: [Số từ] từ $\rightarrow$ **[PASS / FAIL]**
+```bash
+python scripts/review-guard.py --chapter-number XX
+```
 
 ---
 
-## 3. Bằng Chứng Trích Xuất Nguyên Văn (Mandatory Evidence Spans)
+## 3. Thẩm Định Độc Lập 5 Cổng Duyệt
 
-> ⚠️ *Bắt buộc trích dẫn tối thiểu 4 spans nguyên bản kèm số dòng cụ thể để bài trừ hiện tượng nhận xét chung chung/ảo tưởng tuân thủ.*
+### Gate A: Provenance, Claim Grounding & Continuity
 
-1. **Span 1: Khẩu khí độc bản nhân vật (Character Sociolect)**:
-   - **Vị trí**: Dòng [XX] – [YY]
-   - **Trích đoạn**: *“...”*
-   - **Phân tích**: [Chứng minh rõ tính cách bắng nhắng/quân lệnh/y lý của nhân vật POV]
+- **Provenance**: [Task/Subtask nào thực sự support các sự kiện cốt lõi?]
+- **Claim audit**: [Claim nào DIRECT_SOURCE? inference? unresolved? bridge? Có entity đúng nhưng relation chưa được source support không?]
+- **Không-thời gian**: [Ngày tháng, tuổi, travel/information latency]
+- **Epistemic boundary**: [POV có biết đúng những gì đã được reveal không?]
+- **Trạng thái**: **[PASS / FAIL]**
 
-2. **Span 2: Chi tiết đời sống dân sinh / Hài hước Mo Lei Tau (Living Texture & Subversion)**:
-   - **Vị trí**: Dòng [XX] – [YY]
-   - **Trích đoạn**: *“...”*
-   - **Phân tích**: [Chứng minh hơi thở thế tục yên hỏa khí hoặc cú bẻ lái trào lộng thực dụng]
+### Gate B: Blind Reader, Narrative Propulsion & Genre Discipline
 
-3. **Span 3: Giới hạn sinh học / Cản trở của thương tật (Injury Impact)**:
-   - **Vị trí**: Dòng [XX] – [YY]
-   - **Trích đoạn**: *“...”*
-   - **Phân tích**: [Chứng minh sự đau đớn thể xác thực tế theo injuries_ledger.md, không có plot armor]
+- **Nhịp điệu**: [Có rush quest / exposition dump / filler không?]
+- **Causality**: [Hành động có phát sinh tự nhiên từ mục tiêu và áp lực không?]
+- **Living texture**: [Dân sinh có phục vụ cảnh hay chỉ trang trí?]
+- **Trạng thái**: **[PASS / FAIL]**
 
-4. **Span 4: Cảnh ngụ tình / Dư ba kết chương (Poetic Resonance Closure)**:
-   - **Vị trí**: Dòng [XX] – [YY]
-   - **Trích đoạn**: *“...”*
-   - **Phân tích**: [Chứng minh cái kết tĩnh lặng, không có đại ngôn sáo rỗng hay triết lý giáo điều]
+### Gate C: Character Agency, Martial Progression & Injury Constraints
+
+- **Agency**: [Nhân vật chủ động theo đuổi mục tiêu hay chỉ làm công cụ chuyển quest?]
+- **Võ học**: [Có vượt tier / plot armor / đòn thế vô căn cứ không?]
+- **Thương tật**: [Vết thương hiện hữu có tạo giới hạn vật lý thật không?]
+- **Trạng thái**: **[PASS / FAIL]**
+
+### Gate D: Voice, Show-vs-Tell & Creative Register
+
+- **Narrator**: [Có recap, psychological labeling, explanatory scaffold, head-hopping không?]
+- **Character voice**: [Khẩu khí có phân biệt đúng nhân vật không?]
+- **Comedy execution**: [Setup → misdirection → payoff → afterbeat có hoạt động không? Narrator có giải thích punchline làm mất bất ngờ không?]
+- **65/25/10**: [Đánh giá bằng hành vi quan sát được, không đếm vài câu joke rồi suy ra tỷ lệ]
+- **Trạng thái**: **[PASS / FAIL]**
+
+### Gate E: Substantiality & Word Count
+
+- **Dung lượng**: [Số từ]
+- **Nếu vượt trần**: [Có lý do nghệ thuật thực sự hay đang nhồi/không chịu split?]
+- **Nếu dưới sàn**: [Thiếu chiều sâu ở đâu?]
+- **Trạng thái**: **[PASS / FAIL]**
 
 ---
 
-## 4. Phát Hiện Của Biên Tập Viên Đối Kháng (Adversarial Findings)
+## 4. Bằng Chứng Trích Xuất Nguyên Văn — Bắt Buộc
 
-### Mức độ Nghiêm trọng (Critical / Major / Minor)
-- **Critical (Lỗi chặn)**: [Head-hopping, bịa fact không có trong database, quên thương tật, rò rỉ meta]
-- **Major (Lỗi lớn)**: [Văn phong convert thô, thiếu nhịp thở nhân vật, đòn thế phi lý]
-- **Minor (Lỗi nhỏ)**: [Từ ngữ lặp lại, lỗi chính tả]
-- **Optional**: [Gợi ý nâng cao độ sắc sảo]
+> Tối thiểu 4 spans. `review-guard.py` sẽ kiểm tra range nằm trong **chapter hiện tại** và trích đoạn có xuất hiện thật trong range đó. Hãy dùng nguyên văn, không paraphrase.
+
+1. **Span 1 — Khẩu khí / Agency nhân vật**
+   - **Vị trí**: `L[XX]-L[YY]`
+   - **Trích đoạn**: [dán nguyên văn một đoạn liên tục từ range]
+   - **Phân tích**: [Điều span này chứng minh hoặc làm lộ ra]
+
+2. **Span 2 — Living texture / Comedy execution**
+   - **Vị trí**: `L[XX]-L[YY]`
+   - **Trích đoạn**: [nguyên văn]
+   - **Phân tích**: [Có show hay narrator đang giải thích? Punchline có được để tự rơi không?]
+
+3. **Span 3 — Injury / Physical constraint / Martial reality**
+   - **Vị trí**: `L[XX]-L[YY]`
+   - **Trích đoạn**: [nguyên văn]
+   - **Phân tích**: [Đối chiếu injuries ledger / martial tier]
+
+4. **Span 4 — Ending resonance / Concrete closure**
+   - **Vị trí**: `L[XX]-L[YY]`
+   - **Trích đoạn**: [nguyên văn]
+   - **Phân tích**: [Dư ba có đến từ hình ảnh/hành động hay narrator thuyết minh ý nghĩa?]
 
 ---
 
-## 5. Kết Luận & Phán Quyết (Verdict)
+## 5. Phát Hiện Của Biên Tập Viên Đối Kháng
+
+Mỗi finding phải có:
+
+- **severity**: `critical | major | minor | optional`
+- **location**: `Lx-Ly`
+- **context_type**: `NARRATOR | DIALOGUE`
+- **problem**: lỗi cụ thể
+- **why_it_matters**: tác động đến độc giả/canon/craft
+- **evidence**: nguyên văn
+- **recommended_intervention**: sửa ở phạm vi nhỏ nhất hợp lý
+
+### Findings
+
+1. [Finding cụ thể]
+2. [Finding cụ thể]
+3. [...]
+
+Không bắt buộc phải tìm lỗi cho đủ số lượng. Nhưng **cấm** kết luận PASS chung chung nếu chưa chứng minh bằng coverage + spans + phân tích semantic.
+
+---
+
+## 6. Kết Luận & Phán Quyết
 
 - **Phán quyết**: **[APPROVED / REVISE_REQUIRED]**
-- **Đề xuất bước tiếp theo**: [Nếu APPROVED $\rightarrow$ Lập Canon Diff Cổng Dừng 3; nếu REVISE_REQUIRED $\rightarrow$ Chỉ định dòng cần sửa]
+- **Critical còn mở**: [0 / số lượng]
+- **Major còn mở**: [0 / số lượng]
+- **Đề xuất bước tiếp theo**:
+  - `APPROVED` → trình Tác giả tại Hard Stop 2; chỉ sau khi Tác giả duyệt mới chuẩn bị Canon Diff.
+  - `REVISE_REQUIRED` → sửa đúng findings, sau đó **đọc lại current chapter** và review lại các vùng bị ảnh hưởng.
+
+Khi cần xác nhận cấu trúc review đã đủ để trình duyệt:
+
+```bash
+python scripts/review-guard.py --chapter-number XX --require-approval
+```

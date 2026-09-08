@@ -3,7 +3,21 @@ name: Novel OS stress
 on:
   push:
     paths:
+      - 'chapters/**'
+      - 'briefs/**'
       - 'scripts/**'
+      - 'research/evidence/**'
+      - 'research/claims/**'
+      - 'reviews/**'
+      - 'revisions/**'
+      - 'execution/**'
+      - 'characters/**'
+      - 'worldbuilding/**'
+      - 'plot/**'
+      - 'templates/**'
+      - '.agents/rules/**'
+      - 'docs/reliability-layer-v2.md'
+      - 'GEMINI.md'
       - 'examples/phase3-lifecycle/**'
       - 'evals/**'
       - 'config/upstreams.json'
@@ -11,7 +25,21 @@ on:
       - '.github/workflows/novel-os-stress.yml'
   pull_request:
     paths:
+      - 'chapters/**'
+      - 'briefs/**'
       - 'scripts/**'
+      - 'research/evidence/**'
+      - 'research/claims/**'
+      - 'reviews/**'
+      - 'revisions/**'
+      - 'execution/**'
+      - 'characters/**'
+      - 'worldbuilding/**'
+      - 'plot/**'
+      - 'templates/**'
+      - '.agents/rules/**'
+      - 'docs/reliability-layer-v2.md'
+      - 'GEMINI.md'
       - 'examples/phase3-lifecycle/**'
       - 'evals/**'
       - 'config/upstreams.json'
@@ -25,11 +53,43 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - name: Install pinned skills locally
         run: npm run bootstrap -- --clean
+      - name: Run Reliability Layer v2 regression guards
+        run: npm run reliability:test
+      - name: Run lexical prose scan
+        run: npm run lint:prose
+      - name: Run legacy gate-shape, temporal, and entity checks
+        run: npm run gate:check
+      - name: Verify registered SQLite evidence
+        run: npm run evidence:check
+      - name: Verify registered claim contracts
+        run: npm run claim:check
+      - name: Verify v2 review contracts
+        run: npm run review:check
+      - name: Validate execution manifest contracts
+        run: npm run execution:check
+      - name: Prove Reliability v2 MVP execution is complete
+        run: npm run execution:complete -- --manifest execution/reliability-layer-v2.json
+      - name: Verify forward-only durable state writes
+        env:
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PUSH_BASE_SHA: ${{ github.event.before }}
+        run: |
+          BASE="${PR_BASE_SHA:-$PUSH_BASE_SHA}"
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+            BASE="$(git rev-parse HEAD^ 2>/dev/null || true)"
+          fi
+          if [ -z "$BASE" ]; then
+            echo "[STATE-COMMIT-GUARD] No usable base commit; no forward changeset to inspect."
+          else
+            npm run state:check -- --base "$BASE"
+          fi
       - name: Run mechanical stress fixture
         run: npm run stress:test
       - name: Run full authoring lifecycle fixture
