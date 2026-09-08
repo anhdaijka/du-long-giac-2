@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Structural epistemic verifier for Novel OS Reliability Layer v2.
 
-This tool validates Evidence Packets and Claim Ledgers. It deliberately does
-NOT claim that cited evidence semantically proves a claim.
+Validates Evidence Packet / Claim Ledger structure and requires SQLite evidence
+to pass Evidence Guard. It deliberately does NOT claim that cited evidence
+semantically proves a claim.
 """
 from __future__ import annotations
 
@@ -12,6 +13,8 @@ import re
 import sys
 from pathlib import Path
 from typing import Any
+
+from evidence_guard import validate_packet_data
 
 ALLOWED_STATUSES = {
     "DIRECT_SOURCE",
@@ -27,25 +30,28 @@ CL_ID_RE = re.compile(r"^CL-[A-Za-z0-9_-]+$")
 
 
 def load_json(path: Path) -> tuple[dict[str, Any] | None, list[str]]:
-    errors: list[str] = []
     if not path.is_file():
         return None, [f"Missing file: {path}"]
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
-        return None, [f"{path}: invalid JSON at line {exc.lineno}, column {exc.colno}: {exc.msg}"]
+        return None, [
+            f"{path}: invalid JSON at line {exc.lineno}, column {exc.colno}: {exc.msg}"
+        ]
     if not isinstance(data, dict):
         return None, [f"{path}: root must be a JSON object"]
-    return data, errors
+    return data, []
 
 
-def validate_evidence(path: Path, data: dict[str, Any]) -> tuple[set[str], list[str]]:
-    errors: list[str] = []
+def validate_evidence_structure(
+    path: Path, data: dict[str, Any]
+) -> tuple[set[str], list[str]]:
     items = data.get("evidence")
     if not isinstance(items, list):
         return set(), [f"{path}: 'evidence' must be an array"]
 
     ids: set[str] = set()
+    errors: list[str] = []
     for idx, item in enumerate(items, 1):
         where = f"{path}: evidence[{idx}]"
         if not isinstance(item, dict):
@@ -70,6 +76,10 @@ def validate_evidence(path: Path, data: dict[str, Any]) -> tuple[set[str], list[
         if not isinstance(locator, dict) or not locator:
             errors.append(f"{where}: locator must be a non-empty object")
 
+        field = item.get("field")
+        if not isinstance(field, str) or not field.strip():
+            errors.append(f"{where}: field must be a non-empty string")
+
         excerpt = item.get("excerpt")
         if not isinstance(excerpt, str) or not excerpt.strip():
             errors.append(f"{where}: excerpt must be a non-empty string")
@@ -82,12 +92,12 @@ def validate_claims(
     data: dict[str, Any],
     evidence_ids: set[str],
 ) -> list[str]:
-    errors: list[str] = []
     items = data.get("claims")
     if not isinstance(items, list):
         return [f"{path}: 'claims' must be an array"]
 
     ids: set[str] = set()
+    errors: list[str] = []
     for idx, item in enumerate(items, 1):
         where = f"{path}: claims[{idx}]"
         if not isinstance(item, dict):
@@ -111,7 +121,8 @@ def validate_claims(
         status = item.get("epistemic_status")
         if status not in ALLOWED_STATUSES:
             errors.append(
-                f"{where}: epistemic_status must be one of {sorted(ALLOWED_STATUSES)}, got {status!r}"
+                f"{where}: epistemic_status must be one of "
+                f"{sorted(ALLOWED_STATUSES)}, got {status!r}"
             )
 
         refs = item.get("evidence", [])
@@ -126,13 +137,15 @@ def validate_claims(
         durability = item.get("durability")
         if durability not in ALLOWED_DURABILITY:
             errors.append(
-                f"{where}: durability must be one of {sorted(ALLOWED_DURABILITY)}, got {durability!r}"
+                f"{where}: durability must be one of "
+                f"{sorted(ALLOWED_DURABILITY)}, got {durability!r}"
             )
 
         promotion = item.get("promotion")
         if promotion not in ALLOWED_PROMOTION:
             errors.append(
-                f"{where}: promotion must be one of {sorted(ALLOWED_PROMOTION)}, got {promotion!r}"
+                f"{where}: promotion must be one of "
+                f"{sorted(ALLOWED_PROMOTION)}, got {promotion!r}"
             )
 
         reasoning = item.get("reasoning", "")
@@ -152,7 +165,9 @@ def validate_claims(
             if not refs:
                 errors.append(f"{where}: SOURCE_SUPPORTED_INFERENCE requires evidence")
             if not isinstance(reasoning, str) or not reasoning.strip():
-                errors.append(f"{where}: SOURCE_SUPPORTED_INFERENCE requires non-empty reasoning")
+                errors.append(
+                    f"{where}: SOURCE_SUPPORTED_INFERENCE requires non-empty reasoning"
+                )
             if promotion != "author_approval_required":
                 errors.append(
                     f"{where}: SOURCE_SUPPORTED_INFERENCE requires author_approval_required"
@@ -161,10 +176,12 @@ def validate_claims(
         if status == "UNRESOLVED" and promotion != "blocked":
             errors.append(f"{where}: UNRESOLVED claims must use promotion='blocked'")
 
-        if status in {"ADAPTATION_DECISION", "NOVELIZATION_BRIDGE"} and promotion != "author_approval_required":
-            errors.append(
-                f"{where}: {status} requires author_approval_required before durable canon promotion"
-            )
+        if status in {"ADAPTATION_DECISION", "NOVELIZATION_BRIDGE"}:
+            if promotion != "author_approval_required":
+                errors.append(
+                    f"{where}: {status} requires author_approval_required "
+                    "before durable canon promotion"
+                )
 
         if durability == "durable" and status == "UNRESOLVED":
             errors.append(f"{where}: unresolved material cannot be declared durable truth")
@@ -172,7 +189,11 @@ def validate_claims(
     return errors
 
 
-def validate_pair(evidence_path: Path, claims_path: Path) -> list[str]:
+def validate_pair(
+    evidence_path: Path,
+    claims_path: Path,
+    db_path: str | Path | None = None,
+) -> list[str]:
     errors: list[str] = []
     evidence_data, errs = load_json(evidence_path)
     errors.extend(errs)
@@ -192,8 +213,20 @@ def validate_pair(evidence_path: Path, claims_path: Path) -> list[str]:
             f"Chapter mismatch: evidence packet is {ev_ch!r}, claim ledger is {cl_ch!r}"
         )
 
-    evidence_ids, errs = validate_evidence(evidence_path, evidence_data)
-    errors.extend(errs)
+    evidence_ids, evidence_errors = validate_evidence_structure(
+        evidence_path, evidence_data
+    )
+    errors.extend(evidence_errors)
+
+    if not evidence_errors:
+        errors.extend(
+            validate_packet_data(
+                evidence_path,
+                evidence_data,
+                db_path=db_path,
+            )
+        )
+
     errors.extend(validate_claims(claims_path, claims_data, evidence_ids))
     return errors
 
@@ -207,13 +240,17 @@ def paths_for_chapter(chapter: str) -> tuple[Path, Path]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Validate Evidence Packet / Claim Ledger structure. Does not prove semantic truth."
+        description=(
+            "Validate Evidence Packet / Claim Ledger structure and SQLite source "
+            "locators. Does not prove semantic entailment."
+        )
     )
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--chapter", help="Chapter suffix, e.g. 10, 08a")
     group.add_argument("--all", action="store_true", help="Validate every research/claims/chapter_*.json")
     parser.add_argument("--evidence", help="Override Evidence Packet path (only with --chapter)")
     parser.add_argument("--claims", help="Override Claim Ledger path (only with --chapter)")
+    parser.add_argument("--db", help="Override story_database.sqlite3 path")
     args = parser.parse_args()
 
     pairs: list[tuple[Path, Path]] = []
@@ -241,22 +278,22 @@ def main() -> int:
     all_errors: list[str] = []
     for evidence_path, claims_path in pairs:
         print(f"=== CLAIM CONTRACT: {claims_path} ===")
-        errors = validate_pair(evidence_path, claims_path)
+        errors = validate_pair(evidence_path, claims_path, args.db)
         if errors:
             all_errors.extend(errors)
             for err in errors:
                 print(f"  [FAIL] {err}")
         else:
             print(
-                "  [PASS] Evidence/claim structure is internally consistent. "
-                "Semantic truth still requires source-aware review."
+                "  [PASS] Evidence/claim structure and SQLite source locators are "
+                "consistent. Semantic entailment still requires source-aware review."
             )
 
     if all_errors:
-        print(f"\n[CLAIM-GUARD FAILED] {len(all_errors)} structural epistemic issue(s).")
+        print(f"\n[CLAIM-GUARD FAILED] {len(all_errors)} epistemic/source issue(s).")
         return 1
 
-    print("\n[CLAIM-GUARD PASS] Structural epistemic contract satisfied.")
+    print("\n[CLAIM-GUARD PASS] Structural and SQLite source-evidence contracts satisfied.")
     return 0
 
 

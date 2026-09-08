@@ -5,10 +5,12 @@
       "evidence_id": "EV-XX-001",
       "source_kind": "sqlite.subtasks",
       "locator": {
-        "task_id": 0,
-        "subtask_id": 0
+        "task_id": 157,
+        "subtask_id": 320
       },
+      "field": "describe_cleaned",
       "excerpt": "<verbatim or normalized source excerpt>",
+      "match": "contains_normalized",
       "notes": "<branch conditions, speaker reliability, ambiguity, or source context>"
     }
   ]
