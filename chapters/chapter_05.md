@@ -120,9 +120,7 @@ Một ngọn lửa giận dữ thô mộc bùng cháy dữ dội trong lồng ng
 
 Nhưng Tiêu Phùng không điên.
 
-Chàng nhìn thấy rõ hai người lính nghĩa quân to khỏe gãy nát xương cốt chỉ sau một chưởng. Chàng biết mình là ai: một thằng nhóc mười bảy tuổi, chưa từng học qua một ngày nội công chính thống, gân cốt chưa từng nếm qua đan điền chân khí. Đối đầu sòng phẳng với một tên võ sĩ sa trường mang nội kình bẻ gãy cả giáo sắt như gã, chẳng khác nào lấy que củi chọc vào tảng đá tảng!
-
-Muốn thắng, chỉ có thể đánh cược bằng mạng sống và sự đê tiện tột cùng của bãi sậy.
+Chàng nhìn thấy rõ hai người lính nghĩa quân to khỏe gãy nát xương cốt chỉ sau một chưởng. 
 
 Tiêu Phùng cắn chặt răng, cố tình bước những bước chân lảo đảo, tay cầm đoản côn run rẩy xông tới. Khi chỉ còn cách tên bách hộ giặc Kim chừng bảy thước, chàng đột ngột vấp phải một hòn đá dăm, thân người trượt ngã dúi dụi xuống một vũng bùn lầy nhão nhoét.
 
