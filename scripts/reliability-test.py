@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import sqlite3
 import subprocess
 import sys
 import tempfile
@@ -32,6 +33,27 @@ def assert_code(label: str, result: subprocess.CompletedProcess[str], expected: 
     print(f"[PASS] {label}")
 
 
+def make_source_fixture(root: Path) -> None:
+    conn = sqlite3.connect(root / "story_database.sqlite3")
+    cur = conn.cursor()
+    cur.execute(
+        """
+        CREATE TABLE subtasks (
+            sub_id INTEGER PRIMARY KEY,
+            task_id INTEGER,
+            name TEXT NOT NULL,
+            describe_cleaned TEXT
+        )
+        """
+    )
+    cur.execute(
+        "INSERT INTO subtasks(sub_id, task_id, name, describe_cleaned) VALUES (?, ?, ?, ?)",
+        (320, 157, "Cơ Quan Đại Sư", "Source-backed observation."),
+    )
+    conn.commit()
+    conn.close()
+
+
 def write_claim_fixture(root: Path, *, inference_promotion: str = "author_approval_required") -> None:
     (root / "research" / "evidence").mkdir(parents=True, exist_ok=True)
     (root / "research" / "claims").mkdir(parents=True, exist_ok=True)
@@ -43,7 +65,9 @@ def write_claim_fixture(root: Path, *, inference_promotion: str = "author_approv
                 "evidence_id": "EV-10-001",
                 "source_kind": "sqlite.subtasks",
                 "locator": {"task_id": 157, "subtask_id": 320},
+                "field": "describe_cleaned",
                 "excerpt": "Source-backed observation.",
+                "match": "contains_normalized",
                 "notes": "",
             }
         ],
@@ -152,6 +176,7 @@ Current manuscript reviewed.
 def main() -> int:
     with tempfile.TemporaryDirectory(prefix="novel-os-reliability-") as temp:
         root = Path(temp)
+        make_source_fixture(root)
 
         write_claim_fixture(root)
         result = run(CLAIM_GUARD, ["--chapter", "10"], root)
