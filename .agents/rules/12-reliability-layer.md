@@ -152,7 +152,8 @@ Every verifier must describe only what it actually checks.
 - `evidence_guard.py`: SQLite row/field/excerpt provenance verification.
 - `claim-guard.py`: source-verified evidence + claim structural discipline + recorded approval-ref validation.
 - `review-guard.py`: full-read coverage and current-line evidence structure.
-- `state-commit-guard.py`: forward-only changeset check for new durable-state writes and checked Canon Diff approval.
+- `state-commit-guard.py`: forward-only changeset check for new durable-state writes and their review/claim/approval prerequisites.
+- `execution-guard.py`: computes execution-plan completion from declared deliverables and allowlisted deterministic checks; it does not permit self-certified status fields or arbitrary shell commands.
 - semantic Reviewer: prose, causality, voice, show-vs-tell, humor, continuity, and claim meaning.
 
 **PROHIBITED**: translating a lower-level PASS into claims such as:
@@ -178,7 +179,62 @@ Examples:
 - claim preparation complete -> Evidence Packet + Claim Ledger + `claim-guard` PASS;
 - structural review complete -> current chapter fully covered + `review-guard` PASS;
 - approved review complete -> `review-guard --require-approval` PASS plus Author approval under Hard Stop 2;
-- new durable state commit complete -> checked Canon Diff in the same changeset + `state-commit-guard` PASS.
+- new durable state commit complete -> checked Canon Diff + current approved v2 review + Claim/Evidence contract + `state-commit-guard` PASS.
+
+### Execution Manifest — verifier-owned completion
+
+For a multi-step plan where skipping one deliverable would materially change the result, create a lightweight execution manifest from:
+
+`templates/execution-manifest.json`
+
+Default working location:
+
+`execution/<scope>.json`
+
+The manifest contains only:
+
+- `manifest_id`
+- optional `scope`
+- `deliverables[]`
+- each deliverable's `id`, `description`, `requires`, and `checks`
+
+**Do not store `status`, `done`, `complete`, `completed`, or equivalent completion fields.** `execution-guard.py` rejects them. Completion is computed at runtime:
+
+- `COMPLETE` — all declared checks pass;
+- `INCOMPLETE` — one or more checks fail;
+- `BLOCKED` — a required prior deliverable is not complete.
+
+Allowed check types are deliberately small:
+
+- `file_exists`
+- `file_nonempty`
+- `evidence`
+- `claim`
+- `review`
+
+Arbitrary shell commands are prohibited. This is a completion contract, not a workflow engine.
+
+Tracking/report mode:
+
+```bash
+python scripts/execution-guard.py --manifest execution/<scope>.json
+```
+
+or:
+
+```bash
+npm run execution:check
+```
+
+Tracking mode may report incomplete work without making CI red; this allows genuine work-in-progress manifests.
+
+Before telling the Author that the **whole approved execution plan is finished**, run:
+
+```bash
+npm run execution:complete -- --manifest execution/<scope>.json
+```
+
+If any deliverable is `INCOMPLETE` or `BLOCKED`, the agent must report the partial state and continue the missing work instead of saying “done”.
 
 ### Forward-only State Commit Gate
 
@@ -190,7 +246,7 @@ For new changes only, if a changeset modifies any file under:
 - `worldbuilding/`
 - `plot/`
 
-then the same changeset must also contain at least one changed `revisions/chapter_XX_canon_diff.md` with a checked Author approval line.
+then the same changeset must also contain the relevant changed `revisions/chapter_XX_canon_diff.md` with a checked Author approval line, a current approved v2 full-read review, and a passing Evidence/Claim contract.
 
 Run locally with an explicit base ref:
 
@@ -200,7 +256,7 @@ python scripts/state-commit-guard.py --base <base-ref>
 
 CI calculates the base commit and enforces this automatically.
 
-This guard proves that the changeset records an approved Canon Diff. It does not authenticate the human identity behind the checkbox and does not semantically prove that every ledger edit matches every sentence in the diff; those remain separate workflow responsibilities.
+This guard proves recorded promotion prerequisites. It does not authenticate the human identity behind the checkbox and does not semantically prove that every ledger edit matches every sentence in the diff; those remain separate workflow responsibilities.
 
 Do not add manuscript hashes, immutable revision locks, workflow databases, or mandatory Author-edit metadata.
 
@@ -214,4 +270,5 @@ When a guard fails:
 2. do not rationalize it into PASS;
 3. fix only the relevant artifact unless a broader change is genuinely required;
 4. re-read current Author-controlled files before applying any prose edit;
-5. never use a failed verifier as justification to overwrite Author revisions.
+5. never use a failed verifier as justification to overwrite Author revisions;
+6. when `execution-guard --require-complete` fails, do not rewrite the plan as if fewer deliverables had been intended — finish or explicitly renegotiate the scope with the Author.
