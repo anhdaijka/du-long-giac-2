@@ -3,14 +3,20 @@ name: Novel OS stress
 on:
   push:
     paths:
+      - 'chapters/**'
+      - 'briefs/**'
       - 'scripts/**'
       - 'research/evidence/**'
       - 'research/claims/**'
-      - 'reviews/**/chapter_*_review_v2.md'
+      - 'reviews/**'
       - 'revisions/**'
       - 'characters/**'
       - 'worldbuilding/**'
       - 'plot/**'
+      - 'templates/**'
+      - '.agents/rules/**'
+      - 'docs/reliability-layer-v2.md'
+      - 'GEMINI.md'
       - 'examples/phase3-lifecycle/**'
       - 'evals/**'
       - 'config/upstreams.json'
@@ -18,14 +24,20 @@ on:
       - '.github/workflows/novel-os-stress.yml'
   pull_request:
     paths:
+      - 'chapters/**'
+      - 'briefs/**'
       - 'scripts/**'
       - 'research/evidence/**'
       - 'research/claims/**'
-      - 'reviews/**/chapter_*_review_v2.md'
+      - 'reviews/**'
       - 'revisions/**'
       - 'characters/**'
       - 'worldbuilding/**'
       - 'plot/**'
+      - 'templates/**'
+      - '.agents/rules/**'
+      - 'docs/reliability-layer-v2.md'
+      - 'GEMINI.md'
       - 'examples/phase3-lifecycle/**'
       - 'evals/**'
       - 'config/upstreams.json'
@@ -48,6 +60,10 @@ jobs:
         run: npm run bootstrap -- --clean
       - name: Run Reliability Layer v2 regression guards
         run: npm run reliability:test
+      - name: Run lexical prose scan
+        run: npm run lint:prose
+      - name: Run legacy gate-shape, temporal, and entity checks
+        run: npm run gate:check
       - name: Verify registered SQLite evidence
         run: npm run evidence:check
       - name: Verify registered claim contracts
