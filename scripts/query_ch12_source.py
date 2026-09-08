@@ -11,30 +11,64 @@ cur = conn.cursor()
 
 print("=== CH12 SOURCE PROBE ===")
 print("DB:", DB)
-print("\n-- subtasks 130, 133 --")
-cur.execute("SELECT task_id, sub_id, name, dialog_npc_name, describe_cleaned FROM subtasks WHERE sub_id IN (130,133) ORDER BY sub_id")
-rows = cur.fetchall()
-for row in rows:
-    print(dict(row))
-if not rows:
-    print("NO ROWS")
 
-print("\n-- task rows 0 and 157 --")
-for task_id in (0, 157):
-    cur.execute("SELECT * FROM tasks WHERE task_id=?", (task_id,))
+print("\n-- roadmap locators 130, 133 --")
+cur.execute("SELECT task_id, sub_id, name, dialog_npc_name, describe_cleaned FROM subtasks WHERE sub_id IN (130,133) ORDER BY sub_id")
+for row in cur.fetchall():
+    print(dict(row))
+
+print("\n-- task rows 0, 19, 157 --")
+for task_id in (0, 19, 157):
+    cur.execute("SELECT task_id, name, describe_cleaned, file_path FROM tasks WHERE task_id=?", (task_id,))
     row = cur.fetchone()
     print(task_id, dict(row) if row else "NO TASK ROW")
 
-print("\n-- dialogue rows for subtask 130, 133 --")
-cur.execute("PRAGMA table_info(dialogues)")
-print("dialogue columns:", [r[1] for r in cur.fetchall()])
-cur.execute("SELECT * FROM dialogues WHERE sub_id IN (130,133) ORDER BY sub_id, rowid")
-for row in cur.fetchall():
-    print(dict(row))
+TERMS = [
+    "Yến Tử Ổ",
+    "Yến Tử",
+    "tiến cử",
+    "Điềm Tửu",
+    "bầu rượu",
+    "rượu nếp",
+    "tiễn",
+    "xuất sơn",
+    "Cái Bang",
+]
 
-print("\n-- nearby subtasks 125-138 --")
-cur.execute("SELECT task_id, sub_id, name, dialog_npc_name, describe_cleaned FROM subtasks WHERE sub_id BETWEEN 125 AND 138 ORDER BY sub_id")
-for row in cur.fetchall():
-    print(dict(row))
+for term in TERMS:
+    print(f"\n-- subtask search: {term} --")
+    like = f"%{term}%"
+    cur.execute(
+        """
+        SELECT task_id, sub_id, name, dialog_npc_name, describe_cleaned
+        FROM subtasks
+        WHERE name LIKE ? OR dialog_npc_name LIKE ? OR describe_cleaned LIKE ?
+        ORDER BY task_id, sub_id
+        LIMIT 40
+        """,
+        (like, like, like),
+    )
+    rows = cur.fetchall()
+    if not rows:
+        print("NO SUBTASK HITS")
+    for row in rows:
+        print(dict(row))
+
+    print(f"-- dialogue search: {term} --")
+    cur.execute(
+        """
+        SELECT id, sub_id, phase, cleaned_text
+        FROM dialogues
+        WHERE cleaned_text LIKE ?
+        ORDER BY sub_id, id
+        LIMIT 40
+        """,
+        (like,),
+    )
+    rows = cur.fetchall()
+    if not rows:
+        print("NO DIALOGUE HITS")
+    for row in rows:
+        print(dict(row))
 
 conn.close()
