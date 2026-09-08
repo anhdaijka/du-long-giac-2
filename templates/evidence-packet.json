@@ -1,0 +1,15 @@
+{
+  "chapter": "XX",
+  "evidence": [
+    {
+      "evidence_id": "EV-XX-001",
+      "source_kind": "sqlite.subtasks",
+      "locator": {
+        "task_id": 0,
+        "subtask_id": 0
+      },
+      "excerpt": "<verbatim or normalized source excerpt>",
+      "notes": "<branch conditions, speaker reliability, ambiguity, or source context>"
+    }
+  ]
+}
