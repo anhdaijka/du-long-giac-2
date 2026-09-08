@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'scripts/**'
+      - 'research/evidence/**'
+      - 'research/claims/**'
       - 'examples/phase3-lifecycle/**'
       - 'evals/**'
       - 'config/upstreams.json'
@@ -12,6 +14,8 @@ on:
   pull_request:
     paths:
       - 'scripts/**'
+      - 'research/evidence/**'
+      - 'research/claims/**'
       - 'examples/phase3-lifecycle/**'
       - 'evals/**'
       - 'config/upstreams.json'
@@ -32,6 +36,10 @@ jobs:
         run: npm run bootstrap -- --clean
       - name: Run Reliability Layer v2 regression guards
         run: npm run reliability:test
+      - name: Verify registered SQLite evidence
+        run: npm run evidence:check
+      - name: Verify registered claim contracts
+        run: npm run claim:check
       - name: Run mechanical stress fixture
         run: npm run stress:test
       - name: Run full authoring lifecycle fixture
