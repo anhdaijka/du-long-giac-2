@@ -9,7 +9,7 @@
 - Source packet: `research/evidence/chapter_09.json`
 - Claim ledger: `research/claims/chapter_09.json`
 - Author-text rule: current manuscript preserved as-is
-- Source-verification rule: unresolved durable assertions are blocked from canon promotion rather than silently rewritten
+- Source-verification rule: raw-source support and author-approved novel canon are separate axes; failure of source provenance must not silently erase an approved adaptation decision
 
 ## 2. Full-Read Coverage — Bắt Buộc
 
@@ -25,8 +25,9 @@
 - **Trạng thái**: **FAIL**
 - The chapter frontmatter labels its provenance as `Subtask 5–8 (Bảo Vệ Mật Tịch) liên kết Task 157: Subtask 320–323` and marks the result `DIRECT CANON INTEGRATED`.
 - The SQLite-backed Evidence Packet verifies that Task 157 is actually **Thân Thế Chi Mê**. Subtasks 320–323 support a different chain: Giới Sơn Tông/mechanism trouble, Bạch Cương being pursued alongside water-mechanism sabotage, strange non-Central-Plains attackers, and scroll fragments used to obtain a prophecy.
-- The verified packet does **not**, at this stage of evidence, directly establish the chapter's Miếu Thần guarded-scripture arc, the attackers as Tây Hạ Nhất Phẩm Đường, the Vô Danh Mật Tịch's Trụ Thần Thạch operating map, or Du Long Giác as the unique geomagnetic activation key.
-- `CL-09-006` through `CL-09-009` are therefore correctly `UNRESOLVED` + `blocked`. They may remain in author-controlled prose, but must not be promoted as source-backed canon without additional evidence or an explicit author-approved adaptation decision.
+- Wider SQLite lookup confirms that **Nhất Phẩm Đường** and **Du Long Giác** are genuine game-source concepts elsewhere, but it does not establish the specific Miếu Thần attacker relation or the asserted Du Long Giác → Trụ Thần Thạch geomagnetic mechanism. Exact searches for `Vô Danh Mật Tịch`, `Thần Thạch`, `Long Cung`, and `thiên thạch` did not yield supporting raw-source hits. The apparent `từ trường` hits were lexical false positives involving the personal name Từ Trường Phúc.
+- This does **not** de-canonize the chapter's adaptation. The existing `revisions/chapter_09_canon_diff.md` contains a checked author approval. Accordingly, `CL-09-006` through `CL-09-009` remain unresolved **raw-source assertions**, while `CL-09-010` through `CL-09-012` record the relevant material as author-approved `ADAPTATION_DECISION` novel canon.
+- Gate A therefore fails because the source/provenance label overclaims direct evidence, not because the approved novel canon is automatically invalid.
 
 ### Gate B: Structure / Causality / Pacing
 - **Trạng thái**: **FAIL**
@@ -45,7 +46,7 @@
 - **Trạng thái**: **FAIL**
 - The comic dialogue often works because the joke arrives through Tiêu Phùng's concrete exaggeration (mushrooms, salted fish, bitter medicine) and other characters answer him rather than the narrator explaining the joke. This is worth preserving.
 - However, the narration still labels qualities directly in several places instead of letting behavior carry them: Bạch Thu Lâm is described as having an authoritative presence and warm eyes; Tiêu Phùng's look is labeled as maximally cunning/reckless; the narration directly states strategic conclusions during combat.
-- The largest show-vs-tell failure is the ending: Bạch Thu Lâm delivers multiple paragraphs of system/world explanation in one sitting. Even if every fact were canon, the delivery is encyclopedic rather than dramatized discovery.
+- The largest show-vs-tell failure is the ending: Bạch Thu Lâm delivers multiple paragraphs of system/world explanation in one sitting. Even if every fact is approved novel canon, the delivery is encyclopedic rather than dramatized discovery.
 - Therefore a lexical clean scan or a few successful comic exchanges cannot justify a blanket `Pure Show Don't Tell` / stylistic PASS.
 
 ### Gate E: Substantiality / Chapter Closure
@@ -64,7 +65,7 @@
 2.
 - **Vị trí**: `L61-L120`
 - **Trích đoạn**: Bên trong chiếc tráp chứa cuốn da dê cổ ghi chép mật mã quân cơ
-- **Phân tích**: A durable artifact assertion is introduced as narrator fact before its source status is demonstrated. Under v2 this must be claim/evidence classified, not accepted because the surrounding entities are real.
+- **Phân tích**: A durable artifact assertion is introduced as narrator fact. Under v2 it must be classified explicitly: the raw-source proposition is unresolved, while the current novel-canon artifact is preserved because the Chapter 09 Canon Diff is author-approved.
 
 3.
 - **Vị trí**: `L121-L180`
@@ -79,19 +80,20 @@
 5.
 - **Vị trí**: `L241-L280`
 - **Trích đoạn**: Là mật thám của Tây Hạ Nhất Phẩm Đường.
-- **Phân tích**: The prose states a precise faction identity as fact, but the currently registered source evidence only establishes strange/non-Central-Plains attackers at this point. This is a concrete claim-grounding failure, not an entity-grounding failure.
+- **Phân tích**: This relation is not directly established by the registered Task 157 evidence even though Nhất Phẩm Đường is a real source faction elsewhere. The statement remains valid current novel canon through author approval, but its fidelity label must be adaptation/canon decision rather than DIRECT_SOURCE from Task 157.
 
 6.
 - **Vị trí**: `L241-L280`
 - **Trích đoạn**: Du Long Giác mang từ trường địa cực cực mạnh, đóng vai trò chiếc chìa khóa duy nhất
-- **Phân tích**: This is a high-impact mechanical/cosmological claim with no registered source evidence in the pilot packet. It must remain blocked unless further game-source evidence is found or the author explicitly adopts it as an adaptation decision.
+- **Phân tích**: This is a high-impact mechanical/cosmological assertion not established by the registered raw-source evidence. The Chapter 09 Canon Diff nevertheless records the mechanism as approved novel canon, so v2 preserves it as an `ADAPTATION_DECISION` while preventing the agent from presenting it as direct SQLite truth.
 
 ## 5. Priority Findings
 
 ### P0 — Source/canon boundary
-1. Correct the provenance model for Chapter 09: Task 157/Subtasks 320–323 cannot be used as if they directly prove the entire Miếu Thần / Vô Danh Mật Tịch / Nhất Phẩm Đường sequence.
-2. Search the wider source corpus for independent support for `Nhất Phẩm Đường`, `Vô Danh Mật Tịch`, `Trụ Thần Thạch`, and the asserted Du Long Giác mechanism.
-3. Any unsupported element the author wants to keep should be reclassified explicitly as `ADAPTATION_DECISION` or `NOVELIZATION_BRIDGE` as appropriate; it must not retain a misleading direct-source label.
+1. Correct future provenance language for Chapter 09: Task 157/Subtasks 320–323 cannot be used as if they directly prove the entire Miếu Thần / Vô Danh Mật Tịch / Nhất Phẩm Đường sequence.
+2. Preserve the existing author-approved Chapter 09 canon unless the Author explicitly reopens it.
+3. Keep two parallel records where needed: an `UNRESOLVED` raw-source proposition and an `ADAPTATION_DECISION / author_approved` novel-canon proposition with `approval_ref`.
+4. Do not convert a zero-result keyword search into proof that a concept cannot exist elsewhere in unindexed/raw material; the verifier should say only that the searched SQLite corpus did not establish it.
 
 ### P1 — Literary revision
 1. Preserve the opening banter and Tiêu Phùng's physical comedy; it is one of the chapter's strongest voice sections.
@@ -105,15 +107,17 @@
 
 ## 6. Pilot Comparison With Legacy Review Behavior
 
-The v2 result differs from a mechanical/self-confirming review in three important ways:
+The v2 result differs from a mechanical/self-confirming review in four important ways:
 
 1. Existing entity names are not treated as proof of relationships, motives or events.
 2. A source citation label in frontmatter is not trusted until its exact Task/Subtask locators and excerpts resolve against SQLite.
-3. Successful comedy/injury beats do not cause the reviewer to wave through unrelated show-vs-tell, provenance and substantiality failures.
+3. Author-approved novel canon is not erased merely because its raw-source provenance was mislabeled.
+4. Successful comedy/injury beats do not cause the reviewer to wave through unrelated show-vs-tell, provenance and substantiality failures.
 
 ## 7. Verdict
 
 - **Phán quyết**: **REVISE_REQUIRED**
 - Manuscript is preserved unchanged under Author Text Supremacy.
-- No blocked/unresolved claim in this pilot is eligible for automatic canon promotion.
-- Recommended next action: perform targeted source search for the four blocked lore clusters before deciding whether Chapter 09 should be source-corrected or explicitly adaptation-approved.
+- Existing Chapter 09 author-approved novel canon remains in force.
+- `UNRESOLVED` raw-source claims remain blocked from being presented as source truth; corresponding author-approved adaptation claims may remain durable novel canon through their recorded approval reference.
+- Recommended next action: fix the forward workflow so new durable-state writes require a checked Canon Diff in the same changeset, then revise Chapter 09 provenance/style only if the Author chooses to reopen the manuscript.
