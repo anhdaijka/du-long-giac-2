@@ -44,6 +44,12 @@ jobs:
         run: npm run claim:check
       - name: Verify v2 review contracts
         run: npm run review:check
+      - name: Pilot Chapter 09 source-cluster lookup
+        run: |
+          python scripts/lore-guard.py --query "Nhất Phẩm Đường"
+          python scripts/lore-guard.py --query "Vô Danh Mật Tịch"
+          python scripts/lore-guard.py --query "Trụ Thần Thạch"
+          python scripts/lore-guard.py --query "Du Long Giác"
       - name: Run mechanical stress fixture
         run: npm run stress:test
       - name: Run full authoring lifecycle fixture
