@@ -2,19 +2,28 @@
 
 ## Status
 
-Approved architecture for `du-long-giac-2`. Implement here first; only proven generic pieces should later be ported back to `anhdaijka/novel-os`.
+Approved architecture for `du-long-giac-2`. Implement and prove it here first; only stable generic pieces should later be ported back to `anhdaijka/novel-os`.
 
 ## Goal
 
 Increase autonomous reliability without turning a single-author fiction repository into a bureaucratic workflow system.
 
-The layer focuses on five primitives:
+Reliability v2 is built around six primitives:
 
 1. Evidence Packet
 2. Claim Ledger
-3. Full-Read Review Protocol
-4. Completion Verification
-5. Author Text Supremacy
+3. SQLite Evidence Guard
+4. Full-Read Review Protocol
+5. Forward-Only State Commit Guard
+6. Author Text Supremacy
+
+The governing idea is:
+
+> **Autonomous execution, zero autonomous trust.**
+
+An agent may perform work automatically, but it must not certify semantic truth, author approval, review completeness, or durable state promotion merely by saying that it did so.
+
+---
 
 ## North Laws
 
@@ -22,31 +31,43 @@ The layer focuses on five primitives:
 
 A durable factual assertion derived from the KT2 source corpus must be traceable to concrete source evidence. Entity existence alone does not prove a relation, event, motive, chronology, possession, knowledge state, genealogy, or faction alignment.
 
-### NL-2 — Canon truth is approval-bound
+### NL-2 — Source truth and novel canon are different authority axes
 
-Source evidence, source-supported inference, adaptation decisions and novelization bridges are not automatically novel canon. **Every durable canon promotion, including a `DIRECT_SOURCE` claim, still requires the existing author approval gate.** Evidence strength controls epistemic confidence; it never grants autonomous canon-write authority.
+Raw game-source support and novel-canon authority are not the same thing.
 
-### NL-3 — Agent completion is verifier-bound
+A proposition may be unresolved in the game source while remaining valid novel canon because the Author explicitly approved it as an adaptation decision.
+
+Therefore:
+
+- source failure must not silently erase approved novel canon;
+- novel-canon presence must not be recycled as proof that the raw source said the same thing;
+- an adaptation must never be relabeled `DIRECT_SOURCE` merely because it already appears in ledgers or earlier chapters.
+
+### NL-3 — Canon truth is approval-bound
+
+Source evidence, source-supported inference, adaptation decisions and novelization bridges are not automatically novel canon.
+
+Every durable canon promotion requires the existing Author approval gate.
+
+Evidence strength controls epistemic confidence; it never grants autonomous canon-write authority.
+
+### NL-4 — Agent completion is verifier-bound
 
 An agent may report work performed, but it may not make a workflow step complete merely by saying it is complete. Machine-checkable deliverables decide completion where a deterministic verifier exists.
 
-### NL-4 — Current Author Text Wins
+### NL-5 — Current Author Text Wins
 
 The current manuscript in the repository is authoritative over any previous agent draft, review snapshot, session summary, cached context or remembered wording.
 
 Before reviewing, revising, continuing or deriving canon from a chapter, re-read the current chapter file.
 
-If current text differs from an agent-produced version, treat the difference as an intentional author edit unless the author explicitly says otherwise.
+Never restore, overwrite or normalize an Author edit merely to match an older plan, review or generated draft.
 
-Never restore, overwrite or normalize an author edit merely to match an older plan, review or generated draft.
+Canon validation may reject or reclassify a durable claim without reverting the Author's prose.
 
-Canon validation may reject or flag a durable claim without reverting the author's prose.
+### NL-6 — Verification must describe what it actually proves
 
-### NL-5 — Verification must describe what it actually proves
-
-A regex regression scanner must not call itself a zero-hallucination proof. An entity grounder must not imply that relations involving a known entity are grounded. A lexical linter must not imply semantic literary quality.
-
-Verifier names and PASS messages must match their real scope.
+A regex regression scanner must not call itself a zero-hallucination proof. An entity grounder must not imply that relations involving a known entity are grounded. A lexical linter must not imply semantic literary quality. A checked approval marker does not prove raw-source entailment.
 
 ---
 
@@ -58,13 +79,15 @@ Default path:
 
 The Evidence Packet records source observations used to constrain planning and drafting. It is not canon.
 
-Each evidence item must have:
+Each evidence item contains:
 
 - stable `evidence_id`
 - `source_kind`
-- a concrete `locator`
-- a short verbatim or normalized `excerpt`
-- optional notes about source conditions, branch flags, speaker reliability or ambiguity
+- concrete `locator`
+- declared source `field`
+- short excerpt
+- match mode
+- optional notes about branch flags, speaker reliability or ambiguity
 
 Example:
 
@@ -79,14 +102,40 @@ Example:
         "task_id": 157,
         "subtask_id": 320
       },
+      "field": "describe_cleaned",
       "excerpt": "<source excerpt>",
-      "notes": "Direct task/subtask evidence; no inferred motive."
+      "match": "contains_normalized",
+      "notes": "Direct row observation; no inferred motive."
     }
   ]
 }
 ```
 
 Evidence IDs identify observations, not conclusions.
+
+### Evidence Guard
+
+Run:
+
+```bash
+python scripts/evidence_guard.py --chapter XX
+```
+
+or for all registered packets:
+
+```bash
+npm run evidence:check
+```
+
+The guard verifies:
+
+- the SQLite table/source kind is allowed;
+- the locator resolves to exactly one row;
+- required lineage context is present, e.g. `task_id + subtask_id` for subtasks;
+- the declared field exists;
+- the excerpt matches that declared field.
+
+It does **not** prove that the excerpt semantically entails a later claim.
 
 ---
 
@@ -96,7 +145,7 @@ Default path:
 
 `research/claims/chapter_XX.json`
 
-The Claim Ledger records assertions the chapter plan, prose or proposed canon state depends on.
+The Claim Ledger records explicit propositions that a plan, manuscript or proposed canon state depends on.
 
 Allowed epistemic states:
 
@@ -106,134 +155,170 @@ Allowed epistemic states:
 - `ADAPTATION_DECISION`
 - `NOVELIZATION_BRIDGE`
 
-Required distinction:
-
-`entity exists` is not equivalent to `claim about entity is supported`.
-
-A claim should be written as an explicit proposition, for example:
+A claim should be a proposition such as:
 
 ```text
 Bạch Thu Lâm knows X by the evening of 1191-08-20.
 ```
 
-not merely:
+not merely an entity name such as:
 
 ```text
 Bạch Thu Lâm
 ```
 
+### Promotion states
+
+`author_approval_required`
+- proposition is proposed for durable canon;
+- the Author has not yet approved that promotion.
+
+`author_approved`
+- proposition is already durable novel canon;
+- requires `approval_ref` pointing to a Canon Diff with a checked Author approval line.
+
+`blocked`
+- proposition cannot be promoted in its current epistemic state.
+
 ### Claim rules
 
 `DIRECT_SOURCE`
-- requires at least one evidence ID;
-- must not contain additional causal or motivational conclusions absent from that evidence;
-- still uses `promotion: author_approval_required` for durable canon changes.
+- requires source-verified evidence;
+- may not contain extra causal/motivational conclusions absent from that evidence;
+- durable promotion requires Author approval.
 
 `SOURCE_SUPPORTED_INFERENCE`
-- requires at least one evidence ID;
-- requires a non-empty `reasoning` field;
-- uses `promotion: author_approval_required` before durable canon promotion.
+- requires source-verified evidence;
+- requires non-empty reasoning;
+- durable promotion requires Author approval.
 
 `UNRESOLVED`
 - records contradiction, ambiguity or missing evidence;
 - uses `promotion: blocked`;
-- cannot be promoted as objective canon truth while unresolved.
+- cannot be declared durable source truth.
 
 `ADAPTATION_DECISION`
-- records an author-approved or author-proposed transformation choice;
-- must not be misrepresented as something the raw game source requires;
-- durable promotion still requires author approval.
+- records a novelization choice that is not asserted as a raw-source requirement;
+- may become durable canon through Author approval;
+- an already approved decision uses `promotion: author_approved` + `approval_ref`.
 
 `NOVELIZATION_BRIDGE`
 - allows connective tissue, gesture, micro-action, sensory realization and other literary bridging;
-- must not silently create a durable source fact;
-- durable promotion requires explicit author approval.
+- may not silently create durable source truth;
+- durable promotion requires Author approval.
 
-Example:
+### Two-proposition pattern
+
+When a source claim is unsupported but the Author has already canonized an adaptation, keep both facts explicit rather than forcing one label to do two jobs.
+
+Example conceptually:
 
 ```json
-{
-  "chapter": "10",
-  "claims": [
-    {
-      "claim_id": "CL-10-001",
-      "claim": "<explicit proposition>",
-      "epistemic_status": "DIRECT_SOURCE",
-      "evidence": ["EV-10-001"],
-      "durability": "durable",
-      "promotion": "author_approval_required",
-      "reasoning": ""
-    }
-  ]
-}
+[
+  {
+    "claim": "The raw game source establishes relation X.",
+    "epistemic_status": "UNRESOLVED",
+    "durability": "ephemeral",
+    "promotion": "blocked"
+  },
+  {
+    "claim": "Novel canon intentionally uses relation X.",
+    "epistemic_status": "ADAPTATION_DECISION",
+    "durability": "durable",
+    "promotion": "author_approved",
+    "approval_ref": "revisions/chapter_XX_canon_diff.md"
+  }
+]
 ```
 
+This prevents both failure modes:
+
+1. hallucinated source provenance becoming canon truth;
+2. an overzealous verifier erasing an Author-approved adaptation.
+
+### Claim Guard
+
+Run:
+
+```bash
+python scripts/claim-guard.py --chapter XX
+```
+
+or:
+
+```bash
+npm run claim:check
+```
+
+The guard verifies:
+
+- Evidence/Claim files exist and agree on chapter ID;
+- IDs are unique and references resolve;
+- SQLite evidence passes Evidence Guard;
+- epistemic status / durability / promotion combinations are legal;
+- required evidence/reasoning exists;
+- unresolved claims are blocked;
+- `author_approved` claims have a repository-relative `approval_ref`;
+- the referenced Canon Diff contains a checked Author approval line.
+
+It does **not** prove semantic entailment or authenticate who physically ticked the checkbox.
+
 ---
 
-## 3. Claim Verification
+## 3. Full-Read Review Protocol
 
-`claim-guard` is a structural epistemic verifier, not an oracle.
-
-It may prove:
-
-- referenced Evidence Packet exists;
-- evidence IDs are unique;
-- claim IDs are unique;
-- referenced evidence IDs exist;
-- epistemic status is recognized;
-- required reasoning/evidence fields are present;
-- unresolved claims are blocked from promotion;
-- durable source/inference/bridge claims do not bypass author approval structurally.
-
-It may not claim:
-
-- that every sentence in the manuscript is factually true;
-- that an inference is logically correct merely because it cites evidence;
-- that an evidence locator/excerpt is semantically faithful to the game source merely because the JSON is well-formed;
-- that entity grounding proves a relation.
-
-Semantic claim auditing remains a reviewer responsibility, but the reviewer must work against explicit claims and evidence rather than latent memory.
-
----
-
-## 4. Full-Read Review Protocol
-
-Review must operate on the current chapter file.
+Review operates on the current chapter file.
 
 The reviewer must read the manuscript sequentially from beginning to end. Reviews contain machine-readable line coverage in addition to literary findings.
 
-Recommended marker format:
+Example:
 
 ```text
 - `L1-L96` — concrete observation from this range
 - `L97-L188` — concrete observation from this range
 - `L189-L281` — concrete observation from this range
-- `L282-L374` — concrete observation from this range
 ```
 
-Coverage ranges must collectively cover the current manuscript. No SHA, immutable version ID or author-edit lock is required.
+Coverage ranges must collectively cover the current manuscript. Ranges over 120 lines are rejected to discourage one-shot pseudo-review.
 
-A deterministic review guard validates coverage structure; it does not claim the literary judgments are correct.
+Mandatory evidence findings use current `Lx-Ly` ranges and verbatim text from those lines.
 
-The literary reviewer must still provide issue severity, location, evidence, why it matters and recommended intervention.
+Run one review:
 
-### Distinguish verification layers
+```bash
+python scripts/review-guard.py --chapter-number XX
+```
 
-- lexical/meta scanner: catches known textual patterns;
-- entity grounder: catches likely unknown entities;
-- claim guard: checks evidence/claim structure;
-- review guard: checks full-read coverage/report completeness;
-- semantic reviewer: evaluates causality, prose, voice, show-vs-tell, humor execution, continuity and claim meaning.
+Batch-check forward-only v2 reviews:
 
-No lower layer may claim the guarantees of a higher layer.
+```bash
+npm run review:check
+```
+
+The guard verifies review structure, coverage and quote grounding. It does not judge whether the literary analysis is intelligent.
+
+### Semantic review still owns
+
+- causality
+- pacing
+- character agency
+- injury constraints
+- voice
+- show-vs-tell
+- humor execution
+- continuity
+- claim meaning
+- ending resonance
+
+A lexical PASS can never substitute for this layer.
 
 ---
 
-## 5. Comedy / Show-Don't-Tell Evaluation
+## 4. Comedy / Show-Don't-Tell Evaluation
 
-The 65/25/10 creative direction remains a creative target, not a numeric linter score.
+The project's 65/25/10 creative direction remains a creative target, not a numeric linter score.
 
-For comic scenes, reviewers should inspect observable execution:
+For comic scenes, inspect observable execution:
 
 1. setup creates an expectation;
 2. misdirection bends the expectation;
@@ -241,111 +326,158 @@ For comic scenes, reviewers should inspect observable execution:
 4. afterbeat preserves character voice;
 5. narrator does not explain why the joke was funny.
 
-A few comic phrases do not prove that a scene achieved the intended comedic register.
+A few comic phrases do not prove that the scene achieved the intended comedic register.
+
+---
+
+## 5. Forward-Only State Commit Guard
+
+Historical state is not re-audited merely because Reliability v2 exists.
+
+The guard only inspects a selected git changeset.
+
+If that changeset modifies durable state under:
+
+- `characters/`
+- `worldbuilding/`
+- `plot/`
+
+then the same changeset must also contain at least one changed:
+
+`revisions/chapter_XX_canon_diff.md`
+
+with a checked Author approval line.
+
+Run locally:
+
+```bash
+python scripts/state-commit-guard.py --base <base-ref>
+```
+
+CI supplies the base commit automatically.
+
+The guard proves only:
+
+- a new durable-state write occurred or did not occur;
+- a changed Canon Diff accompanies that write;
+- the changed Canon Diff contains a recorded checked approval marker.
+
+It does not:
+
+- re-audit legacy canon;
+- authenticate the human identity behind the checkbox;
+- semantically prove that every ledger edit matches the Canon Diff;
+- alter manuscript prose.
+
+This is intentionally lightweight. No event-sourcing database, manuscript locks or content hashes are introduced.
 
 ---
 
 ## 6. Completion Verification
 
-Keep completion state deliberately lightweight.
-
 A workflow step is complete only when its required artifact exists and its relevant verifier passes.
 
-Example conceptual state:
+Examples:
 
-```yaml
-tasks:
-  source_research: done
-  claim_check: done
-  brief: done
-  draft: done
-  full_review: pending
-  canon_diff: blocked
+```text
+source evidence prepared
+  -> Evidence Packet + Evidence Guard PASS
+
+claim contract prepared
+  -> Evidence Packet + Claim Ledger + Claim Guard PASS
+
+structural full review prepared
+  -> full current-manuscript coverage + Review Guard PASS
+
+new durable state committed
+  -> checked Canon Diff in same changeset + State Commit Guard PASS
 ```
 
-Do not introduce a workflow database, content hashes, immutable manuscript versions or mandatory author-edit metadata for v2 MVP.
+An agent saying “done” has no authority over these checks.
 
 ---
 
-## 7. Canon Boundary
-
-Manuscript prose and durable canon are different authority domains.
-
-If the author manually writes a sentence that conflicts with source/canon:
-
-1. preserve the author's current prose;
-2. flag the conflicting durable claim during review/canon-diff preparation;
-3. do not promote the unsupported claim automatically;
-4. do not silently revert the manuscript.
-
-Canon promotion remains governed by the existing author-approved Canon Diff gate.
-
----
-
-## 8. Existing Tools: Revised Responsibilities
-
-### `lore-guard.py`
-
-Role: known-regression scanner for explicitly encoded lore mistakes.
-
-It must not describe a clean scan as proof of "Zero Hallucination".
-
-### `lore-grounder.py`
-
-Role: closed-world entity plausibility check.
-
-It must not imply that relationships or events involving those entities are verified.
+## 7. Existing Tools: Exact Responsibilities
 
 ### `meta-leakage-scanner.py`
 
-Role: lexical/meta/style-pattern linter.
+Lexical/meta/style-pattern scanner.
 
-A clean result does not equal semantic prose-quality approval.
+A clean result is not semantic prose approval.
 
-### `gate-guard.py`
+### `lore-grounder.py`
 
-Role: lifecycle gate aggregator.
+Closed-world entity plausibility check.
 
-It should depend on real verifier results rather than considering a review complete merely because a review file contains gate headings.
+It does not verify relations or events involving known entities.
+
+### `lore-guard.py`
+
+Known-regression scanner plus source-search helper.
+
+A clean scan is not “Zero Hallucination”. Search hits are candidate evidence, not automatic claim proof.
+
+### `evidence_guard.py`
+
+SQLite locator / row / field / excerpt verification.
+
+### `claim-guard.py`
+
+Epistemic structure + source-verified evidence + recorded approval-ref verification.
+
+### `review-guard.py`
+
+Full-read coverage and current-line quote grounding.
+
+### `state-commit-guard.py`
+
+Forward-only durable-state changeset approval check.
+
+### Semantic Reviewer
+
+Actual prose, causality, voice, continuity, humor and claim-meaning judgment.
 
 ---
 
-## 9. MVP Scope
+## 8. Chapter 09 Pilot Lesson
 
-Implement first:
+The pilot demonstrated why source support and novel canon must be separated.
 
-1. Evidence/Claim JSON templates.
-2. `scripts/claim-guard.py`.
-3. Full-read coverage section in `templates/review-report.md`.
-4. `scripts/review-guard.py`.
-5. Author Text Supremacy in agent/workflow contracts.
-6. Rename misleading verifier success messages.
-7. Wire deterministic guards into `gate-guard.py` and CI only after the individual guards are stable.
+Task 157 / Subtasks 320–323 did not directly prove the entire Chapter 09 Miếu Thần / Vô Danh Mật Tịch / Nhất Phẩm Đường sequence. Wider SQLite lookup confirmed that Nhất Phẩm Đường and Du Long Giác are genuine source concepts elsewhere, while the specific Chapter 09 relations/mechanics were not established by the registered evidence.
 
-Out of scope for MVP:
+At the same time, the existing Chapter 09 Canon Diff contains a checked Author approval. Therefore Reliability v2 preserves those choices as current novel canon while refusing to mislabel them as direct Task 157 source truth.
 
+That is the intended behavior.
+
+---
+
+## 9. MVP Acceptance Criteria
+
+The MVP is acceptable when:
+
+- a known entity with an unsupported relation cannot pass merely because the entity exists;
+- SQLite evidence locators/excerpts are checked against the actual source DB;
+- direct source, inference, unresolved material, adaptation decisions and bridges remain distinguishable;
+- approved adaptation canon can coexist with unresolved raw-source provenance;
+- a review missing manuscript coverage cannot be declared structurally complete;
+- a lexical linter PASS is never presented as semantic prose PASS;
+- a lore regex scan PASS is never presented as “Zero Hallucination”;
+- current manuscript text always overrides agent memory during subsequent work;
+- Author manual prose edits do not trigger version reconciliation or automatic rollback;
+- new durable-state writes cannot pass CI without a changed checked Canon Diff;
+- no new SHA/locking/workflow-database bureaucracy is introduced.
+
+---
+
+## 10. Out of Scope for MVP
+
+- automatic semantic truth judgment;
 - chapter SHA checks;
 - content hashes;
 - manuscript locking;
 - immutable revisions;
 - automatic rollback;
-- mandatory author-edit metadata;
+- mandatory Author-edit metadata;
 - event sourcing;
-- a workflow database;
-- automatic semantic truth judgment.
-
----
-
-## 10. Acceptance Criteria
-
-The MVP is acceptable when:
-
-- a known entity with an unsupported relation can no longer pass merely because the entity exists;
-- direct source, inference, unresolved material, adaptation decisions and bridges remain distinguishable;
-- a review missing any manuscript line range cannot be declared structurally complete;
-- a lexical linter PASS is never presented as semantic prose PASS;
-- a lore regex scan PASS is never presented as "Zero Hallucination";
-- current manuscript text always overrides agent memory during subsequent work;
-- author manual edits do not trigger version reconciliation or automatic rollback;
-- canon promotion can reject/flag a claim without editing the author's prose;
-- no new SHA/locking bureaucracy is introduced.
+- workflow databases;
+- cryptographic authentication of the Canon Diff checkbox.
