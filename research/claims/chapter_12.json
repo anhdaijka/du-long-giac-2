@@ -1,0 +1,68 @@
+{
+  "chapter": "12",
+  "claims": [
+    {
+      "claim_id": "CL-12-001",
+      "claim": "The raw game source establishes that the protagonist's entry into jianghu is approaching and that Điềm Tửu Thúc directly tells the protagonist it is time to go train.",
+      "epistemic_status": "DIRECT_SOURCE",
+      "evidence": [
+        "EV-12-001",
+        "EV-12-002"
+      ],
+      "durability": "durable",
+      "promotion": "author_approval_required",
+      "reasoning": ""
+    },
+    {
+      "claim_id": "CL-12-002",
+      "claim": "The raw game source has Bạch Thu Lâm instruct the protagonist to meet the recruiters of the twelve sects, choose which sect to join, and then report back to her.",
+      "epistemic_status": "DIRECT_SOURCE",
+      "evidence": [
+        "EV-12-003"
+      ],
+      "durability": "durable",
+      "promotion": "author_approval_required",
+      "reasoning": ""
+    },
+    {
+      "claim_id": "CL-12-003",
+      "claim": "The registered raw game-source evidence establishes that Bạch Thu Lâm specifically sends the protagonist to Cái Bang Yến Tử Ổ with a recommendation letter.",
+      "epistemic_status": "UNRESOLVED",
+      "evidence": [
+        "EV-12-003",
+        "EV-12-004"
+      ],
+      "durability": "ephemeral",
+      "promotion": "blocked",
+      "reasoning": "The source separately establishes a twelve-sect choice and a Cái Bang/Yến Tử Ổ route, but the registered rows do not establish this specific sender-letter-destination relation."
+    },
+    {
+      "claim_id": "CL-12-004",
+      "claim": "Current novel canon intentionally has Bạch Thu Lâm give Tiêu Phùng a recommendation letter addressed to Thạch Hiên Viên at Cái Bang Yến Tử Ổ.",
+      "epistemic_status": "ADAPTATION_DECISION",
+      "evidence": [],
+      "durability": "durable",
+      "promotion": "author_approved",
+      "approval_ref": "revisions/chapter_09_canon_diff.md",
+      "reasoning": "This relation is preserved as author-approved novel canon and is not relabeled as DIRECT_SOURCE."
+    },
+    {
+      "claim_id": "CL-12-005",
+      "claim": "The registered raw game-source evidence establishes that Điềm Tửu Thúc gives the protagonist a bầu rượu nếp as a farewell gift before departure.",
+      "epistemic_status": "UNRESOLVED",
+      "evidence": [],
+      "durability": "ephemeral",
+      "promotion": "blocked",
+      "reasoning": "Exact SQLite searches for the farewell gift wording did not establish this event; Điềm Tửu's direct source role supports training/departure guidance, not this specific prop transfer."
+    },
+    {
+      "claim_id": "CL-12-006",
+      "claim": "Chapter 12 may preserve the currently carried rice-wine gourd and have Điềm Tửu Thúc refill, reseal, or repair that existing object as a restrained farewell gesture rather than introducing a duplicate gourd.",
+      "epistemic_status": "ADAPTATION_DECISION",
+      "evidence": [],
+      "durability": "durable",
+      "promotion": "author_approval_required",
+      "reasoning": "This is a proposed continuity-preserving novelization decision for Chapter 12, not a raw-source assertion. It requires approval in the Chapter Brief before drafting."
+    }
+  ]
+}
