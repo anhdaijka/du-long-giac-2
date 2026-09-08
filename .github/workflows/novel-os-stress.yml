@@ -7,6 +7,10 @@ on:
       - 'research/evidence/**'
       - 'research/claims/**'
       - 'reviews/**/chapter_*_review_v2.md'
+      - 'revisions/**'
+      - 'characters/**'
+      - 'worldbuilding/**'
+      - 'plot/**'
       - 'examples/phase3-lifecycle/**'
       - 'evals/**'
       - 'config/upstreams.json'
@@ -18,6 +22,10 @@ on:
       - 'research/evidence/**'
       - 'research/claims/**'
       - 'reviews/**/chapter_*_review_v2.md'
+      - 'revisions/**'
+      - 'characters/**'
+      - 'worldbuilding/**'
+      - 'plot/**'
       - 'examples/phase3-lifecycle/**'
       - 'evals/**'
       - 'config/upstreams.json'
@@ -31,6 +39,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -44,12 +54,20 @@ jobs:
         run: npm run claim:check
       - name: Verify v2 review contracts
         run: npm run review:check
-      - name: Pilot Chapter 09 source-cluster lookup
+      - name: Verify forward-only durable state writes
+        env:
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PUSH_BASE_SHA: ${{ github.event.before }}
         run: |
-          python scripts/lore-guard.py --query "Thần Thạch"
-          python scripts/lore-guard.py --query "từ trường"
-          python scripts/lore-guard.py --query "Long Cung"
-          python scripts/lore-guard.py --query "thiên thạch"
+          BASE="${PR_BASE_SHA:-$PUSH_BASE_SHA}"
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+            BASE="$(git rev-parse HEAD^ 2>/dev/null || true)"
+          fi
+          if [ -z "$BASE" ]; then
+            echo "[STATE-COMMIT-GUARD] No usable base commit; no forward changeset to inspect."
+          else
+            npm run state:check -- --base "$BASE"
+          fi
       - name: Run mechanical stress fixture
         run: npm run stress:test
       - name: Run full authoring lifecycle fixture
