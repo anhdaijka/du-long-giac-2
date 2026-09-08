@@ -24,9 +24,13 @@ ALLOWED_STATUSES = {
     "NOVELIZATION_BRIDGE",
 }
 ALLOWED_DURABILITY = {"ephemeral", "durable"}
-ALLOWED_PROMOTION = {"author_approval_required", "blocked"}
+ALLOWED_PROMOTION = {"author_approval_required", "author_approved", "blocked"}
 EV_ID_RE = re.compile(r"^EV-[A-Za-z0-9_-]+$")
 CL_ID_RE = re.compile(r"^CL-[A-Za-z0-9_-]+$")
+APPROVAL_RE = re.compile(
+    r"^-\s*\[x\]\s+.*Phê\s+chuẩn.*Canon\s+Diff.*$",
+    re.IGNORECASE | re.MULTILINE,
+)
 
 
 def load_json(path: Path) -> tuple[dict[str, Any] | None, list[str]]:
@@ -85,6 +89,26 @@ def validate_evidence_structure(
             errors.append(f"{where}: excerpt must be a non-empty string")
 
     return ids, errors
+
+
+def validate_approval_ref(where: str, approval_ref: Any) -> list[str]:
+    errors: list[str] = []
+    if not isinstance(approval_ref, str) or not approval_ref.strip():
+        return [f"{where}: promotion='author_approved' requires non-empty approval_ref"]
+
+    path = Path(approval_ref)
+    if path.is_absolute() or ".." in path.parts:
+        return [f"{where}: approval_ref must be a repository-relative path"]
+    if not path.is_file():
+        return [f"{where}: approval_ref does not exist: {approval_ref}"]
+
+    text = path.read_text(encoding="utf-8")
+    if not APPROVAL_RE.search(text):
+        errors.append(
+            f"{where}: approval_ref {approval_ref} does not contain a checked "
+            "author Canon Diff approval line"
+        )
+    return errors
 
 
 def validate_claims(
@@ -153,12 +177,19 @@ def validate_claims(
             errors.append(f"{where}: reasoning must be a string when present")
             reasoning = ""
 
+        if promotion == "author_approved":
+            errors.extend(validate_approval_ref(where, item.get("approval_ref")))
+        elif item.get("approval_ref"):
+            errors.append(
+                f"{where}: approval_ref is only valid when promotion='author_approved'"
+            )
+
         if status == "DIRECT_SOURCE":
             if not refs:
                 errors.append(f"{where}: DIRECT_SOURCE requires at least one evidence ID")
-            if promotion != "author_approval_required":
+            if promotion not in {"author_approval_required", "author_approved"}:
                 errors.append(
-                    f"{where}: DIRECT_SOURCE still requires author approval before canon promotion"
+                    f"{where}: DIRECT_SOURCE requires author approval before durable canon promotion"
                 )
 
         if status == "SOURCE_SUPPORTED_INFERENCE":
@@ -168,19 +199,18 @@ def validate_claims(
                 errors.append(
                     f"{where}: SOURCE_SUPPORTED_INFERENCE requires non-empty reasoning"
                 )
-            if promotion != "author_approval_required":
+            if promotion not in {"author_approval_required", "author_approved"}:
                 errors.append(
-                    f"{where}: SOURCE_SUPPORTED_INFERENCE requires author_approval_required"
+                    f"{where}: SOURCE_SUPPORTED_INFERENCE requires author approval"
                 )
 
         if status == "UNRESOLVED" and promotion != "blocked":
             errors.append(f"{where}: UNRESOLVED claims must use promotion='blocked'")
 
         if status in {"ADAPTATION_DECISION", "NOVELIZATION_BRIDGE"}:
-            if promotion != "author_approval_required":
+            if promotion not in {"author_approval_required", "author_approved"}:
                 errors.append(
-                    f"{where}: {status} requires author_approval_required "
-                    "before durable canon promotion"
+                    f"{where}: {status} requires author approval before durable canon promotion"
                 )
 
         if durability == "durable" and status == "UNRESOLVED":
@@ -241,8 +271,8 @@ def paths_for_chapter(chapter: str) -> tuple[Path, Path]:
 def main() -> int:
     parser = argparse.ArgumentParser(
         description=(
-            "Validate Evidence Packet / Claim Ledger structure and SQLite source "
-            "locators. Does not prove semantic entailment."
+            "Validate Evidence Packet / Claim Ledger structure, SQLite source locators, "
+            "and recorded author approval refs. Does not prove semantic entailment."
         )
     )
     group = parser.add_mutually_exclusive_group(required=True)
@@ -285,15 +315,16 @@ def main() -> int:
                 print(f"  [FAIL] {err}")
         else:
             print(
-                "  [PASS] Evidence/claim structure and SQLite source locators are "
-                "consistent. Semantic entailment still requires source-aware review."
+                "  [PASS] Evidence/claim structure, SQLite source locators, and any "
+                "recorded author approval refs are consistent. Semantic entailment "
+                "still requires source-aware review."
             )
 
     if all_errors:
         print(f"\n[CLAIM-GUARD FAILED] {len(all_errors)} epistemic/source issue(s).")
         return 1
 
-    print("\n[CLAIM-GUARD PASS] Structural and SQLite source-evidence contracts satisfied.")
+    print("\n[CLAIM-GUARD PASS] Structural/source/recorded-approval contracts satisfied.")
     return 0
 
 
