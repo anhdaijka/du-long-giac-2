@@ -6,7 +6,7 @@
   - Chương 02a: *Chiến Thuyền Tỷ Võ — Thượng: Phong Ba Soái Hạm* (`chapters/chapter_02a.md`) — **3.872 từ**
   - Chương 02b: *Chiến Thuyền Tỷ Võ — Hạ: Ngọn Thương Định Ngôi* (`chapters/chapter_02b.md`) — **3.684 từ**
 - **Tổng dung lượng toàn hồi:** **7.556 từ** (Áp dụng Cơ chế Tách Phân Đoạn Linh Hoạt a/b/c theo Quyết định D-019)
-- **POV:** Tĩnh Xuyên (18 tuổi — Ngôi thứ ba hạn tri *Deep Third-Person Limited*)
+- **POV:** Tĩnh Xuyên (20 tuổi — Ngôi thứ ba hạn tri *Deep Third-Person Limited*)
 - **Draft revision:** First Draft (Chuyển thể từ SQLite Task 1 Subtask 1 *Anh Cô Trở Về*)
 - **Automated Linters:** `npm run lint:prose` $\rightarrow$ **PASS** (0 leaks, 0 scaffolds, 0 modern connectives, valid substantiality floor trên cả 2 chương)
 - **Gate Guard:** `npm run gate:check` $\rightarrow$ **PASS**
@@ -18,7 +18,7 @@
 ### Gate A: Minimal Hard Regression & Provenance Lock — **PASS**
 - **Khai báo nguồn gốc (Provenance)**: Khai báo chuẩn xác `KT2 Engine Task 1 (Subtask 1: Anh Cô Trở Về) | File XML Stories/task_publish/sub/0000000000000001.xml`. Các nhân vật bô lão và dũng tướng (Quý Thúc Ban, Dương Anh, Dương Thiết Tâm, Lâu Nhất Quan, Tần Công Xích, Lê Việt, Lưu Mặc) đối soát 100% từ SQLite `story_database.sqlite3`.
 - **Độ trễ không - thời gian**: Địa bàn Thanh Loa Đảo, bến đò và soái hạm Động Đình Hồ hoàn toàn phù hợp với `travel_matrix.md`.
-- **Ranh giới tri thức (Epistemic Horizon)**: Tĩnh Xuyên 18 tuổi, chỉ biết nhiệm vụ tuần tiễu và bổn phận làm con của người mẹ mù Diệp Mẫu; hoàn toàn không biết trước về ngọc Du Long Giác, không biết thân phận Mộc Nhất Lâu hay bi kịch Ân Đồng ở Quyển 2.
+- **Ranh giới tri thức (Epistemic Horizon)**: Tĩnh Xuyên 20 tuổi, chỉ biết nhiệm vụ tuần tiễu và bổn phận làm con của người mẹ mù Diệp Mẫu; hoàn toàn không biết trước về ngọc Du Long Giác, không biết thân phận Mộc Nhất Lâu hay bi kịch Ân Đồng ở Quyển 2.
 
 ### Gate B: Blind Reader & Narrative Propulsion — **PASS**
 - **Nhịp điệu phân đoạn (Pacing & Propulsion)**:
@@ -26,7 +26,7 @@
   - *Chương 02b*: Mở đầu ngay trong không khí ngột ngạt của khoang võ sảnh $\rightarrow$ Tần Công Xích vung quỷ đầu đao chém thác đổ $\rightarrow$ Lê Việt (song giản) & Lưu Mặc (thiết côn) phối hợp giáp công $\rightarrow$ Dương Thiết Tâm thi triển thương pháp biến ảo đả bại tam dũng tướng $\rightarrow$ Màn khảo nghiệm truyền thừa giữa Thiết Tâm và Tĩnh Xuyên $\rightarrow$ Lễ đăng quang Tân Bang chủ, Anh Cô lui về Hồ Tâm Cô Đảo $\rightarrow$ Ánh mắt hằn học của Lâu Nhất Quan báo hiệu giông bão.
 
 ### Gate C: Character Agency, Martial Progression & Living Texture — **PASS**
-- **Vị thế nhân vật (Xử lý triệt để bẫy "Game Protagonist Syndrome")**: Tĩnh Xuyên giữ đúng tư cách tiểu tướng thị vệ 18 tuổi tháp tùng Quý Thúc Ban, làm tròn lễ nghi hậu bối. Không có chuyện vô lý một tân thủ trẻ đánh bại hết các đại bối tiền bối như game.
+- **Vị thế nhân vật (Xử lý triệt để bẫy "Game Protagonist Syndrome")**: Tĩnh Xuyên giữ đúng tư cách tiểu tướng thị vệ 20 tuổi tháp tùng Quý Thúc Ban, làm tròn lễ nghi hậu bối. Không có chuyện vô lý một tân thủ trẻ đánh bại hết các đại bối tiền bối như game.
 - **Tầng võ học & Khảo nghiệm truyền thừa (Martial Tier Check)**:
   - Tần Công Xích: Đao pháp sa trường nặng ngàn cân "Phách Sơn Đoạt Mệnh".
   - Lê Việt & Lưu Mặc: Kỹ chiến thuật phá giáp và quét chân cận chiến.

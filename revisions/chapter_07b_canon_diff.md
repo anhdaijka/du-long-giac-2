@@ -7,7 +7,7 @@
 
 ## 1. Tóm Tắt Biến Chuyển Cốt Truyện & Nhân Vật (Narrative Summary)
 
-- **POV**: Tĩnh Xuyên (18 tuổi — Dũng sĩ thiết giáp, Thanh Loa Đảo).
+- **POV**: Tĩnh Xuyên (20 tuổi — Dũng sĩ thiết giáp, Thanh Loa Đảo).
 - **Thời gian**: Canh tư rạng sáng đến buổi sáng ngày 1191-08-19.
 - **Biến cố sa trường & Đối chất chính trị cốt tử**:
   - Tĩnh Xuyên vượt qua hàng rào lính canh thiết vệ của phái Lâu Nhất Quan bằng lệnh bài Bang chủ, thâm nhập Thạch ngục bờ đông ngập mùi tử khí và tiếng sóng ngầm rền rĩ;

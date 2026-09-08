@@ -18,7 +18,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 - **Number:** 07
 - **Working title:** Ám Toán Trong Đêm
-- **POV:** Tĩnh Xuyên (18 tuổi — Ngôi thứ ba hạn tri / Deep Third-Person Limited)
+- **POV:** Tĩnh Xuyên (20 tuổi — Ngôi thứ ba hạn tri / Deep Third-Person Limited)
 - **Primary location:** Thanh Loa Đảo (Động Đình Hồ):
   - *Doanh trại bờ tây:* Gian lều nứa đơn sơ của mẹ con Tĩnh Xuyên, nơi gió bão thổi qua khe liếp và ấm thuốc ngải cứu của Diệp Mẫu.
   - *Trướng thất Lâu Nhất Quan:* Nơi diễn ra vụ ám sát hụt trong đêm giông bão; sàn gỗ còn vệt máu và dấu vết đao chém đứt rèm trướng.
@@ -52,7 +52,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ## Inherited Injuries & Body Constraints (Thương Tật Kế Thừa)
 
-- **Tĩnh Xuyên (18 tuổi — Bậc Tier 1):**
+- **Tĩnh Xuyên (20 tuổi — Bậc Tier 1):**
   - Thể trạng nguyên vẹn, không mang thương tật L2–L5.
   - Tuy nhiên, vùng cổ tay và khớp bả vai phải vẫn còn cảm giác ê ẩm nhẹ (dư chấn sau màn so thương đón đỡ kình lực cương nhu của Dương Thiết Tâm tại khoang 3 soái hạm ở Chương 02b). Trên cán ngọn Bát Hàn Thiết Thương, khâu sắt vẫn còn vết mẻ xước nhỏ li ti do mũi thương của Thiết Tâm điểm trúng.
   - Áp lực tâm lý: Mẹ già Diệp Mẫu mù lòa ho hen trong đêm mưa bão; chàng phải dậy từ canh tư sắc thuốc ngải cứu đắp ngực cho mẹ trước khi nhận hiệu lệnh trực ban.
@@ -84,7 +84,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ## Starting state
 
-- **Character (Tĩnh Xuyên):** 18 tuổi; khoác chiến giáp thiết giáp ướt đẫm nước mưa sau ca tuần tra đêm quanh bờ tây Thanh Loa Đảo; vừa đun xong nồi nước ngải cứu sắc thuốc cho Diệp Mẫu; tâm trạng trĩu nặng trước sự chia rẽ âm ỉ trên đảo sau ngày Lão Bang chủ Anh Cô rời đi; tay cầm Bát Hàn Thiết Thương đứng tựa cửa lều nghe tiếng sóng gầm rú.
+- **Character (Tĩnh Xuyên):** 20 tuổi; khoác chiến giáp thiết giáp ướt đẫm nước mưa sau ca tuần tra đêm quanh bờ tây Thanh Loa Đảo; vừa đun xong nồi nước ngải cứu sắc thuốc cho Diệp Mẫu; tâm trạng trĩu nặng trước sự chia rẽ âm ỉ trên đảo sau ngày Lão Bang chủ Anh Cô rời đi; tay cầm Bát Hàn Thiết Thương đứng tựa cửa lều nghe tiếng sóng gầm rú.
 - **Relationship:**
   - *Tĩnh Xuyên <-> Diệp Mẫu:* Hiếu thảo, ân cần; Diệp Mẫu mù lòa nhưng thính giác cực nhạy, dặn dò con trai: *"Trời giông gió lớn, người cầm thương phải giữ cho tâm mình không được lay chuyển theo gió bão"*.
   - *Tĩnh Xuyên <-> Dương Thiết Tâm:* Mang lòng kính phục thực lực và sự đôn hậu của tân chủ soái; được Thiết Tâm coi trọng như một người lính trung kiên không vụ lợi bè phái.

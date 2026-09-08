@@ -106,7 +106,7 @@ def check_temporal_continuity():
         return ["[TEMPORAL-FAIL] Missing plot/chronology_matrix.md!"]
 
     expected_ages_v1 = {
-        "tĩnh xuyên": 18,
+        "tĩnh xuyên": 20,
         "tiêu phùng": 17,
         "hạ nương": 16,
     }

@@ -46,8 +46,8 @@ Thanh Loa Đảo (Thiên Vương Bang)   ──► Phò tá Dương Thiết Tâm
 - **Võ học & Triết lý**: Đoản côn gỗ nghiến, Túy Bộ bến sông; bái nhập Cái Bang học bổng pháp và *Kháng Long Hữu Hối* (phát 7 thu 3, Kinh Dịch) từ Thạch Hiên Viên.
 - **Khiếm khuyết cốt tử**: Nghiện ôm hết trách nhiệm và hiểm nguy, tự làm rạn nứt kinh mạch (`Burden -> Self-erasure`).
 
-### B. TĨNH XUYÊN (18 tuổi khởi điểm) — Lăng kính Kỷ luật Sa trường
-- **Thân thế & Địa bàn**: Thanh Loa Đảo (Thiên Vương Bang). Con trai dũng tướng Tĩnh Hùng mất tích năm 1181; phụng dưỡng người mẹ mù Diệp Mẫu.
+### B. TĨNH XUYÊN (20 tuổi khởi điểm) — Lăng kính Kỷ luật Sa trường
+- **Thân thế & Địa bàn**: Thanh Loa Đảo (Thiên Vương Bang). Con trai dũng tướng Tĩnh Hùng hy sinh năm 1181; 10 năm phụng dưỡng người mẹ mù Diệp Mẫu.
 - **Tuyến nhiệm vụ gắn liền**:
   - Task `0000000000000001` (*Tứ Diện Sở Ca*): Được Tân Bang chủ Dương Thiết Tâm cất nhắc làm tướng tiên phong hộ tống Hàn Thác Trụ và giải vây Đại Mãnh Chủy.
   - Task `0000000000000005` (Subtask 27–38): Mang thân phận gián điệp **Mộc Nhất Lâu** thâm nhập Ngũ Độc Giáo.

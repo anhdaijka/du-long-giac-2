@@ -92,7 +92,7 @@ graph TD
     Kytuong --> QTB["Quý Thúc Ban (62 tuổi - Tổng quản)"]
     Thehe2["Thế hệ tướng lĩnh trung kiên"] --> BDP["Bùi Dực Phi (35 tuổi - Thống lĩnh Cáp Xá)"]
     Thehe2 --> TCX["Tần Công Xích (Quỷ Đầu Đao)"]
-    Thehe3["Thế hệ trẻ / Đệ tử kế thừa"] --> TX["Tĩnh Xuyên (sinh 1173, 18 tuổi năm 1191 - POV)"]
+    Thehe3["Thế hệ trẻ / Đệ tử kế thừa"] --> TX["Tĩnh Xuyên (sinh 1171, 20 tuổi năm 1191 - POV)"]
 ```
 
 ### B. Bảng Bối Phận & Niên Đại Chi Tiết (Năm 1191)
@@ -106,7 +106,7 @@ graph TD
 | **Dương Thiết Tâm** | Tân Bang chủ (Đời 3) | **1149** (Kỷ Tỵ) | **42 tuổi** | Nghĩa tử Dương Anh; dòng dõi Dương gia tướng | Tân Bang chủ thống lĩnh toàn bang sau đại tỷ võ tháng 8/1191. |
 | **Bùi Dực Phi** | Thống lĩnh Cáp Xá | **1156** (Bính Thân) | **35 tuổi** | Tướng lĩnh thân cận dưới quyền Dương Anh | Dẫn 30 thiết kỵ xuất phát sang Thúy Yên Môn hỗ trợ quân nhu. |
 | **Diệp Mẫu** | Thân mẫu Tĩnh Xuyên | **1150** (Canh Dần) | **41 tuổi** | Mẫu thân Tĩnh Xuyên; góa phụ nghĩa sĩ Trường Giang | Mù lòa hai mắt, sống tại lều nứa bờ tây Thanh Loa Đảo. |
-| **Tĩnh Xuyên** | Đệ tử thiết kỵ (POV) | **1173** (Quý Tỵ) | **18 tuổi** | Con trai Diệp Mẫu; đàn em Bùi Dực Phi | Nhân vật chính POV; trải qua huyết chiến Hình Thiên Lĩnh nhận mặt nạ sắt. |
+| **Tĩnh Xuyên** | Đệ tử thiết kỵ (POV) | **1171** (Tân Mão) | **20 tuổi** | Con trai Diệp Mẫu; đàn em Bùi Dực Phi | Nhân vật chính POV; trải qua huyết chiến Hình Thiên Lĩnh nhận mặt nạ sắt. |
 
 ---
 

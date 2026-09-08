@@ -7,7 +7,7 @@
 
 ## 1. Tóm Tắt Biến Chuyển Cốt Truyện & Nhân Vật (Narrative Summary)
 
-- **POV**: Tĩnh Xuyên (18 tuổi — Dũng sĩ thiết giáp, Thanh Loa Đảo).
+- **POV**: Tĩnh Xuyên (20 tuổi — Dũng sĩ thiết giáp, Thanh Loa Đảo).
 - **Thời gian**: Đêm giông bão 1191-08-18 đến Canh tư rạng sáng 1191-08-19.
 - **Biến cố sa trường & Trinh thám pháp y cốt tử**:
   - Tĩnh Xuyên dầm mưa tuần tra bờ tây trở về lều nứa, sắc thuốc ngải cứu đắp ngực cho mẹ già mù lòa Diệp Mẫu; chuông đồng báo biến ba hồi chín tiếng rền vang xé toạc màn mưa đêm; Diệp Mẫu dặn dò giữ vững tâm mắt sa trường;

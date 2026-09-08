@@ -96,7 +96,7 @@ Dương Thiết Tâm xoay người lại, đưa mắt nhìn quanh khoang thuyề
 
 Bất chợt, ánh mắt của chàng dừng lại nơi chân cầu thang dẫn xuống khoang đáy — nơi Tĩnh Xuyên đang đứng gác.
 
-Thiết Tâm nhìn sững vào ngọn Bát Hàn Thiết Thương trong tay người lính trẻ mười tám tuổi. Lớp da đầu hổ bọc quanh khâu nối cán thương, dù đã mòn xơ lông tơ, vẫn để lộ những đường gân da màu vàng đậm đặc trưng của mãnh thú núi rừng Lạc Tiêu.
+Thiết Tâm nhìn sững vào ngọn Bát Hàn Thiết Thương trong tay người lính trẻ hai mươi tuổi. Lớp da đầu hổ bọc quanh khâu nối cán thương, dù đã mòn xơ lông tơ, vẫn để lộ những đường gân da màu vàng đậm đặc trưng của mãnh thú núi rừng Lạc Tiêu.
 
 Thiết Tâm chậm rãi bước từng bước về phía cầu thang. 
 
@@ -144,7 +144,7 @@ Mũi thương của Thiết Tâm thu về trong tích tắc, cắm thẳng đứ
 
 Tĩnh Xuyên đứng chôn chân tại chỗ, lồng ngực phập phồng. Vết chạm nhỏ li ti trên khâu sắt còn vương hơi ấm. Trong trận sinh tử, chỉ với một cú điểm chuẩn xác ấy, mũi thương đối phương đã đủ sức mượn lực đâm xuyên qua cuống họng ba lần. Nhưng đối phương đã giữ trọn thể diện cho chàng, lại còn dùng chính kiếm ý nhu hòa để chỉ điểm cho chàng thấy nhược điểm cứng nhắc của thế thương sa trường.
 
-Chàng nhìn vào bàn tay phải của mình — bàn tay mười tám tuổi chai sần vì vung rìu chẻ củi và mài thương đá suối. Mười năm qua, chàng luôn ngỡ rằng thương pháp chỉ cần đâm thẳng, gạt ngang, sức nặng ngàn cân là có thể thủ hộ người thân và giữ yên trận địa. Nào ngờ trên cõi giang hồ rộng lớn, một ngọn thương khi dung nạp kiếm ý Tây Vực lại có thể ảo diệu, bao dung và sắc bén đến mức này. Luồng hàn khí buốt giá của Bát Hàn Thiết Thương dường như cũng ấm dần lên trước phong độ trượng phu của người đối diện.
+Chàng nhìn vào bàn tay phải của mình — bàn tay hai mươi tuổi chai sần vì vung rìu chẻ củi và mài thương đá suối. Mười năm qua, chàng luôn ngỡ rằng thương pháp chỉ cần đâm thẳng, gạt ngang, sức nặng ngàn cân là có thể thủ hộ người thân và giữ yên trận địa. Nào ngờ trên cõi giang hồ rộng lớn, một ngọn thương khi dung nạp kiếm ý Tây Vực lại có thể ảo diệu, bao dung và sắc bén đến mức này. Luồng hàn khí buốt giá của Bát Hàn Thiết Thương dường như cũng ấm dần lên trước phong độ trượng phu của người đối diện.
 
 Tĩnh Xuyên thu Bát Hàn Thiết Thương lại sau lưng, quỳ một gối xuống sàn gỗ, chắp tay cúi đầu sát đất, giọng nói vang lên đầy vẻ chân thành và kính phục:
 

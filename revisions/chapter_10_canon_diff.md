@@ -7,7 +7,7 @@
 
 ## 1. Tóm Tắt Biến Chuyển Cốt Truyện & Nhân Vật (Narrative Summary)
 
-* **POV**: Tĩnh Xuyên (18 tuổi — Tiền phong Cáp Xá / Chỉ huy trưởng tuần phòng bờ kè Thanh Loa Đảo).
+* **POV**: Tĩnh Xuyên (20 tuổi — Tiền phong Cáp Xá / Chỉ huy trưởng tuần phòng bờ kè Thanh Loa Đảo).
 * **Mốc thời gian**: 1191-08-25 (Trưa oi nồng đến Đêm trăng rằm tháng Tám — Cách 6 ngày sau Chương 07b).
 * **Địa điểm**: Thanh Loa Đảo (Bến Nam, Tiền sảnh Hành Dinh, Sườn núi & Cửa hang Hình Thiên Lĩnh, Bến đò Thủy Lục).
 * **Biến chuyển cốt lõi**:
@@ -168,8 +168,8 @@ Index: plot/timeline.md
 +++ plot/timeline.md
 @@ -56,5 +56,5 @@
  * **Ngày 25–26 tháng 8 (1191-08-25 – 26):**
--  * *Thanh Loa Đảo (1191-08-25 Trưa oi nồng đến Đêm trăng rằm):* Đúng 6 ngày sau khi Cầu Chỉ Thủy rời đảo và Bùi Dực Phi dẫn 30 kỵ mã xuất chinh Tây Nam (1191-08-19). Thị vệ ngự tiền cải trang Lý Tuyền mang mật thư phủ Tông thất Triệu Nhữ Ngu dạt vào bờ kè bến nam. Tuyên phủ sứ Hàn Thác Trụ (39 tuổi) mang mật chiếu Tống Hiếu Tông chạy trốn bị sát thủ Ngũ Độc Giáo bao vây tại Hình Thiên Lĩnh (`Task 1: Subtask 3–4`). Dương Thiết Tâm dùng kế điệu hổ ly sơn cho kỵ binh Cáp Xá tại đảo làm mồi nhử ở bến Thanh Tiễn; Tĩnh Xuyên (18 tuổi) mang mặt nạ sắt bí mật phá vây Hình Thiên Lĩnh, đối mặt Bạch Kỳ Chủ Lư Tiếu Bần, huyết chiến tiêu diệt Ngũ Độc Nhị Sứ (Lãnh Nguyệt Sứ & Viêm Dương Sứ), giải cứu Hàn Thác Trụ an toàn xuống bến đò Thủy Lục.
-+  * *Thanh Loa Đảo (1191-08-25 Trưa oi nồng đến Đêm trăng rằm):* Đúng 6 ngày sau khi Cầu Chỉ Thủy rời đảo và Bùi Dực Phi dẫn 30 kỵ mã xuất chinh Tây Nam (1191-08-19). Thị vệ ngự tiền cải trang Lý Tuyền mang mật thư phủ Tông thất Triệu Nhữ Ngu dạt vào bờ kè bến nam. Tuyên phủ sứ Hàn Thác Trụ (39 tuổi) mang mật chiếu Tống Hiếu Tông chạy trốn bị sát thủ Ngũ Độc Giáo bao vây tại Hình Thiên Lĩnh (`Task 1: Subtask 3–4`). Dương Thiết Tâm dùng kế điệu hổ ly sơn cho kỵ binh Cáp Xá tại đảo làm mồi nhử ở bến Thanh Tiễn; Tĩnh Xuyên (18 tuổi) mang mặt nạ sắt bí mật phá vây Hình Thiên Lĩnh, đối mặt Bạch Kỳ Chủ Lư Tiếu Bần, huyết chiến tiêu diệt Ngũ Độc Nhị Sứ (Lãnh Nguyệt Sứ & Viêm Dương Sứ), giải cứu Hàn Thác Trụ an toàn xuống bến đò Thủy Lục. *(ĐÃ CANON HÓA — 5.835 từ)*
+-  * *Thanh Loa Đảo (1191-08-25 Trưa oi nồng đến Đêm trăng rằm):* Đúng 6 ngày sau khi Cầu Chỉ Thủy rời đảo và Bùi Dực Phi dẫn 30 kỵ mã xuất chinh Tây Nam (1191-08-19). Thị vệ ngự tiền cải trang Lý Tuyền mang mật thư phủ Tông thất Triệu Nhữ Ngu dạt vào bờ kè bến nam. Tuyên phủ sứ Hàn Thác Trụ (39 tuổi) mang mật chiếu Tống Hiếu Tông chạy trốn bị sát thủ Ngũ Độc Giáo bao vây tại Hình Thiên Lĩnh (`Task 1: Subtask 3–4`). Dương Thiết Tâm dùng kế điệu hổ ly sơn cho kỵ binh Cáp Xá tại đảo làm mồi nhử ở bến Thanh Tiễn; Tĩnh Xuyên (20 tuổi) mang mặt nạ sắt bí mật phá vây Hình Thiên Lĩnh, đối mặt Bạch Kỳ Chủ Lư Tiếu Bần, huyết chiến tiêu diệt Ngũ Độc Nhị Sứ (Lãnh Nguyệt Sứ & Viêm Dương Sứ), giải cứu Hàn Thác Trụ an toàn xuống bến đò Thủy Lục.
++  * *Thanh Loa Đảo (1191-08-25 Trưa oi nồng đến Đêm trăng rằm):* Đúng 6 ngày sau khi Cầu Chỉ Thủy rời đảo và Bùi Dực Phi dẫn 30 kỵ mã xuất chinh Tây Nam (1191-08-19). Thị vệ ngự tiền cải trang Lý Tuyền mang mật thư phủ Tông thất Triệu Nhữ Ngu dạt vào bờ kè bến nam. Tuyên phủ sứ Hàn Thác Trụ (39 tuổi) mang mật chiếu Tống Hiếu Tông chạy trốn bị sát thủ Ngũ Độc Giáo bao vây tại Hình Thiên Lĩnh (`Task 1: Subtask 3–4`). Dương Thiết Tâm dùng kế điệu hổ ly sơn cho kỵ binh Cáp Xá tại đảo làm mồi nhử ở bến Thanh Tiễn; Tĩnh Xuyên (20 tuổi) mang mặt nạ sắt bí mật phá vây Hình Thiên Lĩnh, đối mặt Bạch Kỳ Chủ Lư Tiếu Bần, huyết chiến tiêu diệt Ngũ Độc Nhị Sứ (Lãnh Nguyệt Sứ & Viêm Dương Sứ), giải cứu Hàn Thác Trụ an toàn xuống bến đò Thủy Lục. *(ĐÃ CANON HÓA — 5.835 từ)*
 ```
 
 ```diff

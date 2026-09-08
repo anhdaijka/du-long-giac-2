@@ -2,7 +2,7 @@
 number: "10"
 title: "Hình Thiên Lĩnh Huyết Lộ"
 pov: "Tĩnh Xuyên"
-pov_age: 18
+pov_age: 20
 status: "draft"
 author_notes: "Triển khai phân đoạn hành động sa trường kết hợp xung đột chính trị triều đình - giang hồ đạt chuẩn Kỷ luật Thể loại (Rule 11.7), Provenance Kernel (Rule 10) và Quy chuẩn Temporal Continuity (Rule TC-1 đến TC-4); bám sát 100% nguyên tác SQLite KT2 Task 1 Subtask 3 (Tín Sứ Thần Bí) và Subtask 4 (Sát Cơ Trùng Trùng); bóc tách mâu thuẫn thâm căn cố đế giữa truyền thống phản Tống của Thiên Vương Bang và đại cục kháng Kim thời cuộc; thực thi bước chuyển tiếp không-thời gian tự nhiên sau 6 ngày kể từ Chương 07b; thực thi chiến thuật nghi binh điệu hổ ly sơn và màn huyết chiến dốc đá nghẹt thở với Ngũ Độc Nhị Sứ; thiết lập ân tình chính trị then chốt với Tuyên phủ sứ Hàn Thác Trụ và nhân vật biến số Lư Tiếu Bần."
 date: "1191-08-25 (Trưa oi nồng đến Đêm trăng rằm tháng 8)"
@@ -21,7 +21,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 - **Number:** 10
 - **Working title:** Hình Thiên Lĩnh Huyết Lộ
 - **POV:** Tĩnh Xuyên
-- **POV chronological age:** 18 tuổi (Sinh năm 1173 — Khớp 100% với `plot/chronology_matrix.md` & `characters/tinh_xuyen.md`; loại bỏ triệt để nhầm lẫn "20 tuổi" từ session-state)
+- **POV chronological age:** 20 tuổi (Sinh năm 1171 — Khớp 100% với `plot/chronology_matrix.md` & `characters/tinh_xuyen.md`)
 - **Exact calendar date:** 1191-08-25 (Trưa oi nồng đến Đêm trăng rằm tháng 8 — Khớp 100% với `plot/timeline.md`)
 - **Delta T from last appearance:** $\Delta T = 6$ ngày (Lần cuối Tĩnh Xuyên xuất hiện là sáng ngày 1191-08-19 tại Chương 07b)
 - **Primary location:** Thanh Loa Đảo (Động Đình Hồ):
@@ -38,7 +38,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 - **Calendar date alignment (Rule TC-2):** Ngày diễn ra là **1191-08-25**, nằm chính xác tại mốc `Ngày 25–26 tháng 8` trong `plot/timeline.md`.
 - **Age consistency check (Rule TC-1):**
-  - Tĩnh Xuyên: Sinh năm 1173 (Quý Tỵ), đến mùa thu năm Thuần Hi thập bát niên (1191) vừa tròn **18 tuổi** (theo đúng hồ sơ gốc `characters/tinh_xuyen.md` và `plot/chronology_matrix.md`).
+  - Tĩnh Xuyên: Sinh năm 1171 (Tân Mão), đến mùa thu năm Thuần Hi thập bát niên (1191) vừa tròn **20 tuổi** (tuổi nhược quán, theo đúng hồ sơ gốc `characters/tinh_xuyen.md` và `plot/chronology_matrix.md`).
   - Hàn Thác Trụ: Sinh năm 1152 (Nhâm Thân), năm 1191 đúng **39 tuổi** (theo chính sử Nam Tống).
   - Lâu Nhất Quan: 55 tuổi; Quý Thúc Ban: 62 tuổi; Dương Thiết Tâm: 42 tuổi; Lư Tiếu Bần: 33 tuổi.
 - **Transition requirement ($\Delta T \ge 3$ days — Rule TC-3):**
@@ -72,7 +72,7 @@ What must this chapter change for the story?
 
 ## Inherited Injuries & Body Constraints (Thương Tật Kế Thừa)
 
-- **Tĩnh Xuyên (18 tuổi — Bậc Tier 1 Sa Trường):**
+- **Tĩnh Xuyên (20 tuổi — Bậc Tier 1 Sa Trường):**
   - Cơ thể đã phục hồi sau 6 ngày tĩnh dưỡng và điều tức theo khẩu quyết "Động Đình Quy Tức Công" của Cầu Chỉ Thủy; vết ê ẩm bả vai phải từ trận Chương 02b đã tan gần hết.
   - Thể lực sung mãn, nhưng giáp sắt dày cộm dưới nắng trưa hè Động Đình khiến mồ hôi rỉ ra xót buốt các nếp gấp da thịt; phải phân bổ sức bền khi leo dốc đá Hình Thiên Lĩnh.
 - **Lâu Nhất Quan (Lão tướng cựu trào):**

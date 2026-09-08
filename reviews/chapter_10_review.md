@@ -9,7 +9,7 @@
     - *Nhân vật khớp 100%*: Tuyên phủ sứ Hàn Thác Trụ, Bạch Kỳ Chủ Ngũ Độc Giáo Lư Tiếu Bần (Diệu Thủ Không Không), Ngũ Độc Nhị Sứ (Lãnh Nguyệt Sứ & Viêm Dương Sứ), Bang Chúng Kính Trang.
   - **Quy chuẩn Đồng bộ Không - Thời gian (Rule TC-1 đến TC-4)**:
     - *Ngày tháng*: **1191-08-25** (Trưa oi nồng đến Đêm trăng rằm tháng Tám), khớp chính xác mốc `Ngày 25–26 tháng 8` trong `plot/timeline.md`.
-    - *Tuổi nhân vật*: Tĩnh Xuyên sinh năm 1173, đúng tròn **18 tuổi** (Quyển 1), tuyệt đối không bị lệch pha hay dính lỗi nhầm lẫn 20 tuổi; Hàn Thác Trụ đúng **39 tuổi** (sinh 1152).
+    - *Tuổi nhân vật*: Tĩnh Xuyên sinh năm 1171, đúng tròn **20 tuổi** (tuổi nhược quán tại Quyển 1), khớp chuẩn xác với chronology_matrix.md và tinh_xuyen.md; Hàn Thác Trụ đúng **39 tuổi** (sinh 1152).
     - *Đoạn chuyển tiếp $\Delta T = 6$ ngày*: Khắc họa mượt mà 6 ngày trôi qua trên đảo kể từ khi Bùi Dực Phi xuất chinh Tây Nam và Cầu Chỉ Thủy rời bến (1191-08-19). Thể hiện rõ cái nóng mùa hạ hun đốt bờ kè, sự trống trải khi vắng bóng chủ lực Cáp Xá, và quá trình hồi phục thể lực hoàn toàn của Tĩnh Xuyên.
     - *Độ trễ di chuyển (`travel_matrix.md`)*: Bùi Dực Phi đã đi được 6 ngày (~600 dặm về Tây Nam); Hàn Thác Trụ trốn chạy từ biên giới/Lâm An mất 10-12 ngày; lực lượng kỵ binh Cáp Xá tham gia nghi binh ở bến Thanh Tiễn là số quân đóng lại tại đảo.
 

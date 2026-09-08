@@ -6,7 +6,7 @@
 
 ```diff
 [Tĩnh Xuyên]
-- Tuổi: 18 tuổi.
+- Tuổi: 20 tuổi (tuổi nhược quán).
 - Chức vị: Tiểu tướng thị vệ thuộc trướng Quý tổng quản, kỵ binh thiết giáp Thanh Loa Đảo.
 - Thể trạng & Vũ khí: Thân hình cao lớn vạm vỡ; khoác chiến giáp vảy bạc xích sắt sẫm màu nước mặn; cầm Bát Hàn Thiết Thương (nặng 23 cân, khâu nối bọc da đầu hổ mòn lông tơ).
 - Tâm trạng: Trầm tĩnh, tôn sùng kỷ luật sắt sa trường, hiếu thuận sâu sắc với mẹ mù Diệp Mẫu.

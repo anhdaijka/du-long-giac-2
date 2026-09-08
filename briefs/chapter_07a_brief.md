@@ -18,7 +18,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 - **Number:** 07a
 - **Working title:** Ám Toán Trong Đêm
-- **POV:** Tĩnh Xuyên (18 tuổi — Ngôi thứ ba hạn tri sa trường / Deep Third-Person Limited)
+- **POV:** Tĩnh Xuyên (20 tuổi — Ngôi thứ ba hạn tri sa trường / Deep Third-Person Limited)
 - **Primary location:** Thanh Loa Đảo (Động Đình Hồ):
   - *Gian lều nứa bờ tây:* Nơi Tĩnh Xuyên trở về sau ca tuần tra đêm; ấm thuốc ngải cứu đắp ngực cho Diệp Mẫu mù lòa; không khí gia đình dân dã, ấm áp đối lập với giông bão bên ngoài.
   - *Trướng thất Lâu Nhất Quan:* Hiện trường vụ mưu sát hụt; rèm trướng lụa bị chém toác; vết máu loãng xối theo nước mưa trên bệ gỗ sồi; bàn trà đổ vỡ, tài liệu quân lương vương vãi.
@@ -45,7 +45,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ## Inherited Injuries & Body Constraints (Thương Tật Kế Thừa)
 
-- **Tĩnh Xuyên (18 tuổi — Bậc Tier 1):**
+- **Tĩnh Xuyên (20 tuổi — Bậc Tier 1):**
   - Khớp bả vai phải còn cảm giác ê ẩm nhẹ do dư chấn đón đỡ chiêu thương cương nhu của Dương Thiết Tâm tại Chương 02b.
   - Trên khâu sắt của ngọn Bát Hàn Thiết Thương có vết mẻ xước nhỏ li ti do mũi thương của Thiết Tâm điểm trúng.
   - Thể lực mỏi mệt sau nửa đêm dầm mưa tuần tra bờ tây, mắt cay xè vì khói củi ướt khi sắc thuốc ngải cứu cho mẹ.
@@ -67,7 +67,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ## Starting state
 
-- **Character (Tĩnh Xuyên):** 18 tuổi; toàn thân ướt sũng nước mưa sau ca tuần phòng bờ kè đá phía tây đảo; đang ngồi xổm bên bếp lửa nứa thổi than sắc nồi thuốc ngải cứu cho Diệp Mẫu; tay cầm cán Bát Hàn Thiết Thương chống đất.
+- **Character (Tĩnh Xuyên):** 20 tuổi; toàn thân ướt sũng nước mưa sau ca tuần phòng bờ kè đá phía tây đảo; đang ngồi xổm bên bếp lửa nứa thổi than sắc nồi thuốc ngải cứu cho Diệp Mẫu; tay cầm cán Bát Hàn Thiết Thương chống đất.
 - **Relationship:**
   - *Tĩnh Xuyên <-> Diệp Mẫu:* Tình mẫu tử ấm áp; Diệp Mẫu tuy mù lòa nhưng thính giác cực nhạy, cảm nhận được hơi nước buốt lạnh và tiếng thở mệt mỏi của con trai, nhắc nhở chàng về sự điềm tĩnh sa trường giữa giông gió.
   - *Tĩnh Xuyên <-> Dương Thiết Tâm:* Mang lòng kính ngưỡng thực tài và đức độ của tân chủ soái; chưa tiếp xúc sâu sau cuộc tỷ võ soái hạm.

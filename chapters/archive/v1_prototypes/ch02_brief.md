@@ -16,7 +16,7 @@ Thiết lập không gian kỷ luật quân lữ sa trường của đảo Thanh
 ---
 
 ## Starting State
-- **Character:** Tĩnh Xuyên 18 tuổi, thiết giáp bạc sẫm màu nước mặn, cầm trường thương Bát Hàn rèn lạnh; phụng dưỡng người mẹ mù Diệp Mẫu.
+- **Character:** Tĩnh Xuyên 20 tuổi, thiết giáp bạc sẫm màu nước mặn, cầm trường thương Bát Hàn rèn lạnh; phụng dưỡng người mẹ mù Diệp Mẫu.
 - **Relationship:** Trung thành tuyệt đối với kỷ cương của đảo; đứng ngoài mâu thuẫn ngấm ngầm giữa hai nguyên lão Lâu Nhất Quan và Quý Thúc Ban.
 - **Knowledge:** Ngôi vị bang chủ bỏ trống nhiều năm ("quần long vô thủ"), nội bộ chia rẽ bè phái.
 - **Object/Location:** Gian nhà tranh đạm bạc mép đảo; bến tàu Thanh Loa rợp cờ lệnh.

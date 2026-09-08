@@ -18,7 +18,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 - **Number:** 07b
 - **Working title:** Thạch Ngục Đối Bí
-- **POV:** Tĩnh Xuyên (18 tuổi — Ngôi thứ ba hạn tri sa trường / Deep Third-Person Limited)
+- **POV:** Tĩnh Xuyên (20 tuổi — Ngôi thứ ba hạn tri sa trường / Deep Third-Person Limited)
 - **Primary location:** Thanh Loa Đảo (Động Đình Hồ):
   - *Thạch ngục bờ đông:* Hang đá tự nhiên khoét sâu vào vách đá vôi ngập mùi nước mặn và rêu ẩm; sóng ngầm đập vào kẽ đá dưới đáy ngục tạo âm vang rền rĩ; ánh đuốc dầu mỡ cá chập chờn soi bóng xích sắt cùm chân của Cầu Chỉ Thủy.
   - *Mật thất Hành dinh:* Nơi Dương Thiết Tâm, Bùi Dực Phi và Tĩnh Xuyên hội nghị kín lúc rạng sáng để cân nhắc quyết sách chính trị "trục xuất giải vây".
@@ -45,7 +45,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ## Inherited Injuries & Body Constraints (Thương Tật Kế Thừa)
 
-- **Tĩnh Xuyên (18 tuổi — Bậc Tier 1):**
+- **Tĩnh Xuyên (20 tuổi — Bậc Tier 1):**
   - Mắt quầng thâm, hai thái dương giật giật vì thức trắng trọn một đêm căng thẳng giữa mưa bão và đấu trí sa trường.
   - Bàn chân và bắp chân mỏi nhừ sau khi leo dốc đá trơn trượt xuống thạch ngục bờ đông; ngón tay tê buốt vì cầm cán sắt Bát Hàn Thiết Thương dưới gió lạnh hồ Động Đình.
 - **Cầu Chỉ Thủy (60 tuổi — Lão tướng Thiên Vương):**

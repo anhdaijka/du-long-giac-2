@@ -16,12 +16,12 @@ Thiết lập thế giới quân lữ sa trường và kỷ luật sắt đá c�
 - Khắc họa đời sống đạm bạc, chữ hiếu và tính cách cương trực, trọng quân kỷ của Tĩnh Xuyên (chăm sóc mẹ mù Diệp Mẫu, giữ nghiêm nề nếp nghĩa quân).
 - Tái hiện biến cố lịch sử chấn động Thanh Loa Đảo: Lão Bang chủ Anh Cô (Dương Anh) sau nhiều năm bặt vô âm tín bất ngờ vân du trở về, mang theo một thanh niên xa lạ khôi ngô — Dương Thiết Tâm — và tuyên bố nhường ngôi Bang chủ.
 - Miêu tả cuộc xung đột chính trị nội bộ gay gắt giữa cựu thần bảo thủ (Lâu Nhất Quan, Quý Thúc Ban) và quyết định của Anh Cô, dẫn đến cuộc đại hội tỷ võ trên 3 tầng khoang chiến thuyền.
-- Tĩnh Xuyên bước lên soái hạm với tư cách **tiểu tướng thị vệ tháp tùng Quý Thúc Ban** (giữ đúng vị thế hậu bối 18 tuổi, không mắc bẫy 'Game Protagonist Syndrome'); tận mắt chứng kiến thương pháp cái thế dung hợp giữa Dương Gia Thương và kiếm ý Côn Lôn của Dương Thiết Tâm đả bại Tam đại cao thủ cựu trào (Tần Công Xích, Lê Việt, Lưu Mặc).
+- Tĩnh Xuyên bước lên soái hạm với tư cách **tiểu tướng thị vệ tháp tùng Quý Thúc Ban** (giữ đúng vị thế hậu bối 20 tuổi — tuổi nhược quán, không mắc bẫy 'Game Protagonist Syndrome'); tận mắt chứng kiến thương pháp cái thế dung hợp giữa Dương Gia Thương và kiếm ý Côn Lôn của Dương Thiết Tâm đả bại Tam đại cao thủ cựu trào (Tần Công Xích, Lê Việt, Lưu Mặc).
 - Màn khảo nghiệm truyền thừa & cất nhắc hậu bối: Sau khi hạ tam tướng, Thiết Tâm nhận ra ngọn Bát Hàn Thiết Thương nẹp da đầu hổ của cố danh tướng Tĩnh Hùng, chủ động mời Tĩnh Xuyên so một thế thương trận phòng ngự; chỉ điểm tinh hoa và tấm tắc ngợi khen khí phách con nhà tông, mở đường cho việc trọng dụng Tĩnh Xuyên sau này.
 
 ## Starting state
 
-- character: Tĩnh Xuyên 18 tuổi, thân hình vạm vỡ, khoác chiến giáp thiết giáp bạc đượm mùi rỉ sét nước mặn Động Đình Hồ, cầm Bát Hàn Thiết Thương cán sắt tôi lạnh nẹp da đầu hổ; giữ chức tiểu tướng thị vệ thuộc trướng Quý tổng quản; trầm tĩnh, kỷ luật, phụng dưỡng mẹ mù.
+- character: Tĩnh Xuyên 20 tuổi, thân hình vạm vỡ, khoác chiến giáp thiết giáp bạc đượm mùi rỉ sét nước mặn Động Đình Hồ, cầm Bát Hàn Thiết Thương cán sắt tôi lạnh nẹp da đầu hổ; giữ chức tiểu tướng thị vệ thuộc trướng Quý tổng quản; trầm tĩnh, kỷ luật, phụng dưỡng mẹ mù.
 - relationship: 
   - Diệp Mẫu (mẹ): Hiếu thuận, kính cẩn, hằng ngày tự tay sắc thang thuốc lá ngải sấy khô ấm nóng xoa bóp mắt cho mẹ.
   - Quý Thúc Ban (Quý tổng quản): Kính trọng như bậc tiền bối đức cao vọng trọng; làm tròn phận sự tiểu tướng thị vệ tháp tùng.
@@ -96,7 +96,7 @@ Thiết lập thế giới quân lữ sa trường và kỷ luật sắt đá c�
 
 ## Continuity risks
 
-- Tĩnh Xuyên giữ đúng tư cách tiểu tướng thị vệ 18 tuổi tháp tùng Quý tổng quản, tuyệt đối không tự ý thách đấu cựu thần hay tranh đoạt ngôi vị như cơ chế game player solo.
+- Tĩnh Xuyên giữ đúng tư cách tiểu tướng thị vệ 20 tuổi tháp tùng Quý tổng quản, tuyệt đối không tự ý thách đấu cựu thần hay tranh đoạt ngôi vị như cơ chế game player solo.
 - Tuyệt đối không để Tĩnh Xuyên biết trước về danh xưng gián điệp "Mộc Nhất Lâu" hay chuyện tình bi kịch với Ân Đồng (đây là chuyện của Quyển 2, Task 5).
 - Tỷ võ diễn ra thuần túy bằng thực lực binh khí sa trường, không có chưởng phong bay lượn huyền ảo hay ánh sáng màu mè theo đúng văn phong Kim Dung cổ điển.
 - Diệp Mẫu phải giữ đúng hình ảnh người mẹ mù nghiêm cẩn, chất phác vùng đầm lầy, không phóng đại thành cao thủ ẩn dật.

@@ -20,13 +20,13 @@ weapon: "Bát Hàn Thiết Thương -> Bôn Lôi Toàn Long Thương"
 ## 1. TỔNG QUAN & ĐỊNH VỊ HÌNH TƯỢNG (ARCHETYPE)
 * **Định vị:** Lăng kính Kỷ luật Sa trường (The Martial Disciplinarian). Đại diện cho ý chí quật cường, kỷ cương quân lữ của nghĩa quân chống Kim.
 * **Hình ảnh nhận diện:** Dáng vóc cao lớn, vai rộng như tạc đá; khoác chiến giáp thiết giáp bạc sẫm màu nước mặn Thanh Loa Đảo; ánh mắt cương nghị, nghiêm nghị ít khi cười; tay nắm ngọn trường thương cán sắt tôi lạnh. Trước ngực áo giáp giấu kín một chiếc **túi gấm thổ cẩm thêu đôi uyên ương** thấm máu khô.
-* **Tuổi khởi điểm:** 18 tuổi (Mùa thu năm Thuần Hi thập bát niên - 1191).
+* **Tuổi khởi điểm:** 20 tuổi (Mùa thu năm Thuần Hi thập bát niên - 1191, tuổi nhược quán). Năm sinh: 1171 (Tân Mão).
 
 ---
 
 ## 2. XUẤT THÂN & THÂN THẾ LỊCH SỬ (BACKSTORY & PROVENANCE)
 * **Gia thế:** Con trai độc nhất của danh tướng **Tĩnh Hùng** – thống lĩnh tiền phong Thiên Vương Bang hy sinh oanh liệt trong trận tử chiến phòng tuyến Trường Giang năm 1181.
-* **Cảnh ngộ:** Sống cùng người mẹ mù lòa (**Diệp Mẫu**) trên Thanh Loa Đảo. Từ năm 8 tuổi đã rèn giũa dưới quân kỷ sắt đá của đảo, vừa luyện thương pháp vừa phụng dưỡng mẫu thân, sống đạm bạc liêm khiết.
+* **Cảnh ngộ:** Sống cùng người mẹ mù lòa (**Diệp Mẫu**) trên Thanh Loa Đảo. Mồ côi cha từ năm **10 tuổi** (1181), chàng có tròn **10 năm (1181 – 1191)** rèn giũa dưới quân kỷ sắt đá của đảo, vừa luyện thương pháp vừa đan quai giỏ, sắc thuốc ngải cứu phụng dưỡng mẫu thân, sống đạm bạc liêm khiết.
 * **Vị thế trong bang:** Tận mắt chứng kiến cuộc trở về của Dương Anh và màn tỷ võ đoạt vị trên khoang thuyền chiến; sau đó được Tân Bang chủ **Dương Thiết Tâm** cất nhắc làm tướng tiên phong trẻ tuổi nhất nhờ lòng trung kiên và tài thao lược quyết đoán, không sa vào tranh chấp bè phái giữa phái cấp tiến của Dương Thiết Tâm và phái bảo thủ của Lâu Nhất Quan.
 
 ---
@@ -43,23 +43,25 @@ weapon: "Bát Hàn Thiết Thương -> Bôn Lôi Toàn Long Thương"
 
 ---
 
-## 4. HỆ THỐNG VÕ HỌC & TIẾN TRÌNH TRƯỞNG THÀNH 5 QUYỂN (5-STAGE MARTIAL ARC)
+## 4. HỆ THỐNG VÕ HỌC & TIẾN TRÌNH TRƯỞNG THÀNH 5 QUYỂN (5-STAGE MARTIAL ARC - 17 NĂM)
 *Nguyên tắc Kim Dung tối cao: Sự tiến hóa từ "Cỗ máy quân lệnh mù quáng" đến "Người gánh vác chữ Nghĩa dẹp yên can qua".*
-* **Quyển 1: Dương Gia Kỷ Luật Thương & Thế Trận Phòng Ngự (18 tuổi — Kỷ luật thị vệ)**
+* **Quyển 1: Dương Gia Kỷ Luật Thương & Thế Trận Phòng Ngự (20 tuổi — Kỷ luật thị vệ, Thu 1191 – Xuân 1192)**
   * *Binh khí:* Ngọn Bát Hàn Thiết Thương nẹp da đầu hổ của phụ thân Tĩnh Hùng (trên khâu sắt cán thương có vết chạm nhỏ li ti do mũi thương của Dương Thiết Tâm điểm trúng khi khảo nghiệm truyền thừa tại Chương 02b).
   * *Phong cách:* Kế thừa thương pháp trận địa từ phụ thân và lão bang chủ Dương Anh. Đòn thương chắc chắn, cương liệt, lấy đâm thẳng, gạt ngang, giữ vững đội hình làm căn bản; tuyệt đối tuân phục quân lệnh, không màng danh lợi cá nhân. Sau màn so thương với Tân Bang chủ Dương Thiết Tâm (`Chương 02b`), chàng được chỉ điểm kiếm ý nhu hòa Côn Lôn, bắt đầu nhận thức được nhược điểm cứng nhắc của thương trận sa trường khi đối đầu với cao thủ linh hoạt.
 
-* **Quyển 2: Bôn Lôi Toàn Long Thương & Đoản Đao Gián Điệp (19 tuổi — Rạn nứt lý tưởng)**
-  * *Binh khí:* Bôn Lôi Thiết Thương & Song đoản đao gián điệp Mộc Nhất Lâu.
-  * *Phong cách:* Trận chiến Tứ Diện Sở Ca và phá vây Đại Mãnh Chủy tôi luyện thương thế tấn công như sấm sét. Khi nhận mật lệnh trà trộn vào Ngũ Độc Giáo dưới thân phận Mộc Nhất Lâu (`Task 5`), chàng buộc phải giấu thương pháp Thiên Vương, dùng đoản đao thích khách; bắt đầu nếm trải sự rạn nứt giữa đạo đức và quân lệnh.
-* **Quyển 3: Tâm Ma Vật Quy Cốc & Cận Chiến Liều Chết (20 tuổi — Vết thương lương tâm)**
-  * *Khủng hoảng võ học:* Sau khi buộc phải tự tay hạ sát Ân Đồng tại Vật Quy Cốc (`Subtask 37`), Tĩnh Xuyên rơi vào trạng thái tâm ma (PTSD). Khí huyết tắc nghẽn ở Đản Trung, mỗi khi vung thương lại run rẩy vì thấy hình bóng người con gái yêu mình.
-  * *Phong cách sa trường:* Tham gia chiến dịch Phục Ngưu Sơn và Hải Lăng Vương Mộ với lối đánh liều chết (Death-seeking combat style), coi rẻ sinh mạng bản thân, lấy thân mình giáp sắt làm bia đỡ đạn cho đồng đội.
-* **Quyển 4: Đoán Kim Hóa Kình & Thấu Cốt Thương Ý (21 tuổi — Hóa giải chấp niệm)**
-  * *Chữa lành & Đốn ngộ:* Nhờ chén rượu bãi sậy của Tiêu Phùng và những mũi ngân châm đả thông kinh mạch của Hạ Nương, Tĩnh Xuyên vượt qua tâm ma. Ngọn thương chuyển hóa từ "Sát thương đồ tể" sang "Thương đạo thủ hộ".
+* **Quyển 2: Bôn Lôi Toàn Long Thương & Thống Lĩnh Cáp Xá (23 tuổi — Rạn nứt lý tưởng, 1193 – 1194)**
+  * *Binh khí:* Bôn Lôi Thiết Thương & Song đoản đao gián điệp.
+  * *Phong cách:* Trận chiến Tứ Diện Sở Ca và phá vây Đại Mãnh Chủy tôi luyện thương thế tấn công như sấm sét. Đứng trước biến cố Thiệu Hy nội thiền và ngoại bang xâm lấn, chàng chứng kiến ranh giới giữa triều đình thối nát và nghĩa quân sa trường; bắt đầu nếm trải sự rạn nứt giữa đạo đức và quân lệnh.
+
+* **Quyển 3: Kỵ Tướng Sa Trường & Khói Lửa Phục Ngưu (28 tuổi — Vết thương lương tâm & Lò lửa chiến dịch, 1195 – 1199)**
+  * *Khủng hoảng & Chiến dịch:* Thời kỳ Khánh Nguyên đảng cấm; kỵ binh Thiên Vương Bang tử thủ Phục Ngưu Sơn và phòng tuyến Tương Dương. Lối đánh sa trường can trường, coi rẻ sinh mạng bản thân, lấy thân mình giáp sắt làm bia đỡ đạn cho đồng đội.
+
+* **Quyển 4: Mộc Nhất Lâu & Đoán Kim Hóa Kình (34 tuổi — Thâm nhập Yến Kinh & Hóa giải chấp niệm, 1200 – 1205)**
+  * *Bi kịch & Đốn ngộ:* Nhận mật lệnh mang danh xưng gián điệp **Mộc Nhất Lâu** thâm nhập cứ điểm địch, trải qua bi kịch đau đớn Ân Đồng. Nhờ sự thức tỉnh bên bờ sinh tử, chén rượu bãi sậy của Tiêu Phùng và những mũi ngân châm đả thông kinh mạch của Hạ Nương, Tĩnh Xuyên vượt qua tâm ma. Ngọn thương chuyển hóa từ "Sát thương đồ tể" sang "Thương đạo thủ hộ".
   * *Sáng tạo võ học:* Dung hợp cương kình của Kim hệ với nhu kình của nước Động Đình, sáng tạo thế thương *Đoán Kim Hóa Khí* — ngọn thương uy lực trầm hùng nhưng không còn sát khí mù quáng.
-* **Quyển 5: Trấn Quốc Thần Thương (22+ tuổi — Dẹp yên can qua)**
-  * *Cảnh giới:* Thống soái kỵ binh thiết giáp Thiên Vương Bang tại quyết chiến Linh Bích. Ngọn thương chỉ đâu vạn quân theo đó, đạt tới cảnh giới tối thượng của binh đạo: "Vũ giả, chỉ qua vi vũ" (Dùng võ công để ngăn chặn đao binh, cứu rỗi muôn dân).
+
+* **Quyển 5: Trấn Quốc Thần Thương & Thống Soái Mặt Nạ Sắt (37 tuổi — Linh Bích Huyết Chiến & Dẹp yên can qua, 1206 – 1208)**
+  * *Cảnh giới:* Thống soái kỵ binh thiết giáp mang mặt nạ sắt tại quyết chiến Linh Bích trong Khai Hy Bắc Phạt. Ngọn thương chỉ đâu vạn quân theo đó, đạt tới cảnh giới tối thượng của binh đạo: "Vũ giả, chỉ qua vi vũ" (Dùng võ công để ngăn chặn đao binh, cứu rỗi muôn dân).
 
 ---
 

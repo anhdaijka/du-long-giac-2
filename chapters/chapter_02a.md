@@ -25,7 +25,7 @@ Giọng Diệp Mẫu trầm và khàn đặc như tiếng gió lùa qua bãi lau
 
 "Thưa mẹ, con đang gạn nước thuốc đây."
 
-Tĩnh Xuyên đáp lời, giọng nói rành mạch, dứt khoát như cách chàng vẫn nhận khẩu lệnh ngoài quân doanh. Chàng lót chiếc khăn vải thô đã giặt sạch vào quai ấm, cẩn thận rót dòng nước thuốc nâu sẫm, đặc sánh ra chiếc bát sành mẻ miệng. Hơi nóng bốc lên ngùn ngụt làm mờ đi khuôn mặt góc cạnh, làn da ngăm đen vì nắng gió và sống mũi thẳng tắp của người lính trẻ mười tám tuổi.
+Tĩnh Xuyên đáp lời, giọng nói rành mạch, dứt khoát như cách chàng vẫn nhận khẩu lệnh ngoài quân doanh. Chàng lót chiếc khăn vải thô đã giặt sạch vào quai ấm, cẩn thận rót dòng nước thuốc nâu sẫm, đặc sánh ra chiếc bát sành mẻ miệng. Hơi nóng bốc lên ngùn ngụt làm mờ đi khuôn mặt góc cạnh, làn da ngăm đen vì nắng gió và sống mũi thẳng tắp của người lính trẻ hai mươi tuổi.
 
 Chàng bưng bát thuốc đến bên mép chõng, nhúng góc khăn xô sạch vào bát nước ấm, vắt nhẹ rồi áp lên mi mắt hõm sâu của mẹ.
 
@@ -37,7 +37,7 @@ Diệp Mẫu khẽ thở dài khi hơi ấm của lá ngải thấm qua làn da 
 
 Diệp Mẫu im lặng một lát. Lớp vải xô ấm trên mắt bà bắt đầu nguội dần dưới ngọn gió lùa. Bà nắm lấy cổ tay chàng, những ngón tay gầy guộc siết chặt lại:
 
-"Cha con ngày xưa cũng nói y như con trước mỗi lần dong buồm ra khúc sông Hán Thủy. Ông ấy bảo chỉ đi kiểm tra cọc tiêu bãi cạn, rồi đến khi người ta khiêng về, trên giáp sắt găm tới bảy mũi tên có ngạnh của kỵ binh Kim. Xuyên nhi, Thiên Vương Bang này từ thuở Lão Bang chủ khởi sự đến nay, máu đổ xuống hồ Động Đình còn nhiều hơn nước ngọt. Mười tám tuổi, con vác ngọn thương sắt ấy đi đứng ngoài hàng ngũ, chớ có học thói hung hăng hiếu sát của đám thiếu niên mới vào trại. Kẻ nào trên sa trường coi mạng mình nhẹ như lông hồng, kẻ đó chôn xác trước tiên."
+"Cha con ngày xưa cũng nói y như con trước mỗi lần dong buồm ra khúc sông Hán Thủy. Ông ấy bảo chỉ đi kiểm tra cọc tiêu bãi cạn, rồi đến khi người ta khiêng về, trên giáp sắt găm tới bảy mũi tên có ngạnh của kỵ binh Kim. Xuyên nhi, Thiên Vương Bang này từ thuở Lão Bang chủ khởi sự đến nay, máu đổ xuống hồ Động Đình còn nhiều hơn nước ngọt. Hai mươi tuổi, con vác ngọn thương sắt ấy đi đứng ngoài hàng ngũ, chớ có học thói hung hăng hiếu sát của đám thiếu niên mới vào trại. Kẻ nào trên sa trường coi mạng mình nhẹ như lông hồng, kẻ đó chôn xác trước tiên."
 
 "Lời mẹ dạy, con ghi tạc vào lòng."
 
@@ -89,7 +89,7 @@ Quý Thúc Ban quay đầu lại. Ánh mắt nghiêm nghị của ông lướt q
 
 "Tuân lệnh!"
 
-Tĩnh Xuyên đứng thẳng dậy, bước lùi lại nửa bước rồi theo sát sau lưng Quý Thúc Ban. Chàng hiểu rõ vị thế của mình: một người lính mười tám tuổi, con trai của một cố dũng tướng đã khuất, dù mang danh tiểu tướng thị vệ nhưng đứng trước các bậc nguyên lão khai quốc của bản bang, chàng chỉ là kẻ hậu sinh có bổn phận bồng thương gác cổng và tuân thủ quân lệnh.
+Tĩnh Xuyên đứng thẳng dậy, bước lùi lại nửa bước rồi theo sát sau lưng Quý Thúc Ban. Chàng hiểu rõ vị thế của mình: một người lính hai mươi tuổi, con trai của một cố dũng tướng đã khuất, dù mang danh tiểu tướng thị vệ nhưng đứng trước các bậc nguyên lão khai quốc của bản bang, chàng chỉ là kẻ hậu sinh có bổn phận bồng thương gác cổng và tuân thủ quân lệnh.
 
 Một chiếc thuyền thoi đáy bằng rẽ sóng đưa Quý Thúc Ban cùng toán thị vệ rời cầu tàu, hướng thẳng ra giữa lòng hồ.
 

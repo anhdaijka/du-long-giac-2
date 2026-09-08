@@ -100,7 +100,7 @@ Chàng quay sang Tĩnh Xuyên, ánh mắt rực lên niềm tin cẩn tuyệt đ
 
 "Thế trận này gọi là Điệu Hổ Ly Sơn. Ngươi mang chiếc mặt nạ này vào. Lên Hình Thiên Lĩnh, ngươi không phải đệ tử Thiên Vương Bang, không đại diện cho bất kỳ môn phái nào, mà là một bóng ma sa trường. Tìm bằng được Hàn đại nhân, tiêu diệt chốt chặn của địch, đưa ngài ấy xuống bến đò Thủy Lục bí mật phía đông bắc. Ở đó, ta đã bố trí Bang Chúng Kính Trang chực sẵn xuồng nan tiếp ứng."
 
-Thiết Tâm đặt bàn tay nặng trịch lên vai người thiếu niên mười tám tuổi, siết nhẹ:
+Thiết Tâm đặt bàn tay nặng trịch lên vai người tráng sĩ trẻ hai mươi tuổi, siết nhẹ:
 
 "Chỉ được thành công, không được thất bại. Đi đi!"
 

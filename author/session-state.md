@@ -33,7 +33,20 @@
       - `chapters/chapter_08b.md`: Bỏ "Tân Chưởng môn", sửa "Sư bá" thành "Sư tỷ", bỏ nhãn "một già một trẻ" đối với Lệ Thu Thủy.
       - `chapters/chapter_03.md`: Chuẩn hóa 10 phân đoạn miêu tả Doãn Hàm Yên 40 tuổi uy nghi gánh vác kinh tài.
       - `briefs/chapter_03_brief.md`, `briefs/chapter_08a_brief.md`, `briefs/chapter_08b_brief.md`, `briefs/chapter_11_brief.md`: Tích hợp 100% bảng `## NPC Pedigree & Biological Age Verification`.
-    - Kiểm định tự động: `npm run lint:prose` PASS 15/15 chương, `python scripts/lore-guard.py --scan` PASS 47/47 tệp, `npm run gate:check` PASS 100%.
+- **Tái Cấu Trúc Niên Biểu 17 Năm (1191 – 1208) & Điều Chỉnh Tuổi Debut Tĩnh Xuyên 20 Tuổi (HOÀN TẤT 100%)**:
+  - **Tĩnh Xuyên**: Sinh năm **1171 (Tân Mão)**, debut Quyển 1 (1191) đúng **20 tuổi** (tuổi nhược quán). Mồ côi cha (Tĩnh Hùng hy sinh trận Trường Giang 1181) năm 10 tuổi; có tròn 10 năm (1181 – 1191) đan quai giỏ, sắc thuốc ngải cứu phụng dưỡng mẹ mù Diệp Mẫu trên Thanh Loa Đảo trước ngày xuất trận. Kết truyện (1208) tròn 37 tuổi (Đại tướng quân sa trường).
+  - **Khung thời gian 17 năm (1191 – 1208) tích hợp 12 Arcs KT2 & Lịch sử thực tế Nam Tống - Kim - Đại Lý**:
+    - Quyển 1 (1191 – 1192, 8 tháng): *Long Dược Ba Lăng & Khởi Nguyên Nghĩa Quân* (`Arcs 00, 01`) — Tĩnh Xuyên 20t, Tiêu Phùng 17t, Hạ Nương 16t.
+    - Quyển 2 (1193 – 1194, 2 năm): *Du Long Tranh Phong & Thiệu Hy Phong Vân* (`Arcs 02, 03, 04` — Thiệu Hy nội thiền 1194, Du Long Giác xuất thế).
+    - Quyển 3 (1195 – 1199, 5 năm): *Khánh Nguyên Huyết Kiếp & Khói Lửa Phục Ngưu* (`Arcs 05, 06, 07` — Khánh Nguyên đảng cấm, Cái Bang Ảnh Xã, phòng tuyến Tương Dương).
+    - Quyển 4 (1200 – 1205, 6 năm): *Đại Lý Kỳ Án & Mật Chiến Yến Kinh* (`Arcs 08, 09` — Hàn Thác Trụ chuẩn bị Bắc Phạt, gián điệp Mộc Nhất Lâu, thân thế hoàng thất Nam Chiếu).
+    - Quyển 5 (1206 – 1208, 3 năm): *Linh Bích Quyết Chiến & Thái Tổ Long Mạch* (`Arcs 10, 11, 12` — Khai Hy Bắc Phạt, Huyết chiến Linh Bích 1206, Ám sát Hàn Thác Trụ 1207, Hòa ước Gia Định 1208, Đại kết cục).
+  - **Hoàn tất Retrofit & Đồng bộ Hệ thống**:
+    - Sổ cái: `plot/chronology_matrix.md`, `characters/tinh_xuyen.md`, `worldbuilding/factions/genealogy_matrix.md`, `plot/timeline.md`, `migration/adaptation-contract.md`.
+    - Bản thảo văn xuôi: `chapters/chapter_02a.md`, `chapters/chapter_02b.md`, `chapters/chapter_10.md` (chuẩn hóa "hai mươi tuổi").
+    - Briefs, Reviews & Diffs: `briefs/chapter_02_brief.md`, `chapter_07_brief.md`, `chapter_07a_brief.md`, `chapter_07b_brief.md`, `chapter_10_brief.md`, `reviews/chapter_02_review.md`, `reviews/chapter_10_review.md`, `revisions/chapter_02_canon_diff.md`, `chapter_07a_canon_diff.md`, `chapter_07b_canon_diff.md`, `chapter_10_canon_diff.md`.
+    - Linter & Kiểm thử: Bổ sung rule kiểm tra tuổi Tĩnh Xuyên vào `scripts/lore-guard.py` và cập nhật `scripts/gate-guard.py`.
+    - Kết quả: `python scripts/lore-guard.py --scan` PASS 47/47 tệp; `npm run lint:prose` PASS 15/15 chương; `npm run gate:check` PASS 100%.
 - **Hồi vừa hoàn thành**: **Chương 10: *Hình Thiên Lĩnh Huyết Lộ*** (`chapters/chapter_10.md`).
   - Trạng thái: **ĐÃ HOÀN TẤT CANON HÓA 100% & COMMIT STATE THÀNH CÔNG VÀO 4 TRỤ CỘT BỀN VỮNG**.
   - Quy mô: **5.835 từ** (0 lỗi linter `npm run lint:prose`, `npm run gate:check` PASS 100%).
