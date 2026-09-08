@@ -121,7 +121,7 @@ Bây giờ, ba chữ "Tiêu Phùng" bằng bạc nằm gọn lỏn trong lòng b
 
 Chàng run rẩy dùng móng tay cạy mép sáp chu sa, rút tờ giấy dó ngả màu vàng khè bên trong ra. Nét chữ viết vội vã bằng mực pha máu, chữ viết nghiêng ngả như được chép lại trong cơn bão lửa sa trường:
 
-*“... Hán Thủy Cổ Độ một đêm huyết hải ngập trời... Tiêu sư huynh mang thương tích đầy mình, một thân một kích cản hậu đoạn đường cho toàn môn Ma Y Cốc đào tẩu... Môn phái rơi vào đại kiếp diệt môn, hung thủ ra tay tàn độc không để lại một người sống sót... Huynh ấy trút hơi thở cuối cùng bên bờ lau, trăn trối giao lại hài nhi mới tròn thôi nôi... Đứa trẻ mang cốt tướng kỳ lân, tên gọi Tiêu Phùng... Ta liều chết phá vây vượt sông về phương Nam, trao lại phong thư và kỷ vật này nhờ hiền đệ Trâu Đức Khoái chuyển cho Thu Lâm muội muội tại Ba Lăng cưu mang, tuyệt đối phải che giấu họ tên gốc tích, chớ để tà phái tìm ra dấu vết... Ký tên: Bạch Cương bái thư.”*
+*“... Hán Thủy Cổ Độ một đêm huyết hải ngập trời... Tiêu sư huynh mang thương tích đầy mình, một thân một kích cản hậu đoạn đường cho toàn môn Ma Y Cốc đào tẩu... Môn phái rơi vào đại kiếp diệt môn, hung thủ ra tay tàn độc không để lại một người sống sót... Huynh ấy trút hơi thở cuối cùng bên bờ lau, trăn trối giao lại hài nhi mới tròn thôi nôi... Đứa trẻ mang cốt tướng kỳ lân, tên gọi Tiêu Phùng... Ta liều chết ôm bọc tã đứa trẻ cùng Bạch Tướng quân phá vây vượt sông về phương Nam, đưa về bãi sậy Ba Lăng cưu mang... Nay tình thế ngặt nghèo, ta phải dấn thân ra biên ải truy lùng tung tích giặc dữ mang theo nửa mảnh sấm thi, trao lại phong thư và kỷ vật này nhờ Đức Khoái huynh và toàn trại Nghĩa quân trông nom giúp thiếu chủ, tuyệt đối phải che giấu họ tên gốc tích, chớ để tà phái tìm ra dấu vết... Ký tên: Bạch Cương bái thư.”*
 
 Đầu óc Tiêu Phùng nổ tung một tiếng *ong* chấn động. 
 
@@ -204,7 +204,7 @@ Tiêu Phùng bước sát lại một bước, hai bàn tay siết chặt lấy 
 
 "Cha cháu... rốt cuộc là ai? Người đã chết thế nào?"
 
-"Cha ngươi... là Tiêu Lăng Phong!" Trâu Đức Khoái run giọng đáp, hai hàng nước mắt lăn dài trên gò má nhăn nheo. "Đại đệ tử chân truyền của Ma Y Cốc! Năm xưa người Kim phối hợp với thế lực tà phái mai phục ở Hán Thủy Cổ Độ hòng cướp đoạt bản đồ phong thủy cơ quan chôn giấu thần vật... Cha ngươi một thân một mình vung kích ngăn cản ba trăm thiết kỵ, máu nhuộm đỏ dòng Hán Thủy để Thu Lâm cô nương liều chết ẵm ngươi thoát vòng vây bến sông... Còn Bạch Cương thì trúng thương đoạn hậu, mang nửa mảnh sấm thi mai danh ẩn tích ngoài biên ải..."
+"Cha ngươi... là Tiêu Lăng Phong!" Trâu Đức Khoái run giọng đáp, hai hàng nước mắt lăn dài trên gò má nhăn nheo. "Đại đệ tử chân truyền của Ma Y Cốc! Năm xưa người Kim phối hợp với thế lực tà phái mai phục ở Hán Thủy Cổ Độ hòng cướp đoạt bản đồ phong thủy cơ quan chôn giấu thần vật... Cha ngươi một thân một mình vung kích ngăn cản ba trăm thiết kỵ, máu nhuộm đỏ dòng Hán Thủy để Bạch Cương liều chết ôm bọc tã ngươi cùng thân phụ của Thu Lâm cô nương vượt vây bến sông đưa về Ba Lăng... Từ đó Bạch Cương, Bạch Tướng quân cùng toàn trại nghĩa quân chung tay nuôi nấng ngươi. Về sau Bạch Cương mới mang thương tích dấn thân ra quan ải truy lùng tung tích giặc dữ..."
 
 Lão Trâu nắm lấy cổ tay Tiêu Phùng, giọng run rẩy đầy kinh hãi:
 

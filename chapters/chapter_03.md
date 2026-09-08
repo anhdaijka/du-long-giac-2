@@ -131,7 +131,7 @@ Doãn Hàm Yên lập tức đứng bật dậy, bước nhanh tới đỡ lấy
 
 Lệ Thu Thủy xua nhẹ tay áo, không ngồi xuống ghế mà bước thẳng tới mép lan can nhìn ra vạt rừng đỗ quyên sương phủ, giọng điệu chất chứa nỗi cay đắng ngút ngàn:
 
-"Hàm Yên, lão thân cả đời này gây dựng danh tiếng cho Thúy Yên Môn, ngỡ rằng kiếm pháp tuyệt đỉnh có thể chém đứt mọi ân oán hồng trần. Nào ngờ... một trận mưa rào mười lăm năm trước ở bến đò Giang Nam đã cuốn trôi đi tất cả. Người ấy biệt tích, lão thân lặn lội khắp chân trời góc bể, từ ải Nhạn Môn đến chân dãy Côn Lôn, chỉ mong tìm lại một bóng hình xưa cũ... nhưng đáp lại chỉ là nấm mồ hoang và cát bụi mịt mù."
+"Hàm Yên, lão thân cả đời này gây dựng danh tiếng cho Thúy Yên Môn, ngỡ rằng kiếm pháp tuyệt đỉnh có thể chém đứt mọi ân oán hồng trần. Nào ngờ... một trận mưa rào mười chín năm trước ở bến đò Giang Nam đã cuốn trôi đi tất cả. Người ấy biệt tích, lão thân lặn lội khắp chân trời góc bể, từ ải Nhạn Môn đến chân dãy Côn Lôn, chỉ mong tìm lại một bóng hình xưa cũ... nhưng đáp lại chỉ là nấm mồ hoang và cát bụi mịt mù."
 
 Bà quay phắt lại, ánh mắt rực lên một tia hy vọng cuồng loạn xen lẫn đau đớn:
 

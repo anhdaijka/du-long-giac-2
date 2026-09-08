@@ -23,10 +23,11 @@
     - Ban hành Mandatory Rule 5 (`GEMINI.md`) & Cập nhật `docs/WORKFLOW.md`, `templates/chapter-brief.md`.
     - Tích hợp Pedigree Linter vào `scripts/lore-guard.py` (quét tự động 47 tệp dự án, 0 lỗi vi phạm, bổ sung rule PED-3 cấm bịa đặt Bạch Cương là cha Bạch Thu Lâm, rule PED-4 cấm xưng Di - con phi sinh học giữa Tiêu Phùng 17t và Thu Lâm 24t).
     - **Hoàn tất Source Audit & Retrofit Bạch Cương - Bạch Thu Lâm & Xưng hô Tỷ - Đệ**:
-      - Khảo sát mã nguồn engine `baijiang.lua` và SQLite Task 157, 450: Thân phụ Bạch Thu Lâm là Tướng quân Bạch Phụ tại Biện Kinh; Bạch Cương (~45t) là nghĩa quân tiền bối, cựu thuộc hạ của cha Tiêu Phùng, xưng đệ với Bạch Thu Lâm ("Thu Lâm tỷ") và Trâu Đức Khoái ("Đức Khoái huynh").
-      - Bổ sung **Section 7: Convergence Matrix** tích hợp đầy đủ mạng lưới quan hệ đa tuyến của **Protagonist Trio** (Tiêu Phùng - Tĩnh Xuyên - Hạ Nương).
-      - Khử sạch triệt để lối xưng "Di - con" tại `chapters/chapter_01.md` và `chapters/chapter_04b.md`, đồng bộ 100% chuẩn xưng hô **Thu Di / Tỷ — Đệ** xuyên suốt toàn bộ các chương.
-      - Retrofit bản thảo `chapters/chapter_01.md`, `chapters/chapter_04b.md`, `chapters/chapter_05.md`, chuẩn hóa `characters/anchors/bach_thu_lam.md`, `characters/supporting_cast.md`.
+       - Khảo sát mã nguồn engine `baijiang.lua` và SQLite Task 157, 450: Thân phụ Bạch Thu Lâm là Tướng quân Bạch Phụ tại Biện Kinh; Bạch Cương (~45t) là nghĩa quân tiền bối, cựu thuộc hạ của cha Tiêu Phùng, xưng đệ với Bạch Thu Lâm ("Thu Lâm tỷ") và Trâu Đức Khoái ("Đức Khoái huynh").
+       - **Quyết định Canon Tác giả**: Bạch Cương là người ôm bọc tã đứa trẻ sơ sinh Tiêu Phùng thoát vòng vây Hán Thủy Cổ Độ, cùng thân phụ của Thu Di (Tướng quân Bạch Phụ) đưa về Ba Lăng và cùng toàn trại Nghĩa quân nuôi nấng Tiêu Phùng (Thu Di lúc đó 7 tuổi chăm sóc chàng như đệ đệ ruột thịt).
+       - Bổ sung **Section 7: Convergence Matrix** tích hợp đầy đủ mạng lưới quan hệ đa tuyến của **Protagonist Trio** (Tiêu Phùng - Tĩnh Xuyên - Hạ Nương).
+       - Khử sạch triệt để lối xưng "Di - con" tại `chapters/chapter_01.md` và `chapters/chapter_04b.md`, đồng bộ 100% chuẩn xưng hô **Thu Di / Tỷ — Đệ** xuyên suốt toàn bộ các chương.
+       - Retrofit bản thảo `chapters/chapter_01.md`, `chapters/chapter_04b.md`, `chapters/chapter_05.md`, chuẩn hóa `characters/anchors/bach_thu_lam.md`, `characters/supporting_cast.md`, `worldbuilding/factions/genealogy_matrix.md`, `plot/chronology_matrix.md`.
     - Hoàn tất Retrofit toàn bộ các chương và brief liên quan:
       - `chapters/chapter_08a.md`: Thay "vị Chưởng môn trẻ tuổi" thành "vị Chưởng môn đoan trang trầm tĩnh".
       - `chapters/chapter_08b.md`: Bỏ "Tân Chưởng môn", sửa "Sư bá" thành "Sư tỷ", bỏ nhãn "một già một trẻ" đối với Lệ Thu Thủy.

@@ -10,7 +10,7 @@
 | Nhân Vật | Năm Sinh (Dương Lịch) | Mốc Tuổi Khởi Điểm (Quyển 1: Thu 1191) | Quyển 2 (1192) | Quyển 3 (1193) | Quyển 4 (1194) | Quyển 5 (1195+) | Ghi Chú Xuất Thân & Biến Cố Cốt Lõi |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 | **Tĩnh Xuyên** | **1173** (Quý Tỵ) | **18 tuổi** | 19 tuổi | 20 tuổi | 21 tuổi | 22+ tuổi | Cha là danh tướng Tĩnh Hùng hy sinh trận Trường Giang năm 1181 khi chàng 8 tuổi. Chàng sống với Diệp Mẫu tại Thanh Loa Đảo, gia nhập tiền phong quân lữ lúc 18 tuổi. |
-| **Tiêu Phùng** | **1174** (Giáp Ngọ) | **17 tuổi** | 18 tuổi | 19 tuổi | 20 tuổi | 21+ tuổi | Hậu duệ Đoàn thị Đại Lý / Ma Y Cốc. Phụ thân Tiêu Lăng Phong bị hại trong biến cố Ma Y Cốc năm 1174 khi chàng còn ẵm ngửa (hoặc 3 tuổi mụ). Được Bạch Thu Lâm nhặt về nuôi ở Giang Tân Thôn. |
+| **Tiêu Phùng** | **1174** (Giáp Ngọ) | **17 tuổi** | 18 tuổi | 19 tuổi | 20 tuổi | 21+ tuổi | Hậu duệ Đoàn thị Đại Lý / Ma Y Cốc. Phụ thân Tiêu Lăng Phong bị hại trong biến cố Hán Thủy Cổ Độ năm 1174 khi chàng còn ẵm ngửa. Được Bạch Cương ôm bọc tã cùng thân phụ Bạch Thu Lâm (Tướng quân Bạch Phụ) đưa về Ba Lăng cưu mang nuôi nấng. |
 | **Hạ Nương** | **1175** (Ất Mùi) | **16 tuổi** | 17 tuổi | 18 tuổi | 19 tuổi | 20+ tuổi | Con gái thầy thuốc danh tiếng thành Đại Lý. Bái nhập Thúy Yên Môn năm 12 tuổi (1187). Đến năm 1191 tròn 16 tuổi, làm y nữ Dược phòng Điền Trì. |
 
 ---
@@ -19,7 +19,7 @@
 
 | Nhân Vật | Năm Sinh (Ước Định) | Tuổi (Năm 1191) | Môn Phái / Thân Phận | Quan Hệ Bối Phận Với Tam Anh |
 | :--- | :---: | :---: | :--- | :--- |
-| **Bạch Thu Lâm (Thu Di)** | **1167** (Đinh Hợi) | **24 tuổi** | Thủ lĩnh Nghĩa quân Ba Lăng Huyện | Lớn hơn Tiêu Phùng 7 tuổi. Nhặt Tiêu Phùng năm nàng 7 tuổi; đóng vai trò nghĩa tỷ kiêm người bảo hộ / thủ lĩnh nghĩa quân. |
+| **Bạch Thu Lâm (Thu Di)** | **1167** (Đinh Hợi) | **24 tuổi** | Thủ lĩnh Nghĩa quân Ba Lăng Huyện | Lớn hơn Tiêu Phùng 7 tuổi. Cùng thân phụ (Tướng quân Bạch Phụ), Bạch Cương và toàn trại nghĩa quân nuôi nấng Tiêu Phùng từ năm nàng 7 tuổi; đóng vai trò nghĩa tỷ kiêm người bảo hộ / thủ lĩnh nghĩa quân. |
 | **Hàn Thác Trụ** | **1152** (Nhâm Thân) | **39–40 tuổi** | Tuyên phủ sứ Nam Tống / Cháu họ Ngô Thái Hậu | Nhân vật lịch sử chính xác. Quan văn phái chủ chiến mang mật chiếu Tống Hiếu Tông. |
 | **Dương Thiết Tâm** | **1149** (Kỷ Tỵ) | **42 tuổi** | Tân Bang chủ Thiên Vương Bang | Nghĩa tử Dương Anh, con cháu Dương gia tướng, truyền nhân thương pháp Côn Lôn. |
 | **Bùi Dực Phi** | **1156** (Bính Thân) | **35 tuổi** | Thống lĩnh kỵ binh Cáp Xá | Đại tướng dưới trướng Dương Anh, huynh đệ tiền bối của Tĩnh Xuyên. |

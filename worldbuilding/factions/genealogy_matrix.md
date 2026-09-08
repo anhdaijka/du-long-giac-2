@@ -116,9 +116,11 @@ graph TD
 ```mermaid
 graph TD
     BP["Bạch Phụ (Tướng quân Đại Tống tại Biện Kinh - Task 450: Subtask 641)"] --> BTL["Bạch Thu Lâm / Thu Di (sinh 1167, 24 tuổi năm 1191)<br/>Thủ lĩnh Nghĩa quân Ba Lăng / Đại tiểu thư họ Bạch<br/>Nghĩa tỷ kiêm Người bảo hộ Tiêu Phùng"]
-    TLP["Tiêu Lăng Phong (Môn chủ Ma Y Cốc - Mất tích 1174)<br/>Tình thâm Lệ Thu Thủy"] --> TP["Tiêu Phùng (sinh 1174, 17 tuổi năm 1191 - POV)<br/>Con chủ nhân mồ côi sau thảm họa Hán Thủy Cổ Độ"]
-    BTL -->|Trực tiếp bế về Ba Lăng che chở theo phó thác| TP
-    BC["Bạch Cương (~45 tuổi - Cựu thuộc hạ trung thành của cha Tiêu Phùng)"] -->|Gọi 'Thu Lâm tỷ' / Tôn kính thủ lĩnh| BTL
+    TLP["Tiêu Lăng Phong (Môn chủ Ma Y Cốc - Mất tích 1174)<br/>Tình thâm Lệ Thu Thủy / Phu nhân Hoàng thất Nam Chiếu"] --> TP["Tiêu Phùng (sinh 1174, 17 tuổi năm 1191 - POV)<br/>Con chủ nhân mồ côi sau thảm họa Hán Thủy Cổ Độ"]
+    BC["Bạch Cương (~45 tuổi - Cựu thuộc hạ trung thành của cha Tiêu Phùng)"] -->|Ôm bọc tã thoát vây Hán Thủy cùng Bạch Phụ đưa về Ba Lăng| TP
+    BP -->|Cùng Bạch Cương đưa về và cùng Nghĩa quân nuôi nấng| TP
+    BTL -->|Lớn lên bên nhau từ năm 7 tuổi / Nghĩa tỷ chăm sóc bảo bọc| TP
+    BC -->|Gọi 'Thu Lâm tỷ' / Tôn kính thủ lĩnh| BTL
     BC -->|Trung thành / Gọi 'Thiếu chủ' / Trao sấm thi| TP
     BC -->|Gửi mật thư phó thác năm 1174| TDK["Trâu Đức Khoái (Thủ khố Nghĩa quân)"]
     GST["Giới Sơn Tông (Cơ quan đại sư, ~63 tuổi)"] --> CơQuan["Hệ thống trục ngầm chín cửa xả Động Đình"]
@@ -128,12 +130,12 @@ graph TD
 
 | Nhân Vật | Bối Phận / Chức Vị | Năm Sinh | Tuổi (1191) | Quan Hệ Thân Tộc / Sư Đồ (Direct Source Verified) | Vị Thế Hiện Tại |
 | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Bạch Phụ** | Tướng quân Đại Tống | Tiền triều | Đã khuất / Ly tán | **Thân phụ của Bạch Thu Lâm** (`Task 450: Subtask 641`) | Tướng quân trấn thủ Biện Kinh; phủ đệ bị phản quân khống chế khi Biện Kinh biến loạn. |
-| **Bạch Thu Lâm (Thu Di)** | Thủ lĩnh Nghĩa quân | **1167** (Đinh Hợi) | **24 tuổi** | Con gái Tướng quân Bạch Phụ; **Nghĩa tỷ kiêm Người bảo hộ Tiêu Phùng** | Nữ thủ lĩnh Ba Lăng Huyện; trực tiếp bế con chủ nhân về quê Ba Lăng cưu mang (`baijiang.lua`). |
-| **Bạch Cương** | Tiền bối Nghĩa quân | ~**1146** | ~**45 tuổi** | **Cựu thuộc hạ trung thành của cha Tiêu Phùng; xưng đệ với Bạch Thu Lâm ('Thu Lâm tỷ')** (`baijiang.lua`, Task 157) | Bị trọng thương Âm kình tại Tuyệt Vấn Pha; gọi Tiêu Phùng là 'thiếu chủ', trao mảnh trục cuốn sấm thi. |
+| **Bạch Phụ** | Tướng quân Đại Tống | Tiền triều | Đã khuất / Sa trường | **Thân phụ của Bạch Thu Lâm** (`Task 450: Subtask 641`); cùng Bạch Cương đưa Tiêu Phùng về Ba Lăng | Tướng quân trấn thủ Biện Kinh sau gia nhập nghĩa quân; cùng Bạch Cương che chở nuôi nấng Tiêu Phùng thời sơ khai. |
+| **Bạch Thu Lâm (Thu Di)** | Thủ lĩnh Nghĩa quân | **1167** (Đinh Hợi) | **24 tuổi** | Con gái Tướng quân Bạch Phụ; **Nghĩa tỷ kiêm Người bảo hộ Tiêu Phùng** | Nữ thủ lĩnh Ba Lăng Huyện; từ năm 7 tuổi đã cùng cha và Bạch Cương chăm sóc bón cháo cho Tiêu Phùng. |
+| **Bạch Cương** | Tiền bối Nghĩa quân | ~**1146** | ~**45 tuổi** | **Cựu thuộc hạ của cha Tiêu Phùng; người ôm bọc tã Tiêu Phùng vượt vây Hán Thủy cùng Bạch Phụ đưa về Ba Lăng nuôi nấng** (`baijiang.lua`, Task 157) | Bị trọng thương Âm kình tại Tuyệt Vấn Pha; gọi Tiêu Phùng là 'thiếu chủ', trao mảnh trục cuốn sấm thi. |
 | **Trâu Đức Khoái** | Thủ khố Nghĩa quân | ~**1140** | ~**51 tuổi** | Bạn thâm giao của Bạch Cương ('Đức Khoái huynh') (`baijiang.lua`) | Cất giấu chiếc tráp da trâu và bức thư máu tại kho tiền trang Ba Lăng suốt 17 năm. |
 | **Giới Sơn Tông** | Tiền bối Ma Y Cốc | **1128** (Mậu Thìn) | **63 tuổi** | Cơ quan đại sư; bạn vong niên Tiêu Lăng Phong; gọi Tiêu Phùng là 'thiếu chủ' | Bị tra tấn tàn tật hai gót chân, ngồi xe lăn chế tạo cơ quan xả lũ. |
-| **Tiêu Phùng** | Thiếu hiệp Nghĩa quân (POV) | **1174** (Giáp Ngọ) | **17 tuổi** | Con trai Tiêu Lăng Phong; con chủ nhân được Thu Di cưu mang | Nhân vật chính POV; trải qua đại hồng thủy và phục kích bến đò Giang Tân. |
+| **Tiêu Phùng** | Thiếu hiệp Nghĩa quân (POV) | **1174** (Giáp Ngọ) | **17 tuổi** | Con trai Tiêu Lăng Phong; được Bạch Cương, Bạch Phụ và Thu Di cưu mang | Nhân vật chính POV; trải qua đại hồng thủy và phục kích bến đò Giang Tân. |
 | **Thẩm Thiết Thạch** | Nghĩa sĩ độc hành | **1159** (Kỷ Mão) | **32 tuổi** | Đệ đệ Thẩm Hà Diệp; nghĩa quân Tương Dương cựu trào | Bị hàn độc chưởng lực giặc Kim nhập não, tịnh dưỡng tại bãi sậy Ba Lăng. |
 | **Thẩm Hà Diệp** | Chủ tiệm phòng cụ | **1155** (Ất Mùi) | **36 tuổi** | Tỷ tỷ Thẩm Thiết Thạch; con quan Binh bộ tiền triều | May đo giáp da kiêm sơ cứu trật đả; coi Tiêu Phùng như đệ đệ trong nhà. |
 
