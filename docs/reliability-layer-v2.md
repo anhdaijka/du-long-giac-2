@@ -24,7 +24,7 @@ A durable factual assertion derived from the KT2 source corpus must be traceable
 
 ### NL-2 — Canon truth is approval-bound
 
-Source evidence, source-supported inference, adaptation decisions and novelization bridges are not automatically novel canon. Durable promotion still requires the existing author approval gate.
+Source evidence, source-supported inference, adaptation decisions and novelization bridges are not automatically novel canon. **Every durable canon promotion, including a `DIRECT_SOURCE` claim, still requires the existing author approval gate.** Evidence strength controls epistemic confidence; it never grants autonomous canon-write authority.
 
 ### NL-3 — Agent completion is verifier-bound
 
@@ -126,20 +126,23 @@ Bạch Thu Lâm
 
 `DIRECT_SOURCE`
 - requires at least one evidence ID;
-- must not contain additional causal or motivational conclusions absent from that evidence.
+- must not contain additional causal or motivational conclusions absent from that evidence;
+- still uses `promotion: author_approval_required` for durable canon changes.
 
 `SOURCE_SUPPORTED_INFERENCE`
 - requires at least one evidence ID;
 - requires a non-empty `reasoning` field;
-- remains subject to author approval before durable canon promotion.
+- uses `promotion: author_approval_required` before durable canon promotion.
 
 `UNRESOLVED`
 - records contradiction, ambiguity or missing evidence;
+- uses `promotion: blocked`;
 - cannot be promoted as objective canon truth while unresolved.
 
 `ADAPTATION_DECISION`
 - records an author-approved or author-proposed transformation choice;
-- must not be misrepresented as something the raw game source requires.
+- must not be misrepresented as something the raw game source requires;
+- durable promotion still requires author approval.
 
 `NOVELIZATION_BRIDGE`
 - allows connective tissue, gesture, micro-action, sensory realization and other literary bridging;
@@ -158,6 +161,7 @@ Example:
       "epistemic_status": "DIRECT_SOURCE",
       "evidence": ["EV-10-001"],
       "durability": "durable",
+      "promotion": "author_approval_required",
       "reasoning": ""
     }
   ]
@@ -178,12 +182,14 @@ It may prove:
 - referenced evidence IDs exist;
 - epistemic status is recognized;
 - required reasoning/evidence fields are present;
-- unresolved claims are not marked as ready for automatic promotion.
+- unresolved claims are blocked from promotion;
+- durable source/inference/bridge claims do not bypass author approval structurally.
 
 It may not claim:
 
 - that every sentence in the manuscript is factually true;
 - that an inference is logically correct merely because it cites evidence;
+- that an evidence locator/excerpt is semantically faithful to the game source merely because the JSON is well-formed;
 - that entity grounding proves a relation.
 
 Semantic claim auditing remains a reviewer responsibility, but the reviewer must work against explicit claims and evidence rather than latent memory.
@@ -199,10 +205,10 @@ The reviewer must read the manuscript sequentially from beginning to end. Review
 Recommended marker format:
 
 ```text
-- `L1-L96`
-- `L97-L188`
-- `L189-L281`
-- `L282-L374`
+- `L1-L96` — concrete observation from this range
+- `L97-L188` — concrete observation from this range
+- `L189-L281` — concrete observation from this range
+- `L282-L374` — concrete observation from this range
 ```
 
 Coverage ranges must collectively cover the current manuscript. No SHA, immutable version ID or author-edit lock is required.
