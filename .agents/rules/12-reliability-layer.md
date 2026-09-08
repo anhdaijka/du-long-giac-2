@@ -55,22 +55,26 @@ Templates:
 - `templates/evidence-packet.json`
 - `templates/claim-ledger.json`
 
+SQLite evidence must point to one concrete row and one declared text field. For example, a subtask locator keeps both `task_id` and `subtask_id`; the excerpt is matched only against the declared `field`.
+
 Run:
 
 ```bash
+python scripts/evidence_guard.py --chapter XX
 python scripts/claim-guard.py --chapter XX
 ```
 
-`claim-guard` validates structural epistemic discipline. A PASS does **not** prove that the interpretation is semantically true.
+`evidence_guard.py` proves only that the locator resolves uniquely and that the excerpt matches the declared SQLite field. `claim-guard.py` also invokes this source verification before validating the epistemic claim structure. Neither guard proves semantic entailment.
 
 ### Mandatory epistemic rules
 
-- `DIRECT_SOURCE` requires concrete evidence.
-- `SOURCE_SUPPORTED_INFERENCE` requires evidence + explicit reasoning and cannot be auto-promoted.
+- `DIRECT_SOURCE` requires concrete source-verified evidence.
+- `SOURCE_SUPPORTED_INFERENCE` requires source-verified evidence + explicit reasoning and cannot be auto-promoted.
 - `UNRESOLVED` must remain blocked.
 - `ADAPTATION_DECISION` must never be presented as if the source required it.
 - `NOVELIZATION_BRIDGE` may realize connective prose but may not silently create durable source truth.
 - No durable canon state may be inferred merely because all involved entity names are valid.
+- Every durable canon promotion still requires Author approval, including `DIRECT_SOURCE`.
 
 ---
 
@@ -92,10 +96,16 @@ Rules:
 - each range requires a concrete observation;
 - mandatory evidence spans must use current `Lx-Ly` locations and verbatim chapter text.
 
-Run:
+For one standard review:
 
 ```bash
 python scripts/review-guard.py --chapter-number XX
+```
+
+For all forward-only v2 review artifacts (`reviews/**/chapter_*_review_v2.md`):
+
+```bash
+python scripts/review-guard.py --all-v2
 ```
 
 When an approved review is required:
@@ -104,7 +114,7 @@ When an approved review is required:
 python scripts/review-guard.py --chapter-number XX --require-approval
 ```
 
-A structural PASS means only that coverage/evidence/report structure is valid. It does not replace literary judgment.
+A structural PASS means only that coverage/evidence/report structure is valid. It does not replace literary judgment. Legacy reviews are historical artifacts and are not forced through the v2 batch scan.
 
 ---
 
@@ -115,8 +125,9 @@ Every verifier must describe only what it actually checks.
 - `meta-leakage-scanner.py`: lexical/meta/style-pattern scan.
 - `lore-grounder.py`: entity plausibility / closed-world entity check.
 - `lore-guard.py`: known-regression scan for encoded lore mistakes.
-- `claim-guard.py`: evidence/claim structural discipline.
-- `review-guard.py`: review coverage and current-line evidence structure.
+- `evidence_guard.py`: SQLite row/field/excerpt provenance verification.
+- `claim-guard.py`: source-verified evidence + claim structural discipline.
+- `review-guard.py`: full-read coverage and current-line evidence structure.
 - semantic Reviewer: prose, causality, voice, show-vs-tell, humor, continuity, and claim meaning.
 
 **PROHIBITED**: translating a lower-level PASS into claims such as:
@@ -138,6 +149,7 @@ Where a deterministic verifier exists, completion requires its relevant artifact
 
 Examples:
 
+- source evidence preparation complete -> Evidence Packet + `evidence_guard` PASS;
 - claim preparation complete -> Evidence Packet + Claim Ledger + `claim-guard` PASS;
 - structural review complete -> current chapter fully covered + `review-guard` PASS;
 - approved review complete -> `review-guard --require-approval` PASS plus Author approval under Hard Stop 2.
