@@ -10,6 +10,7 @@ on:
       - 'research/claims/**'
       - 'reviews/**'
       - 'revisions/**'
+      - 'execution/**'
       - 'characters/**'
       - 'worldbuilding/**'
       - 'plot/**'
@@ -31,6 +32,7 @@ on:
       - 'research/claims/**'
       - 'reviews/**'
       - 'revisions/**'
+      - 'execution/**'
       - 'characters/**'
       - 'worldbuilding/**'
       - 'plot/**'
@@ -70,6 +72,8 @@ jobs:
         run: npm run claim:check
       - name: Verify v2 review contracts
         run: npm run review:check
+      - name: Validate execution manifest contracts
+        run: npm run execution:check
       - name: Verify forward-only durable state writes
         env:
           PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
