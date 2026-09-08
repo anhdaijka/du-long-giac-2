@@ -90,17 +90,15 @@ Một tiếng va chạm trầm đục rợn người vang lên. Tên thích khá
 
 Khí lạnh ập đến nhanh đến mức những hạt mưa đầu mùa vừa rơi xuống mặt đá liền đông cứng lại thành những hạt băng vụn trắng đục.
 
-Một tiếng gầm đanh thép bằng thứ tiếng Nữ Chân cất lên từ phía trước cửa hang. 
+Một tiếng gầm đanh thép bằng thứ tiếng phương Bắc cất lên từ phía trước cửa hang. 
 
 Giữa đám tàn binh thích khách, một bóng người hộ pháp sừng sững bước ra. Gã khoác một tấm áo choàng may bằng da lông sói bạc đã rách tơi tả vì đao kiếm, bên trong là bộ giáp da thuộc nạm đinh sắt xỉn màu. Gương mặt gã vuông vức thô ráp, gò má cao nhô lên lạnh lùng, râu quai nón rậm rì phủ đầy bụi sa trường. Trên bả vai trái của gã, một hình xăm chim ưng thảo nguyên giương cánh được khắc bằng mực chàm thẫm lấp lánh dưới ánh chớp xa xa.
 
-Tên gã là Ngột Thất Hãn — một bách hộ trưởng dạn dày trận mạc của đội mật thám Ô Sơ Sa thuộc Đại Kim quốc. 
+Gã không hề gầm thét hay điên cuồng như đám tàn binh chung quanh. Đôi mắt gã sâu hoắm, phẳng lặng và lạnh tanh như vũng nước đóng băng giữa mùa đông giá rét. Từng bước chân gã nện xuống nền đá dăm đều đặn, vững chãi, hai cánh tay buông lỏng chuẩn xác như một người thợ săn kén mồi. Hai luồng kình phong buốt giá cuộn tròn theo tay áo gã tỏa ra chung quanh, khiến hơi thở của người đối diện nghẽn đặc lại.
 
-Gã không hề có vẻ điên cuồng hay hung hãn của loài thú dữ. Đôi mắt gã sâu hoắm, phẳng lặng và lạnh tanh như mặt hồ băng phương Bắc. Mười mấy năm chinh chiến nơi sa trường Tống – Kim, từ trận vây thành Biện Kinh đến những cuộc phục kích đẫm máu ở Hán Thủy, gã đã quen với việc tước đoạt sinh mạng người khác như một người thợ săn đi đặt bẫy trong rừng tuyết. Đối với gã, chuyến đi này là quân lệnh tối thượng của triều đình Hoàn Nhan: phong tỏa cửa ngõ tiếp tế Động Đình và nhổ cỏ tận gốc tàn dư Ma Y Cốc. Không có thù hận cá nhân, chỉ có kỷ luật thép của sa trường.
+Hai chiến sĩ nghĩa quân Ba Lăng gầm lên xông tới, giáo dài đâm thẳng vào ngực gã.
 
-Ngột Thất Hãn bước tới đâu, hai luồng kình phong buốt giá cuộn tròn theo tay áo gã tới đó. Hai chiến sĩ nghĩa quân Ba Lăng gầm lên xông tới, giáo dài đâm thẳng vào ngực gã.
-
-Ngột Thất Hãn không thèm rút đao. Hai bàn tay hộ pháp của gã lật ngược lại, những ngón tay thô ráp chuyển sang một màu đen tím kỳ dị. Gã vung chưởng đón đỡ.
+Gã võ sĩ phương Bắc không thèm rút đao. Hai bàn tay hộ pháp của gã lật ngược lại, những ngón tay thô ráp chuyển sang một màu đen tím kỳ dị. Gã vung chưởng đón đỡ.
 
 *Ầm!*
 
@@ -108,25 +106,25 @@ Tiếng nổ trầm đục tựa như tiếng đá lở vang lên giữa khe nú
 
 Âm kình cực hàn!
 
-Từ trong miệng hang tối om, một bóng người gượng chống thanh kiếm gãy trườn ra. Mái tóc hoa râm bết chặt vào vầng trán đẫm máu, ngực áo rách toạc để lộ một vết chưởng ấn tím ngắt đang lan rộng quanh vùng phế phủ. Người đó run rẩy đưa cánh tay đầy sẹo gân guốc chỉ về phía Ngột Thất Hãn, hơi thở thều thào đứt quãng nhưng âm thanh lại xé ruột xé gan:
+Từ trong miệng hang tối om, một bóng người gượng chống thanh kiếm gãy trườn ra. Mái tóc hoa râm bết chặt vào vầng trán đẫm máu, ngực áo rách toạc để lộ một vết chưởng ấn tím ngắt đang lan rộng quanh vùng phế phủ. Người đó run rẩy đưa cánh tay đầy sẹo gân guốc chỉ về phía tên tướng giặc, hơi thở thều thào đứt quãng nhưng âm thanh lại xé ruột xé gan:
 
-"Chưởng lực... Âm kình... Hán Thủy năm xưa... Bách hộ Ô Sơ Sa... Thiếu chủ! Đừng lại gần... Hắn có nội kình sa trường... mau chạy đi!"
+"Chưởng lực... Âm kình... Hán Thủy năm xưa... Bách hộ Ô Sơ Sa của giặc Kim... Thiếu chủ! Đừng lại gần... Hắn có nội kình sa trường... mau chạy đi!"
 
 Bạch Cương!
 
 Tiêu Phùng đứng sững lại giữa bãi đá dăm. 
 
-Cái tên "Âm kình" và ba vết chưởng tím ngắt trên ngực Thẩm Thiết Thạch bốn năm qua bỗng chốc hiện về rõ mồn một trong tâm trí chàng. Từng đêm đông rét mướt ở Ba Lăng Huyện, Thẩm Thiết Thạch ngồi ôm ngực ho sù sụ, từng ngụm máu bầm đông đặc bắn ra chậu than, hơi thở khò khè như bễ rèn rách. Mối thù của Thiết Thạch thúc, nỗi thống khổ của Hạ Nương, bức thư máu mười bảy năm trước... tất cả những vết tích bi thảm ấy đều bắt nguồn từ chính thứ chưởng lực đen tím tanh tưởi đang cuộn tròn trên bàn tay của tên võ sĩ Nữ Chân trước mặt!
+Cái tên "Âm kình" và ba vết chưởng tím ngắt trên ngực Thẩm Thiết Thạch bốn năm qua bỗng chốc hiện về rõ mồn một trong tâm trí chàng. Từng đêm đông rét mướt ở Ba Lăng Huyện, Thẩm Thiết Thạch ngồi ôm ngực ho sù sụ, từng ngụm máu bầm đông đặc bắn ra chậu than, hơi thở khò khè như bễ rèn rách. Tiếng nấc nghẹn của Thẩm Hà Diệp bên khung cửi khi nhìn em trai tàn phế, rồi bức thư máu mười bảy năm trước của cha... tất cả những vết tích bi thảm ấy đều bắt nguồn từ chính thứ chưởng lực đen tím tanh tưởi đang cuộn tròn trên bàn tay của tên võ sĩ Nữ Chân trước mặt!
 
 Một ngọn lửa giận dữ thô mộc bùng cháy dữ dội trong lồng ngực Tiêu Phùng. Cơn ê ẩm nơi bả vai phải bỗng biến mất, nhường chỗ cho dòng máu nóng của một thằng con trai bãi sậy sôi sục trào lên thái dương.
 
 Nhưng Tiêu Phùng không điên.
 
-Chàng nhìn thấy rõ hai người lính nghĩa quân to khỏe gãy nát xương cốt chỉ sau một chưởng. Chàng biết mình là ai: một thằng nhóc mười bảy tuổi, chưa từng học qua một ngày nội công chính thống, gân cốt chưa từng nếm qua đan điền chân khí. Đối đầu sòng phẳng với một bách hộ sa trường bậc Tier 2 mang nội lực thâm hậu như Ngột Thất Hãn, chẳng khác nào lấy que củi chọc vào tảng đá tảng!
+Chàng nhìn thấy rõ hai người lính nghĩa quân to khỏe gãy nát xương cốt chỉ sau một chưởng. Chàng biết mình là ai: một thằng nhóc mười bảy tuổi, chưa từng học qua một ngày nội công chính thống, gân cốt chưa từng nếm qua đan điền chân khí. Đối đầu sòng phẳng với một tên võ sĩ sa trường mang nội kình bẻ gãy cả giáo sắt như gã, chẳng khác nào lấy que củi chọc vào tảng đá tảng!
 
 Muốn thắng, chỉ có thể đánh cược bằng mạng sống và sự đê tiện tột cùng của bãi sậy.
 
-Tiêu Phùng cắn chặt răng, cố tình bước những bước chân lảo đảo, tay cầm đoản côn run rẩy xông tới. Khi chỉ còn cách Ngột Thất Hãn chừng bảy thước, chàng đột ngột vấp phải một hòn đá dăm, thân người trượt ngã dúi dụi xuống một vũng bùn lầy nhão nhoét.
+Tiêu Phùng cắn chặt răng, cố tình bước những bước chân lảo đảo, tay cầm đoản côn run rẩy xông tới. Khi chỉ còn cách tên bách hộ giặc Kim chừng bảy thước, chàng đột ngột vấp phải một hòn đá dăm, thân người trượt ngã dúi dụi xuống một vũng bùn lầy nhão nhoét.
 
 Cây đoản côn văng ra xa ba thước. Tiêu Phùng nằm sấp mặt giữa vũng sình, hai tay ôm chặt lấy đầu, toàn thân co rúm lại run bần bật như một con cầy hương mắc bẫy. Tiếng khóc lóc van xin the thé của chàng vang vọng khắp vách đá Tuyệt Vấn Pha:
 
@@ -134,7 +132,7 @@ Cây đoản côn văng ra xa ba thước. Tiêu Phùng nằm sấp mặt giữa
 
 Tiếng rên rỉ thảm thiết xen lẫn tiếng nấc nghẹn ngào nghe chân thật đến mức những người lính nghĩa quân phía sau cũng phải bàng hoàng sửng sốt.
 
-Ngột Thất Hãn dừng bước. Đôi lông mày rậm của gã khẽ nhíu lại. Là một chiến binh sa trường dày dạn, gã khinh bỉ nhất là hạng đàn ông quỳ gối van xin, nhưng quân lệnh của Ô Sơ Sa là "không để lại bất kỳ nhân chứng nào sống sót rời khỏi Tuyệt Vấn Pha". Gã không nói một lời thừa thãi, không cười cợt ba hoa. Gã sải bước bước tới gần, bàn tay phải co lại thành trảo, luồng hàn khí đen tím ngưng tụ nơi đầu ngón tay giáng thẳng xuống gáy Tiêu Phùng để kết liễu nhanh gọn như giết một con gà bến sông.
+Tiếng bước chân đối phương khựng lại một nhịp. Qua kẽ ngón tay áp sát mặt bùn, Tiêu Phùng nhìn thấy đôi ủng da bò nạm đinh sắt xỉn màu sải bước tiến lại gần. Tên giặc Kim không cười cợt, không buông một lời nhạo báng thừa thãi — sự im lặng lạnh tanh của một kẻ đã quen hạ sát trên chiến trường. Bóng đen hộ pháp trùm kín lấy lưng chàng. Bàn tay phải của gã co lại thành trảo, luồng hàn khí đen tím ngưng tụ rít lên khe khẽ, giáng thẳng xuống gáy Tiêu Phùng để kết liễu nhanh gọn như bóp chết một con nhái bén bên bờ sông.
 
 Một bước. Hai bước. 
 
@@ -148,21 +146,21 @@ Từ trong hai bọc vạt áo thô úp dưới bụng, hai bàn tay của Tiêu
 
 *Bùng!*
 
-Một màn bụi trắng đục cay nồng xộc thẳng vào mặt Ngột Thất Hãn ở cự ly chỉ chưa đầy một gang tay!
+Một màn bụi trắng đục cay nồng xộc thẳng vào mặt tên võ sĩ Nữ Chân ở cự ly chỉ chưa đầy một gang tay!
 
-Dù là cao thủ sa trường mang nội kình hộ thể, nhưng đôi mắt và niêm mạc mũi vẫn là máu thịt trần tục. Bột vôi gặp hơi nước ẩm ướt trong không khí lập tức sôi lên sùng sục, ớt bột cay xộc thẳng vào hai tròng mắt khiến Ngột Thất Hãn rú lên một tiếng gầm phẫn nộ xé toạc màn đêm. Đôi mắt gã cay xè mù mịt, tầm nhìn biến thành một màu trắng xóa đau buốt!
+Dù là cao thủ sa trường mang nội kình hộ thể, nhưng đôi mắt và niêm mạc mũi vẫn là máu thịt trần tục. Bột vôi gặp hơi nước ẩm ướt trong không khí lập tức sôi lên sùng sục, ớt bột cay xộc thẳng vào hai tròng mắt khiến gã rú lên một tiếng gầm phẫn nộ xé toạc màn đêm. Đôi mắt gã cay xè mù mịt, tầm nhìn biến thành một màu trắng xóa đau buốt!
 
 "Chết đi đồ giặc Kim!"
 
 Tiêu Phùng gầm lên, thân mình trườn ngang trên lớp bùn nhão như một con thuồng luồng bãi sậy. Cánh tay phải chàng vồ lấy cây đoản côn gỗ nghiến, dồn toàn bộ sức mạnh của cơ bắp, xương cốt và nỗi căm hờn mười bảy năm vào một đòn đâm chí mạng. 
 
-Đầu bịt sắt non của cây gậy rít lên trong không khí, thụt thẳng một cú sấm sét vào huyệt Khí Xung dưới bụng dưới của Ngột Thất Hãn — nơi giao nhau của luồng chân khí đang ngưng tụ!
+Đầu bịt sắt non của cây gậy rít lên trong không khí, thụt thẳng một cú sấm sét vào huyệt Khí Xung dưới bụng dưới của tên bách hộ giặc Kim — nơi giao nhau của luồng chân khí đang ngưng tụ!
 
 *Thình!*
 
-Khâu sắt non cắm ngập vào thớ cơ bụng đanh thép của tên võ sĩ Nữ Chân. Luồng chân khí cực hàn đang tích tụ nơi đan điền của gã bị một đòn đâm xảo quyệt phá vỡ, nghẽn ứ lại rồi dội ngược vào kinh lạc khiến toàn thân Ngột Thất Hãn run rẩy dữ dội, miệng ộc ra một ngụm máu tươi.
+Khâu sắt non cắm ngập vào thớ cơ bụng đanh thép của tên võ sĩ Nữ Chân. Luồng chân khí cực hàn đang tích tụ nơi đan điền của gã bị một đòn đâm xảo quyệt phá vỡ, nghẽn ứ lại rồi dội ngược vào kinh lạc khiến toàn thân gã run rẩy dữ dội, miệng ộc ra một ngụm máu tươi.
 
-Nhưng Ngột Thất Hãn là một chiến binh sa trường bậc Tier 2 đã trải qua trăm trận sinh tử.
+Nhưng kẻ đối diện là một chiến binh sa trường đã trải qua trăm trận sinh tử.
 
 Trong cơn đau đớn mù lòa và kình lực nghẽn ứ, phản xạ giết chóc bản năng của một con thú sa trường trỗi dậy tàn khốc. Thay vì lùi lại, gã gầm lên một tiếng man dại, cánh tay trái bọc giáp sắt nạm đinh co lại thành một khối thép, giáng một cú cùi chỏ sấm sét từ trên bổ thẳng xuống mạn sườn trái của Tiêu Phùng, kèm theo toàn bộ luồng chưởng phong Âm kình tàn dư bộc phát ngoài tầm kiểm soát!
 
@@ -178,19 +176,17 @@ Tiêu Phùng bay bổng lên không trung gần nửa trượng, đập mạnh l
 
 Một búng máu đặc màu đen tím lạnh ngắt trào ngược ra khỏi khóe miệng chàng, nhuộm ướt đẫm vạt áo vải gai và chiếc khánh bạc trước ngực. Tiêu Phùng nằm vật ra đất, hai mắt nổ đom đóm, lồng ngực bên trái đau buốt đến mức mỗi nhịp thở nông cũng như có hàng ngàn mũi kim châm thẳng vào màng phổi. Cánh tay trái chàng buông thõng bất động, không còn nhấc lên nổi một tấc.
 
-Ngột Thất Hãn lảo đảo quỳ sụp một chân xuống đất. Bàn tay hộ pháp của gã ôm chặt lấy vùng bụng dưới đang co giật vì kình lực phản phệ, đôi mắt đỏ ngầu cay xè vì vôi bột cố mở ra nhìn trừng trừng vào thằng nhóc bãi sậy đang nằm hấp hối cách đó ba thước. 
+Tên bách hộ giặc Kim lảo đảo quỳ sụp một chân xuống đất. Bàn tay hộ pháp của gã ôm chặt lấy vùng bụng dưới đang co giật vì kình lực phản phệ. Đôi mắt đỏ ngầu cay xè vì vôi bột cố mở trừng trừng trong sương lạnh, nhìn về phía chàng thiếu niên đang nằm bất động giữa vũng sình với vẻ kinh ngạc câm lặng.
 
-Ánh mắt của tên chiến binh Nữ Chân kiêu hãnh lúc này không còn sự khinh bỉ hay tàn bạo của một kẻ đi săn, mà đặc quánh sự bàng hoàng tột độ, một nỗi kinh ngạc câm lặng trước sự liều lĩnh trơ tráo và ý chí quyết tử của một đứa trẻ Nam Tống dám dùng máu thịt trần trụi để bẻ gãy một đòn sa trường.
-
-Gã thở hắt ra một hơi dài, bàn tay vươn ra định rút thanh loan đao gãy bên hông để hoàn tất nhiệm vụ cuối cùng.
+Gã thở hắt ra một hơi khò khè, bàn tay run rẩy quờ quạng vươn ra định rút thanh loan đao gãy bên hông.
 
 Nhưng gã không còn cơ hội nữa.
 
 Một vệt kiếm quang màu lam nhạt lướt qua màn đêm nhanh như một tia chớp xé toạc vòm trời. 
 
-Bạch Thu Lâm phi thân lướt tới từ trên mỏm đá cao. Mũi kiếm thép của nàng không hề mang theo chút do dự nào, đâm xuyên thẳng từ sau gáy qua yết hầu của Ngột Thất Hãn trong một chiêu kiếm tuyệt sát đoạn hồn!
+Bạch Thu Lâm phi thân lướt tới từ trên mỏm đá cao. Mũi kiếm thép của nàng không hề mang theo chút do dự nào, đâm xuyên thẳng từ sau gáy qua yết hầu của tên tướng giặc trong một chiêu kiếm tuyệt sát đoạn hồn!
 
-Máu tươi phọt ra đỏ rực phiến đá. Ngột Thất Hãn run rẩy một nhịp cuối cùng, toàn thân đổ ập xuống vũng bùn sình. Bàn tay thô ráp đầy sẹo của gã vẫn nắm chặt lấy chuôi đao gãy, ngón tay hướng thẳng về phía ngọn núi phương Bắc xa xăm — nơi quê nhà thảo nguyên của gã đang chìm trong sương trắng. Gã gục chết như một người lính sa trường trung kiên với mệnh lệnh của đất nước mình, khép lại một kiếp chinh chiến đầy máu lửa.
+Máu tươi phọt ra đỏ rực phiến đá. Tên bách hộ Nữ Chân run rẩy một nhịp cuối cùng, toàn thân đổ ập xuống vũng bùn sình. Bàn tay thô ráp đầy sẹo của gã buông xuôi trên nền đá dăm, các ngón tay vẫn co quắp quanh chuôi đao gãy. Mưa rào trút xuống mỗi lúc một nặng hạt, hòa cùng vệt máu sẫm loang lổ trôi dần vào kẽ nứt của vách đá Tuyệt Vấn Pha.
 
 * * *
 
@@ -234,9 +230,15 @@ Bạch Cương run rẩy siết chặt chiếc khánh bạc vào lòng bàn tay.
 
 "Thúc không được chết!" Bạch Thu Lâm quỳ xuống bên cạnh, giọng nghiêm nghị nhưng run rẩy. "Nghĩa quân Ba Lăng cần thúc, thiếu chủ của thúc cũng cần thúc. Giặc Kim vẫn chưa bị quét sạch khỏi cõi bờ cõi, thúc phải sống để nhìn thấy ngày báo thù!"
 
-Bạch Cương khẽ lắc đầu, khóe môi hé mở một nụ cười chua xót. Ông hít một hơi thật sâu, run rẩy thò tay vào sâu trong lớp áo lót đẫm máu của mình, lôi ra một gói vải dầu buộc chặt bằng chỉ ngũ sắc. Bên cạnh đó, Thôi Kiếm cũng vừa lục soát thi thể của Ngột Thất Hãn ngoài cửa hẻm, mang vào một mảnh lụa tơ tằm cổ viền chỉ bạc đã rách đôi.
+Bạch Cương khẽ lắc đầu, khóe môi hé mở một nụ cười chua xót. Ông hít một hơi thật sâu, run rẩy thò tay vào sâu trong lớp áo lót đẫm máu của mình, lôi ra một gói vải dầu buộc chặt bằng chỉ ngũ sắc. 
 
-"Hai mảnh ghép... vừa khít..." Bạch Cương run rẩy chắp hai mảnh lụa lại với nhau.
+Bên ngoài cửa hang, Thôi Kiếm vừa sải bước tiến vào, trên tay cầm một tấm đồng bài quân hiệu bết máu và một mảnh lụa tơ tằm cổ viền chỉ bạc đã rách đôi:
+
+"Bạch đại tiểu thư, Bạch thúc! Lục soát trên người tên đầu mục vừa bị chém hạ, tìm thấy tấm lệnh bài đồng thau của mật thám Ô Sơ Sa, mặt sau khắc ba chữ Nữ Chân... dịch ra là Bách hộ Ngột Thất Hãn! Mảnh lụa này được giấu kỹ trong lớp giáp ngực của gã."
+
+"Đúng là Ô Sơ Sa..." Bạch Cương run rẩy nhận lấy mảnh lụa, đặt cạnh mảnh lụa trong gói vải dầu của mình. "Mười bảy năm trước ở Hán Thủy, lũ giặc tập kích cướp bọc tã cũng đích thị mang phiên hiệu này..."
+
+Hai mảnh ghép vừa khít mép rách vào nhau.
 
 Dưới ánh đuốc bập bùng của hang đá Tuyệt Vấn Pha, bốn câu thơ cổ được thêu bằng chỉ vàng chìm hiện ra rõ mồn một trên nền lụa bạc:
 

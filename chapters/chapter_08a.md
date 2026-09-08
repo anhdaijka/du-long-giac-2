@@ -132,7 +132,7 @@ Lệ Thu Thủy bỗng giơ cao bàn tay trái, thanh kiếm trong tay phải ch
 
 Đoàn người lập tức khựng bước. Sáu cây đuốc dầu trẩu chụm lại một chỗ, ánh lửa bập bùng soi rõ một vòm đá tự nhiên nhô ra chắn ngang hẻm núi — cửa ngõ duy nhất dẫn vào cấm địa Bách Hoa Trận.
 
-Trên phiến đá hoa cương khắc bốn chữ lớn bằng chữ triện cổ: **"Bách Hoa Bí Cảnh"**. Nhưng nét chữ đã bị rêu phong phủ kín, và trên mặt đá loang lổ những vệt cào xước sâu hoắm, tựa như móng vuốt của loài dã thú khổng lồ để lại.
+Trên phiến đá hoa cương khắc bốn chữ lớn bằng chữ triện cổ: "Bách Hoa Bí Cảnh". Nhưng nét chữ đã bị rêu phong phủ kín, và trên mặt đá loang lổ những vệt cào xước sâu hoắm, tựa như móng vuốt của loài dã thú khổng lồ để lại.
 
 Không gian xung quanh bỗng chốc im ắng đến rợn người.
 
@@ -216,7 +216,7 @@ Vết móng vuốt cào thành ba đường sâu hoắm từ xương quai xanh k
 
 Hạ Nương bình tĩnh lấy ra một bình sứ màu nâu, đổ rượu thuốc ngâm hoàng liên và bách bộ rửa sạch miệng vết thương. Đan Bích Tú rên lên một tiếng nghẹn ngào, toàn thân run bần bật. Hạ Nương nhanh tay rắc một lớp bột Kim Sáng Dược dày lên vết thương, rồi dùng dải băng vải sạch siết chặt lại theo hình chữ nhân:
 
-"Thương tật phần mềm bậc một (L1). Cánh tay trái trong vòng ba ngày không được dùng lực, nếu không vết khâu sẽ bục ra."
+"Vết cào phần mềm ngoài da, gân cơ chưa đứt. Nhưng cánh tay trái trong vòng ba ngày không được dùng lực, nếu không miệng vết thương sẽ bục ra."
 
 "Đa tạ muội..." Đan Bích Tú thở phào, ánh mắt nhìn Hạ Nương đầy vẻ thán phục và biết ơn.
 
@@ -248,7 +248,7 @@ Trước mắt nàng nằm sóng xoài một con sói đực già nua, thân hì
 
 Nàng ngước mắt nhìn thẳng vào Lệ Thu Thủy:
 
-"Thúy Yên Môn chúng ta lấy kiếm pháp thanh nhã, linh động làm gốc; Băng Phách Ngân Châm của đệ tử lấy việc châm cứu điểm huyệt làm trọng. Trong toàn bộ bổn môn, không một ai sử dụng **Chùy gai sắt có răng cưa** (Bát Giác Lang Nha Chùy) — một loại trọng binh chuyên dùng để đập vỡ khiên giáp và nghiền nát xương cốt!"
+"Thúy Yên Môn chúng ta lấy kiếm pháp thanh nhã, linh động làm gốc; Băng Phách Ngân Châm của đệ tử lấy việc châm cứu điểm huyệt làm trọng. Trong toàn bộ bổn môn, không một ai sử dụng bát giác lang nha chùy — loại chùy gai sắt tám cạnh có răng cưa chuyên dùng để đập vỡ khiên giáp và nghiền nát xương cốt!"
 
 Tiếng xì xào kinh hãi lập tức rộ lên trong đám nữ đệ tử. Đan Bích Tú chống kiếm gượng đứng dậy, bước lại gần soi đuốc nhìn vào vết thương ghê rợn trên đầu con sói, mắt mở to kinh ngạc:
 
@@ -256,7 +256,7 @@ Tiếng xì xào kinh hãi lập tức rộ lên trong đám nữ đệ tử. Đ
 
 "Không thể nào." Hạ Nương lạnh lùng cắt đứt lời phỏng đoán. Nàng đưa hai ngón tay chạm vào lớp da dưới bụng con sói, rồi luồn dao rạch một đường nhỏ nơi bắp đùi của nó:
 
-"Nhiệt độ tử thi đã hoàn toàn nguội lạnh. Máu trong tĩnh mạch lớn đã đông đặc thành khối cứng, các thớ cơ bắp đã co cứng hoàn toàn theo quy luật tử thi sau khi chết. Con sói này... bị giết từ **hơn hai canh giờ trước**!"
+"Nhiệt độ tử thi đã hoàn toàn nguội lạnh. Máu trong tĩnh mạch lớn đã đông đặc thành khối cứng, các thớ cơ bắp đã co cứng hoàn toàn theo quy luật tử thi sau khi chết. Con sói này... bị giết từ hơn hai canh giờ trước!"
 
 Một khoảng lặng chết chóc bao trùm lấy hẻm núi Xuân Hoa Viên.
 
@@ -266,7 +266,7 @@ Toán người Thúy Yên Môn chưa hề đặt chân tới đây!
 
 "Chưa hết..." Hạ Nương nắm lấy chân trước của con sói già nhấc lên. Nàng dùng đầu mũi dao cạo một lớp bùn đất khô bám chặt trong kẽ móng vuốt của nó, đặt lên lòng bàn tay đưa ra trước ánh lửa đuốc:
 
-"Đất ở thung lũng Bách Hoa Cốc và ven hồ Điền Trì là đất mùn đỏ pha cát ngập nước, có màu nâu sẫm và mùi tanh của rong rêu. Nhưng lớp đất dính dưới móng con sói này là **đất sét vàng sa mạc** (hoàng thổ khô), rất mịn và có vị mặn chát của vùng cao nguyên khô hạn Tây Bắc hoặc sạn đạo Thục Đạo!"
+"Đất ở thung lũng Bách Hoa Cốc và ven hồ Điền Trì là đất mùn đỏ pha cát ngập nước, có màu nâu sẫm và mùi tanh của rong rêu. Nhưng lớp đất dính dưới móng con sói này là hoàng thổ khô sa mạc, rất mịn và có vị mặn chát của vùng cao nguyên khô hạn Tây Bắc hoặc sạn đạo Thục Đạo!"
 
 Hạ Nương ngẩng đầu lên, ánh mắt nàng sắc như một lưỡi dao mổ xẻ tận cùng bản chất của sự việc:
 
@@ -274,15 +274,15 @@ Hạ Nương ngẩng đầu lên, ánh mắt nàng sắc như một lưỡi dao 
 
 Lời nói của cô y nữ mười sáu tuổi tựa như một gáo nước lạnh buốt tạt thẳng vào ngọn lửa nôn nóng đang bốc hừng hực trong lòng Lệ Thu Thủy.
 
-Cựu Chưởng môn Thúy Yên Môn đứng chết trân giữa bãi xác sói. Bàn tay đang siết chặt chuôi kiếm Phù Vân của bà khẽ run lên một nhịp. Bà nhìn những lỗ thủng hình lục giác trên sọ sói, rồi nhìn lớp đất sét vàng trên tay Hạ Nương.
+Cựu Chưởng môn Thúy Yên Môn đứng chết trân giữa bãi xác sói. Bàn tay đang siết chặt chuôi kiếm Phù Vân của bà khẽ run lên một nhịp. Bà nhìn đăm đăm vào những lỗ thủng trên sọ sói, rồi nhìn vệt đất vàng khô trên đầu ngón tay Hạ Nương, sắc mặt thoắt xanh thoắt trắng.
 
-Trong chớp mắt, ký ức về những lời cảnh báo của Ma Y Thần Tướng ban chiều bỗng dội về trong tâm trí bà: *"Ngọc khí tuy bị che khuất, nhưng thiên tướng khó mà giấu được... Một khi Du Long Giác xuất thế, ắt sẽ kéo theo huyết quang tai kiếp..."*
+Dưới ánh đuốc chập chờn, Hạ Nương thấy rõ tia kinh hãi thoáng lướt qua đôi mắt quầng thâm của vị tiền bối. Lời cảnh báo về "huyết quang tai kiếp" mà Ma Y Thần Tướng gieo quẻ ban chiều như vừa hiện hình ngay trước mắt.
 
-Tin tức về khối huyết ngọc Du Long Giác tại Thúy Yên Môn... đã không còn là bí mật của riêng môn phái nữa.
+Tin tức về khối huyết ngọc Du Long Giác tại Thúy Yên Môn đã không còn là điều bí mật của sơn môn nữa.
 
 Nó đã rò rỉ ra ngoài giang hồ.
 
-Những kẻ đang ẩn nấp trong màn sương mù dày đặc của Bách Hoa Trận lúc này, không phải là những kẻ đạo chích tầm thường đến hái trộm hoa cỏ... mà là những con dã thú khát máu hơn bầy sói Điểm Thương gấp trăm lần!
+Những kẻ đang ẩn nấp trong màn sương mù dày đặc của Bách Hoa Trận lúc này, không phải là đám đạo chích tầm thường đến hái trộm hoa cỏ, mà là những con dã thú khát máu hơn bầy sói Điểm Thương gấp trăm lần.
 
 "Sư bá..." Đan Bích Tú run giọng lên tiếng. "Kẻ địch đã vào trước, chúng ta có nên... lui về bẩm báo với Chưởng môn, điều động toàn bộ đệ tử các viện đến bao vây..."
 

@@ -26,7 +26,7 @@ Trên chõng, Đan Bích Tú nằm nghiêng người, bờ vai quấn nhiều v�
 
 Cách đó ba bước chân, trên chiếc giường con bên góc phòng, đệ tử chấp pháp họ Bành nằm bất động. Vết đao chém thấu cơ đùi ngoài chân trái sâu hai tấc do ngọn đao Tây Vực của tên cao thủ áo đỏ Nhất Phẩm Đường gây ra tuy đã được nẹp garô dã chiến, nhưng thớ thịt vẫn phù nề, mảng da xung quanh mép khâu tím tái như màu lá chuối úa. Dưới đất, hai chiếc chậu đồng đựng nước muối loãng và bã thuốc thảo mộc đã ngả màu xám đục.
 
-Nơi góc trong cùng của viện điều tức, sau bức bình phong thêu hoa mẫu đơn phai màu, tiếng thở dài nặng nề của Lệ Thu Thủy vẳng ra đều đặn. Cú va đập trực diện với ngọn Bát Giác Lang Nha Chùy nặng bốn mươi cân của tên Tử Y Đầu Mục và luồng bức xạ ma quái từ khối hung ngọc khiến lồng ngực vị Tiền Chưởng môn chấn động nghiêm trọng. Khí huyết nghịch hành làm bờ môi Lệ Thu Thủy rỉ máu bầm tím, bảy ngày qua đêm nào nàng cũng ngồi tựa vách đá, bàn tay gầy guộc run rẩy vuốt ve nếp áo, miệng lẩm bẩm một cái tên xa xôi trong cơn mê sảng mộng mị: *"Lăng Phong... Lăng Phong..."*
+Nơi góc trong cùng của viện điều tức, sau bức bình phong thêu hoa mẫu đơn phai màu, tiếng thở dài nặng nề của Lệ Thu Thủy vẳng ra đều đặn. Cú va đập trực diện với ngọn Bát Giác Lang Nha Chùy nặng bốn mươi cân của tên Tử Y Đầu Mục và luồng hàn khí ma quái từ khối hung ngọc khiến lồng ngực vị Tiền Chưởng môn chấn động nghiêm trọng. Khí huyết nghịch hành làm bờ môi Lệ Thu Thủy rỉ máu bầm tím, bảy ngày qua đêm nào nàng cũng ngồi tựa vách đá, bàn tay gầy guộc run rẩy vuốt ve nếp áo, miệng lẩm bẩm một cái tên xa xôi trong cơn mê sảng mộng mị: *"Lăng Phong... Lăng Phong..."*
 
 Hạ Nương đặt chiếc khay đồng đựng dao mổ cán bạc và hộp ngân châm xuống mặt bàn gỗ mun, cúi đầu kiểm tra ngăn kéo cuối cùng của tủ thuốc ba mươi sáu ngăn. 
 
@@ -70,7 +70,7 @@ Vượt qua mười lăm dặm đường núi trập trùng, chân vách đá H�
 
 Trước mắt nàng, bức tường thành thiên nhiên khổng lồ bằng đá vôi tai mèo xám xịt sừng sững cao ngút tầm mắt, cắm thẳng xuống một vực sâu hun hút không thấy đáy. Bên dưới thung lũng, mây trắng cuồn cuộn trôi như một biển sóng bồng bềnh, che khuất toàn bộ rừng rậm phía dưới. Trên mặt vách đá trơ trọi, chỉ có vài gốc tùng lùn cằn cỗi bám vào các khe nứt nẻ, cành lá khẳng khiu vươn ra khoảng không gian rợn ngợp.
 
-Hạ Nương dừng chân trên một mỏm đá nhô ra ngoài bờ vực. Nàng hít sâu một hơi khí lạnh, đưa mắt quan sát từng đường nứt của vỉa đá. Trên độ cao tám trăm trượng này, không khí loãng và lạnh thấu xương, mỗi nhịp thở phả ra làn khói trắng xóa. 
+Hạ Nương dừng chân trên một mỏm đá nhô ra ngoài bờ vực. Nàng đón lấy luồng gió buốt rát mặt, đưa mắt quan sát từng đường nứt của vỉa đá. Trên độ cao tám trăm trượng này, không khí loãng và lạnh thấu xương, mỗi nhịp thở phả ra làn khói trắng xóa. 
 
 Nàng tháo cuộn dây thừng tơ tằm, nhắm thẳng vào một khe đá hoa cương vững chãi trên cao, vung tay ném chiếc móc sắt ba chạc lên. 
 
@@ -102,7 +102,7 @@ Chỉ vô tình hít phải một làn gió mỏng manh, hai bên huyệt Thái 
 
 Lồng ngực nàng nghẹn lại, nhịp tim đột ngột tăng tốc đập thình thịch vào khoang ngực, đồng tử hai mắt khẽ co rút, một cảm giác chếnh choáng đê mê kỳ dị dâng lên làm tê rần các đầu ngón tay. 
 
-Là một y sư từ thuở ấu thơ từng nếm thử trăm ngọn cỏ thuốc, phản xạ bản năng lập tức cảnh báo nàng: Độc thảo! Một loại kỳ độc có khả năng phong tỏa thần kinh và làm điên loạn tâm trí!
+Là một y sư từ thuở ấu thơ từng nếm thử trăm ngọn cỏ thuốc, trực giác nghề nghiệp lập tức cảnh báo nàng: Độc thảo! Một loại kỳ độc có khả năng phong tỏa kinh lạc và làm điên loạn tâm trí!
 
 Mùi hương độc ấy bốc lên từ đâu giữa chốn núi rừng hoang vu này?
 
@@ -146,7 +146,7 @@ Mị Mị Hương!
 
 Hạ Nương nép sau tảng đá, toàn thân khẽ run lên vì kinh ngạc. 
 
-Trong cuốn *Điền Nam Bản Thảo* cổ xưa lưu truyền trong phòng thuốc của Thúy Yên Môn có ghi chép về loài thảo dược tà ác này: Mị Mị Hương là loài rễ cây sống ký sinh trên các tổ rết khổng lồ trong hang tối của vùng Thập Vạn Đại Sơn. Bản thân rễ cây mang tính âm hàn kịch độc. Khi đem phơi khô, sao tẩm với bột lân tinh và xạ hương, thứ độc dược này khi đốt lên bằng ngọn lửa nhỏ sẽ không tỏa ra lửa đỏ, mà chỉ sinh ra một đám sương khói mù mịt màu lam nhạt. Kẻ nào vô tình hít phải khói độc, chất độc sẽ men theo đường kinh lạc xộc thẳng lên đại não, làm tê liệt toàn bộ thần kinh trung ương, khiến người trúng độc rơi vào trạng thái nửa tỉnh nửa mê, thần trí điên dại, tay chân mất hết tri giác và hoàn toàn tuân theo mệnh lệnh của người thi triển độc thuật như một con rối xác sống!
+Trong cuốn *Điền Nam Bản Thảo* cổ xưa lưu truyền trong phòng thuốc của Thúy Yên Môn có ghi chép về loài thảo dược tà ác này: Mị Mị Hương là loài rễ cây sống ký sinh trên các tổ rết khổng lồ trong hang tối của vùng Thập Vạn Đại Sơn. Bản thân rễ cây mang tính âm hàn kịch độc. Khi đem phơi khô, sao tẩm với bột lân tinh và xạ hương, thứ độc dược này khi đốt lên bằng ngọn lửa nhỏ sẽ không tỏa ra lửa đỏ, mà chỉ sinh ra một đám sương khói mù mịt màu lam nhạt. Kẻ nào vô tình hít phải khói độc, chất độc sẽ men theo đường kinh lạc xộc thẳng lên linh đài khiếu huyệt, làm tê liệt toàn bộ thần trí, khiến người trúng độc rơi vào trạng thái nửa tỉnh nửa mê, cuồng loạn tột độ, tay chân mất hết tri giác và hoàn toàn tuân theo mệnh lệnh của người thi triển độc thuật như một con rối không hồn!
 
 Ngũ Độc Giáo chở hàng chục bao tải Mị Mị Hương đến hẻm núi Điểm Thương Sơn này để làm gì?
 
@@ -294,7 +294,7 @@ Nàng đột ngột quay người lại, nhìn thẳng vào Hạ Nương:
 
 Hạ Nương trầm ngâm giây lát, ánh mắt hướng về phía chiếc hòm thuốc da hươu:
 
-"Hoa Lục Thiểm Nhi và Chu Hồng Quả chỉ có thể giải trừ độc tố đã ngấm vào máu sau khi phát tác, nhưng không thể ngăn được khói độc xộc thẳng vào phế nang khi hít thở giữa sa trường. Muốn bảo toàn tính mạng cho toàn môn phái, trong vòng ba ngày tới, Dược phòng bắt buộc phải điều chế gấp hàng trăm chiếc túi lọc độc tẩm giấm thanh, than hoạt tính và bột Băng Phách để đệ tử ngậm vào miệng khi nghênh chiến. Đồng thời, con cần nghiên cứu độc tính của nhánh rễ cây này để tìm ra phương thuốc giải độc đối kháng trước khi trận đại chiến bùng nổ!"
+"Hoa Lục Thiểm Nhi và Chu Hồng Quả chỉ có thể giải trừ độc tố đã ngấm vào máu sau khi phát tác, nhưng không thể ngăn được khói độc xộc thẳng vào phế tạng khi hít thở giữa trận tiền. Muốn bảo toàn tính mạng cho toàn môn phái, trong vòng ba ngày tới, Dược phòng bắt buộc phải điều chế gấp hàng trăm chiếc túi lọc độc tẩm giấm thanh, bột than thiêu tồn tính và bột Băng Phách để đệ tử ngậm vào miệng khi nghênh chiến. Đồng thời, con cần nghiên cứu độc tính của nhánh rễ cây này để tìm ra phương thang giải độc đối kháng trước khi trận đại chiến bùng nổ!"
 
 Doãn Hàm Yên gật đầu dứt khoát, phong thái quyết đoán của bậc tông sư chưởng môn bừng sáng trong đôi mắt:
 
@@ -302,12 +302,12 @@ Doãn Hàm Yên gật đầu dứt khoát, phong thái quyết đoán của bậ
 
 Nàng quay sang phía cửa sảnh, cất giọng lệnh đanh thép:
 
-"Truyền lệnh của Chưởng môn! Toàn phái Thúy Yên Môn tiến vào trạng thái báo động chiến tranh cấp độ một! Tăng gấp đôi đệ tử tuần phòng bờ suối và chân núi! Bất kỳ kẻ nào lén lút tiếp cận các sườn núi Điểm Thương Sơn, giết không tha!"
+"Truyền lệnh của Chưởng môn! Toàn phái Thúy Yên Môn tiến vào trạng thái giới nghiêm cao nhất! Khởi động toàn diện Huyền Nguyệt Đại Trận! Tăng gấp đôi đệ tử tuần phòng bờ suối và chân núi! Bất kỳ kẻ nào lén lút tiếp cận các sườn núi Điểm Thương Sơn, giết không tha!"
 
 *Coong... Coong... Coong...*
 
-Tiếng chuông đồng trên đỉnh Yên Hỏa Đài lại một lần nữa gióng lên từng hồi dồn dập, ngân vang chấn động khắp các hẻm núi và thung lũng Bách Hoa Cốc. Tiếng chuông trầm đục xé toạc bầu không khí tĩnh mịch của buổi trưa hanh hao, báo hiệu một cơn cuồng phong bão táp sắp sửa quét qua vùng đất Điền Trì.
+Tiếng chuông đồng trên đỉnh Yên Hỏa Đài lại một lần nữa gióng lên từng hồi dồn dập, ngân vang chấn động khắp các hẻm núi và thung lũng Bách Hoa Cốc. Tiếng chuông trầm đục xé toạc bầu không khí hanh hao của buổi trưa, dồn dập truyền đi khắp các nẻo đường mòn quanh hồ Điền Trì.
 
-Hạ Nương đứng lặng bên bậc thềm đá hoa cương của sảnh Xuân Mai Nhã Trúc. Nàng ngước nhìn lên đỉnh núi Điểm Thương Sơn xa xăm, nơi mây đen mù mịt từ phía Tây Rừng Nguyên Sinh đang bắt đầu ùn ùn kéo về che khuất ánh mặt trời.
+Hạ Nương đứng bên bậc thềm đá hoa cương của sảnh Xuân Mai Nhã Trúc, nhìn lên đỉnh núi Điểm Thương Sơn xa xăm, nơi mây đen mù mịt từ phía Tây Rừng Nguyên Sinh đang bắt đầu ùn ùn kéo về che khuất ánh mặt trời.
 
-Một tiếng sấm đầu thu rền vang từ đáy vực sâu hun hút, trầm đục và u ám tựa hồ tiếng gầm gừ của bầy dã thú đang chực chờ nuốt chửng sự sống nơi thung lũng ngàn hoa.
+Nàng đưa tay siết chặt nhánh rễ Mị Mị Hương gồ ghề trong túi áo. Ba ngày tới, trước khi ngọn gió bấc đầu tiên tràn qua miệng phễu Bách Hoa Cốc, chiếc cối đá và ngọn lửa sao thuốc nơi Dược phòng sẽ là chiến hào quyết định mạng sống của toàn thể tỷ muội sơn môn.

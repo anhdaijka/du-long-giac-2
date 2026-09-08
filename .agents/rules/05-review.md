@@ -1,61 +1,69 @@
-# Review Rule
+# Review Rule & Adversarial Red-Team Review Protocol
 
 Review before rewriting.
 
 Mandatory Quality Binding:
-- Audit all drafts against `.agents/rules/11-prose-quality-contract.md` and run `npm run lint:prose`.
-- Structure review according to the 5 Literary Review Gates, rigorously checking the 5 Workflow Safeguards:
-  - **Gate A: Minimal Hard Regression & Provenance Lock**
-    - Provenance verification: YAML frontmatter MUST declare valid `provenance` referencing verifiable Task ID/Subtask ID in `story_database.sqlite3`.
-    - Spatiotemporal Verification: Check movements, couriers, and news against `worldbuilding/geography/travel_matrix.md`. Flag any instantaneous travel or ungrounded cross-regional rumors.
-    - Epistemic Horizon Check: Check POV character's knowledge boundary in `characters/<character>.md`. Flag any authorial omniscience, premature lore reveals, or characters knowing facts they have not learned in-world.
-  - **Gate B: Blind Reader & Narrative Propulsion**
-    - Pacing check: Ensure scenes develop organically within their assigned scope without premature climaxes or rushing past emotional beats.
-    - Dramatic propulsion, human pressure, scene arc (clear beginning, mounting tension, Kim Dung atmospheric ending).
-  - **Gate C: Character Agency, Martial Progression, Injury Continuity & Living Texture**
-    - Martial Tier & Damage Tax Check: Cross-check combat techniques, inner force, and weapons against the character's designated tier in `worldbuilding/martial/martial_dynamics.md`. Flag any premature unlocks, power creep, or Tier 0 defeating Tier 2 without severe damage tax (L2/L3 injuries).
-    - Injury Continuity & Zero Instant Healing: Cross-check against `worldbuilding/medical/injuries_ledger.md`. Ensure wounds from prior chapters realistically hinder movement, breathing, and psychology. Flag any instant healing or magically vanished wounds.
-    - Anti-Caricature / Non-Binary Antagonist: Verify that opposing forces (Kim soldiers, rival factions, officials) possess realistic military discipline, ethnic loyalty, or relatable human motives instead of cartoonish, one-dimensional evil.
-    - Living Plebeian Texture: Check integration of everyday life (local trades, prices, dialect, ambient dialogue from the corpus). Ensure the scene is not a dry "quest turn-in".
-    - Authentic character voice and interpersonal dynamics.
-  - **Gate D: Voice, Rhetoric & Naturalness**
-    - Pure show-don't-tell enforcement (zero filter words, sensory anchoring).
-    - Camera boundary (strict third-person limited, no head-hopping).
-    - No explanatory scaffolds (`đó là`, `đây là`, `đó chính là`, `vốn là`, `chính là`).
-    - Classical Kim Dung tone with subtle wuxia atmosphere.
-  - **Gate E: Word Count & Structural Substantiality**
-    - Golden Word Count Band: **4,000 – 4,800 words** (Hard floor: 3,500 words; Soft ceiling: 5,200 words).
-    - If words < 3,500: Flag as defect (insufficient scene texture or rushed beats).
-    - If words > 5,200: **Tự động áp dụng Cơ chế Tách Phân Đoạn Linh Hoạt (Fluid Splitting a/b/c - Quyết định D-019)**: Tách thành các chương `chapter_XXa.md`, `chapter_XXb.md` với dramatic hook kết nối tự nhiên thay vì nén ép cơ học làm hỏng văn phong. Quyển 1 hoàn toàn linh hoạt số lượng chương.
-    - Ensure zero empty filler; every paragraph must advance character, texture, or conflict.
+- Audit all drafts against [`author/creative-constitution.md`](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/author/creative-constitution.md), [`author/style-bible.md`](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/author/style-bible.md), [`worldbuilding/style/author_wuxia_rubric.md`](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/worldbuilding/style/author_wuxia_rubric.md), [`worldbuilding/style/dialogue_register_matrix.md`](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/worldbuilding/style/dialogue_register_matrix.md), and `.agents/rules/11-prose-quality-contract.md`.
+- Automated tooling gates: `npm run lint:prose`, `python scripts/lore-guard.py --scan`, and `python scripts/lore-grounder.py --chapter <chapter_path>`.
 
-Every actionable issue should include:
+---
+
+## 1. Adversarial Red-Team Review Protocol (Giao Thức Phản Biện Đối Kháng)
+
+1. **Phân rã Tư duy & Triệt tiêu Ảo tưởng Tự khen (Anti-Sycophancy)**:
+   - Khi bước vào vai Reviewer, Agent BẮT BUỘC rũ bỏ góc nhìn của người viết (Drafter) để nhập vai **Biên tập viên Đối kháng Khắc nghiệt**.
+   - Giả định bản thảo **CÓ LỖI TIỀM ẨN** (head-hopping ngầm, dán nhãn tâm lý trá hình, quên thương tật, bịa fact) cho đến khi tìm đủ bằng chứng chứng minh điều ngược lại.
+   - CẤM TUYỆT ĐỐI phán quyết "PASS" chung chung không có dẫn chứng số dòng.
+2. **Kỷ luật Cưỡng chế Bằng chứng (Mandatory Span-Level Evidence)**:
+   - Mọi báo cáo Review BẮT BUỘC phải trích dẫn tối thiểu 4 spans nguyên bản kèm số dòng cụ thể:
+     - *Span 1*: Khẩu khí độc bản nhân vật POV (bắng nhắng/quân lệnh/y lý).
+     - *Span 2*: Chi tiết đời sống dân sinh (Yên hỏa khí) hoặc điểm chạm trào lộng Mo Lei Tau (25%).
+     - *Span 3*: Cản trở vật lý của thương tật theo `injuries_ledger.md`.
+     - *Span 4*: Cảnh ngụ tình / Dư ba kết chương.
+3. **Bảo vệ Khẩu khí Sáng tạo Độc bản (Creative Voice Protection)**:
+   - Phân biệt rõ hai không gian:
+     - *Lời dẫn người kể chuyện*: Bắt buộc khách quan, hạn tri sâu, pure show-don't-tell.
+     - *Lời thoại trong ngoặc kép `“...”`*: Tôn trọng 100% ngữ khí nhân vật (Tiêu Phùng bắng nhắng đốp chát, Tĩnh Xuyên sắc lạnh, Hạ Nương duy lý). Tuyệt đối không bắt bẻ thoại nhân vật thành bản sao Quách Tĩnh nghiêm trang khô cứng!
+
+---
+
+## 2. 5 Cổng Duyệt Thẩm Mỹ (SOLID 5-Gate Review Runner)
+
+- **Gate A: Minimal Hard Regression, Provenance Lock & Closed-World Grounding**
+  - Provenance: YAML frontmatter BẮT BUỘC khớp 1-1 với Task ID/Subtask ID trong SQLite `story_database.sqlite3`.
+  - Closed-World Assumption: 100% nhân vật, địa danh xuất hiện phải có trong SQLite, `genealogy_matrix.md`, hoặc `supporting_cast.md`. Báo động ngay nếu phát hiện thực thể "tự sinh".
+  - Không - thời gian: Tuân thủ Rule TC-1 đến TC-4 (`plot/timeline.md` và `travel_matrix.md`).
+  - Ranh giới tri thức: Nhân vật chỉ biết những gì ngũ quan tiếp nhận; không có rò rỉ toàn tri.
+- **Gate B: Blind Reader, Narrative Propulsion & Genre Discipline**
+  - Nhịp điệu kịch tính tự nhiên (organic pacing), không đốt cháy giai đoạn, có khoảng thở sinh hoạt.
+  - Xung đột và động cơ sinh tồn chân thực; áp dụng chuẩn thể loại chuyên biệt (trinh thám có chuỗi vật chứng vật lý; kinh dị qua giác quan hạn tri; tình cảm low-burn).
+- **Gate C: Character Agency, Martial Progression & Ongoing Injury Constraints**
+  - Võ học có giới hạn (Bounded Martial Majesty): Quyền cước có biến chiêu, phá chiêu, cương nhu tương khắc; cấm tuyệt đối tiên hiệp/linh hồn/uy áp.
+  - Kỷ luật thương tật (`injuries_ledger.md`): Vết thương từ các chương trước phải gây cản trở thể chất thực tế; cấm tuyệt đối instant healing.
+  - Phản diện đa chiều, không hoạt hình một màu.
+- **Gate D: Voice, Rhetoric & Author Creative Register**
+  - Lời dẫn: Pure show-don't-tell, 0 filter words, 0 explanatory scaffolds (`đó là`, `đây là`, `chàng hiểu rằng`).
+  - Lời thoại: Khẩu khí độc bản bộ ba (Tiêu Phùng / Tĩnh Xuyên / Hạ Nương) theo `dialogue_register_matrix.md`.
+  - Tích hợp công thức trào lộng 65% - 25% - 10% (Mo Lei Tau & Gintama DNA khoác áo cổ phong).
+- **Gate E: Word Count Band & Substantiality**
+  - Dải Dung Lượng Vàng: **4.000 – 4.800 từ** (Sàn cứng: 3.500 từ; Trần mềm: 5.200 từ).
+  - Vượt trần > 5.000 từ tự động kích hoạt Cơ chế Tách Phân Đoạn a/b/c có hook nối tiếp.
+
+---
+
+## 3. Quy Chuẩn Đề Xuất & Báo Cáo
+
+Mọi vấn đề phát hiện phải ghi rõ:
 - severity: critical / major / minor / optional
-- location
-- problem
-- why it matters
-- evidence
-- recommended intervention
+- location: dòng cụ thể trong bản thảo
+- context_type: NARRATOR (Lời dẫn) / DIALOGUE (Thoại)
+- problem: bản chất vi phạm
+- why it matters: tác động đến cốt truyện hoặc thẩm mỹ
+- evidence: trích đoạn nguyên bản
+- recommended intervention: cách sửa chi tiết
 
-Do not use an opaque aggregate quality score as the acceptance decision.
+Sử dụng biểu mẫu chuẩn tại [`templates/review-report.md`](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/templates/review-report.md).
 
-Review Report Contract:
-```markdown
-# Review Report: Chapter [XX]
-
-## Gate Status:
-- Gate A (Hard Regression & Provenance): PASS / FAIL (Notes)
-- Gate B (Blind Reader & Pacing): PASS / FAIL (Notes)
-- Gate C (Agency, Martial Tier & Living Texture): PASS / FAIL (Notes)
-- Gate D (Voice, Rhetoric & Linters): PASS / FAIL (Notes)
-- Gate E (Word Count Band: [Count] words): PASS / FAIL (Notes)
-
-## Findings & Action Items:
-[List of issues by severity]
-
-## Verdict:
-[APPROVED / REVISE_REQUIRED]
-```
 
 
 

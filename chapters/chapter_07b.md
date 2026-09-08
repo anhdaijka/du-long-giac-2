@@ -220,7 +220,7 @@ Dương Thiết Tâm dùng móng tay bẻ gãy khối sáp đỏ, rút ra một 
 
 Dương Thiết Tâm hít một hơi sâu buốt lạnh lồng ngực. Chàng ngẩng đầu nhìn quanh đại sảnh, giọng nói trầm hùng run lên một nhịp:
 
-"Thúy Yên Môn tại Điền Trì... đã khai quật được hung ngọc **Du Long Giác**!"
+"Thúy Yên Môn tại Điền Trì... đã khai quật được hung ngọc Du Long Giác!"
 
 Cả sảnh đường ồ lên một tiếng kinh hoàng. Lâu Nhất Quan lảo đảo lùi lại nửa bước, miệng lẩm bẩm: "Du Long Giác? Miếng ngọc thần bí từng làm điên đảo giang sơn một trăm năm trước... sao lại tái xuất lúc này?"
 
@@ -248,6 +248,4 @@ Nửa canh giờ sau, tại bến tuần tiễu phía nam Thanh Loa Đảo.
 
 Sương mù đã tản dần. Chiếc thuyền buồm nhẹ của Bùi Dực Phi giương cánh buồm đen no gió, rẽ sóng bạc đầu lao vút ra lòng hồ Động Đình mênh mông, hướng thẳng về phía dải đất Tây Nam xa xôi.
 
-Trên bãi đá ven bờ, Tĩnh Xuyên cắm ngập ngọn Bát Hàn Thiết Thương xuống nền cát ướt, đứng lặng nhìn theo bóng cánh buồm đen dần dần thu nhỏ lại rồi khuất hẳn sau làn sương khói mờ ảo.
-
-Phía chân trời đằng đông, mây đen rách toạc để lộ một vầng thái dương đỏ quạch như một khối máu tươi khổng lồ nhô lên trên mặt nước. Ánh rạng đông đỏ rực nhuộm đỏ cả một vùng sóng nước Động Đình bao la, báo hiệu một cơn phong ba bão táp chưa từng có trong lịch sử võ lâm sắp sửa đổ ập xuống toàn cõi giang sơn.
+Phía chân trời đằng đông, mây đen rách toạc để lộ vầng thái dương đỏ sẫm nhô lên trên mặt nước. Ánh rạng đông hắt một vệt sáng dài lên ngọn thiết thương cắm sâu trong cát ướt, gió lạnh từ phương bắc thổi thốc vào mặt giáp sắt của chàng, mang theo tiếng sóng Động Đình rền vang không ngớt.

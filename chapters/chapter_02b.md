@@ -120,9 +120,9 @@ Chàng bước ra giữa khoảng trống trước chân cầu thang, khom mình
 
 "Thuộc hạ võ nghệ thô thiển, xin tân bang chủ chỉ điểm."
 
-Dứt lời, Tĩnh Xuyên hít sâu một hơi. Khí tức trong lồng ngực chàng trầm xuống đan điền, hai chân chàng hạ thấp, mở rộng bằng vai, cắm phập xuống sàn gỗ lim như hai chiếc cọc đê đóng sâu vào lòng bùn đáy hồ. 
+Dứt lời, Tĩnh Xuyên hít một hơi dài. Khí tức trong lồng ngực chàng trầm xuống đan điền, hai chân chàng hạ thấp, mở rộng bằng vai, cắm phập xuống sàn gỗ lim như hai chiếc cọc đê đóng sâu vào lòng bùn đáy hồ. 
 
-Chàng nâng ngọn Bát Hàn Thiết Thương lên ngang ngực. Không hoa mỹ, không biến chiêu hư ảo, chàng thi triển thế thương phòng ngự căn bản nhất của nghĩa quân Thiên Vương: **Thiết Bích Khóa Giang**! Thân thương sắt nặng hai mươi ba cân đặt ngang trước ngực, mũi thương chúc chếch sang trái ba phân che kín yết hầu và tim, cán thương tì chặt vào hông lươn tạo thành một bức tường sắt vững như bàn thạch. Đòn thế mộc mạc đến cùng cực, nhưng toàn bộ kình lực toàn thân chàng dồn tụ lại thành một khối thống nhất, không một kẽ hở!
+Chàng nâng ngọn Bát Hàn Thiết Thương lên ngang ngực. Không hoa mỹ, không biến chiêu hư ảo, chàng thi triển thế thương phòng ngự căn bản nhất của nghĩa quân Thiên Vương: Thiết Bích Khóa Giang. Thân thương sắt nặng hai mươi ba cân đặt ngang trước ngực, mũi thương chúc chếch sang trái ba phân che kín yết hầu và tim, cán thương tì chặt vào hông lươn tạo thành một bức tường sắt vững như bàn thạch. Đòn thế mộc mạc đến cùng cực, nhưng toàn bộ kình lực toàn thân chàng dồn tụ lại thành một khối thống nhất, không một kẽ hở!
 
 "Thế thủ rất vững!"
 
@@ -196,6 +196,4 @@ Tĩnh Xuyên đứng bên lan can tầng lầu soái, ngọn Bát Hàn Thiết T
 
 Lão tổng quản già đứng dậy từ mặt thảm, đôi bàn tay giấu trong tay áo thụng vẫn siết chặt thành nắm đấm run rẩy. Đôi mắt lão nhìn chòng chọc vào lưng Dương Thiết Tâm, u tối, lạnh lẽo và hằn học như mắt của loài kền kền rình mồi nơi đầm lầy.
 
-Tĩnh Xuyên siết chặt bàn tay trên cán thương sắt. Lời dặn của Diệp Mẫu sáng nay bỗng văng vẳng bên tai chàng: *Sa trường không có chỗ cho lòng kiêu ngạo. Kẻ nào coi mạng mình nhẹ như lông hồng, kẻ đó chôn xác trước tiên.*
-
-Ngôi vị bang chủ đã có chủ, nhưng cơn giông bão ngấm ngầm xé nát Thanh Loa Đảo mới chỉ vừa bắt đầu.
+Tĩnh Xuyên siết chặt bàn tay trên cán thương sắt. Lời dặn của Diệp Mẫu sáng nay bỗng văng vẳng bên tai chàng. Chàng nhìn con sóng Động Đình cuộn trào dưới lườn soái hạm, cảm nhận ngọn gió bấc từ phương Bắc thổi về mang theo hơi ẩm lạnh buốt của mùa thu.

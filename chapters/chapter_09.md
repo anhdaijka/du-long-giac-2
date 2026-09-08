@@ -141,7 +141,7 @@ Tiểu Lục gầm lên lao vào cứu bạn, đâm đoản đao vào hông kẻ
 
 Toàn bộ quá trình thảm sát diễn ra chưa đầy mười nhịp thở!
 
-Tiêu Phùng đứng chôn chân bên cạnh đống lửa, lồng ngực chàng thắt nghẹn lại. Cơn phẫn nộ bùng lên dữ dội thiêu đốt tâm can, nhưng mạn sườn trái của chàng nhói buốt dữ dội như một lời nhắc nhở tàn khốc: Chàng không thể lao vào đánh tay đôi với những cỗ máy giết người sa trường này! Nếu cậy mạnh vung đoản côn nghênh chiến, chàng sẽ chết ngay nhát đao đầu tiên mà không cản nổi quân thù nửa khắc.
+Tiêu Phùng đứng chôn chân bên cạnh đống lửa, lồng ngực chàng thắt nghẹn lại. Cơn phẫn nộ bùng lên dữ dội thiêu đốt tâm can, nhưng vết rạn nơi mạn sườn trái bất chợt nhói buốt thấu óc, ghì chặt lấy từng nhịp thở dồn dập: Chàng không thể lao vào đánh tay đôi với những cỗ máy giết người sa trường này! Nếu cậy mạnh vung đoản côn nghênh chiến, chàng sẽ chết ngay nhát đao đầu tiên mà không cản nổi quân thù nửa khắc.
 
 "Tránh xa chiếc tráp ra!" Trương Đỉnh gầm lên, bất chấp vết thương rách toạc ở đùi do lưỡi đao sượt qua, lão dốc toàn lực vung đao quét ngang hông tên cầm đoản trùy để cản bước gã.
 
@@ -266,7 +266,7 @@ Tiêu Phùng run rẩy đưa tay sờ lên chiếc khánh bạc sơ sinh trướ
 *Thiên mã chấn trường dực*  
 *Long Cung trích tử anh.*
 
-Đệ có thấy không? Toàn bộ các tọa độ kinh vĩ trên cuốn *Vô Danh Mật Tịch* này đều bị khuyết mất điểm khởi đầu. Chữ 'Long Cung' trong bài thơ trỏ thẳng về khối hung ngọc thiên thạch **Du Long Giác** thất lạc mười bảy năm trước! Du Long Giác mang từ trường địa cực cực mạnh, đóng vai trò chiếc chìa khóa duy nhất để định vị và kích hoạt toàn bộ mạng lưới Trụ Thần Thạch. Thiếu mất Du Long Giác, cuốn da dê này chỉ là một mớ ký tự vô tri; nhưng nếu hai thứ hợp nhất, kẻ nắm giữ nó có thể xoay chuyển phong thủy, khống chế địa mạch, thậm chí dìm chết cả một đạo quân mười vạn người chỉ bằng một cái gạt tay vào then cơ quan!"
+Đệ có thấy không? Toàn bộ các tọa độ kinh vĩ trên cuốn *Vô Danh Mật Tịch* này đều bị khuyết mất điểm khởi đầu. Chữ 'Long Cung' trong bài thơ trỏ thẳng về khối hung ngọc thiên thạch Du Long Giác thất lạc mười bảy năm trước! Du Long Giác mang từ trường địa cực cực mạnh, đóng vai trò chiếc chìa khóa duy nhất để định vị và kích hoạt toàn bộ mạng lưới Trụ Thần Thạch. Thiếu mất Du Long Giác, cuốn da dê này chỉ là một mớ ký tự vô tri; nhưng nếu hai thứ hợp nhất, kẻ nắm giữ nó có thể xoay chuyển phong thủy, khống chế địa mạch, thậm chí dìm chết cả một đạo quân mười vạn người chỉ bằng một cái gạt tay vào then cơ quan!"
 
 Tiêu Phùng bàng hoàng ngây dại. Chàng nhìn cuốn da dê đẫm máu, rồi nhìn xác những tên sát thủ Tây Hạ nằm la liệt dưới chân. Một nỗi rùng mình ớn lạnh chạy dọc sống lưng chàng:
 
@@ -282,16 +282,16 @@ Nói đoạn, Thu Di thò tay vào ngực áo chiến bào, rút ra một phong 
 
 Nàng đặt phong thư vào lòng bàn tay Tiêu Phùng, siết chặt lấy những ngón tay thô ráp của chàng:
 
-"Đêm nay, đệ theo ta về đại doanh dọn dẹp hành trang. Hai ngày nữa, khi vết thương nơi mạn sườn tạm se miệng, đệ phải lập tức lên đường, vượt hồ Động Đình tiến về phía đông, sang **Yến Tử Ổ**."
+"Đêm nay, đệ theo ta về đại doanh dọn dẹp hành trang. Hai ngày nữa, khi vết thương nơi mạn sườn tạm se miệng, đệ phải lập tức lên đường, vượt hồ Động Đình tiến về phía đông, sang Yến Tử Ổ."
 
 "Yến Tử Ổ?" Tiêu Phùng chớp mắt, ngơ ngác: "Đó chẳng phải là tổng đàn của Cái Bang hay sao?"
 
-"Không sai, Cái Bang!" Thu Di cất giọng trang nghiêm: "Bang chủ Cái Bang hiện nay mang tên **Thạch Hiên Viên**, người năm xưa từng cùng cha đệ và các tiền bối nghĩa quân vào sinh ra tử, kết nghĩa kim lan. Dưới trướng Thạch bang chủ quy tụ hàng vạn đệ tử áo vá, hào khí ngút trời, bang quy nghiêm cẩn. Chỉ có ở nơi đại giang hồ rộng lớn ấy, dưới sự che chở của Cái Bang và sự rèn giũa của Thạch Hiên Viên, đệ mới có thể an toàn học nghệ, tôi luyện bản lĩnh để tự bảo vệ sinh mạng của chính mình."
+"Không sai, Cái Bang!" Thu Di cất giọng trang nghiêm: "Bang chủ Cái Bang hiện nay mang tên Thạch Hiên Viên, người năm xưa từng cùng cha đệ và các tiền bối nghĩa quân vào sinh ra tử, kết nghĩa kim lan. Dưới trướng Thạch bang chủ quy tụ hàng vạn đệ tử áo vá, hào khí ngút trời, bang quy nghiêm cẩn. Chỉ có ở nơi đại giang hồ rộng lớn ấy, dưới sự che chở của Cái Bang và sự rèn giũa của Thạch Hiên Viên, đệ mới có thể an toàn học nghệ, tôi luyện bản lĩnh để tự bảo vệ sinh mạng của chính mình."
 
 Tiêu Phùng cúi nhìn phong thư niêm sáp đỏ nằm im lìm trong lòng bàn tay. 
 
 Bức thư nặng trịch. Chàng cảm nhận được sức nặng của mười bảy năm ân oán, sức nặng của những giọt máu vừa đổ xuống sàn đá của Trương Đỉnh, của Đại Cường, và của chính người cha Tiêu Lăng Phong mà chàng chưa từng một lần thấy mặt.
 
-Chàng ngước nhìn ra ngoài cửa miếu. Mưa phùn đêm thu vẫn giăng giăng mờ mịt trên dòng sông Động Đình cuộn sóng. Những ngày tháng rong chơi bắt cá, trộm rượu nếp bãi sậy và ngủ vùi trên đầm lau Giang Tân Thôn đã thực sự khép lại sau lưng chàng.
+Chàng ngước nhìn ra ngoài cửa miếu. Mưa phùn đêm thu vẫn giăng giăng mờ mịt trên dòng sông Động Đình cuộn sóng. Những ngày tháng rong chơi bắt cá, trộm rượu nếp bãi sậy và ngủ vùi trên đầm lau Giang Tân Thôn đã thực sự lùi lại phía sau.
 
-Trước mắt chàng, cánh cửa đại giang hồ tanh nồng mùi phong ba bão táp đã chính thức mở toang.
+Tiêu Phùng siết chặt bức thư vào lồng ngực, cảm nhận lớp sáp chu sa cộm lên qua lần áo thô ráp. Ngoài bờ đê cổ miếu, sóng hồ Động Đình vẫn dập dồn vỗ vào chân cọc đá, mang theo hơi thở buốt lạnh của mùa thu đang dâng tràn qua những cánh đồng lau vô tận.

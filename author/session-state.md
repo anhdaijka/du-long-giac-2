@@ -102,14 +102,20 @@
       6. Kiểm tra đối soát 100% khớp hoàn hảo với: `characters/tieu_phung.md`, `characters/anchors/bach_thu_lam.md`, `characters/supporting_cast.md`, `worldbuilding/artifacts/artifacts_ledger.md` (Khánh bạc trẻ con, Thư máu Ma Y Cốc, Chìa khóa bạch đồng, Chuỗi Hắc Trân Châu, Đoản côn bịt sắt), `plot/timeline.md` (ngày 1191-08-18), `plot/promises_tracker.md` (`TH-001`, `TH-006`, `TH-008`), `plot/volume_01_deck.md` (Chương 04a & 04b).
       7. Kết quả kiểm thử tự động: `python scripts/lore-guard.py --scan` PASS 47/47 tệp; `npm run lint:prose` PASS 15/15 chương (0 lỗi); `npm run gate:check` PASS 100% (cả Gate Guard và Temporal Guard).
 
-  - **Đợt 5: Chương 05 — *Tuyệt Vấn Huyết Lộ***: **HOÀN THÀNH 100%**.
+  - **Đợt 5: Chương 05 — *Tuyệt Vấn Huyết Lộ***: **HOÀN THÀNH 100% (ĐÃ HOÀN TẤT REVISION TOÀN DIỆN)**.
     - Đã đối soát 6 trụ cột (Bản thảo, Brief, Review, Canon Diff, Characters, Ledgers/Trackers).
-    - Khắc phục các điểm lệch pha:
+    - **Hoàn tất Revision toàn diện theo phê duyệt của Tác giả**:
+      1. Khắc phục triệt để vi phạm Limited 3rd POV của Tiêu Phùng tại dòng 93-100, 137, 181-184, 193: cắt bỏ toàn bộ info-dump toàn tri về tiểu sử, tên họ, chiến dịch Biện Kinh/Hán Thủy và suy nghĩ nội tâm của tên võ sĩ Nữ Chân; xóa bỏ văn luận điếu văn tác giả cuối trận; chuyển hoàn toàn sang quan sát vật lý khách quan.
+      2. Thanh lọc triệt để lỗi bịa đặt lore chéo nhánh tại dòng 119: xóa vĩnh viễn cụm từ "nỗi thống khổ của Hạ Nương"; khôi phục mạch tâm lý chuẩn xác gắn liền Ba Lăng Huyện (Thẩm Thiết Thạch, Thẩm Hà Diệp, Tiêu Lăng Phong).
+      3. Khử sạch rò rỉ meta terms: xóa bỏ "bậc Tier 2" tại dòng 125 và 165; bổ sung regex cấm `Tier` vào `scripts/meta-leakage-scanner.py` để bảo vệ toàn repo.
+      4. Hợp thức hóa danh tính Bách hộ Ô Sơ Sa Ngột Thất Hãn qua tiếng thét cảnh báo của Bạch Cương và tấm đồng bài quân hiệu do Thôi Kiếm lục soát thi thể mang vào ở cuối cảnh.
+      5. Cập nhật `reviews/chapter_05_review.md` phản ánh trung thực kết quả audit. Dung lượng bản thảo sau revision: 5.673 từ.
+    - Khắc phục các điểm lệch pha trước đó:
       1. Bổ sung bảng `## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)` vào `briefs/chapter_05_brief.md` (Tiêu Phùng 17t, Bạch Thu Lâm 24t, Bạch Cương ~45t, Cao Thăng ~42t, Thôi Kiệm ~28t, Ngột Thất Hãn ~38t), đảm bảo 0 vi phạm bối phận/tuổi sinh học.
       2. Bổ sung nhân vật phản diện tử trận Bách hộ Ô Sơ Sa **Ngột Thất Hãn** (Tier C Tử trận) vào danh bạ `characters/supporting_cast.md`.
       3. Hoàn thiện Mục 8 đề xuất diff `characters/supporting_cast.md` và Mục 9 Phê duyệt Tác giả trong `revisions/chapter_05_canon_diff.md` theo chuẩn Cổng Dừng 3.
       4. Sửa điểm lệch pha tại `plot/volume_01_deck.md` dòng 31 và 32: Đồng bộ chuẩn xác tên chương và diễn biến của Chương 05 (*Tuyệt Vấn Huyết Lộ* — Task 157: Subtask 321–323) và Chương 06 (*Hộ Đê Cứu Nạn* — Task Arc 00 & Task 157: Subtask 320, 312).
-      5. Kiểm tra đối soát 100% khớp hoàn hảo với: `chapters/chapter_05.md` (5.722 từ), `briefs/chapter_05_brief.md`, `reviews/chapter_05_review.md`, `revisions/chapter_05_canon_diff.md`, `characters/tieu_phung.md`, `characters/anchors/bach_thu_lam.md`, `characters/supporting_cast.md` (Bạch Cương, Cao Thăng, Thôi Kiệm, Ngột Thất Hãn), `worldbuilding/medical/injuries_ledger.md` (`INJ-TP-002`, `INJ-BC-001`, `INJ-CT-001`), `worldbuilding/artifacts/artifacts_ledger.md` (`ART-SAM-THI-001`, đoản côn bị mẻ khâu sắt), `plot/timeline.md` (mốc 1191-08-18 hoàng hôn đến đêm), `plot/promises_tracker.md` (`TH-001`, `TH-008`, `TH-009`).
+      5. Kiểm tra đối soát 100% khớp hoàn hảo với: `chapters/chapter_05.md` (5.673 từ), `briefs/chapter_05_brief.md`, `reviews/chapter_05_review.md`, `revisions/chapter_05_canon_diff.md`, `characters/tieu_phung.md`, `characters/anchors/bach_thu_lam.md`, `characters/supporting_cast.md` (Bạch Cương, Cao Thăng, Thôi Kiệm, Ngột Thất Hãn), `worldbuilding/medical/injuries_ledger.md` (`INJ-TP-002`, `INJ-BC-001`, `INJ-CT-001`), `worldbuilding/artifacts/artifacts_ledger.md` (`ART-SAM-THI-001`, đoản côn bị mẻ khâu sắt), `plot/timeline.md` (mốc 1191-08-18 hoàng hôn đến đêm), `plot/promises_tracker.md` (`TH-001`, `TH-008`, `TH-009`).
       6. Kết quả kiểm thử tự động: `python scripts/lore-guard.py --scan` PASS 47/47 tệp; `npm run lint:prose` PASS 15/15 chương (0 lỗi); `npm run gate:check` PASS 100% (cả Gate Guard và Temporal Guard).
 
   - **Đợt 6: Chương 06 — *Hộ Đê Cứu Nạn***: **HOÀN THÀNH 100%**.
@@ -168,21 +174,40 @@
 
 ## 2. Nhiệm vụ hiện tại (Current Active Gate)
 
-- **HOÀN TẤT CHIẾN DỊCH KIỂM TOÁN CANON 15/15 CHƯƠNG BẢN THẢO HIỆN HÀNH (ĐỢT 1 ĐẾN ĐỢT 11)**:
-  - Toàn bộ 15 tệp bản thảo chương (`chapter_01.md` đến `chapter_11.md`, gồm 4 chương phân tách a/b) đã được đối soát, chỉnh sửa đồng bộ tuyệt đối với hệ thống 6 Trụ Cột.
-  - Ba bộ kiểm thử tự động đạt trạng thái hoàn hảo:
-    + `python scripts/lore-guard.py --scan`: PASS 47/47 tệp (0 lỗi).
-    + `npm run gate:check`: PASS 100% (Gate Guard 15 chương + Temporal Guard).
-    + `npm run lint:prose`: PASS 15/15 chương (0 lỗi).
-- **SẴN SÀNG KHỞI ĐỘNG CHƯƠNG TIẾP THEO: CHƯƠNG 12 (*BẦU RƯỢU BIỆT LY*)**:
+- **HOÀN TẤT CHIẾN DỊCH AUDIT & REVISION TOÀN DIỆN 3 ĐỢT (14 CHƯƠNG TOÀN REPO)**:
+  - Tuyệt đối tuân thủ kỷ luật của Tác giả (không ăn xổi, đọc từng dòng, sửa từng chữ):
+    + **ĐỢT 1 (Tuyến Tiêu Phùng — 5 chương: Ch.01, 04a, 04b, 06, 09):** Đã xóa bỏ 15 lỗi (khử rò rỉ meta "ở Chương 01", khử rò rỉ niên biểu chéo nhánh, sửa lỗi phả hệ bối phận Thẩm Hà Diệp là tỷ tỷ, 2 head-hopping, 6 bold markdown, 3 trailer cadence).
+    + **ĐỢT 2 (Tuyến Tĩnh Xuyên — 5 chương: Ch.02a, 02b, 07a, 07b, 10):** Đã xóa bỏ 5 lỗi (khử 2 bold markdown, 3 trailer cadence kết chương, 1 khung thuyết minh danh tính Dương Anh thừa thãi).
+    + **ĐỢT 3 (Tuyến Hạ Nương — 4 chương: Ch.03, 08a, 08b, 11):** Đã xóa bỏ 20 lỗi (khử 10 bold markdown rác game quest, 3 rò rỉ mã hóa sổ cái ledger `L1`/`INJ-TY-001`/`INJ-LTT-001`, 1 head-hopping Lệ Thu Thủy, 6 từ ngữ hiện đại hóa Tây y/quân sự như `bức xạ`, `phản xạ bản năng`, `thần kinh trung ương`, `phế nang`, `than hoạt tính`, `cấp độ một`, và 2 trailer cadence kết chương).
+  - Kết quả kiểm thử tự động toàn diện:
+    + `npm run lint:prose`: PASS 100% (15/15 chương đạt chuẩn dải vàng, 0 leaks, 0 scaffolding).
+    + `python scripts/lore-guard.py --scan`: PASS 100% (47/47 tệp sạch bóng vi phạm).
+    + `npm run gate:check`: PASS 100% (15/15 chương vượt qua Hard Stop 1-2-3, Temporal Guard Rule TC-1 đạt chuẩn).
+  - Đã lập Báo cáo chi tiết Before/After tại [walkthrough.md](file:///C:/Users/Administrator/.gemini/antigravity-ide/brain/fa116324-ef92-4010-a457-7d5eca787fb0/walkthrough.md).
+
+- **TÁI THIẾT HỆ THỐNG THẨM MỸ VĂN CHƯƠNG & BẢO VỆ CÁ TÍNH SÁNG TẠO ĐỘC BẢN THEO CHUẨN SOLID (HOÀN TẤT 100%)**:
+  - **Tôn chỉ nghệ thuật Tác giả**: Học tập cấu trúc, chiều sâu và tính chân thực của Kim Dung nhưng tuyệt đối **không copy rập khuôn** nhân vật hay biến tác phẩm thành bản sao khô cứng. Giải phóng tối đa cá tính sáng tạo độc bản theo Hiến chương Sáng tác (`creative-constitution.md`) và Style Bible (`style-bible.md`).
+  - **5 Trụ cột nâng cấp đã triển khai hoàn tất**:
+    1. *Tài liệu thẩm mỹ & Khẩu khí độc bản*: Ban hành [`worldbuilding/style/author_wuxia_rubric.md`](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/worldbuilding/style/author_wuxia_rubric.md) (7 tiêu chí kết hợp Kim Dung 65% + Độc bản Tác giả 35%) và [`worldbuilding/style/dialogue_register_matrix.md`](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/worldbuilding/style/dialogue_register_matrix.md) (chuẩn hóa khẩu khí Trio: Tiêu Phùng bắng nhắng/tự trào, Tĩnh Xuyên kỷ luật sa trường, Hạ Nương duy lý y học; bảo hộ công thức 65-25-10 Mo Lei Tau / Gintama).
+    2. *Nâng cấp Linter bảo vệ thoại*: Cập nhật `scripts/meta-leakage-scanner.py`, tách bạch Lời dẫn (Narrator Text) vs Lời thoại (`“...”`). Bổ sung lọc sạch cụm từ tiên hiệp (`uy áp`, `chân khí sôi trào`) và văn dịch convert thô (`hít sâu một hơi`). Đã thanh lọc dứt điểm 5 vị trí tại Ch.02a, 02b, 04a, 04b, 11.
+    3. *Grounding Engine chống bịa fact*: Xây dựng mới `scripts/lore-grounder.py`, đối soát 100% thực thể xuất hiện với SQLite và sổ cái theo Closed-World Assumption, tích hợp thẳng vào `scripts/gate-guard.py`.
+    4. *Giao thức Review Đối kháng (Adversarial Red-Team Protocol)*: Nâng cấp `05-review.md`, `templates/review-report.md`, `docs/WORKFLOW.md` và bổ sung **Mandatory Rule 6** vào `GEMINI.md`. Cưỡng chế trích xuất tối thiểu 4 spans nguyên bản kèm số dòng cụ thể, bài trừ triệt để ảo tưởng tự khen và review cơ học.
+    5. *Kiểm thử tự động toàn diện*:
+       - `npm run lint:prose`: PASS 15/15 chương (0 rò rỉ meta, 0 từ cấm tiên hiệp/convert).
+       - `python scripts/lore-guard.py --scan`: PASS 47/47 tệp (0 lỗi lore/phả hệ).
+       - `npm run gate:check`: PASS 100% (15/15 chương, Gate Guard + Lore Grounder + Temporal Guard).
+
+- **SẴN SÀNG CHO MỤC TIÊU TIẾP THEO: KHỞI ĐỘNG CHƯƠNG 12 (*BẦU RƯỢU BIỆT LY*)**:
   - Tuyến POV: **Tiêu Phùng** (17 tuổi — Road Vignette / Ba Lăng Huyện bến đò Động Đình).
+  - Khẩu khí POV: Phát huy tối đa chất bắng nhắng, tinh quái, tự trào giang hồ bến bãi, châm biếm đạo mạo, tình nghĩa thầm kín với Thu Di và Điềm Tửu Thúc.
   - Provenance: `Task 0: Subtask 130` & `Task 157: Subtask 133` (Xuất Sư Ba Lăng, Bầu Rượu Nếp Tiễn Biệt, Lên Đường Sang Cái Bang Yến Tử Ổ).
-  - Tuân thủ Kỷ luật 3 Cổng Dừng Cứng: Bắt đầu từ **Cổng Dừng 1 (Pre-Draft Hard Stop)** — Soạn thảo `briefs/chapter_12_brief.md` theo mẫu `templates/chapter-brief.md`.
+  - Kỷ luật 3 Cổng Dừng Cứng: Bắt đầu từ **Cổng Dừng 1 (Pre-Draft Hard Stop)** — Soạn thảo `briefs/chapter_12_brief.md` theo mẫu `templates/chapter-brief.md`.
 
 ## 3. Gợi ý hành động cho Tác giả (Suggested Next Step)
 
-Tác giả xem xét báo cáo hoàn tất Đợt 11 và toàn bộ chiến dịch kiểm toán 15 chương, sau đó ra lệnh:
-👉 **`"khởi động chương 12"`** (hoặc **`"làm brief chương 12"`**) để Agent soạn thảo `briefs/chapter_12_brief.md` trình Tác giả duyệt Cổng Dừng 1!
+Tác giả xem xét báo cáo hoàn tất nâng cấp toàn diện hệ thống workflow theo chuẩn SOLID, sau đó ra lệnh:
+👉 **`"khởi động chương 12"`** (hoặc **`"làm brief chương 12"`**) để Agent lập tức bắt tay vào soạn thảo `briefs/chapter_12_brief.md` trình Tác giả phê duyệt Cổng Dừng 1!
+
 
 
 

@@ -294,4 +294,4 @@ Bóng chiếc xuồng nhỏ dần tan biến vào màn đêm bao la của mặt 
 
 Tĩnh Xuyên đưa tay tháo chiếc mặt nạ sắt ra khỏi mặt. Một luồng gió đêm mát rượi thổi qua làn tóc ướt đẫm mồ hôi, xua tan cái nóng hầm hập tích tụ suốt một ngày huyết chiến. Chàng cắm ngập mũi thương Bát Hàn xuống bãi cát ướt, ngước mắt nhìn lên vầng trăng rằm tháng Tám vừa nhô lên khỏi rặng núi Hình Thiên Lĩnh phía xa.
 
-Mặt nước Động Đình lấp loáng ánh bạc, phẳng lặng như gương. Song Tĩnh Xuyên biết rất rõ, đằng sau sự tĩnh lặng ấy, những đợt sóng ngầm hung bạo hơn của triều đình và giang hồ đang cuồn cuộn thành hình, chực chờ đổ ụp xuống hòn đảo nhỏ này.
+Mặt nước Động Đình lấp loáng ánh bạc, tiếng sóng vỗ ì oạp vào mạn đá trong đêm vắng. Gió thu từ phương bắc thổi về lành lạnh, lướt qua vạt áo giáp sắt còn vương mùi lưu huỳnh và mồ hôi chiến trận.

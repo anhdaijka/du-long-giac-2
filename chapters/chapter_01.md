@@ -102,7 +102,7 @@ Thanh gậy gỗ nằm chơ vơ giữa những đống phôi sắt và kìm búa
 
 Điềm Tửu Thúc nhìn chằm chằm vào Tiêu Phùng. 
 
-Lửa lò bễ hắt lên khuôn mặt góc cạnh của chàng thiếu niên mười bảy tuổi những mảng sáng tối chập chờn. Trong đôi mắt phẳng lặng như mặt hồ không gió kia, lão thợ rèn già dường như không nhìn thấy sự hung hãn bốc đồng của những đứa trẻ mới lớn muốn cầm đao chém giết để xưng hùng xưng bá; lão chỉ nhìn thấy một sự lỳ lợm, một bản năng tự vệ kiên cố và thận trọng đến mức đáng sợ của một sinh linh lớn lên từ bùn lầy hoang dã.
+Lửa lò bễ hắt lên khuôn mặt góc cạnh của chàng thiếu niên mười bảy tuổi những mảng sáng tối chập chờn. Đôi mắt ti hí của lão thợ rèn già nheo lại, gườm gườm rà soát từ vầng trán lấm lem muội than xuống đến bàn tay đang ghì chặt mép đe sắt của Tiêu Phùng. Lão không vội mở miệng, chỉ đứng im lìm như một pho tượng đá giữa tiếng than nổ lép bép, ngón tay cái thô ráp miết mạnh lên lớp sáp ong nâu bóng của vò rượu nếp.
 
 "Không muốn đao, không muốn kiếm?" Lão hỏi gằn từng tiếng. "Đao chém đứt đầu, kiếm đâm thủng họng. Giang hồ là nơi chém giết đổ máu, mày cầm cái que gỗ này định đi đánh chuột đồng hay xua chó cắn áo rách?"
 
@@ -140,7 +140,7 @@ Trại nghĩa quân Ba Lăng không có hào sâu tường cao như các quân d
 
 Ở gian nhà giữa lợp lá cọ rộng nhất, ánh đèn dầu leo lét hắt qua khung cửa sổ để mở. 
 
-Bạch Thu Lâm — Thủ lĩnh Nghĩa Quân Ba Lăng, người mà Tiêu Phùng vẫn gọi bằng hai tiếng "Thu Di" suốt mười bảy năm qua — ngồi lặng lẽ dưới bóng nến lay lắt.
+Bạch Thu Lâm ngồi lặng lẽ dưới bóng nến lay lắt, vạt áo xanh ngọc buông rủ bên mép bàn gỗ gụ.
 
 "Về rồi đấy à?"
 
@@ -152,7 +152,7 @@ Tiêu Phùng bước khẽ vào ngạch cửa, đặt giỏ cá trê xuống gó
 
 Bạch Thu Lâm đặt chiếc bút lông xuống giá ngọc, ngước nhìn chàng thiếu niên đang đứng co ro trước cửa. Ánh mắt nàng chậm rãi lướt từ hai ống quần ướt sũng bùn đất, dừng lại nơi vạt áo trước ngực còn vương mùi men nếp thơm ngát, rồi chuyển sang thanh đoản côn sắt non đang lấp ló dưới tay áo chàng.
 
-Nàng không mắng mắng, chỉ thở dài một tiếng thật khẽ, tựa như tiếng gió lướt qua bãi sậy đêm khuya:
+Nàng không mắng mỏ, chỉ thở dài một tiếng thật khẽ, tựa như tiếng gió lướt qua bãi sậy đêm khuya:
 
 "Vò rượu 'Thu Phân' của tỷ... ngon không?"
 
@@ -182,7 +182,7 @@ Nàng siết chặt hai bờ vai gầy nhưng cứng cỏi của Tiêu Phùng, g
 
 Thu Di buông tay ra, quay lưng về phía bàn thờ tổ phụ nghĩa quân, nơi có một ngọn đèn trường minh đang cháy leo lét:
 
-"Vừa rồi trinh sát từ phía Tây Nam báo về, ngọc Du Long Giác sau ba mươi năm bặt tăm đã xuất hiện trở lại ở Đại Lý Thúy Yên Môn. Mật thám Ô Sơ Sa của Kim quốc cùng cao thủ Thiên Nhẫn Giáo và mật thám triều đình đang rầm rộ kéo về phía nam. Ba Lăng Huyện này sắp không còn là nơi thanh bình được nữa rồi."
+"Vừa rồi trinh sát các bến đò báo về, mật thám Ô Sơ Sa của Kim quốc cùng cao thủ Thiên Nhẫn Giáo và thám mã lạ mặt đang rầm rộ kéo về hướng Động Đình Hồ. Bến sông Hán Thủy mấy hôm nay sóng ngầm cuộn trào, thuyền buôn phương Bắc đều bị chặn giữ. Ba Lăng Huyện này sắp không còn là nơi thanh bình được nữa rồi."
 
 Nàng quay lại nhìn thanh đoản côn bọc sắt non bên hông Tiêu Phùng, ánh mắt phức tạp:
 

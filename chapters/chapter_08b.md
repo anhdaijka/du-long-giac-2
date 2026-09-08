@@ -29,7 +29,7 @@ Trước mặt họ, cấm địa Bách Hoa Trận khép lại thành một vòm
 
 Lệ Thu Thủy không hề ngoái đầu lại. Dải lụa lam viền quanh vạt áo cựu Chưởng môn ướt sũng hơi sương, dán chặt vào tấm lưng mảnh khảnh nhưng cứng đờ như sắt nguội. Thanh Phù Vân Kiếm trong tay phải bà chúc mũi xuống đất, lưỡi kiếm thép xanh lè thỉnh thoảng quét ngang qua những cành cây chìa ra lối mòn, cắt ngọt xớt từng chùm hoa đỏ sẫm rơi lả tả xuống bùn.
 
-"Sư bá, chậm lại một nhịp," Hạ Nương hạ giọng, hơi thở phả ra thành luồng khói trắng mỏng tang. "Khí lam độc trong thung lũng này ngưng tụ ở tầng sát mặt đất. Đi quá gấp, phế nang hít phải độc hoa đỗ quyên sẽ khiến lồng ngực co thắt."
+"Sư bá, chậm lại một nhịp," Hạ Nương hạ giọng, hơi thở phả ra thành luồng khói trắng mỏng tang. "Khí lam độc trong thung lũng này ngưng tụ ở tầng sát mặt đất. Đi quá gấp, phế tạng hít phải độc hoa đỗ quyên sẽ khiến lồng ngực co thắt."
 
 Lệ Thu Thủy khựng bước, nhưng thanh kiếm trên tay không hề hạ xuống. Ánh mắt bà quắc lên trong bóng đêm, quét qua những thân cây rậm rạp:
 
@@ -109,7 +109,7 @@ Nhưng đối phương quá lão luyện nơi sa trường. Gã áo đỏ xoay n
 
 *Phập!*
 
-Lưỡi đao sắc bén chém rách toạc lớp váy lụa lam, xé đứt một mảng cơ đùi ngoài của nữ đệ tử họ Bành. Máu đỏ bắn tung tóe lên vách đá. Nàng rú lên một tiếng đau đớn, khuỵu gối ngã sụp xuống rãnh nước, thanh kiếm tuột khỏi tay (`INJ-TY-001` L2).
+Lưỡi đao sắc bén chém rách toạc lớp váy lụa lam, xé đứt một mảng cơ đùi ngoài của nữ đệ tử họ Bành. Máu đỏ bắn tung tóe lên vách đá. Nàng rú lên một tiếng đau đớn, khuỵu gối ngã sụp xuống rãnh nước, thanh kiếm tuột khỏi tay.
 
 "Chết đi, con ả Nam Man!" Tên Hồng Y gầm gừ bằng thứ tiếng Hán lơ lớ, vung đao bổ thẳng xuống đỉnh đầu nữ đệ tử đang nằm dưới đất.
 
@@ -197,7 +197,7 @@ Lệ Thu Thủy vội vã thu kiếm chặn ngang trước ngực để triệt 
 
 *Khục!*
 
-Một vệt máu đỏ tươi trào ra nơi khóe môi cựu Chưởng môn (`INJ-LTT-001` L1). Sắc mặt bà tái nhợt đi, lồng ngực phập phồng dữ dội vì khí huyết nghịch hành lên kinh Thái Dương.
+Một vệt máu đỏ tươi trào ra nơi khóe môi cựu Chưởng môn. Sắc mặt bà tái nhợt đi, lồng ngực phập phồng dữ dội vì khí huyết nghịch hành lên kinh Thái Dương.
 
 Hai tên cận vệ áo tím lập tức rút đoản phủ lao vào bọc sườn, vây chặt Lệ Thu Thủy vào thế gọng kìm.
 
@@ -269,7 +269,7 @@ Trên mu bàn tay và cánh tay nàng, toàn bộ lông tơ dựng đứng cả 
 
 Dưới đáy rương sắt, nằm trên một lớp cát thạch anh mịn màng, là một khối ngọc dài chừng một thước, uốn lượn hình sừng rồng. Khối ngọc không trong suốt mà mang màu đỏ sẫm như huyết khối đông tụ ngàn năm, bên trong chập chờn những đường vân phát sáng như những mạch máu đang phập phồng co bóp.
 
-Bảo vật trấn môn, hung ngọc đoạt mệnh — **Du Long Giác**.
+Bảo vật trấn môn, hung ngọc đoạt mệnh — Du Long Giác.
 
 ---
 
@@ -295,7 +295,7 @@ Hạ Nương đứng trên miệng hố, nghe rõ từng âm tiết nghẹn đ�
 
 Nhưng Hạ Nương không có thời gian để suy ngẫm. 
 
-Nàng nhìn thấy sắc mặt Lệ Thu Thủy đang chuyển từ tái nhợt sang tím ngắt, đồng tử bà giãn ra, nhịp thở ngắt quãng — những dấu hiệu điển hình của việc cơ thể bị ngộ độc từ trường bức xạ cực mạnh từ khối thiên thạch.
+Nàng nhìn thấy sắc mặt Lệ Thu Thủy đang chuyển từ tái nhợt sang tím ngắt, đồng tử bà giãn ra, nhịp thở ngắt quãng — dấu hiệu điển hình của việc cơ thể bị luồng hàn khí ma quái từ khối thiên thạch xâm lấn tâm phế.
 
 Hạ Nương vội vã nhảy xuống hố. Nàng rút ra hai tấm vải gạc bằng lụa thô tẩm dầu trẩu bọc kín khối Du Long Giác lại ba lớp, ngăn chặn ánh huyết quang đỏ thẫm chiếu thẳng vào mắt người ôm:
 
@@ -373,6 +373,6 @@ Một quả cầu lửa màu tím biếc vút thẳng lên không trung, lao vú
 
 Tiếng nổ kinh thiên động địa vang dội khắp bốn bề vách núi Điểm Thương Sơn. Chùm pháo hoa hiệu lệnh nổ tung, xé toạc màn đêm thành ngàn vạn tia lửa màu xanh biếc rực rỡ, chiếu rọi toàn bộ vùng hồ Điền Trì sáng rực như ban ngày.
 
-Tiếng chuông đồng báo động từ khắp các viện đệ tử Thúy Yên Môn đồng loạt dồn dập ngân vang.
+Tiếng chuông đồng báo động từ khắp các viện đệ tử Thúy Yên Môn đồng loạt dồn dập ngân vang, hòa cùng tiếng hò hét rợn người của toán người phương Bắc ngoài bìa rừng.
 
-Ngọn lửa chiến tranh đã chính thức bốc cháy.
+Hạ Nương siết chặt quai da của chiếc hòm thuốc bên hông, đưa tay rút nhanh xấp vải gạc cùng ống ngân châm cuối cùng giắt lại vào thắt lưng, bước vội theo gót Chưởng môn ra tiền điện.

@@ -117,9 +117,7 @@ Lời Doãn Hàm Yên vừa dứt, bức rèm trúc ngăn cách hoa viên phía 
 
 Một bóng người từ từ bước vào hậu đình. 
 
-Người vừa bước vào mang vóc dáng một phụ nhân tuổi chừng ngoài tứ tuần, khoác chiếc chiến bào lụa màu lam viền đen đã sờn rách ở gấu áo. Dáng người bà thanh mảnh nhưng toát ra một luồng kình khí sắc lạnh như băng tuyết ngàn năm, hai thanh đoản kiếm vỏ xà cừ đeo chéo sau lưng khẽ rung lên theo từng bước chân. Song, điều khiến Hạ Nương giật mình đập vào mắt lại nằm ở gương mặt của bà: hốc mắt sâu hoắm, gò má nhô cao gầy guộc, đôi môi nứt nẻ nhợt nhạt không một vệt huyết sắc. Đôi mắt ấy không có vẻ uy nghiêm ngạo nghễ của vị minh chủ từng thống soái Thúy Yên Môn, mà chỉ ngập tràn một nỗi thống khổ tột cùng, như một ngọn lửa tàn đang cố bấu víu vào chút hơi ấm mong manh cuối cùng của dĩ vãng.
-
-Bậc tiền bối ấy không ai khác ngoài Tiền Chưởng môn Lệ Thu Thủy.
+Người vừa bước vào mang vóc dáng một phụ nhân tuổi chừng ngoài tứ tuần, khoác chiếc chiến bào lụa màu lam viền đen đã sờn rách ở gấu áo. Dáng người bà thanh mảnh nhưng toát ra một luồng kình khí sắc lạnh như băng tuyết ngàn năm, hai thanh đoản kiếm vỏ xà cừ đeo chéo sau lưng khẽ rung lên theo từng bước chân. Song, điều khiến Hạ Nương giật mình đập vào mắt lại nằm ở gương mặt của bà: hốc mắt sâu hoắm, gò má nhô cao gầy guộc, đôi môi nứt nẻ nhợt nhạt không một vệt huyết sắc. Đôi mắt ấy từng mang vẻ uy nghiêm lẫm liệt của vị tiền chưởng môn từng thống soái Thúy Yên Môn, nay chỉ ngập tràn nỗi u uất tột cùng, tựa ngọn lửa tàn đang cố bấu víu vào chút hơi ấm mong manh của dĩ vãng.
 
 Đi ngay phía sau bà là một lão nhân vóc dáng gầy gò, khoác chiếc áo vải thô màu xám tro chắp vá chằng chịt, râu tóc rối bời như tổ quạ bết dính bụi đường. Trước ngực lão đeo một chiếc túi vải cũ kỹ thêu hình đồ hình bát quái đã phai màu, tay trái cắp một chiếc la bàn bằng đồng thau nặng trịch to bằng miệng bát ăn cơm. Vành la bàn đúc nổi hai mươi bốn phương vị thiên can địa chi, mặt đồng ố xanh rỉ sét nhưng cây kim nam châm ở giữa lại sáng loáng, đang xoay tròn chao đảo không ngừng như một sinh vật sống bị giam cầm.
 
@@ -179,11 +177,11 @@ Khoảnh khắc đầu ngón tay chạm vào vành đồng lạnh ngắt, một 
 
 Bốn đại hoa viên của Thúy Yên Môn trải rộng trên một diện tích hàng trăm mẫu đất rừng, men theo bờ phía tây hồ Điền Trì tạo thành một thế trận hình cánh cung khép kín bảo bọc Bách Hoa Cốc.
 
-Theo thứ tự chỉ dẫn của Ma Y Thần Tướng, Hạ Nương dẫn đầu toán đệ tử tiến vào **Xuân Hoa Viên** đầu tiên. 
+Theo thứ tự chỉ dẫn của Ma Y Thần Tướng, Hạ Nương dẫn đầu toán đệ tử tiến vào Xuân Hoa Viên đầu tiên. 
 
 Nơi đây ngập tràn những rặng mai trắng và đỗ quyên đỏ thắm. Đứng trên mỏm đá Xuân Mai Đài, Hạ Nương đặt chiếc la bàn lên mặt phiến đá bằng phẳng, nín thở chờ cho cây kim sắt định vị. Gió từ mặt hồ thổi tạt qua vạt áo lam, mang theo hương hoa ngạt ngào. Cây kim rung rinh một hồi rồi dừng lại ở góc ba mươi lăm độ về hướng Đông Bắc, chếch thẳng vào rặng mai cổ thụ. Hạ Nương rút cây bút lông nhỏ tẩm chu sa đỏ trong túi thuốc, chấm một điểm chuẩn xác lên tờ giấy tuyên thành nàng mang theo bên mình.
 
-Tiếp đó, đoàn người băng qua chiếc cầu treo dây mây vắt vẻo qua khe suối để tiến sang **Hạ Hoa Viên**.
+Tiếp đó, đoàn người băng qua chiếc cầu treo dây mây vắt vẻo qua khe suối để tiến sang Hạ Hoa Viên.
 
 Càng đi sâu vào Hạ Hoa Viên, không gian càng trở nên ẩm thấp và rậm rạp. Cỏ dại mọc cao lút đầu gối, những tán cây cổ thụ sum suê che khuất ánh mặt trời khiến cả khu vườn chìm trong làn sương mù xanh xám mờ ảo. Mùi ẩm mốc của lá mục nồng nặc xộc vào mũi, xen lẫn mùi tanh nồng quen thuộc của loài thú ăn thịt. 
 
@@ -201,9 +199,9 @@ Nàng nhìn quanh chiếc đình bỏ hoang. Đất quanh chân cột đá bị 
 
 Hạ Nương nén mối nghi hoặc trong lòng, đặt la bàn lên bệ đá đình hóng mát. Cây kim sắt rung chuyển dữ dội hơn hẳn ở Xuân Hoa Viên, xoay tròn hai vòng rồi chỉ lệch về góc một trăm hai mươi độ hướng Đông Nam. Nàng nhanh chóng dùng chu sa chấm điểm thứ hai lên bản vẽ.
 
-Điểm đo thứ ba là **Thu Hoa Viên** — nơi tọa lạc của Thu Sương Các, nơi môn phái thường dùng làm kho chứa tơ lụa và thảo dược sấy khô vào mùa thu. Cây kim la bàn chỉ về góc hai trăm mười độ hướng Tây Nam.
+Điểm đo thứ ba là Thu Hoa Viên — nơi tọa lạc của Thu Sương Các, nơi môn phái thường dùng làm kho chứa tơ lụa và thảo dược sấy khô vào mùa thu. Cây kim la bàn chỉ về góc hai trăm mười độ hướng Tây Nam.
 
-Cuối cùng, đoàn người men theo vách đá dựng đứng phủ đầy băng tuyết vĩnh cửu để leo lên đài quan sát của **Đông Hoa Viên**.
+Cuối cùng, đoàn người men theo vách đá dựng đứng phủ đầy băng tuyết vĩnh cửu để leo lên đài quan sát của Đông Hoa Viên.
 
 Nơi đây gió bấc gầm rít liên hồi, tuyết lạnh thốc vào mặt rát buốt. Dưới chân vách đá là vực thẳm sâu hun hút, mây mù cuồn cuộn như biển sóng. Hạ Nương đặt la bàn lên mặt tảng đá phủ băng. Lần này, cây kim nam châm rung lên từng chập điên cuồng, xoay tít không ngừng nghỉ trước khi giật mạnh một cái, mũi kim dừng chết ở góc ba trăm độ hướng Tây Bắc.
 
@@ -213,7 +211,7 @@ Hạ Nương rút chiếc thước dây bằng da cừu trong tráp thuốc, n�
 
 Giao điểm của bốn góc hoa viên không nằm ở bất kỳ gian phòng hay kho tàng nào của Thúy Yên Môn. 
 
-Nó rơi chuẩn xác vào trung tâm **Bách Hoa Trận** — cấm địa hiểm trở nhất của môn phái, nơi sương độc ngàn năm không tan, nơi đặt trận pháp cơ quan cấm kỵ mà môn quy nghiêm cấm đệ tử bén mảng tới nếu không có lệnh bài Chưởng môn!
+Nó rơi chuẩn xác vào trung tâm Bách Hoa Trận — cấm địa hiểm trở nhất của môn phái, nơi sương độc ngàn năm không tan, nơi đặt trận pháp cơ quan cấm kỵ mà môn quy nghiêm cấm đệ tử bén mảng tới nếu không có lệnh bài Chưởng môn!
 
 "Sư tỷ... Chỗ đó... chẳng phải là lối vào Thạch Thất trung tâm Bách Hoa Trận sao?" Một nữ đệ tử run rẩy chỉ tay vào tâm điểm tờ giấy. "Nơi đó quanh năm bầy sói xám Điểm Thương tụ tập đông nhất, nghe bảo dưới lòng đất có cơ quan cung nỏ và hầm chông cổ xưa..."
 

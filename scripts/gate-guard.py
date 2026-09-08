@@ -58,11 +58,16 @@ def check_gates():
                 else:
                     print(f"  [PASS] Hard Stop 1 (Brief approved): {brief_file}")
 
-        # Check 2: Review report existence
+        # Check 2: Review report existence & 5-Gate runner validation
         if not os.path.exists(review_file):
             errors.append(f"[GATE-FAIL] Chapter {ch_str} has manuscript ({cf}) but MISSING Review Report ({review_file})!")
         else:
-            print(f"  [PASS] Hard Stop 2 (Review report exists): {review_file}")
+            with open(review_file, "r", encoding="utf-8") as rf:
+                rev_content = rf.read()
+                if "Gate A" not in rev_content or "Gate D" not in rev_content:
+                    errors.append(f"[GATE-FAIL] Review Report ({review_file}) is incomplete! Missing 5-Gate Review Runner structure.")
+                else:
+                    print(f"  [PASS] Hard Stop 2 (Review report verified): {review_file}")
 
         # Check 3: Supporting Cast Protocol in Canon Diff (4-Pillar State Commitment Protocol)
         diff_file = os.path.join(REVISIONS_DIR, f"chapter_{ch_str}_canon_diff.md")
@@ -84,7 +89,7 @@ def check_gates():
 
     print("\n[GATE-GUARD PASS] All chapter manuscripts comply strictly with Novel-OS Hard-Stop Gates!")
     
-    # Run Lore Guard check
+    # Run Lore Guard scan
     print("\n--- Running Programmatic Lore Guard Scan ---")
     try:
         import subprocess
@@ -94,6 +99,17 @@ def check_gates():
             return 1
     except Exception as e:
         print(f"[GATE-GUARD WARNING] Could not run lore-guard: {e}")
+
+    # Run Lore Grounder check
+    print("\n--- Running Programmatic Lore Grounder Check ---")
+    try:
+        import subprocess
+        grounder_res = subprocess.run([sys.executable, "scripts/lore-grounder.py", "--all"], capture_output=False)
+        if grounder_res.returncode != 0:
+            print("\n[GATE-GUARD FAILED] Lore Grounder detected critical grounding errors!")
+            return 1
+    except Exception as e:
+        print(f"[GATE-GUARD WARNING] Could not run lore-grounder: {e}")
 
     return 0
 

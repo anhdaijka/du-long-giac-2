@@ -79,7 +79,7 @@ Chàng đưa đầu bịt sắt non của cây đoản côn cạy mạnh vào đ
 
 Tiêu Phùng chớp mắt, quỳ rạp xuống đất, dùng ngón tay bới tung lớp bùn đất nhão nhoét. 
 
-Một chiếc chìa khóa cổ dài chừng nửa gang tay lộ ra, đúc bằng **bạch đồng** lấp lánh ánh kim xám bạc, tuyệt nhiên không hề bị rỉ sét dù ngâm trong nước bùn hôi thối. Phần tay cầm của chìa khóa được chạm trổ hoa văn mây xoắn uốn lượn cực kỳ tinh xảo, chính giữa mắt mây khoét một lỗ tròn nhỏ tựa như con mắt của loài quạ đen săn mồi.
+Một chiếc chìa khóa cổ dài chừng nửa gang tay lộ ra, đúc bằng bạch đồng lấp lánh ánh kim xám bạc, tuyệt nhiên không hề bị rỉ sét dù ngâm trong nước bùn hôi thối. Phần tay cầm của chìa khóa được chạm trổ hoa văn mây xoắn uốn lượn cực kỳ tinh xảo, chính giữa mắt mây khoét một lỗ tròn nhỏ tựa như con mắt của loài quạ đen săn mồi.
 
 "Ơ kìa... Đồ chơi này coi bộ được giá đấy." Tiêu Phùng lẩm bẩm, dùng vạt áo lau sạch bùn đất trên thân chìa khóa. 
 
@@ -97,9 +97,9 @@ Dưới ánh sáng leo lét của ngọn đèn dầu lạc trên vách đá, bê
 
 Thứ nhất là một mảnh vải tã lót bằng gấm xám rách bươm, viền thêu chỉ bạc đã sờn rách, trên mặt vải loang lổ những vệt màu nâu sẫm khô cứng — mùi máu tanh nồng cổ xưa dù trải qua mười bảy năm phong kín vẫn phảng phất bốc lên cay xè sống mũi.
 
-Thứ hai là một **chiếc khánh bạc nhỏ** cỡ nửa lòng bàn tay, loại đồ chơi bằng bạc mà các gia đình quyền quý hay đeo trước ngực trẻ con sơ sinh để kỵ gió xua tà. Mặt bạc đã xỉn màu xám đen, nhưng những nét khắc chìm trên mặt trước vẫn sắc lẹm, rõ mồn một ba chữ Hán:
+Thứ hai là một chiếc khánh bạc nhỏ cỡ nửa lòng bàn tay, loại đồ chơi bằng bạc mà các gia đình quyền quý hay đeo trước ngực trẻ con sơ sinh để kỵ gió xua tà. Mặt bạc đã xỉn màu xám đen, nhưng những nét khắc chìm trên mặt trước vẫn sắc lẹm, rõ mồn một ba chữ Hán:
 
-**"Tiêu Phùng (簫逢) — Thuần Hi nguyên niên"**.
+"Tiêu Phùng (簫逢) — Thuần Hi nguyên niên".
 
 Mặt sau chiếc khánh chạm nổi đồ hình Bát Quái âm dương bao bọc lấy một ngọn lửa rực cháy hướng thẳng lên trời.
 
@@ -133,7 +133,7 @@ Người cha mà chàng chưa từng một lần thấy mặt không phải là 
 
 "Này! Thằng nhóc bãi sậy dưới hầm chết dí ở dưới đấy rồi à?" Tiếng quát the thé của Tạ Hiền từ miệng hầm dội xuống cắt đứt luồng suy nghĩ hỗn loạn của Tiêu Phùng. "Có tìm được sổ nợ không thì bảo? Mau mang lên đây không lão tử khóa cửa hầm nhốt sống bây giờ!"
 
-Tiêu Phùng giật mình tỉnh táo lại. Chàng hít sâu một hơi nén chặt nỗi run rẩy trong cuống họng, nhanh tay nhét phong thư và chiếc khánh bạc vào tận đáy ngực áo, áp sát vào lồng ngực trần nóng rực, rồi dùng vạt áo ngoài che kín lại. 
+Tiêu Phùng giật mình tỉnh táo lại. Chàng nuốt một ngụm khí lạnh nén chặt nỗi run rẩy trong cuống họng, nhanh tay nhét phong thư và chiếc khánh bạc vào tận đáy ngực áo, áp sát vào lồng ngực trần nóng rực, rồi dùng vạt áo ngoài che kín lại. 
 
 Chàng hiểu rõ tính tình con buôn lọc lõi của lão già họ Tạ. Nếu để lão nhìn thấy chiếc tráp cổ và bức thư dính máu này, lão nhất định sẽ giữ lại tống tiền hoặc báo quan sinh chuyện. 
 
@@ -154,7 +154,7 @@ Bàn tay phải của Tiêu Phùng thọc sâu vào ngực áo, nắm chặt l�
 
 Chàng nhớ lại những lời dặn dò úp mở của Thu Di mỗi lần chàng đòi theo đám nghĩa quân ra trận: *"Ngươi chưa đến lúc hành tẩu giang hồ... giang hồ hiểm ác hơn sông nước Động Đình vạn phần..."*
 
-Chàng nhớ lại ánh mắt thâm trầm của Điềm Tửu Thúc bên lò than rực lửa ở Chương 01, khi lão già cặm cụi bịt hai đầu ống sắt non vào khúc đoản côn gỗ nghiến cho chàng: *"Con đường sa trường không dễ đi đâu nhãi con..."*
+Chàng nhớ lại ánh mắt thâm trầm của Điềm Tửu Thúc bên lò than rực lửa đêm hôm nọ, khi lão già cặm cụi bịt hai đầu ống sắt non vào khúc đoản côn gỗ nghiến cho chàng: *"Con đường sa trường không dễ đi đâu nhãi con..."*
 
 Hóa ra mọi người đều biết! Cả cái huyện Ba Lăng này, những người lớn tuổi trong hàng ngũ Nghĩa quân đều biết chàng là ai, đều biết về tấn bi kịch đẫm máu ở bến đò Hán Thủy năm xưa, chỉ có duy nhất một mình chàng là kẻ ngu ngơ, biến mình thành trò cười cho thiên hạ bằng những trò bắng nhắng cợt nhả nơi bãi sậy!
 
@@ -237,7 +237,7 @@ Nàng thở ra một hơi dài cay đắng, bước vòng qua bàn cát, đặt 
 
 "Bình an vô sự?" Tiêu Phùng ngẩng phắt đầu lên, trong hốc mắt chàng ngấn lệ nhưng không hề rơi xuống, ngọn lửa uất hận sục sôi bốc cháy. "Đệ sống bình an trên xương máu của cha đệ sao? Cha đệ chết không toàn thây dưới đáy Hán Thủy, còn đệ thì ngày ngày ngậm cỏ lau trộm rượu làm thằng hề cho thiên hạ cười cợt sao?"
 
-Bạch Thu Lâm nghẹn ngào không thốt nên lời. Nàng biết, khoảnh khắc chiếc khánh bạc này lộ diện, số phận đã xé toạc tấm màn nhung êm đềm mà nàng dày công che chắn cho chàng thiếu niên suốt mười bảy năm qua.
+Bạch Thu Lâm nghẹn ngào không thốt nên lời. Bờ môi nàng run rẩy, ánh mắt đau đớn cụp xuống trước ánh nhìn rực lửa của chàng thiếu niên, bàn tay đặt trên vai Tiêu Phùng khẽ buông lỏng trong thinh lặng.
 
 *U... U... U...!*
 
@@ -273,8 +273,8 @@ Tiêu Phùng bước xộc tới, hai mắt đỏ ngầu, chàng giơ cao khúc 
 
 "Đệ đi cùng tỷ! Nhân chứng duy nhất của cha đệ đang ở ngoài kia, con trai của Tiêu Lăng Phong này tuyệt đối không trốn chui trốn nhủi trong xó bếp!"
 
-Bạch Thu Lâm nhìn sâu vào đôi mắt hừng hực lửa của chàng thiếu niên bãi sậy. Lần đầu tiên sau mười bảy năm, nàng không còn nhìn thấy bóng dáng của một thằng nhóc hay hờn dỗi trộm rượu nếp, mà nhìn thấy khí phách ngút trời của con mãnh hổ Ma Y Cốc năm xưa tái sinh trên mảnh đất Ba Lăng.
+Bạch Thu Lâm sững lại, nhìn sâu vào đôi mắt hừng hực ngọn lửa của chàng thiếu niên bãi sậy. Lần đầu tiên sau mười bảy năm, ánh mắt người nữ thủ lĩnh không còn nét nghiêm khắc của một người chị răn dạy đứa em ngỗ nghịch, mà rực lên sự kiên định và tin cậy của một chiến tướng nhìn thấy người đồng đội sa trường.
 
 Nàng gật đầu thật mạnh, mũi kiếm chém thẳng xuống không trung:
 
-"Lấy chiến mã cho Tiêu thiếu chủ! Xuất phát!"
+"Dắt thêm một con chiến mã! Xuất phát!"

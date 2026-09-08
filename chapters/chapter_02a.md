@@ -107,9 +107,9 @@ Một tiếng ho nhẹ vang lên từ phía sau bức rèm trúc thêu hoa văn 
 
 Bức rèm vén lên, hai bóng người thong thả bước ra.
 
-Đi phía trước là một phụ nữ tuổi ngoài lục tuần. Bà mặc một bộ võ phục màu xanh chàm mộc mạc, không mang giáp trụ, mái tóc hoa râm được búi gọn ghẽ bằng chiếc trâm cài bằng gỗ dâu rừng. Khuôn mặt bà in hằn những nếp nhăn của sương gió dặm trường, nhưng đôi mắt lại sáng quắc, sâu thẳm tựa như nước hồ Động Đình giữa tiết thu phân. Từng bước đi của bà nhẹ tênh trên mặt thảm, nhưng mang theo một luồng uy áp vô hình khiến toàn bộ chư tướng trong khoang thuyền đồng loạt nín thở.
+Đi phía trước là một phụ nữ tuổi ngoài lục tuần. Bà mặc một bộ võ phục màu xanh chàm mộc mạc, không mang giáp trụ, mái tóc hoa râm được búi gọn ghẽ bằng chiếc trâm cài bằng gỗ dâu rừng. Khuôn mặt bà in hằn những nếp nhăn của sương gió dặm trường, nhưng đôi mắt lại sáng quắc, sâu thẳm tựa như nước hồ Động Đình giữa tiết thu phân. Từng bước đi của bà nhẹ tênh trên mặt thảm, nhưng tỏa ra khí độ uy nghiêm trầm hùng khiến toàn bộ chư tướng trong khoang thuyền đồng loạt nín thở.
 
-Lão Bang chủ Dương Anh bước ra, nữ trung hào kiệt người mà giang hồ khắp hai miền Nam Bắc tôn kính xưng tụng bằng hai tiếng Anh Cô, ái nữ của thủ lĩnh nghĩa quân Dương Ma năm xưa.
+Lão Bang chủ Dương Anh — vị nữ trung hào kiệt mà nghĩa quân Động Đình tôn kính xưng tụng bằng hai tiếng Anh Cô, ái nữ của thủ lĩnh Dương Ma năm xưa — đã trở về.
 
 Theo sát sau lưng bà là một nam tử trung niên trạc ngoài bốn mươi tuổi, vóc người cao lớn, vai rộng lưng dài, khoác tấm áo choàng màu xám tro giản dị. Khuôn mặt chàng vuông vức, mày rậm như kiếm hoa, đôi mắt đen láy lộ vẻ cương nghị, đôn hậu nhưng ẩn chứa luồng tinh quang sắc lạnh. Bên hông chàng không đeo bội kiếm hay đơn đao thông thường, mà tay phải cầm ngang một ngọn trường thương bằng thép tinh luyện màu đen bóng, mũi thương bọc trong bao da hải cẩu. Bước chân của chàng vững chãi, mỗi bước đặt xuống sàn thuyền đều tạo nên một cảm giác đầm chắc như rễ tùng cắm sâu vào vách đá.
 

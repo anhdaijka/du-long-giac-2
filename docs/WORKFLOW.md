@@ -24,9 +24,11 @@ draft (chapters/chapter_XX.md)
   → Kích hoạt Cơ chế Tách Linh Hoạt a/b/c (Quyết định D-019)
   → Tách thành chapter_XXa.md & chapter_XXb.md với dramatic hook nối tiếp
   ↓
-static linting (npm run lint:prose)
+static linting (npm run lint:prose — kiểm tra lời dẫn, bảo vệ đối thoại trong ngoặc kép)
   ↓
-review (templates/review-report.md -> reviews/chapter_XX_review.md)
+fact grounding check (python scripts/lore-grounder.py — đối soát thực thể Closed-World với SQLite và Sổ cái)
+  ↓
+adversarial red-team review (templates/review-report.md -> reviews/chapter_XX_review.md: thẩm định 5 Gate, cưỡng chế 4 spans trích dẫn có số dòng, bảo vệ khẩu khí độc bản nhân vật & công thức 65-25-10)
   ↓
 🛑 HARD STOP 2: AUTHOR APPROVAL (Phê duyệt Bản thảo & Review Report)
    [DỪNG LẠI! Tuyệt đối không tự ý canon hóa nếu Bản thảo chưa được duyệt]
@@ -97,17 +99,19 @@ npm run story:report
 
 Give the writer minimum sufficient context. Prefer structured current state over old prose. The writer can creatively realize the approved scene but cannot silently change its durable outcome.
 
-## Review
+## Review & Adversarial Red-Team Protocol
 
-Use fresh review context where practical. Separate:
+Use fresh, decoupled review context. The reviewer acts as an Adversarial Critic looking for defects rather than an agreeable assistant.
 
-1. structure / causality / pacing
-2. character / agency / arc
-3. dialogue / subtext / voice
-4. prose / specificity / rhythm
-5. continuity & temporal sanity
-6. pedigree & generational addressing (Rule PED-1 đến PED-3)
-7. genre expectations
+Core review dimensions:
+1. structure / causality / pacing (organic dramatic curve, living wulin breathing room)
+2. character / agency / arc (bounded martial majesty, zero instant level-up)
+3. dialogue / subtext / voice (Trio Unique Sociolects: Tiêu Phùng witty/sarcastic, Tĩnh Xuyên military/cold, Hạ Nương medical/empirical; 65-25-10 Mo Lei Tau formula)
+4. prose / specificity / rhythm (pure show-don't-tell, zero explanatory scaffolds in narrator text)
+5. continuity & temporal sanity (Rule TC-1 đến TC-4, travel velocity from `travel_matrix.md`)
+6. pedigree & generational addressing (Rule PED-1 đến PED-4)
+7. injury continuity & physical damage tax (Rule from `injuries_ledger.md`)
+8. mandatory span-level evidence (minimum 4 verbatim spans with exact line numbers)
 
 Use `templates/review-report.md`. Review first; rewrite second.
 

@@ -49,6 +49,8 @@ META_TERMS = [
     r"\bpreflight\b",
     r"\btask\s+\d+\b",
     r"\bsubtask\s+\d+\b",
+    r"\btier\b",
+    r"\btier\s+\d+\b",
 ]
 
 # 2. AI Synthetic Telling / Explanatory Scaffolding (disallowed in narrator prose)
@@ -88,6 +90,13 @@ EXPLANATORY_SCAFFOLDS = [
     (r"\bmón nợ đạo đức\b", "Narrator moralizing ('món nợ đạo đức')"),
     (r"\bbàn cờ chính trị\b", "Narrator thematic lecturing ('bàn cờ chính trị')"),
     (r"\bvĩnh viễn không còn là\b", "Narrator thematic moralizing ('vĩnh viễn không còn là')"),
+    (r"\bsau một hồi\b", "Sloppy convert translation scaffold ('sau một hồi')"),
+    (r"\btrong lúc nhất thời\b", "Sloppy convert translation phrase ('trong lúc nhất thời')"),
+    (r"\bđáy lòng không khỏi\b", "Cognitive telling scaffold ('đáy lòng không khỏi')"),
+    (r"\blập tức liền\b", "Sloppy convert translation connective ('lập tức liền')"),
+    (r"\bnỗi cô đơn sâu sắc\b", "Abstract psychological labeling ('nỗi cô đơn sâu sắc')"),
+    (r"\bcảm giác cay đắng\b", "Abstract psychological labeling ('cảm giác cay đắng')"),
+    (r"\bsự tuyệt vọng tột cùng\b", "Abstract psychological labeling ('sự tuyệt vọng tột cùng')"),
 ]
 
 # 3. AI Cliché Narrative Closures / Formulaic Grandstanding
@@ -118,12 +127,18 @@ MODERN_ESSAY_CONNECTIVES = [
     (r"\b[Tt]rên thực tế\b", "Modern analytical phrase ('trên thực tế')"),
 ]
 
-# 5. Inflated & Supernatural Martial Arts Exaggerations
+# 5. Inflated & Supernatural Martial Arts Exaggerations & Xianxia Tropes
 INFLATED_MARTIAL_CLICHES = [
     (r"xé toạc không gian", "Inflated supernatural exaggeration ('xé toạc không gian')"),
     (r"chấn động càn khôn", "Inflated martial exaggeration ('chấn động càn khôn')"),
     (r"uy lực khủng khiếp", "Generic abstract martial cliché ('uy lực khủng khiếp')"),
     (r"bài sơn hải đảo", "Generic inflated cliché ('bài sơn hải đảo')"),
+    (r"\buy áp\b", "Xianxia trope ('uy áp' — use physical pressure, stance or environmental tension)"),
+    (r"\bchân khí sôi trào\b", "Xianxia cliché ('chân khí sôi trào')"),
+    (r"\blinh hồn chấn động\b", "Xianxia cliché ('linh hồn chấn động')"),
+    (r"\bkinh hãi tột độ\b", "Melodrama cliché ('kinh hãi tột độ' — show biological/physical reaction)"),
+    (r"\bhít sâu một hơi\b", "Translated webnovel cliché ('hít sâu một hơi' — show physical breathing)"),
+    (r"\bđồng tử co rút\b", "Translated webnovel cliché ('đồng tử co rút')"),
 ]
 
 # 6. Syntax / markdown leakages
@@ -135,21 +150,30 @@ SYNTAX_PATTERNS = [
 ]
 
 def extract_narrator_text(line: str) -> str:
-    """Extract narrator prose from a line, ignoring direct character speech inside em-dash dialogue."""
+    """
+    Extract narrator prose from a line, strictly ignoring character dialogue inside quotes or em-dash tags.
+    This protects character voice (bắng nhắng, tự trào, khẩu khí bến bãi) from false-positive linter flags.
+    """
     line = line.strip()
     if not line or line.startswith("#"):
         return ""
-    if line.startswith("—") or line.startswith("-"):
-        parts = re.split(r"\s*[—–-]+\s*", line)
+    
+    # 1. Strip content inside quotation marks (Vietnamese curved quotes, ASCII quotes, angle quotes)
+    line_no_quotes = re.sub(r'“[^”]*”|"[^"]*"|«[^»]*»', '', line)
+    
+    # 2. If line starts with dialogue dash (em-dash or en-dash or hyphen)
+    if line.startswith("—") or line.startswith("–") or line.startswith("-"):
+        parts = re.split(r"\s*[—–-]+\s*", line_no_quotes)
         narrator_parts = []
         for idx, part in enumerate(parts):
             if idx == 0:
                 continue
-            if idx % 2 == 0:  # narrator action/tag
+            if idx % 2 == 0:  # narrator action/tag (e.g. — Y vung đao thét lớn — ...)
                 narrator_parts.append(part)
         return " ".join(narrator_parts)
     else:
-        return line
+        return line_no_quotes
+
 
 def scan_manuscript(path: Path) -> tuple[list[str], int]:
     errors = []

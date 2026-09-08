@@ -1,0 +1,32 @@
+{
+  "description": "Từ điển thuật ngữ võ học, y lý, địa lý và lịch sử ngoại biên cho Novel-OS",
+  "acupoints": [
+    "Thái Dương", "Phong Trì", "Ủy Trung", "Uyển Cốt", "Kiên Tỉnh", "Khí Xung",
+    "Đan Điền", "Dũng Tuyền", "Bách Hội", "Hợp Cốc", "Thiếu Trạch", "Thần Khuyết",
+    "Mệnh Môn", "Quan Nguyên", "Khí Hải", "Khuyết Bồn", "Trung Quản", "Chi Câu"
+  ],
+  "solar_terms": [
+    "Thu Phân", "Xuân Phân", "Lập Thu", "Lập Đông", "Đông Chí", "Hạ Chí",
+    "Tiểu Mãn", "Mang Chủng", "Đại Thử", "Tiểu Thử", "Bạch Lộ", "Hàn Lộ"
+  ],
+  "eras_and_dynasties": [
+    "Thuần Hi", "Thiệu Hy", "Khánh Nguyên", "Khai Hy", "Gia Định",
+    "Tĩnh Khang", "Thiệu Hưng", "Kiến Viêm", "Đại Tống", "Đại Kim"
+  ],
+  "historical_figures": [
+    "Tĩnh Hùng", "Chung Tương", "Dương Ma", "Tần Cối", "Nhạc Phi", "Hàn Thế Trung",
+    "Triệu Khuông Dẫn", "Triệu Cấu", "Triệu Nhữ Ngu", "Tống Thái Tổ", "Hoàng Thượng",
+    "Thái Thượng Hoàng", "Diêm Vương", "Long Vương", "Thủy Thần", "Long Cung",
+    "Nữ Chân", "Giặc Kim", "Thần Nông"
+  ],
+  "administrative_and_general": [
+    "Bách Tính", "Thứ Dân", "Thương Hội", "Tiêu Sư", "Dược Phòng", "Trung Nguyên",
+    "Lĩnh Nam", "Giang Nam", "Phương Nam", "Phương Bắc", "Tây Nam", "Tây Bắc",
+    "Kinh Kỳ", "Hoàng Hống", "Hoài Hà", "Hán Thủy Cổ Độ", "Lâm An", "Tây Vực",
+    "Lưỡng Hoài", "Thục Trung", "Đàm Châu", "Mãn Châu", "Ngũ Lăng", "Ải Nam Quan",
+    "Kinh Hồ", "Đông Bắc", "Phương Đông", "Phương Tây", "Kham Dư", "Thủy Lục",
+    "Kim Sáng Dược", "Dực Thiềm Sa", "Bát Quái", "Hội Tử", "Cao Thủ", "Nam Man",
+    "Trụ Thần Thạch", "Xuân Mai Nhã Trúc", "Yên Hỏa Đài", "Bách Hoa Bí Cảnh",
+    "Trùng Hoa Cung", "Nghị Sự Đường", "Hắc Hùng Quật", "Đèo Đăng Sát Khẩu"
+  ]
+}

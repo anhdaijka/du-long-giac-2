@@ -202,7 +202,7 @@ Nàng cùng bốn dũng sĩ nghĩa quân mình đầy vết thương vừa bơi 
 
 "Thu Di... chìa khóa..." Tiêu Phùng thều thào, giơ chùm chìa khóa lên cao: "Mười chốt then... ở vách đá... vách đá phía tây..."
 
-"Cao Thăng! Giữ chặt lấy thiếu chủ!" Bạch Thu Lâm chụp lấy chùm chìa khóa sắt, quay sang thét lớn với hai dũng sĩ nghĩa quân: "Theo ta tra then vào trục ngầm!"
+"Cao Thăng! Đỡ lấy nó!" Bạch Thu Lâm chụp lấy chùm chìa khóa sắt, quay sang thét lớn với hai dũng sĩ nghĩa quân: "Theo ta tra then vào trục ngầm!"
 
 Ba bóng người dũng mãnh lao xuống dòng nước lũ, bơi thẳng về phía vách đá ngầm phía tây thạch thất. Dưới sự chỉ dẫn của những rãnh cơ quan khắc chìm trên đá vôi, từng chiếc chìa khóa sắt được tra chuẩn xác vào các ổ then răng cưa.
 
@@ -242,23 +242,23 @@ Nước sông đã rút xuống dưới mép kè đá hơn hai thước. Con đ�
 
 Dọc theo triền đê, hàng ngàn bách tính áo vải, dân chài Giang Tân và các chiến sĩ nghĩa quân đang reo hò vang dội trong nước mắt. Họ ôm chầm lấy nhau giữa bùn lầy, quỳ sụp xuống mặt đất tạ ơn trời đất đã che chở cho mảnh đất nghèo khổ này qua cơn đại nạn diệt vong.
 
-"Tiêu Phùng ca ca!"
+"Tiêu Phùng! Đệ đệ!"
 
 Một tiếng gọi nghẹn ngào xé toạc bầu không khí sớm mai.
 
 Từ phía dãy hàng quán ven sông, Thẩm Hà Diệp toàn thân ướt sũng bùn sình, hai chân trần chạy thục mạng trên mặt sỏi đá lổm chổm lao về phía chàng. Đôi mắt nàng sưng mọng vì khóc suốt đêm ròng, gương mặt lấm lem bùn đất nhưng rạng rỡ một niềm vui sướng tột cùng.
 
-Nàng lao thẳng vào vòng tay chàng, ôm chầm lấy bả vai Tiêu Phùng mà khóc nức nở như một đứa trẻ:
+Nàng quỳ sụp xuống bên cạnh chàng, hai tay run rẩy bấu chặt lấy bả vai Tiêu Phùng mà khóc nức nở:
 
-"Huynh còn sống... Tiệm may còn nguyên vẹn... Đê không vỡ... Huynh còn sống thật rồi..."
+"Đệ còn sống... Tiệm may còn nguyên vẹn... Đê không vỡ... Đệ còn sống thật rồi..."
 
 Cú va chạm nhẹ của nàng vô tình đụng vào mép nẹp tre nơi mạn sườn trái, làm Tiêu Phùng khẽ nhăn mặt nhăn mũi rên lên một tiếng:
 
-"Ái chà chà... Hà Diệp muội nương tay chút... Xương sườn của ta... gãy làm đôi rồi đấy..."
+"Ái chà chà... Thẩm đại tỷ nương tay chút... Xương sườn của đệ... gãy làm đôi rồi đấy..."
 
 Thẩm Hà Diệp giật mình vội buông tay ra, nhìn thấy vết máu bầm tím thấm đẫm dải vải gai trước ngực chàng, nước mắt nàng lại lã chã rơi xuống đôi gò má tái nhợt:
 
-"Huynh lúc nào cũng thế... cứ thích làm anh hùng rơm... lỡ có mệnh hệ nào thì ai ăn hết số cá kho của ta..."
+"Đệ lúc nào cũng thế... cứ thích làm anh hùng rơm... lỡ có mệnh hệ nào thì ai ăn hết số cá kho của tỷ..."
 
 Tiêu Phùng ngồi bệt xuống một phiến đá xanh trên mặt đê, ngửa mặt đón những tia nắng ấm áp đầu tiên của buổi sớm mai. Chàng khẽ nhếch mép cười, một nụ cười tếu táo, lém lỉnh quen thuộc nơi bãi sậy bến sông:
 
@@ -268,4 +268,4 @@ Phía sau chàng, Bạch Thu Lâm đứng tựa tay vào chuôi kiếm thép, á
 
 "Khá lắm thằng nhóc bãi sông! Hôm nay lão tử cho phép ngươi uống cạn hũ rượu nếp cái hoa vàng này!"
 
-Dưới chân họ, ánh rạng đông bừng sáng trên mặt sóng Động Đình lấp lánh như dát vàng. Một chặng đường sinh tử nơi bãi sậy thôn quê đã khép lại, và trước mắt chàng thiếu niên mang vết thương sa trường đầy kiêu hãnh, con đường lớn dấn thân vào đại giang hồ — hướng về Cái Bang Yến Tử Ổ — đang thênh thang mở ra giữa đất trời phương Nam.
+Dưới chân họ, ánh rạng đông bừng sáng rực rỡ trên mặt sóng Động Đình, nhuộm những vạt phù sa đỏ quạch thành một dải lụa vàng lấp lánh. Tiêu Phùng khẽ dựa lưng vào cọc đá đê, đón từng luồng gió sớm mát rượi thổi qua bờ lau xào xạc. Bàn tay chàng siết nhẹ lấy thân đoản côn gỗ nghiến còn ấm hơi người, lắng nghe tiếng hò reo vang dội của dân chài bãi sậy đang lan xa dần theo con nước trôi xuôi về phương đông.

@@ -89,13 +89,13 @@ Trên lồng ngực gân guốc của Thẩm Thiết Thạch in hằn ba vết c
 
 Hứa Sĩ Vĩ gục đầu xuống ngực Thiết Thạch, nắm chặt lấy bàn tay lạnh ngắt của người huynh đệ:
 
-"Bọn giặc Kim đó cực kỳ quái dị, chúng không dùng hỏa kình của Thiên Nhẫn Giáo mà luyện thứ **Âm kình cực hàn** tàn độc vô song! Hàn độc ngấm vào tâm phế, xông thẳng lên não tủy. Bốn năm nay, mỗi lần gió bấc thổi qua hồ Động Đình là Thiết Thạch huynh đau đớn như bị ngàn vạn mũi kim băng đâm nát óc, thần trí nửa mê nửa tỉnh, phải uống máu hươu nóng và rượu cay để áp chế hàn khí... Nhìn một bậc anh hùng hảo hán sa trường bị đày đọa thành nông nỗi này, tiểu sinh... lòng đau như dao cắt!"
+"Bọn giặc Kim đó cực kỳ quái dị, chúng không dùng hỏa kình của Thiên Nhẫn Giáo mà luyện thứ âm kình cực hàn tàn độc vô song! Hàn độc ngấm vào tâm phế, xông thẳng lên não tủy. Bốn năm nay, mỗi lần gió bấc thổi qua hồ Động Đình là Thiết Thạch huynh đau đớn như bị ngàn vạn mũi kim băng đâm nát óc, thần trí nửa mê nửa tỉnh, phải uống máu hươu nóng và rượu cay để áp chế hàn khí... Nhìn một bậc anh hùng hảo hán sa trường bị đày đọa thành nông nỗi này, tiểu sinh... lòng đau như dao cắt!"
 
 Cổ họng Tiêu Phùng nghẹn đắng lại. 
 
 Chàng nhìn người dũng tướng đang cắn chặt môi đến ứa máu tươi để kìm nén cơn đau buốt trong tủy não, nhìn ba vết chưởng ấn âm hàn đen tím trên lồng ngực hộ pháp. Khúc đoản côn bọc sắt non trong tay chàng siết chặt lại đến rạn khớp ngón tay. 
 
-Hóa ra không phải kẻ điên hung bạo. Trước mắt chàng hiện diện một người anh hùng xả thân vì huynh đệ sa trường! 
+Chàng hiểu ra người đàn ông đang quằn quại kia không phải kẻ điên hung bạo, mà là một người từng đem thân mình che chắn cho huynh đệ nơi chiến địa sa trường. 
 
 Thẩm Thiết Thạch bỗng thở hắt ra một hơi, bàn tay run rẩy bấu chặt lấy vạt áo Hứa Sĩ Vĩ, đôi mắt đục ngầu ngước lên nhìn mái lều cỏ, lảm nhảm trong cơn mê sảng đứt quãng:
 
@@ -107,13 +107,13 @@ Tiêu Phùng nhíu mày, bước tới ngồi xổm bên cạnh Hứa Sĩ Vĩ, t
 
 Hứa Sĩ Vĩ gạt nước mắt, giọng run rẩy giải thích:
 
-"Chuỗi Hắc Trân Châu đó từng thuộc về cố mẫu thân, là **kỷ vật duy nhất của người** để lại cho Thẩm Hà Diệp tỷ tỷ trước khi bà qua đời trên đường chạy loạn. Ba tháng trước, một toán sơn tặc Ba Lăng xông vào cướp bóc đồ đạc tiệm may, tên đầu đảng giật mất chiếc túi gấm đựng chuỗi hạt rồi chạy trốn vào rừng đá vôi. Hắn xui xẻo chui trúng hang gấu ngựa ở vách đá Hắc Hùng Quật, bị con gấu đen khổng lồ vồ chết lôi xác vào góc hang. Thiết Thạch huynh đuổi theo tận mắt thấy chiếc túi gấm mắc trên xác tên cướp... Huynh ấy liều mạng xông vào hang đòi lại di vật của mẹ cho tỷ tỷ, nhưng đúng lúc đánh nhau thì hàn độc Tương Dương tái phát cắn xé kinh mạch... Huynh ấy bị gấu tát gãy hai xương sườn, cào rách vai, tiểu sinh phải liều chết ném đuốc mới kéo được huynh ấy ra ngoài..."
+"Chuỗi Hắc Trân Châu đó từng thuộc về cố mẫu thân, là kỷ vật duy nhất của người để lại cho Thẩm Hà Diệp tỷ tỷ trước khi bà qua đời trên đường chạy loạn. Ba tháng trước, một toán sơn tặc Ba Lăng xông vào cướp bóc đồ đạc tiệm may, tên đầu đảng giật mất chiếc túi gấm đựng chuỗi hạt rồi chạy trốn vào rừng đá vôi. Hắn xui xẻo chui trúng hang gấu ngựa ở vách đá Hắc Hùng Quật, bị con gấu đen khổng lồ vồ chết lôi xác vào góc hang. Thiết Thạch huynh đuổi theo tận mắt thấy chiếc túi gấm mắc trên xác tên cướp... Huynh ấy liều mạng xông vào hang đòi lại di vật của mẹ cho tỷ tỷ, nhưng đúng lúc đánh nhau thì hàn độc Tương Dương tái phát cắn xé kinh mạch... Huynh ấy bị gấu tát gãy hai xương sườn, cào rách vai, tiểu sinh phải liều chết ném đuốc mới kéo được huynh ấy ra ngoài..."
 
 Hứa Sĩ Vĩ ôm lấy mặt khóc nấc lên:
 
 "Từ hôm đó, bệnh tình của Thiết Thạch huynh ngày càng trầm trọng, lúc tỉnh lúc mê chỉ nhắc đến chuỗi ngọc của mẹ... Tiểu sinh sức trói gà không chặt, không dám vào hang gấu lần nữa... Mùng hai tháng chín sắp đến rồi, nếu không lấy được chuỗi ngọc về cho Thẩm tỷ tỷ, e rằng Thiết Thạch huynh nhắm mắt cũng không yên lòng..."
 
-Tiêu Phùng hít sâu một hơi. Lồng ngực chàng như có một tảng đá đè nặng. 
+Tiêu Phùng hít một hơi buốt lạnh. Lồng ngực chàng như có một tảng đá đè nặng. 
 
 Chàng là một đứa trẻ mồ côi ăn cơm nguội bãi sậy, chưa từng biết mặt cha mẹ, chưa từng có lấy một mảnh kỷ vật của gia đình để ôm vào lòng mà khóc. Nhìn Thẩm Thiết Thạch phát điên phát cuồng chỉ vì một chuỗi ngọc của mẹ để lại cho tỷ tỷ, nỗi khát khao cội nguồn sâu kín trong tim chàng bị đánh trúng một cú trời giáng.
 
@@ -165,7 +165,7 @@ Chớp lấy thời cơ, Tiêu Phùng thi triển bộ pháp trượt bùn bến
 
 "Nếm thử gậy của Điềm thúc này!"
 
-Tiêu Phùng xoay người, hai tay ghì chặt đoản côn gỗ nghiến, dồn toàn bộ sức nặng cơ thể phóng thẳng đầu bịt sắt non đâm trúng vào **khớp gân kheo chân sau** của con thú!
+Tiêu Phùng xoay người, hai tay ghì chặt đoản côn gỗ nghiến, dồn toàn bộ sức nặng cơ thể phóng thẳng đầu bịt sắt non đâm trúng vào khớp gân kheo chân sau của con thú!
 
 *Rắc!*
 
