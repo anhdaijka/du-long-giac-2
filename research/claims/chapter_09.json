@@ -53,34 +53,64 @@
       "evidence": ["EV-09-001", "EV-09-002", "EV-09-003", "EV-09-004", "EV-09-005"],
       "durability": "ephemeral",
       "promotion": "blocked",
-      "reasoning": "The cited identifiers resolve to Task 'Thân Thế Chi Mê' and different source events. The current cited source packet does not establish the asserted Miếu Thần / guarded scripture arc."
+      "reasoning": "The cited identifiers resolve to Task 'Thân Thế Chi Mê' and different source events. The registered SQLite evidence does not establish the asserted Miếu Thần / guarded scripture arc."
     },
     {
       "claim_id": "CL-09-007",
-      "claim": "The four attackers at Miếu Thần are specifically Tây Hạ Nhất Phẩm Đường operatives.",
+      "claim": "The raw game source establishes that the four attackers at Miếu Thần are specifically Tây Hạ Nhất Phẩm Đường operatives.",
       "epistemic_status": "UNRESOLVED",
       "evidence": ["EV-09-004"],
       "durability": "ephemeral",
       "promotion": "blocked",
-      "reasoning": "The cited Subtask 322 evidence only supports strange/non-Central-Plains appearance at this level of evidence; it does not identify these attackers as Nhất Phẩm Đường."
+      "reasoning": "Nhất Phẩm Đường exists elsewhere in the game source, but the registered Subtask 322 evidence only supports strange/non-Central-Plains attackers and does not establish this specific Miếu Thần relation. Entity existence is not relation evidence."
     },
     {
       "claim_id": "CL-09-008",
-      "claim": "A source artifact named 'Vô Danh Mật Tịch' contains coordinates and operating instructions for a Động Đình Trụ Thần Thạch network.",
+      "claim": "The raw game source defines an artifact named 'Vô Danh Mật Tịch' containing coordinates and operating instructions for a Động Đình Trụ Thần Thạch network.",
       "epistemic_status": "UNRESOLVED",
       "evidence": [],
       "durability": "ephemeral",
       "promotion": "blocked",
-      "reasoning": "No matching source evidence has yet been registered for this durable artifact/network assertion."
+      "reasoning": "No matching source evidence is registered. Targeted SQLite searches for the exact Vô Danh Mật Tịch / Thần Thạch terminology returned no relevant hits; absence of a keyword hit is not proof of nonexistence, so the raw-source claim remains unresolved rather than being declared false."
     },
     {
       "claim_id": "CL-09-009",
-      "claim": "Du Long Giác is the unique geomagnetic key that locates and activates the entire Trụ Thần Thạch network and can enable destruction of a hundred-thousand-man army.",
+      "claim": "The raw game source defines Du Long Giác as the unique geomagnetic key that locates and activates the entire Trụ Thần Thạch network and can enable destruction of a hundred-thousand-man army.",
       "epistemic_status": "UNRESOLVED",
       "evidence": [],
       "durability": "ephemeral",
       "promotion": "blocked",
-      "reasoning": "This is a strong causal/mechanical lore assertion in the manuscript, but no source evidence has yet been registered for it."
+      "reasoning": "Du Long Giác is strongly attested elsewhere in the game source, but the targeted SQLite search did not establish the asserted geomagnetic / Trụ Thần Thạch mechanism. The apparent 'từ trường' hits were lexical false positives involving the personal name Từ Trường Phúc."
+    },
+    {
+      "claim_id": "CL-09-010",
+      "claim": "Novel canon identifies the four Miếu Thần attackers as Tây Hạ Nhất Phẩm Đường operatives.",
+      "epistemic_status": "ADAPTATION_DECISION",
+      "evidence": [],
+      "durability": "durable",
+      "promotion": "author_approved",
+      "approval_ref": "revisions/chapter_09_canon_diff.md",
+      "reasoning": "This proposition is recorded in the Chapter 09 Canon Diff and was explicitly approved by the Author. It is novel canon, but must not be presented as directly proven by Task 157/Subtasks 320-323."
+    },
+    {
+      "claim_id": "CL-09-011",
+      "claim": "Novel canon defines Vô Danh Mật Tịch as a Ma Y Cốc-derived artifact connected to the Động Đình Trụ Thần Thạch network.",
+      "epistemic_status": "ADAPTATION_DECISION",
+      "evidence": [],
+      "durability": "durable",
+      "promotion": "author_approved",
+      "approval_ref": "revisions/chapter_09_canon_diff.md",
+      "reasoning": "The approved Chapter 09 Canon Diff and durable artifact ledger establish this as current novel canon even though the registered raw-source evidence does not establish the same proposition."
+    },
+    {
+      "claim_id": "CL-09-012",
+      "claim": "Novel canon connects Du Long Giác to the Trụ Thần Thạch mechanism as a critical activation/positioning key.",
+      "epistemic_status": "ADAPTATION_DECISION",
+      "evidence": [],
+      "durability": "durable",
+      "promotion": "author_approved",
+      "approval_ref": "revisions/chapter_09_canon_diff.md",
+      "reasoning": "This mechanism is already author-approved novel canon. Its raw-source basis remains unresolved and therefore must be described as an adaptation/canon decision rather than DIRECT_SOURCE."
     }
   ]
 }
