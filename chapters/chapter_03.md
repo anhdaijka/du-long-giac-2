@@ -77,7 +77,7 @@ Hạ Nương khẽ cau mày, ngón tay dừng lại trên nắp tráp gỗ: "Có
 
 Hạ Nương nghe xong, khóe mắt khẽ giật giật. 
 
-Lệ Thu Thủy — vị Tiền Chưởng môn kiếm pháp trác tuyệt từng làm rúng động võ lâm Tây Nam, người đã đột ngột thoái vị nhường chức cho Doãn Hàm Yên rồi phiêu bạt giang hồ bặt vô âm tín — nay lại trở về giữa lúc sương sớm chưa tan? 
+Lệ Thu Thủy — vị Tiền Chưởng môn kiếm pháp trác tuyệt từng làm rúng động võ lâm Tây Nam, người đã dứt áo rời môn phái phiêu bạt giang hồ bặt vô âm tín hơn hai năm nay — nay lại trở về giữa lúc sương sớm chưa tan? 
 
 Nàng không hỏi thêm nửa lời, nhanh nhẹn xếp lại các ống ngân châm, nhét thêm hai lọ bột ngải cứu khô và túi cồn thuốc vào chiếc hòm thuốc bằng da hươu đeo chéo qua vai, cất bước đi theo Đan Bích Tú rẽ vào lối mòn ngập tràn sắc hoa đỗ quyên.
 
@@ -87,15 +87,15 @@ Xuân Mai Nhã Trúc nằm nép mình dưới bóng những tán mai cổ thụ 
 
 Gió sớm thổi qua rặng trúc phát ra những tiếng xào xạc thanh tao, song bầu không khí bên trong hậu đình lại tĩnh mịch và nặng nề đến nghẹt thở. 
 
-Trên chiếc ghế bành bằng gỗ tử đàn chạm trổ hoa mai, Tân Chưởng môn Doãn Hàm Yên ngồi ngay ngắn, chiếc áo lụa cung đình màu tím hoa cà thêu viền chỉ bạc càng tôn lên vẻ đẹp kiêu sa, đài các nhưng lạnh lùng của nàng. Nàng mới ngoài đôi mươi, vừa tiếp nhận ngôi vị chưởng môn Thúy Yên Môn chưa đầy một năm. Trên bàn trà trước mặt nàng không phải là những chén trà thơm ngát như thường lệ, mà là ba cuốn sổ chi thu dầy cộp bọc da cừu đã mòn gáy, bên cạnh đặt chiếc bàn tính bằng ngọc thạch cùng một xấp thư từ niêm phong sáp đỏ gửi từ các phường buôn Đại Lý Thành.
+Trên chiếc ghế bành bằng gỗ tử đàn chạm trổ hoa mai, Doãn Hàm Yên ngồi ngay ngắn, chiếc áo lụa cung đình màu tím hoa cà thêu viền chỉ bạc càng tôn lên vẻ đẹp kiêu sa, đoan trang đài các của nàng. Tuổi đời nàng đã tuần tứ tuần, từng cùng phu quân phiêu bạt hải ngoại nhiều năm trước khi trở về Bách Hoa Cốc gánh vác môn phái giữa cảnh ngặt nghèo; song nhờ nội công Băng Tâm công pháp thâm hậu thanh lọc kinh mạch, dung nhan nàng vẫn diễm lệ thanh thoát tựa quý phụ ngoài ba mươi, toát ra khí chất trầm ổn và uy nghi của bậc nữ tông sư từng trải. Trên bàn trà trước mặt nàng không phải là những chén trà thơm ngát như thường lệ, mà là ba cuốn sổ chi thu dầy cộp bọc da cừu đã mòn gáy, bên cạnh đặt chiếc bàn tính bằng ngọc thạch cùng một xấp thư từ niêm phong sáp đỏ gửi từ các phường buôn Đại Lý Thành.
 
 Doãn Hàm Yên đang day day thái dương, đôi mày lá liễu khẽ nhíu lại trĩu nặng âu lo. 
 
-Hạ Nương bước nhẹ qua bậu cửa gỗ, mùi trà thanh tâm thơm ngát từ ấm đất nung trên tay nàng phả ra làm dịu bớt cái không khí ngột ngạt trong đình. Nàng khẽ nghiêng mình hành lễ: "Chưởng môn sư tỷ, thuốc an thần và trà giải nhiệt đã sắc xong."
+Hạ Nương bước nhẹ qua bậu cửa gỗ, mùi trà thanh tâm thơm ngát từ ấm đất nung trên tay nàng phả ra làm dịu bớt cái không khí ngột ngạt trong đình. Nàng khẽ nghiêng mình hành lễ: "Doãn Chưởng môn, thuốc an thần và trà giải nhiệt đã sắc xong."
 
 Doãn Hàm Yên ngẩng lên, nhìn thấy Hạ Nương thì ánh mắt sắc sảo thoáng dịu lại đôi chút. Nàng khẽ thở dài, đưa tay đón lấy chén trà bằng sứ men ngọc, giọng nói mang theo sự mỏi mệt không che giấu:
 
-"Hạ Nương, muội ngồi xuống đi. Kho dược liệu dự trữ của cốc tháng này thế nào rồi?"
+"Hạ Nương, ngồi xuống đi. Kho dược liệu dự trữ của cốc tháng này thế nào rồi?"
 
 "Bẩm Chưởng môn, sau trận mưa lũ đầu tháng làm ngập kho phía hạ lưu Điền Trì, ba mươi bao rễ cam thảo và mười hòm băng phiến đã bị ẩm mốc, muội đã cho người đem phơi sấy lại nhưng dược tính hao hụt quá nửa." Hạ Nương ngồi xuống chiếc ghế đôn bên cạnh, bình thản trả lời bằng giọng điệu chính xác của người nắm rõ từng con số. "Số lượng ngân châm và dao mổ bằng bạc vẫn đủ dùng, nhưng chu sa và xạ hương để chế thuốc an thần chỉ còn đủ dùng trong nửa tháng. Nếu thuyền buôn của Trương thương hội từ Ba Lăng không cập bến Điền Trì trước tiết Sương Giáng, chúng ta sẽ thiếu dược liệu trầm trọng để phòng ngừa thương hàn cho đệ tử vào mùa đông."
 
@@ -105,9 +105,9 @@ Doãn Hàm Yên khẽ thở dài, đầu ngón tay gõ nhịp xuống cuốn s�
 
 Hạ Nương khẽ rũ mi mắt. Nàng biết Doãn Hàm Yên nói sự thật. Người đời chỉ thấy nữ tử Thúy Yên thanh nhã xuất trần, nào biết từng manh áo bát cơm của họ đều phải đổi bằng những đêm chong đèn thêu thùa đến lòa mắt và những chuyến lội rừng hái thuốc suýt bỏ mạng vì rắn độc thú dữ.
 
-"Nhưng đó chưa phải là chuyện đau đầu nhất hôm nay..." Doãn Hàm Yên hạ giọng, ánh mắt hướng về phía cánh cửa thông ra hoa viên phía sau. "Sáng nay, Lệ sư bá đột ngột trở về cốc."
+"Nhưng đó chưa phải là chuyện đau đầu nhất hôm nay..." Doãn Hàm Yên hạ giọng, ánh mắt hướng về phía cánh cửa thông ra hoa viên phía sau. "Sáng nay, Lệ sư tỷ đột ngột trở về cốc."
 
-"Muội vừa nghe Đan sư tỷ bẩm báo dưới cổng đồi." Hạ Nương khẽ nói. "Lệ sư bá hai năm trước dứt áo ra đi, thề không tìm được cố nhân thì quyết không quay lại sơn môn... Lẽ nào người đã tìm được tin tức của vị tiền bối kia?"
+"Đệ tử vừa nghe Đan sư tỷ bẩm báo dưới cổng đồi." Hạ Nương khẽ nói. "Lệ sư bá hai năm trước dứt áo ra đi, thề không tìm được cố nhân thì quyết không quay lại sơn môn... Lẽ nào người đã tìm được tin tức của vị tiền bối kia?"
 
 Doãn Hàm Yên lắc đầu, nét mặt phức tạp:
 
@@ -125,9 +125,9 @@ Bậc tiền bối ấy không ai khác ngoài Tiền Chưởng môn Lệ Thu Th
 
 "Thu Thủy bái kiến Doãn Chưởng môn." Giọng nói của Lệ Thu Thủy khàn đặc, khô khốc như tiếng lá rụng cọ vào đá tảng.
 
-Doãn Hàm Yên lập tức đứng bật dậy, khom mình chắp tay cung kính:
+Doãn Hàm Yên lập tức đứng bật dậy, bước nhanh tới đỡ lấy tay bà, giọng nghẹn ngào:
 
-"Lệ sư bá! Người là bậc trưởng bối khai sơn lập môn, xin đừng đa lễ như thế. Sư bá ngàn dặm gió bụi trở về cốc, Hàm Yên chưa kịp nghênh đón từ chân núi, thật là thất lễ. Mau mời sư bá và vị tiên sinh đây dùng trà."
+"Lệ sư tỷ! Tỷ muội đồng môn đồng sinh cộng tử bao năm, tỷ hà tất phải giữ lễ chưởng môn với muội? Sư tỷ ngàn dặm gió bụi trở về cốc, Hàm Yên chưa kịp nghênh đón từ chân núi, thật là có lỗi. Mau mời sư tỷ và vị tiên sinh đây dùng trà."
 
 Lệ Thu Thủy xua nhẹ tay áo, không ngồi xuống ghế mà bước thẳng tới mép lan can nhìn ra vạt rừng đỗ quyên sương phủ, giọng điệu chất chứa nỗi cay đắng ngút ngàn:
 
@@ -163,13 +163,13 @@ Lão nâng chiếc la bàn đồng thau lên ngang ngực, chỉ ngón tay khẳ
 
 Doãn Hàm Yên khẽ nhíu mày, trầm ngâm nhìn Lệ Thu Thủy:
 
-"Sư bá... Bốn đại hoa viên là cấm địa phòng thủ của bổn môn, bên trong bố trí Bách Hoa Trận liên hoàn cơ quan do tiền nhân để lại. Nếu để người ngoài bước vào đo đạc lung tung, lỡ cơ quan bị kích hoạt hoặc bí mật trận pháp bại lộ ra ngoài..."
+"Sư tỷ... Bốn đại hoa viên là cấm địa phòng thủ của bổn môn, bên trong bố trí Bách Hoa Trận liên hoàn cơ quan do tiền nhân để lại. Nếu để người ngoài bước vào đo đạc lung tung, lỡ cơ quan bị kích hoạt hoặc bí mật trận pháp bại lộ ra ngoài..."
 
-"Hàm Yên!" Lệ Thu Thủy cắt ngang, giọng nói run rẩy vì kích động. "Ta là Chưởng môn đời trước, trận pháp ấy do chính tay sư phụ ta truyền dạy, ta há lại không biết chừng mực sao? Chẳng lẽ ngươi nghi ngờ lòng dạ của lão thân đối với môn phái này?"
+"Hàm Yên!" Lệ Thu Thủy cắt ngang, giọng nói run rẩy vì kích động. "Ta từng chưởng quản môn phái này ngần ấy năm, trận pháp ấy do chính tay sư phụ truyền dạy, ta há lại không biết chừng mực sao? Chẳng lẽ muội nghi ngờ lòng dạ của ta đối với Thúy Yên Môn?"
 
-"Hàm Yên không dám." Doãn Hàm Yên thở dài, biết rõ tính khí cố chấp của sư bá một khi đã quyết thì chín con trâu cũng không kéo lại được. Nàng quay sang Hạ Nương: "Hạ Nương, muội thông thạo địa hình sơn môn, lại tinh tường các loại cỏ độc cạm bẫy. Ta giao việc này cho muội. Muội hãy cầm chiếc la bàn này, dẫn theo hai tên thị nữ thân cận của Lệ sư bá, lần lượt đến Xuân Hoa Viên, Hạ Hoa Viên, Thu Hoa Viên và Đông Hoa Viên, đo đạc cẩn thận từng phương vị rồi vẽ lại sơ đồ mang về đây."
+"Hàm Yên không có ý đó." Doãn Hàm Yên thở dài, biết rõ tính khí cố chấp của sư tỷ một khi đã quyết thì chín con trâu cũng không kéo lại được. Nàng quay sang Hạ Nương: "Hạ Nương, con thông thạo địa hình sơn môn, lại tinh tường các loại cỏ độc cạm bẫy. Ta giao việc này cho con. Con hãy cầm chiếc la bàn này, dẫn theo hai thị nữ thân cận của Lệ sư tỷ, lần lượt đến Xuân Hoa Viên, Hạ Hoa Viên, Thu Hoa Viên và Đông Hoa Viên, đo đạc cẩn thận từng phương vị rồi vẽ lại sơ đồ mang về đây."
 
-"Muội tuân lệnh."
+"Đệ tử tuân lệnh."
 
 Hạ Nương bước tới, hai tay đón lấy chiếc la bàn đồng thau từ tay Ma Y Thần Tướng.
 
@@ -251,9 +251,9 @@ Lệ Thu Thủy thở hắt ra một hơi dài, lồng ngực phập phồng d�
 
 "Chẳng trách... chẳng trách bao nhiêu năm nay, Bách Hoa Trận lại thu hút bầy sói Điểm Thương kéo về tụ tập đông đúc đến thế. Thú dữ nhạy cảm với khí khoáng kim loại dưới lòng đất. Nhờ có bầy sói dữ canh giữ cửa trận mà bao năm qua kẻ ngoài không dám bén mảng... Nào ngờ khối ngọc ấy lại nằm ngay dưới chân chúng ta!"
 
-"Sư bá!" Doãn Hàm Yên đứng bật dậy, cất giọng can ngăn kiên quyết. "Bách Hoa Trận là cấm địa của sơn môn, bên trong chôn giấu vô số cơ quan bí mật do các đời Chưởng môn truyền lại. Nay nếu chúng ta tự tay đào xới phá vỡ trận pháp để lấy một khối ngọc chưa rõ lai lịch, một khi trận pháp phòng thủ sụp đổ, nhỡ có kẻ thù tập kích thì lấy gì để bảo vệ hàng trăm tỷ muội trong cốc?"
+"Sư tỷ!" Doãn Hàm Yên đứng bật dậy, cất giọng can ngăn kiên quyết. "Bách Hoa Trận là cấm địa của sơn môn, bên trong chôn giấu vô số cơ quan bí mật do các đời Chưởng môn truyền lại. Nay nếu chúng ta tự tay đào xới phá vỡ trận pháp để lấy một khối ngọc chưa rõ lai lịch, một khi trận pháp phòng thủ sụp đổ, nhỡ có kẻ thù tập kích thì lấy gì để bảo vệ hàng trăm tỷ muội trong cốc?"
 
-"Hàm Yên! Ngươi còn trẻ, ngươi không hiểu được đâu!" Lệ Thu Thủy trừng mắt nhìn Doãn Hàm Yên, ánh mắt bà rực lên ngọn lửa mê muội điên cuồng. "Khối ngọc Du Long Giác này là tâm nguyện cả đời của ta, là lời thề ước giữa ta và người ấy! Chỉ cần lấy được nó, ta sẽ tìm ra tung tích của chàng, dẫu có phải trả giá bằng tính mạng của lão thân này, ta cũng quyết không lùi bước!"
+"Hàm Yên! Muội chưa từng trải qua nỗi đau mất đi tri kỷ giữa mưa nguồn gió biển mười lăm năm, muội làm sao hiểu được!" Lệ Thu Thủy trừng mắt nhìn Doãn Hàm Yên, ánh mắt bà rực lên ngọn lửa mê muội điên cuồng. "Khối ngọc Du Long Giác này là tâm nguyện cả đời của ta, là lời thề ước giữa ta và người ấy! Chỉ cần lấy được nó, ta sẽ tìm ra tung tích của chàng, dẫu có phải trả giá bằng tính mạng của ta, ta cũng quyết không lùi bước!"
 
 Bà quay sang Ma Y Thần Tướng, gằn từng tiếng:
 
@@ -279,7 +279,7 @@ Bà xoay người rút xoạt hai thanh Băng Tâm Đoản Kiếm sau lưng, án
 
 "Đan Bích Tú! Hạ lệnh cho mười đệ tử chấp pháp mang cuốc xẻng và đuốc dầu, theo ta tiến vào Xuân Hoa Viên tiêu diệt bầy sói, phá cửa Bách Hoa Trận!"
 
-"Sư bá! Không được...!" Doãn Hàm Yên thất thanh kêu lên, toan bước tới can ngăn.
+"Sư tỷ! Không được...!" Doãn Hàm Yên thất thanh kêu lên, toan bước tới can ngăn.
 
 Nhưng bóng áo lam của Lệ Thu Thủy đã lướt đi như một cơn gió lốc, cuốn theo ánh thép sắc lạnh và tiếng rít ràn rạt của tà áo xé gió, khuất dạng sau rặng trúc già rậm rạp. Tiếng chân rầm rập của toán đệ tử chấp pháp mang theo đuốc sáng bừng bừng đuổi theo sau, xé toạc màn đêm thanh tịnh của Bách Hoa Cốc.
 

@@ -60,7 +60,7 @@ Nàng đưa tay vỗ nhẹ lên tay áo, rút ra một mảnh giấy hoa tiên g
 
 Gió đêm lại thốc qua rèm nứa, mang theo mùi sương ẩm lạnh ngắt. Ngọn đèn dầu lạc chập chờn như sắp lụi.
 
-"Vậy Chưởng môn tìm đệ tử là để..." Hạ Nương ngước mắt nhìn thẳng vào vị Chưởng môn trẻ tuổi.
+"Vậy Chưởng môn tìm đệ tử là để..." Hạ Nương ngước mắt nhìn thẳng vào vị Chưởng môn đoan trang trầm tĩnh.
 
 Doãn Hàm Yên đứng dậy, cầm lấy chiếc áo choàng lông cáo choàng lên đôi vai gầy của Hạ Nương. Bàn tay của nàng áp lên vai cô y nữ, hơi ấm từ lớp lông mềm truyền qua lớp áo lụa mỏng manh, nhưng sức nặng từ mệnh lệnh của nàng thì đè trĩu như một tảng đá ngàn cân:
 

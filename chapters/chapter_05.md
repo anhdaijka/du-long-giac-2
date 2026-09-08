@@ -24,7 +24,7 @@ Phía trước chàng nửa trượng, Bạch Thu Lâm thúc ngựa dẫn đầu
 
 Tiêu Phùng không đáp, chỉ đưa tay trái vỗ nhẹ vào mạng sườn. Cây đoản côn bằng gỗ nghiến bịt khâu sắt non giắt chéo sau lưng vẫn nằm yên đó, lạnh ngắt và cứng đanh. Dưới lớp áo lót trước ngực, chiếc khánh bạc khắc nổi chữ *Tiêu* mà Thu Di trao cho chàng lúc chiều tì sát vào xương ức, lạnh rười rượi. Đôi giày da dê mới toanh của Thẩm Hà Diệp may cho ôm khít lấy mu bàn chân, dính đầy những vệt bùn sình bắn lên từ bãi sậy. Trong lồng ngực chàng, trái tim đập thình thịch như tiếng chày nện cối đá giã gạo ngày mùa. 
 
-Đó không phải là nỗi sợ hãi thuần túy của kẻ hèn nhát, mà là sự bồn chồn rạo rực pha lẫn ngột ngạt của một kẻ sắp sửa chứng kiến sự thật bị chôn vùi suốt mười bảy năm. Bạch Cương — người cận vệ năm xưa đã ôm bọc tã đẫm máu vượt qua nghìn dặm giang hồ để đưa chàng về bãi sậy Ba Lăng — đang nằm trong hẻm núi phía trước, giữa lằn ranh sống chết.
+Đó không phải là nỗi sợ hãi thuần túy của kẻ hèn nhát, mà là sự bồn chồn rạo rực pha lẫn ngột ngạt của một kẻ sắp sửa chứng kiến sự thật bị chôn vùi suốt mười bảy năm. Bạch Cương — người cận vệ năm xưa từng liều mạng đoạn hậu nơi Hán Thủy Cổ Độ, mai danh ẩn tích suốt mười bảy năm nơi biên ải mang theo nửa mảnh sấm thi Ma Y Cốc — đang nằm trong hẻm núi phía trước, giữa lằn ranh sống chết.
 
 Càng tiến sâu về phía chân đèo, mùi gió bão càng nồng nặc. Nhưng lẫn trong vị tanh nồng của hơi nước Động Đình dâng cao, một mùi vị khác xộc thẳng vào cánh mũi Tiêu Phùng: mùi sắt rỉ pha lẫn mỡ bò cháy khét lẹt. 
 
@@ -226,7 +226,7 @@ Nơi đó, chiếc khánh bạc hình trăng khuyết khắc chìm chữ *Tiêu*
 
 Tiêu Phùng cắn răng nén cơn đau buốt thấu xương nơi mạn sườn, quỳ sụp một chân xuống trước mặt người thương binh già. Chàng tháo chiếc khánh bạc khỏi cổ, đặt nhẹ vào lòng bàn tay lạnh ngắt của Bạch Cương.
 
-"Bạch thúc thúc... Cháu là Tiêu Phùng." Giọng chàng khàn đặc vì máu bầm nghẽn nơi cuống họng. "Mười bảy năm trước, thúc ôm cháu vượt sông Hán Thủy... Cháu về rồi đây."
+"Bạch thúc thúc... Cháu là Tiêu Phùng." Giọng chàng khàn đặc vì máu bầm nghẽn nơi cuống họng. "Mười bảy năm trước, thúc liều mình cản hậu bên bến sông Hán Thủy cho Thu Di đưa cháu thoát thân... Cháu về rồi đây."
 
 Bạch Cương run rẩy siết chặt chiếc khánh bạc vào lòng bàn tay. Từng giọt nước mắt đục ngầu ứa ra từ khóe mắt nhăn nheo, lăn dài trên đôi gò má xám ngắt của người chiến binh già. Ông run rẩy đưa bàn tay còn lại lên sờ vào mái tóc bùn sình, vào vầng trán rộng và sống mũi thẳng tắp của chàng thiếu niên.
 

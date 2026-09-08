@@ -148,13 +148,13 @@ Thu Di không ngước mắt lên khỏi tấm bản đồ Động Đình Hồ, 
 
 Tiêu Phùng bước khẽ vào ngạch cửa, đặt giỏ cá trê xuống góc đất, cười giả lả:
 
-"Thu Di, hôm nay con câu được một con cá trê béo mầm ở bến đò bãi sậy. Lát nữa con đem nướng trui với rơm thơm cho di ăn lót dạ đêm nay nhé?"
+"Thu Di, hôm nay đệ câu được một con cá trê béo mầm ở bến đò bãi sậy. Lát nữa đệ đem nướng trui với rơm thơm cho tỷ ăn lót dạ đêm nay nhé?"
 
 Bạch Thu Lâm đặt chiếc bút lông xuống giá ngọc, ngước nhìn chàng thiếu niên đang đứng co ro trước cửa. Ánh mắt nàng chậm rãi lướt từ hai ống quần ướt sũng bùn đất, dừng lại nơi vạt áo trước ngực còn vương mùi men nếp thơm ngát, rồi chuyển sang thanh đoản côn sắt non đang lấp ló dưới tay áo chàng.
 
 Nàng không mắng mắng, chỉ thở dài một tiếng thật khẽ, tựa như tiếng gió lướt qua bãi sậy đêm khuya:
 
-"Vò rượu 'Thu Phân' của di... ngon không?"
+"Vò rượu 'Thu Phân' của tỷ... ngon không?"
 
 Tiêu Phùng gãi gãi mái tóc rối bù bám đầy bồ hóng, cười trừ:
 
@@ -162,23 +162,23 @@ Tiêu Phùng gãi gãi mái tóc rối bù bám đầy bồ hóng, cười trừ
 
 "Mười bảy tuổi đầu, chưa học xong đạo lý làm người đã học thói lươn trẹo trộm rượu đi mua chuộc kẻ khác." Thu Di đứng dậy, tà áo xanh khẽ lay động theo làn gió đêm thổi luồn qua khe cửa. Nàng bước đến bên cạnh Tiêu Phùng, đưa bàn tay mềm mại nhưng có những vết chai mờ nơi ngón trỏ và lòng bàn tay — vết tích của nhiều năm cầm kiếm — khẽ vén những sợi tóc mái lòa xòa trước trán chàng.
 
-"Có biết vì sao di giấu hũ rượu đó không?" Giọng nàng chùng xuống, mang theo một nỗi xót xa giấu kín: "Di định đợi đến ngày rằm tháng Tám tới, tròn mười bảy năm ngày cha con mất tích ở Hán Thủy, sẽ mang hũ rượu ấy cùng con ra bờ sông bái tế."
+"Có biết vì sao tỷ giấu hũ rượu đó không?" Giọng nàng chùng xuống, mang theo một nỗi xót xa giấu kín: "Tỷ định đợi đến ngày rằm tháng Tám tới, tròn mười bảy năm ngày cha đệ mất tích ở Hán Thủy, sẽ mang hũ rượu ấy cùng đệ ra bờ sông bái tế."
 
 Cả người Tiêu Phùng khẽ chấn động. Nụ cười cợt nhả trên môi chàng tắt lịm.
 
-Chàng ngẩng đầu lên, nhìn thẳng vào mắt người phụ nữ đã nuôi nấng mình từ thuở ẵm ngửa:
+Chàng ngẩng đầu lên, nhìn thẳng vào mắt người tỷ tỷ đã cưu mang nuôi nấng mình từ thuở ẵm ngửa:
 
-"Thu Di... Cha con... rốt cuộc là ai? Vì sao bao nhiêu năm qua, mỗi lần con hỏi về nguồn gốc gia đình, di và Long Ngũ Thái Gia đều bảo con chưa đến tuổi được biết? Con không có họ mẹ, cũng chẳng có tông tộc, chỉ có một cái tên Tiêu Phùng do di đặt cho. Con là con cái nhà ai? Có phải cha con là một tên đào binh bại trận, hay một kẻ phản nghịch làm nhục gia môn nên người mới giấu con như giấu một vết nhơ?"
+"Thu Di... Cha đệ... rốt cuộc là ai? Vì sao bao nhiêu năm qua, mỗi lần đệ hỏi về nguồn gốc gia đình, tỷ và Long Ngũ Thái Gia đều bảo đệ chưa đến tuổi được biết? Đệ không có họ mẹ, cũng chẳng có tông tộc, chỉ có một cái tên Tiêu Phùng do tỷ đặt cho. Đệ là con cái nhà ai? Có phải cha đệ là một tên đào binh bại trận, hay một kẻ phản nghịch làm nhục gia môn nên người mới giấu đệ như giấu một vết nhơ?"
 
 "Câm miệng!"
 
 Tiếng quát của Bạch Thu Lâm vang lên đanh thép như tiếng kiếm rút khỏi vỏ, làm ngọn đèn dầu trên bàn chao đảo dữ dội. Đôi mắt nàng ánh lên vẻ giận dữ hiếm thấy, nhưng nơi khóe mi lại lấp loáng một vệt nước mỏng:
 
-"Cha con là một đấng nam nhi đầu đội trời chân đạp đất! Người chưa từng cúi đầu trước bạo quyền Kim quốc, cũng chưa từng làm bất cứ điều gì thẹn với trời đất lương tâm! Sự mất tích của người năm xưa... liên quan đến một bí mật kinh thiên động địa có thể làm nghiêng ngả cả giang sơn bờ cõi này, kéo theo máu chảy thành sông từ Trường Giang đến tận Biện Kinh!"
+"Cha đệ là một đấng nam nhi đầu đội trời chân đạp đất! Người chưa từng cúi đầu trước bạo quyền Kim quốc, cũng chưa từng làm bất cứ điều gì thẹn với trời đất lương tâm! Sự mất tích của người năm xưa... liên quan đến một bí mật kinh thiên động địa có thể làm nghiêng ngả cả giang sơn bờ cõi này, kéo theo máu chảy thành sông từ Trường Giang đến tận Biện Kinh!"
 
 Nàng siết chặt hai bờ vai gầy nhưng cứng cỏi của Tiêu Phùng, giọng nói run rẩy vì xúc động:
 
-"Di không cho con biết, là vì muốn con được sống một đời bình an giữa xóm chài bãi sậy này. Làm một đứa trẻ đánh cá, vá lưới, gánh đá hàn đê, tuy nghèo hèn lam lũ nhưng đêm về kê cao gối ngủ, không phải lo thích khách rình rập, không phải nhìn người thân máu chảy đầu rơi! Nhưng... giời không cho người toại nguyện."
+"Tỷ không cho đệ biết, là vì muốn đệ được sống một đời bình an giữa xóm chài bãi sậy này. Làm một đứa trẻ đánh cá, vá lưới, gánh đá hàn đê, tuy nghèo hèn lam lũ nhưng đêm về kê cao gối ngủ, không phải lo thích khách rình rập, không phải nhìn người thân máu chảy đầu rơi! Nhưng... giời không cho người toại nguyện."
 
 Thu Di buông tay ra, quay lưng về phía bàn thờ tổ phụ nghĩa quân, nơi có một ngọn đèn trường minh đang cháy leo lét:
 
@@ -186,7 +186,7 @@ Thu Di buông tay ra, quay lưng về phía bàn thờ tổ phụ nghĩa quân, 
 
 Nàng quay lại nhìn thanh đoản côn bọc sắt non bên hông Tiêu Phùng, ánh mắt phức tạp:
 
-"Sáng mai, con mang chỗ cá trê này sang trang viên Long Ngũ Thái Gia. Thái gia mấy hôm nay ho nhiều, khí lực suy kiệt. Gặp thái gia xong, đến tiệm tạp hóa của Bất Động Tiên Sinh lấy giúp di mấy xấp vải bố về gia cố lều trại. Đã muốn cầm gậy sắt bước chân vào chốn phong ba, thì hãy dùng đôi mắt của con mà nhìn cho rõ thế gian này trước đã."
+"Sáng mai, đệ mang chỗ cá trê này sang trang viên Long Ngũ Thái Gia. Thái gia mấy hôm nay ho nhiều, khí lực suy kiệt. Gặp thái gia xong, đến tiệm tạp hóa của Bất Động Tiên Sinh lấy giúp tỷ mấy xấp vải bố về gia cố lều trại. Đã muốn cầm gậy sắt bước chân vào chốn phong ba, thì hãy dùng đôi mắt của đệ mà nhìn cho rõ thế gian này trước đã."
 
 Tiêu Phùng đứng lặng giữa gian nhà tranh. Gió đêm từ hồ Động Đình thốc mạnh qua bến đò, mang theo tiếng sóng gầm gào của con nước lũ đang cuồn cuộn dâng cao ngoài bờ đê. 
 

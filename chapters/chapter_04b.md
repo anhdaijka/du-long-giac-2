@@ -32,7 +32,7 @@ Lão nhổ toẹt một vỏ hạt dưa, với tay vớ lấy bầu nước trà
 
 Tiêu Phùng đảo mắt cười khì, rút khúc đoản côn bọc sắt non gõ côm cốp xuống nền gạch:
 
-"Thôi đi Bất Động thúc, đừng có than nghèo kể khổ với cháu. Cả cái huyện Ba Lăng này ai chẳng lạ gì cái tiệm tạp hóa dột nát của thúc che mắt thiên hạ cho kho quân nhu lớn nhất của Nghĩa quân? Thu Di dặn cháu rồi, thúc mà dám chần chừ bớt xén nửa tấc bạt dầu, trưa nay bà ấy đích thân sang đây thu hồi lại gian nhà gỗ mặt phố này giao cho phường dệt."
+"Thôi đi Bất Động thúc, đừng có than nghèo kể khổ với cháu. Cả cái huyện Ba Lăng này ai chẳng lạ gì cái tiệm tạp hóa dột nát của thúc che mắt thiên hạ cho kho quân nhu lớn nhất của Nghĩa quân? Thu Di dặn cháu rồi, thúc mà dám chần chừ bớt xén nửa tấc bạt dầu, trưa nay Thu Di đích thân sang đây thu hồi lại gian nhà gỗ mặt phố này giao cho phường dệt."
 
 Nghe đến tên Bạch Thu Lâm, lớp mỡ trên mặt Bất Động Tiên Sinh khẽ rung lên một cái. Lão chép miệng, vươn cánh tay múp míp lục lọi trong đống giấy lộn vương vãi trên bàn con, rút ra một xấp biên nhận buộc bằng cọng rơm khô, quẳng thẳng vào ngực Tiêu Phùng.
 
@@ -158,9 +158,9 @@ Chàng nhớ lại ánh mắt thâm trầm của Điềm Tửu Thúc bên lò th
 
 Hóa ra mọi người đều biết! Cả cái huyện Ba Lăng này, những người lớn tuổi trong hàng ngũ Nghĩa quân đều biết chàng là ai, đều biết về tấn bi kịch đẫm máu ở bến đò Hán Thủy năm xưa, chỉ có duy nhất một mình chàng là kẻ ngu ngơ, biến mình thành trò cười cho thiên hạ bằng những trò bắng nhắng cợt nhả nơi bãi sậy!
 
-Nỗi uất nghẹn dâng lên ứ nghẹn nơi cổ họng. Nhưng chàng không chạy thẳng về trướng sảnh Nghĩa quân để gào thét đòi đối chất với Thu Di. Chàng biết tính Thu Di, nếu chàng xông vào làm ầm lên, bà sẽ chỉ lạnh lùng tịch thu bức thư rồi nhốt chàng vào nhà kho. 
+Nỗi uất nghẹn dâng lên ứ nghẹn nơi cổ họng. Nhưng chàng không chạy thẳng về trướng sảnh Nghĩa quân để gào thét đòi đối chất với Thu Di. Chàng biết tính Thu Di, nếu chàng xông vào làm ầm lên, nàng sẽ chỉ lạnh lùng tịch thu bức thư rồi nhốt chàng vào nhà kho. 
 
-Ánh mắt Tiêu Phùng lóe lên một tia sắc sảo của con chạch bãi bồi. Trên phong bì ghi rõ ba chữ: *"Hiền đệ Trâu Đức Khoái"*. 
+Ánh mắt Tiêu Phùng lóe lên một tia sắc sảo của con chạch bãi bồi. Trên phong bì ghi rõ hàng chữ: *"Kính gửi Đức Khoái huynh"*. 
 
 Kẻ nhận bức thư này năm xưa là Trâu Đức Khoái — lão thủ khố chuyên quản lý kho hàng và văn bản của Nghĩa quân ở dãy nhà kho ven sông sau huyện nha! Tại sao một bức thư sinh tử như thế này lại nằm kẹt dưới hốc tường hầm đá của tiền trang Tạ Hiền suốt mười bảy năm ròng?
 
@@ -204,40 +204,40 @@ Tiêu Phùng bước sát lại một bước, hai bàn tay siết chặt lấy 
 
 "Cha cháu... rốt cuộc là ai? Người đã chết thế nào?"
 
-"Cha ngươi... là Tiêu Lăng Phong!" Trâu Đức Khoái run giọng đáp, hai hàng nước mắt lăn dài trên gò má nhăn nheo. "Đại đệ tử chân truyền của Ma Y Cốc! Năm xưa người Kim phối hợp với thế lực tà phái mai phục ở Hán Thủy Cổ Độ hòng cướp đoạt bản đồ phong thủy cơ quan chôn giấu thần vật... Cha ngươi một thân một mình vung kích ngăn cản ba trăm thiết kỵ, máu nhuộm đỏ dòng Hán Thủy để lão nghĩa quân Bạch Cương bế ngươi thoát vòng vây..."
+"Cha ngươi... là Tiêu Lăng Phong!" Trâu Đức Khoái run giọng đáp, hai hàng nước mắt lăn dài trên gò má nhăn nheo. "Đại đệ tử chân truyền của Ma Y Cốc! Năm xưa người Kim phối hợp với thế lực tà phái mai phục ở Hán Thủy Cổ Độ hòng cướp đoạt bản đồ phong thủy cơ quan chôn giấu thần vật... Cha ngươi một thân một mình vung kích ngăn cản ba trăm thiết kỵ, máu nhuộm đỏ dòng Hán Thủy để Thu Lâm cô nương liều chết ẵm ngươi thoát vòng vây bến sông... Còn Bạch Cương thì trúng thương đoạn hậu, mang nửa mảnh sấm thi mai danh ẩn tích ngoài biên ải..."
 
 Lão Trâu nắm lấy cổ tay Tiêu Phùng, giọng run rẩy đầy kinh hãi:
 
-"Tiêu Phùng! Chuyện này không thể giấu thêm một khắc nào nữa! Mau, đi theo ta về trướng sảnh gặp Thu Lâm cô nương! Bạch Cương... Bạch Cương bá bá của ngươi sau mười bảy năm trốn chạy ngoài quan ải, ba ngày trước vừa phái người đưa bồ câu báo tin đã tìm ra tung tích kẻ chủ mưu năm xưa và đang trên đường trở về Ba Lăng!"
+"Tiêu Phùng! Chuyện này không thể giấu thêm một khắc nào nữa! Mau, đi theo ta về trướng sảnh gặp Thu Lâm cô nương! Bạch Cương... Bạch thúc thúc của ngươi sau mười bảy năm trốn chạy ngoài quan ải, ba ngày trước vừa phái người đưa bồ câu báo tin đã tìm ra tung tích kẻ chủ mưu năm xưa và đang trên đường trở về Ba Lăng!"
 
 ---
 
 
 Trướng sảnh của Nghĩa quân Ba Lăng dựng bằng những thân gỗ lim to bằng vòng tay người ôm, mái phủ ba lớp bạt dầu dày cộp chắn gió Động Đình. Trên vách trướng treo tấm bản đồ quân sự vẽ địa thế vùng hồ và dãy đèo hiểm trở phía bắc huyện lỵ.
 
-Bạch Thu Lâm mặc một bộ nhung phục màu xanh ngọc gọn gàng, mái tóc búi cao bằng trâm bạc, bên hông đeo một thanh đoản kiếm vỏ khảm bạc. Bà đang đứng trước bàn cát quân vụ cùng hai viên đội trưởng Tinh Nhuệ Nghĩa Quân.
+Bạch Thu Lâm mặc một bộ nhung phục màu xanh ngọc gọn gàng, mái tóc búi cao bằng trâm bạc, bên hông đeo một thanh đoản kiếm vỏ khảm bạc. Nàng đang đứng trước bàn cát quân vụ cùng hai viên đội trưởng Tinh Nhuệ Nghĩa Quân.
 
 Nghe tiếng bước chân dồn dập, Bạch Thu Lâm ngẩng đầu lên, chân mày khẽ cau lại khi thấy Trâu Đức Khoái hớt hơ hớt hải kéo Tiêu Phùng xông thẳng vào trướng:
 
 "Trâu thủ khố, có chuyện gì mà hốt hoảng làm mất thể thống quân doanh như thế? Tiêu Phùng, bạt dầu của tiệm tạp hóa đâu mà ngươi..."
 
-Bà chưa kịp nói dứt câu thì Tiêu Phùng đã bước lên một bước. Chàng không nói một lời, lặng lẽ rút chiếc khánh bạc xỉn màu và phong thư sáp chu sa Ma Y Cốc đặt nhẹ lên mặt bàn cát trước mặt bà.
+Nàng chưa kịp nói dứt câu thì Tiêu Phùng đã bước lên một bước. Chàng không nói một lời, lặng lẽ rút chiếc khánh bạc xỉn màu và phong thư sáp chu sa Ma Y Cốc đặt nhẹ lên mặt bàn cát trước mặt nàng.
 
 Ánh mắt Bạch Thu Lâm quét qua ba chữ "Tiêu Phùng" khắc chìm trên mặt bạc. 
 
-Sắc mặt của người nữ thủ lĩnh kiên cường bến Động Đình bỗng chốc trắng bệch ra như tờ giấy. Bàn tay đang cầm cờ lệnh trên bàn cát của bà khựng lại giữa không trung, run rẩy buông rơi lá cờ đỏ xuống nền cát.
+Sắc mặt của người nữ thủ lĩnh kiên cường bến Động Đình bỗng chốc trắng bệch ra như tờ giấy. Bàn tay đang cầm cờ lệnh trên bàn cát của nàng khựng lại giữa không trung, run rẩy buông rơi lá cờ đỏ xuống nền cát.
 
-"Thu Di..." Tiêu Phùng cất giọng, âm thanh không còn vẻ cợt nhả bắng nhắng thường ngày, mà trầm đục và run rẩy như tiếng gió rít qua rặng lau khô. "Di giấu con suốt mười bảy năm qua. Con không phải là đứa con hoang nhặt từ bãi rác bến sông. Cha con... là Tiêu Lăng Phong của Ma Y Cốc, có phải không?"
+"Thu Di..." Tiêu Phùng cất giọng, âm thanh không còn vẻ cợt nhả bắng nhắng thường ngày, mà trầm đục và run rẩy như tiếng gió rít qua rặng lau khô. "Tỷ giấu đệ suốt mười bảy năm qua. Đệ không phải là đứa con hoang nhặt từ bãi rác bến sông. Cha đệ... là Tiêu Lăng Phong của Ma Y Cốc, có phải không?"
 
-Bạch Thu Lâm nhắm nghiền mắt lại. Một giọt nước mắt kìm nén suốt mười bảy năm ròng từ từ lăn dài trên khóe mắt người nữ tướng. 
+Bạch Thu Lâm nhắm nghiền mắt lại. Một giọt nước mắt kìm nén suốt mười bảy năm ròng từ từ lăn dài trên khóe mắt người nữ tướng trẻ tuổi. 
 
-Bà thở ra một hơi dài cay đắng, bước vòng qua bàn cát, đặt bàn tay ấm áp lên bờ vai đang run lên nhè nhẹ của Tiêu Phùng:
+Nàng thở ra một hơi dài cay đắng, bước vòng qua bàn cát, đặt bàn tay ấm áp lên bờ vai đang run lên nhè nhẹ của Tiêu Phùng:
 
-"Phùng nhi... Không phải Di muốn giấu con. Nhưng mối thù năm xưa... kẻ thù năm xưa quá mức kinh thiên động địa! Bọn chúng không phải là thổ phỉ lục lâm bình thường, mà là những kẻ mang tà công âm hàn thâm độc của ngoại bang, thủ đoạn tàn độc đến tận cùng. Di chỉ muốn con lớn lên như một đứa trẻ bình thường nơi làng chài bãi sậy, ngày ngày chèo thuyền câu cá, uống rượu nếp cái hoa vàng, sống một đời bình an vô sự... Di không muốn con bị cuốn vào cỗ cối xay thịt tanh máu của võ lâm..."
+"Phùng đệ... Không phải tỷ muốn giấu đệ. Nhưng mối thù năm xưa... kẻ thù năm xưa quá mức kinh thiên động địa! Bọn chúng không phải là thổ phỉ lục lâm bình thường, mà là những kẻ mang tà công âm hàn thâm độc của ngoại bang, thủ đoạn tàn độc đến tận cùng. Tỷ chỉ muốn đệ lớn lên như một người bình thường nơi làng chài bãi sậy, ngày ngày chèo thuyền câu cá, uống rượu nếp cái hoa vàng, sống một đời bình an vô sự... Tỷ không muốn đệ bị cuốn vào cỗ cối xay thịt tanh máu của võ lâm..."
 
-"Bình an vô sự?" Tiêu Phùng ngẩng phắt đầu lên, trong hốc mắt chàng ngấn lệ nhưng không hề rơi xuống, ngọn lửa uất hận sục sôi bốc cháy. "Con sống bình an trên xương máu của cha con sao? Cha con chết không toàn thây dưới đáy Hán Thủy, còn con thì ngày ngày ngậm cỏ lau trộm rượu làm thằng hề cho thiên hạ cười cợt sao?"
+"Bình an vô sự?" Tiêu Phùng ngẩng phắt đầu lên, trong hốc mắt chàng ngấn lệ nhưng không hề rơi xuống, ngọn lửa uất hận sục sôi bốc cháy. "Đệ sống bình an trên xương máu của cha đệ sao? Cha đệ chết không toàn thây dưới đáy Hán Thủy, còn đệ thì ngày ngày ngậm cỏ lau trộm rượu làm thằng hề cho thiên hạ cười cợt sao?"
 
-Bạch Thu Lâm nghẹn ngào không thốt nên lời. Bà biết, khoảnh khắc chiếc khánh bạc này lộ diện, số phận đã xé toạc tấm màn nhung êm đềm mà bà dày công che chắn cho chàng thiếu niên suốt mười bảy năm qua.
+Bạch Thu Lâm nghẹn ngào không thốt nên lời. Nàng biết, khoảnh khắc chiếc khánh bạc này lộ diện, số phận đã xé toạc tấm màn nhung êm đềm mà nàng dày công che chắn cho chàng thiếu niên suốt mười bảy năm qua.
 
 *U... U... U...!*
 
@@ -259,11 +259,11 @@ Tiêu Phùng siết chặt hai bàn tay lại, khúc đoản côn gỗ nghiến 
 
 Bạch Cương! 
 
-Người duy nhất còn sống sót sau đêm huyết chiến Hán Thủy Cổ Độ, người đã bế chàng chạy trốn ngàn dặm về phương Nam, người nắm giữ toàn bộ chân tướng về cái chết của cha chàng, hiện đang bị bầy kền kền ngoại bang dồn vào cửa tử ở ngay cửa ngõ Ba Lăng!
+Lão nghĩa quân trung liệt đã cùng cha chàng đoạn hậu trong đêm huyết chiến Hán Thủy Cổ Độ, người nắm giữ mảnh sấm thi sinh tử và chân tướng về nguồn cội của cha chàng, hiện đang bị bầy kền kền ngoại bang dồn vào cửa tử ở ngay cửa ngõ Ba Lăng!
 
 *Keng!*
 
-Bạch Thu Lâm tuốt đoản kiếm bên hông ra khỏi vỏ, lưỡi kiếm thép sáng loáng phản chiếu ánh lửa đuốc bập bùng trong trướng. Gương mặt bà lấy lại vẻ uy nghiêm sắt đá của thủ lĩnh nghĩa quân:
+Bạch Thu Lâm tuốt đoản kiếm bên hông ra khỏi vỏ, lưỡi kiếm thép sáng loáng phản chiếu ánh lửa đuốc bập bùng trong trướng. Gương mặt nàng lấy lại vẻ uy nghiêm sắt đá của thủ lĩnh nghĩa quân:
 
 "Truyền lệnh ta! Phát động lệnh tiễn tập kết toàn bộ ba mươi kỵ binh Tinh Nhuệ Nghĩa Quân! Mang theo cung nỏ và thuốc nổ, lập tức xuất trận tiến về Tuyệt Vấn Pha!"
 
@@ -271,10 +271,10 @@ Bạch Thu Lâm tuốt đoản kiếm bên hông ra khỏi vỏ, lưỡi kiếm 
 
 Tiêu Phùng bước xộc tới, hai mắt đỏ ngầu, chàng giơ cao khúc đoản côn gỗ nghiến bọc sắt non lên trước ngực, giọng chàng trầm xuống như sấm rền trước cơn giông:
 
-"Con đi cùng Di! Nhân chứng duy nhất của cha con đang ở ngoài kia, đứa con của Tiêu Lăng Phong này tuyệt đối không trốn chui trốn nhủi trong xó bếp!"
+"Đệ đi cùng tỷ! Nhân chứng duy nhất của cha đệ đang ở ngoài kia, con trai của Tiêu Lăng Phong này tuyệt đối không trốn chui trốn nhủi trong xó bếp!"
 
-Bạch Thu Lâm nhìn sâu vào đôi mắt hừng hực lửa của chàng thiếu niên bãi sậy. Lần đầu tiên sau mười bảy năm, bà không còn nhìn thấy bóng dáng của một thằng nhóc hay hờn dỗi trộm rượu nếp, mà nhìn thấy khí phách ngút trời của con mãnh hổ Ma Y Cốc năm xưa tái sinh trên mảnh đất Ba Lăng.
+Bạch Thu Lâm nhìn sâu vào đôi mắt hừng hực lửa của chàng thiếu niên bãi sậy. Lần đầu tiên sau mười bảy năm, nàng không còn nhìn thấy bóng dáng của một thằng nhóc hay hờn dỗi trộm rượu nếp, mà nhìn thấy khí phách ngút trời của con mãnh hổ Ma Y Cốc năm xưa tái sinh trên mảnh đất Ba Lăng.
 
-Bà gật đầu thật mạnh, mũi kiếm chém thẳng xuống không trung:
+Nàng gật đầu thật mạnh, mũi kiếm chém thẳng xuống không trung:
 
 "Lấy chiến mã cho Tiêu thiếu chủ! Xuất phát!"

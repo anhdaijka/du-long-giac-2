@@ -19,8 +19,8 @@ weapon: "Trường kiếm lệnh bài nghĩa quân"
 
 ## 1. TỔNG QUAN & ĐỊNH VỊ (ARCHETYPE)
 * **Thân phận:** Nữ thủ lĩnh trẻ tuổi của Nghĩa Quân Ba Lăng Huyện; thường được môn hạ, tráng đinh và dân chúng trìu mến gọi tôn kính là **Thu Di** (danh xưng tôn kính theo phong tục xưng hô bối phận sông nước Ba Lăng).
-* **Định vị:** Người bảo hộ tinh thần và ngọn cờ tập hợp quần chúng khởi nghĩa chống Kim và cứu trợ bá tánh nghèo khó vùng Động Đình Hồ. Tuổi đời chừng 23–25 tuổi (năm 1191), hơn Tiêu Phùng 6–7 tuổi; là con gái của tiền bối nghĩa quân hy sinh sa trường, sớm kế thừa trọng trách lãnh đạo.
-* **Quan hệ cốt tử với Protagonist:** Là **Nghĩa tỷ kiêm Người bảo hộ / Thủ lĩnh** của **Tiêu Phùng**. Sau thảm sát Ma Y Cốc (1174), Tiêu Phùng được lão tướng Bạch Cương bế về Ba Lăng và được cả trại nghĩa quân (Bạch Cương, Thẩm Hà Diệp, Điềm Tửu Thúc, Long Ngũ Thái Gia...) cùng nuôi nấng. Thu Di từ thuở bé đã xem chàng như đệ đệ ruột thịt, bón cháo chăm sóc, vừa nghiêm khắc rèn giũa chàng qua lao dịch dân sinh vừa hết lòng che chở, bảo bọc chàng trước hiểm nguy. Hai người xưng hô thân mật là "Thu Di / Tỷ" và "Đệ".
+* **Định vị:** Người bảo hộ tinh thần và ngọn cờ tập hợp quần chúng khởi nghĩa chống Kim và cứu trợ bá tánh nghèo khó vùng Động Đình Hồ. Tuổi đời chừng 24 tuổi (sinh 1167 Đinh Hợi, năm 1191), hơn Tiêu Phùng 7 tuổi; là con gái của Tướng quân triều đình Đại Tống tại Biện Kinh (Bạch Phụ) trước khi lưu lạc phong trần gia nhập Nghĩa Quân Ba Lăng và gánh vác trọng trách thủ lĩnh (`Task 450: Subtask 641`).
+* **Quan hệ cốt tử với Protagonist:** Là **Nghĩa tỷ kiêm Người bảo hộ / Thủ lĩnh** của **Tiêu Phùng**. Sau thảm sát Ma Y Cốc (1174), Thu Di cùng tàn binh nghĩa quân liều mình đưa đứa trẻ sơ sinh Tiêu Phùng về Ba Lăng (trong khi Bạch Cương đoạn hậu mai danh ẩn tích ngoài biên ải, theo `baijiang.lua`), được cả trại nghĩa quân (Trâu Đức Khoái, Thẩm Hà Diệp, Điềm Tửu Thúc, Long Ngũ Thái Gia...) cùng che chở nuôi nấng. Thu Di từ thuở bé đã xem chàng như đệ đệ ruột thịt, bón cháo chăm sóc, vừa nghiêm khắc rèn giũa chàng qua lao dịch dân sinh vừa hết lòng che chở, bảo bọc chàng trước hiểm nguy. Hai người xưng hô thân mật là "Thu Di / Tỷ" và "Đệ".
 
 ---
 

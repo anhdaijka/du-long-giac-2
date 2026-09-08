@@ -2,8 +2,8 @@
 name: Doãn Hàm Yên
 role: anchor
 status: active
-arc: "Tân Chưởng môn Thúy Yên Môn, kiên cường gánh vác môn phái sau Huyết kiếp Bách Hoa Trận"
-provenance: "KT2 Engine Task 12 (Subtask 91-95), Task 7 (Subtask 58)"
+arc: "Cựu Môn chủ Thúy Yên Môn (Lục đại), từ hải ngoại hồi quy tái xuất gánh vác sơn môn sau Huyết kiếp Bách Hoa Trận"
+provenance: "KT2 Engine Task 12 (Subtask 91-95), Task 7 (Subtask 58), Task 11"
 fidelity_class: "DIRECT CANON"
 faction: "Thúy Yên Môn (Bách Hoa Cốc)"
 element: "Thủy / Quyết đoán"
@@ -18,9 +18,10 @@ weapon: "Bách Hoa Song Kiếm / Thúy Yên Môn Pháp"
 ---
 
 ## 1. TỔNG QUAN & ĐỊNH VỊ (ARCHETYPE)
-* **Thân phận:** Tân Chưởng môn Thúy Yên Môn; kế nhiệm chức vị từ tiền bối Lệ Thu Thủy.
-* **Định vị:** Vị nữ minh chủ trẻ tuổi gánh vác vận mệnh sơn môn giữa thời khắc sinh tử diệt vong; biểu tượng của sự kiên định, bản lĩnh thực tế và trách nhiệm của người đứng đầu trước thảm kịch máu lửa.
-* **Hình tượng:** Dung mạo diễm lệ thanh thoát nhưng ánh mắt cương nghị lạnh lùng, phong thái quyết đoán của bậc chưởng môn không cho phép mình rơi lệ trước mặt môn đồ.
+* **Thân phận:** Cựu Môn chủ Thúy Yên Môn đời thứ 6 (Lục Đại Môn Chủ); sư muội của Lệ Thu Thủy, sư tỷ của Chung Linh Tú; phu nhân của Đường Nhất Trần; thân mẫu của Doãn Tiêu Vũ (17 tuổi) và Đường Hiểu (17 tuổi); vừa từ hải ngoại hồi quy tái nhậm chức Chưởng môn để chấn hưng môn phái sau đại nạn.
+* **Tuổi tác (Năm 1191):** Sinh khoảng 1151 (Tân Mùi) — tròn **40 tuổi**.
+* **Định vị:** Bậc nữ tông sư chín chắn, kiên cường, gánh vác vận mệnh sơn môn giữa thời khắc sinh tử diệt vong; biểu tượng của sự kiên định, bản lĩnh thực tế và đức hy sinh của người lãnh đạo môn phái.
+* **Hình tượng:** Tuổi đã tuần tứ tuần nhưng nhờ nội công *Băng Tâm Triệt Cốt* thâm hậu thanh lọc kinh mạch nên dung mạo vẫn đoan trang, kiêu sa diễm lệ tựa quý phụ ngoài ba mươi; ánh mắt sắc sảo cương nghị, phong thái điềm tĩnh uy nghi của bậc thủ lĩnh từng trải qua bao sóng gió hải ngoại và giang hồ.
 
 ---
 

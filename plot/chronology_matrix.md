@@ -23,7 +23,8 @@
 | **Hàn Thác Trụ** | **1152** (Nhâm Thân) | **39–40 tuổi** | Tuyên phủ sứ Nam Tống / Cháu họ Ngô Thái Hậu | Nhân vật lịch sử chính xác. Quan văn phái chủ chiến mang mật chiếu Tống Hiếu Tông. |
 | **Dương Thiết Tâm** | **1149** (Kỷ Tỵ) | **42 tuổi** | Tân Bang chủ Thiên Vương Bang | Nghĩa tử Dương Anh, con cháu Dương gia tướng, truyền nhân thương pháp Côn Lôn. |
 | **Bùi Dực Phi** | **1156** (Bính Thân) | **35 tuổi** | Thống lĩnh kỵ binh Cáp Xá | Đại tướng dưới trướng Dương Anh, huynh đệ tiền bối của Tĩnh Xuyên. |
-| **Doãn Hàm Yên** | **1169** (Kỷ Sửu) | **22 tuổi** | Tân Chưởng môn Thúy Yên Môn | Trẻ tuổi, kế vị gánh vác môn phái giữa biến loạn kinh tài và hiểm họa bảo vật. |
+| **Doãn Hàm Yên** | **1151** (Tân Mùi) | **40 tuổi** | Cựu Môn chủ Thúy Yên (Lục đại) tái nhậm | Sư muội Lệ Thu Thủy, sư tỷ Chung Linh Tú; phu nhân Đường Nhất Trần; mẫu thân Doãn Tiêu Vũ (17 tuổi) và Đường Hiểu (17 tuổi); từ hải ngoại hồi quy tái xuất gánh vác môn phái giữa biến loạn kinh tài và hiểm họa bảo vật. |
+| **Doãn Tiêu Vũ** | **1174** (Giáp Ngọ) | **17 tuổi** | Nữ đệ tử Thúy Yên / Tương lai Cửu Đại Môn Chủ | Con gái Doãn Hàm Yên và Đường Nhất Trần; thiếu nữ thông tuệ sắc sảo, trạc tuổi Hạ Nương (16 tuổi); cùng mẹ hồi quy tái thiết Thúy Yên Môn sau Huyết kiếp Bách Hoa Trận. |
 | **Lệ Thu Thủy** | **1148** (Mậu Tý) | **43 tuổi** | Tiền Chưởng môn Thúy Yên Môn | Nữ cao thủ u sầu, người yêu cũ của Tiêu Lăng Phong; chìm đắm trong chấp niệm Du Long Giác. |
 | **Lâu Nhất Quan** | **1136** (Bính Thìn) | **55 tuổi** | Trưởng lão Tiền phong Thiên Vương | Lão tướng thời Lão nguyên soái Dương Ma, mang mối thù máu sâu đậm với triều đình Nam Tống. |
 | **Cầu Chỉ Thủy** | **1131** (Tân Hợi) | **60 tuổi** | Cựu Trưởng lão Thiên Vương Bang | Bạn tri giao của Dương Anh, bị vu oan thông Kim, được bảo lãnh sang Cái Bang Yến Tử Ổ. |

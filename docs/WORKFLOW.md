@@ -8,7 +8,7 @@ idea / plot deck (Macro Event Milestones)
   ↓
 granularity assessment (Đánh giá độ hạt tự sự: đo lường mật độ kịch tính và dung lượng subtask; chủ động đề xuất phân bản hạt mịn XXa, XXb... bảo đảm dải dung lượng vàng 4.000 – 4.800 từ)
   ↓
-lore verification (python scripts/lore-guard.py --query <term>)
+lore & pedigree verification (Tra cứu SQLite story_database.sqlite3 và đối soát phả hệ từ worldbuilding/factions/genealogy_matrix.md)
   ↓
 plan (templates/chapter-brief.md -> briefs/chapter_XX_brief.md)
   ↓
@@ -61,6 +61,10 @@ Do not move into prose until the chapter has enough information to constrain it 
   - exact calendar date (aligned with `plot/timeline.md` — Rule TC-2)
   - delta T elapsed from last POV appearance (Rule TC-3: mandatory transition narrative if $\Delta T \ge 3$ days)
   - travel velocity & information latency (aligned with `worldbuilding/geography/travel_matrix.md` — Rule TC-4)
+- NPC pedigree & biological age verification:
+  - kinship & lineage check (aligned with `worldbuilding/factions/genealogy_matrix.md` — Rule PED-1)
+  - biological age sanity formula ($\text{Tuổi Cha/Mẹ} \ge \text{Tuổi Con} + 16$ — Rule PED-2)
+  - generational hierarchy & addressing rules (Rule PED-3)
 - starting state
 - ending state
 - scene order
@@ -101,8 +105,9 @@ Use fresh review context where practical. Separate:
 2. character / agency / arc
 3. dialogue / subtext / voice
 4. prose / specificity / rhythm
-5. continuity
-6. genre expectations
+5. continuity & temporal sanity
+6. pedigree & generational addressing (Rule PED-1 đến PED-3)
+7. genre expectations
 
 Use `templates/review-report.md`. Review first; rewrite second.
 

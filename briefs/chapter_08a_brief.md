@@ -34,14 +34,24 @@ for_tags:
 
 ---
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Name | Provenance (Task/Subtask/SQLite) | Role & Kinship (`genealogy_matrix.md`) | Birth Year & Age (1191) | Biological Age Check ($\text{Age}_{\text{parent}} \ge \text{Age}_{\text{child}} + 16$) | Generational Addressing (POV <-> NPC, NPC <-> NPC) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Doãn Hàm Yên** | Task 12: Subtask 86 / SQLite | Lục Đại Môn Chủ Thúy Yên Môn; phu nhân Đường Nhất Trần; mẹ Doãn Tiêu Vũ (17) & Đường Hiểu (17); sư muội Lệ Thu Thủy; sư tỷ Chung Linh Tú | 1151 (40 tuổi) | $40 \ge 17 + 16 = 33$ (Đạt: sinh con năm 23 tuổi) | Hạ Nương (16) gọi "Chưởng môn", xưng "đệ tử". Doãn Hàm Yên gọi Lệ Thu Thủy (43) là "Lệ sư tỷ", gọi Hạ Nương là "ngươi". |
+| **Lệ Thu Thủy** | Task 12: Subtask 86 / SQLite | Ngũ Đại Môn Chủ (Cựu Chưởng môn Thúy Yên); sư tỷ Doãn Hàm Yên & Chung Linh Tú | 1148 (43 tuổi) | Không có con | Hạ Nương gọi "Sư bá", xưng "đệ tử". Lệ Thu Thủy gọi Doãn Hàm Yên là "Doãn sư muội". |
+| **Đan Bích Tú** | Task 12: Subtask 86 / SQLite | Đệ tử chấp pháp Thúy Yên Môn (Đời thứ 7) | 1172 (19 tuổi) | Không có con | Hạ Nương gọi "Đan sư tỷ", xưng "muội". Đan Bích Tú gọi Doãn Hàm Yên là "Chưởng môn", gọi Lệ Thu Thủy là "Sư bá". |
+
+---
+
 ## Purpose
 
 1. **Thực thi Story Decompression Protocol (Tránh bệnh vội vã / Speedrunning):**
    - Không dồn toàn bộ sự kiện mở rương đoạt ngọc, đánh bại hai tầng cao thủ và phá hủy tượng Chu Tước vào một chương duy nhất.
    - Dành trọn Chương 08a để xây dựng không khí rợn ngợp của đêm sương Điền Trì, đào sâu rạn nứt tâm lý giữa Doãn Hàm Yên và Lệ Thu Thủy, đồng thời khai thác triệt để "con mắt nhà nghề" của Hạ Nương qua lăng kính y lý thực chứng và giải phẫu pháp y.
 2. **Khắc họa mâu thuẫn ý thức hệ nội bộ Thúy Yên Môn (`FAC-TYM`):**
-   - **Tân Chưởng môn Doãn Hàm Yên:** Người phụ nữ thực tế, gánh vác kinh tài và sự an nguy của hàng trăm nữ đệ tử; nàng phản đối việc đào bới cấm địa trong đêm vì linh cảm tai họa và lời sấm "Huyết quang tai" của Ma Y Thần Tướng; nhưng nàng bất lực không thể cưỡng lại uy vọng tiền nhiệm của sư tỷ Lệ Thu Thủy.
-   - **Tiền Chưởng môn Lệ Thu Thủy:** Một nữ kiệt chìm trong u uất và chấp niệm tình duyên quá khứ; bất chấp môn quy và lời can ngăn, bà quyết tâm mở Bách Hoa Trận ngay trong đêm để chiếm lại Du Long Giác — vật định tình duy nhất có thể dẫn lối tìm lại nam tử đã thất lạc 17 năm trước.
+   - **Chưởng môn Doãn Hàm Yên (40 tuổi, Lục Đại Môn Chủ):** Người phụ nữ thực tế, gánh vác kinh tài và sự an nguy của hàng trăm nữ đệ tử; nàng phản đối việc đào bới cấm địa trong đêm vì linh cảm tai họa và lời sấm "Huyết quang tai" của Ma Y Thần Tướng; nhưng nàng bất lực không thể cưỡng lại uy vọng tiền nhiệm của sư tỷ Lệ Thu Thủy.
+   - **Tiền Chưởng môn Lệ Thu Thủy (43 tuổi, Ngũ Đại Môn Chủ):** Một nữ kiệt chìm trong u uất và chấp niệm tình duyên quá khứ; bất chấp môn quy và lời can ngăn, bà quyết tâm mở Bách Hoa Trận ngay trong đêm để chiếm lại Du Long Giác — vật định tình duy nhất có thể dẫn lối tìm lại nam tử đã thất lạc 17 năm trước.
 3. **Pháp y hiện trường & Phát hiện chấn động (`Forensic Discovery`):**
    - Hạ Nương không chỉ là một chiến binh vung kiếm, mà là một y nữ giải phẫu. Màn kiểm tra các xác sói chết trước cửa cấm địa bóc trần sự thật lạnh gáy: Vết thương vỡ sọ rách thịt không đến từ kiếm pháp thanh nhã của Thúy Yên, mà từ **chùy gai có răng cưa** (trọng binh Tây Hạ) và nội kình cực cương tàn bạo; vệt bùn đất sét vàng không thuộc thổ nhưỡng Điểm Thương.
    - Khẳng định: **Cấm địa Bách Hoa Trận đã bị thế lực mật thám ngoại bang thâm nhập từ trước!**
@@ -55,7 +65,7 @@ for_tags:
   - Thể lực hạn chế của một thiếu nữ y thuật: Hơi thở có phần gấp gáp khi leo dốc đá trơn trợt trong sương đêm Điền Trì; đôi giày vải thêu hoa sen thấm đẫm sương lạnh ngấm buốt vào khớp ngón chân.
 - **Đan Bích Tú (19 tuổi — Đệ tử chấp pháp):**
   - Tâm lý căng thẳng, tay nắm đốc kiếm đổ mồ hôi lạnh trước bầu không khí quái dị của đêm cấm địa.
-- **Lệ Thu Thủy (38 tuổi — Bậc Tier 3 Cựu Chưởng môn):**
+- **Lệ Thu Thủy (43 tuổi — Bậc Tier 3 Cựu Chưởng môn):**
   - Thể tạng tiều tụy vì phong sương và nỗi u sầu dai dẳng; bờ môi khô khốc, ánh mắt rực lửa nôn nóng; khí tức tán loạn ẩn dưới từng cử chỉ vung tay.
 
 ---

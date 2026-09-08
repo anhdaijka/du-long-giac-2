@@ -18,6 +18,12 @@
 - Transition requirement (if $\Delta T \ge 3$ days):
 - Travel latency check (`worldbuilding/geography/travel_matrix.md`):
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Name | Provenance (Task/Subtask/SQLite) | Role & Kinship (`genealogy_matrix.md`) | Birth Year & Age (1191) | Biological Age Check ($\text{Age}_{\text{parent}} \ge \text{Age}_{\text{child}} + 16$) | Generational Addressing (POV <-> NPC, NPC <-> NPC) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | | | |
+
 ## Purpose
 
 What must this chapter change for the story?

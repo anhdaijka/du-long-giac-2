@@ -18,33 +18,39 @@
   - Mở rộng quy mô linh hoạt (Fluid Expansion): Khung cơ sở 18 chương, tự do mở rộng lên 20-30 chương để đào sâu thế sự và phát triển tự nhiên (low-burn), khép lại theo Thematic Climax trọn vẹn.
   - **Khắc chế Hào quang Vô đối & Quản lý Thương tật (Quyết định D-022)**: Ban hành `worldbuilding/medical/injuries_ledger.md` (chuẩn L1 – L5, Zero Instant Healing, Tier Gap Damage Tax).
   - **Cơ chế Đề xuất Võ học Linh hoạt (Emergent Martial Proposition)**: Ban hành `worldbuilding/martial/martial_dynamics.md`; tuyệt đối không đóng khung lộ trình thăng cấp cứng nhắc; Agent chủ động khảo sát điểm chạm võ học & đề xuất kèm cái giá sinh học/tâm lý tại Chapter Brief để Tác giả quyết định.
-  - **Phản diện Phi Nhị-Nguyên**: Tích hợp nhân tính, kỷ luật sa trường và góc nhìn dân tộc vào phe đối địch.
+  - **Đồng bộ Phả hệ & Chống ảo tưởng NPC (Quyết định D-023) — HOÀN TẤT RETROFIT 100%**:
+    - Ban hành Sổ cái Phả hệ & Bối phận Giang Hồ: [`worldbuilding/factions/genealogy_matrix.md`](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/worldbuilding/factions/genealogy_matrix.md) (khóa chặt phả hệ 12 môn phái, Công thức Tuổi Sinh học $\text{Tuổi Cha/Mẹ} \ge \text{Tuổi Con} + 16$).
+    - Ban hành Mandatory Rule 5 (`GEMINI.md`) & Cập nhật `docs/WORKFLOW.md`, `templates/chapter-brief.md`.
+    - Tích hợp Pedigree Linter vào `scripts/lore-guard.py` (quét tự động 47 tệp dự án, 0 lỗi vi phạm, bổ sung rule PED-3 cấm bịa đặt Bạch Cương là cha Bạch Thu Lâm, rule PED-4 cấm xưng Di - con phi sinh học giữa Tiêu Phùng 17t và Thu Lâm 24t).
+    - **Hoàn tất Source Audit & Retrofit Bạch Cương - Bạch Thu Lâm & Xưng hô Tỷ - Đệ**:
+      - Khảo sát mã nguồn engine `baijiang.lua` và SQLite Task 157, 450: Thân phụ Bạch Thu Lâm là Tướng quân Bạch Phụ tại Biện Kinh; Bạch Cương (~45t) là nghĩa quân tiền bối, cựu thuộc hạ của cha Tiêu Phùng, xưng đệ với Bạch Thu Lâm ("Thu Lâm tỷ") và Trâu Đức Khoái ("Đức Khoái huynh").
+      - Bổ sung **Section 7: Convergence Matrix** tích hợp đầy đủ mạng lưới quan hệ đa tuyến của **Protagonist Trio** (Tiêu Phùng - Tĩnh Xuyên - Hạ Nương).
+      - Khử sạch triệt để lối xưng "Di - con" tại `chapters/chapter_01.md` và `chapters/chapter_04b.md`, đồng bộ 100% chuẩn xưng hô **Thu Di / Tỷ — Đệ** xuyên suốt toàn bộ các chương.
+      - Retrofit bản thảo `chapters/chapter_01.md`, `chapters/chapter_04b.md`, `chapters/chapter_05.md`, chuẩn hóa `characters/anchors/bach_thu_lam.md`, `characters/supporting_cast.md`.
+    - Hoàn tất Retrofit toàn bộ các chương và brief liên quan:
+      - `chapters/chapter_08a.md`: Thay "vị Chưởng môn trẻ tuổi" thành "vị Chưởng môn đoan trang trầm tĩnh".
+      - `chapters/chapter_08b.md`: Bỏ "Tân Chưởng môn", sửa "Sư bá" thành "Sư tỷ", bỏ nhãn "một già một trẻ" đối với Lệ Thu Thủy.
+      - `chapters/chapter_03.md`: Chuẩn hóa 10 phân đoạn miêu tả Doãn Hàm Yên 40 tuổi uy nghi gánh vác kinh tài.
+      - `briefs/chapter_03_brief.md`, `briefs/chapter_08a_brief.md`, `briefs/chapter_08b_brief.md`, `briefs/chapter_11_brief.md`: Tích hợp 100% bảng `## NPC Pedigree & Biological Age Verification`.
+    - Kiểm định tự động: `npm run lint:prose` PASS 15/15 chương, `python scripts/lore-guard.py --scan` PASS 47/47 tệp, `npm run gate:check` PASS 100%.
 - **Hồi vừa hoàn thành**: **Chương 10: *Hình Thiên Lĩnh Huyết Lộ*** (`chapters/chapter_10.md`).
-  - Trạng thái: **ĐÃ HOÀN TẤT CANON HÓA 100% & COMMIT STATE THÀNH CÔNG VÀO 4 TRỤ CỘT BỀN VỮNG** (Vượt trọn vẹn cả 3 Cổng Dừng Cứng: Brief $\rightarrow$ Draft & Review $\rightarrow$ Canon Diff & State Commit).
-  - Quy mô: **5.835 từ** (Đạt chuẩn 5 Cổng thẩm định SOLID, 0 lỗi linter `npm run lint:prose`, `npm run gate:check` PASS 100%).
-  - Tổng dung lượng tích lũy tác phẩm: **73.553 từ** (Hoàn tất trọn vẹn 14 phân bản đầu tiên của tác phẩm).
-  - Sổ cái trạng thái đã cập nhật vào 4 Trụ Cột:
-    - [Trụ cột 1]: `characters/tinh_xuyen.md` (mốc đêm 25/8/1191, hoàn tất cơ mật Hình Thiên Lĩnh, nhận mặt nạ sắt, lập mật ước với Hàn Thác Trụ);
-    - [Trụ cột 2]: `characters/supporting_cast.md` (bổ sung 6 nhân vật: Lý Tuyền, Hàn Thác Trụ, Lư Tiếu Bần, Bang Chúng Kính Trang, Viêm Dương Sứ, Lãnh Nguyệt Sứ).
-    - [Trụ cột 3]: `worldbuilding/medical/injuries_ledger.md` (`INJ-LNQ-001` L1 Lâu Nhất Quan nứt mép vảy, `INJ-LT-001` L2 Lý Tuyền, `INJ-HTT-001` L1 Hàn Thác Trụ); `worldbuilding/artifacts/artifacts_ledger.md` (Ống sáp mật Triệu Nhữ Ngu, Mặt nạ da trâu bọc sắt); `worldbuilding/factions/relationships_matrix.md` (`REL-TVB-TONG-001`, `REL-TVB-NGUDOC-001`).
-    - [Trụ cột 4]: `plot/timeline.md` (canonize mốc 25/8/1191); `plot/volume_01_deck.md` (đánh dấu ĐÃ CANON HÓA cho Ch.10); `plot/promises_tracker.md` (hoàn tất `TH-004` giai đoạn 1; gieo mầm `TH-016` lời hứa Lâm An và `TH-017` Lư Tiếu Bần).
-  - POV: Tĩnh Xuyên (18 tuổi — Thanh Loa Đảo / Hình Thiên Lĩnh).
+  - Trạng thái: **ĐÃ HOÀN TẤT CANON HÓA 100% & COMMIT STATE THÀNH CÔNG VÀO 4 TRỤ CỘT BỀN VỮNG**.
+  - Quy mô: **5.835 từ** (0 lỗi linter `npm run lint:prose`, `npm run gate:check` PASS 100%).
 
 ## 2. Nhiệm vụ hiện tại (Current Active Gate)
 
-- **CỔNG DỪNG 1 (Pre-Draft Hard Stop) — CHUẨN BỊ SOẠN THẢO CHAPTER BRIEF CHƯƠNG 11**:
-  - **Tên chương dự kiến**: **Chương 11: *Tuyệt Bích Kỳ Hoa***.
-  - **POV**: Hạ Nương (16 tuổi — Y sư / Đệ tử đời thứ ba Thúy Yên Môn).
-  - **Địa bàn**: Vách đá Điểm Thương Sơn & Bách Hoa Cốc.
-  - **Mốc thời gian**: 1191-08-26 (Sáng sớm — Sau đêm sói và khai quật hung ngọc Du Long Giác).
-  - **Phân loại**: **Mystery Lore / Medical Investigation** (Khám nghiệm thảo dược kịch độc *Mị Mị Hương* của Ngũ Độc Giáo).
-  - **Nguồn Engine KT2**: `Task 4: Subtask 31 & 34` và `Task 5: Subtask 44 & 47`.
-  - **KỶ LUẬT CỔNG DỪNG 1**: CẤM TUYỆT ĐỐI viết bất kỳ dòng nào vào `chapters/chapter_11.md` trước khi Tác giả phê duyệt `briefs/chapter_11_brief.md`!
+- **CỔNG DỪNG 2 (Pre-Canon Hard Stop) — CHỜ TÁC GIẢ PHÊ DUYỆT BẢN THẢO & BÁO CÁO REVIEW CHƯƠNG 11**:
+  - **Tên chương**: **Chương 11: *Tuyệt Bích Kỳ Hoa***.
+  - **Bản thảo**: [`chapters/chapter_11.md`](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/chapters/chapter_11.md) — **6.665 từ** (Đã đồng bộ xưng hô Doãn Hàm Yên 40 tuổi và Hạ Nương 16 tuổi; Pure Show Don't Tell, không lỗi AI).
+  - **Báo cáo Thẩm định 5 Cổng**: [`reviews/chapter_11_review.md`](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/reviews/chapter_11_review.md) — **PASS 5 Cổng duyệt**.
+  - **Đề xuất Canon Diff sẵn sàng**: [`revisions/chapter_11_canon_diff.md`](file:///d:/Games/Server%20Client/Server%20KT/Ki%E1%BA%BFm%20Th%E1%BA%BF%202/Server/du-long-giac-2/revisions/chapter_11_canon_diff.md).
+  - **Trạng thái Linter & Gate Guard**: `npm run lint:prose` PASS 100% (15/15 chương); `npm run gate:check` PASS 100% (47 tệp).
+  - **KỶ LUẬT CỔNG DỪNG 2**: ĐÃ DỪNG LẠI TRÌNH TÁC GIẢ. CẤM TUYỆT ĐỐI tự ý coi như đã xong hoặc tự ý canon hóa khi Tác giả chưa duyệt Bản thảo và Báo cáo Review!
 
 ## 3. Gợi ý hành động cho Tác giả (Suggested Next Step)
 
-Tác giả ra lệnh:
-👉 **`"Soạn brief chương 11"`** để Agent khởi động quy trình Cổng Dừng 1 (Pre-Draft Briefing) cho Chương 11!
+Tác giả thẩm duyệt bản thảo và báo cáo review Chương 11, sau đó ra lệnh:
+👉 **`"Duyệt bản thảo chapter 11"`** để hoàn tất Cổng Dừng 2, sẵn sàng tiến sang Cổng Dừng 3 (Canon Diff & State Commit)!
 
 
 

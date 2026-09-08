@@ -305,7 +305,7 @@ Lệ Thu Thủy ngẩng đầu lên, ánh mắt bà đờ đẫn mất đi thầ
 
 "Không... Kỷ vật duy nhất chàng để lại... Mang nó về... Mau đưa nó về Xuân Mai Nhã Trúc..."
 
-Hạ Nương cắn môi, xốc nách đỡ lấy cựu Chưởng môn. Hai người, một già một trẻ, người thì thương tích nội kình đẫm máu, kẻ thì kiệt sức rã rời, dìu nhau từng bước trèo ra khỏi hố sâu tâm trận.
+Hạ Nương cắn môi, xốc nách đỡ lấy cựu Chưởng môn. Hai người, người thì thương tích nội kình đẫm máu, kẻ thì kiệt sức rã rời, dìu nhau từng bước trèo ra khỏi hố sâu tâm trận.
 
 Họ nhặt lại thanh Phù Vân Kiếm, quay đầu men theo lối mòn đẫm máu rút lui khỏi Bách Hoa Trận.
 
@@ -315,13 +315,13 @@ Canh tư rạng sáng. Bầu trời Điền Trì chuyển sang màu xám tro nh�
 
 Tại tiền sảnh Xuân Mai Nhã Trúc, không khí căng thẳng đến nghẹt thở. Mười mấy ngọn đèn lồng giấy dầu thắp sáng trưng cả gian điện bằng gỗ trúc. 
 
-Tân Chưởng môn Doãn Hàm Yên đứng sừng sững bên bàn trà, bộ y phục màu lam nhạt của nàng vẫn phẳng phiu nhưng đôi mày thanh tú chau lại chặt chẽ. Đứng sau lưng nàng là sáu vị nữ trưởng lão Thúy Yên Môn, ai nấy đều mang vẻ mặt nghiêm trọng, tay không rời chuôi kiếm.
+Doãn Hàm Yên đứng sừng sững bên bàn trà, bộ y phục màu lam nhạt của nàng vẫn phẳng phiu nhưng đôi mày thanh tú chau lại chặt chẽ. Đứng sau lưng nàng là sáu vị nữ trưởng lão Thúy Yên Môn, ai nấy đều mang vẻ mặt nghiêm trọng, tay không rời chuôi kiếm.
 
 Tiếng bước chân loạng choạng vang lên ngoài thềm trúc.
 
 Hạ Nương dìu Lệ Thu Thủy bước qua ngạch cửa. Trên chiếc bàn gỗ mun ở giữa sảnh, Hạ Nương đặt bọc vải gạc đẫm máu xuống. Lớp vải lụa dù đã bọc ba tầng nhưng vẫn tỏa ra một luồng ánh sáng đỏ nhờ nhờ và hàn khí buốt giá khiến ngọn lửa trong các lồng đèn chao đảo dữ dội.
 
-"Sư bá!" Doãn Hàm Yên biến sắc, vội vã bước tới đỡ lấy Lệ Thu Thủy.
+"Sư tỷ!" Doãn Hàm Yên biến sắc, vội vã bước tới đỡ lấy Lệ Thu Thủy.
 
 Nhìn thấy vệt máu bầm trên khóe môi cựu Chưởng môn và vết chém rách toạc bên vai áo của bà, Doãn Hàm Yên quay sang Hạ Nương, giọng dồn dập:
 

@@ -24,12 +24,23 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ---
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Name | Provenance (Task/Subtask/SQLite) | Role & Kinship (`genealogy_matrix.md`) | Birth Year & Age (1191) | Biological Age Check ($\text{Age}_{\text{parent}} \ge \text{Age}_{\text{child}} + 16$) | Generational Addressing (POV <-> NPC, NPC <-> NPC) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Doãn Hàm Yên** | Task 12: Subtask 85 / SQLite | Lục Đại Môn Chủ Thúy Yên Môn; phu nhân Đường Nhất Trần; mẹ Doãn Tiêu Vũ (17) & Đường Hiểu (17); sư muội Lệ Thu Thủy; sư tỷ Chung Linh Tú | 1151 (40 tuổi) | $40 \ge 17 + 16 = 33$ (Đạt: sinh con năm 23 tuổi) | Hạ Nương (16) gọi "Chưởng môn", xưng "đệ tử". Doãn Hàm Yên gọi Lệ Thu Thủy (43) là "Lệ sư tỷ", gọi Hạ Nương là "ngươi". |
+| **Lệ Thu Thủy** | Task 12: Subtask 85 / SQLite | Ngũ Đại Môn Chủ (Cựu Chưởng môn Thúy Yên); sư tỷ Doãn Hàm Yên & Chung Linh Tú | 1148 (43 tuổi) | Không có con | Hạ Nương gọi "Sư bá", xưng "đệ tử". Lệ Thu Thủy gọi Doãn Hàm Yên là "Doãn sư muội". |
+| **Đan Bích Tú** | Task 12: Subtask 85 / SQLite | Đệ tử chấp pháp Thúy Yên Môn (Đời thứ 7) | 1172 (19 tuổi) | Không có con | Hạ Nương gọi "Đan sư tỷ", xưng "muội". |
+| **Ma Y Thần Tướng** | Task 12: Subtask 85 / SQLite | Thuật sĩ giang hồ | Không rõ (~45-50 tuổi) | N/A | Khách phương xa đối thoại bình đẳng với Lệ Thu Thủy / Doãn Hàm Yên. |
+
+---
+
 ## Purpose
 
 Thiết lập lăng kính nhân vật chính thứ ba: **Hạ Nương — Lăng kính Y đạo Thực chứng (The Empirical Healer)**. 
 - Mở ra không gian văn hóa, sinh kế và đời sống thực tế của nữ phái Thúy Yên Môn tại vùng thung lũng Điểm Thương Sơn bên bờ hồ Điền Trì (tuyệt đối không tiên hiệp, không thần thánh hóa).
-- Làm nổi bật sự giao thoa giữa y lý thực nghiệm (chẩn mạch, nắn xương, phân kim thảo mộc, độc chất) với gánh nặng kinh tài sau khi chuyển giao quyền lực sang Tân Chưởng môn Doãn Hàm Yên.
-- Đưa vào tình tiết then chốt từ nguyên bản KT2: Tiền Chưởng môn Lệ Thu Thủy đột ngột trở về sau thời gian biệt tích, mang theo dị nhân phong thủy Ma Y Thần Tướng và chiếc la bàn đồng cổ đo đạc bốn góc hoa viên, gieo mầm định mệnh cho việc khai quật hung ngọc Du Long Giác và thảm kịch Huyết Quang Tai.
+- Làm nổi bật sự giao thoa giữa y lý thực nghiệm (chẩn mạch, nắn xương, phân kim thảo mộc, độc chất) với gánh nặng kinh tài sau khi chuyển giao quyền lực sang Chưởng môn Doãn Hàm Yên (40 tuổi).
+- Đưa vào tình tiết then chốt từ nguyên bản KT2: Tiền Chưởng môn Lệ Thu Thủy (43 tuổi) đột ngột trở về sau thời gian biệt tích, mang theo dị nhân phong thủy Ma Y Thần Tướng và chiếc la bàn đồng cổ đo đạc bốn góc hoa viên, gieo mầm định mệnh cho việc khai quật hung ngọc Du Long Giác và thảm kịch Huyết Quang Tai.
 
 ---
 
@@ -37,7 +48,7 @@ Thiết lập lăng kính nhân vật chính thứ ba: **Hạ Nương — Lăng 
 
 - **Character (Hạ Nương):** 16 tuổi; y phục lụa lam nhạt Thúy Yên; tay áo giấu kim châm bạc, dao mổ gọt vỏ thảo mộc và túi da đựng cồn thuốc; ánh mắt sắc sảo, quan sát tỉ mỉ từng chi tiết sinh học, mạch máu, cơ khớp; tâm tính điềm tĩnh, lý trí thực chứng, coi sự sống chết của thể xác là quy luật tự nhiên, giữ khoảng cách cảm xúc (Alienation flaw).
 - **Relationship:**
-  - *Hạ Nương <-> Doãn Hàm Yên:* Tân Chưởng môn coi Hạ Nương là trợ thủ y dược tin cậy nhất nơi dược khố; Hạ Nương kính nể tính cách cương nghị, quyết đoán và sự lo toan thực tế cho chén cơm manh áo của sư tỷ.
+  - *Hạ Nương <-> Doãn Hàm Yên:* Chưởng môn coi Hạ Nương là trợ thủ y dược tin cậy nhất nơi dược khố; Hạ Nương kính nể tính cách cương nghị, quyết đoán và sự lo toan thực tế cho chén cơm manh áo của Chưởng môn.
   - *Hạ Nương <-> Lệ Thu Thủy:* Kính trọng vị Tiền Chưởng môn võ công cái thế nhưng khó hiểu trước vẻ u uất, trầm mặc của bà.
   - *Hạ Nương <-> Tỷ muội đồng môn (Đan Bích Tú, tiểu đệ tử Dược phòng):* Tận tâm cứu chữa nhưng lời lẽ gãy gọn, không thích an ủi sáo rỗng.
 - **Knowledge:**

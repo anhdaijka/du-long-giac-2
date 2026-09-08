@@ -30,4 +30,6 @@ Mandatory Rule 3: SOLID 5-Gate Review Runner (`.agents/rules/05-review.md`). M�
 
 Mandatory Rule 4: Session Auto-Resume Protocol. Khi bắt đầu một session mới (hoặc nhận tin nhắn đầu tiên): Agent luôn tự động đọc `author/session-state.md` để nắm bắt tức thì việc vừa xong và việc tiếp theo cần làm, chào ngắn gọn 2 câu và đề xuất hành động kế tiếp cho Tác giả. Sau mỗi mốc hoàn thành (draft xong, review xong, tác giả duyệt xong), Agent tự động cập nhật `author/session-state.md` (thuần Markdown, nhẹ nhàng, không SHA, không JSON phức tạp).
 
+Mandatory Rule 5: NPC Pedigree & Biological Age Sanity Protocol (`worldbuilding/factions/genealogy_matrix.md`). Tuyệt đối KHÔNG BỊA ĐẶT tuổi tác, phả hệ hoặc xưng hô của NPC theo cảm tính. Trước khi đưa bất kỳ NPC nào vào Chapter Brief, bắt buộc phải tra cứu SQLite `story_database.sqlite3` và đối soát `genealogy_matrix.md` để xác định cây huyết thống, quan hệ phu thê, con cái và thế hệ bối phận môn phái. Bắt buộc tuân thủ Công thức Tuổi Sinh Học: $\text{Tuổi Cha/Mẹ} \ge \text{Tuổi Con} + 16$. Cấm tuyệt đối đệ tử gọi cựu môn chủ đời trước là "sư tỷ" như bạn lứa. Mọi Chapter Brief thiếu bảng kiểm định này hoặc vi phạm bối phận đều bị Cổng Dừng 1 tự động từ chối!
+
 

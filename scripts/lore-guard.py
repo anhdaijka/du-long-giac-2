@@ -57,6 +57,11 @@ HALLUCINATION_PATTERNS = [
     (r"sát thủ Ảnh Xã", "Ảnh Xã là tử sĩ tình báo Cái Bang chống Kim, KHÔNG PHẢI sát thủ đối nghịch!"),
     (r"Ảnh Xã.*tràn xuống phương Nam", "Ảnh Xã hoạt động tại Bạch Thạch Sơn Trường và cài cắm sang Kim quốc, không tràn xuống phương Nam cướp ngọc!"),
     (r"Cầu Chỉ Thủy.*phản bội.*Thiên Nhẫn", "Cầu Chỉ Thủy bị vu cáo mớm cung, KHÔNG PHẢI phản đồ thực sự!"),
+    (r"Doãn Hàm Yên.*(mới ngoài đôi mươi|hai mươi hai tuổi|22 tuổi|chưởng môn trẻ tuổi)", "Doãn Hàm Yên 40 tuổi, Lục đại cựu môn chủ, mẹ Doãn Tiêu Vũ (17 tuổi), KHÔNG PHẢI mới ngoài đôi mươi!"),
+    (r"Chưởng môn sư tỷ.*Doãn Hàm Yên|Doãn Hàm Yên.*Chưởng môn sư tỷ", "Doãn Hàm Yên là tiền bối thế hệ Lục đại, Hạ Nương (16 tuổi) không gọi là Chưởng môn sư tỷ!"),
+    (r"Doãn Hàm Yên.*Lệ sư bá|Lệ sư bá.*Doãn Hàm Yên", "Doãn Hàm Yên và Lệ Thu Thủy là đồng bối sư muội - sư tỷ, Doãn Hàm Yên KHÔNG ĐƯỢC gọi Lệ Thu Thủy là sư bá!"),
+    (r"Bạch Cương.*(là|chính là|vốn là).*(phụ thân|cha|bố).*Bạch Thu Lâm|Bạch Thu Lâm.*(con gái|nữ nhi).*Bạch Cương|(phụ thân|cha|bố).*của Bạch Thu Lâm.*Bạch Cương", "Bạch Cương KHÔNG PHẢI cha Bạch Thu Lâm! Trong baijiang.lua Bạch Cương gọi 'Thu Lâm tỷ' và tự xưng 'đệ'! Thân phụ Bạch Thu Lâm là Tướng quân Bạch Phụ tại Biện Kinh (Task 450)."),
+    (r"Thu Di.*(giấu con|cho di ăn|con đi cùng Di|di định đợi)|di giấu con|cho di ăn lót dạ", "Tiêu Phùng (17 tuổi) và Bạch Thu Lâm (24 tuổi) chênh lệch 7 tuổi, quan hệ là TỶ - ĐỆ (xưng Thu Di / Tỷ — Đệ). Tuyệt đối KHÔNG xưng Di - con phi logic sinh học!"),
 ]
 
 def query_lore(term):
