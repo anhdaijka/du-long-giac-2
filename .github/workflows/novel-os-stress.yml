@@ -84,6 +84,8 @@ jobs:
         run: npm run execution:check
       - name: Prove Reliability v2 MVP execution is complete
         run: npm run execution:complete -- --manifest execution/reliability-layer-v2.json
+      - name: Prove Chapter 12 pre-draft pilot is complete
+        run: npm run execution:complete -- --manifest execution/chapter_12_predraft_pilot.json
       - name: Verify forward-only durable state writes
         env:
           PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
