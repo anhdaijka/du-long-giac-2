@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """
-Lore Guard: Programmatic enforcement of Novel-OS Lore Provenance & Anti-Hallucination.
-Ensures zero surface-level guessing of factions, black ops, and sect alignments.
-Queries SQLite `story_database.sqlite3` across all 8 tables to provide verified canonical truth.
+Lore Guard: known-regression scanner for Novel-OS lore mistakes.
+
+`--query` searches the KT2 SQLite corpus for source context.
+`--check` / `--scan` detect explicitly encoded regression patterns that have
+previously caused lore errors.
+
+IMPORTANT: a clean scan does NOT prove zero hallucination, full factual
+correctness, or claim-level grounding. Use the Reliability v2 Evidence/Claim
+layer and semantic source-aware review for those stronger questions.
 """
 import os
 import sys
@@ -52,7 +58,8 @@ KNOWN_ORGANIZATIONS = {
     "ORG-NGHIA-QUAN": "Nghĩa Quân"
 }
 
-# Forbidden hallucination patterns
+# Known regression patterns. This list is intentionally not treated as a
+# complete ontology or proof of factual correctness.
 HALLUCINATION_PATTERNS = [
     (r"sát thủ Ảnh Xã", "Ảnh Xã là tử sĩ tình báo Cái Bang chống Kim, KHÔNG PHẢI sát thủ đối nghịch!"),
     (r"Ảnh Xã.*tràn xuống phương Nam", "Ảnh Xã hoạt động tại Bạch Thạch Sơn Trường và cài cắm sang Kim quốc, không tràn xuống phương Nam cướp ngọc!"),
@@ -87,7 +94,7 @@ def query_lore(term):
                     table_matches.append((r[0], col, r[1]))
             except sqlite3.OperationalError:
                 continue
-        
+
         if table_matches:
             print(f"\n📁 Bảng: `{table}` ({len(table_matches)} kết quả)")
             for rowid, col, text in table_matches[:4]:
@@ -100,6 +107,7 @@ def query_lore(term):
             total_matches += len(table_matches)
 
     print(f"\n--> Tổng số kết quả tìm thấy: {total_matches}")
+    print("[NOTE] Search hits are evidence candidates, not automatic claim/canon proof.")
     return 0
 
 def check_file(filepath):
@@ -111,11 +119,10 @@ def check_file(filepath):
         content = f.read()
 
     errors = []
-    # 1. Check known hallucination patterns
     for pat, explanation in HALLUCINATION_PATTERNS:
         match = re.search(pat, content, re.IGNORECASE)
         if match:
-            errors.append(f"Phát hiện suy diễn sai lệch: '{match.group(0)}' -> {explanation}")
+            errors.append(f"Phát hiện known lore regression: '{match.group(0)}' -> {explanation}")
 
     if errors:
         print(f"\n❌ [LORE-GUARD FAIL] {filepath}")
@@ -123,14 +130,17 @@ def check_file(filepath):
             print(f"   - {err}")
         return 1
 
-    print(f"✅ [LORE-GUARD PASS] {filepath}: 0 lỗi lore / Zero Hallucination.")
+    print(
+        f"✅ [LORE-GUARD PASS] {filepath}: no encoded known-regression pattern detected. "
+        "This is not a zero-hallucination or claim-grounding proof."
+    )
     return 0
 
 def scan_all():
     print("\n=======================================================")
-    print("🛡️ [LORE-GUARD] SCANNING ALL PROJECT FILES FOR LORE INTEGRITY")
+    print("🛡️ [LORE-GUARD] SCANNING PROJECT FILES FOR KNOWN LORE REGRESSIONS")
     print("=======================================================")
-    
+
     scan_dirs = ["briefs", "chapters", "plot", "worldbuilding/factions"]
     failed = 0
     checked = 0
@@ -147,14 +157,14 @@ def scan_all():
                     if res != 0:
                         failed += 1
 
-    print(f"\n--> Quét hoàn tất: {checked} tệp, {failed} tệp vi phạm.")
+    print(f"\n--> Quét hoàn tất: {checked} tệp, {failed} tệp trúng known-regression pattern.")
     return 1 if failed > 0 else 0
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Novel-OS Lore Guard & Anti-Hallucination Tool")
+    parser = argparse.ArgumentParser(description="Novel-OS known lore-regression scanner and SQLite search helper")
     parser.add_argument("--query", "-q", type=str, help="Tra cứu từ khóa trên toàn bộ 8 bảng CSDL SQLite")
-    parser.add_argument("--check", "-c", type=str, help="Quét kiểm tra 1 file markdown cụ thể")
-    parser.add_argument("--scan", "-s", action="store_true", help="Quét kiểm tra toàn bộ thư mục truyện")
+    parser.add_argument("--check", "-c", type=str, help="Quét known-regression patterns trong 1 file markdown")
+    parser.add_argument("--scan", "-s", action="store_true", help="Quét known-regression patterns trong các thư mục truyện")
 
     args = parser.parse_args()
 
@@ -165,5 +175,4 @@ if __name__ == "__main__":
     elif args.scan:
         sys.exit(scan_all())
     else:
-        # Default: scan all
         sys.exit(scan_all())
