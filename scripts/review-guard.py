@@ -20,6 +20,7 @@ STATUS_RE = re.compile(r"\*\*(PASS|FAIL)\*\*", re.IGNORECASE)
 VERDICT_RE = re.compile(r"\*\*(APPROVED|REVISE_REQUIRED)\*\*", re.IGNORECASE)
 EVIDENCE_LOC_RE = re.compile(r"\*\*Vị trí\*\*:\s*`L(\d+)-L(\d+)`")
 QUOTE_RE = re.compile(r"\*\*Trích đoạn\*\*:\s*(.+)")
+V2_REVIEW_NAME_RE = re.compile(r"^chapter_(.+)_review_v2\.md$")
 
 
 def normalize_text(value: str) -> str:
@@ -196,11 +197,33 @@ def infer_paths(chapter: str) -> tuple[Path, Path]:
     )
 
 
+def discover_v2_reviews() -> list[tuple[Path, Path]]:
+    reviews_root = Path("reviews")
+    if not reviews_root.exists():
+        return []
+
+    pairs: list[tuple[Path, Path]] = []
+    for review_path in sorted(reviews_root.rglob("chapter_*_review_v2.md")):
+        match = V2_REVIEW_NAME_RE.match(review_path.name)
+        if not match:
+            continue
+        chapter_suffix = match.group(1)
+        chapter_path = Path("chapters") / f"chapter_{chapter_suffix}.md"
+        pairs.append((chapter_path, review_path))
+    return pairs
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Validate full-read review coverage against the current manuscript."
     )
-    parser.add_argument("--chapter-number", help="Chapter suffix, e.g. 10, 08a")
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--chapter-number", help="Chapter suffix, e.g. 10, 08a")
+    mode.add_argument(
+        "--all-v2",
+        action="store_true",
+        help="Validate all reviews/**/chapter_*_review_v2.md files without touching legacy reviews",
+    )
     parser.add_argument("--chapter", help="Explicit chapter path")
     parser.add_argument("--review", help="Explicit review path")
     parser.add_argument(
@@ -210,28 +233,41 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    if args.chapter_number:
+    pairs: list[tuple[Path, Path]] = []
+    if args.all_v2:
+        if args.chapter or args.review:
+            parser.error("--chapter/--review cannot be combined with --all-v2")
+        pairs = discover_v2_reviews()
+        if not pairs:
+            print("[REVIEW-GUARD] No v2 review artifacts found; nothing to validate.")
+            return 0
+    else:
         chapter_path, review_path = infer_paths(args.chapter_number)
         if args.chapter:
             chapter_path = Path(args.chapter)
         if args.review:
             review_path = Path(args.review)
-    elif args.chapter and args.review:
-        chapter_path, review_path = Path(args.chapter), Path(args.review)
-    else:
-        parser.error("Use --chapter-number, or provide both --chapter and --review")
+        pairs = [(chapter_path, review_path)]
 
-    errors = validate_review(chapter_path, review_path, args.require_approval)
-    if errors:
-        print("[REVIEW-GUARD FAILED]")
-        for error in errors:
-            print(f"  - {error}")
+    all_errors: list[str] = []
+    for chapter_path, review_path in pairs:
+        print(f"=== REVIEW CONTRACT: {review_path} ===")
+        errors = validate_review(chapter_path, review_path, args.require_approval)
+        if errors:
+            for error in errors:
+                print(f"  [FAIL] {error}")
+            all_errors.extend(f"{review_path}: {error}" for error in errors)
+        else:
+            print(
+                "  [PASS] Review structurally covers the current manuscript and contains "
+                "line-grounded evidence. Literary judgment remains semantic."
+            )
+
+    if all_errors:
+        print(f"\n[REVIEW-GUARD FAILED] {len(all_errors)} review-contract issue(s).")
         return 1
 
-    print(
-        "[REVIEW-GUARD PASS] Review structurally covers the current manuscript and "
-        "contains line-grounded evidence. Literary judgment remains semantic."
-    )
+    print("\n[REVIEW-GUARD PASS] All selected v2 review contracts satisfied.")
     return 0
 
 
