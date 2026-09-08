@@ -24,6 +24,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+SCRIPT_DIR = Path(__file__).resolve().parent
 DURABLE_PREFIXES = (
     "characters/",
     "worldbuilding/",
@@ -92,9 +93,9 @@ def find_v2_review(chapter: str) -> tuple[Path | None, list[str]]:
 
 
 def verify_review(chapter: str, review_path: Path) -> list[str]:
-    script = Path("scripts") / "review-guard.py"
+    script = SCRIPT_DIR / "review-guard.py"
     if not script.is_file():
-        return ["Missing scripts/review-guard.py required for state promotion verification"]
+        return [f"Missing {script} required for state promotion verification"]
     result = run(
         [
             sys.executable,
@@ -116,9 +117,9 @@ def verify_review(chapter: str, review_path: Path) -> list[str]:
 
 
 def verify_claim_contract(chapter: str) -> list[str]:
-    script = Path("scripts") / "claim-guard.py"
+    script = SCRIPT_DIR / "claim-guard.py"
     if not script.is_file():
-        return ["Missing scripts/claim-guard.py required for state promotion verification"]
+        return [f"Missing {script} required for state promotion verification"]
     result = run([sys.executable, str(script), "--chapter", chapter])
     if result.returncode == 0:
         return []
@@ -174,8 +175,6 @@ def validate_changeset(base: str, head: str = "HEAD") -> list[str]:
         errors.extend(approval_errors(Path(path)))
         chapters.append(chapter)
 
-    # Only run downstream promotion prerequisites after every changed Canon Diff
-    # has a recorded checked approval marker. This keeps failure output focused.
     if errors:
         return errors
 
