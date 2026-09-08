@@ -60,6 +60,8 @@ jobs:
           node-version: 20
       - name: Install pinned skills locally
         run: npm run bootstrap -- --clean
+      - name: Prospective Chapter 12 source probe
+        run: python scripts/query_ch12_source.py
       - name: Run Reliability Layer v2 regression guards
         run: npm run reliability:test
       - name: Run lexical prose scan
