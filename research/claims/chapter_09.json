@@ -1,0 +1,86 @@
+{
+  "chapter": "09",
+  "claims": [
+    {
+      "claim_id": "CL-09-001",
+      "claim": "Game Task 157 is titled 'Thân Thế Chi Mê'.",
+      "epistemic_status": "DIRECT_SOURCE",
+      "evidence": ["EV-09-001"],
+      "durability": "durable",
+      "promotion": "author_approval_required",
+      "reasoning": ""
+    },
+    {
+      "claim_id": "CL-09-002",
+      "claim": "Subtask 320 belongs to Task 157 and opens with Giới Sơn Tông found in the bandit camp while worried about a problem.",
+      "epistemic_status": "DIRECT_SOURCE",
+      "evidence": ["EV-09-002"],
+      "durability": "durable",
+      "promotion": "author_approval_required",
+      "reasoning": ""
+    },
+    {
+      "claim_id": "CL-09-003",
+      "claim": "Subtask 321 states that Bạch Cương is being pursued while the nghĩa quân phản đồ are sabotaging the water-control mechanism.",
+      "epistemic_status": "DIRECT_SOURCE",
+      "evidence": ["EV-09-003"],
+      "durability": "durable",
+      "promotion": "author_approval_required",
+      "reasoning": ""
+    },
+    {
+      "claim_id": "CL-09-004",
+      "claim": "Subtask 322 describes continuing assassin reinforcements whose appearance is strange and not like people of the Central Plains.",
+      "epistemic_status": "DIRECT_SOURCE",
+      "evidence": ["EV-09-004"],
+      "durability": "durable",
+      "promotion": "author_approval_required",
+      "reasoning": ""
+    },
+    {
+      "claim_id": "CL-09-005",
+      "claim": "Subtask 323 concerns searching for scroll fragments in order to obtain a prophecy poem.",
+      "epistemic_status": "DIRECT_SOURCE",
+      "evidence": ["EV-09-005"],
+      "durability": "durable",
+      "promotion": "author_approval_required",
+      "reasoning": ""
+    },
+    {
+      "claim_id": "CL-09-006",
+      "claim": "Task 157 / Subtasks 320-323 are a source arc called 'Bảo Vệ Mật Tịch' centered on a guarded scripture chest at Miếu Thần Ba Lăng.",
+      "epistemic_status": "UNRESOLVED",
+      "evidence": ["EV-09-001", "EV-09-002", "EV-09-003", "EV-09-004", "EV-09-005"],
+      "durability": "ephemeral",
+      "promotion": "blocked",
+      "reasoning": "The cited identifiers resolve to Task 'Thân Thế Chi Mê' and different source events. The current cited source packet does not establish the asserted Miếu Thần / guarded scripture arc."
+    },
+    {
+      "claim_id": "CL-09-007",
+      "claim": "The four attackers at Miếu Thần are specifically Tây Hạ Nhất Phẩm Đường operatives.",
+      "epistemic_status": "UNRESOLVED",
+      "evidence": ["EV-09-004"],
+      "durability": "ephemeral",
+      "promotion": "blocked",
+      "reasoning": "The cited Subtask 322 evidence only supports strange/non-Central-Plains appearance at this level of evidence; it does not identify these attackers as Nhất Phẩm Đường."
+    },
+    {
+      "claim_id": "CL-09-008",
+      "claim": "A source artifact named 'Vô Danh Mật Tịch' contains coordinates and operating instructions for a Động Đình Trụ Thần Thạch network.",
+      "epistemic_status": "UNRESOLVED",
+      "evidence": [],
+      "durability": "ephemeral",
+      "promotion": "blocked",
+      "reasoning": "No matching source evidence has yet been registered for this durable artifact/network assertion."
+    },
+    {
+      "claim_id": "CL-09-009",
+      "claim": "Du Long Giác is the unique geomagnetic key that locates and activates the entire Trụ Thần Thạch network and can enable destruction of a hundred-thousand-man army.",
+      "epistemic_status": "UNRESOLVED",
+      "evidence": [],
+      "durability": "ephemeral",
+      "promotion": "blocked",
+      "reasoning": "This is a strong causal/mechanical lore assertion in the manuscript, but no source evidence has yet been registered for it."
+    }
+  ]
+}
