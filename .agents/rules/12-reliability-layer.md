@@ -29,7 +29,7 @@ If current repository text differs from an earlier agent version, treat the diff
 - requiring hashes, revision IDs, reconciliation metadata, or rollback before continuing;
 - silently changing prose because a claim fails canon validation.
 
-If prose contains a durable claim that conflicts with source/canon, preserve the prose, flag the claim, and block only unsupported canon promotion.
+If prose contains a durable claim that conflicts with source/canon, preserve the prose, flag the claim, and block only unsupported source/canon promotion as appropriate.
 
 ---
 
@@ -70,11 +70,35 @@ python scripts/claim-guard.py --chapter XX
 
 - `DIRECT_SOURCE` requires concrete source-verified evidence.
 - `SOURCE_SUPPORTED_INFERENCE` requires source-verified evidence + explicit reasoning and cannot be auto-promoted.
-- `UNRESOLVED` must remain blocked.
-- `ADAPTATION_DECISION` must never be presented as if the source required it.
+- `UNRESOLVED` must remain blocked as a source-truth proposition.
+- `ADAPTATION_DECISION` must never be presented as if the raw source required it.
 - `NOVELIZATION_BRIDGE` may realize connective prose but may not silently create durable source truth.
 - No durable canon state may be inferred merely because all involved entity names are valid.
 - Every durable canon promotion still requires Author approval, including `DIRECT_SOURCE`.
+
+### Source truth and novel canon are separate axes
+
+A proposition may be unsupported or unresolved in the raw game source while still being valid **novel canon** because the Author explicitly approved it as an adaptation.
+
+Therefore:
+
+- do not erase or rollback an approved novel-canon decision merely because SQLite lookup does not prove it;
+- do not relabel an approved adaptation as `DIRECT_SOURCE` merely because it now exists in `characters/`, `worldbuilding/`, `plot/`, or an earlier chapter;
+- when both views matter, keep two explicit propositions: an `UNRESOLVED` raw-source proposition and an `ADAPTATION_DECISION` novel-canon proposition.
+
+Promotion states:
+
+- `author_approval_required` — proposed durable truth; not yet approved;
+- `author_approved` — durable novel canon already approved by the Author;
+- `blocked` — cannot be promoted in its current epistemic state.
+
+`promotion: author_approved` requires a repository-relative `approval_ref` pointing to a Canon Diff containing a checked Author approval line such as:
+
+```text
+- [x] Phê chuẩn toàn văn Đề xuất Canon Diff Chương XX.
+```
+
+`claim-guard.py` verifies that the referenced file exists and contains the checked approval marker. This is recorded approval verification; it does not prove raw-source entailment.
 
 ---
 
@@ -126,8 +150,9 @@ Every verifier must describe only what it actually checks.
 - `lore-grounder.py`: entity plausibility / closed-world entity check.
 - `lore-guard.py`: known-regression scan for encoded lore mistakes.
 - `evidence_guard.py`: SQLite row/field/excerpt provenance verification.
-- `claim-guard.py`: source-verified evidence + claim structural discipline.
+- `claim-guard.py`: source-verified evidence + claim structural discipline + recorded approval-ref validation.
 - `review-guard.py`: full-read coverage and current-line evidence structure.
+- `state-commit-guard.py`: forward-only changeset check for new durable-state writes and checked Canon Diff approval.
 - semantic Reviewer: prose, causality, voice, show-vs-tell, humor, continuity, and claim meaning.
 
 **PROHIBITED**: translating a lower-level PASS into claims such as:
@@ -152,7 +177,30 @@ Examples:
 - source evidence preparation complete -> Evidence Packet + `evidence_guard` PASS;
 - claim preparation complete -> Evidence Packet + Claim Ledger + `claim-guard` PASS;
 - structural review complete -> current chapter fully covered + `review-guard` PASS;
-- approved review complete -> `review-guard --require-approval` PASS plus Author approval under Hard Stop 2.
+- approved review complete -> `review-guard --require-approval` PASS plus Author approval under Hard Stop 2;
+- new durable state commit complete -> checked Canon Diff in the same changeset + `state-commit-guard` PASS.
+
+### Forward-only State Commit Gate
+
+Reliability v2 does **not** re-audit all historical state before work can continue.
+
+For new changes only, if a changeset modifies any file under:
+
+- `characters/`
+- `worldbuilding/`
+- `plot/`
+
+then the same changeset must also contain at least one changed `revisions/chapter_XX_canon_diff.md` with a checked Author approval line.
+
+Run locally with an explicit base ref:
+
+```bash
+python scripts/state-commit-guard.py --base <base-ref>
+```
+
+CI calculates the base commit and enforces this automatically.
+
+This guard proves that the changeset records an approved Canon Diff. It does not authenticate the human identity behind the checkbox and does not semantically prove that every ledger edit matches every sentence in the diff; those remain separate workflow responsibilities.
 
 Do not add manuscript hashes, immutable revision locks, workflow databases, or mandatory Author-edit metadata.
 
