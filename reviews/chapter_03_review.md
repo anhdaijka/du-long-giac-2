@@ -3,7 +3,7 @@
 ## Scope
 
 - **Chapter:** Chương 03 — *Hương Dược Bách Hoa* (`chapters/chapter_03.md`)
-- **Dung lượng:** **6.859 từ** (Bản thảo phát triển tự nhiên, dày dặn, giàu chiều sâu giác quan và thế sự Nam Cương)
+- **Dung lượng:** **7.372 từ** (Bản thảo phát triển tự nhiên, dày dặn, giàu chiều sâu giác quan, thế sự Nam Cương và tính trinh thám quân sự sắc bén)
 - **POV:** Hạ Nương (16 tuổi — Ngôi thứ ba hạn tri *Deep Third-Person Limited*)
 - **Địa bàn:** Dược phòng Điền Trì, Hậu đình Xuân Mai Nhã Trúc, Tứ Đại Hoa Viên (Xuân - Hạ - Thu - Đông), Bách Hoa Cốc, Điểm Thương Sơn (Đại Lý / Tây Nam)
 - **Mốc thời gian song hành:** Ngày 1191-08-17 (Sáng sớm đến Hoàng hôn)
@@ -23,8 +23,9 @@
 ### Gate B: Blind Reader & Narrative Propulsion — **PASS**
 - **Nhịp điệu cốt truyện (Pacing & Propulsion)**:
   - *Phân cảnh 1 (Dược phòng Điền Trì)*: Khởi đầu bằng không khí tĩnh mịch sớm mai bên hồ Điền Trì, tiếng chày giã thuốc bằng cẩm thạch và ca cấp cứu nắn khớp, trích nọc rắn cho tiểu đệ tử tuần sơn. Thiết lập vững chắc lăng kính y lý thực nghiệm sắc sảo, điềm tĩnh của Hạ Nương.
-  - *Phân cảnh 2 (Hậu đình Xuân Mai Nhã Trúc)*: Nâng dần xung đột thế sự. Tân Chưởng môn Doãn Hàm Yên lo toan bài toán kinh tài, kho dược hao hụt sau bão lũ; Tiền Chưởng môn Lệ Thu Thủy bất ngờ trở về sau thời gian bặt vô âm tín với tâm trạng u uất, bi thương của mối tình dang dở trong mưa gió nhiều năm trước, dắt theo quái nhân phong thủy Ma Y Thần Tướng mang la bàn cổ.
-  - *Phân cảnh 3 (La bàn bát quái & Bách Hoa Trận)*: Cao trào kịch tính. Hạ Nương dùng y lý khoáng vật phản biện luận điệu ma quái; hành trình đo đạc 4 hoa viên phát hiện dấu vết bầy sói xám hung hãn đào bới quanh cấm địa; ráp sơ đồ chữ thập hé lộ Du Long Giác nằm tại trung tâm Bách Hoa Trận; lời sấm truyền rợn người của Ma Y Thần Tướng về "huyết quang tai" và quyết định mù quáng của Lệ Thu Thủy. Kết thúc bằng dư ba trầm lắng, u tối của đêm tháng Tám Điểm Thương Sơn.
+  - *Phân cảnh 2 (Hậu đình Xuân Mai Nhã Trúc)*: Nâng dần xung đột thế sự. Tân Chưởng môn Doãn Hàm Yên lo toan bài toán kinh tài, kho dược hao hụt sau bão lũ; Tiền Chưởng môn Lệ Thu Thủy bất ngờ trở về mang theo Ma Y Thần Tướng và la bàn cổ, tiết lộ nguồn gốc Du Long Giác là báu vật trấn quốc thời Tống Thái Tổ Triệu Khuông Dẫn do Tổ sư Doãn Tuyết Dao trấn yểm và biến cố giang hồ râm ran tin đồn 10 ngày trước ở Nga My.
+  - *Phân cảnh 3 (La bàn bát quái & Bẫy Mượn đao đào ngọc)*: Đỉnh cao trinh thám và thế sự. Doãn Hàm Yên chất vấn câu hỏi sinh tử: Vì sao mật báo Thành Đô báo giang hồ phương Bắc râm ran tin tức Du Long Giác ở Thúy Yên từ 3 ngày trước khi môn phái chưa hay biết? Ma Y Thần Tướng vạch trần âm mưu "mượn đao đào ngọc" của ngoại bang. Tình thế khẩn cấp "ngồi trên miệng núi lửa": từ trường bộc phát, kim sắt điên đảo, sói Điểm Thương phát cuồng cắn xé đệ tử, đe dọa nổ vỡ cơ quan ngầm khiến trận pháp tự sụp đổ. Lệ Thu Thủy nhận lãnh trách nhiệm cảm tử xông vào dẹp sói để đào ngọc và phong tỏa bằng hộp đồng bọc chì ngâm dầu trẩu. Doãn Hàm Yên quyết đoán hạ lệnh xuất quân bảo vệ sơn môn.
+- **Dư ba nghệ thuật**: Kết thúc bằng hình ảnh Hạ Nương đứng bên lan can nhìn chiếc la bàn run bần bật, cảm nhận rõ rệt mùi máu tanh giang hồ sắp đổ xuống Điền Trì.
 
 ### Gate C: Character Agency, Martial Progression & Living Texture — **PASS**
 - **Khử triệt để yếu tố tiên hiệp**: Nữ phái Thúy Yên không phải chốn thần tiên bay lượn trên mây, mà là một tổ chức giang hồ kiếm phái kết hợp y thuật có sinh kế thực tế: sống bằng nghề dệt thêu sa lụa bán cho thương nhân Đại Lý và bào chế thảo dược cung cấp cho các tiêu cục Trà Mã Cổ Đạo.
@@ -37,7 +38,7 @@
 - **Linter Static Check**: `npm run lint:prose` đạt **0 lỗi vi phạm** tuyệt đối.
 
 ### Gate E: Word Count & Structural Substantiality — **PASS**
-- **Dung lượng**: **6.859 từ** (Vượt sàn cứng 3.500 từ; bản thảo liền mạch, các phân cảnh gắn kết chặt chẽ từ Dược phòng $\rightarrow$ Hậu đình $\rightarrow$ Tứ đại hoa viên $\rightarrow$ Quyết định phá trận, giữ trọn vẹn nhịp thở nghệ thuật mà không bị gãy đoạn).
+- **Dung lượng**: **7.372 từ** (Vượt sàn cứng 3.500 từ; bản thảo liền mạch, các phân cảnh gắn kết chặt chẽ từ Dược phòng $\rightarrow$ Hậu đình $\rightarrow$ Tứ đại hoa viên $\rightarrow$ Quyết định cảm tử phá trận, giữ trọn vẹn nhịp thở nghệ thuật mà không bị gãy đoạn).
 
 ---
 

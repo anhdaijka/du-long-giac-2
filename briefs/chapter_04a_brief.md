@@ -26,6 +26,19 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ---
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Xuất Hiện Trong Chapter | Tuổi Theo Lore / Niên Biểu (1191) | Năm Sinh (Âm Lịch) | Bối Phận / Thế Hệ / Quan Hệ Gia Đình | Kiểm Tra Độ Lệch Tuổi Sinh Học ($\Delta \ge 16$) | Danh Xưng / Cách Gọi Chuẩn Mực Trong Chapter |
+| :--- | :---: | :---: | :--- | :--- | :--- |
+| **Tiêu Phùng** | **17 tuổi** | 1174 (Giáp Ngọ) | Đứa trẻ mồ côi Hán Thủy; được Bạch Cương và toàn trại nghĩa quân nuôi nấng | Protagonist; nhỏ hơn Bạch Thu Lâm bảy tuổi | Thu Di / Tỷ — Đệ (xưng Đệ với Thu Di; Tiêu đại gia) |
+| **Bạch Thu Lâm** | **24 tuổi** | 1167 (Đinh Hợi) | Nữ thủ lĩnh Nghĩa quân Ba Lăng; con Tướng quân Bạch Phụ tại Biện Kinh | Hơn Tiêu Phùng bảy tuổi ($\Delta = 7$); nghĩa tỷ kiêm người bảo hộ | Thu Di / Thu Lâm tỷ (xưng Tỷ với Tiêu Phùng) |
+| **Thẩm Thiết Thạch** | **~28 tuổi** | ~1163 (Quý Mùi) | Dũng sĩ nghĩa quân tiền triều; con quan Binh bộ; đệ đệ Thẩm Hà Diệp | Nhỏ hơn Thẩm Hà Diệp ~8 tuổi; bằng hữu sinh tử Hứa Sĩ Vĩ | Thiết Thạch huynh / Tiểu Thạch Đầu |
+| **Thẩm Hà Diệp** | **36 tuổi** | 1155 (Ất Mùi) | Chủ tiệm phòng cụ; con gái Binh bộ Thị lang; tỷ tỷ Thẩm Thiết Thạch | Lớn hơn Thẩm Thiết Thạch ~8 tuổi; coi Tiêu Phùng như đệ đệ | Thẩm đại tỷ / Thẩm tỷ tỷ |
+| **Hứa Sĩ Vĩ** | **~23 tuổi** | ~1168 (Mậu Tý) | Thư sinh nho nhã; học trò đại phu Trương Trảm Kinh | Đồng trang lứa; mang ơn cứu mạng của Thẩm Thiết Thạch | Sĩ Vĩ đệ / Hứa đại ca |
+| **Điềm Tửu Thúc** | **~52 tuổi** | ~1139 (Kỷ Mùi) | Lão thợ rèn nghĩa quân; bậc tiền bối chỉ điểm võ nghệ bến sông | Tiền bối cách 1 thế hệ ($\Delta = 35$ tuổi so với Tiêu Phùng) | Điềm thúc (xưng Lão tử — Nhãi con / Cháu) |
+
+---
+
 ## Purpose
 
 1. **Khắc họa chiều sâu bi tráng của Nghĩa quân tiền triều (Living Lore & War Trauma):** Phơi bày vết thương tàn khốc của chiến tranh sa trường qua số phận của Thẩm Thiết Thạch — một dũng sĩ hào kiệt con nhà tướng bị trúng hàn độc biến thành phế nhân nửa điên nửa tỉnh, sống nhờ máu hươu và rượu nóng; đồng thời khắc họa nỗi đau đáu tình thân của người em trai dù phát điên vẫn muốn đoạt lại chuỗi Hắc Trân Châu (kỷ vật gia truyền duy nhất của cố mẫu thân từng bị sơn tặc cướp rơi vào hang gấu) làm quà sinh nhật cho tỷ tỷ Thẩm Hà Diệp.
@@ -94,7 +107,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 ### Phân cảnh 3: Nước Mắt Thẩm Hà Diệp & Nhịp Cầu Sang Chương 04b (Subtask 319 -> 312)
 - **Diễn biến:** Tiêu Phùng cùng Hứa Sĩ Vĩ mang chuỗi Hắc Trân Châu về phố huyện trao cho Thẩm Hà Diệp tại tiệm phòng cụ.
 - **Cảm xúc thăng hoa:** Thẩm Hà Diệp cầm chuỗi hạt đen nhánh lóng lánh, bàn tay run rẩy sờ vào những hạt ngọc đượm mùi bùn nước, quỵ ngã xuống bàn khóc nức nở: *"Tiểu Thạch Đầu... đệ vẫn nhớ ngày sinh nhật của tỷ..."*. Tiêu Phùng đứng tựa lưng vào khung cửa tiệm, miệng ngậm cọng cỏ lau nhưng khóe mắt đỏ hoe; chàng bất giác nghĩ đến người cha vô danh và khát khao hơi ấm ruột thịt.
-- **Cầu nối sang Chương 04b:** Thu Di (Bạch Thu Lâm) bước vào tiệm phòng cụ, nhìn thấy nghĩa cử của Tiêu Phùng liền mỉm cười tán thưởng; nhưng bà nghiêm giọng giao ngay nhiệm vụ tiếp theo: bảo chàng sang tiệm tạp hóa gặp Bất Động Tiên Sinh lấy bạt dầu và dây chão củng cố mạn thuyền tuần tra bến Giang Tân, tiện thể sang tiền trang Tạ Hiền giải quyết đống sổ nợ cũ tồn đọng.
+- **Cầu nối sang Chương 04b:** Thu Di (Bạch Thu Lâm) bước vào tiệm phòng cụ, nhìn thấy nghĩa cử của Tiêu Phùng liền mỉm cười tán thưởng; nhưng nàng nghiêm giọng giao ngay nhiệm vụ tiếp theo: bảo chàng sang tiệm tạp hóa gặp Bất Động Tiên Sinh lấy bạt dầu và dây chão củng cố mạn thuyền tuần tra bến Giang Tân, tiện thể sang tiền trang Tạ Hiền giải quyết đống sổ nợ cũ tồn đọng.
 - **Outcome:** Tiêu Phùng ngoáy mũi, cười cợt bắng nhắng nhận lời rồi rảo bước ra phố huyện giữa trưa oi nồng $\rightarrow$ Dẫn thẳng vào câu mở đầu của Chương 04b!
 
 ---

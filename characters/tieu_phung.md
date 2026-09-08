@@ -25,8 +25,8 @@ weapon: "Đoản côn gỗ nghiến bọc sắt -> Đả Cẩu Bổng (Hàng Lon
 ---
 
 ## 2. XUẤT THÂN & THÂN THẾ LỊCH SỬ (BACKSTORY & PROVENANCE)
-* **Gốc gác:** Hậu duệ nhánh thứ hoàng tộc Đoàn thị Đại Lý (Nam Chiếu), nhưng phụ mẫu bị thảm sát trong biến cố **Ma Y Cốc (năm 1174)** khi chàng mới 3 tuổi.
-* **Dưỡng dục:** Được **Bạch Thu Lâm (Thu Di)** – thủ lĩnh Nghĩa quân Ba Lăng Huyện – nhặt về từ bờ sậy Động Đình Hồ và giao cho dân chài thôn Giang Tân nuôi nấng. Lớn lên nhờ cơm nguội của cả làng, cá tôm sông hồ và những lần la liếm ở lò rèn/tiệm binh khí của **Điềm Tửu Thúc** (`Task 157`).
+* **Gốc gác:** Hậu duệ nhánh thứ hoàng tộc Đoàn thị Đại Lý (Nam Chiếu), phụ thân là Tiêu Lăng Phong (đại đệ tử Ma Y Cốc). Khi Tiêu Phùng vừa mới chào đời còn quấn tã trong biến cố **Hán Thủy Cổ Độ (năm Giáp Ngọ 1174)**, phụ thân chàng đã liều mình cản hậu rồi mất tích.
+* **Dưỡng dục:** Được **Bạch Cương** (thân tín cận vệ của Tiêu Lăng Phong) liều chết ẵm thoát khỏi trận chiến Hán Thủy, cùng thân phụ của Bạch Thu Lâm (Tướng quân Bạch Phụ) hộ tống đưa về Ba Lăng Huyện. Chàng được cả trại nghĩa quân Ba Lăng và dân chài thôn Giang Tân cưu mang nuôi nấng. Lớn lên nhờ cơm nguội của cả làng, cá tôm sông hồ và những lần la liếm ở lò rèn/tiệm binh khí của **Điềm Tửu Thúc** (`Task 157`). **Bạch Thu Lâm (Thu Di)** lớn hơn chàng 7 tuổi, vừa là nghĩa tỷ vừa là người bảo hộ trưởng thành bên chàng.
 * **Thái độ với thân thế:** Quyết liệt chối bỏ huyết mạch quý tộc xa lạ. Đối với Tiêu Phùng, "hoàng tử" hay "vương gia" chỉ là những cái danh hão rước họa diệt thân; chàng chỉ nhận mình là thằng nhóc ăn chực của Ba Lăng Huyện.
 
 ---
@@ -64,7 +64,7 @@ weapon: "Đoản côn gỗ nghiến bọc sắt -> Đả Cẩu Bổng (Hàng Lon
 ---
 
 ## 5. MẠNG LƯỚI QUAN HỆ (RELATIONSHIPS)
-* **Bạch Thu Lâm (Thu Di):** Tôn kính tuyệt đối như mẹ ruột. Dù mồm mép hay cằn nhằn chuyện bị sai vặt quét sân gánh nước, nhưng hễ ai đụng đến một cọng tóc của Thu Di thì Tiêu Phùng sẵn sàng liều mạng đâm chém.
+* **Bạch Thu Lâm (Thu Di):** Nghĩa tỷ kiêm người bảo hộ trưởng thành, lớn hơn chàng 7 tuổi. Dù mồm mép bắng nhắng hay cằn nhằn chuyện bị sai vặt quét sân gánh nước và quen thói xưng Di - con/cháu theo tập tục dân dã sông nước bến đò, nhưng Tiêu Phùng tôn kính nàng tuyệt đối; hễ ai đụng đến một cọng tóc của Thu Di thì chàng sẵn sàng liều mạng đâm chém.
 * **Bạch Cương:** Ân nhân cận vệ mười bảy năm trước. Trùng phùng tại Tuyệt Vấn Pha (Chương 05), trao chiếc khánh bạc và cùng giải mã trục cuốn sấm thi.
 * **Điềm Tửu Thúc:** "Bạn nhậu già" kiêm ân sư không chính thức. Tiêu Phùng thường trộm rượu của thôn trưởng đem biếu Điềm Tửu Thúc để đổi lấy vài chiêu gậy bọc sắt.
 * **Tĩnh Xuyên (Đồng minh song hành):** Oan gia khắc khẩu. Tiêu Phùng coi tính kỷ luật sa trường lạnh lùng của Tĩnh Xuyên là "cứng nhắc như khúc gỗ gõ mõ"; nhưng trong sinh tử lại là người hiểu rõ gánh nặng đại cuộc của Tĩnh Xuyên nhất.

@@ -1,99 +1,129 @@
-# Proposed Canon Diff: Chapter 02 — Chiến Thuyền Tỷ Võ (02a & 02b)
+# Đề Xuất Canon Diff: Chương 02 — Chiến Thuyền Tỷ Võ (02a & 02b)
 
-> Đề xuất cập nhật trạng thái thế giới sau khi Chương 02a & 02b được Tác giả phê duyệt.
-
-## Character state
-
-```diff
-[Tĩnh Xuyên]
-- Tuổi: 20 tuổi (tuổi nhược quán).
-- Chức vị: Tiểu tướng thị vệ thuộc trướng Quý tổng quản, kỵ binh thiết giáp Thanh Loa Đảo.
-- Thể trạng & Vũ khí: Thân hình cao lớn vạm vỡ; khoác chiến giáp vảy bạc xích sắt sẫm màu nước mặn; cầm Bát Hàn Thiết Thương (nặng 23 cân, khâu nối bọc da đầu hổ mòn lông tơ).
-- Tâm trạng: Trầm tĩnh, tôn sùng kỷ luật sắt sa trường, hiếu thuận sâu sắc với mẹ mù Diệp Mẫu.
-+ Chuyển biến: Tận mắt chứng kiến sự chuyển giao quyền lực lịch sử; được Tân Bang chủ Dương Thiết Tâm điểm thương chỉ điểm và tấm tắc ngợi khen khí chất con nhà tông; nhận thức rõ sự dung hợp giữa thương pháp sa trường và kiếm ý Côn Lôn; sẵn sàng đón nhận quân lệnh từ tân chủ.
-
-[Dương Thiết Tâm]
-- Tuổi: Ngoài tam tuần (trạc 30 tuổi).
-- Xuất thân: Nghĩa tử Lão Bang chủ Anh Cô; từng bái Kiếm Hoàng Sở Khi Thiên phái Côn Lôn làm sư phụ.
-+ Trạng thái mới: Chính thức tiếp nhận đồng bài Bang chủ đời thứ hai của Thiên Vương Bang sau khi dùng thương pháp đả bại Tam đại dũng tướng cựu trào (Tần Công Xích, Lê Việt, Lưu Mặc); phong độ đôn hậu, khiêm nhường, thu phục nhân tâm.
-
-[Dương Anh (Anh Cô)]
-+ Trạng thái mới: Chính thức thoái ẩn khỏi ngôi vị Bang chủ sau hơn mười năm bặt vô âm tín; cởi bỏ chiến bào chỉ huy, mặc áo tơi lá chèo thuyền nan rẽ sóng về Hồ Tâm Cô Đảo tịnh dưỡng những năm tháng cuối đời.
-
-[Lâu Nhất Quan]
-+ Trạng thái mới: Thất bại trong nỗ lực dùng võ lực cản bước Dương Thiết Tâm; buộc phải quỳ phục nhận tân chủ nhưng bằng mặt không bằng lòng, ôm mối uất hận và nghi kỵ sâu sắc đối với người ngoài.
-
-[Diệp Mẫu]
-- Mẹ của Tĩnh Xuyên; mù lòa sau trận Trường Giang 1181 khi phu quân Tĩnh Hùng tử trận; ngồi chõng tre đan cói, tai thính phi thường; là điểm tựa đạo đức và lời răn sa trường của Tĩnh Xuyên.
-```
-
-## Knowledge state
-
-```diff
-[Tĩnh Xuyên - Epistemic Ledger]
-+ ĐÃ BIẾT:
-  - Lão Bang chủ Anh Cô đã vân du trở về và chính thức thoái ẩn về Hồ Tâm Cô Đảo.
-  - Tân Bang chủ Dương Thiết Tâm là đệ tử Kiếm Hoàng Sở Khi Thiên phái Côn Lôn, thương pháp biến ảo dung hợp giữa sát phạt trận địa và kiếm ý Tây Vực.
-  - Tân Bang chủ nhận ra di vật Bát Hàn Thiết Thương của cố danh tướng Tĩnh Hùng và đặc biệt coi trọng sự kỷ luật của Tĩnh Xuyên.
-  - Phe bảo thủ của Lâu Nhất Quan đang nuôi lòng thù hận và chia rẽ ngầm sau lễ đăng quang.
-- TUYỆT ĐỐI CHƯA BIẾT:
-  - Bức mật thư của Triệu Nhữ Nhu gửi Dương Thiết Tâm và âm mưu chính trị triều đình Lâm An (Lý Hoàng hậu, Hàn Thác Trụ).
-  - Tin tức ngọc Du Long Giác xuất hiện ở Thúy Yên Môn (sẽ chỉ biết ở Subtask 2 qua đệ tử phân đà Thành Đô).
-  - Nhiệm vụ gián điệp Mộc Nhất Lâu hay bi kịch Ân Đồng (chuyện của Quyển 2 - Task 5).
-```
-
-## Relationship state
-
-```diff
-[Tĩnh Xuyên <-> Dương Thiết Tâm]
-+ Thiết Tâm nhận ra ngọn thương nẹp da hổ của Tĩnh Hùng; mở lời nhã nhặn mời Tĩnh Xuyên xuất thế thương "Thiết Bích Khóa Giang"; nương đà điểm trúng khâu sắt chỉ điểm và khen ngợi khí phách kiên trung ("Thiên Vương Bang có lớp trẻ kỷ luật như ngươi, cơ nghiệp tiền nhân quyết không lụi tàn"). Thiết lập mối liên kết tin cậy vững chắc để cất nhắc Tĩnh Xuyên vào các nhiệm vụ cơ mật tiếp theo.
-
-[Tĩnh Xuyên <-> Diệp Mẫu]
-+ Khắc sâu lời mẹ căn dặn: "Sa trường không có chỗ cho lòng kiêu ngạo. Kẻ nào coi mạng mình nhẹ như lông hồng, kẻ đó chôn xác trước tiên".
-
-[Dương Thiết Tâm <-> Lâu Nhất Quan]
-+ Xung đột chính trị ngấm ngầm: Lâu Nhất Quan nghi ngờ Thiết Tâm là kẻ ngoài, bằng mặt không bằng lòng; mở màn cho vụ vu oan gián điệp và thanh trừng cựu thần ở Task 1 Subtask 2.
-```
-
-## Object / location state
-
-```diff
-[Durable Items - Tĩnh Xuyên]
-+ Bát Hàn Thiết Thương: Thân sắt nguội dài 1 trượng 2 thước nặng 23 cân nẹp da đầu hổ; khâu sắt trên cán thương có thêm một vết chạm nhỏ li ti do mũi thương của Dương Thiết Tâm điểm trúng khi khảo nghiệm.
-+ Áo giáp thiết giáp xích sắt vảy bạc sẫm màu nước mặn Động Đình Hồ.
-
-[Thiên Vương Bang]
-+ Đồng bài Bang chủ thêu hình hai ngọn giáo bắt chéo: Đã chuyển giao từ Dương Anh sang Dương Thiết Tâm.
-+ Cờ lệnh Bang chủ: Lá cờ đỏ thêu chữ "Dương" màu vàng kim của Tân Bang chủ được kéo lên đỉnh cột buồm chính cao mười lăm trượng của soái hạm.
-```
-
-## Timeline
-
-```diff
-+ 1191-08-16 (Sáng sớm đến Trưa):
-  - Canh năm: Tĩnh Xuyên thức dậy sắc thuốc ấm cho Diệp Mẫu; nghe 3 hồi dài 9 tiếng ngắn ốc lệnh hải loa báo động nghênh giá.
-  - Giờ Thìn: Tĩnh Xuyên theo Quý Thúc Ban lên soái hạm ba tầng khoang; Lão Bang chủ Anh Cô dẫn Dương Thiết Tâm ra mắt và tuyên bố nhường ngôi.
-  - Giờ Tỵ: Lâu Nhất Quan đập bàn phản đối; Anh Cô hạ lệnh tỷ võ trên 3 tầng khoang chiến thuyền.
-  - Giờ Ngọ: Đại hội tỷ võ nổ ra tại khoang 2 và 3; Thiết Tâm đánh bại Tần Công Xích, Lê Việt, Lưu Mặc; Thiết Tâm khảo nghiệm thế thương của Tĩnh Xuyên; Thiết Tâm chính thức đăng quang Tân Bang chủ; Anh Cô lui về Hồ Tâm Cô Đảo.
-```
-
-## Promises / payoffs
-
-```diff
-+ Trả nợ (Paid off): Kết thúc thời kỳ "quần long vô thủ" của Thiên Vương Bang; lý giải lời đồn cờ hiệu Động Đình rục rịch động binh ở Chương 01.
-+ Gieo mầm (Planted): Mối thâm thù bằng mặt không bằng lòng của Lâu Nhất Quan đối với Tân Bang chủ; dự cảm giông bão trên đảo Thanh Loa.
-+ Mở ra (Opened): Cục diện bang phái bước vào vòng xoáy biến cố mới (`Task 1 Subtask 2: Thông Địch Phản Bang` — Cầu Chỉ Thủy bị vu oan ám sát Lâu Nhất Quan).
-```
-
-## Approval
-
-- [x] accept all (Tác giả đã duyệt ngày 2026-09-07)
-- [ ] accept selected only (mark above)
-- [ ] reject
-
-
+> **Cơ quan quản lý**: Novel OS State Ledger  
+> **Trạng thái**: Chờ Tác giả xem xét và phê chuẩn trước khi commit vào Sổ cái trạng thái bền vững (Cổng Dừng 3).
 
 ---
 
-## Supporting Cast Directory (`characters/supporting_cast.md`)
-*(Đã đồng bộ chuẩn hóa kiểm toán vào danh bạ nhân vật phụ)*
+## 1. Tóm Tắt Biến Chuyển Cốt Truyện & Nhân Vật (Narrative Summary)
+
+* **POV**: Tĩnh Xuyên (20 tuổi — Tiểu tướng kỵ binh thiết giáp Thanh Loa Đảo / Thiên Vương Bang).
+* **Mốc thời gian**: 1191-08-16 (Sáng sớm đến Giữa trưa).
+* **Địa điểm**: Soái hạm ba tầng khoang Thiên Vương Bang, Đảo Thanh Loa, Động Đình Hồ.
+* **Biến chuyển cốt lõi**:
+  1. *Lăng kính tiểu tướng sa trường & Đạo hiếu*: Tĩnh Xuyên 20 tuổi (sinh 1171 - Tân Mão, tuổi nhược quán); mồ côi cha Tĩnh Hùng năm 10 tuổi (1181) sau trận Trường Giang; có 10 năm đan cói, sắc thuốc phụng dưỡng mẹ mù Diệp Mẫu trên đảo Thanh Loa; tôn sùng kỷ luật sắt sa trường.
+  2. *Chuyển giao quyền lực lịch sử*: Lão Bang chủ Anh Cô (Dương Anh, ~63 tuổi) thoái ẩn sau hơn mười năm bặt vô âm tín, trao lại đồng bài Bang chủ cho nghĩa tử Dương Thiết Tâm (42 tuổi, sinh ~1149, đệ tử Côn Lôn Kiếm Hoàng Sở Khi Thiên).
+  3. *Đại hội tỷ võ trên 3 tầng khoang*: Phe cựu trào Lâu Nhất Quan phản đối; Anh Cô hạ lệnh tỷ võ thử thách; Dương Thiết Tâm dùng thương pháp biến ảo đả bại liên tiếp Tam đại dũng tướng (Tần Công Xích, Lê Việt, Lưu Mặc).
+  4. *Khảo nghiệm thế thương Tĩnh Xuyên*: Thiết Tâm nhận ra Bát Hàn Thiết Thương nẹp da đầu hổ của cố danh tướng Tĩnh Hùng; mời Tĩnh Xuyên xuất thế thương 'Thiết Bích Khóa Giang'; nương đà điểm trúng khâu sắt chỉ điểm và ngợi khen phong thái con nhà tông, kỷ luật mẫu mực; thiết lập niềm tin cậy sâu sắc.
+  5. *Đăng quang & Sóng ngầm chia rẽ*: Dương Thiết Tâm chính thức đăng quang Tân Bang chủ; Anh Cô chèo thuyền nan về Hồ Tâm Cô Đảo; Lâu Nhất Quan bằng mặt không bằng lòng, nuôi mối thù hận chia rẽ môn phái.
+
+---
+
+## 2. Đề Xuất Cập Nhật Sổ Cái Thương Tật (`worldbuilding/medical/injuries_ledger.md`)
+*(Tam đại dũng tướng chỉ trúng đòn khảo nghiệm kình lực, tụ máu phần mềm L1, không gây tàn tật; Tĩnh Xuyên nguyên vẹn thể trạng)*
+
+---
+
+## 3. Đề Xuất Cập Nhật Hồ Sơ Nhân Vật Chính & Bản Lề (Protagonists & Anchors)
+
+```diff
+Index: characters/tinh_xuyen.md
+===================================================================
+--- characters/tinh_xuyen.md
++++ characters/tinh_xuyen.md
+@@ -10,4 +10,10 @@
+ - Tuổi: 20 tuổi (sinh năm 1171 - Tân Mão, tuổi nhược quán).
+ - Thân phận: Tiểu tướng thị vệ thuộc trướng Quý tổng quản, kỵ binh thiết giáp Thanh Loa Đảo.
+ - Vũ khí: Bát Hàn Thiết Thương (nặng 23 cân, thân sắt nguội dài 1 trượng 2 thước, khâu nối bọc da đầu hổ mòn lông tơ).
+ - Điểm tựa tinh thần: Mẹ mù Diệp Mẫu; lời răn sa trường 'kẻ nào coi mạng mình nhẹ như lông hồng, kẻ đó chôn xác trước tiên'.
++
++* Chuyển biến Chương 02 (02a & 02b):
++  - Xuất thế thương 'Thiết Bích Khóa Giang' khảo nghiệm cùng Tân Bang chủ;
++  - Được Dương Thiết Tâm ngợi khen kỷ luật và điểm trúng khâu sắt chỉ điểm kiếm ý dung hợp thương pháp;
++  - Sẵn sàng đón nhận quân lệnh cơ mật từ tân chủ.
+```
+
+---
+
+## 4. Đề Xuất Bổ Sung & Đồng Bộ Danh Bạ Nhân Vật Phụ (`characters/supporting_cast.md`)
+
+```diff
+Index: characters/supporting_cast.md
+===================================================================
+--- characters/supporting_cast.md
++++ characters/supporting_cast.md
+@@ -25,4 +25,18 @@
++| **Dương Thiết Tâm** | **A** | Tân Bang chủ đời thứ hai Thiên Vương Bang | 42 tuổi (sinh ~1149). Nghĩa tử Anh Cô, đệ tử Côn Lôn Kiếm Hoàng Sở Khi Thiên. | Thương pháp Côn Lôn / Thiết Giáp Bát Quái Thương | Thu phục nhân tâm bằng võ đức và thương pháp cái thế; đăng quang Bang chủ | Xuất hiện Ch.02a, Ch.02b, Ch.07a, Ch.07b, Ch.10 |
++| **Dương Anh (Anh Cô)** | **A** | Lão Bang chủ sáng lập Thiên Vương Bang | ~63 tuổi (sinh ~1128). | Khinh công lướt sóng / Áo tơi nón lá | Thoái ẩn về Hồ Tâm Cô Đảo sau khi chuyển giao quyền lực thành công | Xuất hiện Ch.02a, Ch.02b |
++| **Lâu Nhất Quan** | **B** | Trưởng lão phe bảo thủ Thiên Vương Bang | ~63 tuổi (bậc nguyên lão khai quốc cùng thời Anh Cô). | Đoản đao / Phủ việt | Ganh ghét Tân Bang chủ, bằng mặt không bằng lòng; nuôi dã tâm chia rẽ nội bộ | Xuất hiện Ch.02a, Ch.02b |
++| **Diệp Mẫu** | **B** | Thân mẫu của Tĩnh Xuyên | ~49 tuổi. Mù lòa sau trận Trường Giang 1181 khi phu quân Tĩnh Hùng tử trận. | Chõng tre / Giỏ cói | Điểm tựa đạo đức và lương tri sa trường cho Tĩnh Xuyên | Xuất hiện Ch.02a |
+```
+
+---
+
+## 5. Đề Xuất Cập Nhật Sổ Cái Bảo Vật & Cơ Quan (`worldbuilding/artifacts/artifacts_ledger.md`)
+
+```diff
+Index: worldbuilding/artifacts/artifacts_ledger.md
+===================================================================
+--- worldbuilding/artifacts/artifacts_ledger.md
++++ worldbuilding/artifacts/artifacts_ledger.md
+@@ -15,4 +15,9 @@
++
++### Bát Hàn Thiết Thương (Tĩnh Xuyên)
++- Rèn từ thép nguội đáy sông Trường Giang; dài 1 trượng 2 thước, nặng 23 cân.
++- Cán thương nẹp da đầu hổ do cố danh tướng Tĩnh Hùng để lại; có thêm vết chạm điểm thương của Dương Thiết Tâm trên khâu sắt.
++
++### Đồng Bài Bang Chủ Thiên Vương Bang
++- Đúc bằng đồng đen, thêu hình hai ngọn giáo bắt chéo; đã chuyển giao từ Dương Anh sang Dương Thiết Tâm.
+```
+
+---
+
+## 6. Đề Xuất Cập Nhật Ma Trận Quan Hệ Phe Phái (`worldbuilding/factions/relationships_matrix.md`)
+
+```diff
+Index: worldbuilding/factions/relationships_matrix.md
+===================================================================
+--- worldbuilding/factions/relationships_matrix.md
++++ worldbuilding/factions/relationships_matrix.md
+@@ -25,4 +25,9 @@
++
++### Nội bộ Thiên Vương Bang (1191-08-16)
++- **Dương Thiết Tâm <-> Tĩnh Xuyên**: Mối quan hệ chủ tướng - tiểu tướng tin cậy; Thiết Tâm nhận ra phẩm chất kỷ luật sa trường của Tĩnh Xuyên và có ý cất nhắc vào trọng trách cơ mật.
++- **Dương Thiết Tâm <-> Lâu Nhất Quan**: Bằng mặt không bằng lòng; phe bảo thủ nghi kỵ người ngoài, mầm mống cho biến cố phản nghịch.
+```
+
+---
+
+## 7. Đề Xuất Cập Nhật Bảng Theo Dõi Lời Hứa Cốt Truyện (`plot/promises_tracker.md`)
+
+```diff
+Index: plot/promises_tracker.md
+===================================================================
+--- plot/promises_tracker.md
++++ plot/promises_tracker.md
+@@ -20,4 +20,8 @@
++| **TH-003** | **Chuyển giao quyền lực Thiên Vương Bang** | Chương 02a | Tĩnh Xuyên / Thiết Tâm | Anh Cô nhường ngôi; Thiết Tâm tỷ võ thu phục nhân tâm | **Chương 02b** | **Hồi 1** | `RESOLVED / PAID OFF` |
++| **TH-004** | **Sóng ngầm chia rẽ của Lâu Nhất Quan** | Chương 02b | Tĩnh Xuyên / Lâu Nhất Quan | Lâu Nhất Quan ôm hận thất bại, mưu toan vu oan gián điệp | **Chương 07a & 07b** | **Hồi 2** | `OPENED / FACTION CONFLICT` |
+```
+
+---
+
+## 8. Đề Xuất Cập Nhật Biên Niên Sử & Outline Deck (`plot/timeline.md` & `plot/volume_01_deck.md`)
+
+```diff
+Index: plot/timeline.md
+===================================================================
+--- plot/timeline.md
++++ plot/timeline.md
+@@ -24,4 +24,4 @@
++  * *Chiến thuyền Thanh Loa Đảo - Động Đình Hồ (1191-08-16 Sáng sớm đến Trưa):* Tĩnh Xuyên (20 tuổi) theo Quý Thúc Ban lên soái hạm; Dương Anh nhường ngôi cho Dương Thiết Tâm; đại hội tỷ võ 3 tầng khoang; Thiết Tâm khảo nghiệm thương pháp Tĩnh Xuyên và đăng quang Tân Bang chủ (`Task 01: Subtask 01 & 02` — **Chương 02a & 02b đã canon hóa**).
+```
+
+---
+
+## 9. Phê Duyệt Của Tác Giả (Author Sign-Off)
+
+- [x] **Phê chuẩn toàn bộ (Accept all)**: Toàn bộ 4 trụ cột đã đồng bộ tuyệt đối với phả hệ, niên biểu 17 năm và tuổi debut 20 của Tĩnh Xuyên.
+- [ ] **Yêu cầu chỉnh sửa thêm (Request changes)**:

@@ -36,6 +36,17 @@ for_tags:
 
 ---
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Name | Provenance (Task/Subtask/SQLite) | Role & Kinship (`genealogy_matrix.md`) | Birth Year & Age (1191) | Biological Age Check ($\text{Age}_{\text{parent}} \ge \text{Age}_{\text{child}} + 16$) | Generational Addressing (POV <-> NPC, NPC <-> NPC) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Bạch Thu Lâm** | Task Arc 00 / Task 157 / SQLite | Thống lĩnh Nghĩa quân Ba Lăng; nghĩa tỷ kiêm người bảo hộ của Tiêu Phùng; con gái liệt sĩ nghĩa quân | 1167 (24 tuổi) | Không có con; lớn hơn Tiêu Phùng (17 tuổi) bảy tuổi ($24 - 17 = 7$) | Tiêu Phùng (17 tuổi) gọi "Thu Di" (kính xưng vùng sông nước Ba Lăng) hoặc "Tỷ", xưng "đệ" hoặc "con" (khi làm nũng/ngỗ nghịch). Bạch Thu Lâm gọi Tiêu Phùng là "ngươi" hoặc "đệ", xưng "ta" hoặc "tỷ". |
+| **Ngũ trưởng Trương Đỉnh** | Task Arc 00: Subtask 5–8 / SQLite | Ngũ trưởng tổ tuần trinh Nghĩa quân Ba Lăng | 1149 (42 tuổi) | Bậc thúc bá sa trường; $42 \ge 17 + 16 = 33$ (Đạt: lớn hơn 25 tuổi) | Tiêu Phùng gọi "Trương thúc", xưng "cháu". Trương Đỉnh gọi Tiêu Phùng là "tiểu tử" hoặc "Phùng ca nhi", gọi Bạch Thu Lâm là "Thống lĩnh". |
+| **Thẩm Hà Diệp** | Task Arc 00 / Task 157 / SQLite | Chủ tiệm may kiêm phòng cụ Ba Lăng Huyện; tỷ tỷ Thẩm Thiết Thạch | 1155 (36 tuổi) | Bậc cô mẫu nuôi dưỡng; $36 \ge 17 + 16 = 33$ (Đạt: lớn hơn 19 tuổi) | Tiêu Phùng gọi "Thẩm di", xưng "cháu". Thẩm Hà Diệp gọi Tiêu Phùng là "tiểu tử nghịch ngợm". |
+| **Đại Cường & Tiểu Lục** | Task Arc 00: Subtask 5–8 / SQLite | Tráng đinh tuần trinh Nghĩa quân Ba Lăng | ~1168–1172 (~19–23 tuổi) | Đồng niên nghĩa sĩ bảo vệ chốt | Tiêu Phùng gọi "huynh/ca", xưng "đệ". Trương Đỉnh gọi "chúng bay / hai đứa". |
+
+---
+
 ## Purpose
 
 1. **Thiết lập khoảng thở dòng thời gian & Nhịp sống dân sinh (Temporal Transition & Living Lore):**

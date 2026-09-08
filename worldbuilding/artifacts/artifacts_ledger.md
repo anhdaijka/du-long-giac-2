@@ -31,6 +31,9 @@
 | **Phong thư tiến cử Cái Bang** | Phong thư tuyên chỉ thượng hạng niêm sáp đỏ thẫm hình hoa sen ôm đoản kiếm của Nghĩa Quân Ba Lăng do Bạch Thu Lâm trao, gửi Bang chủ Cái Bang Thạch Hiên Viên tại Yến Tử Ổ | **Tiêu Phùng** | Trong bọc áo ngực Tiêu Phùng | Sáp đỏ niêm phong cẩn mật chưa bóc; chuẩn bị hành trang vượt hồ sang Yến Tử Ổ xuất sơn | Chương 09 |
 | **Ống sáp mật thư Triệu Nhữ Ngu** | Ống đồng nhỏ cỡ ngón tay cái, niêm sáp đỏ triện ấn hoa sen ngậm ngọc của phủ Tông thất Triệu thị tại Lâm An; bên trong chứa mật chiếu viết mực son của Tống Hiếu Tông | **Hàn Thác Trụ** | Rời Thanh Loa Đảo sang đất liền | Đã mở sáp kiểm tra; cuộn lụa mật chiếu nguyên vẹn trong tay Hàn Thác Trụ | Chương 10 |
 | **Mặt nạ da trâu bọc sắt** | Mặt nạ chế tác từ da trâu thuộc dày, bên ngoài bọc các phiến sắt xám lạnh, che kín diện mạo chỉ chừa hai hốc mắt | **Tĩnh Xuyên** | Bến Thủy Lục / Doanh trại bờ kè | Nguyên vẹn, Tĩnh Xuyên cất giữ làm trang bị ngụy trang cá nhân | Chương 10 |
+| **Hoa Lục Thiểm Nhi** | Kỳ hoa cánh xanh ngọc bích mỏng manh ngậm sương sớm trên vách đá vôi Hồng Sam Nhai; tính hàn giải nhiệt độc, tan máu bầm ứ trệ | **Dược phòng Thúy Yên** | Dược phòng Bách Hoa Cốc | Đã thu hái 03 đóa tươi nguyên; dùng sắc thuốc cứu chữa Đan Bích Tú và Bành sư tỷ | Chương 11 |
+| **Chu Hồng Quả** | Quả mọng đỏ au như san hô mọc bám vách đá tai mèo Điểm Thương Sơn; vị chua chát ngọt hậu, bổ khí sinh huyết | **Dược phòng Thúy Yên** | Dược phòng Bách Hoa Cốc | Đã thu hái 01 túi mọng nước; nấu cao thuốc cho Lệ Thu Thủy bồi bổ lồng ngực | Chương 11 |
+| **Nhánh rễ cây Mị Mị Hương** | Đoạn rễ cây khô xù xì màu đen tím to bằng ngón chân cái; mang độc tính âm hàn tàn khốc, khi đốt tạo khói mù gây điên loạn và điều khiển thần trí | **Hạ Nương** | Phòng phẫu thuật Dược phòng | Mép bị cọ xát nhẹ; Hạ Nương cất giữ làm mẫu vật nghiên cứu phương thuốc giải độc đối kháng | Chương 11 |
 
 ---
 

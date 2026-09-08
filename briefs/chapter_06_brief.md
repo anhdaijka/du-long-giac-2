@@ -26,6 +26,20 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ---
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Xuất Hiện Trong Chapter | Tuổi Theo Lore / Niên Biểu (1191) | Năm Sinh (Âm Lịch) | Bối Phận / Thế Hệ / Quan Hệ Gia Đình | Kiểm Tra Độ Lệch Tuổi Sinh Học ($\Delta \ge 16$) | Danh Xưng / Cách Gọi Chuẩn Mực Trong Chapter |
+| :--- | :---: | :---: | :--- | :--- | :--- |
+| **Tiêu Phùng** | **17 tuổi** | 1174 (Giáp Ngọ) | Con trai Tiêu Lăng Phong (Ma Y Cốc); mang thương tật L3 rạn sườn số 6 | Protagonist; nhỏ hơn Bạch Thu Lâm bảy tuổi | Thu Di / Tỷ — Đệ (xưng Đệ với Thu Di; gọi Giới sư phụ, Điềm thúc) |
+| **Bạch Thu Lâm** | **24 tuổi** | 1167 (Đinh Hợi) | Nữ thủ lĩnh Nghĩa quân Ba Lăng; con Tướng quân Bạch Phụ tại Biện Kinh | Hơn Tiêu Phùng bảy tuổi ($\Delta = 7$); nghĩa tỷ kiêm người bảo hộ | Thu Di / Thu Lâm tỷ (xưng Tỷ với Tiêu Phùng; gọi Giới đại sư) |
+| **Giới Sơn Tông** | **~62 tuổi** | ~1129 (Kỷ Dậu) | Cơ quan đại sư Ma Y Cốc; bậc trưởng lão kỹ nghệ thợ thuyền | Bậc tiền bối thợ thuyền cao niên ($\Delta = 45$ tuổi so với Tiêu Phùng) | Giới sư phụ / Đại sư / Lão nhân gia (gọi Tiêu Phùng là thiếu hiệp/tiểu huynh đệ) |
+| **Điềm Tửu Thúc** | **~52 tuổi** | ~1139 (Kỷ Mùi) | Thợ rèn kiêm ẩm thực Nghĩa quân Ba Lăng; chỉ huy đóng cọc kè chân đê | Bậc thúc bá xóm bãi sậy ($\Delta = 35$ tuổi so với Tiêu Phùng) | Điềm thúc / Lão Điềm (gọi Tiêu Phùng là thằng nhóc bãi sông) |
+| **Thẩm Hà Diệp** | **36 tuổi** | 1155 (Ất Hợi) | Chủ tiệm phòng cụ Ba Lăng Huyện; tỷ tỷ của Thẩm Thiết Thạch | Bậc tỷ tỷ phố huyện ($\Delta = 19$ tuổi so với Tiêu Phùng) | Hà Diệp tỷ / Thẩm cô nương (gọi Tiêu Phùng ca ca / đệ đệ) |
+| **Cao Thăng** | **~42 tuổi** | ~1149 (Kỷ Tỵ) | Dũng tướng Nghĩa quân Ba Lăng; cùng Thu Di xông vào thạch thất cõng Tiêu Phùng | Bậc tiền bối sa trường ($\Delta = 25$ tuổi so với Tiêu Phùng) | Cao thúc / Lão Cao (gọi Tiêu Phùng là thiếu chủ) |
+| **Thôi Kiệm** | **~28 tuổi** | ~1163 (Quý Mùi) | Nghĩa sĩ Ba Lăng; hỗ trợ mở thạch thất ngầm và tuần phòng đê | Bậc huynh trưởng trẻ tuổi nghĩa quân | Thôi huynh / Thôi tráng sĩ |
+
+---
+
 ## Purpose
 
 1. **Hiện thực hóa hậu quả của kế giương đông kích tây sa trường (The Gravity of Strategy):** Kẻ thù dùng mạng Bạch Cương nhử nghĩa quân ra ngoài để phá hủy cơ quan thủy lưu. Chương này đưa Tiêu Phùng đối mặt với hậu quả trực tiếp: thiên tai bão lụt cộng hưởng với sự phá hoại của con người, đe dọa sinh mạng của chính những người nuôi nấng chàng (Thẩm Hà Diệp, Điềm Tửu Thúc, dân chài Giang Tân).

@@ -35,14 +35,12 @@ Index: worldbuilding/medical/injuries_ledger.md
 --- worldbuilding/medical/injuries_ledger.md
 +++ worldbuilding/medical/injuries_ledger.md
 @@ -40,3 +40,3 @@
- | **INJ-TP-002** | Mạn sườn trái: nứt rạn xương sườn số 6, dư chấn Âm kình hàn độc nghẽn tạng phủ, tấy buốt sau dầm mưa lạnh & ngâm nước lụt thạch thất. | **L3** | Trúng cú cùi chỏ sắt Ngột Thất Hãn (Ch.05); tiếp tục chịu xung lực khi lội bùn & gián tiếp vận lực cơ hoành (Ch.06). | Chương 05 | **ĐANG ĐIỀU TRỊ (Tuần 2/6)**. Giữ nguyên nẹp tre cố định. | Bó nẹp tre 4–6 tuần; đau nhức dữ dội khi hít sâu; tuyệt đối cấm mang vác nặng hay vận kình thượng thừa; cần cao dán giữ ấm. |
-+| **INJ-TP-002** | Mạn sườn trái: Tái chấn động xương sườn số 6 do va đập bàn thờ gỗ trong trận Miếu Thần Ba Lăng, gãy rời 1 thanh nẹp tre, nôn máu bầm cũ. | **L3** | Bị thủ lĩnh đoản trùy Tây Hạ Nhất Phẩm Đường đá bạt bàn thờ văng trúng mạn sườn (Ch.09). | Chương 05 / 09 | **ĐÃ NẸP LẠI (Tuần 2/6)**. Thu Di vận chân khí hộ tâm, bó lại nẹp tre đôi mới. | Tiếp tục nẹp tre 4 tuần; cử động đau thắt ngực; tuyệt đối cấm vận lực bãi sậy; miệng còn tanh máu bầm. |
-@@ -85,3 +85,11 @@
+ | **INJ-TP-002** | Mạn sườn trái: nứt rạn xương sườn@@ -85,3 +85,11 @@
 +### L. Ngũ trưởng Trương Đỉnh (Nghĩa Quân Ba Lăng — 42 tuổi)
 +
 +| Vết thương # | Vị trí & Dạng tổn thương | Cấp độ | Tác nhân / Hoàn cảnh | Hồi xuất hiện | Trạng thái hiện tại | Di chứng & Ảnh hưởng hành vi |
 +| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-+| **INJ-TD-001** | Bắp đùi ngoài chân phải: Đao mỏng Tây Vực chém rách cơ sâu 1 tấc rưỡi, đứt mạch máu nhánh, mất máu nhiều. | **L2** (Trung bình / Tổn thương cơ & mạch) | Tử chiến bảo vệ Miếu Thần Ba Lăng và ôm chân tên thủ lĩnh đoản trùy cứu Tiêu Phùng (Ch.09). | Chương 09 | **ĐÃ KHÂU DÃ CHIẾN**. Kỵ binh nghĩa quân băng bó garô và chuyển về y quán Ba Lăng. | Đi khập khiễng trong 3 tuần; cần dưỡng thương và bồi bổ khí huyết; không nguy hiểm tính mạng. |
++| **INJ-TRD-001** | Bắp đùi ngoài chân phải: Đao mỏng Tây Vực chém rách cơ sâu 1 tấc rưỡi, đứt mạch máu nhánh, mất máu nhiều. | **L2** (Trung bình / Tổn thương cơ & mạch) | Tử chiến bảo vệ Miếu Thần Ba Lăng và ôm chân tên thủ lĩnh đoản trùy cứu Tiêu Phùng (Ch.09). | Chương 09 | **ĐÃ KHÂU DÃ CHIẾN**. Kỵ binh nghĩa quân băng bó garô và chuyển về y quán Ba Lăng. | Đi khập khiễng trong 3 tuần; cần dưỡng thương và bồi bổ khí huyết; không nguy hiểm tính mạng. |
 ```
 
 ---
@@ -77,49 +75,23 @@ Index: characters/tieu_phung.md
 
 ---
 
-## 3b. Đề Xuất Cập Nhật Hồ Sơ Nhân Vật Bản Lề Bạch Thu Lâm (`characters/anchors/bach_thu_lam.md`)
-
-```diff
-Index: characters/anchors/bach_thu_lam.md
-===================================================================
---- characters/anchors/bach_thu_lam.md
-+++ characters/anchors/bach_thu_lam.md
-@@ -5,1 +5,1 @@
--arc: "Lãnh tụ Nghĩa quân Ba Lăng Huyện, dưỡng mẫu của Tiêu Phùng"
-+arc: "Lãnh tụ Nghĩa quân Ba Lăng Huyện, nghĩa tỷ kiêm người bảo hộ của Tiêu Phùng"
-@@ -21,3 +21,3 @@
--* **Thân phận:** Thủ lĩnh tối cao của Nghĩa Quân Ba Lăng Huyện; thường được môn hạ và nhân dân trìu mến gọi là **Thu Di**.
--* **Định vị:** Người bảo hộ tinh thần và ngọn cờ tập hợp quần chúng khởi nghĩa chống Kim và cứu trợ bá tánh nghèo khó vùng Động Đình Hồ.
--* **Quan hệ cốt tử với Protagonist:** Là dưỡng mẫu nuôi nấng **Tiêu Phùng** từ thuở nhỏ sau thảm sát Ma Y Cốc (1174). Dù Tiêu Phùng ngỗ nghịch, bắng nhắng nhưng Thu Di luôn bao dung và rèn luyện chàng từ những việc vặt dân sinh.
-+* **Thân phận:** Nữ thủ lĩnh trẻ tuổi của Nghĩa Quân Ba Lăng Huyện; thường được môn hạ, tráng đinh và dân chúng trìu mến gọi tôn kính là **Thu Di** (danh xưng tôn kính theo phong tục xưng hô bối phận sông nước Ba Lăng).
-+* **Định vị:** Người bảo hộ tinh thần và ngọn cờ tập hợp quần chúng khởi nghĩa chống Kim và cứu trợ bá tánh nghèo khó vùng Động Đình Hồ. Tuổi đời chừng 23–25 tuổi (năm 1191), hơn Tiêu Phùng 6–7 tuổi; là con gái của tiền bối nghĩa quân hy sinh sa trường, sớm kế thừa trọng trách lãnh đạo.
-+* **Quan hệ cốt tử với Protagonist:** Là **Nghĩa tỷ kiêm Người bảo hộ / Thủ lĩnh** của **Tiêu Phùng**. Sau thảm sát Ma Y Cốc (1174), Tiêu Phùng được lão tướng Bạch Cương bế về Ba Lăng và được cả trại nghĩa quân (Bạch Cương, Thẩm Hà Diệp, Điềm Tửu Thúc, Long Ngũ Thái Gia...) cùng nuôi nấng. Thu Di từ thuở bé đã xem chàng như đệ đệ ruột thịt, bón cháo chăm sóc, vừa nghiêm khắc rèn giũa chàng qua lao dịch dân sinh vừa hết lòng che chở, bảo bọc chàng trước hiểm nguy. Hai người xưng hô thân mật là "Thu Di / Tỷ" và "Đệ".
-```
-
----
-
-## 3c. Đề Xuất Bổ Sung & Đồng Bộ Danh Bạ Nhân Vật Phụ Trợ (`characters/supporting_cast.md`)
+## 3b. Đề Xuất Cập Nhật Danh Bạ Nhân Vật Phụ Trợ (`characters/supporting_cast.md`)
 
 ```diff
 Index: characters/supporting_cast.md
 ===================================================================
 --- characters/supporting_cast.md
 +++ characters/supporting_cast.md
-@@ -12,8 +12,16 @@
-+| **Điềm Tửu Thúc** | **B** | Thợ rèn kiêm ẩm thực Nghĩa quân | Lão hán râu tóc dựng ngược, da đỏ au vì lửa lò rèn, thích uống rượu nếp cẩm, mồm to quát tháo nhưng giàu tình nghĩa | Búa rèn thép, tẩu thuốc | Trực tiếp chỉ huy đóng cọc và chèn bao cát kè chân đê phía đông ngăn sóng lũ trong đêm mưa bão | Chương 01, 06 |
-+| **Bạch Cương** | **B** | Nghĩa quân tiền bối / Cố nhân Ma Y Cốc | Lão nghĩa quân sa trường; người đã liều chết bế Tiêu Phùng thoát khỏi vũng máu bến Hán Thủy năm 1174 | Đao sa trường / Tín hàm mật | Bị thương `INJ-BC-001` Level 3 do trúng chưởng khí Âm kình giặc Kim tại chân đèo Tuyệt Vấn Pha, kinh mạch ngưng trệ; đã giải mã sấm thi Tiêu Lăng Phong cho Tiêu Phùng; hiện tịnh dưỡng tại quân doanh Ba Lăng | Chương 05, 06 |
-+| **Cao Thăng** | **B** | Dũng tướng Nghĩa quân Ba Lăng | Trung niên ngoài tứ tuần, vạm vỡ, trán quấn khăn rách; tính tình quả cảm, tận tụy | Đại đao sa trường, đoản đao găm | Bị thương `INJ-CT-001` Level 1 do trúng tên bả vai; trực tiếp nẹp sườn cho Tiêu Phùng, cùng Bạch Thu Lâm xông vào thạch thất ngầm mở trục chín cửa xả và cõng Tiêu Phùng an toàn về đê | Chương 05, 06 |
-+| **Thôi Kiệm** | **C** | Nghĩa sĩ Ba Lăng | Tráng đinh gan dạ, sát cánh chiến đấu cùng Cao Thăng | Đoản đao, khiên gỗ bọc da | Sát cánh cùng Cao Thăng tử thủ đèo Tuyệt Vấn Pha và hỗ trợ mở thạch thất ngầm | Chương 05, 06 |
-+| **Giới Sơn Tông** | **B** | Cơ quan đại sư Ma Y Cốc | Lão nhân ngoài lục tuần, tàn tật hai gót chân (`INJ-GST-001` Level 3), ngồi xe lăn gỗ do bị tra tấn bức cung | Trí tuệ cơ quan bát quái, then ngầm | Chế tạo hệ thống trục ngầm chín cửa xả Động Đình Hồ; truyền khẩu quyết then cơ hoành cho Tiêu Phùng giải cứu Ba Lăng; hiện an dưỡng tại mật thất Nghĩa quân | Chương 06 |
-+| **Tôn Báo** | **B** | Phản đồ phân đà Ích Dương | Tướng mạo hung bạo bặm trợn, kẻ tham lam quy phục Bách hộ Kim Ô Sơ Sa | Xước Đao mạ bạc sa trường | Bị Tiêu Phùng dùng mưu chém đứt lìa cánh tay trái (`INJ-TB-001` Level 4) tại miếu hoang chân đèo; hiện bị xích sắt giam trong đại lao Nghĩa quân để thẩm vấn | Chương 07a |
-+| **Trương Đỉnh** | **B** | Ngũ trưởng tuần trinh Nghĩa quân | Lão binh ngoài tứ tuần, da ngăm gió sương, tính tình cương liệt mộc mạc | Côn sắt bọc đồng | Bị thích khách Tây Hạ chém rách đùi (`INJ-TD-001` Level 2) khi liều chết ôm chân địch giải cứu Tiêu Phùng tại Miếu Thần Ba Lăng; đã được kỵ binh cứu chữa, hiện tịnh dưỡng | Chương 09 |
+@@ -12,4 +12,4 @@
+-| **Lão Trương (Trương bá)** | **C** | Dân chài bến đò Giang Tân | Tuổi ngoài ngũ tuần, da đen nhẻm, tay đầy nốt chai sần, khoác áo tơi lá tơi tả; tính tình cộc cằn nhưng khẩu xà tâm phật | Xuồng ba lá, lưới đánh cá; chuyên câu cá mè hoa và mè gai | Đang lái đò bến đò đầm lau, hay quát mắng và quăng cá mè gai cho Tiêu Phùng; tiếp nhận lương thực cứu trợ tại Miếu Thần | Chương 01 |
++| **Lão Trương (Trương bá)** | **C** | Dân chài bến đò Giang Tân | Tuổi ngoài ngũ tuần, da đen nhẻm, tay đầy nốt chai sần, khoác áo tơi lá tơi tả; tính tình cộc cằn nhưng khẩu xà tâm phật | Xuồng ba lá, lưới đánh cá; chuyên câu cá mè hoa và mè gai | Đang lái đò bến đò đầm lau, hay quát mắng và quăng cá mè gai cho Tiêu Phùng; tiếp nhận lương thực cứu trợ tại Miếu Thần | Chương 01, 09 |
+@@ -15,1 +15,1 @@
+-| **Thẩm Hà Diệp** | **B** | Chủ tiệm phòng cụ Ba Lăng Huyện | Nữ tử thanh tú, đoan trang hiền thục; khóe mắt đượm buồn lo âu; tỷ tỷ của Thẩm Thiết Thạch, con gái Binh bộ Thị lang tiền triều | Khung cửi, kim chỉ, may đo phòng cụ da thú, sơ cứu thương tật | Quản lý tiệm may và bốc thuốc đắp trật đả; dầm mưa cứu hàng và ôm chầm Tiêu Phùng mừng rỡ sau đêm hộ đê; chăm sóc nẹp xương sườn cho Tiêu Phùng; coi Tiêu Phùng như đệ đệ trong nhà | Chương 04a, 06, 07a |
++| **Thẩm Hà Diệp** | **B** | Chủ tiệm phòng cụ Ba Lăng Huyện | Nữ tử thanh tú, đoan trang hiền thục; khóe mắt đượm buồn lo âu; tỷ tỷ của Thẩm Thiết Thạch, con gái Binh bộ Thị lang tiền triều | Khung cửi, kim chỉ, may đo phòng cụ da thú, sơ cứu thương tật | Quản lý tiệm may và bốc thuốc đắp trật đả; dầm mưa cứu hàng và ôm chầm Tiêu Phùng mừng rỡ sau đêm hộ đê; chăm sóc nẹp xương sườn cho Tiêu Phùng; coi Tiêu Phùng như đệ đệ trong nhà | Chương 04a, 06, 07a, 09 |
+@@ -24,0 +25,3 @@
++| **Trương Đỉnh** | **B** | Ngũ trưởng tuần trinh Nghĩa quân | Lão binh ngoài tứ tuần (42 tuổi), da ngăm gió sương, tính tình cương liệt mộc mạc | Côn sắt bọc đồng / Trường đao sa trường | Bị thích khách Tây Hạ chém rách đùi (`INJ-TRD-001` Level 2) khi liều chết ôm chân địch giải cứu Tiêu Phùng tại Miếu Thần Ba Lăng; đã được kỵ binh cứu chữa, hiện tịnh dưỡng | Chương 09 |
 +| **Đại Cường** | **C** | Tráng đinh tuần đê Nghĩa quân | Thanh niên khỏe mạnh thuộc ngũ tuần trinh Trương Đỉnh | Giáo tre vạt nhọn, dao găm | Bị thích khách Tây Hạ phóng phi tiêu trúng vai và chém trọng thương tại Miếu Thần; đã được cứu chữa qua cơn nguy kịch | Chương 09 |
 +| **Tiểu Lục** | **C** | Tráng đinh tuần đê Nghĩa quân | Thiếu niên mới gia nhập tuần trinh đê điều | Gậy gỗ bịt sắt | Bị chém rách mạn sườn trong lúc tử thủ bảo vệ xe lương cứu tế tại Miếu Thần; đã được đưa về huyện đường tịnh dưỡng | Chương 09 |
-+
-+### Khu vực Thanh Loa Đảo & Thúy Yên Môn:
-+| **Bùi Dực Phi** | **A/Anchor** | Thống lĩnh Cáp Xá / Kỵ tướng Thiên Vương | Giáp trụ xám tro, cưỡi chiến mã đen tuyền; phong thái cương nghị sa trường (đã lập hồ sơ riêng `anchors/bui_duc_phi.md`) | Đại kích sa trường, tài cưỡi ngựa bắn cung | Nhận mệnh Dương Anh dẫn 30 thiết kỵ xuất phát sang Tây Nam (Thúy Yên Môn) hộ tống quân lương cứu tế và điều tra cổ án Ma Y Cốc | Chương 07b |
-+| **Đan Bích Tú** | **B** | Đệ tử Chấp pháp Thúy Yên Môn | Nữ tử ngoài đôi mươi, mặc y phục lam viền xanh thẫm Thúy Yên; tính tình tháo vát, nhanh nhẹn, dũng cảm | Băng Tâm Kiếm ngắn / Bộ pháp né tránh / Yên Hỏa tiễn | Bị sói dữ cào rách bả vai áo rách thịt (`INJ-DBT-001` Level 1); dũng cảm trèo tháp châm ngòi pháo hoa Yên Hỏa Đài phát tín hiệu cấp cứu cứu nguy môn phái; hiện cùng Lệ Thu Thủy thu dọn chiến trường | Chương 03, 08a, 08b |
-+| **Bành Sư Tỷ (Đệ tử họ Bành)** | **C** | Đệ tử hộ trận Thúy Yên | Nữ tử mặc lam y thêu phù hiệu hoa sen Thúy Yên; kiên cường bám trụ hoa trận | Băng Tâm Kiếm ngắn | Bị thích khách giặc chém rách cơ đùi trái (`INJ-TY-001` Level 2) trong huyết chiến Bách Hoa Trận; được Lệ Thu Thủy rắc Dực Thiềm Sa cầm máu cứu mạng; đang tịnh dưỡng tại Bách Thảo Viện | Chương 08b |
 ```
 
 ---

@@ -10,11 +10,23 @@
 - Target Word Count: 4.000 – 4.800 từ (Sàn cứng 3.500 từ, Trần mềm 5.200 từ)
 - Provenance: `KT2 Engine Task 1 (Subtask 1: Anh Cô Trở Về) | File XML Stories/task_publish/sub/0000000000000001.xml | Dialog NPCs: Quý Thúc Ban, Dương Anh, Dương Thiết Tâm | SQLite Task ID: 1, Subtask ID: 1`
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Name | Provenance (Task/Subtask/SQLite) | Role & Kinship (`genealogy_matrix.md`) | Birth Year & Age (1191) | Biological Age Check ($\text{Age}_{\text{parent}} \ge \text{Age}_{\text{child}} + 16$) | Generational Addressing (POV <-> NPC, NPC <-> NPC) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Dương Anh (Anh Cô)** | Task 1: Subtask 1 / SQLite | Lão Bang chủ Thiên Vương Bang; dưỡng mẫu của Dương Thiết Tâm | ~1128 (~63 tuổi) | $63 \ge 42 + 16 = 58$ (Hợp lý nghĩa mẫu - nghĩa tử) | Thiết Tâm gọi "Lão Bang chủ / Nghĩa mẫu", xưng "Thiết Tâm / Con". Chư tướng gọi "Lão Bang chủ". |
+| **Dương Thiết Tâm** | Task 1: Subtask 1 / SQLite | Tân Bang chủ Thiên Vương Bang; nghĩa tử của Dương Anh | ~1149 (**42 tuổi**) | $42 \ge 20 + 16 = 36$ (Hợp lý bậc tiền bối/chỉ huy với Tĩnh Xuyên 20t) | Tĩnh Xuyên gọi "Tân Bang chủ", xưng "thuộc hạ/hậu sinh". Thiết Tâm gọi "Tĩnh tiểu tướng / hậu sinh". |
+| **Diệp Mẫu** | Task 1: Subtask 1 / Dân sinh | Thân mẫu của Tĩnh Xuyên; góa phụ danh tướng Tĩnh Hùng (hy sinh 1181) | ~1142 (~49 tuổi) | $49 \ge 20 + 16 = 36$ (Hợp lý tuổi mẹ con sinh học) | Tĩnh Xuyên gọi "Mẹ", xưng "con/Xuyên nhi". Diệp Mẫu gọi "Xuyên nhi/con". |
+| **Quý Thúc Ban** | Task 1: Subtask 1 / SQLite | Tổng quản nội vụ Thiên Vương Bang | ~1139 (~52 tuổi) | Bậc tiền bối trưởng lão | Tĩnh Xuyên gọi "Quý tổng quản", xưng "thuộc hạ". |
+| **Lâu Nhất Quan** | Task 1: Subtask 1 / SQLite | Tổng quản chiến thuyền phái bảo thủ | ~1128 (~63 tuổi) | Bậc nguyên lão khai quốc | Chư tướng gọi "Lâu tổng quản". |
+
+---
+
 ## Purpose
 
 Thiết lập thế giới quân lữ sa trường và kỷ luật sắt đá của Thiên Vương Bang trên Thanh Loa Đảo qua góc nhìn của nhân vật chính thứ hai (Tĩnh Xuyên):
 - Khắc họa đời sống đạm bạc, chữ hiếu và tính cách cương trực, trọng quân kỷ của Tĩnh Xuyên (chăm sóc mẹ mù Diệp Mẫu, giữ nghiêm nề nếp nghĩa quân).
-- Tái hiện biến cố lịch sử chấn động Thanh Loa Đảo: Lão Bang chủ Anh Cô (Dương Anh) sau nhiều năm bặt vô âm tín bất ngờ vân du trở về, mang theo một thanh niên xa lạ khôi ngô — Dương Thiết Tâm — và tuyên bố nhường ngôi Bang chủ.
+- Tái hiện biến cố lịch sử chấn động Thanh Loa Đảo: Lão Bang chủ Anh Cô (Dương Anh) sau nhiều năm bặt vô âm tín bất ngờ vân du trở về, mang theo một nam tử trung niên dạn dày phong sương — Dương Thiết Tâm (42 tuổi) — và tuyên bố nhường ngôi Bang chủ.
 - Miêu tả cuộc xung đột chính trị nội bộ gay gắt giữa cựu thần bảo thủ (Lâu Nhất Quan, Quý Thúc Ban) và quyết định của Anh Cô, dẫn đến cuộc đại hội tỷ võ trên 3 tầng khoang chiến thuyền.
 - Tĩnh Xuyên bước lên soái hạm với tư cách **tiểu tướng thị vệ tháp tùng Quý Thúc Ban** (giữ đúng vị thế hậu bối 20 tuổi — tuổi nhược quán, không mắc bẫy 'Game Protagonist Syndrome'); tận mắt chứng kiến thương pháp cái thế dung hợp giữa Dương Gia Thương và kiếm ý Côn Lôn của Dương Thiết Tâm đả bại Tam đại cao thủ cựu trào (Tần Công Xích, Lê Việt, Lưu Mặc).
 - Màn khảo nghiệm truyền thừa & cất nhắc hậu bối: Sau khi hạ tam tướng, Thiết Tâm nhận ra ngọn Bát Hàn Thiết Thương nẹp da đầu hổ của cố danh tướng Tĩnh Hùng, chủ động mời Tĩnh Xuyên so một thế thương trận phòng ngự; chỉ điểm tinh hoa và tấm tắc ngợi khen khí phách con nhà tông, mở đường cho việc trọng dụng Tĩnh Xuyên sau này.

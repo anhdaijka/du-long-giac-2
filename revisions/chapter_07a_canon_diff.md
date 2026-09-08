@@ -152,12 +152,25 @@ Index: plot/timeline.md
 
 ---
 
-## Verdict:
-**APPROVED FOR AUTHOR REVIEW (TRÌNH TÁC GIẢ DUYỆT ĐỀ XUẤT CANON DIFF Ở CỔNG DỪNG 3)**.
-Chỉ khi Tác giả phê chuẩn bản Diff này, Agent mới tiến hành commit các thay đổi vào các file sổ cái bền vững tương ứng.
+## 8. Đề Xuất Cập Nhật Danh Bạ Nhân Vật Phụ (`characters/supporting_cast.md`)
 
+```diff
+Index: characters/supporting_cast.md
+===================================================================
+--- characters/supporting_cast.md
++++ characters/supporting_cast.md
+@@ -36,2 +36,4 @@
+-| **Diệp Mẫu** | **B** | Thân mẫu của Tĩnh Xuyên | Phụ nhân gầy guộc, mù lòa hai mắt... | Điểm tựa tinh thần tối cao của Tĩnh Xuyên | Ở tại gian lều nứa bờ tây Thanh Loa Đảo, được con trai sắc thuốc ấm ngải cứu phụng dưỡng | Chương 02a |
+-| **Quý Thúc Ban** | **B** | Tổng quản sự vụ Thanh Loa Đảo | Lão nhân ngoài lục tuần, tóc bạc búi gọn, chòm râu dê hoa râm... | Kiếm lệnh chỉ huy sa trường / Bố trí đội hình kỵ binh | Quản lý việc quân lương và điều phối nghi lễ chuyển giao quyền lực trên soái hạm | Chương 02a, 02b |
++| **Diệp Mẫu** | **B** | Thân mẫu của Tĩnh Xuyên | Phụ nhân gầy guộc, mù lòa hai mắt... | Điểm tựa tinh thần tối cao của Tĩnh Xuyên | Ở tại gian lều nứa bờ tây Thanh Loa Đảo; vừa được Tĩnh Xuyên đắp thuốc ngải cứu ấm ngực trong đêm bão; răn dạy con giữ vững "tâm mắt" | Chương 02a, 07a |
++| **Quý Thúc Ban** | **B** | Tổng quản sự vụ Thanh Loa Đảo | Lão nhân ngoài lục tuần, tóc bạc búi gọn, chòm râu dê hoa râm... | Kiếm lệnh chỉ huy sa trường / Bố trí đội hình kỵ binh | Quản lý quân nhu, hòa giải mâu thuẫn suýt nổ ra nội chiến giữa phái Lâu Nhất Quan và Tân Bang chủ | Chương 02a, 02b, 07a |
++| **Tôn Báo** | **B** | Đệ tử phân đà Ích Dương / Thích khách | Thanh niên ngoài đôi mươi (~28 tuổi), dáng gầy gộc dẻo dai, mặc đồ dạ hành ướt sũng; con côi tử sĩ Động Đình được Cầu Chỉ Thủy cưu mang nhưng bị mua chuộc gài bẫy | Xước Đao mạ bạc Ngũ Lăng tẩm độc thảo ô pha hàn băng thạch | Bị bẻ gãy trẹo ngón trỏ phải (`INJ-TB-001` Level 1), người bầm dập vì đòn trói gân bò; mớm cung vu oan Cầu Chỉ Thủy; hiện bị giam giữ nghiêm ngặt dưới hầm đá nghị sự đường | Chương 07a |
+```
 
 ---
 
-## Supporting Cast Directory (`characters/supporting_cast.md`)
-*(Đã đồng bộ chuẩn hóa kiểm toán vào danh bạ nhân vật phụ)*
+## 9. PHÊ DUYỆT TỪ TÁC GIẢ (AUTHOR APPROVAL)
+
+- [x] **accept all** (Đã đồng bộ kiểm toán theo Ground Truth bản thảo Chương 07a)
+- [ ] accept selected only
+- [ ] reject

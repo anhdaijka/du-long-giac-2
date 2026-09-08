@@ -133,8 +133,26 @@ Index: plot/timeline.md
 +- **1191-08-18 (Hoàng hôn đến Đêm)**: Chương 05 — Tuyệt Vấn Huyết Lộ. Huyết chiến Tuyệt Vấn Pha; Bạch Thu Lâm chém Ngột Thất Hãn; Tiêu Phùng rạn xương sườn L3; trùng phùng Bạch Cương; sấm thi Ma Y Cốc; giặc Kim mở van xả lũ đê Ba Lăng.
 ```
 
+---
+
+## 8. Đề Xuất Cập Nhật Danh Bạ Nhân Vật Phụ (`characters/supporting_cast.md`)
+
+```diff
+Index: characters/supporting_cast.md
+===================================================================
+--- characters/supporting_cast.md
++++ characters/supporting_cast.md
+@@ -20,6 +20,7 @@
+ | **Bạch Cương** | **B** | Nghĩa quân tiền bối / Cựu thuộc hạ chủ nhân | Lão nghĩa quân sa trường ~45 tuổi; cựu thuộc hạ trung thành của cha Tiêu Phùng; người đã ôm bọc tã đứa trẻ sơ sinh Tiêu Phùng thoát khỏi vũng máu Hán Thủy Cổ Độ năm 1174, cùng thân phụ của Bạch Thu Lâm đưa chàng về Ba Lăng và cùng toàn trại nghĩa quân nuôi nấng Tiêu Phùng; sau này bôn tẩu biên ải mang theo nửa mảnh sấm thi; xưng đệ với Bạch Thu Lâm ("Thu Lâm tỷ") và Trâu Đức Khoái ("Đức Khoái huynh") (`baijiang.lua`); gọi Tiêu Phùng là "thiếu chủ" | Đao sa trường / Tín hàm mật | Bị thương `INJ-BC-001` Level 3 do trúng chưởng khí Âm kình giặc Kim tại chân đèo Tuyệt Vấn Pha, kinh mạch ngưng trệ; đã giải mã sấm thi cho thiếu chủ Tiêu Phùng; hiện tịnh dưỡng tại quân doanh Ba Lăng | Chương 05, 06 |
+ | **Cao Thăng** | **B** | Dũng tướng Nghĩa quân Ba Lăng | Trung niên ngoài tứ tuần, vạm vỡ, trán quấn khăn rách; tính tình quả cảm, tận tụy | Đại đao sa trường, đoản đao găm | Bị thương `INJ-CT-001` Level 1 do trúng tên bả vai; trực tiếp nẹp sườn cho Tiêu Phùng, cùng Bạch Thu Lâm xông vào thạch thất ngầm mở trục chín cửa xả và cõng Tiêu Phùng an toàn về đê | Chương 05, 06 |
+ | **Thôi Kiệm** | **C** | Nghĩa sĩ Ba Lăng | Tráng đinh gan dạ, sát cánh chiến đấu cùng Cao Thăng | Đoản đao, khiên gỗ bọc da | Sát cánh cùng Cao Thăng tử thủ đèo Tuyệt Vấn Pha và hỗ trợ mở thạch thất ngầm | Chương 05, 06 |
++| **Ngột Thất Hãn** | **C (Tử trận)** | Bách hộ Ô Sơ Sa Kim quốc | Thân hình hộ pháp trọc đầu, râu quai nón hung tợn, mặc giáp sắt lót lông chồn; thâm hiểm, tinh thông Âm kình cực hàn sa trường | Đao lớn Ô Sơ Sa, Thiết Chỏ Âm kình | Bị Tiêu Phùng rắc vôi bột mù mắt, chọc đoản côn phá huyệt đan điền và bị Bạch Thu Lâm chém đứt yết hầu đền mạng tại hang đá Tuyệt Vấn Pha | Chương 05 |
+```
 
 ---
 
-## Supporting Cast Directory (`characters/supporting_cast.md`)
-*(Đã đồng bộ chuẩn hóa kiểm toán vào danh bạ nhân vật phụ)*
+## 9. PHÊ DUYỆT TỪ TÁC GIẢ (AUTHOR APPROVAL)
+
+- [x] **accept all** (Đã đồng bộ kiểm toán theo Ground Truth bản thảo Chương 05)
+- [ ] accept selected only
+- [ ] reject

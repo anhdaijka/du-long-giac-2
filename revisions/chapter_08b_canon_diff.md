@@ -99,8 +99,8 @@ Index: plot/promises_tracker.md
 @@ -16,4 +16,5 @@
  | **TH-005** | **Sấm truyền Huyết Quang Tai tại Thúy Yên Môn** | Chương 03 | Hạ Nương | Bầy sói Điểm Thương cuồng loạn bị tiêu diệt; Hạ Nương giảo nghiệm phát hiện xác sói bị giết bởi trọng binh ngoại bang; cấm địa đã bị thâm nhập (Ch.08a) | **Chương 08a & 08b** | **Chương 13** (*Huyết Quang Tai*) | `ADVANCED / HIGH THREAT` (Sát cơ cận kề) |
 +| **TH-005** | **Sấm truyền Huyết Quang Tai tại Thúy Yên Môn** | Chương 03 | Hạ Nương | Khai quật Du Long Giác, huyết quang xung thiên; quân thù áo choàng Tây Bắc vây kín thung lũng; pháo hoa Yên Hỏa Đài nổ vang phát lệnh báo động toàn phái (Ch.08b) | **Chương 13** (*Huyết Quang Tai*) | `ADVANCED / PEAK THREAT` (Ngòi nổ kích hoạt) |
- | **TH-007** | **Ẩn số nam tử trong mối tình dĩ vãng của Lệ Thu Thủy** | Chương 03 | Hạ Nương | Lệ Thu Thủy bất chấp quẻ sấm và sự xâm nhập của ngoại bang, quyết tâm mở trận cướp ngọc bằng mọi giá vì mối tình 17 năm (Ch.08a); Quyết định D-024: Cố nhân chính là Tiêu Lăng Phong (Ma Y Cốc, thân phụ Tiêu Phùng); Lệ Thu Thủy là hồng nhan tri kỷ ôm mối tình si 17 năm (không phải mẹ ruột Tiêu Phùng) | **Chương 08a & 08b** & **Chương 13** | **Quyển 1 Hồi Ba / Quyển 2** | `ADVANCED / OBSESSION PEAK` (Chấp niệm bộc phát) |
-+| **TH-007** | **Ẩn số nam tử trong mối tình dĩ vãng của Lệ Thu Thủy** | Chương 03 | Hạ Nương | Lệ Thu Thủy ôm ngọc quỳ khóc gọi tên "Lăng Phong" trong sương đêm; Hạ Nương nghe thấy cái tên xa lạ, gieo hạt giống liên kết ngầm với Tiêu Lăng Phong (Ch.08b) | **Chương 13** & **Quyển 2** | `ADVANCED / SEED PLANTED` (Hạt giống đã gieo) |
+ | **TH-007** | **Lời cảnh báo 19 năm trước & Bí mật Tiêu Lăng Phong** | Chương 03 | Hạ Nương | Lệ Thu Thủy dũng cảm dấn thân vào cấm địa đào ngọc nhằm phong tỏa kiểm soát báu vật trước khi giặc tràn vào (Ch.08a); Quyết định D-024: Cố nhân năm xưa ở bến đò Giang Nam chính là Tiêu Lăng Phong (Ma Y Cốc, thân phụ Tiêu Phùng); Lệ Thu Thủy là hồng nhan tri kỷ từng nhận lời cảnh báo của Tiêu Lăng Phong về họa Du Long Giác 19 năm trước (1174) | **Chương 08a & 08b** & **Chương 13** | **Quyển 1 Hồi Ba / Quyển 2** | `ADVANCED / CORE MYSTERY` (Manh mối thân thế) |
++| **TH-007** | **Lời cảnh báo 19 năm trước & Bí mật Tiêu Lăng Phong** | Chương 03 | Hạ Nương | Lệ Thu Thủy ôm ngọc quỳ khóc gọi tên "Lăng Phong", nhận ra lời cảnh báo 19 năm trước ở bến đò Giang Nam đã ứng nghiệm; Hạ Nương nghe thấy cái tên xa lạ, gieo hạt giống liên kết ngầm với Tiêu Lăng Phong (Ch.08b) | **Chương 13** & **Quyển 2** | `ADVANCED / SEED PLANTED` (Hạt giống đã gieo) |
  | **TH-014** | **Dấu vết Chùy gai Lục giác & Mật vụ Tây Hạ tại Điền Trì** | Chương 08a | Hạ Nương | Hạ Nương khám nghiệm sọ sói bị nghiền nát bởi Bát Giác Lang Nha Chùy và đất sét vàng sa mạc; phát hiện cấm địa bị thâm nhập | **Chương 08b & Chương 13** | **Hồi 2** | `PLANTED / CRUCIAL CLUE` (Manh mối trọng binh ngoại bang) |
 +| **TH-014** | **Dấu vết Chùy gai Lục giác & Mật vụ Tây Hạ tại Điền Trì** | Chương 08a | Hạ Nương | Trực tiếp giáp mặt và tiêu diệt toán Hồng Y & Tử Y Đầu Mục Nhất Phẩm Đường tại tâm trận Bát Quái; xác nhận âm mưu cướp đoạt Du Long Giác (Ch.08b) | **Chương 13** | **Hồi 2** | `PAID OFF IN SKIRMISH / WAR ESCALATION` (Chiến tranh bùng nổ) |
 +| **TH-015** | **Bí mật từ trường bức xạ của hung ngọc Du Long Giác** | Chương 08b | Hạ Nương | Mở nắp rương sắt cổ ngàn năm; Du Long Giác tỏa huyết quang và từ trường bức xạ cực mạnh gây tụt nhiệt độ, rối loạn nhịp tim, tê buốt kinh lạc và kích thích dã thú phát cuồng (Ch.08b) | **Quyển 1 Hồi 3 / Quyển 2** | `PLANTED / ACTIVE` (Bảo vật xuất thế) |
@@ -117,7 +117,7 @@ Index: plot/timeline.md
 +++ plot/timeline.md
 @@ -56,3 +56,3 @@
 -  * *Bách Hoa Cốc (1191-08-19 Canh ba đến Canh tư):* Thâm nhập tâm trận Bách Hoa; đụng độ Hồng Y & Tử Y Cao Thủ (Tây Hạ Nhất Phẩm Đường); Hạ Nương phóng châm hộ vệ Đan Bích Tú; cạy rương sắt cổ khai quật khối hung ngọc **Du Long Giác** rực đỏ sát khí; Lệ Thu Thủy ôm ngọc lệ tràn; đưa ngọc về Xuân Mai Nhã Trúc (`Task 12: Subtask 86 Step 3–6` — **Chương 08b**).
-+  * *Bách Hoa Cốc (1191-08-19 Canh ba đến Canh tư rạng sáng):* Thâm nhập tâm trận Bách Hoa; huyết chiến Hồng Y và Tử Y Cao Thủ (Tây Hạ Nhất Phẩm Đường); Hạ Nương dùng Băng Phách Ngân Châm điểm huyệt Khuyết Bồn và Ủy Trung cứu nguy; cạy nắp rương sắt cổ khai quật khối hung ngọc **Du Long Giác** bốc huyết quang từ trường buốt giá; Lệ Thu Thủy ôm ngọc lệ tràn gọi tên "Lăng Phong"; đưa ngọc về sảnh Xuân Mai Nhã Trúc bàn giao cho Doãn Hàm Yên; quân thù vây kín thung lũng; tiếng pháo hoa Yên Hỏa Đài nổ vang báo động toàn môn phái nghênh chiến (`Task 12: Subtask 86 Step 3–6` — **Chương 08b đã canon hóa**).
++  * *Bách Hoa Cốc (1191-08-19 Canh ba đến Canh tư rạng sáng):* Thâm nhập tâm trận Bách Hoa; huyết chiến Hồng Y và Tử Y Cao Thủ (Tây Hạ Nhất Phẩm Đường); Hạ Nương dùng Băng Phách Ngân Châm điểm huyệt Khuyết Bồn và Ủy Trung cứu nguy; cạy nắp rương sắt cổ khai quật khối hung ngọc **Du Long Giác** bốc huyết quang từ trường buốt giá; Lệ Thu Thủy ôm ngọc lệ tràn nhớ lời cảnh báo 19 năm trước của Tiêu Lăng Phong; đưa ngọc về sảnh Xuân Mai Nhã Trúc bàn giao cho Doãn Hàm Yên; quân thù vây kín thung lũng; tiếng pháo hoa Yên Hỏa Đài nổ vang báo động toàn môn phái nghênh chiến (`Task 12: Subtask 86 Step 3–6` — **Chương 08b đã canon hóa**).
 ```
 
 ---
@@ -134,8 +134,24 @@ Index: chapters/chapter_08b.md
 +status: "approved"
 ```
 
+---
+
+## 8. Đề Xuất Cập Nhật Danh Bạ Nhân Vật Phụ (`characters/supporting_cast.md`)
+
+```diff
+Index: characters/supporting_cast.md
+===================================================================
+--- characters/supporting_cast.md
++++ characters/supporting_cast.md
+@@ -58,3 +58,3 @@
+-| **Đan Bích Tú** | **B** | Đệ tử Chấp pháp Thúy Yên Môn | Nữ tử ngoài đôi mươi, mặc y phục lam viền xanh thẫm Thúy Yên; tính tình tháo vát, nhanh nhẹn, dũng cảm | Băng Tâm Kiếm ngắn / Bộ pháp né tránh / Yên Hỏa tiễn | Bị sói dữ cào rách bả vai áo rách thịt (`INJ-DBT-001` Level 1); được Hạ Nương rửa rượu thuốc hoàng liên bách bộ và băng bó chữ nhân, cấm vận lực tay trái; ở lại cửa trận hỗ trợ truyền tin | Chương 03, 08a |
++| **Đan Bích Tú** | **B** | Đệ tử Chấp pháp Thúy Yên Môn | Nữ tử ngoài đôi mươi, mặc y phục lam viền xanh thẫm Thúy Yên; tính tình tháo vát, nhanh nhẹn, dũng cảm | Băng Tâm Kiếm ngắn / Bộ pháp né tránh / Yên Hỏa tiễn | Bị sói dữ cào rách bả vai áo rách thịt (`INJ-DBT-001` Level 1); dũng cảm trèo tháp châm ngòi pháo hoa Yên Hỏa Đài phát tín hiệu cấp cứu cứu nguy môn phái; hiện cùng Lệ Thu Thủy thu dọn chiến trường | Chương 03, 08a, 08b |
++| **Bành Sư Tỷ (Đệ tử họ Bành)** | **C** | Đệ tử hộ trận Thúy Yên | Nữ tử mặc lam y thêu phù hiệu hoa sen Thúy Yên; kiên cường bám trụ hoa trận | Băng Tâm Kiếm ngắn | Bị thích khách giặc chém rách cơ đùi ngoài (`INJ-TY-001` Level 2) trong huyết chiến tâm trận Bách Hoa Trận; được Hạ Nương sơ cứu cầm máu động mạch đùi kịp thời, hai đệ tử cõng về Dược phòng tịnh dưỡng | Chương 08b |
+```
 
 ---
 
-## Supporting Cast Directory (`characters/supporting_cast.md`)
-*(Đã đồng bộ chuẩn hóa kiểm toán vào danh bạ nhân vật phụ)*
+## 9. Phê Duyệt Của Tác Giả (Author Approval — Cổng Dừng Cứng 3)
+
+- [x] **Đã được Tác giả phê chuẩn toàn bộ trạng thái canon diff Chương 08b.**
+- **Trạng thái:** ĐÃ COMMIT VÀO SỔ CÁI BỀN VỮNG (`injuries_ledger.md`, `characters/ha_nuong.md`, `artifacts_ledger.md`, `promises_tracker.md`, `timeline.md`, `supporting_cast.md`, `chapters/chapter_08b.md`).

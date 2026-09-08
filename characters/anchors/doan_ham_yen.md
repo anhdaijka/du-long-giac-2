@@ -29,7 +29,7 @@ weapon: "Bách Hoa Song Kiếm / Thúy Yên Môn Pháp"
 * **Gánh nặng kinh tài & Cơn biến động Bách Hoa Trận (`Chương 03: Hương Dược Bách Hoa — Task 12: Subtask 85` — ĐÃ CANON HÓA):**
   - Ngày 1191-08-17, Tân Chưởng môn Doãn Hàm Yên ngồi đối diện với sổ sách chi thu thắt lưng buộc bụng tại Hậu đình Xuân Mai Nhã Trúc; trăn trở tìm cách duy trì sinh kế cho hàng trăm tỷ muội giữa lúc kho dược liệu bị hư hại sau mưa lũ Điền Trì và thuế quan biên ải tăng cao.
   - Tiếp đón Tiền Chưởng môn Lệ Thu Thủy cùng dị nhân Ma Y Thần Tướng mang la bàn trở về; giao Hạ Nương dẫn đệ tử đi đo đạc đối soát phương vị tại bốn đại hoa viên.
-  - Khi biết Du Long Giác nằm tại trung tâm Bách Hoa Trận, nàng kiên quyết đứng lên can ngăn vì lo sợ cơ quan phòng thủ bị phá hủy sẽ rước đại họa cho sơn môn, nhưng bất lực trước sự cố chấp mù quáng của Lệ Thu Thủy.
+  - Khi biết Du Long Giác nằm tại trung tâm Bách Hoa Trận, nàng chất vấn đanh thép âm mưu 'mượn đao đào ngọc' của ngoại bang. Trước thế cờ 'ngồi trên miệng núi lửa' (từ trường bộc phát làm bầy sói phát cuồng đe dọa nổ vỡ cơ quan ngầm của sơn môn), Doãn Hàm Yên quyết đoán chuẩn thuận kế hoạch cảm tử của Lệ Thu Thủy dọn sói đào ngọc phong tỏa bằng hộp đồng bọc chì, hạ lệnh phái Chấp pháp đường và Hạ Nương xuất kích phối hợp bảo vệ sơn môn.
 * **Cơn bão máu ngay sau ngày nhậm chức (`Task 12: Subtask 91–92`):**
   - Lệ Thu Thủy mang khối ngọc bích Du Long Giác trở về Bách Hoa Trận, thu hút hàng đàn sát thủ võ công kỳ quái tấn công phá hủy trận pháp phòng thủ.
   - Thúy Yên Môn chịu tổn thất chưa từng có: hơn 30 đệ tử tử trận, hơn 100 tỷ muội bị trọng thương. Cục diện cực kỳ hỗn loạn bày ra trước mắt Doãn Hàm Yên.

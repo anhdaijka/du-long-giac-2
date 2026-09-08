@@ -129,19 +129,19 @@ Doãn Hàm Yên lập tức đứng bật dậy, bước nhanh tới đỡ lấy
 
 "Lệ sư tỷ! Tỷ muội đồng môn đồng sinh cộng tử bao năm, tỷ hà tất phải giữ lễ chưởng môn với muội? Sư tỷ ngàn dặm gió bụi trở về cốc, Hàm Yên chưa kịp nghênh đón từ chân núi, thật là có lỗi. Mau mời sư tỷ và vị tiên sinh đây dùng trà."
 
-Lệ Thu Thủy xua nhẹ tay áo, không ngồi xuống ghế mà bước thẳng tới mép lan can nhìn ra vạt rừng đỗ quyên sương phủ, giọng điệu chất chứa nỗi cay đắng ngút ngàn:
+Lệ Thu Thủy xua nhẹ tay áo, không ngồi xuống ghế mà bước thẳng tới mép lan can nhìn ra vạt rừng đỗ quyên mịt mù sương phủ. Giọng điệu của bà trầm đặc, đanh lại như thép nguội:
 
-"Hàm Yên, lão thân cả đời này gây dựng danh tiếng cho Thúy Yên Môn, ngỡ rằng kiếm pháp tuyệt đỉnh có thể chém đứt mọi ân oán hồng trần. Nào ngờ... một trận mưa rào mười chín năm trước ở bến đò Giang Nam đã cuốn trôi đi tất cả. Người ấy biệt tích, lão thân lặn lội khắp chân trời góc bể, từ ải Nhạn Môn đến chân dãy Côn Lôn, chỉ mong tìm lại một bóng hình xưa cũ... nhưng đáp lại chỉ là nấm mồ hoang và cát bụi mịt mù."
+"Hàm Yên, muội còn nhớ chuyện mười chín năm trước ở bến đò Giang Nam không? Năm ấy trước lúc biệt tích, người ấy từng cảnh báo lão thân rằng dưới lòng đất Bách Hoa Cốc của Thúy Yên Môn chôn giấu một bí mật quân cơ kinh thiên động địa từ thời Tống Thái Tổ khai quốc — một mảnh ngọc mang tên Du Long Giác do Khai sơn tổ sư Doãn Tuyết Dao bí mật trấn yểm nơi biên viễn Tây Nam, then chốt phong ấn tọa độ của toàn bộ mạng lưới Trụ Thần Thạch phòng ngự giang sơn. Năm xưa lão thân chỉ ngỡ lời chàng thuộc về chuyện viển vông trong sách cổ quân sự, không để vào tai..."
 
-Bà quay phắt lại, ánh mắt rực lên một tia hy vọng cuồng loạn xen lẫn đau đớn:
+Bà quay phắt lại, hốc mắt trũng sâu ánh lên một tia sắc lạnh đầy âu lo:
 
-"Cho đến mười ngày trước, lão thân gặp được Ma Y tiên sinh tại chân núi Nga My. Tiên sinh đã chỉ cho ta một con đường... Khối ngọc hình rồng mang tên Du Long Giác — vật định tình mà năm xưa ta và người ấy từng nhắc tới trong đêm mưa chia ly — không hề lưu lạc nơi chân trời góc bể. Nó vẫn luôn nằm ngay tại mảnh đất Thúy Yên này!"
+"Nào ngờ mười ngày trước tại chân núi Nga My, giang hồ phương Bắc bỗng râm ran tin đồn Du Long Giác sắp xuất thế ngay tại đất Thúy Yên! Cũng chính tại đó, lão thân gặp được Ma Y tiên sinh đang mang theo la bàn tầm long truy tìm tung tích ngọc khí. Mật thám ngoại bang và các môn phái giang hồ đều đã bắt đầu ngửi thấy mùi gió tanh rục rịch dòm ngó về phía Điền Trì. Thúy Yên Môn đang đứng trước một đại kiếp nạn!"
 
 "Du Long Giác?" 
 
-Doãn Hàm Yên khẽ biến sắc, bàn tay đặt trên mặt bàn ngọc siết chặt lại. 
+Doãn Hàm Yên khẽ biến sắc, bàn tay đặt trên mặt bàn ngọc siết chặt lại, khớp ngón tay hằn lên những vệt trắng bệch. 
 
-Đứng bên cạnh, Hạ Nương im lặng quan sát. Dưới lăng kính của một người hành nghề y lý, nàng không để tâm đến những lời kể sướt mướt về mối tình dang dở, mà ánh mắt nàng chăm chú nhìn vào chiếc la bàn trên tay quái nhân áo vải thô.
+Đứng bên cạnh, Hạ Nương im lặng quan sát. Dưới lăng kính của một người hành nghề y lý thực chứng, nàng không bận tâm đến những truyền thuyết phong thủy hay binh thư cổ tịch hư ảo, mà ánh mắt nàng chăm chú dán chặt vào chiếc la bàn trên tay quái nhân áo xám tro.
 
 Cây kim sắt trên mặt la bàn đồng thau không hề chỉ về hướng Nam như lẽ thường. Nó đang giật cục liên hồi, rung lên từng chập *rè... rè...* kỳ dị, mũi kim chếch một góc nghiêng quái đản chỉ thẳng về phía vách núi cheo leo phía sau hậu đình.
 
@@ -251,46 +251,52 @@ Lệ Thu Thủy thở hắt ra một hơi dài, lồng ngực phập phồng d�
 
 "Chẳng trách... chẳng trách bao nhiêu năm nay, Bách Hoa Trận lại thu hút bầy sói Điểm Thương kéo về tụ tập đông đúc đến thế. Thú dữ nhạy cảm với khí khoáng kim loại dưới lòng đất. Nhờ có bầy sói dữ canh giữ cửa trận mà bao năm qua kẻ ngoài không dám bén mảng... Nào ngờ khối ngọc ấy lại nằm ngay dưới chân chúng ta!"
 
-"Sư tỷ!" Doãn Hàm Yên đứng bật dậy, cất giọng can ngăn kiên quyết. "Bách Hoa Trận là cấm địa của sơn môn, bên trong chôn giấu vô số cơ quan bí mật do các đời Chưởng môn truyền lại. Nay nếu chúng ta tự tay đào xới phá vỡ trận pháp để lấy một khối ngọc chưa rõ lai lịch, một khi trận pháp phòng thủ sụp đổ, nhỡ có kẻ thù tập kích thì lấy gì để bảo vệ hàng trăm tỷ muội trong cốc?"
+"Khoan đã!"
 
-"Hàm Yên! Muội chưa từng trải qua nỗi đau mất đi tri kỷ giữa mưa nguồn gió biển mười lăm năm, muội làm sao hiểu được!" Lệ Thu Thủy trừng mắt nhìn Doãn Hàm Yên, ánh mắt bà rực lên ngọn lửa mê muội điên cuồng. "Khối ngọc Du Long Giác này là tâm nguyện cả đời của ta, là lời thề ước giữa ta và người ấy! Chỉ cần lấy được nó, ta sẽ tìm ra tung tích của chàng, dẫu có phải trả giá bằng tính mạng của ta, ta cũng quyết không lùi bước!"
+Doãn Hàm Yên bỗng cất tiếng, giọng nói sắc lạnh như băng tuyết cắt ngang bầu không khí phấn khích trong đình. Bà đứng thẳng dậy, đôi mắt phượng sáng quắc nhìn chằm chằm vào chiếc la bàn đồng, rồi quét thẳng qua Ma Y Thần Tướng và Lệ Thu Thủy:
 
-Bà quay sang Ma Y Thần Tướng, gằn từng tiếng:
+"Sư tỷ! Tỷ vừa cùng Ma Y tiên sinh mang la bàn về đến Bách Hoa Cốc vào sáng nay. Ngay cả tỷ muội chúng ta ngồi tại đây, nhờ vào thuật phong thủy của tiên sinh mới vừa định vị được tọa độ trung tâm Bách Hoa Trận... Vậy muội muốn hỏi một câu: Tại sao mật báo từ thương điếm Thành Đô gửi về sáng sớm nay lại khẳng định giang hồ phương Bắc và bọn mật thám Tây Hạ đã râm ran tin tức 'Du Long Giác nằm trong Bách Hoa Cốc của Thúy Yên Môn' từ ba ngày trước?!"
 
-"Tiên sinh, bây giờ phải làm sao?"
+Lời chất vấn đanh thép vang lên khiến hai nữ đệ tử đứng hầu phía sau giật mình lùi lại một bước. Doãn Hàm Yên bước lên trước một bước, gằn từng tiếng rành mạch:
 
-Nụ cười trên gương mặt nhăn nheo của Ma Y Thần Tướng bỗng nhiên tắt ngấm. Lão nheo mắt nhìn về phía Bách Hoa Trận đang chìm dần vào màn đêm tím ngắt, giọng nói đột ngột trầm xuống, mang theo một vẻ lạnh lẽo rợn người:
+"Kẻ nào... kẻ nào đã biết trước Du Long Giác nằm ở Thúy Yên để tung tin ra khắp cõi giang hồ? Và kẻ nào đang muốn mượn tay người Thúy Yên chúng ta đào ngọc lên?!"
 
-"Lấy ngọc... dĩ nhiên là phải phá trận. Bách Hoa Trận tuy có bốn cửa vào, nhưng cửa phía Xuân Hoa Viên là gần trung tâm nhất. Song, trước khi đào ngọc, lão phu phải nói rõ một lời này..."
+Không gian trong đình thoáng chốc đông cứng lại, chỉ còn tiếng gió rít qua rặng trúc sau vách núi.
 
-Lão đảo mắt nhìn khắp lượt Lệ Thu Thủy, Doãn Hàm Yên và dừng lại hồi lâu trên gương mặt điềm tĩnh của Hạ Nương:
+Nụ cười cợt nhả trên gương mặt nhăn nheo của Ma Y Thần Tướng tắt lịm. Cặp mắt ti hí của lão lóe lên một tia thán phục âm trầm. Lão khẽ thở dài, hạ thấp giọng:
 
-"Ngọc khí tuy tụ, nhưng sát khí xông thiên. Viên ngọc bích này mang hình rồng ngậm máu, hấp thu tử khí của chiến trường ngàn năm trước. Một khi nó bị đào khỏi lòng đất, ánh ngọc chiếu sáng mây mù, ắt sẽ chiêu cảm hàng đàn kền kền máu lạnh từ khắp thiên hạ kéo về. Huyết quang tai tất giáng xuống đầu trăm dặm Bách Hoa Cốc! Xương trắng thành gò, máu nhuộm dòng Điền Trì! Lệ cô nương... cô nương có dám gánh lấy cái tội nghiệt ngập trời này hay không?"
+"Doãn Chưởng môn quả nhiên mưu sâu trí sáng, vừa nhìn đã thấu tận tim đen của cục diện! Lão phu theo Lệ cô nương vào cốc, ngoài việc tìm ngọc, cũng là để nghiệm chứng điều quái gở này. Bách Hoa Trận do Khai sơn tổ sư Doãn Tuyết Dao thiết lập ngàn trùng cơ quan ám khí, lại có đàn sói Điểm Thương dữ tợn bủa vây cửa ngõ. Kẻ địch bên ngoài dẫu biết khối ngọc chôn dưới lòng đất Điền Trì, nhưng nếu chúng tự mình xông vào đào bới, chẳng khác nào đem mạng nộp cho bầy sói và bẫy ngầm cơ quan! Bởi vậy, chúng mới cố tình tung tin ra giang hồ, dồn Thúy Yên Môn vào thế chân tường, dùng kế 'mượn đao đào ngọc' — ép chính tay các người phải tự phá cấm địa, dẹp sạch bầy sói để bới ngọc lên. Một khi bảo vật lộ diện, bọn chúng chỉ việc ùa vào cướp trắng!"
 
-Lời cảnh báo sắc lạnh như một gáo nước băng tạt thẳng vào không gian tĩnh mịch của hậu đình. 
+"Đã biết là bẫy của giặc, chúng ta tuyệt đối không thể mắc lừa!" Doãn Hàm Yên dứt khoát phất tay áo. "Hạ lệnh phong tỏa toàn bộ bốn cổng cốc, nghiêm cấm bất kỳ ai bén mảng đến gần Bách Hoa Trận. Khối ngọc ấy nằm yên dưới lòng đất trăm năm nay thì cứ để nó tiếp tục ngủ yên!"
 
-Doãn Hàm Yên rùng mình lùi lại nửa bước. Hai nữ đệ tử đứng hầu phía sau mặt mày tái mét không còn giọt máu.
+"Hàm Yên! Muội nghĩ chúng ta còn giữ cho nó ngủ yên được sao?!"
 
-Chỉ có Lệ Thu Thủy đứng sững như trời trồng. Đôi bờ vai gầy guộc của bà run lên bần bật dưới lớp chiến bào cũ nát. Song, sự run rẩy ấy kéo dài không quá ba nhịp thở. Ánh mắt tuyệt vọng của kẻ đã mất đi tất cả trong đời bỗng biến thành sự cố chấp tàn nhẫn:
+Lệ Thu Thủy cất giọng khàn đặc cắt ngang, ánh mắt bà ngập tràn nỗi lo âu tột cùng nhưng hoàn toàn tỉnh táo và kiên định:
 
-"Mười lăm năm sống trong hối hận và dằn vặt, ta đã chết từ lâu rồi. Nếu máu của Lệ Thu Thủy này có thể đổi lấy một lần gặp lại người xưa, dẫu có biến Bách Hoa Cốc thành biển máu, lão thân cũng cam lòng!"
+"Muội hãy nhìn cây kim sắt trên tay Ma Y tiên sinh, và hãy nhìn vết cắn xé trên da thịt của con bé tuần sơn ngoài dược phòng lúc nãy! Từ trường của Du Long Giác đã thức giấc sau trăm năm ngủ vùi. Mạch ngầm thiên thạch dưới đáy Bách Hoa Trận đang bốc hỏa, kích thích đàn sói Điểm Thương phát cuồng cắn xé bừa bãi. Bầy thú hoang dại không còn sợ hãi cơ quan gỗ đá nữa. Chỉ trong vòng ba ngày tới, nếu từ trường bộc phát toàn phần, lực hút sắt đá sẽ làm gãy nát các then chốt cơ quan ngầm của tổ sư để lại, Bách Hoa Trận tự khắc sụp đổ từ bên trong! Đến lúc ấy, nội công ngoại kích, Thúy Yên Môn lấy gì để chống đỡ bầy sói điên và đàn kền kền rình rập ngoài thung lũng?!"
 
-Bà xoay người rút xoạt hai thanh Băng Tâm Đoản Kiếm sau lưng, ánh thép xanh lè lóe lên trong bóng tối chạng vạng:
+Bà bước tới trước mặt Doãn Hàm Yên, đặt bàn tay gầy guộc nhưng rắn chắc lên chuôi đoản kiếm sau lưng:
 
-"Đan Bích Tú! Hạ lệnh cho mười đệ tử chấp pháp mang cuốc xẻng và đuốc dầu, theo ta tiến vào Xuân Hoa Viên tiêu diệt bầy sói, phá cửa Bách Hoa Trận!"
+"Ngồi yên chờ chết hay đi trước kẻ thù một bước? Bách Hoa Trận do tổ sư Tuyết Dao lập nên, tai họa này bắt nguồn từ chính bảo vật trấn yểm của sơn môn. Mười chín năm trước tại bến đò Giang Nam, người ấy từng cảnh báo ta nhưng lão thân đã ngạo mạn bỏ ngoài tai. Món nợ năm xưa và trách nhiệm với hàng trăm tỷ muội hôm nay, Lệ Thu Thủy này phải gánh! Lão thân thân là Tiền Chưởng môn, xin đi đầu mũi kiếm cảm tử xông vào Xuân Hoa Viên dọn sạch bầy sói cuồng loạn, mở đường vào tâm trận đào khối ngọc lên, rồi dùng hộp đồng bọc chì ngâm dầu trẩu phong tỏa hoàn toàn từ trường thiên thạch, di dời đi nơi an toàn trước khi địch kịp trở tay!"
 
-"Sư tỷ! Không được...!" Doãn Hàm Yên thất thanh kêu lên, toan bước tới can ngăn.
+Doãn Hàm Yên nhìn sâu vào đôi mắt quầng thâm kiên nghị của sư tỷ. Trong ánh mắt ấy không hề có bóng dáng của sự mù quáng hay tình si ủy mị, mà chỉ có ý chí sắt đá của một bậc tiền bối dám lấy thân mình làm bia chắn sóng cho sơn môn.
 
-Nhưng bóng áo lam của Lệ Thu Thủy đã lướt đi như một cơn gió lốc, cuốn theo ánh thép sắc lạnh và tiếng rít ràn rạt của tà áo xé gió, khuất dạng sau rặng trúc già rậm rạp. Tiếng chân rầm rập của toán đệ tử chấp pháp mang theo đuốc sáng bừng bừng đuổi theo sau, xé toạc màn đêm thanh tịnh của Bách Hoa Cốc.
+Sau vài nhịp thở nặng nề, Doãn Hàm Yên siết chặt nắm tay, quyết đoán hạ lệnh:
 
-Trong đình, chỉ còn lại Doãn Hàm Yên đứng chết lặng bên bàn trà, ngực phập phồng kịch liệt, ánh mắt tràn đầy vẻ bất lực và dự cảm kinh hoàng.
+"Đã là tử huyệt môn phái, Thúy Yên tuyệt không lùi bước! Đan Bích Tú! Ngươi lập tức triệu tập mười đệ tử Chấp pháp đường mang giáp gai và đuốc lửa, theo sát bảo vệ Lệ sư tỷ tiến vào Xuân Hoa Viên! Hạ Nương, mang theo hòm thuốc dã chiến và kim sang dược, bám sát đội hình tiếp ứng cứu chữa!"
 
-Hạ Nương đứng lặng bên mép lan can. 
+"Đệ tử tuân mệnh!" 
 
-Gió đêm từ đỉnh Điểm Thương Sơn thổi thốc xuống càng lúc càng buốt giá, mang theo mùi hôi hám của bầy sói hoang từ phía Bách Hoa Trận dạt về, xen lẫn mùi khét lẹt của dầu thông cháy dở. 
+Đan Bích Tú chắp tay lĩnh mệnh, lập tức xoay người lao nhanh xuống bậc thềm đá. Lệ Thu Thủy cũng rút xoạt hai thanh Băng Tâm Đoản Kiếm sau lưng, ánh thép xanh lè lóe lên trong màn đêm chạng vạng, sải bước dứt khoát dẫn đầu đội hình xông thẳng về phía rừng hoa mịt mùng.
 
-Nàng đưa bàn tay lên, nhìn chiếc la bàn đồng thau vẫn nằm im lìm trên mặt bàn. Cây kim sắt lúc này không còn quay tít nữa, mà cắm thẳng vào hướng trung tâm trận pháp, đầu kim nhọn hoắt run lên từng hồi nhè nhẹ như một mũi châm độc đang chực chờ cắm sâu vào da thịt.
+Trong đình, tiếng chân rầm rập của toán đệ tử chấp pháp cùng ánh đuốc bừng sáng đã xé toạc màn sương đêm tĩnh mịch của Bách Hoa Cốc.
 
-Dưới mắt một người thầy thuốc, nàng chưa từng tin vào ma quỷ hay số mệnh long mạch. Nhưng mùi máu tanh nhàn nhạt thoảng bay trong gió đêm Điền Trì lúc này là có thật. Vết thương do nọc độc hay dao kiếm có thể dùng ngân châm và thảo dược để khâu vá, chữa lành. Nhưng vết thương rách toác trong tâm can của những kẻ vì lòng tham và nỗi ám ảnh giang hồ mà bất chấp tất cả... thì dẫu có cạn kiệt mọi kho dược liệu trên thế gian này, cũng vĩnh viễn không thuốc nào cứu chữa nổi.
+Hạ Nương đứng lặng bên mép lan can, ngón tay chạm nhẹ vào quai da của chiếc hòm thuốc bên hông.
+
+Gió đêm từ đỉnh Điểm Thương Sơn thổi thốc xuống rít từng cơn lạnh buốt, mang theo mùi tanh nồng của bầy sói hoang từ phía Bách Hoa Trận dạt về, xen lẫn mùi khét lẹt của dầu thông cháy dở. 
+
+Nàng đưa mắt nhìn chiếc la bàn đồng thau vẫn nằm im lìm trên mặt bàn. Cây kim sắt lúc này không còn quay tít nữa, mà cắm thẳng vào hướng trung tâm trận pháp, đầu kim nhọn hoắt run lên từng hồi bần bật như một mũi châm độc đang chực chờ cắm sâu vào da thịt.
+
+Dưới mắt một người thầy thuốc thực chứng, nàng chưa từng tin vào ma quỷ hay số mệnh long mạch. Nhưng mùi máu tanh nhàn nhạt thoảng bay trong gió đêm Điền Trì lúc này là có thật. Vết thương do nọc độc hay dao kiếm có thể dùng ngân châm và thảo dược để khâu vá, chữa lành. Nhưng vết thương gây ra bởi những toan tính hiểm độc và mưu mô tranh đoạt bảo vật của chốn giang hồ... thì dẫu có cạn kiệt mọi kho dược liệu trên thế gian này, cũng vĩnh viễn không thuốc nào cứu chữa nổi.
 
 Đêm tháng Tám buông xuống thung lũng Điểm Thương Sơn, đen đặc và lạnh buốt tựa đáy mồ sâu.

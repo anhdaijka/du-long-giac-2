@@ -31,7 +31,8 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 | **Doãn Hàm Yên** | Task 12: Subtask 85 / SQLite | Lục Đại Môn Chủ Thúy Yên Môn; phu nhân Đường Nhất Trần; mẹ Doãn Tiêu Vũ (17) & Đường Hiểu (17); sư muội Lệ Thu Thủy; sư tỷ Chung Linh Tú | 1151 (40 tuổi) | $40 \ge 17 + 16 = 33$ (Đạt: sinh con năm 23 tuổi) | Hạ Nương (16) gọi "Chưởng môn", xưng "đệ tử". Doãn Hàm Yên gọi Lệ Thu Thủy (43) là "Lệ sư tỷ", gọi Hạ Nương là "ngươi". |
 | **Lệ Thu Thủy** | Task 12: Subtask 85 / SQLite | Ngũ Đại Môn Chủ (Cựu Chưởng môn Thúy Yên); sư tỷ Doãn Hàm Yên & Chung Linh Tú | 1148 (43 tuổi) | Không có con | Hạ Nương gọi "Sư bá", xưng "đệ tử". Lệ Thu Thủy gọi Doãn Hàm Yên là "Doãn sư muội". |
 | **Đan Bích Tú** | Task 12: Subtask 85 / SQLite | Đệ tử chấp pháp Thúy Yên Môn (Đời thứ 7) | 1172 (19 tuổi) | Không có con | Hạ Nương gọi "Đan sư tỷ", xưng "muội". |
-| **Ma Y Thần Tướng** | Task 12: Subtask 85 / SQLite | Thuật sĩ giang hồ | Không rõ (~45-50 tuổi) | N/A | Khách phương xa đối thoại bình đẳng với Lệ Thu Thủy / Doãn Hàm Yên. |
+| **Tiểu Đào** | Task 12: Subtask 85 / Dân sinh | Tiểu đệ tử tuần sơn Dược phòng | 1177 (14 tuổi) | Thiếu nữ sơ cấp | Gọi Hạ Nương là "Sư tỷ", xưng "muội". |
+| **Ma Y Thần Tướng** | Task 12: Subtask 85 / SQLite | Thuật sĩ giang hồ Ma Y phái | Không rõ (~45-50 tuổi) | N/A | Khách phương xa đối thoại bình đẳng với Lệ Thu Thủy / Doãn Hàm Yên. |
 
 ---
 
@@ -88,14 +89,14 @@ Thiết lập lăng kính nhân vật chính thứ ba: **Hạ Nương — Lăng 
 ### Phân cảnh 2: Hậu Đình Xuân Mai Nhã Trúc (Doãn Hàm Yên & Gánh nặng Sơn môn)
 - **Goal:** Hạ Nương gặp Tân Chưởng môn Doãn Hàm Yên để báo cáo kho dược dự trữ; tìm hiểu lý do môn phái đột ngột báo động.
 - **Conflict:** Doãn Hàm Yên đang đau đầu sổ sách kinh tài: Thúy Yên Môn thuần nữ giới, không cướp bóc như lục lâm hồ Động Đình, phải dựa vào phường thêu thùa và dược liệu buôn bán với Đại Lý Thành, nay ngân sách eo hẹp; đồng thời, tin tức Tiền Chưởng môn Lệ Thu Thủy đột ngột trở về cùng một kẻ lạ mặt khiến nàng vừa mừng vừa lo.
-- **Turn:** Lệ Thu Thủy bước vào cùng một dị nhân mặc áo vải thô lam lũ, tay cầm la bàn cổ — đó là Ma Y Thần Tướng.
-- **Outcome:** Doãn Hàm Yên đón tiếp tiền bối tôn kính; Lệ Thu Thủy lộ rõ vẻ tiều tụy, ánh mắt chất chứa nỗi bi thương day dứt của mối tình dang dở trong mưa gió nhiều năm trước (`Task 12: Subtask 85`).
+- **Turn:** Lệ Thu Thủy bước vào cùng một dị nhân mặc áo vải thô lam lũ, tay cầm la bàn cổ — Ma Y Thần Tướng.
+- **Outcome:** Doãn Hàm Yên đón tiếp tiền bối tôn kính; Lệ Thu Thủy tiết lộ bí mật báu vật trấn quốc Du Long Giác từ thời Tống Thái Tổ do Khai sơn tổ sư Doãn Tuyết Dao trấn yểm, cùng biến cố giang hồ phương Bắc râm ran tin đồn ở Nga My 10 ngày trước (`Task 12: Subtask 85`).
 
-### Phân cảnh 3: La Bàn Bát Quái & Tiên Tri Bách Hoa Trận (Mầm mống tai kiếp)
-- **Goal:** Ma Y Thần Tướng giải thích cơ duyên tìm kiếm manh mối cho Lệ Thu Thủy; yêu cầu dùng la bàn đo đạc khí trường 4 hoa viên.
-- **Conflict:** Ma Y Thần Tướng khẳng định viên ngọc rồng "Du Long Giác" mà Lệ Thu Thủy đau đáu tìm kiếm đang phát ngọc khí chôn vùi tại trung tâm 4 hoa viên; Hạ Nương đứng bên nghe qua liền đặt câu hỏi sắc bén dưới góc nhìn địa chất/khoáng vật học (ngọc đá trong lòng đất làm sao phát ra điềm triệu nếu không phải khoáng chất độc hại?).
-- **Turn:** Ma Y Thần Tướng đưa la bàn giao cho đệ tử đi đối soát 4 hoa viên (Xuân, Hạ, Thu, Đông); kim chỉ nam xoay tít rồi dừng chết ở góc trung tâm Bách Hoa Trận — nơi cấm địa hiểm trở có bầy sói dữ trú ngụ bảo vệ. Thần Tướng thốt lên lời sấm truyền: *"Ngọc khí tuy tụ, nhưng sát khí xông thiên. Vật này lộ diện, huyết quang tai tất giáng xuống đầu trăm dặm Bách Hoa!"*
-- **Outcome:** Lệ Thu Thủy quyết định dấn thân khai quật bất chấp nguy hiểm (`Task 12: Subtask 86`); Hạ Nương đứng nhìn bóng lưng sư bá khuất dần sau rặng hoa sương, linh cảm một cơn bão máu tanh sắp sửa xé toạc sự yên bình của Điền Trì.
+### Phân cảnh 3: La Bàn Bát Quái & Bẫy Mượn Đao Đào Ngọc (Mầm mống tai kiếp)
+- **Goal:** Ma Y Thần Tướng dùng la bàn đo đạc khí trường 4 hoa viên để xác định tâm trận.
+- **Conflict:** Xác định ngọc báu nằm tại trung tâm Bách Hoa Trận. Doãn Hàm Yên lập tức vạch trần câu hỏi trinh thám: Kẻ nào tung tin Du Long Giác ở Thúy Yên ra khắp giang hồ từ ba ngày trước khi chính môn phái chưa hay biết? Ma Y Thần Tướng thừa nhận âm mưu "mượn đao đào ngọc" của ngoại bang (muốn Thúy Yên phá cấm địa dẹp sói để chúng ập vào cướp).
+- **Turn:** Lệ Thu Thủy chỉ rõ nguy cơ "ngồi trên miệng núi lửa": từ trường thiên thạch thức giấc kích thích bầy sói phát cuồng (ca bệnh Tiểu Đào), đe dọa làm gãy nổ cơ quan ngầm khiến trận pháp tự sụp đổ. Bà xin đi đầu mũi kiếm cảm tử xông vào Xuân Hoa Viên dọn sói đào ngọc, dùng hộp đồng bọc chì ngâm dầu trẩu phong tỏa từ trường; Doãn Hàm Yên quyết đoán hạ lệnh phái chấp pháp đường yểm trợ và Hạ Nương bám sát cứu thương (`Task 12: Subtask 86`).
+- **Outcome:** Đoàn người xuất kích tiến vào Xuân Hoa Viên trong tiếng rầm rập của giáp gai và ánh đuốc; Hạ Nương cảm nhận điềm báo bão máu tanh giang hồ sắp bủa vây Điền Trì.
 
 ---
 
@@ -103,13 +104,14 @@ Thiết lập lăng kính nhân vật chính thứ ba: **Hạ Nương — Lăng 
 
 ### Reader learns
 - Bức tranh toàn cảnh về Thúy Yên Môn: một môn phái nữ tử kiếm phái kết hợp y dược Nam Cương, sống bằng nghề thêu và thảo dược buôn bán sang Đại Lý Thành;
-- Mối tình dĩ vãng bi thương của Lệ Thu Thủy và lý do bà bị Ma Y Thần Tướng dẫn dắt tìm kiếm ngọc bích Du Long Giác;
-- Ma Y Thần Tướng là nhân vật mấu chốt kích hoạt chuỗi sự kiện mở phong ấn Du Long Giác tại Tây Nam.
+- Lai lịch Du Long Giác: báu vật trấn quốc từ thời Tống Thái Tổ Triệu Khuông Dẫn nắm giữ mạng lưới Trụ Thần Thạch, được Khai sơn tổ sư Doãn Tuyết Dao trấn yểm tại Bách Hoa Cốc;
+- Âm mưu trinh thám giang hồ: Ngoại bang/mật thám tung tin từ trước hòng mượn tay Thúy Yên phá bầy sói cấm địa để cướp bảo vật;
+- Tình thế bắt buộc phải đào ngọc: Từ trường bộc phát làm sói phát cuồng và đe dọa nổ vỡ cơ quan ngầm của sơn môn.
 
 ### POV character (Hạ Nương) learns
-- Lệ Thu Thủy trở về không phải để truyền thụ võ công mà vì một khối ngọc hình rồng tên là Du Long Giác;
-- Trung tâm Bách Hoa Trận chôn giấu một bí mật cổ xưa có thể tỏa ra bức xạ khoáng chất (ngọc khí);
-- Doãn Hàm Yên đang chịu áp lực kinh tế đè nặng lên vai sau ngày nhận ấn tín chưởng môn.
+- Du Long Giác là báu vật trấn quốc chôn sâu tại Bách Hoa Trận, có từ trường kim loại mạnh mẽ tác động sinh học lên thú dữ và kim la bàn;
+- Thúy Yên Môn đang bị cuốn vào bẫy rập giang hồ và đứng trước nguy cơ nội công ngoại kích;
+- Doãn Hàm Yên và Lệ Thu Thủy đưa ra quyết định chiến thuật nghiệt ngã nhằm bảo toàn môn phái.
 
 ### POV character must NOT learn yet
 - Khối ngọc Du Long Giác thực chất là chiếc chìa khóa khởi động cơ quan quân sự và bí mật chính trị quốc gia liên quan đến Triệu Nhữ Nhu, Hàn Thác Trụ và Hoàng hậu Lý Thị;

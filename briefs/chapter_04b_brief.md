@@ -26,6 +26,19 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ---
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Xuất Hiện Trong Chapter | Tuổi Theo Lore / Niên Biểu (1191) | Năm Sinh (Âm Lịch) | Bối Phận / Thế Hệ / Quan Hệ Gia Đình | Kiểm Tra Độ Lệch Tuổi Sinh Học ($\Delta \ge 16$) | Danh Xưng / Cách Gọi Chuẩn Mực Trong Chapter |
+| :--- | :---: | :---: | :--- | :--- | :--- |
+| **Tiêu Phùng** | **17 tuổi** | 1174 (Giáp Ngọ) | Con trai Tiêu Lăng Phong (Ma Y Cốc); được Bạch Cương ẵm về sau trận Hán Thủy | Protagonist; nhỏ hơn Bạch Thu Lâm bảy tuổi | Thu Di / Tỷ — Đệ (xưng Đệ với Thu Di; Tiêu đại gia) |
+| **Bạch Thu Lâm** | **24 tuổi** | 1167 (Đinh Hợi) | Nữ thủ lĩnh Nghĩa quân Ba Lăng; con Tướng quân Bạch Phụ tại Biện Kinh | Hơn Tiêu Phùng bảy tuổi ($\Delta = 7$); nghĩa tỷ kiêm người bảo hộ | Thu Di / Thu Lâm tỷ / Cô nương (xưng Tỷ với Tiêu Phùng) |
+| **Bất Động Tiên Sinh** | **~50 tuổi** | ~1141 (Tân Dậu) | Chủ tiệm tạp hóa kiêm kho quân nhu ngầm Nghĩa quân | Bậc tiền bối trung niên | Bất Động thúc / Tiên sinh |
+| **Tạ Hiền** | **~65 tuổi** | ~1126 (Bính Ngọ) | Chủ Tạ Thị Tiền Trang; phường kinh tài phố huyện | Lão nhân tiền bối | Tạ lão gia / Lão Tạ |
+| **Trâu Đức Khoái** | **~48 tuổi** | ~1143 (Quý Hợi) | Thủ khố Nghĩa quân Ba Lăng; huynh đệ kết nghĩa với Bạch Cương | Bậc thúc bá nghĩa quân ($\Delta = 31$ tuổi so với Tiêu Phùng) | Trâu thúc / Trâu thủ khố / Đức Khoái huynh |
+| **Bạch Cương** | **~45 tuổi** | ~1146 (Bính Dần) | Nghĩa quân tiền bối; cựu thuộc hạ Tiêu Lăng Phong; ẵm Tiêu Phùng năm 1174 | Bậc thúc bá sa trường; xưng đệ với Thu Lâm và Đức Khoái | Bạch thúc thúc / Bạch tiền bối (gọi Tiêu Phùng là Thiếu chủ) |
+
+---
+
 ## Purpose
 
 1. **Khắc họa sinh động đời sống phố huyện Ba Lăng (Living Lore & Economic Realism):** Tái hiện chân thực bức tranh thương nghiệp sầm uất nhưng ngột ngạt của Nam Tống ven bờ Động Đình Hồ — nơi tiền đồng hoen rỉ, tiền giấy Hội Tử mất giá, tiệm cầm đồ và tiền trang thao túng huyết mạch tài chính; đối lập gay gắt giữa sự lười nhác tinh quái của Bất Động Tiên Sinh với những tính toán chi li đến từng đồng xu vụn của chủ tiền trang Tạ Hiền.
@@ -42,7 +55,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 - **Relationship:**
   - *Tiêu Phùng <-> Bất Động Tiên Sinh:* Coi lão chủ tạp hóa là tên béo lười chảy thây số một trần đời, suốt ngày nằm võng đu đưa sai vặt đám thiếu niên, nhưng vị nể kho tàng hàng hóa linh tinh và thói "biết tuốt" của lão.
   - *Tiêu Phùng <-> Tạ Hiền:* Xếp lão chủ tiền trang vào hạng "vắt cổ chày ra nước", tính từng hạt bụi vàng, nhưng sẵn sàng làm chân khuân vác để kiếm vài đồng xu uống rượu hoặc chuộc lại đồ đạc cũ.
-  - *Tiêu Phùng <-> Bạch Thu Lâm (Thu Di):* Một lòng kính trọng, vừa sợ cơn thịnh nộ của bà khi lười biếng, vừa khao khát tìm cơ hội gặng hỏi chân tướng về người cha chưa từng thấy mặt.
+  - *Tiêu Phùng <-> Bạch Thu Lâm (Thu Di):* Một lòng kính trọng, vừa sợ cơn thịnh nộ của nàng khi lười biếng, vừa khao khát tìm cơ hội gặng hỏi chân tướng về người cha chưa từng thấy mặt.
 - **Knowledge:**
   - Chỉ biết cha mình là người lẫm liệt, đã chết hoặc mất tích trong loạn lạc chiến tranh 17 năm trước theo lời kể qua loa của Thu Di; hoàn toàn không biết cha làm nghề gì, phái nào, tên họ thật là chi.
   - Hoàn toàn chưa biết gì về những biến cố vừa xảy ra tại Thanh Loa Đảo (Chương 02b - Dương Thiết Tâm đăng quang ngày 16) hay Bách Hoa Cốc (Chương 03 - Lệ Thu Thủy đào ngọc Du Long Giác ngày 17) do cách trở non sông và bảo mật tin tức.
@@ -99,7 +112,7 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 - **Goal:** Tiêu Phùng tìm Trâu Đức Khoái để đối chất về nguồn gốc bức thư và chiếc tráp thất lạc; sau đó cùng về trướng sảnh Nghĩa quân trần tình trước Thu Di.
 - **Conflict:**
   - *Nhịp 1 (Kho bạc Trâu Đức Khoái):* Tiêu Phùng xộc vào kho bạc, ném chiếc chìa khóa bạch đồng và bức thư lên bàn tính gỗ mun của Trâu Đức Khoái. Nhìn thấy phong ấn sáp chu sa Ma Y Cốc và chiếc khánh bạc, Trâu Đức Khoái đánh rơi cả bàn tính xuống sàn, hạt tính văng tung tóe, mặt cắt không còn giọt máu. Lão già run rẩy thú nhận: Năm xưa kho cũ ngập lụt, lão sợ tai mắt kẻ thù nên gửi tạm tráp vào hầm đá của Tạ Hiền, không ngờ nước lũ cuốn trôi làm kẹt vào hốc tường thất lạc suốt 17 năm! Lão run rẩy tiết lộ: Người gửi thư năm xưa — lão nghĩa quân Bạch Cương — sau 17 năm mai danh ẩn tích vừa gửi bồ câu báo tin đang bí mật trở về Ba Lăng mang theo manh mối về kẻ chủ mưu!
-  - *Nhịp 2 (Quân trướng Thu Di):* Trâu Đức Khoái hốt hoảng dẫn Tiêu Phùng chạy về trướng sảnh gặp Bạch Thu Lâm (Thu Di). Nhìn thấy chiếc khánh bạc và phong thư vấy máu, Thu Di lặng người rơi nước mắt. Bà giãi bày nỗi lòng: Không phải bà muốn giấu giếm, mà bởi kẻ thù sát hại cha chàng quá mức tàn bạo, võ công âm hàn quái dị, bà muốn chàng lớn lên như một đứa trẻ bình thường nơi bãi sậy để bảo toàn tính mạng.
+  - *Nhịp 2 (Quân trướng Thu Di):* Trâu Đức Khoái hốt hoảng dẫn Tiêu Phùng chạy về trướng sảnh gặp Bạch Thu Lâm (Thu Di). Nhìn thấy chiếc khánh bạc và phong thư vấy máu, Thu Di lặng người rơi nước mắt. Nàng giãi bày nỗi lòng: Không phải nàng muốn giấu giếm, mà bởi kẻ thù sát hại cha chàng quá mức tàn bạo, võ công âm hàn quái dị, nàng muốn chàng lớn lên như một đứa trẻ bình thường nơi bãi sậy để bảo toàn tính mạng.
 - **Turn (Cú nổ cao trào):** Cuộc trò chuyện nghẹn ngào chưa dứt thì tiếng tù và báo động khẩn cấp của Nghĩa quân rú lên từng hồi dồn dập. Một trinh sát mình đầy máu ngã nhào vào trướng sảnh cấp báo: Đội tiếp ứng Bạch Cương tại chân đèo **Tuyệt Vấn Pha** ngoài huyện đã bị toán sát thủ quái dị tập kích thảm sát; Bạch Cương bị trọng thương đang rơi vào vòng vây nghẹt thở!
 - **Outcome:** Thu Di tuốt đoản kiếm hạ lệnh phát động báo động toàn quân; Tiêu Phùng siết chặt đoản côn gỗ nghiến, ngọn lửa huyết thù bốc cháy ngùn ngụt trong lồng ngực — người duy nhất biết rõ cha chàng là ai đang cận kề cái chết, chàng quyết sống mái theo chân nghĩa quân xông ra Tuyệt Vấn Pha (`Subtask 321–322`).
 

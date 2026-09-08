@@ -35,7 +35,7 @@
 - **Gate D (Voice, Rhetoric & Linters): PASS**
   - **Pure Show Don't Tell**: Triệt tiêu sạch sẽ 100% các khung thuyết minh và từ nối hiện đại (`đó là`, `đây là`, `vốn là`, `chính là`, `bánh xe số phận`, `tuy nhiên`).
   - **Linter Score**: **`npm run lint:prose` PASS 100% với 0 lỗi vi phạm** (Tổng dung lượng: 5.835 từ).
-  - **Gate Guard**: **`npm run gate:check` PASS 100%** (Tích hợp kiểm định Temporal Guard: tuổi 18 và ngày 1191-08-25 đạt chuẩn tuyệt đối).
+  - **Gate Guard**: **`npm run gate:check` PASS 100%** (Tích hợp kiểm định Temporal Guard: tuổi 20 và ngày 1191-08-25 đạt chuẩn tuyệt đối).
   - **Camera**: Ngôi thứ ba hạn tri sa trường gắn chặt vào tầm mắt, xúc giác và phán đoán quân sự của Tĩnh Xuyên.
 
 - **Gate E (Word Count & Structural Substantiality): PASS**

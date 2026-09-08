@@ -161,5 +161,5 @@ Index: plot/volume_01_deck.md
 
 ## 9. Quyết Định & Chỉ Thị Của Tác Giả (Cổng Dừng Cứng 3)
 
-- [ ] Phê chuẩn toàn văn Đề xuất Canon Diff Chương 11.
-- *(Agent TUYỆT ĐỐI KHÔNG tự ý chỉnh sửa các file sổ cái bền vững trong `characters/`, `worldbuilding/`, `plot/` cho đến khi Tác giả phê chuẩn Diff này!)*
+- [x] Phê chuẩn toàn văn Đề xuất Canon Diff Chương 11 (Đã được Tác giả chính thức phê chuẩn).
+- *(Agent đã hoàn tất commit state vào đủ 4 Trụ Cột bền vững: characters/ha_nuong.md, characters/supporting_cast.md, worldbuilding/medical/injuries_ledger.md, worldbuilding/artifacts/artifacts_ledger.md, worldbuilding/factions/relationships_matrix.md, plot/promises_tracker.md, plot/timeline.md, plot/volume_01_deck.md).*

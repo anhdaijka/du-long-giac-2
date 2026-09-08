@@ -40,7 +40,8 @@ for_tags:
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Doãn Hàm Yên** | Task 12: Subtask 86 / SQLite | Lục Đại Môn Chủ Thúy Yên Môn; phu nhân Đường Nhất Trần; mẹ Doãn Tiêu Vũ (17) & Đường Hiểu (17); sư muội Lệ Thu Thủy; sư tỷ Chung Linh Tú | 1151 (40 tuổi) | $40 \ge 17 + 16 = 33$ (Đạt: sinh con năm 23 tuổi) | Hạ Nương (16) gọi "Chưởng môn", xưng "đệ tử". Doãn Hàm Yên gọi Lệ Thu Thủy (43) là "Sư tỷ", Lệ Thu Thủy gọi Doãn Hàm Yên là "Doãn sư muội". |
 | **Lệ Thu Thủy** | Task 12: Subtask 86 / SQLite | Ngũ Đại Môn Chủ (Cựu Chưởng môn Thúy Yên); sư tỷ Doãn Hàm Yên & Chung Linh Tú | 1148 (43 tuổi) | Không có con | Hạ Nương gọi "Sư bá", xưng "đệ tử". Doãn Hàm Yên gọi "Sư tỷ". |
-| **Đan Bích Tú** | Task 12: Subtask 86 / SQLite | Đệ tử chấp pháp Thúy Yên Môn (Đời thứ 7) | 1172 (19 tuổi) | Không có con | Hạ Nương gọi "Đan sư tỷ", xưng "muội". Đan Bích Tú gọi Doãn Hàm Yên là "Chưởng môn", gọi Lệ Thu Thủy là "Sư bá". |
+| **Đan Bích Tú** | Task 12: Subtask 86 / SQLite | Đệ tử chấp pháp Thúy Yên Môn (Đời thứ 7) | 1168 (23 tuổi) | Không có con | Hạ Nương (16) gọi "Đan sư tỷ", xưng "muội". Đan Bích Tú gọi Doãn Hàm Yên là "Chưởng môn", gọi Lệ Thu Thủy là "Sư bá". |
+| **Bành Sư Tỷ** | Task 12: Subtask 86 / SQLite | Đệ tử chấp pháp Thúy Yên Môn (Đời thứ 7/8) | ~1170 (~21 tuổi) | Không có con | Hạ Nương (16) gọi "Bành sư tỷ", xưng "muội". Lệ Thu Thủy gọi "ngươi". |
 
 ---
 
@@ -64,8 +65,10 @@ for_tags:
   - Đôi bàn tay mỏi nhừ sau khi liên tục châm kim và băng bó cho Đan Bích Tú ở Chương 08a; mu bàn chân tê cóng vì sương đêm Điền Trì ngấm qua giày vải gai; thể lực tiêu hao khi mang hòm thuốc nặng vượt địa hình mê cung trơn trượt.
 - **Lệ Thu Thủy (43 tuổi — Bậc Tier 3):**
   - Tâm thần chịu kích động vượt ngưỡng sinh học; khí huyết nghịch hành lên kinh Thái Dương; hơi thở có phần gấp gáp do dốc toàn lực thi triển kiếm pháp trong không gian sương độc.
-- **Đan Bích Tú (19 tuổi):**
+- **Đan Bích Tú (23 tuổi):**
   - Mang thương tích `INJ-DBT-001` (L1) ở bả vai trái; đã được băng bó chữ nhân và ở lại cửa trận giữ chốt pháo hiệu theo lệnh của Lệ Thu Thủy.
+- **Đệ tử họ Bành (Bành sư tỷ — ~21 tuổi):**
+  - Mang thương tích `INJ-TY-001` (L2) do bị đao chém rách cơ đùi ngoài trong trận huyết chiến tại tâm trận; đã được Hạ Nương sơ cứu cầm máu kịp thời và chuyển về Dược phòng.
 
 ---
 

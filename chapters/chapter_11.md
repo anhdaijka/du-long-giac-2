@@ -266,15 +266,15 @@ Khối hung ngọc Du Long Giác bọc vải dầu trẩu vẫn nằm uy nghiêm
 
 Thấy Hạ Nương bước vội vào sảnh với sắc mặt nghiêm trọng dị thường, Doãn Hàm Yên ra hiệu cho các đệ tử lui ra ngoài cửa canh gác, rồi bước nhanh lại đón nàng:
 
-"Hạ Nương! Muội đã hái được kỳ hoa trở về bình an? Vết thương của Bích Tú và Lệ sư bá thế nào rồi?"
+"Hạ Nương! Con đã hái được kỳ hoa trở về bình an? Vết thương của Bích Tú và Lệ sư bá thế nào rồi?"
 
 "Thuốc đã phát huy công hiệu, tính mạng của Bích Tú tỷ và Lệ sư bá đã an toàn." Hạ Nương nói nhanh, giọng nàng hạ thấp xuống mức tối đa nhưng từng lời thốt ra nặng trĩu như đá tảng: "Nhưng thưa Chưởng môn... một kiếp nạn kinh hoàng gấp mười lần đêm trước đang chuẩn bị giáng xuống Thúy Yên Môn ta!"
 
-Doãn Hàm Yên giật mình biến sắc: "Muội nói gì?"
+Doãn Hàm Yên giật mình biến sắc: "Con nói sao?"
 
 Hạ Nương rút bọc giấy dầu từ trong ngực áo ra, mở hé lớp giấy để lộ nhánh rễ cây đen tím xù xì:
 
-"Sáng nay trên vách đá Hồng Sam Nhai, muội phát hiện một cỗ xe ngựa chở hàng của đệ tử Hồng kỳ Ngũ Độc Giáo đang lén lút vượt qua đèo Đăng Sát Khẩu. Thứ hàng hóa chúng áp tải trên xe: Mị Mị Hương!"
+"Sáng nay trên vách đá Hồng Sam Nhai, con phát hiện một cỗ xe ngựa chở hàng của đệ tử Hồng kỳ Ngũ Độc Giáo đang lén lút vượt qua đèo Đăng Sát Khẩu. Thứ hàng hóa chúng áp tải trên xe: Mị Mị Hương!"
 
 "Mị Mị Hương của Ngũ Độc Giáo?" Doãn Hàm Yên tái mặt, nàng lùi lại nửa bước, ánh mắt nhìn chằm chằm vào nhánh rễ cây khô: "Thứ tà độc ma quái của Miêu Cương chuyên dùng để mê hoặc tâm trí và điều khiển tử sĩ sa trường?"
 

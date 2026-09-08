@@ -154,7 +154,7 @@ Dương Thiết Tâm bước tới, vươn tay đỡ Tĩnh Xuyên đứng dậy.
 
 "Thương thế cương nghị, tâm tính trầm ổn không kiêu không nản. Thiên Vương Bang có lớp trẻ kỷ luật và kiên trung như ngươi, cơ nghiệp của Lão Bang chủ và chư vị tiền nhân quyết không lụi tàn!"
 
-Lời khen ấy không chỉ dành cho Tĩnh Xuyên, mà vang vọng khắp khoang thuyền, khiến toàn bộ các cựu thần và tướng lĩnh xung quanh đều khẽ gật đầu đồng tình. Sự kính nể dành cho vị tân chủ nhân trẻ tuổi càng thêm sâu sắc.
+Lập tức tiếng tung hô vang dậy, sự kính nể dành cho vị tân bang chủ càng thêm sâu sắc.
 
 "Đi thôi." Thiết Tâm quay sang Quý Thúc Ban. "Chúng ta lên khoang một, phục mệnh Lão Bang chủ."
 

@@ -32,11 +32,16 @@
 
 ## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
 
-| NPC Name | Provenance (Task/Subtask/SQLite) | Role & Kinship (`genealogy_matrix.md`) | Birth Year & Age (1191) | Biological Age Check ($\text{Age}_{\text{parent}} \ge \text{Age}_{\text{child}} + 16$) | Generational Addressing (POV <-> NPC, NPC <-> NPC) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Doãn Hàm Yên** | Task 12: Subtask 86 / SQLite | Lục Đại Môn Chủ Thúy Yên Môn; phu nhân Đường Nhất Trần; mẹ Doãn Tiêu Vũ (17) & Đường Hiểu (17); sư muội Lệ Thu Thủy | 1151 (40 tuổi) | $40 \ge 17 + 16 = 33$ (Đạt: sinh con năm 23 tuổi) | Hạ Nương (16) gọi "Chưởng môn", xưng "đệ tử". Doãn Hàm Yên xưng "ta", gọi "ngươi". |
-| **Tiểu Đào** | Chương 03 / Thúy Yên Dược phòng | Đệ tử nhập môn Dược phòng Thúy Yên | 1177 (14 tuổi) | N/A | Hạ Nương gọi "muội", Tiểu Đào gọi "Hạ sư tỷ". |
-| **Dược Đồng Ngũ Độc** | Task 13 / Ngũ Độc Giáo Mật Vụ | Đệ tử giao nhận độc thảo bí mật | ~1171 (20 tuổi) | N/A | Kẻ thù / đối tượng theo dõi điều tra. |
+| NPC Xuất Hiện | Môn Phái / Thân Phận | Năm Sinh / Tuổi (1191) | Mối Quan Hệ / Phả Hệ Khóa Chặt | Bối Phận / Cách Xưng Hô Chuẩn Mực | Kiểm Định Tuổi Sinh Học ($\Delta \ge 16$) | Tình Trạng Lệch Pha / Lệnh Cấm Tuyệt Đối |
+| :--- | :--- | :---: | :--- | :--- | :--- | :--- |
+| **Hạ Nương** (POV) | Y sư Dược phòng Thúy Yên Môn | 1175 (16 tuổi) | Đệ tử y sư thế hệ thứ bảy (Thất đại); con gái y sư thành Đại Lý | Xưng hô "Chưởng môn — con" với Doãn Môn chủ; gọi Lệ Thu Thủy là "Sư bá"; gọi Bích Tú/Bành là "sư tỷ" | N/A (POV nhân vật chính) | Y sư nhân từ dũng cảm; không hiếu sát sa trường. |
+| **Doãn Hàm Yên** | Lục Đại Môn Chủ Thúy Yên Môn | 1151 (40 tuổi) | Phu nhân Đường Nhất Trần; mẹ Doãn Tiêu Vũ (17t); sư muội Lệ Thu Thủy | Bậc Chưởng môn tiền bối; xưng "ta", gọi Hạ Nương là "con" | Cách biệt hai mươi tư năm so với Hạ Nương. $\Delta(\text{Hàm Yên} - \text{Tiêu Vũ}) = 23 \ge 16$. Hợp lệ 100%. | Gánh vác kinh tài môn phái; quyết đoán xuất quân bảo vệ cấm địa. |
+| **Lệ Thu Thủy** | Tiền Chưởng môn Thúy Yên Môn | 1148 (43 tuổi) | Sư tỷ Doãn Hàm Yên; đệ tử cưng Doãn Tuyết Dao | Tiền bối cựu Môn chủ; xưng "ta" | Cách biệt hai mươi bảy năm so với Hạ Nương. Hợp lệ. | Mang nội thương ngực; dằn vặt mối tình Tiêu Lăng Phong 19 năm trước (1174). |
+| **Đan Bích Tú** | Đệ tử Chấp pháp Thúy Yên Môn | 1168 (23 tuổi) | Đệ tử Thất đại Thúy Yên Môn | Sư tỷ cùng thế hệ Thất đại; xưng "tỷ — muội" với Hạ Nương | Lớn hơn Hạ Nương bảy năm. Hợp lệ. | Bị sói cào rách vai; uống thuốc hạ sốt đang lên da non. |
+| **Bành Sư Tỷ** | Đệ tử hộ trận Thúy Yên Môn | ~1170 (~21 tuổi) | Đệ tử Thất đại hộ vệ Sinh môn | Sư tỷ cùng thế hệ Thất đại; gọi "Hạ sư muội" | Lớn hơn Hạ Nương năm năm. Hợp lệ. | Bị đao chém rách cơ đùi; đắp bã thảo mộc tiêu viêm. |
+| **Tiểu Đào** | Đệ tử tuần sơn Dược phòng | 1177 (14 tuổi) | Đệ tử nhập môn Dược phòng | Sư muội; gọi Hạ Nương là "Hạ sư tỷ" | Nhỏ hơn Hạ Nương hai năm. Hợp lệ. | Đang tịnh dưỡng ở Dược phòng. |
+| **Đầu Mục Hồng Kỳ Ngũ Độc** | Đệ tử Hồng kỳ Ngũ Độc Giáo | ~1156 (~35 tuổi) | Đầu mục áp tải chuyến xe Mị Mị Hương | Kẻ thù sa trường | Lớn hơn Hạ Nương mười chín năm. Hợp lệ. | Hung bạo cộc cằn; hò hét giấu xe vào hang đá. |
+| **Trinh Sát Ngũ Độc** | Trinh sát tiền tiêu Ngũ Độc Giáo | ~1166 (~25 tuổi) | Thám mã tai đeo khuyên bạc | Kẻ thù phát hiện mục tiêu | Lớn hơn Hạ Nương chín năm. Hợp lệ. | Bắn tiễn độc; bị Hạ Nương điểm huyệt tê liệt ngã bụi gai. |
 
 ---
 
@@ -115,7 +120,7 @@ What must this chapter change for the story?
 - **Goal**: Mang dược liệu về cứu thương binh, đồng thời giải mã độc lý nhánh rễ cây thu thập được để tìm biện pháp khắc chế.
 - **Conflict**: Lệ Thu Thủy lên cơn đau tức ngực do di chấn hung ngọc; Đan Bích Tú sốt nhẹ vì vết thương rách vai; sự nghi ngờ và hoang mang bao trùm Dược phòng.
 - **Turn**: Hạ Nương sắc nước Hoa Lục Thiểm Nhi và Chu Hồng Quả cho thương binh uống, giúp Lệ Thu Thủy hạ cơn đau ngực và Đan Bích Tú hạ sốt; sau đó nàng cắt lát nhánh rễ cây Mị Mị Hương nhỏ vào chén máu thỏ rừng thử nghiệm: máu tức khắc đông quánh sủi bọt đen xì, tỏa khói trắng gây ảo giác làm tim thỏ phụ mẫu đập loạn xạ; Hạ Nương bóc tách hoàn chỉnh cơ chế độc dược: đây là **Mị Mị Hương**, thứ tà độc dùng để thôi miên và làm điên loạn kinh mạch người hít phải!
-- **Outcome**: Hạ Nương mang mẫu vật lên diện kiến Tân chưởng môn Doãn Hàm Yên; Doãn Hàm Yên tái mặt nhận ra kẻ địch đang toan tính dùng độc mù phong hỏa đại trận Thúy Yên; toàn cốc lập tức nâng mức báo động chiến tranh lên cao nhất; tiếng sấm rền vang trên đỉnh Điểm Thương Sơn khép lại chương truyện trong căng thẳng tột bực.
+- **Outcome**: Hạ Nương mang mẫu vật lên diện kiến Chưởng môn Doãn Hàm Yên; Doãn Hàm Yên tái mặt nhận ra kẻ địch đang toan tính dùng độc mù phong hỏa đại trận Thúy Yên; toàn cốc lập tức nâng mức báo động chiến tranh lên cao nhất; tiếng sấm rền vang trên đỉnh Điểm Thương Sơn khép lại chương truyện trong căng thẳng tột bực.
 
 ---
 

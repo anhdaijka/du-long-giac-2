@@ -29,6 +29,18 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ---
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Xuất Hiện Trong Chapter | Tuổi Theo Lore / Niên Biểu (1191) | Năm Sinh (Âm Lịch) | Bối Phận / Thế Hệ / Quan Hệ Gia Đình | Kiểm Tra Độ Lệch Tuổi Sinh Học ($\Delta \ge 16$) | Danh Xưng / Cách Gọi Chuẩn Mực Trong Chapter |
+| :--- | :---: | :---: | :--- | :--- | :--- |
+| **Tĩnh Xuyên** | **20 tuổi** | 1171 (Tân Mão) | Đệ tử thiết kỵ Thiên Vương Bang; con trai độc nhất của Diệp Mẫu | Protagonist; thế hệ trẻ thứ ba | Con (với tiền bối) / Thuộc hạ / Tĩnh huynh đệ |
+| **Cầu Chỉ Thủy** | **60 tuổi** | 1131 (Tân Hợi) | Cựu Trưởng lão Thiên Vương Bang; bạn đồng niên của Lão Bang chủ Dương Anh | Bậc nguyên lão tiền bối thế hệ thứ nhất ($\Delta = 40$ so với Tĩnh Xuyên) | Cầu Trưởng lão / Cầu bá / Lão tướng |
+| **Dương Thiết Tâm** | **42 tuổi** | 1149 (Kỷ Tỵ) | Tân Bang chủ Thiên Vương Bang; nghĩa tử Lão Bang chủ Dương Anh | Bậc thủ lĩnh thế hệ thứ hai ($\Delta = 22$ so với Tĩnh Xuyên) | Bang chủ / Tân Bang chủ / Thiết Tâm huynh |
+| **Bùi Dực Phi** | **35 tuổi** | 1156 (Bính Thân) | Thống lĩnh Cáp Xá trinh sát; chiến tướng thân cận của Dương Anh | Huynh trưởng chỉ huy trực tiếp của Tĩnh Xuyên | Bùi thống lĩnh / Dực Phi huynh |
+| **Đệ tử Thành Đô** | **~25 tuổi** | ~1166 (Bính Tuất) | Đệ tử kỵ trinh Phân đà Thành Đô vượt 800 dặm trao mật thư Du Long Giác | Huynh đệ đồng môn phân đà xa | Sứ giả phân đà / Huynh đệ |
+
+---
+
 ## Purpose
 
 1. **Khắc phục triệt để nhịp truyện vội vàng & Xây dựng không khí ngục tối (Rule 11.7):**

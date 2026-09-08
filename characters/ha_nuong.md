@@ -79,24 +79,27 @@ weapon: "Băng Tâm Kiếm & Băng Phách Ngân Châm"
 ---
 
 ## 7. SỔ CÁI TRẠNG THÁI HIỆN HÀNH (DURABLE STATE LEDGER)
-* **Mốc thời gian hiện hành:** 1191-08-19 (Canh ba đến Canh tư rạng sáng — Sau Chương 08b).
-* **Thể trạng thực tế:** Thể lực tiêu hao tột độ; hai đầu gối bầm dập vì trượt đá; lồng ngực đau tức nhẹ do nín thở vận kình phóng châm; màng nhĩ hơi lùng bùng do tiếp xúc gần từ trường hung ngọc Du Long Giác; đôi tay vẫn giữ trọn sự vững vàng, chuẩn xác của thầy thuốc; không mang thương tật ngoại thương chí mạng.
+* **Mốc thời gian hiện hành:** 1191-08-26 (Trưa đứng bóng — Sau Chương 11).
+* **Thể trạng thực tế:** Thể lực hồi phục hoàn toàn sau 7 ngày điều tức và chuyến leo vách núi Hồng Sam Nhai; đầu gối hết bầm dập; hơi thở điều hòa, đan điền sung mãn; cổ tay và ngón tay cực kỳ linh hoạt, chuẩn xác sau màn phóng châm điểm huyệt tự vệ; không mang thương tật mới.
 * **Binh khí & Trang bị:**
-  - Hòm thuốc da hươu đeo vai trái (chứa dao róc xương trích nọc cán bạc, kéo y khoa, bình sứ rượu hoàng liên bách bộ, 01 lọ Kim Sáng Dược còn lại, gạc lụa thô).
-  - Hộp trâm Băng Phách Ngân Châm giắt bên đai lưng: **Còn 07 mũi kim bạc** (đã phóng 5 mũi trong Chương 08b: 2 mũi điểm Khuyết Bồn/Uyển Cốt hạ Hồng Y, 3 mũi điểm Ủy Trung hạ Tử Y Đầu Mục).
-  - Áo choàng lông cáo trắng muốt viền chỉ bạc do Doãn Hàm Yên trao tặng (lấm lem bùn đất sỏi đá cấm địa và dính vệt máu giặc).
+  - Hòm thuốc da hươu đeo vai trái (chứa dao mổ bạc, kéo y khoa, bình rượu hoàng liên, ống hút trúc, đĩa sứ thử nghiệm).
+  - Hộp trâm Băng Phách Ngân Châm giắt bên đai lưng: **Còn 10 mũi kim bạc** (đã bổ sung đầy đủ 12 mũi tại phòng thuốc, vừa phóng 2 mũi điểm huyệt trinh sát Ngũ Độc).
+  - Cuộn dây thừng tơ tằm bọc da dê có móc sắt ba chạc chữ Đinh chuyên dụng leo vách đá.
+  - Túi da hươu đựng tiêu bản độc dược: 01 nhánh rễ cây Mị Mị Hương khô màu đen tím.
+  - 03 đóa Hoa Lục Thiểm Nhi và 01 túi Chu Hồng Quả (đã bàn giao Dược phòng chế biến).
 * **Vị thế & Quan hệ nội bộ:**
-  - Được Tân Chưởng môn Doãn Hàm Yên tin cẩn tuyệt đối; là nhân chứng trực tiếp báo cáo sự thật về chiến trường tâm trận và sự xuất hiện của Tây Hạ Nhất Phẩm Đường.
-  - Được Lệ Thu Thủy hoàn toàn thừa nhận bản lĩnh thực chiến: từ nghi ngờ xem thường chuyển sang chấn động và dựa vào nàng để dìu về sảnh.
-  - Cùng Đan Bích Tú và các đệ tử chấp pháp gắn kết sâu sắc qua sinh tử sa trường.
+  - Được Chưởng môn Doãn Hàm Yên giao toàn quyền quản lý kho dược và chỉ đạo Dược phòng bào chế mặt nạ lọc độc đối kháng.
+  - Cứu chữa thành công vết thương cho Đan Bích Tú và Lệ Thu Thủy, củng cố vị thế y sư tham mưu chiến lược nòng cốt của Thúy Yên Môn.
+  - Nắm vai trò tiên phong khám phá âm mưu độc dược của Ngũ Độc Giáo.
 * **Tri thức & Manh mối nắm giữ:**
-  - Trực tiếp đối đầu và nhận diện binh khí Bát Giác Lang Nha Chùy nặng 40 cân cùng giáp vảy cá dẻo của lực lượng tinh anh Tây Hạ Nhất Phẩm Đường.
-  - Trực tiếp trải nghiệm từ trường bức xạ thiên thạch của khối hung ngọc Du Long Giác (huyết quang, lạnh buốt thấu xương, rối loạn nhịp tim).
-  - Nghe thấy Lệ Thu Thủy quỳ khóc gọi tên người xưa *"Lăng Phong"* trong sương đêm khi ôm khối ngọc (gieo hạt giống nhân duyên ngầm nối về Tiêu Lăng Phong theo Quyết định D-024).
-  - Tận mắt chứng kiến pháo hoa hiệu lệnh Yên Hỏa Đài phát nổ và tiếng chuông báo động toàn phái trước nguy cơ đại chiến giữ ngọc.
+  - Nắm trọn vẹn đặc tính giải phẫu, cơ chế tác động thần kinh và đường lây truyền của kỳ độc **Mị Mị Hương**: làm tê liệt đại não, kích thích hung tính, điều khiển thần trí như con rối xác sống.
+  - Biết địa danh bí mật **Biệt Viện Tùng Đào** phía Tây Rừng Nguyên Sinh qua lời khai của toán đệ tử Hồng kỳ Ngũ Độc Giáo.
+  - Biết rõ âm mưu liên thủ giữa Tây Hạ Nhất Phẩm Đường và Ngũ Độc Giáo nhằm dùng độc mù phá vỡ Huyền Nguyệt Đại Trận.
 * **Ranh giới cấm kỵ (Forbidden Unknowns):**
   - Chưa biết kẻ chủ mưu tối cao đứng đầu chiến dịch Tây Nam của Tây Hạ Nhất Phẩm Đường.
   - Chưa biết "Lăng Phong" chính là Tiêu Lăng Phong (Ma Y Cốc, cha Tiêu Phùng) ở Ba Lăng Huyện xa xôi.
   - Chưa biết Bùi Dực Phi cùng kỵ mã Cáp Xá Thiên Vương Bang đang phi ngựa thần tốc tiếp cận Điểm Thương Sơn.
+  - Chưa biết Tĩnh Xuyên sau này sẽ mang thân phận gián điệp Mộc Nhất Lâu thâm nhập Biệt Viện Tùng Đào (`Task 5`).
+
 
 

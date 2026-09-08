@@ -157,12 +157,23 @@ Index: plot/timeline.md
 
 ---
 
-## Verdict:
-**APPROVED FOR AUTHOR REVIEW (TRÌNH TÁC GIẢ DUYỆT ĐỀ XUẤT CANON DIFF Ở CỔNG DỪNG 3)**.
-Chỉ khi Tác giả phê chuẩn bản Diff này, Agent mới tiến hành commit các thay đổi vào các file sổ cái bền vững tương ứng.
+## 8. Đề Xuất Cập Nhật Danh Bạ Nhân Vật Phụ (`characters/supporting_cast.md`)
 
+```diff
+Index: characters/supporting_cast.md
+===================================================================
+--- characters/supporting_cast.md
++++ characters/supporting_cast.md
+@@ -38,2 +38,4 @@
++| **Cầu Chỉ Thủy** | **A/B** | Cựu Trưởng lão khai quốc công thần | Lão nhân 60 tuổi, râu tóc muối tiêu, ngực vạm vỡ chằng chịt sẹo đao kiếm sa trường; tính tình bộc trực, nóng nảy nhưng trọng đại nghĩa và giàu lòng trắc ẩn; hay nhai trầu muối đỏ tươi | Đao thuật sa trường / Khẩu quyết điều tức Động Đình Quy Tức Công | Mang thương tích `INJ-CCT-001` Level 1 (cổ chân trái rách da tụ máu do cùm sắt 50 cân, đau nhức khớp gối ngục tối); được Dương Thiết Tâm dùng kế trục xuất để bảo toàn tính mạng và sang Cái Bang Yến Tử Ổ tị nạn | Chương 07a, 07b |
++| **Đệ tử Phân đà Thành Đô** | **C** | Kỵ trinh Phân đà Thành Đô | Thanh niên ngoài đôi mươi (~25 tuổi), da thịt tím tái dầm mưa gió nhiều ngày; kiên cường trung nghĩa | Kỵ mã đường trường / Ống đồng niêm sáp ưng mật thư | Mang chấn thương `INJ-TD-001` Level 2 (kiệt sức, sốt lạnh và thổ huyết); đã chuyển giao mật thư Du Long Giác cho Dương Thiết Tâm; đang tịnh dưỡng tại quân doanh bến nam | Chương 07b |
+ | **Bùi Dực Phi** | **A/Anchor** | Thống lĩnh Cáp Xá / Kỵ tướng Thiên Vương | Giáp trụ xám tro, cưỡi chiến mã đen tuyền; phong thái cương nghị sa trường (đã lập hồ sơ riêng `anchors/bui_duc_phi.md`) | Đại kích sa trường, tài cưỡi ngựa bắn cung | Nhận mệnh Dương Anh dẫn 30 thiết kỵ xuất phát sang Tây Nam (Thúy Yên Môn) hộ tống quân lương cứu tế và điều tra cổ án Ma Y Cốc | Chương 07b |
+```
 
 ---
 
-## Supporting Cast Directory (`characters/supporting_cast.md`)
-*(Đã đồng bộ chuẩn hóa kiểm toán vào danh bạ nhân vật phụ)*
+## 9. PHÊ DUYỆT TỪ TÁC GIẢ (AUTHOR APPROVAL)
+
+- [x] **accept all** (Đã đồng bộ kiểm toán theo Ground Truth bản thảo Chương 07b)
+- [ ] accept selected only
+- [ ] reject

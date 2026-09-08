@@ -30,6 +30,20 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ---
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Xuất Hiện Trong Chapter | Tuổi Theo Lore / Niên Biểu (1191) | Năm Sinh (Âm Lịch) | Bối Phận / Thế Hệ / Quan Hệ Gia Đình | Kiểm Tra Độ Lệch Tuổi Sinh Học ($\Delta \ge 16$) | Danh Xưng / Cách Gọi Chuẩn Mực Trong Chapter |
+| :--- | :---: | :---: | :--- | :--- | :--- |
+| **Tĩnh Xuyên** | **20 tuổi** | 1171 (Tân Mão) | Đệ tử thiết kỵ Thiên Vương Bang; con trai độc nhất của Diệp Mẫu | Protagonist; thế hệ trẻ thứ ba | Con (với mẹ) / Thuộc hạ / Tĩnh huynh đệ |
+| **Diệp Mẫu** | **41 tuổi** | 1150 (Canh Dần) | Thân mẫu của Tĩnh Xuyên; góa phụ nghĩa sĩ trận Trường Giang 1181 | Mẹ sinh con năm hai mươi mốt tuổi ($\Delta = 21 \ge 16$) | Mẹ / Mẫu thân (gọi Tĩnh Xuyên là Xuyên nhi) |
+| **Dương Thiết Tâm** | **42 tuổi** | 1149 (Kỷ Tỵ) | Tân Bang chủ Thiên Vương Bang; nghĩa tử Lão Bang chủ Dương Anh | Bậc thủ lĩnh thế hệ thứ hai ($\Delta = 22$ so với Tĩnh Xuyên) | Bang chủ / Tân Bang chủ / Thiết Tâm huynh |
+| **Lâu Nhất Quan** | **55 tuổi** | 1136 (Bính Thìn) | Trưởng lão Tiền phong cựu trào thời Dương Ma; bị ám toán hụt | Bậc nguyên lão tiền bối thế hệ thứ nhất | Lâu tổng quản / Lâu Trưởng lão / Lão tướng |
+| **Bùi Dực Phi** | **35 tuổi** | 1156 (Bính Thân) | Thống lĩnh Cáp Xá trinh sát; chiến tướng thân cận của Dương Anh | Huynh trưởng chỉ huy trực tiếp của Tĩnh Xuyên | Bùi thống lĩnh / Dực Phi huynh |
+| **Tôn Báo** | **28 tuổi** | ~1163 (Quý Mùi) | Đệ tử phân đà Ích Dương; thích khách bị bắt sống | Đồng bối trẻ tuổi phân đà | Thích khách / Tôn Báo / Nghịch tặc |
+| **Cầu Chỉ Thủy** | **60 tuổi** | 1131 (Tân Hợi) | Cựu Trưởng lão Thiên Vương Bang; bạn đồng niên của Dương Anh | Bậc nguyên lão tiền bối tối cao | Cầu Trưởng lão / Lão tặc (phe Lâu Nhất Quan gọi) |
+
+---
+
 ## Purpose
 
 1. **Thực thi chuẩn mực Kỷ luật Thể loại (Rule 11.7 — Genre Discipline):**

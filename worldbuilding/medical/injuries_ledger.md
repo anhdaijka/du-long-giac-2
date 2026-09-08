@@ -88,17 +88,17 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **INJ-DBT-001** | Bả vai trái & bắp tay: 3 vết móng vuốt sói cào toác da thịt từ xương quai xanh đến bắp tay, rỉ máu liên tục. | **L1** (Nhẹ / Rách phần mềm) | Bị sói xám Điểm Thương (Bách Hoa Lang) đầu đàn vồ trúng trong hẻm đá cửa cấm địa Bách Hoa Trận. | Chương 08a | **ĐÃ SƠ CỨU CẤM VẬN LỰC**. Hạ Nương rửa rượu hoàng liên bách bộ, rắc Kim Sáng Dược, băng bó chữ nhân. | Mất lực tay trái trong 3–5 ngày; cấm vung kiếm hay vận lực mạnh để tránh bục vết thương; ở lại cửa trận hỗ trợ bắn pháo hiệu. |
 
-### J. Lệ Thu Thủy (Tiền Chưởng môn Thúy Yên Môn — 38 tuổi)
+### J. Lệ Thu Thủy (Tiền Chưởng môn Thúy Yên Môn — 43 tuổi)
 
 | Vết thương # | Vị trí & Dạng tổn thương | Cấp độ | Tác nhân / Hoàn cảnh | Hồi xuất hiện | Trạng thái hiện tại | Di chứng & Ảnh hưởng hành vi |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **INJ-LTT-001** | Lồng ngực & Kinh Thái Dương: Chấn động nội khí do kình lực chùy thép dội ngược, khí huyết nghịch hành, khóe môi rỉ máu bầm; choáng váng do từ trường ngọc Du Long Giác. | **L1** (Nhẹ / Chấn động nội khí) | Đỡ trực diện Bát Giác Lang Nha Chùy của Tử Y Đầu Mục và tiếp xúc gần với bức xạ hung ngọc tại tâm trận Bát Quái. | Chương 08b | **ĐÃ THU KIẾM VỀ SẢNH**. Cần tĩnh tọa điều tức, uống Bổ Khí Hoàn, kiêng vận toàn lực trong 7 ngày. | Giảm 20% tốc độ xuất kiếm Phù Vân; ngực nhói đau khi vận kình tối đa; hoa mắt chóng mặt khi gắng sức. |
+| **INJ-LTT-001** | Lồng ngực & Kinh Thái Dương: Chấn động nội khí do kình lực chùy thép dội ngược, khí huyết nghịch hành, khóe môi rỉ máu bầm; choáng váng do từ trường ngọc Du Long Giác. | **L1** (Nhẹ / Chấn động nội khí) | Đỡ trực diện Bát Giác Lang Nha Chùy của Tử Y Đầu Mục và tiếp xúc gần với bức xạ hung ngọc tại tâm trận Bát Quái. | Chương 08b, 11 | **TIẾN TRIỂN TỐT**. Đã uống nước sắc Chu Hồng Quả bồi bổ khí huyết; hạ cơn đau thắt ngực, giảm ứ huyết kinh Thái Dương; tinh thần thoát khỏi cơn mê sảng mộng mị. | Còn hơi tức ngực khi vận toàn lực; cần tĩnh dưỡng thêm 5 ngày. |
 
 ### K. Đệ tử chấp pháp họ Bành (Thúy Yên Môn)
 
 | Vết thương # | Vị trí & Dạng tổn thương | Cấp độ | Tác nhân / Hoàn cảnh | Hồi xuất hiện | Trạng thái hiện tại | Di chứng & Ảnh hưởng hành vi |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **INJ-TY-001** | Cơ đùi ngoài chân trái: Đao chém rách cơ sâu 2 tấc, đứt động mạch nhánh, máu tuôn xối xả. | **L2** (Trung bình / Tổn thương cơ & mạch máu) | Bị Hồng Y Cao Thủ Tây Hạ Nhất Phẩm Đường phục kích chém trúng tại hẻm đá Sinh môn Bách Hoa Trận. | Chương 08b | **ĐÃ CẦM MÁU GARÔ**. Hạ Nương rắc Kim Sáng Dược, băng bó garô dã chiến, chuyển cáng về Dược phòng. | Mất khả năng di chuyển trong 2 tuần; cần khâu nối cơ và bồi bổ khí huyết; hồi phục hoàn toàn sau 4 tuần. |
+| **INJ-TY-001** | Cơ đùi ngoài chân trái: Đao chém rách cơ sâu 2 tấc, đứt động mạch nhánh, máu tuôn xối xả; phù nề sưng tấy tím tái do ứ dịch độc. | **L2** (Trung bình / Tổn thương cơ & mạch máu) | Bị Hồng Y Cao Thủ Tây Hạ Nhất Phẩm Đường phục kích chém trúng tại hẻm đá Sinh môn Bách Hoa Trận. | Chương 08b, 11 | **ĐÃ ĐẮP BÃ THẢO MỘC**. Đắp bã Hoa Lục Thiểm Nhi và Chu Hồng Quả hút dịch mủ tiêu viêm; vết thương se miệng, khống chế phù nề. | Tiếp tục nẹp bất động chân trái trong 10 ngày; tránh vận động mạnh. |
 
 ### L. Ngũ trưởng Trương Đỉnh (Nghĩa Quân Ba Lăng — 42 tuổi)
 
@@ -123,3 +123,16 @@
 | Vết thương # | Vị trí & Dạng tổn thương | Cấp độ | Tác nhân / Hoàn cảnh | Hồi xuất hiện | Trạng thái hiện tại | Di chứng & Ảnh hưởng hành vi |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **INJ-HTT-001** | Hai lòng bàn chân & Lồng ngực: Lòng bàn chân phồng rộp toác da do giày lụa cứa nát trên dốc đá tai mèo; say nắng nhiệt độ cao, môi nứt nẻ kiệt nước. | **L1** (Nhẹ / Phồng rộp biểu bì & say nắng) | Trốn chạy hiểm địa Hình Thiên Lĩnh dưới cái nắng oi nồng mùa hè Động Đình (Ch.10). | Chương 10 | **ĐANG HỒI PHỤC**. Tĩnh Xuyên xé vạt áo tơi băng bó lòng bàn chân, uống nước ngọt làm mát lồng ngực. | Hồi phục sau 5–7 ngày nghỉ ngơi tĩnh dưỡng trên thuyền nan xuôi dòng về đất liền. |
+
+### P. Tiểu Đào (Đệ tử tuần sơn Dược phòng Thúy Yên Môn — 14 tuổi)
+
+| Vết thương # | Vị trí & Dạng tổn thương | Cấp độ | Tác nhân / Hoàn cảnh | Hồi xuất hiện | Trạng thái hiện tại | Di chứng & Ảnh hưởng hành vi |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **INJ-TD-001** | Cổ chân phải: Vết cắn của rắn lục Điểm Thương & Trật khớp mắt cá ngoài | **L1** (Nhẹ) | Rắn lục tấn công khi tuần tra ven vách đá; ngã trật khớp mắt cá chân (Ch.03). | Chương 03 | **ĐÃ NẮN KHỚP & TRÍCH NỌC**. Hạ Nương rạch dao bạc trích nọc, đắp bột mã tiền ngâm giấm thanh, nắn khớp cố định nẹp tre. | Kiêng chạy nhảy mạnh trong 5 ngày; bình phục hoàn toàn sau 1 tuần. |
+
+### Q. Thẩm Thiết Thạch (Nghĩa quân cựu trào / Thợ săn Ba Lăng — ~28 tuổi)
+
+| Vết thương # | Vị trí & Dạng tổn thương | Cấp độ | Tác nhân / Hoàn cảnh | Hồi xuất hiện | Trạng thái hiện tại | Di chứng & Ảnh hưởng hành vi |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **INJ-TTT-001** | Lồng ngực & Mạn sườn: 3 vết chưởng ấn màu đen tím mang Âm kình cực hàn (đóng lớp sương băng mỏng); mạn sườn gãy 2 xương sườn và vết cào rách vai. | **L3** (Nặng / Di chứng hàn độc mãn tính sa trường) | Trúng 3 chưởng Âm kình giặc Kim tại Tương Dương 1187; bị gấu ngựa Hắc Hùng Quật vồ gãy sườn 3 tháng trước (Ch.04a). | Chương 04a | **MÃN TÍNH / ĐANG DƯỠNG THƯƠNG**. Uống máu hươu tươi, rượu nóng và đắp ngải cứu hút độc; Tiêu Phùng đoạt lại chuỗi Hắc Trân Châu của mẹ giúp an định tâm thần. | Hễ trời trở lạnh là hàn độc phát tác co giật buốt não, nửa điên nửa tỉnh; mất 80% thể lực sa trường; không thể tham gia chiến đấu trực diện. |
+

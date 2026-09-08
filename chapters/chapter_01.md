@@ -24,7 +24,7 @@ Tiêu Phùng không ngoái đầu lại, chỉ giật nhẹ ngón chân cái đa
 
 "Bác Trương, cá mè gai thịt bở như bã đậu, đem kho với dưa cải chua còn nuốt không trôi, ném cho cháu làm gì? Thu Di mà thấy con cá này trên mâm cơm, thể nào cũng bảo cháu lười biếng chỉ biết nhặt nhạnh đồ rơi vãi của các bác."
 
-"Tổ cha cái mồm mười bảy tuổi ranh mà ranh mãnh như chồn bãi sậy!" Lão Trương nhổ toẹt một bãi nước trầu đỏ lòm xuống mép nước, cười hơ hớ để lộ hàm răng sún khuyết ba chiếc. "Mười bảy tuổi đầu, ăn cơm chùa của trại nghĩa quân từ lúc còn quấn tã, giờ mở miệng ra là kén cá chọn canh. Không có Thu Di nhặt mày từ mép bãi cát Hán Thủy đem về bón từng thìa nước cháo, giờ xương mày trôi sang tận đất Kim làm phân bón cỏ rồi con ạ! Mau xách mông về đê Ba Lăng, mấy xe đá hộc trên mỏ đang đổ xuống, thiếu một tay gánh đá là đêm nay nước hồ dâng lút ngọn sậy cho cả làng thành cá trôi sông!"
+"Tổ cha cái mồm mười bảy tuổi ranh mà ranh mãnh như chồn bãi sậy!" Lão Trương nhổ toẹt một bãi nước trầu đỏ lòm xuống mép nước, cười hơ hớ để lộ hàm răng sún khuyết ba chiếc. "Mười bảy tuổi đầu, ăn cơm chùa của trại nghĩa quân từ lúc còn quấn tã, giờ mở miệng ra là kén cá chọn canh. Không có Bạch Cương với cha con Thu Di ôm mày từ bến sông Hán Thủy đem về cho cả trại bón từng thìa nước cháo, giờ xương mày trôi sang tận đất Kim làm phân bón cỏ rồi con ạ! Mau xách mông về đê Ba Lăng, mấy xe đá hộc trên mỏ đang đổ xuống, thiếu một tay gánh đá là đêm nay nước hồ dâng lút ngọn sậy cho cả làng thành cá trôi sông!"
 
 Tiêu Phùng khẽ nhếch mép, không đáp lại. 
 

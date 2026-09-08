@@ -283,15 +283,15 @@ Thế nhưng, bà không buông tay. Bà nhấc bổng khối ngọc lên, ôm c
 
 Không có nụ cười chiến thắng. Không có sự kiêu hãnh của một cao thủ vừa đánh bại kẻ thù sa trường.
 
-Lệ Thu Thủy cúi gập người xuống, trán tựa vào thân ngọc lạnh ngắt. Những giọt nước mắt nóng hổi từ khóe mắt trũng sâu của bà tuôn trào lã chã, nhỏ từng giọt, từng giọt xuống những hoa văn rồng khắc chìm trên mặt ngọc. Bả vai gầy guộc của người đàn bà ba mươi tám tuổi rung bần bật trong cơn nấc nghẹn ngào xé ruột:
+Lệ Thu Thủy cúi gập người xuống, trán tựa vào thân ngọc lạnh ngắt. Những giọt nước mắt nóng hổi từ khóe mắt trũng sâu của bà tuôn trào lã chã, nhỏ từng giọt, từng giọt xuống những hoa văn rồng khắc chìm trên mặt ngọc. Bả vai gầy guộc của người đàn bà bốn mươi ba tuổi rung bần bật trong cơn nấc nghẹn ngào xé ruột:
 
-"Mười bảy năm rồi... Lăng Phong ơi... ngọc đã tìm thấy rồi, nhưng chàng ở đâu?..."
+"Mười chín năm rồi... Lăng Phong ơi... Lời chàng cảnh báo năm xưa ở bến đò Giang Nam quả không sai... ngọc đã thức giấc, nhưng chàng ở đâu?..."
 
 Tiếng gọi thì thào, khàn đặc và đẫm máu lướt qua trong gió đêm Điền Trì.
 
 "Lăng Phong..." 
 
-Hạ Nương đứng trên miệng hố, nghe rõ từng âm tiết nghẹn đắng ấy lọt vào tai. Nàng nhíu mày, cái tên xa lạ gieo vào tâm trí nàng một dấu hỏi mơ hồ nhưng nhức nhối. Người đàn ông mang tên Lăng Phong có mối thâm tình ra sao mà khiến một vị cựu Chưởng môn cao ngạo, lạnh lùng như băng tuyết lại chấp nhận đánh cược cả sinh mạng đồng môn, chấp nhận phá tan cấm địa để đào tìm một khúc ngọc vô tri?
+Hạ Nương đứng trên miệng hố, nghe rõ từng âm tiết nghẹn đắng ấy lọt vào tai. Nàng nhíu mày, cái tên xa lạ gieo vào tâm trí nàng một dấu hỏi mơ hồ nhưng nhức nhối. Người đàn ông mang tên Lăng Phong có mối liên hệ bí mật ra sao với cấm địa Thúy Yên, mà khiến một vị cựu Chưởng môn cao ngạo, lạnh lùng như băng tuyết lại chấp nhận liều chết xông vào vũng máu để đào tìm và phong tỏa khối hung ngọc này?
 
 Nhưng Hạ Nương không có thời gian để suy ngẫm. 
 
@@ -303,7 +303,7 @@ Hạ Nương vội vã nhảy xuống hố. Nàng rút ra hai tấm vải gạc 
 
 Lệ Thu Thủy ngẩng đầu lên, ánh mắt bà đờ đẫn mất đi thần sắc thường ngày, nhưng hai cánh tay vẫn ghì chặt lấy bọc vải gạc:
 
-"Không... Kỷ vật duy nhất chàng để lại... Mang nó về... Mau đưa nó về Xuân Mai Nhã Trúc..."
+"Không... Tai họa giang sơn này... ta phải giữ lấy... Mang nó về... Mau đưa nó về Xuân Mai Nhã Trúc phong tỏa lại..."
 
 Hạ Nương cắn môi, xốc nách đỡ lấy cựu Chưởng môn. Hai người, người thì thương tích nội kình đẫm máu, kẻ thì kiệt sức rã rời, dìu nhau từng bước trèo ra khỏi hố sâu tâm trận.
 

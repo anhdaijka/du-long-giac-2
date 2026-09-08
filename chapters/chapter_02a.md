@@ -111,7 +111,7 @@ Bức rèm vén lên, hai bóng người thong thả bước ra.
 
 Lão Bang chủ Dương Anh bước ra, nữ trung hào kiệt người mà giang hồ khắp hai miền Nam Bắc tôn kính xưng tụng bằng hai tiếng Anh Cô, ái nữ của thủ lĩnh nghĩa quân Dương Ma năm xưa.
 
-Theo sát sau lưng bà là một nam tử trạc chừng ba mươi tuổi, vóc người cao lớn, vai rộng lưng dài, khoác tấm áo choàng màu xám tro giản dị. Khuôn mặt chàng vuông vức, mày rậm như kiếm hoa, đôi mắt đen láy lộ vẻ cương nghị, đôn hậu nhưng ẩn chứa luồng tinh quang sắc lạnh. Bên hông chàng không đeo bội kiếm hay đơn đao thông thường, mà tay phải cầm ngang một ngọn trường thương bằng thép tinh luyện màu đen bóng, mũi thương bọc trong bao da hải cẩu. Bước chân của chàng vững chãi, mỗi bước đặt xuống sàn thuyền đều tạo nên một cảm giác đầm chắc như rễ tùng cắm sâu vào vách đá.
+Theo sát sau lưng bà là một nam tử trung niên trạc ngoài bốn mươi tuổi, vóc người cao lớn, vai rộng lưng dài, khoác tấm áo choàng màu xám tro giản dị. Khuôn mặt chàng vuông vức, mày rậm như kiếm hoa, đôi mắt đen láy lộ vẻ cương nghị, đôn hậu nhưng ẩn chứa luồng tinh quang sắc lạnh. Bên hông chàng không đeo bội kiếm hay đơn đao thông thường, mà tay phải cầm ngang một ngọn trường thương bằng thép tinh luyện màu đen bóng, mũi thương bọc trong bao da hải cẩu. Bước chân của chàng vững chãi, mỗi bước đặt xuống sàn thuyền đều tạo nên một cảm giác đầm chắc như rễ tùng cắm sâu vào vách đá.
 
 "Thuộc hạ bái kiến Lão Bang chủ!"
 
@@ -127,13 +127,13 @@ Bà bước lại chiếc ghế soái, nhưng không ngồi xuống, mà quay ng
 
 Cả gian phòng chấn động. Tiếng xì xào bắt đầu dấy lên như ong vỡ tổ. Quý Thúc Ban khẽ giật mình, còn Lâu Nhất Quan thì nhíu chặt đôi mày rậm, bàn tay siết chặt lấy chuôi đao.
 
-Anh Cô không để ai kịp lên tiếng, bà bước sang một bên, đưa tay chỉ về phía người thanh niên áo xám:
+Anh Cô không để ai kịp lên tiếng, bà bước sang một bên, đưa tay chỉ về phía người tráng sĩ áo xám:
 
 "Và chiếc ghế Bang chủ Thiên Vương Bang từ ngày hôm nay, lão thân quyết định truyền lại cho nghĩa tử của ta — Dương Thiết Tâm!"
 
 Một khoảng lặng nghẹt thở bao trùm khắp khoang thuyền.
 
-Tĩnh Xuyên đứng ở góc cửa, cảm nhận rõ rệt từng thớ cơ trên cơ thể mình căng cứng lại. Chàng nhìn người thanh niên tên Dương Thiết Tâm. Người này mang họ Dương, nhưng trên Thanh Loa Đảo suốt mười mấy năm qua, chưa từng có ai nghe nói đến cái tên này. Một người hoàn toàn xa lạ, từ bên ngoài bước vào, lại được chỉ định ngồi lên ngai vị thống lĩnh vạn quân!
+Tĩnh Xuyên đứng ở góc cửa, cảm nhận rõ rệt từng thớ cơ trên cơ thể mình căng cứng lại. Chàng nhìn người nam tử tên Dương Thiết Tâm. Người này mang họ Dương, nhưng trên Thanh Loa Đảo suốt mười mấy năm qua, chưa từng có ai nghe nói đến cái tên này. Một người hoàn toàn xa lạ, từ bên ngoài bước vào, lại được chỉ định ngồi lên ngai vị thống lĩnh vạn quân!
 
 *RẦM!*
 
@@ -143,7 +143,7 @@ Chiếc bàn tiệc bằng gỗ trắc trước mặt Lâu Nhất Quan rung lên
 
 Lâu Nhất Quan bước giậm chân ra giữa khoang thuyền, chỉ tay thẳng vào mặt Dương Thiết Tâm, giọng nói ồm ồm như chuông vỡ:
 
-"Thiên Vương Bang ta là do Nhị vương Chung Tương và Dương Ma lập nên bằng xương máu của hàng vạn nghĩa quân áo vải! Ba mươi năm qua, chúng ta bị triều đình Lâm An coi là thảo khấu, bị kỵ binh Kim quốc coi là cái gai trong mắt, huynh đệ trên đảo đổ biết bao máu tươi mới giữ được mảnh đất cắm dùi này! Nay Lão Bang chủ vân du trở về, đùng một cái mang theo một tên tiểu tử miệng còn hôi sữa, không rõ gốc gác tông tích, không có nửa tấc công lao với bổn bang, lại muốn giao phó tính mạng cơ nghiệp của toàn thể huynh đệ cho hắn sao? Lâu Nhất Quan ta dẫu chết cũng không phục!"
+"Thiên Vương Bang ta là do Nhị vương Chung Tương và Dương Ma lập nên bằng xương máu của hàng vạn nghĩa quân áo vải! Ba mươi năm qua, chúng ta bị triều đình Lâm An coi là thảo khấu, bị kỵ binh Kim quốc coi là cái gai trong mắt, huynh đệ trên đảo đổ biết bao máu tươi mới giữ được mảnh đất cắm dùi này! Nay Lão Bang chủ vân du trở về, đùng một cái mang theo một kẻ hoàn toàn xa lạ, không rõ gốc gác tông tích, không có nửa tấc công lao với bổn bang, lại muốn giao phó tính mạng cơ nghiệp của toàn thể huynh đệ cho hắn sao? Lâu Nhất Quan ta dẫu chết cũng không phục!"
 
 "Đúng vậy! Không phục! Chúng tôi không phục!"
 

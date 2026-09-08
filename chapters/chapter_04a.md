@@ -221,18 +221,18 @@ Một giọng nói trầm ấm đầy uy quyền vang lên phía sau lưng.
 
 Tiêu Phùng giật mình quay lại. Bạch Thu Lâm trong bộ nhung phục màu xanh ngọc gọn gàng đã đứng trước cửa tiệm tự lúc nào. Ánh mắt nghiêm nghị của người nữ thủ lĩnh Nghĩa quân nhìn Tiêu Phùng, thoáng hiện lên một tia trìu mến hiếm thấy.
 
-Bà bước vào tiệm, vỗ nhẹ lên vai Thẩm Hà Diệp an ủi vài câu, rồi quay sang nhìn Tiêu Phùng, nghiêm giọng giao việc:
+Nàng bước vào tiệm, vỗ nhẹ lên vai Thẩm Hà Diệp an ủi vài câu, rồi quay sang nhìn Tiêu Phùng, nghiêm giọng giao việc:
 
 "Phùng nhi, làm tốt lắm. Nhưng việc nghĩa quân không thể trễ nải. Chiều nay nước sông Động Đình dâng cao, mạn thuyền tuần tra bến Giang Tân đang thiếu vật tư gia cố. Ngươi mau sang tiệm tạp hóa của Bất Động Tiên Sinh bảo lão xuất kho bốn cuộn bạt dầu với hai bó dây chão mang về bến tàu. Tiện thể, cầm tập biên lai nợ sang tiền trang Tạ Hiền thanh toán đống sổ sách tồn đọng ba năm nay cho xong xuôi."
 
 Tiêu Phùng nghe nhắc đến công việc liền thở dài sườn sượt, lấy lại bộ dạng lười biếng bắng nhắng thường ngày:
 
-"Ối giời ơi Thu Di! Con vừa đánh gấu suýt mất mạng về, chân tay còn đang run rẩy đây này, Di không thưởng cho con bát cháo gà thì thôi lại bắt đi đày ải sang tiệm lão béo Bất Động với lão Tạ kiệt sỉ... Số con đúng là khổ hơn cá mè gai!"
+"Ối giời ơi Thu Di! Đệ vừa đánh gấu suýt mất mạng về, chân tay còn đang run rẩy đây này, tỷ không thưởng cho đệ bát cháo gà thì thôi lại bắt đi đày ải sang tiệm lão béo Bất Động với lão Tạ kiệt sỉ... Số đệ đúng là khổ hơn cá mè gai!"
 
 Bạch Thu Lâm nhướng mày, bàn tay khẽ chạm vào chuôi đoản kiếm bên hông:
 
 "Có đi không thì bảo? Muốn ăn cháo gà hay muốn ăn ba mươi roi mây bến tàu?"
 
-"Đi! Con đi ngay đây! Di cứ hở ra là đòi roi mây, chẳng dịu dàng như Thẩm đại tỷ tí nào cả!"
+"Đi! Đệ đi ngay đây! Tỷ cứ hở ra là đòi roi mây, chẳng dịu dàng như Thẩm đại tỷ tí nào cả!"
 
 Tiêu Phùng cười khì một tiếng, vẫy tay chào Thẩm Hà Diệp và Hứa Sĩ Vĩ, rồi xách khúc đoản côn bọc sắt non nhảy chân sáo ra phố huyện giữa trưa oi nồng, rảo bước hướng thẳng về phía tiệm tạp hóa Bất Động Tiên Sinh.

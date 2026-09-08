@@ -52,6 +52,21 @@ fidelity_class: "DIRECT CANON INTEGRATED"
   - Hàn Thác Trụ mang mật chiếu trốn chạy từ khu vực phụ cận Lâm An/biên giới về đến Động Đình trong khoảng 10-12 ngày hoàn toàn phù hợp với hành trình khoái mã ngầm đường thủy bộ.
   - Phủ "Triệu thị" gửi thư: Đính chính chuẩn xác danh xưng lịch sử là **Triệu Nhữ Ngu (趙汝愚)** — Tông thất triều Tống, Tri mật viện sự kiêm thủ lĩnh phái chủ chiến kháng Kim.
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Xuất Hiện | Môn Phái / Thân Phận | Năm Sinh / Tuổi (1191) | Mối Quan Hệ / Phả Hệ Khóa Chặt | Bối Phận / Cách Xưng Hô Chuẩn Mực | Kiểm Định Tuổi Sinh Học ($\Delta \ge 16$) | Tình Trạng Lệch Pha / Lệnh Cấm Tuyệt Đối |
+| :--- | :--- | :---: | :--- | :--- | :--- | :--- |
+| **Tĩnh Xuyên** (POV) | Tiền phong Cáp Xá / Kỵ tướng Thiên Vương | 1171 (20 tuổi) | Con côi của danh tướng Tĩnh Hùng (hy sinh 1181) và Diệp Mẫu (mù lòa) | Thuộc hạ thân tín, gọi Thiết Tâm là "Bang chủ", gọi Lâu Nhất Quan là "Trưởng lão" | $\Delta(\text{Diệp Mẫu} - \text{TX}) = 21 \ge 16$. Hợp lệ 100%. | Không mang tâm lý ngông cuồng; tuân thủ kỷ luật thép sa trường. |
+| **Dương Thiết Tâm** | Bang chủ đời thứ hai Thiên Vương Bang | 1149 (42 tuổi) | Trưởng tử của Lão Bang chủ Dương Anh (~63 tuổi) | Tân Bang chủ; xưng hô "Bang chủ — thuộc hạ" với Tĩnh Xuyên; xưng "huynh" với Lâu Trưởng lão | $\Delta(\text{Dương Anh} - \text{Thiết Tâm}) = 21 \ge 16$. Hợp lệ 100%. | Trưởng thành, chín chắn, nhãn quan chiến lược đại cục; không bốc đồng. |
+| **Lâu Nhất Quan** | Trưởng lão cựu trào Thiên Vương Bang | ~1136 (55 tuổi) | Khai quốc công thần thời Lão nguyên soái Dương Ma | Tiền bối cựu trào; xưng "Lão phu" hoặc "ta", gọi Thiết Tâm là "Dương bang chủ" | Lớn hơn Thiết Tâm 13 tuổi, bậc chú bác trong quân doanh. Hợp lệ. | Căm thù triều đình Nam Tống vì mối thù diệt môn Dương Ma; không làm phản nhưng bảo thủ cực đoan. |
+| **Quý Thúc Ban** | Tổng quản sự vụ Thanh Loa Đảo | ~1129 (62 tuổi) | Cựu thần thân tín của Lão Bang chủ Dương Anh | Bậc thúc bá; ôn hòa, điềm tĩnh, điều hòa mâu thuẫn nội bộ | Lớn hơn Thiết Tâm 20 tuổi. Hợp lệ 100%. | Không kích động bạo lực; bảo vệ an nguy toàn bang. |
+| **Hàn Thác Trụ** | Tuyên phủ sứ Nam Tống / Cháu họ Ngô Thái Hậu | 1152 (39 tuổi) | Quan văn triều đình, người mang mật chiếu Tống Hiếu Tông | Bậc sĩ phu triều đình; xưng "Hàn mỗ" / "ta", gọi Tĩnh Xuyên là "tráng sĩ / bằng hữu" | Lớn hơn Tĩnh Xuyên mười chín tuổi. Hợp lệ tuyệt đối theo chính sử. | Nho sinh kiên định khí phách nhưng yếu ớt thể lực, không biết võ công; không thần thánh hóa. |
+| **Lý Tuyền** | Thị vệ ngự tiền triều Tống | ~1161 (~30 tuổi) | Thị vệ cận vệ của Hàn Thác Trụ | Xưng "tiểu nhân", gọi Tĩnh Xuyên là "tướng quân / tráng sĩ" | Lớn hơn Tĩnh Xuyên mười tuổi. Hợp lệ. | Cung tiễn sa trường cấm quân; bị thương nặng dạt vào đảo cấp báo. |
+| **Lư Tiếu Bần** | Bạch Kỳ Chủ Ngũ Độc Giáo | ~1158 (33 tuổi) | Đầu lĩnh phân nhánh Bạch Kỳ Ngũ Độc Giáo | Giang hồ lãng tử; xưng "Lư mỗ", gọi Tĩnh Xuyên là "tiểu tử / tráng sĩ" | Lớn hơn Tĩnh Xuyên mười ba tuổi. Hợp lệ. | Đạo tặc nghĩa hiệp "Diệu Thủ Không Không"; phản kháng giáo lệnh sát hại trung thần; tiền đề Task 5. |
+| **Viêm Dương Sứ** | Sát thủ hỏa trận Ngũ Độc Giáo | ~1153 (~38 tuổi) | Sát thủ phụng mệnh Giáo chủ Cổ Yên Nhiên | Cuồng sát hung tợn; coi thường đối thủ | Lớn hơn Tĩnh Xuyên mười tám năm. Hợp lệ. | Tử trận trong hỏa trận bom lân tinh tự thiêu. |
+| **Lãnh Nguyệt Sứ** | Nữ sát thủ Ngũ Độc Giáo | ~1156 (~35 tuổi) | Sư muội kiêm cộng sự của Viêm Dương Sứ | Âm hiểm xảo quyệt | Lớn hơn Tĩnh Xuyên mười lăm tuổi. Hợp lệ. | Tử trận do gãy xương quai xanh đập vào vách đá. |
+| **Bang Chúng Kính Trang** | Đệ tử tinh nhuệ Thiên Vương Bang | ~1165 (~26 tuổi) | Tráng đinh phòng thủ bến Thủy Lục | Thuộc hạ cẩn mật; gọi Tĩnh Xuyên là "Đội trưởng / Huynh" | Ngang bối phận thanh niên quân doanh. Hợp lệ. | Tuyệt đối giữ bí mật vị trí bến đò. |
+
 ---
 
 ## Purpose

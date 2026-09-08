@@ -10,6 +10,16 @@
 - Target Word Count: 4.000 – 4.800 từ
 - Provenance: `KT2 Engine Task 157 (Subtask 306: Sồ Phượng Thanh Minh & Subtask 307: Nghĩa Quân) | File XML Stories/task_publish/sub/0000000000000132.xml & 0000000000000133.xml`
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Name | Provenance (Task/Subtask/SQLite) | Role & Kinship (`genealogy_matrix.md`) | Birth Year & Age (1191) | Biological Age Check ($\text{Age}_{\text{parent}} \ge \text{Age}_{\text{child}} + 16$) | Generational Addressing (POV <-> NPC, NPC <-> NPC) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Bạch Thu Lâm (Thu Di)** | Task Arc 00 / Task 157 / SQLite | Thủ lĩnh Nghĩa quân Ba Lăng; con gái Tướng quân Bạch Phụ (Biện Kinh); nghĩa tỷ kiêm người bảo hộ Tiêu Phùng | 1167 (24 tuổi) | Không phải mẹ con ruột; lớn hơn Tiêu Phùng (17 tuổi) 7 tuổi ($24 - 17 = 7$) | Tiêu Phùng (17 tuổi) gọi "Thu Di / Tỷ", xưng "đệ". Thu Di gọi Tiêu Phùng là "đệ". |
+| **Điềm Tửu Thúc** | Task 157: Subtask 133 / SQLite | Chủ tiệm rèn binh khí Tân Thủ Thôn; cựu binh nghĩa quân 30 năm trước | ~1142 (~49 tuổi) | $49 \ge 17 + 16 = 33$ (Hợp lý thế hệ trưởng bối) | Tiêu Phùng gọi "Điềm thúc", xưng "cháu/con". Điềm Tửu Thúc gọi "mày/tiểu tử". |
+| **Bác Trương lái đò** | Task Arc 00 / Dân sinh | Lão lái đò bến đò Giang Tân Thôn | ~1138 (~53 tuổi) | Hợp lý bậc ông/bác bến đò | Tiêu Phùng gọi "Bác Trương", xưng "cháu". Lão Trương gọi "thằng Phùng/mày". |
+
+---
+
 ## Purpose
 
 Thiết lập nhân dạng, vết thương tâm lý và xuất phát điểm của nhân vật chính đại diện tác giả (Tiêu Phùng):
@@ -23,7 +33,7 @@ Thiết lập nhân dạng, vết thương tâm lý và xuất phát điểm c�
 - relationship: 
   - Bác Trương lái đò: Trêu chọc đốp chát nhưng thân tình lối xóm.
   - Điềm Tửu Thúc: Lão thợ rèn gàn dở mê rượu, người Tiêu Phùng muốn lợi dụng để rèn gậy nhưng thực chất hiểu và thương ngầm cậu.
-  - Thu Di: Người mẹ nuôi nghiêm khắc, người đứng đầu nghĩa quân nhưng luôn trĩu nặng âu lo.
+  - Thu Di (Bạch Thu Lâm): Nghĩa tỷ kiêm người bảo hộ / thủ lĩnh nghĩa quân, bón cháo chăm sóc Tiêu Phùng từ thuở sơ sinh (hơn chàng 7 tuổi, xưng hô Thu Di / Tỷ — Đệ).
 - knowledge: Tiêu Phùng hoàn toàn không biết gì về thân thế Ma Y Cốc, không biết lai lịch cha mẹ, chỉ biết cha bặt vô âm tín từ khi chàng quấn tã.
 - object/location: Bãi sậy Giang Tân Thôn; vò rượu nếp ngọt 'Thu Phân Điềm Tửu' chôm từ kho của Thu Di; con cá trê đen câu được; đoản côn gỗ nghiến.
 - threat/stakes: Mùa nước lũ Động Đình Hồ sắp dâng; tin ngọc Du Long Giác xuất hiện ở Thúy Yên kéo theo thích khách rình rập; nguy cơ bãi sậy mất đi sự bình yên.

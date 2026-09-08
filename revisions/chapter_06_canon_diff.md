@@ -160,14 +160,30 @@ Index: plot/timeline.md
 - `plot/timeline.md` (Khớp mốc ngày 19-08-1191)
 
 > [!IMPORTANT]
-> **CỔNG DỪNG 3 (State Commit Hard Stop):**
-> Em **DỪNG LẠI TẠI ĐÂY** để chờ Tác giả xem xét và phê chuẩn bản Diff.
-> Khi Tác giả đồng thuận, xin mời ban hành lệnh:
-> **`"Duyệt diff"`**
-> *(Sau khi nhận lệnh duyệt diff, em sẽ thực thi commit toàn bộ các thay đổi trên vào các sổ cái trạng thái bền vững).*
-
+> **CỔNG DỪNG 3 (State Commit Hard Stop):** Bản Canon Diff đã hoàn tất đối soát 4 trụ cột và cập nhật vào sổ cái bền vững.
 
 ---
 
-## Supporting Cast Directory (`characters/supporting_cast.md`)
-*(Đã đồng bộ chuẩn hóa kiểm toán vào danh bạ nhân vật phụ)*
+## 8. Đề Xuất Cập Nhật Danh Bạ Nhân Vật Phụ (`characters/supporting_cast.md`)
+
+```diff
+Index: characters/supporting_cast.md
+===================================================================
+--- characters/supporting_cast.md
++++ characters/supporting_cast.md
+@@ -15,7 +15,7 @@
+-| **Thẩm Hà Diệp** | **B** | Chủ tiệm phòng cụ Ba Lăng Huyện | Nữ tử thanh tú, đoan trang hiền thục; khóe mắt đượm buồn lo âu; tỷ tỷ của Thẩm Thiết Thạch, con gái Binh bộ Thị lang tiền triều | Khung cửi, kim chỉ, may đo phòng cụ da thú, sơ cứu thương tật | Quản lý tiệm may và bốc thuốc đắp trật đả; chăm sóc nẹp xương sườn cho Tiêu Phùng; coi Tiêu Phùng như đệ đệ trong nhà | Chương 04a, 07a, 09 |
++| **Thẩm Hà Diệp** | **B** | Chủ tiệm phòng cụ Ba Lăng Huyện | Nữ tử thanh tú, đoan trang hiền thục; khóe mắt đượm buồn lo âu; tỷ tỷ của Thẩm Thiết Thạch, con gái Binh bộ Thị lang tiền triều | Khung cửi, kim chỉ, may đo phòng cụ da thú, sơ cứu thương tật | Quản lý tiệm may và bốc thuốc đắp trật đả; dầm mưa cứu hàng và ôm chầm Tiêu Phùng mừng rỡ sau đêm hộ đê; chăm sóc nẹp xương sườn cho Tiêu Phùng; coi Tiêu Phùng như đệ đệ trong nhà | Chương 04a, 06, 07a, 09 |
+ | **Điềm Tửu Thúc** | **B** | Thợ rèn kiêm ẩm thực Nghĩa quân | Lão hán râu tóc dựng ngược, da đỏ au vì lửa lò rèn, thích uống rượu nếp cẩm, mồm to quát tháo nhưng giàu tình nghĩa | Búa rèn thép, tẩu thuốc | Trực tiếp chỉ huy đóng cọc và chèn bao cát kè chân đê phía đông ngăn sóng lũ trong đêm mưa bão | Chương 01, 06 |
+ | **Cao Thăng** | **B** | Dũng tướng Nghĩa quân Ba Lăng | Trung niên ngoài tứ tuần, vạm vỡ, trán quấn khăn rách; tính tình quả cảm, tận tụy | Đại đao sa trường, đoản đao găm | Bị thương INJ-CT-001 Level 1 do trúng tên bả vai; trực tiếp nẹp sườn cho Tiêu Phùng, cùng Bạch Thu Lâm xông vào thạch thất ngầm mở trục chín cửa xả và cõng Tiêu Phùng an toàn về đê | Chương 05, 06 |
+ | **Thôi Kiệm** | **C** | Nghĩa sĩ Ba Lăng | Tráng đinh gan dạ, sát cánh chiến đấu cùng Cao Thăng | Đoản đao, khiên gỗ bọc da | Sát cánh cùng Cao Thăng tử thủ đèo Tuyệt Vấn Pha và hỗ trợ mở thạch thất ngầm | Chương 05, 06 |
+ | **Giới Sơn Tông** | **B** | Cơ quan đại sư Ma Y Cốc | Lão nhân ngoài lục tuần, tàn tật hai gót chân (INJ-GST-001 Level 3), ngồi xe lăn gỗ do bị tra tấn bức cung | Trí tuệ cơ quan bát quái, then ngầm | Chế tạo hệ thống trục ngầm chín cửa xả Động Đình Hồ; truyền khẩu quyết then cơ hoành cho Tiêu Phùng giải cứu Ba Lăng; hiện an dưỡng tại mật thất Nghĩa quân | Chương 06 |
+```
+
+---
+
+## 9. PHÊ DUYỆT TỪ TÁC GIẢ (AUTHOR APPROVAL)
+
+- [x] **accept all** (Đã đồng bộ kiểm toán theo Ground Truth bản thảo Chương 06)
+- [ ] accept selected only
+- [ ] reject

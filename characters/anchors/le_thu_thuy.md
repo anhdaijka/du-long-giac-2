@@ -18,17 +18,18 @@ weapon: "Băng Tâm Song Kiếm / Ám khí"
 ---
 
 ## 1. TỔNG QUAN & ĐỊNH VỊ (ARCHETYPE)
-* **Thân phận:** Tiền nhiệm Chưởng môn Thúy Yên Môn; trưởng bối có võ công và địa vị cao nhất môn phái.
-* **Định vị:** Nhân vật khởi đầu cho chuỗi tai kiếp của Thúy Yên; người mở chiếc hộp Pandora khi mang hung ngọc Du Long Giác xuất thế chốn giang hồ.
-* **Hình tượng:** Nữ cao thủ tuổi trung niên, dung nhan vương nét u sầu của mối tình dang dở; kiếm thuật xuất quỷ nhập thần nhưng tâm tư trĩu nặng mặc cảm tội lỗi sau khi sơn môn bị tàn phá.
+* **Thân phận:** Tiền nhiệm Chưởng môn Thúy Yên Môn (Ngũ Đại Môn Chủ); sư tỷ của Doãn Hàm Yên và Chung Linh Tú; trưởng bối có võ công và uy tín cao nhất môn phái.
+* **Tuổi tác (Năm 1191):** Sinh năm 1148 (Mậu Thìn) — tròn **43 tuổi**.
+* **Định vị:** Bậc tiền bối gánh vác trách nhiệm sinh tử của sơn môn; người mở phong ấn hung ngọc Du Long Giác trong thế cờ hiểm nghèo để cứu trận pháp Bách Hoa khỏi nguy cơ sụp đổ từ bên trong.
+* **Hình tượng:** Nữ cao thủ tuổi trung niên (43 tuổi), dung nhan vương nét sương gió phong trần; kiếm thuật xuất quỷ nhập thần, tâm tính kiên cường, quả cảm, dám lấy thân mình làm bia chắn sóng cho sơn môn.
 
 ---
 
 ## 2. NGUỒN CƠN TAI HỌA & NGUỒN GỐC NGUYÊN BẢN (CANON PROVENANCE)
-* **Mối tình dang dở và hành trình tìm ngọc (`Chương 03: Hương Dược Bách Hoa — Task 12: Subtask 85: La Bàn Định Bảo` — ĐÃ CANON HÓA):**
-  - Từng có thâm tình sâu nặng với một nam tử giang hồ nhưng môn quy và thế sự ngăn trở, sau một trận mưa lớn mười lăm năm trước ở bến đò Giang Nam hai người chia lìa bặt vô âm tín.
-  - Sau hai năm lặn lội khắp chân trời góc bể tìm kiếm vô vọng, ngày 1191-08-17 bà trở về Thúy Yên Môn cùng dị nhân phong thủy Ma Y Thần Tướng. Nhờ Hạ Nương dùng la bàn đồng thau đo đạc bốn hoa viên Xuân - Hạ - Thu - Đông, bà xác định được Du Long Giác đang bị phong ấn tại trung tâm Bách Hoa Trận.
-  - Bất chấp lời cảnh báo của Ma Y Thần Tướng về thảm họa "huyết quang tai" đẫm máu và sự can ngăn của Tân Chưởng môn Doãn Hàm Yên, Lệ Thu Thủy vẫn rút song kiếm, hạ lệnh dẫn đệ tử tiến vào tiêu diệt bầy sói xám để phá cửa Bách Hoa Trận đào ngọc.
+* **Lời cảnh báo 19 năm trước và thế cờ đào ngọc (`Chương 03: Hương Dược Bách Hoa — Task 12: Subtask 85: La Bàn Định Bảo` — ĐÃ CANON HÓA):**
+  - Mười chín năm trước (năm Giáp Ngọ 1174) tại bến đò Giang Nam trước lúc cách rời, Tiêu Lăng Phong từng cảnh báo bà rằng dưới cấm địa Bách Hoa Cốc chôn giấu báu vật trấn quốc Du Long Giác từ thời Tống Thái Tổ do Tổ sư Doãn Tuyết Dao bí mật trấn yểm làm trận nhãn Trụ Thần Thạch.
+  - Sau hai năm lặn lội khắp chân trời góc bể tìm kiếm tung tích người xưa và bảo vật, ngày 1191-08-17 bà trở về Thúy Yên Môn cùng dị nhân phong thủy Ma Y Thần Tướng. Nhờ Hạ Nương dùng la bàn đồng thau đo đạc bốn hoa viên Xuân - Hạ - Thu - Đông, xác định được Du Long Giác đang nằm tại trung tâm Bách Hoa Trận.
+  - Doãn Hàm Yên vạch trần âm mưu "mượn đao đào ngọc" của ngoại bang. Trước tình thế ngặt nghèo "ngồi trên miệng núi lửa" (từ trường thiên thạch thức giấc kích động sói Điểm Thương cuồng loạn và đe dọa nổ vỡ cơ quan ngầm khiến trận pháp tự sụp đổ), Lệ Thu Thủy dũng cảm nhận lãnh trách nhiệm cảm tử xông vào dẹp sói đào ngọc, dùng hộp đồng bọc chì ngâm dầu trẩu phong tỏa; Doãn Hàm Yên dứt khoát hạ lệnh xuất quân bảo vệ sơn môn.
 * **Bất ngờ trước sự tàn bạo của kẻ thù (`Task 12: Subtask 86–88`):**
   * Ngay khi ngọc bích vừa về đến cốc, khí ngọc xông thiên đã kinh động đến các mạng lưới tình báo hắc ám.
   * Hàng trăm sát thủ bí ẩn võ công dị thường đồng loạt tập kích. Lệ Thu Thủy thừa nhận bà không ngờ kẻ địch lại kéo đến nhanh và khốc liệt đến thế (`Subtask 87: Họa Khởi Tiêu Tường`).

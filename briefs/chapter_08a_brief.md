@@ -40,7 +40,7 @@ for_tags:
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Doãn Hàm Yên** | Task 12: Subtask 86 / SQLite | Lục Đại Môn Chủ Thúy Yên Môn; phu nhân Đường Nhất Trần; mẹ Doãn Tiêu Vũ (17) & Đường Hiểu (17); sư muội Lệ Thu Thủy; sư tỷ Chung Linh Tú | 1151 (40 tuổi) | $40 \ge 17 + 16 = 33$ (Đạt: sinh con năm 23 tuổi) | Hạ Nương (16) gọi "Chưởng môn", xưng "đệ tử". Doãn Hàm Yên gọi Lệ Thu Thủy (43) là "Lệ sư tỷ", gọi Hạ Nương là "ngươi". |
 | **Lệ Thu Thủy** | Task 12: Subtask 86 / SQLite | Ngũ Đại Môn Chủ (Cựu Chưởng môn Thúy Yên); sư tỷ Doãn Hàm Yên & Chung Linh Tú | 1148 (43 tuổi) | Không có con | Hạ Nương gọi "Sư bá", xưng "đệ tử". Lệ Thu Thủy gọi Doãn Hàm Yên là "Doãn sư muội". |
-| **Đan Bích Tú** | Task 12: Subtask 86 / SQLite | Đệ tử chấp pháp Thúy Yên Môn (Đời thứ 7) | 1172 (19 tuổi) | Không có con | Hạ Nương gọi "Đan sư tỷ", xưng "muội". Đan Bích Tú gọi Doãn Hàm Yên là "Chưởng môn", gọi Lệ Thu Thủy là "Sư bá". |
+| **Đan Bích Tú** | Task 12: Subtask 86 / SQLite | Đệ tử chấp pháp Thúy Yên Môn (Đời thứ 7) | 1168 (23 tuổi) | Không có con | Hạ Nương (16) gọi "Đan sư tỷ", xưng "muội". Đan Bích Tú gọi Doãn Hàm Yên là "Chưởng môn", gọi Lệ Thu Thủy là "Sư bá". |
 
 ---
 
@@ -63,7 +63,7 @@ for_tags:
 - **Hạ Nương (16 tuổi — Bậc Tier 1):**
   - Đôi bàn tay mỏi nhừ và mẫn cảm sau một ngày dài phân loại dược liệu và cấp cứu nắn khớp cho tiểu đệ tử Tiểu Đào (Chương 03); đầu ngón tay cái và ngón trỏ có lớp chai mỏng đặc trưng của người kẹp kim châm bạc lâu năm.
   - Thể lực hạn chế của một thiếu nữ y thuật: Hơi thở có phần gấp gáp khi leo dốc đá trơn trợt trong sương đêm Điền Trì; đôi giày vải thêu hoa sen thấm đẫm sương lạnh ngấm buốt vào khớp ngón chân.
-- **Đan Bích Tú (19 tuổi — Đệ tử chấp pháp):**
+- **Đan Bích Tú (23 tuổi — Đệ tử chấp pháp):**
   - Tâm lý căng thẳng, tay nắm đốc kiếm đổ mồ hôi lạnh trước bầu không khí quái dị của đêm cấm địa.
 - **Lệ Thu Thủy (43 tuổi — Bậc Tier 3 Cựu Chưởng môn):**
   - Thể tạng tiều tụy vì phong sương và nỗi u sầu dai dẳng; bờ môi khô khốc, ánh mắt rực lửa nôn nóng; khí tức tán loạn ẩn dưới từng cử chỉ vung tay.

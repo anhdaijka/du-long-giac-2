@@ -10,7 +10,7 @@
 - **POV**: Hạ Nương (16 tuổi — Y nữ Thúy Yên Môn / Bách Hoa Cốc — Điền Trì).
 - **Thời gian**: Canh hai đêm sương, ngày 1191-08-19.
 - **Biến cố môn phái & Pháp y hiện trường cốt tử**:
-  - Dược phòng Điền Trì lúc chạng vạng: Doãn Hàm Yên trao áo choàng lông cáo và mật lệnh cho Hạ Nương tháp tùng đoàn người tiến vào cấm địa Bách Hoa Trận; bộc lộ xung đột ý thức hệ ngầm giữa sự thực dụng lo toan kinh tài của Tân Chưởng môn (nợ tiền trang Tạ Hiền 3 vạn lượng bạc, nợ dược liệu Thục Trung) và sự cuồng nộ hoài niệm chấp niệm tình duyên mười bảy năm của Tiền Chưởng môn Lệ Thu Thủy;
+  - Dược phòng Điền Trì lúc chạng vạng: Doãn Hàm Yên trao áo choàng lông cáo và mật lệnh cho Hạ Nương tháp tùng đoàn người tiến vào cấm địa Bách Hoa Trận; bộc lộ sự phối hợp chiến thuật ngầm giữa sự thực dụng lo toan kinh tài của Chưởng môn (nợ tiền trang Tạ Hiền 3 vạn lượng bạc, nợ dược liệu Thục Trung) và trách nhiệm cảm tử bảo vệ sơn môn, phong tỏa hung ngọc Trụ Thần Thạch của Tiền Chưởng môn Lệ Thu Thủy;
   - Canh hai tại Xuân Mai Nhã Trúc: Lệ Thu Thủy đốc thúc 6 đệ tử chấp pháp áo lam mang đuốc dầu trẩu xuất kích; gạt phăng quẻ sấm "Huyết quang tai" của Ma Y Thần Tướng; đoàn người tiến vào lối mòn đỗ quyên cổ thụ ngập sương lam độc;
   - Hẻm núi cửa cấm địa Bách Hoa Trận: Đụng độ bầy sói xám Điểm Thương (Bách Hoa Lang) cuồng loạn với mắt vằn tia đỏ rực máu bất thường;
   - Đan Bích Tú bị sói đầu đàn vồ trúng, rách toạc bả vai trái từ xương quai xanh đến bắp tay (`INJ-DBT-001` L1); Lệ Thu Thủy thi triển Phù Vân Kiếm xé toạc dã thú;
@@ -103,7 +103,7 @@ Index: plot/promises_tracker.md
 +| **TH-005** | **Sấm truyền Huyết Quang Tai tại Thúy Yên Môn** | Chương 03 | Hạ Nương | Bầy sói Điểm Thương cuồng loạn bị tiêu diệt; Hạ Nương giảo nghiệm phát hiện xác sói bị giết bởi trọng binh ngoại bang; cấm địa đã bị thâm nhập (Ch.08a) | **Chương 08a & 08b** | **Chương 13** (*Huyết Quang Tai*) | `ADVANCED / HIGH THREAT` (Sát cơ cận kề) |
 @@ -18,2 +18,2 @@
 -| **TH-007** | **Ẩn số nam tử trong mối tình dĩ vãng của Lệ Thu Thủy** | Chương 03 | Hạ Nương | Lệ Thu Thủy ôm hận tìm Du Long Giác vì người xưa trong đêm mưa | **Chương 08a & 08b** & **Chương 13** | **Quyển 1 Hồi Ba** | `OPEN MYSTERY` (Bí ẩn chưa giải) |
-+| **TH-007** | **Ẩn số nam tử trong mối tình dĩ vãng của Lệ Thu Thủy** | Chương 03 | Hạ Nương | Lệ Thu Thủy bất chấp quẻ sấm và sự xâm nhập của ngoại bang, quyết tâm mở trận cướp ngọc bằng mọi giá vì mối tình 17 năm (Ch.08a) | **Chương 08a & 08b** & **Chương 13** | **Quyển 1 Hồi Ba** | `ADVANCED / OBSESSION PEAK` (Chấp niệm bộc phát) |
++| **TH-007** | **Lời cảnh báo 19 năm trước & Bí mật Tiêu Lăng Phong** | Chương 03 | Hạ Nương | Lệ Thu Thủy bất chấp nguy hiểm dấn thân vào cấm địa đào ngọc nhằm phong tỏa kiểm soát bảo vật trước khi giặc tràn vào (Ch.08a) | **Chương 08a & 08b** & **Chương 13** | **Quyển 1 Hồi Ba** | `ADVANCED / CORE MYSTERY` (Manh mối thân thế) |
 @@ -24,2 +24,3 @@
 +| **TH-014** | **Dấu vết Chùy gai Lục giác & Mật vụ Tây Hạ tại Điền Trì** | Chương 08a | Hạ Nương | Hạ Nương khám nghiệm sọ sói bị nghiền nát bởi Bát Giác Lang Nha Chùy và đất sét vàng sa mạc; phát hiện cấm địa bị thâm nhập | **Chương 08b & Chương 13** | **Hồi 2** | `PLANTED / CRUCIAL CLUE` (Manh mối trọng binh ngoại bang) |
 ```
@@ -139,12 +139,22 @@ Index: plot/timeline.md
 
 ---
 
-## Verdict:
-**APPROVED FOR AUTHOR REVIEW (TRÌNH TÁC GIẢ DUYỆT ĐỀ XUẤT CANON DIFF Ở CỔNG DỪNG 3)**.  
-Chỉ khi Tác giả phê chuẩn bản Diff này, Agent mới tiến hành commit các thay đổi vào các file sổ cái bền vững tương ứng.
+## 8. Đề Xuất Cập Nhật Danh Bạ Nhân Vật Phụ (`characters/supporting_cast.md`)
 
+```diff
+Index: characters/supporting_cast.md
+===================================================================
+--- characters/supporting_cast.md
++++ characters/supporting_cast.md
+@@ -58,2 +58,2 @@
+-| **Đan Bích Tú** | **B** | Đệ tử Chấp pháp Thúy Yên Môn | Nữ tử ngoài đôi mươi, mặc y phục lam viền xanh thẫm Thúy Yên; tính tình tháo vát, nhanh nhẹn, dũng cảm | Băng Tâm Kiếm ngắn / Bộ pháp né tránh / Yên Hỏa tiễn | Bị sói dữ cào rách bả vai áo rách thịt (`INJ-DBT-001` Level 1); dũng cảm trèo tháp châm ngòi pháo hoa Yên Hỏa Đài phát tín hiệu cấp cứu cứu nguy môn phái; hiện cùng Lệ Thu Thủy thu dọn chiến trường | Chương 03 |
++| **Đan Bích Tú** | **B** | Đệ tử Chấp pháp Thúy Yên Môn | Nữ tử ngoài đôi mươi, mặc y phục lam viền xanh thẫm Thúy Yên; tính tình tháo vát, nhanh nhẹn, dũng cảm | Băng Tâm Kiếm ngắn / Bộ pháp né tránh / Yên Hỏa tiễn | Bị sói dữ cào rách bả vai áo rách thịt (`INJ-DBT-001` Level 1); được Hạ Nương rửa rượu thuốc hoàng liên bách bộ và băng bó chữ nhân, cấm vận lực tay trái; ở lại cửa trận hỗ trợ truyền tin | Chương 03, 08a |
++| **Tiểu Đào** | **C** | Đệ tử tuần sơn Dược phòng | Thiếu nữ mười bốn tuổi, tính tình ngây thơ nghịch ngợm, thích hái hoa tuyết | Giỏ hái thuốc bằng mây tre | Bị rắn cắn và trật khớp vai ở vách đá Xuân Hoa Viên; được Hạ Nương nắn khớp rạch nọc cứu sống; đang tịnh dưỡng | Chương 03, 08a (nhắc đến tịnh dưỡng) |
+```
 
 ---
 
-## Supporting Cast Directory (`characters/supporting_cast.md`)
-*(Đã đồng bộ chuẩn hóa kiểm toán vào danh bạ nhân vật phụ)*
+## 9. Phê Duyệt Của Tác Giả (Author Approval — Cổng Dừng Cứng 3)
+
+- [x] **Đã được Tác giả phê chuẩn toàn bộ trạng thái canon diff Chương 08a.**
+- **Trạng thái:** ĐÃ COMMIT VÀO SỔ CÁI BỀN VỮNG (`injuries_ledger.md`, `characters/ha_nuong.md`, `artifacts_ledger.md`, `promises_tracker.md`, `relationships_matrix.md`, `timeline.md`, `supporting_cast.md`).

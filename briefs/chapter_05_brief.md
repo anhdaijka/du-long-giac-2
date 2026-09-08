@@ -26,6 +26,19 @@ fidelity_class: "DIRECT CANON INTEGRATED"
 
 ---
 
+## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
+
+| NPC Xuất Hiện Trong Chapter | Tuổi Theo Lore / Niên Biểu (1191) | Năm Sinh (Âm Lịch) | Bối Phận / Thế Hệ / Quan Hệ Gia Đình | Kiểm Tra Độ Lệch Tuổi Sinh Học ($\Delta \ge 16$) | Danh Xưng / Cách Gọi Chuẩn Mực Trong Chapter |
+| :--- | :---: | :---: | :--- | :--- | :--- |
+| **Tiêu Phùng** | **17 tuổi** | 1174 (Giáp Ngọ) | Con trai Tiêu Lăng Phong (Ma Y Cốc); được Bạch Cương ẵm về sau trận Hán Thủy | Protagonist; nhỏ hơn Bạch Thu Lâm bảy tuổi | Thu Di / Tỷ — Đệ (xưng Đệ với Thu Di; gọi Bạch Cương là Bạch thúc) |
+| **Bạch Thu Lâm** | **24 tuổi** | 1167 (Đinh Hợi) | Nữ thủ lĩnh Nghĩa quân Ba Lăng; con Tướng quân Bạch Phụ tại Biện Kinh | Hơn Tiêu Phùng bảy tuổi ($\Delta = 7$); nghĩa tỷ kiêm người bảo hộ | Thu Di / Thu Lâm tỷ (xưng Tỷ với Tiêu Phùng; gọi Bạch Cương là Bạch thúc / nhị ca) |
+| **Bạch Cương** | **~45 tuổi** | ~1146 (Bính Dần) | Nghĩa quân tiền bối; cựu thuộc hạ Tiêu Lăng Phong; ẵm Tiêu Phùng năm 1174 | Bậc thúc bá sa trường ($\Delta = 28$ tuổi so với Tiêu Phùng) | Bạch thúc / Bạch tiền bối (gọi Tiêu Phùng là Thiếu chủ / Phùng nhi; gọi Thu Lâm là Thu Lâm tỷ) |
+| **Cao Thăng** | **~42 tuổi** | ~1149 (Kỷ Tỵ) | Dũng tướng Nghĩa quân Ba Lăng; trung niên quả cảm sát cánh hộ đê | Bậc tiền bối sa trường ($\Delta = 25$ tuổi so với Tiêu Phùng) | Cao thúc / Cao dũng tướng / Lão Cao |
+| **Thôi Kiệm** | **~28 tuổi** | ~1163 (Quý Mùi) | Nghĩa sĩ Ba Lăng; sát cánh cùng Cao Thăng tử thủ Tuyệt Vấn Pha | Bậc huynh trưởng trẻ tuổi nghĩa quân | Thôi huynh / Thôi tráng sĩ |
+| **Ngột Thất Hãn** | **~38 tuổi** | ~1153 (Quý Dậu) | Bách hộ Ô Sơ Sa Kim quốc; thống lĩnh toán thích khách tà môn Âm kình | Kẻ thù sa trường | Tên giặc Kim / Đầu mục Ô Sơ Sa / Ngột Thất Hãn |
+
+---
+
 ## Purpose
 
 1. **Khắc họa trận chiến sa trường thực sự đầu tiên của Tiêu Phùng (First Blood & Field Combat):** Đưa Tiêu Phùng từ những màn ẩu đả bến sông và bắt gấu rừng bước thẳng vào một bãi chiến trường đẫm máu sa trường đích thực. Chàng tận mắt chứng kiến đầu rơi máu chảy, sự tàn khốc của lưỡi đao quân thù và sự hy sinh kiên cường của đồng đội nghĩa quân.
