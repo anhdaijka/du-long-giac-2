@@ -61,7 +61,13 @@ jobs:
       - name: Install pinned skills locally
         run: npm run bootstrap -- --clean
       - name: Prospective Chapter 12 source probe
-        run: python scripts/query_ch12_source.py
+        run: python scripts/query_ch12_source.py | tee chapter12-source-probe.txt
+      - name: Upload Chapter 12 source probe
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter12-source-probe
+          path: chapter12-source-probe.txt
+          retention-days: 1
       - name: Run Reliability Layer v2 regression guards
         run: npm run reliability:test
       - name: Run lexical prose scan
