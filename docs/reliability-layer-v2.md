@@ -8,20 +8,21 @@ Approved architecture for `du-long-giac-2`. Implement and prove it here first; o
 
 Increase autonomous reliability without turning a single-author fiction repository into a bureaucratic workflow system.
 
-Reliability v2 is built around six primitives:
+Reliability v2 is built around seven primitives:
 
 1. Evidence Packet
 2. Claim Ledger
 3. SQLite Evidence Guard
 4. Full-Read Review Protocol
 5. Forward-Only State Commit Guard
-6. Author Text Supremacy
+6. Execution/Completion Manifest
+7. Author Text Supremacy
 
 The governing idea is:
 
 > **Autonomous execution, zero autonomous trust.**
 
-An agent may perform work automatically, but it must not certify semantic truth, author approval, review completeness, or durable state promotion merely by saying that it did so.
+An agent may perform work automatically, but it must not certify semantic truth, author approval, review completeness, execution completion, or durable state promotion merely by saying that it did so.
 
 ---
 
@@ -53,7 +54,7 @@ Evidence strength controls epistemic confidence; it never grants autonomous cano
 
 ### NL-4 — Agent completion is verifier-bound
 
-An agent may report work performed, but it may not make a workflow step complete merely by saying it is complete. Machine-checkable deliverables decide completion where a deterministic verifier exists.
+An agent may report work performed, but it may not make a workflow step or approved execution plan complete merely by saying it is complete. Machine-checkable deliverables decide completion where a deterministic verifier exists.
 
 ### NL-5 — Current Author Text Wins
 
@@ -67,7 +68,7 @@ Canon validation may reject or reclassify a durable claim without reverting the 
 
 ### NL-6 — Verification must describe what it actually proves
 
-A regex regression scanner must not call itself a zero-hallucination proof. An entity grounder must not imply that relations involving a known entity are grounded. A lexical linter must not imply semantic literary quality. A checked approval marker does not prove raw-source entailment.
+A regex regression scanner must not call itself a zero-hallucination proof. An entity grounder must not imply that relations involving a known entity are grounded. A lexical linter must not imply semantic literary quality. A checked approval marker does not prove raw-source entailment. A file-created marker does not prove an approved multi-step plan was fully executed.
 
 ---
 
@@ -342,11 +343,12 @@ If that changeset modifies durable state under:
 - `worldbuilding/`
 - `plot/`
 
-then the same changeset must also contain at least one changed:
+then the relevant chapter promotion must have:
 
-`revisions/chapter_XX_canon_diff.md`
-
-with a checked Author approval line.
+- a changed `revisions/chapter_XX_canon_diff.md` with a checked Author approval line;
+- a current v2 full-read review with reviewer verdict `APPROVED`;
+- a passing Evidence Packet + Claim Ledger pair;
+- if the chapter manuscript changed in the same changeset, the v2 review must also have changed.
 
 Run locally:
 
@@ -356,13 +358,7 @@ python scripts/state-commit-guard.py --base <base-ref>
 
 CI supplies the base commit automatically.
 
-The guard proves only:
-
-- a new durable-state write occurred or did not occur;
-- a changed Canon Diff accompanies that write;
-- the changed Canon Diff contains a recorded checked approval marker.
-
-It does not:
+The guard proves recorded promotion prerequisites. It does not:
 
 - re-audit legacy canon;
 - authenticate the human identity behind the checkbox;
@@ -373,7 +369,110 @@ This is intentionally lightweight. No event-sourcing database, manuscript locks 
 
 ---
 
-## 6. Completion Verification
+## 6. Execution / Completion Manifest
+
+The Execution Manifest exists to prevent a common autonomous-agent failure: an approved plan contains several material deliverables, the agent performs only some of them, then narrates the partial result as if the whole plan were complete.
+
+Template:
+
+`templates/execution-manifest.json`
+
+Working location:
+
+`execution/<scope>.json`
+
+Example:
+
+```json
+{
+  "manifest_id": "chapter_10_execution",
+  "scope": "chapter_10",
+  "deliverables": [
+    {
+      "id": "D01",
+      "description": "Prepare source-grounded Evidence Packet",
+      "requires": [],
+      "checks": [
+        {"type": "file_nonempty", "path": "research/evidence/chapter_10.json"},
+        {"type": "evidence", "chapter": "10"}
+      ]
+    },
+    {
+      "id": "D02",
+      "description": "Prepare Claim Ledger",
+      "requires": ["D01"],
+      "checks": [
+        {"type": "claim", "chapter": "10"}
+      ]
+    }
+  ]
+}
+```
+
+### No stored completion status
+
+The manifest must **not** contain fields such as:
+
+- `status`
+- `state`
+- `done`
+- `complete`
+- `completed`
+
+`execution-guard.py` rejects them. The agent may describe work, but it cannot authoritatively assign itself a completion state.
+
+Runtime computed states are:
+
+- `COMPLETE` — every check for this deliverable passes;
+- `INCOMPLETE` — at least one declared check fails;
+- `BLOCKED` — a required prior deliverable is not complete.
+
+### Allowlisted checks only
+
+Supported check types:
+
+- `file_exists`
+- `file_nonempty`
+- `evidence`
+- `claim`
+- `review`
+
+The manifest cannot execute arbitrary shell commands. This keeps it a small completion verifier instead of turning Novel OS into a workflow engine.
+
+### Tracking mode vs completion claim
+
+During work, run:
+
+```bash
+python scripts/execution-guard.py --manifest execution/<scope>.json
+```
+
+or validate all tracked manifests with:
+
+```bash
+npm run execution:check
+```
+
+Tracking mode may report `INCOMPLETE`/`BLOCKED` without failing CI. In-progress work is allowed to exist.
+
+Before the agent tells the Author that the **entire approved execution plan is finished**, run:
+
+```bash
+npm run execution:complete -- --manifest execution/<scope>.json
+```
+
+This returns non-zero if any deliverable remains incomplete or blocked.
+
+If it fails, the agent must either:
+
+1. continue the missing deliverables; or
+2. explicitly renegotiate/remove scope with the Author.
+
+It may not silently redefine the original plan after the fact.
+
+---
+
+## 7. Completion Verification
 
 A workflow step is complete only when its required artifact exists and its relevant verifier passes.
 
@@ -390,14 +489,17 @@ structural full review prepared
   -> full current-manuscript coverage + Review Guard PASS
 
 new durable state committed
-  -> checked Canon Diff in same changeset + State Commit Guard PASS
+  -> checked Canon Diff + approved v2 review + Claim/Evidence contract + State Commit Guard PASS
+
+multi-step approved plan finished
+  -> every Execution Manifest deliverable computed COMPLETE + execution-guard --require-complete PASS
 ```
 
 An agent saying “done” has no authority over these checks.
 
 ---
 
-## 7. Existing Tools: Exact Responsibilities
+## 8. Existing Tools: Exact Responsibilities
 
 ### `meta-leakage-scanner.py`
 
@@ -431,7 +533,11 @@ Full-read coverage and current-line quote grounding.
 
 ### `state-commit-guard.py`
 
-Forward-only durable-state changeset approval check.
+Forward-only durable-state promotion prerequisite check.
+
+### `execution-guard.py`
+
+Verifier-owned execution completion from a small declarative manifest. It reports partial work but does not allow self-certified completion fields or arbitrary command execution.
 
 ### Semantic Reviewer
 
@@ -439,7 +545,7 @@ Actual prose, causality, voice, continuity, humor and claim-meaning judgment.
 
 ---
 
-## 8. Chapter 09 Pilot Lesson
+## 9. Chapter 09 Pilot Lesson
 
 The pilot demonstrated why source support and novel canon must be separated.
 
@@ -451,7 +557,7 @@ That is the intended behavior.
 
 ---
 
-## 9. MVP Acceptance Criteria
+## 10. MVP Acceptance Criteria
 
 The MVP is acceptable when:
 
@@ -464,12 +570,14 @@ The MVP is acceptable when:
 - a lore regex scan PASS is never presented as “Zero Hallucination”;
 - current manuscript text always overrides agent memory during subsequent work;
 - Author manual prose edits do not trigger version reconciliation or automatic rollback;
-- new durable-state writes cannot pass CI without a changed checked Canon Diff;
+- new durable-state writes cannot pass CI without the relevant approved v2 review, Claim/Evidence contract and checked Canon Diff;
+- a multi-step execution plan cannot be reported complete when one or more declared deliverables are missing or blocked;
+- execution manifests cannot contain agent-authored completion status fields or arbitrary shell commands;
 - no new SHA/locking/workflow-database bureaucracy is introduced.
 
 ---
 
-## 10. Out of Scope for MVP
+## 11. Out of Scope for MVP
 
 - automatic semantic truth judgment;
 - chapter SHA checks;
@@ -480,4 +588,5 @@ The MVP is acceptable when:
 - mandatory Author-edit metadata;
 - event sourcing;
 - workflow databases;
+- arbitrary command execution from execution manifests;
 - cryptographic authentication of the Canon Diff checkbox.
