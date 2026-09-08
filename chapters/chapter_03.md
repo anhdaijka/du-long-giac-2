@@ -97,7 +97,7 @@ Doãn Hàm Yên ngẩng lên, nhìn thấy Hạ Nương thì ánh mắt sắc s�
 
 "Hạ Nương, ngồi xuống đi. Kho dược liệu dự trữ của cốc tháng này thế nào rồi?"
 
-"Bẩm Chưởng môn, sau trận mưa lũ đầu tháng làm ngập kho phía hạ lưu Điền Trì, ba mươi bao rễ cam thảo và mười hòm băng phiến đã bị ẩm mốc, muội đã cho người đem phơi sấy lại nhưng dược tính hao hụt quá nửa." Hạ Nương ngồi xuống chiếc ghế đôn bên cạnh, bình thản trả lời bằng giọng điệu chính xác của người nắm rõ từng con số. "Số lượng ngân châm và dao mổ bằng bạc vẫn đủ dùng, nhưng chu sa và xạ hương để chế thuốc an thần chỉ còn đủ dùng trong nửa tháng. Nếu thuyền buôn của Trương thương hội từ Ba Lăng không cập bến Điền Trì trước tiết Sương Giáng, chúng ta sẽ thiếu dược liệu trầm trọng để phòng ngừa thương hàn cho đệ tử vào mùa đông."
+"Bẩm Chưởng môn, sau trận mưa lũ đầu tháng làm ngập kho phía hạ lưu Điền Trì, ba mươi bao rễ cam thảo và mười hòm băng phiến đã bị ẩm mốc, đệ tử đã cho người đem phơi sấy lại nhưng dược tính hao hụt quá nửa." Hạ Nương ngồi xuống chiếc ghế đôn bên cạnh, bình thản trả lời bằng giọng điệu chính xác của người nắm rõ từng con số. "Số lượng ngân châm và dao mổ bằng bạc vẫn đủ dùng, nhưng chu sa và xạ hương để chế thuốc an thần chỉ còn đủ dùng trong nửa tháng. Nếu thuyền buôn của Trương thương hội từ Ba Lăng không cập bến Điền Trì trước tiết Sương Giáng, chúng ta sẽ thiếu dược liệu trầm trọng để phòng ngừa thương hàn cho đệ tử vào mùa đông."
 
 Doãn Hàm Yên khẽ thở dài, đầu ngón tay gõ nhịp xuống cuốn sổ chi thu:
 
