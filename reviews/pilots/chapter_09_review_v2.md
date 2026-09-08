@@ -77,12 +77,12 @@
 - **Phân tích**: Strong character evidence. Bạch Thu Lâm's attachment is shown through conflict, action and priority rather than abstract explanation; this should survive revision.
 
 5.
-- **Vị trí**: `L241-L300`
+- **Vị trí**: `L241-L280`
 - **Trích đoạn**: Là mật thám của Tây Hạ Nhất Phẩm Đường.
 - **Phân tích**: The prose states a precise faction identity as fact, but the currently registered source evidence only establishes strange/non-Central-Plains attackers at this point. This is a concrete claim-grounding failure, not an entity-grounding failure.
 
 6.
-- **Vị trí**: `L241-L300`
+- **Vị trí**: `L241-L280`
 - **Trích đoạn**: Du Long Giác mang từ trường địa cực cực mạnh, đóng vai trò chiếc chìa khóa duy nhất
 - **Phân tích**: This is a high-impact mechanical/cosmological claim with no registered source evidence in the pilot packet. It must remain blocked unless further game-source evidence is found or the author explicitly adopts it as an adaptation decision.
 
