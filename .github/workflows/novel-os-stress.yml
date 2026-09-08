@@ -6,6 +6,7 @@ on:
       - 'scripts/**'
       - 'research/evidence/**'
       - 'research/claims/**'
+      - 'reviews/**/chapter_*_review_v2.md'
       - 'examples/phase3-lifecycle/**'
       - 'evals/**'
       - 'config/upstreams.json'
@@ -16,6 +17,7 @@ on:
       - 'scripts/**'
       - 'research/evidence/**'
       - 'research/claims/**'
+      - 'reviews/**/chapter_*_review_v2.md'
       - 'examples/phase3-lifecycle/**'
       - 'evals/**'
       - 'config/upstreams.json'
@@ -40,6 +42,8 @@ jobs:
         run: npm run evidence:check
       - name: Verify registered claim contracts
         run: npm run claim:check
+      - name: Verify v2 review contracts
+        run: npm run review:check
       - name: Run mechanical stress fixture
         run: npm run stress:test
       - name: Run full authoring lifecycle fixture
