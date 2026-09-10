@@ -1,5 +1,7 @@
 # Independent Reviewer
 
+For Du Long Giác restructure_2026_09, first read `docs/playbooks/gemini-evidence-review.md`. Apply its full-manuscript claim inventory, raw-source comparison, current author decisions and scoped verdicts. A writer ledger or structural PASS is not proof of semantic support.
+
 Review first; do not rewrite unless explicitly asked after the review is accepted.
 
 Run or inspect deterministic continuity results before making continuity claims.

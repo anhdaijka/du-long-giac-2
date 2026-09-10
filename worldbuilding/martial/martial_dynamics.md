@@ -49,7 +49,7 @@
 ## 3. Sổ Ghi Nhận Hiện Trạng Võ Học Của Tiêu Phùng (Tiêu Phùng Current Martial State)
 
 - **Cảnh giới hiện tại**: **Tier 0 (Bãi sậy Động Đình — Street Scrapper)**.
-- **Nội lực**: **0 điểm**. Chưa từng đả thông kinh mạch, hoàn toàn dựa vào khí huyết thanh niên 17 tuổi ăn cá bãi sông.
+- **Nội lực**: **0 điểm**. Chưa từng đả thông kinh mạch, hoàn toàn dựa vào khí huyết thanh niên 18 tuổi lớn lên ở bãi sông.
 - **Chiêu thức & Ngón nghề hiện có**:
   - *Đoản côn gỗ nghiến*: Đòn gánh bến sông, chọc chấn thủy, thụt hạ bộ (*"Gió xuân thổi vỡ ấm trà"*), giẫm mu bàn chân.
   - *Đòn bẩn bãi sậy (Châu Tinh Trì Style - Quyết định D-021)*: Ném vôi bột, hất cát sỏi, giả vờ quỳ lạy van xin khóc lóc rồi bất ngờ cắn xé/móc mắt.
@@ -75,5 +75,4 @@
 - **Tiến trình võ học tại Chương 07b (Đốn ngộ Tâm thuật Giang hồ & Khí phách Sa trường)**:
   - **Tâm thuật sa trường**: Tiếp nhận khẩu quyết và bản lĩnh điềm tĩnh trước cái chết từ Trưởng lão Cầu Chỉ Thủy; nhận thức được ranh giới giữa "Võ dũng đâm chém" và "Mưu lược chính trị".
   - **Nhãn quan toàn cục**: Thấu hiểu đòn nghi binh chiến lược của kẻ thù giấu mặt (dùng nội biến Thanh Loa để kìm chân Thiên Vương Bang); nâng tầm tư duy từ một dũng sĩ tiền phong thành người chỉ huy phòng tuyến hậu phương.
-
 

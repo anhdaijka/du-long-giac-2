@@ -1,0 +1,466 @@
+task_id	task_id_hex	task_name	category	repeat	membership_status	arc_locator_id	arc_locator_path	subtask_count	step_count	dialogue_count
+1	0000000000000001	Tứ Diện Sở Ca	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	00	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_00_Tan_Thu_Thon.md	8	41	11
+2	0000000000000002	Bất Ngờ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	00	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_00_Tan_Thu_Thon.md	16	67	21
+3	0000000000000003	Mật Lâm Thâm Xứ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	00	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_00_Tan_Thu_Thon.md	1	4	1
+4	0000000000000004	Tình Nghĩa Khó Lưỡng Toàn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	00	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_00_Tan_Thu_Thon.md	13	71	13
+5	0000000000000005	Chuyện Cũ Ngũ Độc	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	00	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_00_Tan_Thu_Thon.md	13	71	13
+6	0000000000000006	Tuyết Dạ Kinh Biến	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	00	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_00_Tan_Thu_Thon.md	5	38	7
+7	0000000000000007	Thật Giả Khó Phân	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	00	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_00_Tan_Thu_Thon.md	7	46	7
+8	0000000000000008	Trạch Tâm Nhân Hậu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	00	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_00_Tan_Thu_Thon.md	6	27	5
+9	0000000000000009	Thiên Mục Chi Mê	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	00	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_00_Tan_Thu_Thon.md	5	32	6
+10	000000000000000a	Nhân Ái Sinh Hận	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	4	35	7
+11	000000000000000b	Thế Sự Khó Lường	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	6	39	8
+12	000000000000000c	Huyết Quang Tai	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	11	69	13
+13	000000000000000d	Người Kế Vị	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	5	27	5
+14	000000000000000e	Đột Biến	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	5	36	5
+15	000000000000000f	Tân Triều	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	5	36	5
+16	0000000000000010	Tìm Ra Lời Đáp	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	5	27	5
+17	0000000000000011	Báo Ân	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	6	38	7
+18	0000000000000012	Bí Mật Che Giấu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	6	40	6
+19	0000000000000013	Âm Sai Dương Thác	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	8	35	9
+20	0000000000000014	Hé Lộ Manh Mối	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	8	27	8
+21	0000000000000015	Súc Thế Đãi Phát	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	7	36	7
+22	0000000000000016	Mang Ngọc Mắc Tội	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	6	26	6
+23	0000000000000017	Bộ Bộ Vi Doanh	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	5	41	5
+24	0000000000000018	Xua Tan Mây Mù	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	11	38	11
+25	0000000000000019	Mưu Kế Thâm Sâu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	01	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_01_Nhap_Mon_Xuat_Son.md	1	3	2
+26	000000000000001a	Thu Phục	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	2	3
+27	000000000000001b	Nghĩa Khí La Phong	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	3	3
+28	000000000000001c	Bố Giả Thương	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	5	2
+29	000000000000001d	Hầu Nhi Tửu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	5	2
+30	000000000000001e	Ảnh Giả	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	4	4
+31	000000000000001f	Đả Cẩu Trận Pháp	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	2	2
+32	0000000000000020	Á Lão Đầu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	5	3
+33	0000000000000021	Nạn Cá Sấu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	4	4
+34	0000000000000022	Thương Nhân Thần Bí	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	3	2
+35	0000000000000023	Bí Ẩn Phản Tộc	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	5	4
+36	0000000000000024	Chứng Cứ Phản Loạn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	2	3
+37	0000000000000025	Quý Hầu Mắc Nạn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	2	3
+38	0000000000000026	Cược Đao Khách	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	2	3
+39	0000000000000027	Cược Kiếm Khách	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	2	2
+40	0000000000000028	Doanh Trại Cũ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	8	2
+41	0000000000000029	Công Tử Si Tình	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	2	2
+42	000000000000002a	Cô Phần	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	4	2
+43	000000000000002b	Họa Rắn Cạp Nong	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	2	4
+44	000000000000002c	Đồ Thôn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	4	3
+45	000000000000002d	Sát Thủ Thổ Sơn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	3	3
+46	000000000000002e	Nữ Vu Ca	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	4	2
+47	000000000000002f	Đại Tuyết Chi Chủng	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	7	2
+48	0000000000000030	Lai Lịch Tống Thu Thạch	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	3	2
+49	0000000000000031	Huynh Muội Du Thị	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	02	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_02_Giang_Ho_So_Khoi.md	1	4	3
+50	0000000000000032	Chủ Nhân Thần Bí	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	9	1
+51	0000000000000033	Băng Huyệt Bi Hào	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	1	3
+52	0000000000000034	Côn Lôn Cố Sự	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	2	3
+53	0000000000000035	Trở Lại Nhân Gian	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	1	4
+54	0000000000000036	Phạm Giới Chi Tăng	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	2	2
+55	0000000000000037	Tứ Vị Danh Dược	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	2	3
+56	0000000000000038	Danh Sư Không Tướng	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	5	2
+57	0000000000000039	Thần Bí Thiết Tặc	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	4	3
+58	000000000000003a	Phục Hồi Cơ Quan	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	2	2
+59	000000000000003b	Đệ Tử Bị Thương	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	1	3
+60	000000000000003c	Khảo Nghiệm Cuối Cùng	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	2	2
+61	000000000000003d	Diệu Kế Bình Loạn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	3	2
+62	000000000000003e	Thái Điệp Tiên Tử	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	3	3
+63	000000000000003f	Kiếm Khách Si Tình	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	2	2
+64	0000000000000040	Thần Bí Kim Nhân	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	4	3
+65	0000000000000041	Hổ Động Mê Tung	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	3	2
+66	0000000000000042	Đêm Mưa Rả Rích	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	2	4	4
+67	0000000000000043	Thù Cũ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	2	2
+68	0000000000000044	Hoàng Lăng Chi Biến	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	3	3
+69	0000000000000045	Kho Báu Đạo Mộ Tặc	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	2	4
+70	0000000000000046	Quân Cờ Thần Bí	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	1	4
+71	0000000000000047	Thử Tài	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	2	2
+72	0000000000000048	Loạn Trong Giặc Ngoài	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	3	2
+73	0000000000000049	Giải Cứu Thích Khách	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	4	2
+74	000000000000004a	Diệt Khẩu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	2	3
+75	000000000000004b	Nga My Cố Sự	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	03	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_03_Tu_Dien_So_Ca.md	1	3	2
+76	000000000000004c	Cầu Thân	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	4	2
+77	000000000000004d	Vô Niệm Kiếp	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	2
+78	000000000000004e	Thách Đấu Cừu Tuyết	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	6	1
+79	000000000000004f	Mối Hận Đường Gia	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	2
+80	0000000000000050	Cung Nữ Cung Thất	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	2
+81	0000000000000051	Bạch Cốt Chi Thành	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	2
+82	0000000000000052	Hợp Tung Liên Hoành	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	2
+83	0000000000000053	Độc Kế	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	3	2
+84	0000000000000054	Tâm Pháp Mật Tịch	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	8	3
+85	0000000000000055	Khuynh Tâm Chi Giao	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	4	3
+86	0000000000000056	Đường Môn Tứ Lão	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	5	2
+87	0000000000000057	Hoài Nghi	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	2
+88	0000000000000058	Ân Tình Đường Hiểu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	2
+89	0000000000000059	Hoa Cốc Lai Khách	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	2
+90	000000000000005a	Hộ Hoa Sứ Giả	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	3
+91	000000000000005b	Toàn Thiên Yến Tử	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	1	4
+92	000000000000005c	Nỗi Nhục Sư Môn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	2
+93	000000000000005d	Khách Phương Bắc	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	3
+94	000000000000005e	Thân Thế Vinh Giảo Giảo	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	1	3
+95	000000000000005f	Ân Tình Trác Vân	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	4	2
+96	0000000000000060	Cứu Tế Thôn Dân	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	1
+97	0000000000000061	Huyền Thưởng Thông Cáo	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	1
+98	0000000000000062	Bình Định Biên Giới	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	1
+99	0000000000000063	Lời Nói Dối Thiện Ý	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	7	4
+100	0000000000000064	Chuộc Mạng Tráng Đinh	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	6	2
+102	0000000000000066	Luyện Nhật Đại Pháp	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	5	3
+103	0000000000000067	Thanh Lý Môn Hộ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	2
+104	0000000000000068	Hồ Điệp Mùa Thu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	5	2
+105	0000000000000069	Chấn Nhiếp Chi Lực	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	3	1
+106	000000000000006a	Bách Quan Phổ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	3	2
+107	000000000000006b	Biên Quản Thái Học Sinh	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	1
+108	000000000000006c	Lược Gia Trừng Giới	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	3	2
+109	000000000000006d	Tình Hình Nguy Cấp	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	3	1
+110	000000000000006e	Đổ Ước	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	04	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_04_Du_Long_Giac_Hien_The.md	1	2	1
+111	000000000000006f	Tấn Lang Tửu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+112	0000000000000070	Tiểu Mặc Nhĩ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	4	1
+113	0000000000000071	Mua Đi Bán Lại	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+114	0000000000000072	Trừng Phạt	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	2
+115	0000000000000073	Kim Khoáng	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+116	0000000000000074	A Lợi Tư	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+117	0000000000000075	Gia Thù	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+118	0000000000000076	Tử Ngọc Băng Xà	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+119	0000000000000077	Hôn Quan	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+120	0000000000000078	Mua Bán Lớn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+121	0000000000000079	Bình Loạn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+122	000000000000007a	Lang Hài	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+123	000000000000007b	Trọng Thưởng	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+124	000000000000007c	Tầm Hồi Quái Vật	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+125	000000000000007d	Đào Ly	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	4	1
+126	000000000000007e	Cựu Hận	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+127	000000000000007f	Khơi Thông	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+128	0000000000000080	Võng Khai Nhất Diện	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	6	1
+129	0000000000000081	Cảnh Chung	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+130	0000000000000082	Y Giả Tâm	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	5	1
+131	0000000000000083	Thiết Mẫu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+132	0000000000000084	Đại Án Tử Mẫu Hoàn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+133	0000000000000085	Đại Án Thâm Khuê	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	6	1
+134	0000000000000086	Tế Sống	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+135	0000000000000087	Tín Đồ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+136	0000000000000088	Luân Hồi	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	5	1
+137	0000000000000089	Thích Khách	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+138	000000000000008a	Diệt Sạch Báo Thù	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+139	000000000000008b	Hoàng Lăng	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+140	000000000000008c	Cựu Ái Sở Tại	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	4	1
+141	000000000000008d	Nghĩa Chi Sở Tại	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+142	000000000000008e	Tình Ý Miên Man	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+143	000000000000008f	Hoàng Lăng Bí Sự	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	5	1
+144	0000000000000090	Địch Nhân Chi Hữu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	4	1
+145	0000000000000091	Dĩ Tiểu Kiến Đại	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	4	1
+146	0000000000000092	Khiêu Sơn Chấn Hổ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	2	1
+147	0000000000000093	Đại Vị Khu Trục	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	4	1
+148	0000000000000094	Sơn Môn Nạn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	2
+149	0000000000000095	Tín Đồ Nổi Giận	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+150	0000000000000096	Thân Bạn Nguy Cơ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	05	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md	1	3	1
+151	0000000000000097	Long Nhan Thịnh Nộ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	4	1
+152	0000000000000098	Lưu Khấu Chi Phong	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+153	0000000000000099	Ám Trung Chế Địch	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	3	1
+154	000000000000009a	Sát Xà Thủ Đảm	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+155	000000000000009b	Đồ Nhã Chi Thác	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+156	000000000000009c	Cố Nhân Chi Tình	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	3	1
+157	000000000000009d	Thân Thế Chi Mê	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	15	85	22
+158	000000000000009e	Sơn Vũ Dục Lai	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+159	000000000000009f	Nghịch Vận Luân	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+160	00000000000000a0	Hồ Điệp Phong Bạo	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+161	00000000000000a1	Tâm Đắc Thư (sơ)	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	1	3
+162	00000000000000a2	Tâm Đắc Thư (trung)	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	1	3
+163	00000000000000a3	Tâm Đắc Thư (cao)	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	1	3
+164	00000000000000a4	Đánh Đuổi Cường Đạo	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	5	1
+165	00000000000000a5	Hành Động Ám Sát	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+166	00000000000000a6	Đường Lang Quyền Sư	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	2
+167	00000000000000a7	Ảnh Xã Anh Linh	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	2
+168	00000000000000a8	Hoa Hương Loa	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	0
+169	00000000000000a9	Ủy Thác Của Đệ Tử Thiên Vương	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	0
+170	00000000000000aa	Chế Tạo Thương Thiên Vương	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	3	1
+171	00000000000000ab	Quả Sồi	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+172	00000000000000ac	Đoạt Lại Pháp Khí	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+173	00000000000000ad	Rượu Mông Cổ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	2
+174	00000000000000ae	Hồi Môn Của Như Ý	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	1	1
+175	00000000000000af	Hộ Vệ Hành Thương	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+176	00000000000000b0	3 vạn con Ác viên	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	2
+177	00000000000000b1	Vật Thị Nhân Phi	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	3
+178	00000000000000b2	Bì Giáp Y	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	4	1
+179	00000000000000b3	Cơ Quan Thú Cốt	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	2
+180	00000000000000b4	Thu Thập Mã Thảo	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	2
+181	00000000000000b5	Cùng Chống Quan Quân	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+182	00000000000000b6	Quan Chiến	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+183	00000000000000b7	Mối Hận Hắc Kỳ	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+184	00000000000000b8	Hộ Pháp Hồng Kỳ	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+185	00000000000000b9	Đệ Tử Hoàng Kỳ	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+186	00000000000000ba	Họa Xà Đồ	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	2
+187	00000000000000bb	Bức Thư Của Ông Lão	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	5	1
+188	00000000000000bc	Vào hang rắn tìm cha	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	3	1
+189	00000000000000bd	Trừng Trị Tù Phạm	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	1
+190	00000000000000be	Thuyền Cỏ Mượn Tên	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	06	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_06_Thach_Hien_Vien_Co_Yen_Nhien.md	1	2	2
+191	00000000000000bf	Trưởng Sĩ Binh	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	2	1
+192	00000000000000c0	Xuân Tàm Tân Ty	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	2	2
+193	00000000000000c1	Tứ Quý Hồi Công Đơn	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	2	2
+194	00000000000000c2	Đao Khách Quỵt Nợ	Loại editor nhiệm vụ thông dụng	1	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	2	1
+197	00000000000000c5	Chuyện Cũ Thần Châu	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	2	1
+198	00000000000000c6	Ma Nữ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	6	1
+199	00000000000000c7	Long Thương	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	4	1
+200	00000000000000c8	Cửu Tuyệt	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	9	1
+201	00000000000000c9	Tôn Sư	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	7	3
+202	00000000000000ca	Chuyện Cũ Giang Hồ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	4	1
+203	00000000000000cb	Nhiệm Vụ Tiếp Dẫn Thiên Vương	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+204	00000000000000cc	Nhiệm Vụ Tiếp Dẫn Cái Bang	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+205	00000000000000cd	Nhiệm Vụ Tiếp Dẫn Ngũ Độc	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+206	00000000000000ce	Nhiệm Vụ Tiếp Dẫn Côn Lôn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+207	00000000000000cf	Nhiệm Vụ Tiếp Dẫn Võ Đang	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+208	00000000000000d0	Nhiệm Vụ Tiếp Dẫn Thiếu Lâm	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+209	00000000000000d1	Nhiệm Vụ Tiếp Dẫn Thiên Nhẫn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+210	00000000000000d2	Nhiệm Vụ Tiếp Dẫn Nga My	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+211	00000000000000d3	Nhiệm vụ tiếp dẫn Đường Môn	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+212	00000000000000d4	Nhiệm Vụ Tiếp Dẫn Thúy Yên	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+213	00000000000000d5	Nhiệm Vụ Tiếp Dẫn Minh Giáo	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+214	00000000000000d6	Nhiệm Vụ Tiếp Dẫn Đoàn Thị	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	2	8	2
+215	00000000000000d7	Nhiệm Vụ Nghĩa Quân	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	3	1
+216	00000000000000d8	Vượt Ải Bạch Hổ Đường	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	2	1
+217	00000000000000d9	Tương Dương Lão Binh	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	2	1
+218	00000000000000da	Đấu Lôi Đài	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	7	1
+219	00000000000000db	Nghi Chủng	Loại editor nhiệm vụ thông dụng	1	UNCLASSIFIED			1	2	1
+220	00000000000000dc	Người Mất Tích	Loại editor nhiệm vụ thông dụng	1	UNCLASSIFIED			1	2	1
+221	00000000000000dd	Phó Ước	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	6	1
+222	00000000000000de	Tìm Ngựa	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	2	1
+223	00000000000000df	Lão Mặc Nhĩ	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	4	1
+224	00000000000000e0	Trốn Chạy	Loại editor nhiệm vụ thông dụng	1	UNCLASSIFIED			1	2	1
+225	00000000000000e1	Hành Trình Mới	Loại editor nhiệm vụ thông dụng	0	LOCATOR_LISTED	07	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_07_Khanh_Nguyen_Chi_Bien.md	1	6	1
+226	00000000000000e2	Chuẩn Bị Chiến Sự (Chính tuyến)	Cốt truyện	1	UNCLASSIFIED			1	2	1
+227	00000000000000e3	Bị Chiến Nhật Thường (Hằng ngày)	Hằng ngày	1	UNCLASSIFIED			1	2	1
+228	00000000000000e4	Thao Luyện Tân Quân	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	7	1
+229	00000000000000e5	Tôn Tử Binh Pháp (cấp 90)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+230	00000000000000e6	Mặc Gia Cơ Quan Thuật (cấp 90)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+231	00000000000000e7	Vì Nước Vì Dân	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	8	1
+232	00000000000000e8	Tân Triều Dương Quang	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	7	1
+233	00000000000000e9	Tấm Lòng Ngay Thẳng	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	10	1
+234	00000000000000ea	Tuần Giảng Số Nhật	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	22	1
+235	00000000000000eb	Lòng Người Khó Đoán	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	11	1
+236	00000000000000ec	Sơn Vũ Dục Lai	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	12	1
+237	00000000000000ed	Quyết Chiến Một Trận	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	11	1
+238	00000000000000ee	Nhất Niệm Chi Nhân	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	11	3
+239	00000000000000ef	Thắng Bại Chưa Rõ	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	11	3
+240	00000000000000f0	Khánh Nguyên Đảng Cấm	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	9	1
+241	00000000000000f1	Câu Chuyện Trường Ca	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	4	1
+242	00000000000000f2	Trường Ca Tam Kiệt	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	2	1
+243	00000000000000f3	Thăm Dò Thát Đát	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	5	1
+244	00000000000000f4	Thảo Nguyên Anh Hùng	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+245	00000000000000f5	Sứ Giả Kim Quốc	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	8	1
+246	00000000000000f6	Cố Liêu Kỳ Tài	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+247	00000000000000f7	Công Phòng Tính Cử	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+248	00000000000000f8	Giới Hào Phương Bắc	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+249	00000000000000f9	Phân Tiến Hợp Kích	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	5	1
+250	00000000000000fa	Kỵ Binh Dũng Mãnh	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+251	00000000000000fb	Hạ Chủ Hoàn Tông	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	4	1
+252	00000000000000fc	Dã Tâm To Lớn	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+253	00000000000000fd	Trấn Di quận vương	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+254	00000000000000fe	Lệ Binh Mạt Mã	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+255	00000000000000ff	Thu Phục Mã Tặc	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+256	0000000000000100	Yêu Đạo Huyền Hiệp	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+257	0000000000000101	Nhân Sinh Vô Thường	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+258	0000000000000102	Biên Quản Đạo Châu	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+259	0000000000000103	Biên Luyện Sứ	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	2	1
+260	0000000000000104	Binh Huyết	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	3	1
+261	0000000000000105	Doanh Tiêu	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	2	1
+262	0000000000000106	Vũ Tiết Lang	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	4	1
+263	0000000000000107	Diệu Kế Bổ Đạo	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	4	1
+264	0000000000000108	Lấy Một Địch Trăm	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	2	1
+265	0000000000000109	Dũng Sĩ Hứa Tuấn	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	2	1
+266	000000000000010a	Vong Mệnh Chi Đồ	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	2	1
+267	000000000000010b	Chung Hữu Nhất Tử	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	2	1
+268	000000000000010c	Túi Quân Hưởng (Cấp 90)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	1	1
+269	000000000000010d	Thủ Lĩnh Lâu La	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	2	1
+270	000000000000010e	Thủ Lĩnh Giám Công	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	08	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_08_Man_Thien_Qua_Hai.md	1	2	1
+271	000000000000010f	Thợ Cả	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+272	0000000000000110	Thợ Săn Dã Nhân	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+273	0000000000000111	Trừng Trị Giám Công	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+274	0000000000000112	Bạo Lực Man Diên	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+275	0000000000000113	Quân Doanh Bổ Cấp	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+276	0000000000000114	Bức Thư Nhà	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+277	0000000000000115	Diệt Trừ Chuột Núi	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+278	0000000000000116	Hái Thuốc	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+279	0000000000000117	Tìm Nghĩa Quân	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+280	0000000000000118	Câu Cá	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+281	0000000000000119	Tuyết Hồn Châu	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+282	000000000000011a	Chi Lan	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+283	000000000000011b	Bạch Cốt Chùy	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+284	000000000000011c	Tiền Xu Cổ	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+285	000000000000011d	Tim Cá Sấu Chúa	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+286	000000000000011e	Hoa Tặc	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+287	000000000000011f	Nhị Đương Gia	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+288	0000000000000120	Trừng Phạt	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	0	0	0
+289	0000000000000121	Tiên Nhũ Linh Thạch	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+290	0000000000000122	Luyện Võ (Sơ)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	5	1
+291	0000000000000123	Gặp Họa	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	9	1
+292	0000000000000124	Nghìn Cân Treo Sợi Tóc	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	11	1
+293	0000000000000125	Lang Bạt Kỳ Hồ	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	7	1
+294	0000000000000126	Man Thiên Quá Hải	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	10	3
+295	0000000000000127	Tại Thủy Nhất Phương	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	10	3
+296	0000000000000128	Mưa Thuận Gió Hòa	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	8	1
+297	0000000000000129	Nhiệm Trọng Đạo Viễn	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	9	1
+298	000000000000012a	Ám Lưu Dũng Động	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	8	1
+299	000000000000012b	Thập Vạn Hỏa Cấp	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	7	1
+300	000000000000012c	Binh Nhung Tương Kiến	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	10	0
+301	000000000000012d	Túy Tăng	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+302	000000000000012e	Luyện Võ (Trung)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	5	1
+303	000000000000012f	Tiền Tiêu	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	5	1
+304	0000000000000130	Trùng Dương Cố Cư	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	4	1
+305	0000000000000131	Tiêu Diệt Hắc Phong Trại	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	4	1
+306	0000000000000132	Đại Vũ Đài	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+307	0000000000000133	Phục Ngưu Sơn Trang	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	2	1
+308	0000000000000134	Thế Chân Vạc	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	4	1
+309	0000000000000135	Thần Thú Xi Vưu	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	4	1
+310	0000000000000136	Nội Gián	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	5	1
+311	0000000000000137	Vụ Mất Tích Bí Ẩn	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	5	1
+312	0000000000000138	Trộm Đêm	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	3	1
+313	0000000000000139	Tuyệt Sát Chi Kiếp	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	9	1
+314	000000000000013a	Phương Thảo Mê Tung	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	10	1
+315	000000000000013b	Thâm Nhập Cổ Huyệt	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	10	1
+316	000000000000013c	Cổ Thuật Thần Bí	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	9	3
+317	000000000000013d	Cải Tử Hồi Sinh	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	9	1
+318	000000000000013e	Hổ Khẩu Lịch Hiểm	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	8	1
+319	000000000000013f	Trừng Trị Tham Quan	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	9	1
+320	0000000000000140	Phong Vũ Tiền Dạ	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	09	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_09_Dai_Ly_Ky_An.md	1	12	3
+321	0000000000000141	Ô Man Chi Chướng	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	10	1
+322	0000000000000142	Bỉ Ngạn Phương Hoa	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	7	1
+323	0000000000000143	Mật thám Tát Mãn Giáo	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	3	1
+324	0000000000000144	Hắc Mễ Oa Oa	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	4	1
+325	0000000000000145	Thu Thí Văn Khảo	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	3	1
+326	0000000000000146	Tình Ý Vô Giá	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	4	1
+327	0000000000000147	Thiện Ác Hữu Báo	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	4	1
+328	0000000000000148	Giải Cứu Thương Khách	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	4	1
+329	0000000000000149	Khương Thị Phụ Tử	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	4	1
+330	000000000000014a	Thử Hận Miên Miên	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	5	1
+331	000000000000014b	Lòng Người Khó Lường	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	4	1
+332	000000000000014c	Cẩm Nang Thần Bí	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	4	1
+333	000000000000014d	Cổ Họa (Hằng ngày - Sơ)	Hằng ngày	1	UNCLASSIFIED			1	2	1
+334	000000000000014e	Cổ Họa (Hằng ngày)	Hằng ngày	1	UNCLASSIFIED			1	2	1
+335	000000000000014f	Cấm Địa (Sơ)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	2	1
+336	0000000000000150	Cấm Địa (trung)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	2	1
+337	0000000000000151	Cổ Họa (Chính tuyến - Sơ)	Cốt truyện	1	UNCLASSIFIED			1	2	1
+338	0000000000000152	Cổ Họa (Chính tuyến)	Cốt truyện	1	UNCLASSIFIED			1	2	1
+339	0000000000000153	"""Bách Xích Kinh"""	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	3	1
+340	0000000000000154	Võ Mục Di Thư (cấp 110)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	3	1
+341	0000000000000155	Quỷ Cốc Đạo Thuật (cấp 110)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	3	1
+342	0000000000000156	Chúc tết	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	11	1
+343	0000000000000157	Túi Quân Hưởng (cấp 110)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	1	1
+344	0000000000000158	Sư Đồ Truyền Công	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	2	1
+345	0000000000000159	Nghi Chủng - Đồng Đội	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	2	1
+346	000000000000015a	Người Mất Tích - đồng đội	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	2	1
+347	000000000000015b	Trốn Chạy - đồng đội	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	2	1
+348	000000000000015c	Túy Tăng - đồng đội	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	2	1
+349	000000000000015d	Trở Lại	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	2	1
+350	000000000000015e	Giúp Bằng Hữu Trở Lại	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	2	1
+351	000000000000015f	Hướng Dẫn Tranh Đoạt Lãnh Thổ	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	6	1
+352	0000000000000160	Du Long Kinh Phượng	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	10	102	10
+353	0000000000000161	Bố Y Tình	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	5	1
+354	0000000000000162	Lão Từ Sám Hối	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	5	3
+355	0000000000000163	Kim Lô Chùy	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	5	1
+356	0000000000000164	Tâm Ý Người Say	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	4	1
+357	0000000000000165	Mong Bình An	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	5	1
+358	0000000000000166	Hồ Tiên Chú	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	6	1
+359	0000000000000167	Kẻ Khờ Yêu	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	4	1
+360	0000000000000168	Cứu Đan Bích Tú	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	4	1
+361	0000000000000169	Áo Ấm Mùa Đông	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	5	1
+362	000000000000016a	Sinh Tử Tương Giao	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	6	1
+363	000000000000016b	Hải Lăng Vương Mộ-Chính tuyến (cấp 90)	Cốt truyện	1	UNCLASSIFIED			1	2	1
+364	000000000000016c	Hải Lăng Vương Mộ-Hằng ngày (cấp 90)	Hằng ngày	1	UNCLASSIFIED			1	2	1
+365	000000000000016d	Hải Lăng Vương Mộ-Chính tuyến  (cấp 110)	Cốt truyện	1	UNCLASSIFIED			1	2	1
+366	000000000000016e	Hải Lăng Vương Mộ-Hằng ngày (cấp 110)	Hằng ngày	1	UNCLASSIFIED			1	2	1
+367	000000000000016f	Hải Lăng Vương Mộ (Chính tuyến)	Cốt truyện	1	UNCLASSIFIED			1	2	1
+368	0000000000000170	Hải Lăng Vương Mộ (Hằng ngày)	Hằng ngày	1	UNCLASSIFIED			1	2	1
+369	0000000000000171	Bàn Cờ Tướng (cấp 90)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	2	1
+370	0000000000000172	Bàn Cờ Tướng (cấp 110)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	10	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_10_Vong_Long_Son_Bac_Phat.md	1	2	1
+371	0000000000000173	Bàn Cờ Tướng (cấp 130)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	2	1
+372	0000000000000174	Ảo Ảnh (cấp 90)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	2	1
+373	0000000000000175	Ảo Ảnh (cấp 110)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	2	1
+374	0000000000000176	Ảo Ảnh (cấp 130)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	2	1
+375	0000000000000177	Truy Bắt Lưu Nhất Bán (cấp 90)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	2	1
+376	0000000000000178	Truy Bắt Lưu Nhất Bán (cấp 110)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	2	1
+377	0000000000000179	Truy Bắt Lưu Nhất Bán (cấp 130)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	2	1
+378	000000000000017a	Binh Pháp 36 Kế (cấp 130)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+379	000000000000017b	Khuyết Nhất Môn (cấp 130)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+380	000000000000017c	Túi Quân Hưởng (cấp 130)	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	1	1
+381	000000000000017d	Thám Thính Quân Doanh	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	2	1
+382	000000000000017e	Giang Sơn Bắc Vọng	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	10	95	12
+383	000000000000017f	Nhiệm vụ Thiên Vương (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+384	0000000000000180	Nhiệm vụ Cái Bang (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+385	0000000000000181	Nhiệm vụ Ngũ Độc (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+386	0000000000000182	Nhiệm vụ Côn Lôn (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+387	0000000000000183	Nhiệm vụ Võ Đang (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+388	0000000000000184	Nhiệm vụ Thiếu Lâm (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+389	0000000000000185	Nhiệm vụ Thiên Nhẫn (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+390	0000000000000186	Nhiệm vụ Nga My (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+391	0000000000000187	Nhiệm vụ Đường Môn (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+392	0000000000000188	Nhiệm vụ Thúy Yên (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+393	0000000000000189	Nhiệm vụ Minh Giáo (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+394	000000000000018a	Nhiệm vụ Đoàn Thị (cấp 20)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+395	000000000000018b	Tào Bang Nghị Sự	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	4	1
+396	000000000000018c	Hủ Thực Chi Chủng	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	5	1
+397	000000000000018d	Diêm Bang Hành	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	4	1
+398	000000000000018e	Tụ Hiền Đại Hội	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	4	1
+399	000000000000018f	Thảo Nguyên Hùng Ưng	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	5	1
+400	0000000000000190	Mãn Giang Hồng	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	5	1
+401	0000000000000191	Ma Y Dự Ngôn	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	5	1
+402	0000000000000192	Mã Bang Hành	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	4	1
+403	0000000000000193	Khiêu Hà Tử	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	4	1
+404	0000000000000194	Đúc Kiếm	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	5	1
+405	0000000000000195	Nhiệm vụ Thiên Vương (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+406	0000000000000196	Nhiệm vụ Cái Bang (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+407	0000000000000197	Nhiệm vụ Ngũ Độc (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+408	0000000000000198	Nhiệm vụ Côn Lôn (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+409	0000000000000199	Nhiệm vụ Võ Đang (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+410	000000000000019a	Nhiệm vụ Thiếu Lâm (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+411	000000000000019b	Nhiệm vụ Thiên Nhẫn (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+412	000000000000019c	Nhiệm vụ Nga My (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+413	000000000000019d	Nhiệm vụ Đường Môn (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+414	000000000000019e	Nhiệm vụ Thúy Yên (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+415	000000000000019f	Nhiệm vụ Minh Giáo (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+416	00000000000001a0	Nhiệm vụ Đoàn Thị (cấp 30)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+417	00000000000001a1	Nhiệm vụ Thiên Vương (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+418	00000000000001a2	Nhiệm vụ Cái Bang (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+419	00000000000001a3	Nhiệm vụ Ngũ Độc (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+420	00000000000001a4	Nhiệm vụ Côn Lôn (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	11	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_11_Linh_Bich_Quyet_Chien.md	1	3	1
+421	00000000000001a5	Nhiệm vụ Võ Đang (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	3	1
+422	00000000000001a6	Nhiệm vụ Thiếu Lâm (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	3	1
+423	00000000000001a7	Nhiệm vụ Thiên Nhẫn (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	3	1
+424	00000000000001a8	Nhiệm vụ Nga My (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	3	1
+425	00000000000001a9	Nhiệm vụ Đường Môn (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	3	1
+426	00000000000001aa	Nhiệm vụ Thúy Yên (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	3	1
+427	00000000000001ab	Nhiệm vụ Minh Giáo (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	3	1
+428	00000000000001ac	Nhiệm vụ Đoàn Thị (cấp 40)	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	3	1
+429	00000000000001ad	Hành Trình Bất Tận	Nhiệm vụ chính tuyến	1	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	2	1
+430	00000000000001ae	Kỹ năng cấp 110_Thiếu Lâm	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+431	00000000000001af	Kỹ năng cấp 110_Thiên Vương	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+432	00000000000001b0	Kỹ năng cấp 110_Đường Môn	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+433	00000000000001b1	Kỹ năng cấp 110_Ngũ Độc	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+434	00000000000001b2	Kỹ năng cấp 110_Nga My	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+435	00000000000001b3	Kỹ năng cấp 110_Thúy Yên	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+436	00000000000001b4	Kỹ năng cấp 110_Cái Bang	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+437	00000000000001b5	Kỹ năng cấp 110_Thiên Nhẫn	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+438	00000000000001b6	Kỹ năng cấp 110_Võ Đang	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+439	00000000000001b7	Kỹ năng cấp 110_Côn Lôn	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+440	00000000000001b8	Kỹ năng cấp 110_Minh Giáo	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+441	00000000000001b9	Kỹ năng cấp 110_Đoàn Thị	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+442	00000000000001ba	Hừng Hực Khí Thế	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	10	1
+443	00000000000001bb	Liên Thủy Đăng Lục	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	10	1
+444	00000000000001bc	Dương Đông Kích Tây	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	9	1
+445	00000000000001bd	Xả Thân Vì Nghĩa	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	10	1
+446	00000000000001be	Như Từng Quen Biết	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	9	1
+447	00000000000001bf	Chẳng Như Hoài Niệm	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+448	00000000000001c0	Tiểu Thư Họ Bạch	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	9	1
+449	00000000000001c1	Mối Duyên Sơn Trại	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	10	1
+450	00000000000001c2	Thân Thế Mơ Hồ	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	8	1
+451	00000000000001c3	Du Long Tái Hiện	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	8	1
+452	00000000000001c4	Hiệp Cốt Nhu Tình	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	9	1
+453	00000000000001c5	Tam Hoàn Trận	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+454	00000000000001c6	Vu Chi Hoặc	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	4	1
+455	00000000000001c7	Thâm Nhập Bí Huyệt	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	4	1
+456	00000000000001c8	Du Long Sứ	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	4	1
+457	00000000000001c9	Thái Tổ Bí Sử	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+458	00000000000001ca	Ngưng Mi Xả Thân	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+459	00000000000001cb	Đốt Lương	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	4	1
+460	00000000000001cc	Triệt Nguồn Nước	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+461	00000000000001cd	Tế Đồng	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+462	00000000000001ce	Tộc Hỏa Lỗ	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	1
+464	00000000000001d0	Kết Bạn Lên Đường	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	3	2
+465	00000000000001d1	Càng Thêm Lớn Mạnh	Nhiệm vụ chính tuyến	0	LOCATOR_LISTED	12	migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_12_Endpoint_Tan_Cuoc_Bao_Ngo.md	1	5	2
+466	00000000000001d2	Chúc Tết Năm Mới	Nhiệm vụ chính tuyến	1	UNCLASSIFIED			1	11	1
+467	00000000000001d3	Lương Duyên Tiền Định	Nhiệm vụ chính tuyến	0	UNCLASSIFIED			1	12	1
+468	00000000000001d4	"""Vô Tự Thiên Thư"""	Nhiệm vụ chính tuyến	0	UNCLASSIFIED			1	3	1
+469	00000000000001d5	Tâm Nguyện	Nhiệm vụ chính tuyến	1	UNCLASSIFIED			1	6	1

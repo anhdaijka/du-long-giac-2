@@ -1,3 +1,5 @@
+> D-064/R-90: Read migration/restructure_2026_09/temporal-continuity-contract.md first. Exact dates, volume ages and travel estimates require evidence/decision; UNKNOWN is valid. Current allocation: migration/restructure_2026_09/series-chapter-allocation-index.md. Canon diffs must name approved state destinations; never write chapter state into policy/index.
+
 # Đề Xuất Canon Diff: Chương [XX] — [Tiêu Đề Chương]
 
 > **Cơ quan quản lý**: Novel OS State Ledger  
@@ -93,16 +95,12 @@ Index: plot/promises_tracker.md
 
 ---
 
-## 8. Đề Xuất Cập Nhật Biên Niên Sử & Outline Deck (`plot/timeline.md` & `plot/volume_01_deck.md`)
-*(Ghi nhận mốc sự kiện chính xác và đánh dấu trạng thái canon hóa chương)*
+## 8. Đề xuất temporal state theo contract và allocation hiện hành
+*(Ghi nhận mốc được duyệt hoặc UNKNOWN và đánh dấu trạng thái canon hóa chương)*
 
-```diff
-Index: plot/timeline.md
-===================================================================
---- plot/timeline.md
-+++ plot/timeline.md
-@@ -...,... +...,... @@
-```
+- Approved durable-state destination: [explicit path selected in this canon diff]
+- Temporal checkpoint / before-after / source receipt / author decision:
+- Unresolved time/travel remains UNKNOWN. Never write chapter state into policy/index.
 
 ---
 

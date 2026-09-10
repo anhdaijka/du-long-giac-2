@@ -21,12 +21,12 @@
 
 | Nhóm nhân vật | Xưng hô đặc trưng | Nhịp điệu thoại | Trường từ vựng chủ đạo | Cấm kỵ thoại |
 | :--- | :--- | :--- | :--- | :--- |
-| **Tiêu Phùng**<br>*(17 tuổi, Dân bãi sậy Ba Lăng)* | - Với Thu Di: *"Thu Di", "Đệ"*<br>- Với người lớn: *"Thúc", "Bá", "Tiểu đệ", "Vãn bối"*<br>- Với kẻ thù/đối thủ: *"Các hạ", "Ta", "Lão tử", "Đại gia"* | Nhanh, linh hoạt, đốp chát, hay chêm câu đùa bỡn cợt nhả, hay tự trào bẻ lái. | Cá mè, mỡ gà, nồi cháo hoa, tiền lẻ, chổi quét nhà, bến sông, rơm ướt, đòn gánh. | Cấm nói giọng thi thư nhã nhặn giáo điều, cấm xưng "con" với Thu Lâm (bối phận tỷ - đệ lệch 7t). |
+| **Tiêu Phùng**<br>*(18 tuổi, Dân bãi sậy Ba Lăng)* | - Với Thu Di: *"Thu Di", "Đệ"*<br>- Với người lớn: *"Thúc", "Bá", "Tiểu đệ", "Vãn bối"*<br>- Với kẻ thù/đối thủ: *"Các hạ", "Ta", "Lão tử", "Đại gia"* | Nhanh, linh hoạt, đốp chát, hay chêm câu đùa bỡn cợt nhả, hay tự trào bẻ lái. | Cá mè, mỡ gà, nồi cháo hoa, tiền lẻ, chổi quét nhà, bến sông, rơm ướt, đòn gánh. | Cấm nói giọng thi thư nhã nhặn giáo điều, cấm xưng "con" với Thu Lâm (bối phận tỷ - đệ lệch 6t nếu giữ mốc Thu Lâm 24). |
 | **Tĩnh Xuyên**<br>*(20 tuổi, Tướng lĩnh Thiên Vương)* | - Với Diệp Mẫu: *"Mẹ", "Con"*<br>- Với tướng lĩnh/bang chúng: *"Dương Bang chủ", "Lâu tiền bối", "Thuộc hạ", "Ta"*<br>- Với Tiêu Phùng/bạn hữu: *"Huynh", "Đệ"* | Trầm tĩnh, ngắn gọn, gãy gọn, dứt khoát, nhịp điệu quân lệnh sa trường. | Chốt chặn, cánh tả, cánh hữu, cự ly, hướng gió, đồn trú, quân nhu, thiết thương, hiệu lệnh. | Cấm tán gẫu dài dòng, cấm than thở ủ rũ, cấm dùng từ hoa mỹ ẻo lả. |
 | **Hạ Nương**<br>*(16 tuổi, Y sư Thúy Yên)* | - Với Chưởng môn: *"Chưởng môn", "Con"*<br>- Với sư tỷ: *"Sư tỷ", "Muội"*<br>- Với bệnh nhân/đồng đạo: *"Cô nương", "Các hạ", "Hạ Nương"* | Điềm đạm, rành mạch, thanh nhã, cẩn trọng nhưng đanh thép khi bảo vệ y lý. | Khí huyết, kinh lạc, hàn độc, thảo dược, rách màng cân, chỉ ruột cừu, ngân châm, giữ ấm. | Cấm nói giọng hờn dỗi trẻ con, cấm biểu cảm bốc đồng thiếu kiềm chế. |
 | **Bạch Thu Lâm**<br>*(24 tuổi, Thủ lĩnh Nghĩa quân)* | - Với Tiêu Phùng: *"Thu Di", "Đệ"*<br>- Với tiền bối: *"Bá phụ", "Bạch muội", "Vãn bối"*<br>- Với nghĩa quân: *"Chư vị huynh đệ", "Thu Lâm"* | Chững chạc, uy nghi, ấm áp mà nghiêm cẩn, dứt khoát của người đứng đầu gánh vác. | Nghĩa quân, kho lương, đê điều, tơ lụa, yên bình, huyết hải, lời thề Hán Thủy. | Cấm xưng hô lả lơi, cấm tỏ ra mềm yếu trước nghĩa quân. |
 | **Dương Thiết Tâm**<br>*(42 tuổi, Tướng quân Thiên Vương)* | - Với thuộc hạ: *"Ta", "Chư vị"*<br>- Với Dương Anh: *"Cô mẫu", "Thiết Tâm"*<br>- Với Tĩnh Xuyên: *"Tĩnh hiền điệt", "Bá"* | Hào sảng, sang sảng như sấm, khẩu khí sa trường Nhạc Gia Quân dạn dày sương gió. | Bát Hàn Thương, Trường Giang, đại nghĩa diệt Kim, trung liệt, thiết huyết, quân kỷ. | Cấm nói giọng xảo quyệt hay so đo tính toán tiểu tiết. |
-| **Doãn Hàm Yên**<br>*(40 tuổi, Cựu Chưởng môn Thúy Yên)* | - Với Hạ Nương: *"Chưởng môn", "Con"*<br>- Với Lệ Thu Thủy: *"Sư muội", "Sư tỷ"*<br>- Với ngoại bang: *"Bản môn", "Các hạ"* | Đoan trang, uy nghi, sâu cay, tầm nhìn kinh tài và an nguy môn phái vững như bàn thạch. | Trụ Thần Thạch, Bách Hoa Trận, dược điền, ngân quỹ, từ trường hung ngọc, an nguy sơn môn. | Cấm nói giọng hốt hoảng, cấm yếu mềm trước áp lực đối ngoại. |
+| **Doãn Hàm Yên**<br>*(40 tuổi, Cựu Chưởng môn Thúy Yên)* | - Với Hạ Nương: *"Chưởng môn", "Con"*<br>- Với Lệ Thu Thủy: *"Sư muội", "Sư tỷ"*<br>- Với ngoại bang: *"Bản môn", "Các hạ"* | Đoan trang, uy nghi, sâu cay, tầm nhìn kinh tài và an nguy môn phái vững như bàn thạch. | Bách Hoa Trận, dược điền, ngân quỹ, dấu vết tranh đoạt bảo vật, an nguy sơn môn. | Cấm nói giọng hốt hoảng, cấm yếu mềm trước áp lực đối ngoại; không tự xác nhận cơ chế Du Long Giác vô nguồn. |
 | **Dân chài & Thảo mãng Động Đình**<br>*(Lão Trương, Điềm Tửu Thúc)* | - Xưng hô: *"Lão già này", "Thằng ranh", "Bác", "Mày", "Chú cháu"* | Bỗ bã, chân chất, thô mộc, giàu tình làng nghĩa xóm bến sông. | Rượu nếp, con cá, mái chèo, con nước ròng, lưới rách, bát canh chua, manh chiếu. | Cấm dùng từ ngữ kinh viện, cấm nói lời trơn tru bóng bẩy. |
 
 ---
@@ -50,7 +50,7 @@
 ## 4. QUY TẮC CẤM KỴ ĐỐI THOẠI TUYỆT ĐỐI (NEGATIVE DIALOGUE CONSTRAINTS)
 
 1. **CẤM XƯNG HÔ SAI BỐI PHẬN SINH HỌC & MÔN PHÁI (Rule PED-1 $\rightarrow$ PED-4)**:
-   - Cấm Tiêu Phùng (17t) xưng "con" với Bạch Thu Lâm (24t). Bắt buộc: *"Thu Di / Tỷ — Đệ"*.
+   - Cấm Tiêu Phùng (18t) xưng "con" với Bạch Thu Lâm (~24t). Bắt buộc: *"Thu Di / Tỷ — Đệ"*.
    - Cấm Hạ Nương (16t) gọi Doãn Hàm Yên (40t, cựu môn chủ) là "sư tỷ". Bắt buộc: *"Chưởng môn — con"*.
    - Cấm Doãn Hàm Yên gọi Lệ Thu Thủy là "sư bá" (họ là đồng bối).
 2. **CẤM TỪ NGỮ THỜI ĐẠI SỐ (ZERO 21ST CENTURY WORDS)**:

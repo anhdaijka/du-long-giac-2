@@ -1,3 +1,5 @@
+> D-064/R-90: Read migration/restructure_2026_09/temporal-continuity-contract.md first. Exact dates, volume ages and travel estimates require evidence/decision; UNKNOWN is valid. Current allocation: migration/restructure_2026_09/series-chapter-allocation-index.md. Canon diffs must name approved state destinations; never write chapter state into policy/index.
+
 # Báo Cáo Thẩm Định Bản Thảo: Chương [XX] — [Tên Chương]
 ## Giao Thức Đánh Giá Phản Biện Đối Kháng (Adversarial Red-Team Review Report)
 
@@ -9,7 +11,7 @@
 
 - **Tên chương / Bản thảo**: Chương [XX]: *[Tên Chương]* (`chapters/chapter_XX.md`)
 - **Nhân vật POV**: [Tiêu Phùng / Tĩnh Xuyên / Hạ Nương] ([Độ tuổi] tuổi)
-- **Mốc thời gian**: [YYYY-MM-DD] (Khớp `plot/timeline.md`)
+- **Mốc thời gian**: [relative window / UNKNOWN; exact date only with author decision] (Khớp `migration/restructure_2026_09/temporal-continuity-contract.md`)
 - **Dung lượng từ**: [Số từ] từ (Dải vàng: 4.000 – 4.800 từ; Sàn cứng: 3.500 từ; Trần mềm: 5.200 từ)
 - **Mã nguồn Engine KT2 (Provenance)**: `Task [ID]: Subtask [ID]`
 - **Evidence / Claim packet**:

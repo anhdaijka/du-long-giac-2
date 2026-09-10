@@ -1,3 +1,5 @@
+> D-064/R-90: Read migration/restructure_2026_09/temporal-continuity-contract.md first. Exact dates, volume ages and travel estimates require evidence/decision; UNKNOWN is valid. Current allocation: migration/restructure_2026_09/series-chapter-allocation-index.md. Canon diffs must name approved state destinations; never write chapter state into policy/index.
+
 # Editorial Workflow
 
 > Reliability v2 rollout is **forward-only**. Existing briefs/reviews are historical artifacts and are not mass-invalidated or forced through migration. New chapter planning/review rounds use the Reliability v2 contracts below.
@@ -67,7 +69,7 @@ canon diff (templates/canon-diff.md -> revisions/chapter_XX_canon_diff.md)
    1. Trụ cột 1 - Nhân vật chính & Bản lề: characters/<core>.md & characters/anchors/
    2. Trụ cột 2 - Danh bạ nhân vật phụ Tier B/C: characters/supporting_cast.md
    3. Trụ cột 3 - Sổ cái thế giới: worldbuilding/ (injuries_ledger.md, artifacts_ledger.md, relationships_matrix.md)
-   4. Trụ cột 4 - Dòng thời gian & Lời hứa: plot/ (timeline.md, promises_tracker.md, volume_01_deck.md) & author/session-state.md
+   4. Trụ cột 4 - Dòng thời gian & Lời hứa: migration/restructure_2026_09/temporal-continuity-contract.md + migration/restructure_2026_09/series-chapter-allocation-index.md; approved durable-state targets only & author/session-state.md
   ↓
 final check (npm run gate:check -> lifecycle aggregation)
   ↓
@@ -81,11 +83,11 @@ git commit
 Do not move into prose until the chapter has enough information to constrain it safely:
 
 - purpose
-- POV & exact chronological age (aligned with `plot/chronology_matrix.md` — Rule TC-1 Zero Age Drift)
+- POV & approved checkpoint age or UNKNOWN (aligned with `migration/restructure_2026_09/temporal-continuity-contract.md` — D-064 temporal contract)
 - temporal continuity verification:
-  - exact calendar date (aligned with `plot/timeline.md` — Rule TC-2)
-  - delta T elapsed from last POV appearance (Rule TC-3: mandatory transition narrative if $\Delta T \ge 3$ days)
-  - travel velocity & information latency (aligned with `worldbuilding/geography/travel_matrix.md` — Rule TC-4)
+  - time window or UNKNOWN; exact date requires author decision (authority: `migration/restructure_2026_09/temporal-continuity-contract.md` — D-064 temporal contract)
+  - Elapsed time since last POV checkpoint, or UNKNOWN; explain meaningful transitions without a fixed three-day rule.
+  - travel velocity & information latency (aligned with `migration/restructure_2026_09/temporal-continuity-contract.md` — D-064 temporal contract)
 - NPC pedigree & biological age verification:
   - kinship & lineage check (aligned with `worldbuilding/factions/genealogy_matrix.md` — Rule PED-1)
   - biological age sanity formula ($\text{Tuổi Cha/Mẹ} \ge \text{Tuổi Con} + 16$ — Rule PED-2)
@@ -184,7 +186,7 @@ Core review dimensions:
 4. dialogue / subtext / voice (Trio Unique Sociolects: Tiêu Phùng witty/sarcastic, Tĩnh Xuyên military/cold, Hạ Nương medical/empirical)
 5. prose / specificity / rhythm (show-don't-tell, zero explanatory scaffolds in narrator text)
 6. comedy execution (setup → misdirection → payoff → afterbeat; narrator must not explain the punchline)
-7. continuity & temporal sanity (Rule TC-1 đến TC-4, travel velocity from `travel_matrix.md`)
+7. continuity & temporal sanity under `migration/restructure_2026_09/temporal-continuity-contract.md`; verify travel estimates in chapter receipts, not in the policy document.
 8. pedigree & generational addressing (Rule PED-1 đến PED-4)
 9. injury continuity & physical damage tax (Rule from `injuries_ledger.md`)
 10. mandatory span-level evidence (minimum 4 verbatim spans with exact line numbers)
@@ -203,7 +205,7 @@ Only after Hard Stop 3 approval execute the **Mandatory 4-Pillar State Commitmen
 1. **Trụ cột 1 - Nhân vật chính & Bản lề (Protagonists & Anchors)**: Update `characters/<protagonist>.md` and affected `characters/anchors/*.md`.
 2. **Trụ cột 2 - Danh bạ nhân vật phụ Tier B/C (Supporting Cast Directory)**: Append newly introduced characters or update existing ones in `characters/supporting_cast.md`.
 3. **Trụ cột 3 - Sổ cái thế giới (World Ledgers)**: Update physical injuries in `worldbuilding/medical/injuries_ledger.md`, artifacts in `worldbuilding/artifacts/artifacts_ledger.md`, and faction alignments in `worldbuilding/factions/relationships_matrix.md`.
-4. **Trụ cột 4 - Dòng thời gian & Lời hứa (Chronology & Narrative Threads)**: Record exact date and verify age against `plot/timeline.md`, `plot/chronology_matrix.md` & `plot/volume_01_deck.md`, update promises in `plot/promises_tracker.md`, and conclude session in `author/session-state.md`.
+4. **Trụ cột 4 - Dòng thời gian & Lời hứa**: Follow the temporal contract and chapter allocation index; record approved checkpoint changes only in the state destination explicitly approved in the canon diff. UNKNOWN remains valid. The contract/index are not chapter-state ledgers. Conclude the session in `author/session-state.md`.
 
 ## Completion discipline
 

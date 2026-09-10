@@ -4,7 +4,7 @@ role: anchor
 status: active
 arc: "Lãnh tụ Nghĩa quân Ba Lăng Huyện, nghĩa tỷ kiêm người bảo hộ của Tiêu Phùng"
 provenance: "KT2 Engine Task Arc 00 (Subtask 1-8), Task 0 (Subtask 130), world_ambient_dialogues"
-fidelity_class: "DIRECT CANON"
+fidelity_class: "MIXED — GAME FACT + AUTHOR-APPROVED NOVELIZATION BRIDGE"
 faction: "Nghĩa Quân Ba Lăng Huyện"
 element: "Thổ / Trung kiên"
 weapon: "Trường kiếm lệnh bài nghĩa quân"
@@ -19,8 +19,8 @@ weapon: "Trường kiếm lệnh bài nghĩa quân"
 
 ## 1. TỔNG QUAN & ĐỊNH VỊ (ARCHETYPE)
 * **Thân phận:** Nữ thủ lĩnh trẻ tuổi của Nghĩa Quân Ba Lăng Huyện; thường được môn hạ, tráng đinh và dân chúng trìu mến gọi tôn kính là **Thu Di** (danh xưng tôn kính theo phong tục xưng hô bối phận sông nước Ba Lăng).
-* **Định vị:** Người bảo hộ tinh thần và ngọn cờ tập hợp quần chúng khởi nghĩa chống Kim và cứu trợ bá tánh nghèo khó vùng Động Đình Hồ. Tuổi đời chừng 24 tuổi (sinh 1167 Đinh Hợi, năm 1191), hơn Tiêu Phùng 7 tuổi; là con gái của Tướng quân triều đình Đại Tống tại Biện Kinh (Bạch Phụ) trước khi lưu lạc phong trần gia nhập Nghĩa Quân Ba Lăng và gánh vác trọng trách thủ lĩnh (`Task 450: Subtask 641`).
-* **Quan hệ cốt tử với Protagonist:** Là **Nghĩa tỷ kiêm Người bảo hộ / Thủ lĩnh** của **Tiêu Phùng**. Sau thảm sát Ma Y Cốc (1174), **Bạch Cương** là người đã ôm bọc tã đứa trẻ sơ sinh Tiêu Phùng thoát khỏi vòng vây bến sông Hán Thủy, cùng với **thân phụ của nàng (Tướng quân Bạch Phụ)** đưa chàng về Ba Lăng và từ đó cùng toàn trại nghĩa quân (Bạch Cương, Tướng quân Bạch Phụ, Trâu Đức Khoái, Thẩm Hà Diệp, Điềm Tửu Thúc, Long Ngũ Thái Gia...) chung tay nuôi nấng Tiêu Phùng. Thu Di từ thuở bé (lúc đó 7 tuổi) đã xem chàng như đệ đệ ruột thịt, bón cháo chăm sóc, vừa nghiêm khắc rèn giũa chàng qua lao dịch dân sinh vừa hết lòng che chở, bảo bọc chàng trước hiểm nguy. Hai người xưng hô thân mật là "Thu Di / Tỷ" và "Đệ".
+* **Định vị:** Người bảo hộ tinh thần và ngọn cờ tập hợp quần chúng khởi nghĩa chống Kim và cứu trợ bá tánh nghèo khó vùng Động Đình Hồ. Tuổi đời chừng 24 tuổi ở điểm mở truyện; nếu giữ mốc này, nàng hơn Tiêu Phùng 6 tuổi. Các năm sinh cụ thể sẽ được khóa trong chronology mới.
+* **Quan hệ cốt tử với Protagonist:** Là **nghĩa tỷ kiêm người bảo hộ / thủ lĩnh** của **Tiêu Phùng**. Task 157 xác lập Bạch Thu Lâm biết cha mẹ thiếu chủ, cùng họ lang bạt và được người mẹ giao đứa trẻ trước khi bà theo chồng đến Hán Thủy. Tiểu thuyết xác định Nghĩa quân che giấu căn cước và trao tên Tiêu Phùng cho thiếu chủ. Những chi tiết Bạch Cương/Bạch Phụ “ôm bọc tã vượt vây” của continuity cũ chưa có đủ proposition-level source nên không còn là durable fact.
 
 ---
 

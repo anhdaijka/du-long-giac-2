@@ -1,3 +1,5 @@
+> D-064/R-90: Read migration/restructure_2026_09/temporal-continuity-contract.md first. Exact dates, volume ages and travel estimates require evidence/decision; UNKNOWN is valid. Current allocation: migration/restructure_2026_09/series-chapter-allocation-index.md. Canon diffs must name approved state destinations; never write chapter state into policy/index.
+
 # Gemini / Antigravity Entry Point
 
 Treat `AGENTS.md` as the repository-level operating contract and `.agents/rules/` as the detailed workspace rules.
@@ -19,7 +21,7 @@ Never use chat memory as a substitute for repository canon.
 Mandatory Rule 0: Kỷ Luật 3 Cổng Dừng Cứng (`docs/WORKFLOW.md`).
 - **CỔNG DỪNG 1 (Pre-Draft Hard Stop)**: Soạn thảo `briefs/chapter_XX_brief.md` theo mẫu `templates/chapter-brief.md` $\rightarrow$ **DỪNG LẠI TRÌNH TÁC GIẢ**. CẤM TUYỆT ĐỐI tạo mới hoặc viết bất kỳ dòng nào vào `chapters/chapter_XX.md` khi Tác giả chưa phê duyệt Chapter Brief!
 - **CỔNG DỪNG 2 (Pre-Canon Hard Stop)**: Chấp bút draft $\rightarrow$ quét `npm run lint:prose` $\rightarrow$ lập Báo cáo Review `reviews/chapter_XX_review.md` $\rightarrow$ **DỪNG LẠI TRÌNH TÁC GIẢ**. CẤM TUYỆT ĐỐI tự ý coi như đã xong hoặc tự ý canon hóa khi Tác giả chưa duyệt Bản thảo và Báo cáo Review!
-- **CỔNG DỪNG 3 (State Commit Hard Stop)**: Lập Đề xuất Canon Diff `revisions/chapter_XX_canon_diff.md` theo mẫu `templates/canon-diff.md` $\rightarrow$ **DỪNG LẠI TRÌNH TÁC GIẢ**. Bản Diff BẮT BUỘC phải chứa đủ 4 trụ cột: (1) Nhân vật chính/Bản lề (`characters/`), (2) Danh bạ nhân vật phụ Tier B/C (`characters/supporting_cast.md` — bắt buộc cập nhật mọi NPC mới hoặc biến chuyển/thương tật NPC cũ), (3) Sổ cái thế giới (`injuries_ledger.md`, `artifacts_ledger.md`, `relationships_matrix.md`), (4) Dòng thời gian & Lời hứa (`plot/timeline.md`, `promises_tracker.md`, `volume_01_deck.md`). Chỉ khi Tác giả duyệt Diff mới được phép commit vào các sổ cái bền vững này!
+- **CỔNG DỪNG 3 (State Commit Hard Stop)**: Lập canon diff theo `templates/canon-diff.md`, trình Tác giả trước mọi cập nhật durable state. Rà đủ nhân vật chính, nhân vật phụ, trạng thái thế giới, thời gian/tri thức/lời hứa; ghi không thay đổi nếu không liên quan. Đích ghi phải là file state được diff chỉ định và Tác giả duyệt. Temporal contract và chapter allocation index là authority đọc, không phải sổ ghi state chương. File state cũ đã archive không được tái dùng ngầm.
 *Mọi hành vi nhảy cóc viết draft trước rồi hồi tố viết ngược brief/review/diff hoặc bỏ quên cập nhật supporting_cast.md đều là vi phạm quy trình nghiêm trọng!*
 
 Mandatory Rule 1: Source Provenance Kernel (`.agents/rules/10-provenance-kernel.md`). Tuyệt đối KHÔNG BỊA ĐẶT tình tiết rồi tìm cách hợp lý hóa. 100% các chương (Core Plot, Living Lore, Military Lore, Mystery Lore, Road Novel) bắt buộc phải gắn mã nguồn gốc Task ID, Subtask ID, Camp ID từ SQLite `story_database.sqlite3` trong YAML frontmatter theo hợp đồng `docs/contracts/chapter_contract.md`.

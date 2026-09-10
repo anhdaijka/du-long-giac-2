@@ -10,6 +10,8 @@ const args = new Set(process.argv.slice(2));
 const clean = args.has('--clean');
 const withBetterWriting = args.has('--with-better-writing');
 const target = join(root, '.agents/skills');
+// Project-authored skills must survive dependency refreshes.
+const projectSkills = new Set(['dlg-source-preflight', 'dlg-source-writer', 'dlg-source-review', 'dlg-source-revision']);
 
 function run(cmd, argv, options = {}) {
   execFileSync(cmd, argv, { stdio: 'inherit', ...options });
@@ -26,6 +28,7 @@ function checkoutPinned(entry, parent) {
 }
 
 function copyDir(source, destination) {
+  if (projectSkills.has(basename(destination))) throw new Error(`Refusing to replace project skill: ${destination}`);
   rmSync(destination, { recursive: true, force: true });
   mkdirSync(destination, { recursive: true });
   cpSync(source, destination, { recursive: true });
@@ -42,7 +45,7 @@ try {
 mkdirSync(target, { recursive: true });
 if (clean) {
   for (const entry of readdirSync(target)) {
-    if (entry !== '.gitkeep') rmSync(join(target, entry), { recursive: true, force: true });
+    if (entry !== '.gitkeep' && !projectSkills.has(entry)) rmSync(join(target, entry), { recursive: true, force: true });
   }
 }
 

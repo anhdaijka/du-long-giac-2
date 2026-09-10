@@ -1,0 +1,1202 @@
+{
+  "label": "Unclassified tasks",
+  "provenance": {
+    "sqlite_path": "story_database.sqlite3",
+    "sqlite_sha256": "b5c30040c9449f2223cf40bfec9866216423a60a82e2333b5cedb4fb5261bdb0",
+    "query_parameters": {
+      "task_ids": [
+        219,
+        220,
+        224,
+        226,
+        227,
+        333,
+        334,
+        337,
+        338,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        466,
+        467,
+        468,
+        469
+      ]
+    },
+    "query_templates": {
+      "task": "SELECT task_id, task_id_hex, name, describe_cleaned, category, category_desc, order_type, repeat, task_type_code, file_path FROM tasks WHERE task_id = ?",
+      "subtasks": "SELECT sub_id, sub_id_hex, task_id, name, describe_cleaned, file_path, dialog_npc_id, dialog_npc_name FROM subtasks WHERE task_id = ? ORDER BY sub_id",
+      "steps": "SELECT id, sub_id, step_index, instruction, target_function, target_params FROM steps WHERE sub_id = ? ORDER BY step_index, id",
+      "dialogues": "SELECT id, sub_id, phase, cleaned_text FROM dialogues WHERE sub_id = ? ORDER BY id"
+    },
+    "result_container": "tasks"
+  },
+  "task_ids": [
+    219,
+    220,
+    224,
+    226,
+    227,
+    333,
+    334,
+    337,
+    338,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    466,
+    467,
+    468,
+    469
+  ],
+  "tasks": [
+    {
+      "task_id": 219,
+      "task_id_hex": "00000000000000db",
+      "name": "Nghi Chủng",
+      "describe_cleaned": "Tay sờ lên bia đá lạnh buốt, bên trên có khắc vài chữ hơi mờ, hình như chủ nhân của ngôi mộ này là thương nhân Đào Chu Công Phạm Lãi nổi tiếng cuối thời Xuân Thu Chiến Quốc. Giang hồ đồn rằng, trước khi chết Đào Chu Công đã xây nhiều mộ giống nhau xung quanh mộ của mình, đề phòng tài sản rơi vào tay kẻ trộm mộ, khiến người ta không biết đâu là mộ của ông ta. Bấy lâu nay, nhiều người tìm kho báu đều bỏ mạng vì những cơ quan phức tạp trong ngôi mộ này. Liệu đây có phải là nơi an nghỉ của Đào Chu Công không?",
+      "category": "Nhiệm vụ phó bản",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\00000000000000DB.xml",
+      "subtasks": [
+        {
+          "sub_id": 394,
+          "sub_id_hex": "000000000000018a",
+          "task_id": 219,
+          "name": "Nghi Chủng",
+          "describe_cleaned": "Tay sờ lên bia đá lạnh buốt, bên trên có khắc vài chữ hơi mờ, hình như chủ nhân của ngôi mộ này là thương nhân Đào Chu Công Phạm Lãi nổi tiếng cuối thời Xuân Thu Chiến Quốc. Giang hồ đồn rằng, trước khi chết Đào Chu Công đã xây nhiều mộ giống nhau xung quanh mộ của mình, đề phòng tài sản rơi vào tay kẻ trộm mộ, khiến người ta không biết đâu là mộ của ông ta. Bấy lâu nay, nhiều người tìm kho báu đều bỏ mạng vì những cơ quan phức tạp trong ngôi mộ này. Liệu đây có phải là nơi an nghỉ của Đào Chu Công không?\n• Tìm kiếm chỗ sâu nhất của Nghi Chủng này.\n• Tìm được Nữ Vô Danh ở giữa Bình Đài của Nghi Chủng, giải đáp bí mật về Đào Chu Công Nghi Chủng.",
+          "file_path": "Stories\\task_publish\\sub\\000000000000018A.xml",
+          "dialog_npc_id": 2730,
+          "dialog_npc_name": "Bia đá lâu năm",
+          "steps": [
+            {
+              "id": 1660,
+              "sub_id": 394,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "RequireTaskValue; TaskAct:StepOverEvent",
+              "target_params": "2015,201,1,2,Thăm dò nơi sâu nhất của Nghi Chủng này,Thăm dò nơi sâu nhất của Nghi Chủng này; Tìm được Nữ Vô Danh ở giữa Nghi Chủng"
+            },
+            {
+              "id": 1661,
+              "sub_id": 394,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:SetTaskValueOnFinish",
+              "target_params": "2705,0,<subtaskname>,<npc=2705>: \"Đúng, ta không cam tâm, mấy năm nay, ta luôn ở đây với hắn...\"<end>\n<npc=2705>: \"Người ngoài đến, các ngươi đi đi, ở đây cần yên tĩnh.\"<end>,Tìm được Nữ Vô Danh ở giữa Nghi Chủng,Tìm được Nữ Vô Danh ở giữa Nghi Chủng,Xin chào!,Ngươi thật đáng khen; 2015,201,0"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 556,
+              "sub_id": 394,
+              "phase": "start",
+              "cleaned_text": "Giang hồ đồn rằng Đào Chu Công trước khi chết đề phòng tài sản rơi vào tay kẻ trộm mộ, nên đã xây nhiều mộ tương tự xung quanh mộ của mình, khiến người ta không biết đâu là mộ của ông ta.\"\nBấy lâu nay, nhiều người tìm kho báu đều bỏ mạng bởi cơ quan trong ngôi mộ phức tạp này. Đây có phải là nơi yên nghỉ của Đào Chu Công?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 220,
+      "task_id_hex": "00000000000000dc",
+      "name": "Người Mất Tích",
+      "describe_cleaned": "Trước cổng cổ thành có một bia đá cũ, những chữ trên đó bị gió sa mạc mài mòn loang lổ, dường như ghi lại câu chuyện một thời của thành này. Không thể biết chuyện gì đã xảy ra từ những dòng chữ này, những viên gạch bị vỡ trên tường thành, những lá cờ trắng rách tươm phất phới trong gió, còn giấy tiền vàng bạc nằm khắp mặt đất khiến khung cảnh thật thê lương, nhất định đây không phải là việc bình thường. Ta phải tìm hiểu bí mật cổ thành này!",
+      "category": "Nhiệm vụ phó bản",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\00000000000000DC.xml",
+      "subtasks": [
+        {
+          "sub_id": 395,
+          "sub_id_hex": "000000000000018b",
+          "task_id": 220,
+          "name": "Người Mất Tích",
+          "describe_cleaned": "Trước cổng cổ thành có một bia đá cũ, những chữ trên đó bị gió sa mạc mài mòn loang lổ, dường như ghi lại câu chuyện một thời của thành này. Không thể biết chuyện gì đã xảy ra từ những dòng chữ này, những viên gạch bị vỡ trên tường thành, những lá cờ trắng rách tươm phất phới trong gió, còn giấy tiền vàng bạc nằm khắp mặt đất khiến khung cảnh thật thê lương, nhất định đây không phải là việc bình thường. Ta phải tìm hiểu bí mật cổ thành này!\n• Đến Thiên Hỏa tế đàn ở cổ thành, để giải bí mật nơi đó.\n• Ở nơi thâm sâu tàn tích tìm được chủ nhân trước đây của tòa thành này.",
+          "file_path": "Stories\\task_publish\\sub\\000000000000018B.xml",
+          "dialog_npc_id": 2731,
+          "dialog_npc_name": "Bia đá lâu năm",
+          "steps": [
+            {
+              "id": 1662,
+              "sub_id": 395,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "RequireTaskValue; TaskAct:StepOverEvent",
+              "target_params": "2015,202,1,2,Đến Thiên Hỏa tế đàn ở Cổ Thành, để giải bí mật nơi đó,Đến Thiên Hỏa tế đàn ở Cổ Thành, để giải bí mật nơi đó; Ở nơi thâm sâu tàn tích tìm được chủ nhân trước đây của tòa thành này"
+            },
+            {
+              "id": 1663,
+              "sub_id": 395,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:SetTaskValueOnFinish",
+              "target_params": "2725,0,<subtaskname>,<playername>: \"Chủ nhân trước đây của tòa thành này cuối cùng cũng xuất hiện.\"<end>\n<npc=2725>: \"Nhiều năm trước, ở đây rất phồn hoa, yên ổn, với bức tường kiên cố, vũ khí sắc bén của các tướng sĩ. Nhưng ... giờ đây, ngươi xem nơi đây trở thành thế này!\"<end>\n<npc=2725>: \"Đi đi, kẻ lạ mặt, dù ngươi đuổi được bọn man nhân cũng không thể khiến nơi đây trở lại như trước.\"<end>,Ở nơi thâm sâu tàn tích tìm được chủ nhân trước đây của tòa thành này,Ở nơi thâm sâu tàn tích tìm được chủ nhân trước đây của tòa thành này,Xin chào!,Ngươi thật đáng khen; 2015,202,0"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 557,
+              "sub_id": 395,
+              "phase": "start",
+              "cleaned_text": "Lối vào Cổ Thành này, có một tấm bia đá cũ, chữ trên đó đã bị gió cát sa mạc mài mòn, hình như là ghi chép lại chuyện trước đây của tòa thành này.\nKhông thể biết được đã xảy ra chuyện gì từ những chữ còn sót lại, đống gạch vụn trên tường, lá cờ trắng phất phơ và tiền giấy khắp nơi khiến ta cảm thấy vắng lặng, đây không phải là câu chuyện bình thường.\"\nCầm vũ khí lên, đi tìm hiểu bí mật tòa thành thôi!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 224,
+      "task_id_hex": "00000000000000e0",
+      "name": "Trốn Chạy",
+      "describe_cleaned": "Lúc đầu, Lý Hậu theo cách Võ Tắc Thiên tự lập bức hại con nối dõi của Quang Tông, tại Phi Long Cốc, thái tử được Phi Long tiên sinh đưa đến trốn ở Thiên Quỳnh Cung. Không ngờ, nhị đệ tử Lãnh Sương Nhiên biết được thân phận Gia Vương, tham vinh hoa phú quý liền mật báo cho Lý Hậu. May thay đại đệ tử Lãnh Vân phát hiện, âm thầm đưa Gia Vương đến nơi khác. Lý Hậu giáng tội nhị đệ tử Lãnh Sương Nhiên, còn Lãnh Sương Nhiên đùn đẩy trách nhiệm cho Lãnh Vân và thừa dịp kích động đệ tử trong môn biến loạn, đoạt quyền. Khi đó cung chủ Thiên Quỳnh Cung Bất Tử tiên sinh đang tu đạo không ở trong cung. Lãnh Vân do không học võ cuối cùng bị bắt giam. Quyền hành rơi vào tay Lãnh Sương Nhiên, làm tay sai cho Lý Hậu. Gia Vương được trung thần trong triều và đồng đạo giang hồ giúp đỡ đăng vị, Lãnh Sương Nhiên lo sợ Gia Vương nhân dịp này phục thù san bằng tàn tích Thiên Quỳnh Cung, nên lập doanh trại ở Kỳ Liên Sơn, và học tà thuật độc ác trong sách cấm lấy được trong cung, cùng đám phản loạn làm hại bá tánh. Nghe Lý Hương Lan nói xong, giờ bạn phải trừ khử thế lực cuối cùng Lãnh Sương Nhiên này.",
+      "category": "Nhiệm vụ phó bản",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\00000000000000E0.xml",
+      "subtasks": [
+        {
+          "sub_id": 399,
+          "sub_id_hex": "000000000000018f",
+          "task_id": 224,
+          "name": "Trốn Chạy",
+          "describe_cleaned": "Lúc đầu, Lý Hậu theo cách Võ Tắc Thiên tự lập bức hại con nối dõi của Quang Tông, tại Phi Long Cốc, thái tử được Phi Long tiên sinh đưa đến trốn ở Thiên Quỳnh Cung. Không ngờ, nhị đệ tử Lãnh Sương Nhiên biết được thân phận Gia Vương, tham vinh hoa phú quý liền mật báo cho Lý Hậu. May thay đại đệ tử Lãnh Vân phát hiện, âm thầm đưa Gia Vương đến nơi khác. Lý Hậu giáng tội nhị đệ tử Lãnh Sương Nhiên, còn Lãnh Sương Nhiên đùn đẩy trách nhiệm cho Lãnh Vân, và thừa dịp kích động đệ tử trong môn biến loạn, đoạt quyền. Khi đó cung chủ Thiên Quỳnh Cung Bất Tử tiên sinh đang tu đạo không ở trong cung. Lãnh Vân do không học võ cuối cùng bị bắt giam. Quyền hành rơi vào tay Lãnh Sương Nhiên, làm tay sai cho Lý Hậu.\n• Vào Thiên Quỳnh Cung tiêu diệt Lãnh Sương Nhiên.\n• Báo với Lý Xuân Lan đã tiêu diệt Lãnh Sương Nhiên.",
+          "file_path": "Stories\\task_publish\\sub\\000000000000018F.xml",
+          "dialog_npc_id": 2757,
+          "dialog_npc_name": "Lý Hương Lan [<color=orange>Tham Lý Thiên Quỳnh Cung<color>]",
+          "steps": [
+            {
+              "id": 1676,
+              "sub_id": 399,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "RequireTaskValue; TaskAct:StepOverEvent",
+              "target_params": "2015,203,1,2,Vào Thiên Quỳnh Cung giết Lãnh Sương Nhiên,Vào Thiên Quỳnh Cung giết Lãnh Sương Nhiên; Báo với Lý Xuân Lan đã tiêu diệt Lãnh Sương Nhiên"
+            },
+            {
+              "id": 1677,
+              "sub_id": 399,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:SetTaskValueOnFinish",
+              "target_params": "2757,0,<subtaskname>,<npc=2757>: \"Đa tạ, sau khi ra khỏi đây, các ngươi sẽ không nhìn thấy ta nữa.\"<end>,Báo với Lý Xuân Lan đã tiêu diệt Lãnh Sương Nhiên,Báo với Lý Xuân Lan đã tiêu diệt Lãnh Sương Nhiên,Xin chào!,Ngươi thật đáng khen; 2015,203,0"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 561,
+              "sub_id": 399,
+              "phase": "start",
+              "cleaned_text": "[Lý Hương Lan [Tham Lý Thiên Quỳnh Cung]]: \"Các ngươi đến rồi. Ta đã biết không thể chặn bọn họ.\"\n[Lý Hương Lan [Tham Lý Thiên Quỳnh Cung]]: \"Ba năm trước, khi Sương Nhiên bí mật gặp Lý hậu và giam Lãnh Vân sư huynh, ta nghĩ sẽ có ngày hôm nay. May là, Gia Vương được Lãnh Vân sư huynh chuyển đến nơi khác nên thoát nạn.\"\n[Lý Hương Lan [Tham Lý Thiên Quỳnh Cung]]: \"Mấy năm nay, Sương Nhiên mượn cấm thư trong cung của Lý hậu tu luyện các loại kì môn tà thuật, đã đánh mất lý trí, cùng một số người đi khắp nơi quấy rối dân lành, chiếm đoạt bất kì báu vật chúng thấy vừa ý... cô ta đã không còn là Sương Nhiên tỷ như hồi mới quen rồi.\"\n[Lý Hương Lan [Tham Lý Thiên Quỳnh Cung]]: \"Nhưng, mạng của ta do cô ta cứu, tất cả của ta là do cô ta cho. Nên ta sẽ không giúp nhưng cũng không ngăn cản các ngươi, ta chỉ hy vọng sau này có thể sống an nhàn ở một nơi không ai biết đến.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 226,
+      "task_id_hex": "00000000000000e2",
+      "name": "Chuẩn Bị Chiến Sự (Chính tuyến)",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Cốt truyện",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\00000000000000E2.xml",
+      "subtasks": [
+        {
+          "sub_id": 401,
+          "sub_id_hex": "0000000000000191",
+          "task_id": 226,
+          "name": "Chuẩn Bị Chiến Sự (chính tuyến)",
+          "describe_cleaned": "Từ Hậu Sơn Phục Ngưu ta mang gỗ, khoáng thạch và vật liệu đá về quân doanh, nhưng đường xa các thứ đó không về kịp. Đại tướng quân Lư Tất Khắc lệnh ta tập hợp anh em nghĩa quân, đến Hậu Sơn Phục Ngưu tận lực mang chúng về chuẩn bị chiến sự.\n• Đại tướng quân sai ta đến [Rừng Lá Phong tại Hậu Sơn Phục Ngưu (phó bản) (1700/3473)], [Tê Giác Khoáng tại Hậu Sơn Phục Ngưu (phó bản) (1845/3397)] và [Loạn Thạch Than tại Hậu Sơn Phục Ngưu (phó bản) (1880/3784)] tìm kiếm tài nguyên chiến tranh. Để cứu các nông hộ trong Tê Giác Khoáng, Hồ Gia sai ta mang về một số Lệnh bài Tê Giác Khoáng, chắc chắn [Giám công tại Hậu Sơn Phục Ngưu (phó bản) (1926/3303)] ở đó có. Gợi ý: 1. Phải vào phó bản [Hậu Sơn Phục Ngưu] mới hoàn thành nhiệm vụ, vào phó bản qua Truyền Tống phó bản [Trịnh Bát Cô tại Map_s1 (1602/3201)], [Dương Cảnh tại Map_s1 (1679/3241)] hoặc [Ngụy Kỳ Phong tại Map_s1 (1651/3272)]. 2. Dùng \"khinh công\" vượt qua Rừng Lá Phong. 3. Muốn vào Tê Giác Khoáng phải tiêu diệt [Thủ Lĩnh Lâu La tại Hậu Sơn Phục Ngưu (phó bản) (1842/3296)], khi vào chia làm hai đường mới đến được chỗ [Thủ Lĩnh Giám Công tại Hậu Sơn Phục Ngưu (phó bản) (1922/3423)]. 4. Đến Tê Giác Khoáng có thể ngồi [thuyền tại Hậu Sơn Phục Ngưu (phó bản) (1877/3475)] tới Loạn Thạch Than, nhưng thuyền đã cũ, cần 3 dây thừng và 3 tấm gỗ để sửa. Đoạt từ [thợ đẽo đá tại Hậu Sơn Phục Ngưu (phó bản) (1880/3784)] 20 đao cụ cho vào [dụng cụ cắt đá tại Hậu Sơn Phục Ngưu (phó bản) (1708/3816)], dẫn dụ [Thợ Cả tại Hậu Sơn Phục Ngưu (phó bản) (1697/3861)] xuất hiện.\n• Ta đã thu thập đủ tài nguyên rồi, mang chúng về cho đại tướng quân [Lư Tất Khắc tại Map_s1 (1656/3202)]. Gợi ý: 1. Muốn trở về Phục Ngưu Sơn Quân Doanh, nhờ [thuyền phu tại Hậu Sơn Phục Ngưu (phó bản) (1665/3761)] bến đò Loạn Thạch Than đưa về.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000191.xml",
+          "dialog_npc_id": 4041,
+          "dialog_npc_name": "Lư Tất Khắc [<color=green>Đại Tướng Quân<color>]",
+          "steps": [
+            {
+              "id": 1684,
+              "sub_id": 401,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "WithProcessStatic; KillNpc4Item; KillNpc4Item; KillNpc4Item; TaskAct:StepOverEvent; TaskAct:AddExp",
+              "target_params": "4023,0,10,Đang đốn,Dừng đốn ngoài ý muốn,{Gỗ phong hảo hạng,20,1,600,1,0,1},10,Được %d/10 gỗ phong hảo hạng,Đến Rừng Lá Phong đốn gỗ phong,Xin chào!,Ngươi thật đáng khen; 4004,0,{601,},1,1,false; 4002,0,{602,},1,1,false; 4001,0,{619,},1,5,false; Mang tài nguyên về cho Đại tướng quân Lư Tất Khắc; 232000"
+            },
+            {
+              "id": 1685,
+              "sub_id": 401,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem; TaskAct:DelItem; TaskAct:DelItem; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:DelItem; TaskAct:AddTaskValueOnStart",
+              "target_params": "4041,0,<subtaskname>,<Playername>: \"Đại tướng quân, đây là tài nguyên ta lấy từ hậu sơn, hãy kiểm lại!\"<end>\n<npc=4041>: \"Vất vả cho ngươi quá, vẫn còn thiếu tài nguyên chiến bị, cần phải nỗ lực hơn!\"<end>,Phục mệnh với Lư Tất Khắc,Đến Phục Ngưu Sơn Quân Doanh gặp Lư Tất Khắc phục mệnh,Xin chào!,Ngươi thật đáng khen; {600,},-1; {601,},-1; {602,},-1; 1024,50,1; 1024,50,0; {619,},-1; 1024,52,1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 563,
+              "sub_id": 401,
+              "phase": "start",
+              "cleaned_text": "[Lư Tất Khắc [Đại Tướng Quân]]: \"Tuy ta phụng mệnh đến ngăn cản Kim quốc xâm lược, nhưng tài nguyên còn thiếu rất nhiều. Số ít ngươi mang về từ Phục Ngưu Sơn như muối bỏ biển. Ta muốn ngươi tiếp tục vào Hậu Sơn Phục Ngưu mang tài nguyên về, để chuẩn bị chiến tranh, ý ngươi thế nào?\"\n[Đại Hiệp]: \"Đại tướng quân sai khiến, lẽ nào thuộc hạ không phục tùng!\"\n[Lư Tất Khắc [Đại Tướng Quân]]: \"Tận trung vì nước là nghĩa vụ của nghĩa quân, sao có thể sai khiến? Phải cùng cố gắng bảo vệ giang sơn Đại Tống. Ngươi mang tài nguyên về đây, ta sẽ có thưởng!\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 227,
+      "task_id_hex": "00000000000000e3",
+      "name": "Bị Chiến Nhật Thường (Hằng ngày)",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Hằng ngày",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\00000000000000E3.xml",
+      "subtasks": [
+        {
+          "sub_id": 402,
+          "sub_id_hex": "0000000000000192",
+          "task_id": 227,
+          "name": "Chuẩn Bị Chiến Sự (ngày thường)",
+          "describe_cleaned": "Từ Hậu Sơn Phục Ngưu ta mang gỗ, khoáng thạch và vật liệu đá về quân doanh, nhưng đường xa các thứ đó không về kịp. Đại tướng quân Lư Tất Khắc lệnh ta tập hợp anh em nghĩa quân, đến Hậu Sơn Phục Ngưu tận lực mang chúng về chuẩn bị chiến sự.\n• Đại tướng quân sai ta đến [Rừng Lá Phong tại Hậu Sơn Phục Ngưu (phó bản) (1700/3473)], [Tê Giác Khoáng tại Hậu Sơn Phục Ngưu (phó bản) (1845/3397)] và [Loạn Thạch Than tại Hậu Sơn Phục Ngưu (phó bản) (1880/3784)] tìm kiếm tài nguyên chiến tranh. Để cứu các nông hộ trong Tê Giác Khoáng, Hồ Gia sai ta mang về một số Lệnh bài Tê Giác Khoáng, chắc chắn [Giám công tại Hậu Sơn Phục Ngưu (phó bản) (1926/3303)] ở đó có. Gợi ý: 1. Phải vào phó bản [Hậu Sơn Phục Ngưu] mới hoàn thành nhiệm vụ, vào phó bản qua Truyền Tống phó bản [Trịnh Bát Cô tại Map_s1 (1602/3201)], [Dương Cảnh tại Map_s1 (1679/3241)] hoặc [Ngụy Kỳ Phong tại Map_s1 (1651/3272)]. 2. Dùng \"khinh công\" vượt qua Rừng Lá Phong. 3. Muốn vào Tê Giác Khoáng phải tiêu diệt [Thủ Lĩnh Lâu La tại Hậu Sơn Phục Ngưu (phó bản) (1842/3296)], khi vào chia làm hai đường mới đến được chỗ [Thủ Lĩnh Giám Công tại Hậu Sơn Phục Ngưu (phó bản) (1922/3423)]. 4. Đến Tê Giác Khoáng có thể ngồi [thuyền tại Hậu Sơn Phục Ngưu (phó bản) (1877/3475)] tới Loạn Thạch Than, nhưng thuyền đã cũ, cần 3 dây thừng và 3 tấm gỗ để sửa. Đoạt từ [thợ đẽo đá tại Hậu Sơn Phục Ngưu (phó bản) (1880/3784)] 20 đao cụ cho vào [dụng cụ cắt đá tại Hậu Sơn Phục Ngưu (phó bản) (1708/3816)], dẫn dụ [Thợ Cả tại Hậu Sơn Phục Ngưu (phó bản) (1697/3861)] xuất hiện.\n• Ta đã thu thập đủ tài nguyên rồi, mang chúng về cho đại tướng quân [Lư Tất Khắc tại Map_s1 (1656/3202)]. Gợi ý: 1. Muốn trở về Phục Ngưu Sơn Quân Doanh, nhờ [thuyền phu tại Hậu Sơn Phục Ngưu (phó bản) (1665/3761)] bến đò Loạn Thạch Than đưa về.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000192.xml",
+          "dialog_npc_id": 4041,
+          "dialog_npc_name": "Lư Tất Khắc [<color=green>Đại Tướng Quân<color>]",
+          "steps": [
+            {
+              "id": 1686,
+              "sub_id": 402,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "WithProcessStatic; KillNpc4Item; KillNpc4Item; KillNpc4Item; TaskAct:StepOverEvent; TaskAct:AddExp",
+              "target_params": "4023,0,10,Đang đốn,Dừng đốn ngoài ý muốn,{Gỗ phong hảo hạng,20,1,600,1,0,1},10,Được %d/10 gỗ phong hảo hạng,Đến Rừng Lá Phong đốn gỗ phong,Xin chào!,Ngươi thật đáng khen; 4004,0,{601,},1,1,false; 4002,0,{602,},1,1,false; 4001,0,{619,},1,5,false; Mang tài nguyên về cho Đại tướng quân Lư Tất Khắc; 60000"
+            },
+            {
+              "id": 1687,
+              "sub_id": 402,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem; TaskAct:DelItem; TaskAct:DelItem; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:AddTaskValueOnStart; TaskAct:DelItem",
+              "target_params": "4041,0,<subtaskname>,<Playername>: \"Đại tướng quân, đây là tài nguyên ta lấy từ hậu sơn, hãy kiểm lại!\"<end>\n<npc=4041>: \"Vất vả cho ngươi quá, vẫn còn thiếu tài nguyên chiến bị, cần phải nỗ lực hơn!\"<end>,Phục mệnh với Lư Tất Khắc,Đến Phục Ngưu Sơn Quân Doanh gặp Lư Tất Khắc phục mệnh,Xin chào!,Ngươi thật đáng khen; {600,},-1; {601,},-1; {602,},-1; 1024,50,1; 1024,50,0; 1024,51,1; {619,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 564,
+              "sub_id": 402,
+              "phase": "start",
+              "cleaned_text": "[Lư Tất Khắc [Đại Tướng Quân]]: \"Tuy ta phụng mệnh đến ngăn cản Kim quốc xâm lược, nhưng tài nguyên còn thiếu rất nhiều. Số ít ngươi mang về từ Phục Ngưu Sơn như muối bỏ biển. Ta muốn ngươi tiếp tục vào Hậu Sơn Phục Ngưu mang tài nguyên về, để chuẩn bị chiến tranh, ý ngươi thế nào?\"\n[Đại Hiệp]: \"Đại tướng quân sai khiến, lẽ nào thuộc hạ không phục tùng!\"\n[Lư Tất Khắc [Đại Tướng Quân]]: \"Tận trung vì nước là nghĩa vụ của nghĩa quân, sao có thể sai khiến? Phải cùng cố gắng bảo vệ giang sơn Đại Tống. Ngươi mang tài nguyên về đây, ta sẽ có thưởng!\"\n\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 333,
+      "task_id_hex": "000000000000014d",
+      "name": "Cổ Họa (Hằng ngày - Sơ)",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Hằng ngày",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\000000000000014D.xml",
+      "subtasks": [
+        {
+          "sub_id": 508,
+          "sub_id_hex": "00000000000001fc",
+          "task_id": 333,
+          "name": "Cổ Họa",
+          "describe_cleaned": "Năm đầu An Định, Đại Lý bùng nổ loạn lạc, 72 trại chủ Ô Man phản đối Bạch Man thống trị, ý muốn độc lập. Đoàn Trí Hưng xuất binh dẹp loạn nhưng bị Ô Man dùng Cổ thuật đánh tan tác. Cổ thuật là bí thuật thịnh hành của Ô Man, sử dụng trùng độc sát thương người khác. Cổ Vương của các trại Ô Man phát huy tối đa sức mạnh Cổ thuật, gần như bất tử; Tứ Thánh Sứ gồm Đào Hoa Sứ, Linh Hạt Sứ, Thần Chu Sứ và Bích Ngô Sứ được Cổ Vương chân truyền, đến quý tộc Bạch Man cũng phải kiêng dè. Cuối cùng Đoàn Trí Hưng chuyển hướng cầu viện nghĩa quân, san bằng Bách Man Sơn.\n• Tứ Thánh Sứ là [Đào Hoa Sứ tại Bách Man Sơn (1663/2920)], [Bích Ngô Sứ tại Bách Man Sơn (1792/3050)], [Thần Chu Sứ tại Bách Man Sơn (1970/2862)] và [Linh Hạt Sứ tại Bách Man Sơn (1876/2615)] trấn giữ cửa các tầng Bách Man Sơn, phải đánh bại chúng mới diệt được [Cổ Vương tại Bách Man Sơn (1806/2837)].  Gợi ý:  Khắp Bách Man Sơn đều có mật thám Bạch Man mai phục, có thể hỏi họ cách đánh bại Tứ Thánh Sứ và đường đi đến chỗ Cổ Vương.\n• Cổ Vương và Tứ Thánh Sứ đã bị tiêu diệt, có thể quay về quân doanh phục mệnh [Chung Minh Trì Mộ tại Map_s1 (1653/3197)].",
+          "file_path": "Stories\\task_publish\\sub\\00000000000001FC.xml",
+          "dialog_npc_id": 4139,
+          "dialog_npc_name": "Chung Minh Trì Mộ [<color=green>Đặc sứ Đại Lý<color>]",
+          "steps": [
+            {
+              "id": 2212,
+              "sub_id": 508,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillBoss; KillBoss; KillBoss; KillBoss; KillBoss; TaskAct:StepOverEvent",
+              "target_params": "4171,0,1,Xin chào!,Ngươi thật đáng khen; 4127,0,1,Xin chào!,Ngươi thật đáng khen; 4132,0,1,Xin chào!,Ngươi thật đáng khen; 4136,0,1,Xin chào!,Ngươi thật đáng khen; 4152,0,1,Xin chào!,Ngươi thật đáng khen; Báo tin san bằng Bách Man Sơn cho Chung Minh Trì Mộ"
+            },
+            {
+              "id": 2213,
+              "sub_id": 508,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:AddTaskValueOnStart",
+              "target_params": "4139,0,<subtaskname>,<npc=4139>: \"Ta đã nghe được tin vui này, nghĩa quân quả nhiên danh bất hư truyền!\"<end>,Đến gặp Chung Minh Trì Mộ phục mệnh,Đến gặp Chung Minh Trì Mộ phục mệnh,Xin chào!,Ngươi thật đáng khen; 1024,59,1; 1024,59,0; 1024,51,1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 680,
+              "sub_id": 508,
+              "phase": "start",
+              "cleaned_text": "[Chung Minh Trì Mộ [Đặc sứ Đại Lý]]: \"Hoàng thượng đặt quốc hiệu là An Định, nhưng trong nước không hề được yên bình, hai tộc Bạch Ô đánh nhau càng ngày càng quyết liệt. Triều đình phái binh dẹp loạn 72 trại Ô Man, nhưng bị Ô Man Cổ Thuật đánh tan tành. Bây giờ nhờ có thủ lĩnh Bạch Thu Lâm và đại tướng quân Lư Tất Khắc tương trợ, phái người đến Bách Man Sơn tiêu diệt Cổ Thuật đầu sỏ Cổ Vương, trừ tận gốc Cổ Độc. Bách Man Sơn giống như long đàm hổ huyệt, có thể hỏi Mật thám Bạch Man ta để biết tường tận sự việc.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 334,
+      "task_id_hex": "000000000000014e",
+      "name": "Cổ Họa (Hằng ngày)",
+      "describe_cleaned": "Năm đầu An Định, Đại Lý bạo loạn, Quỷ Chủ 72 trại Ô Man tuyên bố phản đối sự thống trị của Bạch Man, muốn được độc lập. Đoàn Trí Hưng xuất binh dẹp loạn, nhưng lại bị thua bởi Cổ Thuật của Ô Man. Cổ Thuật là bí thuật của Ô Man, sử dụng trùng độc sát thương người khác, người thường không phá giải được. Đặc biệt Cổ Vương Ô Man đã phát huy Cổ Thuật đến đỉnh cao, gần như bất tử; Tứ Thánh Sứ gồm Đào Hoa Sứ, Linh Hạt Sứ, Thần Chu Sứ và Bích Ngô Sứ càng là những tâm phúc của Cổ Vương, là mối họa lớn của quý tộc Bạch Man. Sau mấy lần giao chiến thất bại, Đoàn Trí Hưng chuyển sang cầu cứu nghĩa quân, san bằng Bách Man Sơn.\n• Tứ Thánh Sứ là Đào Hoa Sứ, Linh Hạt Sứ, Thần Chu Sứ và Bích Ngô Sứ trấn giữ các ải Bách Man Sơn, phải đánh bại chúng mới diệt được Cổ Vương.  Gợi ý:  Bách Man Sơn các nơi đều có mật thám Bạch Man, có thể hỏi họ cách đánh bại Tứ Thánh Sứ và đường đến chỗ Cổ Vương.\n• Cổ Vương và Tứ Thánh Sứ đã bị tiêu diệt, có thể quay về quân doanh tìm Chung Minh Trì Mộ phục mệnh.",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Hằng ngày",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\000000000000014E.xml",
+      "subtasks": [
+        {
+          "sub_id": 509,
+          "sub_id_hex": "00000000000001fd",
+          "task_id": 334,
+          "name": "Cổ Họa (trung)",
+          "describe_cleaned": "Năm đầu An Định, Đại Lý bùng nổ loạn lạc, 72 trại chủ Ô Man phản đối Bạch Man thống trị, ý muốn độc lập. Đoàn Trí Hưng xuất binh dẹp loạn nhưng bị Ô Man dùng Cổ thuật đánh tan tác. Cổ thuật là bí thuật thịnh hành của Ô Man, sử dụng trùng độc sát thương người khác. Cổ Vương của các trại Ô Man phát huy tối đa sức mạnh Cổ thuật, gần như bất tử; Tứ Thánh Sứ gồm Đào Hoa Sứ, Linh Hạt Sứ, Thần Chu Sứ và Bích Ngô Sứ được Cổ Vương chân truyền, đến quý tộc Bạch Man cũng phải kiêng dè. Cuối cùng Đoàn Trí Hưng chuyển hướng cầu viện nghĩa quân, san bằng Bách Man Sơn.\n• Tứ Thánh Sứ là [Đào Hoa Sứ tại Bách Man Sơn (1663/2920)], [Bích Ngô Sứ tại Bách Man Sơn (1792/3050)], [Thần Chu Sứ tại Bách Man Sơn (1970/2862)] và [Linh Hạt Sứ tại Bách Man Sơn (1876/2615)] trấn giữ cửa các tầng Bách Man Sơn, phải đánh bại chúng mới diệt được [Cổ Vương tại Bách Man Sơn (1806/2837)].  Gợi ý:  Khắp Bách Man Sơn đều có mật thám Bạch Man mai phục, có thể hỏi họ cách đánh bại Tứ Thánh Sứ và đường đi đến chỗ Cổ Vương.\n• Cổ Vương và Tứ Thánh Sứ đã bị tiêu diệt, có thể quay về quân doanh phục mệnh [Chung Minh Trì Mộ tại Map_s1 (1653/3197)].",
+          "file_path": "Stories\\task_publish\\sub\\00000000000001FD.xml",
+          "dialog_npc_id": 4139,
+          "dialog_npc_name": "Chung Minh Trì Mộ [<color=green>Đặc sứ Đại Lý<color>]",
+          "steps": [
+            {
+              "id": 2214,
+              "sub_id": 509,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillBoss; KillBoss; KillBoss; KillBoss; KillBoss; TaskAct:StepOverEvent",
+              "target_params": "4171,0,1,Xin chào!,Ngươi thật đáng khen; 4127,0,1,Xin chào!,Ngươi thật đáng khen; 4132,0,1,Xin chào!,Ngươi thật đáng khen; 4136,0,1,Xin chào!,Ngươi thật đáng khen; 4152,0,1,Xin chào!,Ngươi thật đáng khen; Báo tin san bằng Bách Man Sơn cho Chung Minh Trì Mộ"
+            },
+            {
+              "id": 2215,
+              "sub_id": 509,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:AddTaskValueOnStart",
+              "target_params": "4139,0,<subtaskname>,<npc=4139>: \"Ta đã nghe được tin vui này, nghĩa quân quả nhiên danh bất hư truyền!\"<end>,Đến gặp Chung Minh Trì Mộ phục mệnh,Đến gặp Chung Minh Trì Mộ phục mệnh,Xin chào!,Ngươi thật đáng khen; 1024,60,1; 1024,60,0; 1024,51,1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 681,
+              "sub_id": 509,
+              "phase": "start",
+              "cleaned_text": "[Chung Minh Trì Mộ [Đặc sứ Đại Lý]]: \"Hoàng thượng đặt quốc hiệu là An Định, nhưng trong nước không hề được yên bình, hai tộc Bạch Ô đánh nhau càng ngày càng quyết liệt. Triều đình phái binh dẹp loạn 72 trại Ô Man, nhưng bị Ô Man Cổ Thuật đánh tan tành. Bây giờ nhờ có thủ lĩnh Bạch Thu Lâm và đại tướng quân Lư Tất Khắc tương trợ, phái người đến Bách Man Sơn tiêu diệt Cổ Thuật đầu sỏ Cổ Vương, trừ tận gốc Cổ Độc. Bách Man Sơn giống như long đàm hổ huyệt, có thể hỏi Mật thám Bạch Man ta để biết tường tận sự việc.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 337,
+      "task_id_hex": "0000000000000151",
+      "name": "Cổ Họa (Chính tuyến - Sơ)",
+      "describe_cleaned": "Năm đầu An Định, Đại Lý bạo loạn, Quỷ Chủ 72 trại Ô Man tuyên bố phản đối sự thống trị của Bạch Man, muốn được độc lập. Đoàn Trí Hưng xuất binh dẹp loạn, nhưng lại bị thua bởi Cổ Thuật của Ô Man. Cổ Thuật là bí thuật của Ô Man, sử dụng trùng độc sát thương người khác, người thường không phá giải được. Đặc biệt Cổ Vương Ô Man đã phát huy Cổ Thuật đến đỉnh cao, gần như bất tử; Tứ Thánh Sứ gồm Đào Hoa Sứ, Linh Hạt Sứ, Thần Chu Sứ và Bích Ngô Sứ càng là những tâm phúc của Cổ Vương, là mối họa lớn của quý tộc Bạch Man. Sau mấy lần giao chiến thất bại, Đoàn Trí Hưng chuyển sang cầu cứu nghĩa quân, san bằng Bách Man Sơn.\n• Tứ Thánh Sứ là Đào Hoa Sứ, Linh Hạt Sứ, Thần Chu Sứ và Bích Ngô Sứ trấn giữ các ải Bách Man Sơn, phải đánh bại chúng mới diệt được Cổ Vương.  Gợi ý:  Bách Man Sơn các nơi đều có mật thám Bạch Man, có thể hỏi họ cách đánh bại Tứ Thánh Sứ và đường đến chỗ Cổ Vương.\n• Cổ Vương và Tứ Thánh Sứ đã bị tiêu diệt, có thể quay về quân doanh tìm Chung Minh Trì Mộ phục mệnh.",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Cốt truyện",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\0000000000000151.xml",
+      "subtasks": [
+        {
+          "sub_id": 512,
+          "sub_id_hex": "0000000000000200",
+          "task_id": 337,
+          "name": "Cổ Họa (Chính tuyến - Sơ)",
+          "describe_cleaned": "Năm đầu An Định, Đại Lý bùng nổ loạn lạc, 72 trại chủ Ô Man phản đối Bạch Man thống trị, ý muốn độc lập. Đoàn Trí Hưng xuất binh dẹp loạn nhưng bị Ô Man dùng Cổ thuật đánh tan tác. Cổ thuật là bí thuật thịnh hành của Ô Man, sử dụng trùng độc sát thương người khác. Cổ Vương của các trại Ô Man phát huy tối đa sức mạnh Cổ thuật, gần như bất tử; Tứ Thánh Sứ gồm Đào Hoa Sứ, Linh Hạt Sứ, Thần Chu Sứ và Bích Ngô Sứ được Cổ Vương chân truyền, đến quý tộc Bạch Man cũng phải kiêng dè. Cuối cùng Đoàn Trí Hưng chuyển hướng cầu viện nghĩa quân, san bằng Bách Man Sơn.\n• Tứ Thánh Sứ là [Đào Hoa Sứ tại Bách Man Sơn (1663/2920)], [Bích Ngô Sứ tại Bách Man Sơn (1792/3050)], [Thần Chu Sứ tại Bách Man Sơn (1970/2862)] và [Linh Hạt Sứ tại Bách Man Sơn (1876/2615)] trấn giữ cửa các tầng Bách Man Sơn, phải đánh bại chúng mới diệt được [Cổ Vương tại Bách Man Sơn (1806/2837)].  Gợi ý:  Khắp Bách Man Sơn đều có mật thám Bạch Man mai phục, có thể hỏi họ cách đánh bại Tứ Thánh Sứ và đường đi đến chỗ Cổ Vương.\n• Cổ Vương và Tứ Thánh Sứ đã bị tiêu diệt, có thể quay về quân doanh phục mệnh [Chung Minh Trì Mộ tại Map_s1 (1653/3197)].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000200.xml",
+          "dialog_npc_id": 4139,
+          "dialog_npc_name": "Chung Minh Trì Mộ [<color=green>Đặc sứ Đại Lý<color>]",
+          "steps": [
+            {
+              "id": 2220,
+              "sub_id": 512,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillBoss; KillBoss; KillBoss; KillBoss; KillBoss; TaskAct:StepOverEvent",
+              "target_params": "4171,0,1,Xin chào!,Ngươi thật đáng khen; 4127,0,1,Xin chào!,Ngươi thật đáng khen; 4132,0,1,Xin chào!,Ngươi thật đáng khen; 4136,0,1,Xin chào!,Ngươi thật đáng khen; 4152,0,1,Xin chào!,Ngươi thật đáng khen; Báo tin san bằng Bách Man Sơn cho Chung Minh Trì Mộ"
+            },
+            {
+              "id": 2221,
+              "sub_id": 512,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:AddTaskValueOnStart",
+              "target_params": "4139,0,<subtaskname>,<npc=4139>: \"Ta đã nghe được tin vui này, nghĩa quân quả nhiên danh bất hư truyền!\"<end>,Đến gặp Chung Minh Trì Mộ phục mệnh,Đến gặp Chung Minh Trì Mộ phục mệnh,Xin chào!,Ngươi thật đáng khen; 1024,59,1; 1024,59,0; 1024,52,1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 684,
+              "sub_id": 512,
+              "phase": "start",
+              "cleaned_text": "[Chung Minh Trì Mộ [Đặc sứ Đại Lý]]: \"Hoàng thượng đặt quốc hiệu là An Định, nhưng trong nước không hề được yên bình, hai tộc Bạch Ô đánh nhau càng ngày càng quyết liệt. Triều đình phái binh dẹp loạn 72 trại Ô Man, nhưng bị Ô Man Cổ Thuật đánh tan tành. Bây giờ nhờ có thủ lĩnh Bạch Thu Lâm và đại tướng quân Lư Tất Khắc tương trợ, phái người đến Bách Man Sơn tiêu diệt Cổ Thuật đầu sỏ Cổ Vương, trừ tận gốc Cổ Độc. Bách Man Sơn giống như long đàm hổ huyệt, có thể hỏi Mật thám Bạch Man ta để biết tường tận sự việc.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 338,
+      "task_id_hex": "0000000000000152",
+      "name": "Cổ Họa (Chính tuyến)",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Cốt truyện",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\0000000000000152.xml",
+      "subtasks": [
+        {
+          "sub_id": 513,
+          "sub_id_hex": "0000000000000201",
+          "task_id": 338,
+          "name": "Cổ Họa (Chính tuyến - Trung)",
+          "describe_cleaned": "Năm đầu An Định, Đại Lý bùng nổ loạn lạc, 72 trại chủ Ô Man phản đối Bạch Man thống trị, ý muốn độc lập. Đoàn Trí Hưng xuất binh dẹp loạn nhưng bị Ô Man dùng Cổ thuật đánh tan tác. Cổ thuật là bí thuật thịnh hành của Ô Man, sử dụng trùng độc sát thương người khác. Cổ Vương của các trại Ô Man phát huy tối đa sức mạnh Cổ thuật, gần như bất tử; Tứ Thánh Sứ gồm Đào Hoa Sứ, Linh Hạt Sứ, Thần Chu Sứ và Bích Ngô Sứ được Cổ Vương chân truyền, đến quý tộc Bạch Man cũng phải kiêng dè. Cuối cùng Đoàn Trí Hưng chuyển hướng cầu viện nghĩa quân, san bằng Bách Man Sơn.\n• Tứ Thánh Sứ là [Đào Hoa Sứ tại Bách Man Sơn (1663/2920)], [Bích Ngô Sứ tại Bách Man Sơn (1792/3050)], [Thần Chu Sứ tại Bách Man Sơn (1970/2862)] và [Linh Hạt Sứ tại Bách Man Sơn (1876/2615)] trấn giữ cửa các tầng Bách Man Sơn, phải đánh bại chúng mới diệt được [Cổ Vương tại Bách Man Sơn (1806/2837)].  Gợi ý:  Khắp Bách Man Sơn đều có mật thám Bạch Man mai phục, có thể hỏi họ cách đánh bại Tứ Thánh Sứ và đường đi đến chỗ Cổ Vương.\n• Cổ Vương và Tứ Thánh Sứ đã bị tiêu diệt, có thể quay về quân doanh phục mệnh [Chung Minh Trì Mộ tại Map_s1 (1653/3197)].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000201.xml",
+          "dialog_npc_id": 4139,
+          "dialog_npc_name": "Chung Minh Trì Mộ [<color=green>Đặc sứ Đại Lý<color>]",
+          "steps": [
+            {
+              "id": 2222,
+              "sub_id": 513,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillBoss; KillBoss; KillBoss; KillBoss; KillBoss; TaskAct:StepOverEvent",
+              "target_params": "4171,0,1,Xin chào!,Ngươi thật đáng khen; 4127,0,1,Xin chào!,Ngươi thật đáng khen; 4132,0,1,Xin chào!,Ngươi thật đáng khen; 4136,0,1,Xin chào!,Ngươi thật đáng khen; 4152,0,1,Xin chào!,Ngươi thật đáng khen; Báo tin san bằng Bách Man Sơn cho Chung Minh Trì Mộ"
+            },
+            {
+              "id": 2223,
+              "sub_id": 513,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:AddTaskValueOnStart",
+              "target_params": "4139,0,<subtaskname>,<npc=4139>: \"Ta đã nghe được tin vui này, nghĩa quân quả nhiên danh bất hư truyền!\"<end>,Đến gặp Chung Minh Trì Mộ phục mệnh,Đến gặp Chung Minh Trì Mộ phục mệnh,Xin chào!,Ngươi thật đáng khen; 1024,60,1; 1024,60,0; 1024,52,1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 685,
+              "sub_id": 513,
+              "phase": "start",
+              "cleaned_text": "[Chung Minh Trì Mộ [Đặc sứ Đại Lý]]: \"Hoàng thượng đặt quốc hiệu là An Định, nhưng trong nước không hề được yên bình, hai tộc Bạch Ô đánh nhau càng ngày càng quyết liệt. Triều đình phái binh dẹp loạn 72 trại Ô Man, nhưng bị Ô Man Cổ Thuật đánh tan tành. Bây giờ nhờ có thủ lĩnh Bạch Thu Lâm và đại tướng quân Lư Tất Khắc tương trợ, phái người đến Bách Man Sơn tiêu diệt Cổ Thuật đầu sỏ Cổ Vương, trừ tận gốc Cổ Độc. Bách Man Sơn giống như long đàm hổ huyệt, có thể hỏi Mật thám Bạch Man ta để biết tường tận sự việc.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 363,
+      "task_id_hex": "000000000000016b",
+      "name": "Hải Lăng Vương Mộ-Chính tuyến (cấp 90)",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Cốt truyện",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\000000000000016B.xml",
+      "subtasks": [
+        {
+          "sub_id": 547,
+          "sub_id_hex": "0000000000000223",
+          "task_id": 363,
+          "name": "Hải Lăng Vương Mộ",
+          "describe_cleaned": "Long Ngũ Thái Gia vẫn cứ nghi hoặc mãi, gần đây Kim Quốc dựa vào long mạch mà có thể điều khiển càn khôn, muốn thâu tóm thiên hạ. Bọn chúng có thể chiếm phương bắc, và có thể duy trì đến giờ, là cũng do nguyên nhân này. Khi Thái Tổ Hoàn Nhan đánh vào biên giới, đã được một vị cao nhân chỉ điểm, đúc long mạch cũng hội đủ ba điều kiện thiên thời, địa lợi, nhân hòa. Gần đây nghe được thông tin, nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Hải Lăng Vương Hoàn Nhan Lượng, trong vật mai táng đem theo có bản đồ phong thủy long mạch Đại Kim, nếu có được nghĩa quân chắc chắn sẽ phá được phong thủy này, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\n• Vào Hải Lăng Vương Mộ, dựa vào mật đồ tìm quan tài của Hoàng Nhan Lượng, bản đồ phong thủy long mạch Đại Kim chắc chắn ở đây.  Nhắc nhở:  Trong quá trình tìm kiếm trong Hải Lăng Vương Mộ, có thể tham khảo mật đồ của Long Ngũ Thái Gia, ngoài ra nếu lạc đường có thể tìm Thi thể nhà thám hiểm để hỏi thông tin.\n• Giao bản đồ có được cho [Thần Tiêu - Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]] trong doanh trại nghĩa quân.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000223.xml",
+          "dialog_npc_id": 4237,
+          "dialog_npc_name": "Thần Tiêu [<color=green>Long Ngũ Thái Gia Thân Truyền Đệ Tử<color>]",
+          "steps": [
+            {
+              "id": 2416,
+              "sub_id": 547,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillBoss; KillBoss; KillBoss; KillNpc4Item; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:AddTaskValueOnStart",
+              "target_params": "4181,0,1,Xin chào!,Ngươi thật đáng khen; 4182,0,1,Xin chào!,Ngươi thật đáng khen; 4183,0,1,Xin chào!,Ngươi thật đáng khen; 4184,0,{808,},1,1,false; 1022,176,1; 1022,176,0; 1024,52,1"
+            },
+            {
+              "id": 2417,
+              "sub_id": 547,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "4237,0,<subtaskname>,<npc=4237>: \"Cực cho ngươi quá, lần này quân đội Hàn đại nhân có thể thuận lợi tiến đánh Kim Quốc.\"<end>,Giao bản đồ có được cho Thần Tiêu,Giao bản đồ có được cho Thần Tiêu,Xin chào!,Ngươi thật đáng khen; {808,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 721,
+              "sub_id": 547,
+              "phase": "start",
+              "cleaned_text": "[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Gần đây biết được thông tin nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Kim Quốc Hoàn Nhan Lượng, trong vật mai táng theo có một bản đồ long mạch phong thủy Đại Kim, nếu có được nó, nghĩa quân có thể phá hủy phong thủy long mạch, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\"\n[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Thu Di đã tính toán kỹ cuối cùng đã quyết định, nhiệm vụ này sẽ giao cho ngươi.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 364,
+      "task_id_hex": "000000000000016c",
+      "name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 90)",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Hằng ngày",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\000000000000016C.xml",
+      "subtasks": [
+        {
+          "sub_id": 548,
+          "sub_id_hex": "0000000000000224",
+          "task_id": 364,
+          "name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 90)",
+          "describe_cleaned": "Long Ngũ Thái Gia vẫn cứ nghi hoặc mãi, gần đây Kim Quốc dựa vào long mạch mà có thể điều khiển càn khôn, muốn thâu tóm thiên hạ. Bọn chúng có thể chiếm phương bắc, và có thể duy trì đến giờ, là cũng do nguyên nhân này. Khi Thái Tổ Hoàn Nhan đánh vào biên giới, đã được một vị cao nhân chỉ điểm, đúc long mạch cũng hội đủ ba điều kiện thiên thời, địa lợi, nhân hòa. Gần đây nghe được thông tin, nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Hải Lăng Vương Hoàn Nhan Lượng, trong vật mai táng đem theo có bản đồ phong thủy long mạch Đại Kim, nếu có được nghĩa quân chắc chắn sẽ phá được phong thủy này, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\n• Vào Hải Lăng Vương Mộ, dựa vào mật đồ tìm quan tài của Hoàng Nhan Lượng, bản đồ phong thủy long mạch Đại Kim chắc chắn ở đây.  Nhắc nhở:  Trong quá trình tìm kiếm trong Hải Lăng Vương Mộ, có thể tham khảo mật đồ của Long Ngũ Thái Gia, ngoài ra nếu lạc đường có thể tìm Thi thể nhà thám hiểm để hỏi thông tin.\n• Giao bản đồ có được cho [Thần Tiêu - Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]] trong doanh trại nghĩa quân.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000224.xml",
+          "dialog_npc_id": 4237,
+          "dialog_npc_name": "Thần Tiêu [<color=green>Long Ngũ Thái Gia Thân Truyền Đệ Tử<color>]",
+          "steps": [
+            {
+              "id": 2418,
+              "sub_id": 548,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillBoss; KillBoss; KillBoss; KillNpc4Item; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:AddTaskValueOnStart",
+              "target_params": "4181,0,1,Xin chào!,Ngươi thật đáng khen; 4182,0,1,Xin chào!,Ngươi thật đáng khen; 4183,0,1,Xin chào!,Ngươi thật đáng khen; 4184,0,{808,},1,1,false; 1022,176,1; 1022,176,0; 1024,51,1"
+            },
+            {
+              "id": 2419,
+              "sub_id": 548,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "4237,0,<subtaskname>,<npc=4237>: \"Cực cho ngươi quá, lần này quân đội Hàn đại nhân có thể thuận lợi tiến đánh Kim Quốc.\"<end>,Giao bản đồ có được cho Thần Tiêu,Giao bản đồ có được cho Thần Tiêu,Xin chào!,Ngươi thật đáng khen; {808,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 722,
+              "sub_id": 548,
+              "phase": "start",
+              "cleaned_text": "[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Gần đây biết được thông tin nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Kim Quốc Hoàn Nhan Lượng, trong vật mai táng theo có một bản đồ long mạch phong thủy Đại Kim, nếu có được nó, nghĩa quân có thể phá hủy phong thủy long mạch, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\"\n[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Thu Di đã tính toán kỹ cuối cùng đã quyết định, nhiệm vụ này sẽ giao cho ngươi.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 365,
+      "task_id_hex": "000000000000016d",
+      "name": "Hải Lăng Vương Mộ-Chính tuyến  (cấp 110)",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Cốt truyện",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\000000000000016D.xml",
+      "subtasks": [
+        {
+          "sub_id": 549,
+          "sub_id_hex": "0000000000000225",
+          "task_id": 365,
+          "name": "Hải Lăng Vương Mộ-Chính tuyến  (cấp 110)",
+          "describe_cleaned": "Long Ngũ Thái Gia vẫn cứ nghi hoặc mãi, gần đây Kim Quốc dựa vào long mạch mà có thể điều khiển càn khôn, muốn thâu tóm thiên hạ. Bọn chúng có thể chiếm phương bắc, và có thể duy trì đến giờ, là cũng do nguyên nhân này. Khi Thái Tổ Hoàn Nhan đánh vào biên giới, đã được một vị cao nhân chỉ điểm, đúc long mạch cũng hội đủ ba điều kiện thiên thời, địa lợi, nhân hòa. Gần đây nghe được thông tin, nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Hải Lăng Vương Hoàn Nhan Lượng, trong vật mai táng đem theo có bản đồ phong thủy long mạch Đại Kim, nếu có được nghĩa quân chắc chắn sẽ phá được phong thủy này, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\n• Vào Hải Lăng Vương Mộ, dựa vào mật đồ tìm quan tài của Hoàng Nhan Lượng, bản đồ phong thủy long mạch Đại Kim chắc chắn ở đây.  Nhắc nhở:  Trong quá trình tìm kiếm trong Hải Lăng Vương Mộ, có thể tham khảo mật đồ của Long Ngũ Thái Gia, ngoài ra nếu lạc đường có thể tìm Thi thể nhà thám hiểm để hỏi thông tin.\n• Giao bản đồ có được cho [Thần Tiêu - Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]] trong doanh trại nghĩa quân.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000225.xml",
+          "dialog_npc_id": 4237,
+          "dialog_npc_name": "Thần Tiêu [<color=green>Long Ngũ Thái Gia Thân Truyền Đệ Tử<color>]",
+          "steps": [
+            {
+              "id": 2420,
+              "sub_id": 549,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillBoss; KillBoss; KillBoss; KillNpc4Item; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:AddTaskValueOnStart",
+              "target_params": "4181,0,1,Xin chào!,Ngươi thật đáng khen; 4182,0,1,Xin chào!,Ngươi thật đáng khen; 4183,0,1,Xin chào!,Ngươi thật đáng khen; 4184,0,{808,},1,1,false; 1022,176,1; 1022,176,0; 1024,52,1"
+            },
+            {
+              "id": 2421,
+              "sub_id": 549,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "4237,0,<subtaskname>,<npc=4237>: \"Cực cho ngươi quá, lần này quân đội Hàn đại nhân có thể thuận lợi tiến đánh Kim Quốc.\"<end>,Giao bản đồ có được cho Thần Tiêu,Giao bản đồ có được cho Thần Tiêu,Xin chào!,Ngươi thật đáng khen; {808,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 723,
+              "sub_id": 549,
+              "phase": "start",
+              "cleaned_text": "[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Gần đây biết được thông tin nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Kim Quốc Hoàn Nhan Lượng, trong vật mai táng theo có một bản đồ long mạch phong thủy Đại Kim, nếu có được nó, nghĩa quân có thể phá hủy phong thủy long mạch, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\"\n[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Thu Di đã tính toán kỹ cuối cùng đã quyết định, nhiệm vụ này sẽ giao cho ngươi.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 366,
+      "task_id_hex": "000000000000016e",
+      "name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 110)",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Hằng ngày",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\000000000000016E.xml",
+      "subtasks": [
+        {
+          "sub_id": 550,
+          "sub_id_hex": "0000000000000226",
+          "task_id": 366,
+          "name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 110)",
+          "describe_cleaned": "Long Ngũ Thái Gia vẫn cứ nghi hoặc mãi, gần đây Kim Quốc dựa vào long mạch mà có thể điều khiển càn khôn, muốn thâu tóm thiên hạ. Bọn chúng có thể chiếm phương bắc, và có thể duy trì đến giờ, là cũng do nguyên nhân này. Khi Thái Tổ Hoàn Nhan đánh vào biên giới, đã được một vị cao nhân chỉ điểm, đúc long mạch cũng hội đủ ba điều kiện thiên thời, địa lợi, nhân hòa. Gần đây nghe được thông tin, nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Hải Lăng Vương Hoàn Nhan Lượng, trong vật mai táng đem theo có bản đồ phong thủy long mạch Đại Kim, nếu có được nghĩa quân chắc chắn sẽ phá được phong thủy này, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\n• Vào Hải Lăng Vương Mộ, dựa vào mật đồ tìm quan tài của Hoàng Nhan Lượng, bản đồ phong thủy long mạch Đại Kim chắc chắn ở đây.  Nhắc nhở:  Trong quá trình tìm kiếm trong Hải Lăng Vương Mộ, có thể tham khảo mật đồ của Long Ngũ Thái Gia, ngoài ra nếu lạc đường có thể tìm Thi thể nhà thám hiểm để hỏi thông tin.\n• Giao bản đồ có được cho [Thần Tiêu - Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]] trong doanh trại nghĩa quân.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000226.xml",
+          "dialog_npc_id": 4237,
+          "dialog_npc_name": "Thần Tiêu [<color=green>Long Ngũ Thái Gia Thân Truyền Đệ Tử<color>]",
+          "steps": [
+            {
+              "id": 2422,
+              "sub_id": 550,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillBoss; KillBoss; KillBoss; KillNpc4Item; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:AddTaskValueOnStart",
+              "target_params": "4181,0,1,Xin chào!,Ngươi thật đáng khen; 4182,0,1,Xin chào!,Ngươi thật đáng khen; 4183,0,1,Xin chào!,Ngươi thật đáng khen; 4184,0,{808,},1,1,false; 1022,176,1; 1022,176,0; 1024,51,1"
+            },
+            {
+              "id": 2423,
+              "sub_id": 550,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "4237,0,<subtaskname>,<npc=4237>: \"Cực cho ngươi quá, lần này quân đội Hàn đại nhân có thể thuận lợi tiến đánh Kim Quốc.\"<end>,Giao bản đồ có được cho Thần Tiêu,Giao bản đồ có được cho Thần Tiêu,Xin chào!,Ngươi thật đáng khen; {808,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 724,
+              "sub_id": 550,
+              "phase": "start",
+              "cleaned_text": "[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Gần đây biết được thông tin nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Kim Quốc Hoàn Nhan Lượng, trong vật mai táng theo có một bản đồ long mạch phong thủy Đại Kim, nếu có được nó, nghĩa quân có thể phá hủy phong thủy long mạch, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\"\n[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Thu Di đã tính toán kỹ cuối cùng đã quyết định, nhiệm vụ này sẽ giao cho ngươi.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 367,
+      "task_id_hex": "000000000000016f",
+      "name": "Hải Lăng Vương Mộ (Chính tuyến)",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Cốt truyện",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\000000000000016F.xml",
+      "subtasks": [
+        {
+          "sub_id": 551,
+          "sub_id_hex": "0000000000000227",
+          "task_id": 367,
+          "name": "Hải Lăng Vương Mộ-Chính tuyến (cấp 130)",
+          "describe_cleaned": "Long Ngũ Thái Gia vẫn cứ nghi hoặc mãi, gần đây Kim Quốc dựa vào long mạch mà có thể điều khiển càn khôn, muốn thâu tóm thiên hạ. Bọn chúng có thể chiếm phương bắc, và có thể duy trì đến giờ, là cũng do nguyên nhân này. Khi Thái Tổ Hoàn Nhan đánh vào biên giới, đã được một vị cao nhân chỉ điểm, đúc long mạch cũng hội đủ ba điều kiện thiên thời, địa lợi, nhân hòa. Gần đây nghe được thông tin, nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Hải Lăng Vương Hoàn Nhan Lượng, trong vật mai táng đem theo có bản đồ phong thủy long mạch Đại Kim, nếu có được nghĩa quân chắc chắn sẽ phá được phong thủy này, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\n• Vào Hải Lăng Vương Mộ, dựa vào mật đồ tìm quan tài của Hoàng Nhan Lượng, bản đồ phong thủy long mạch Đại Kim chắc chắn ở đây.  Nhắc nhở:  Trong quá trình tìm kiếm trong Hải Lăng Vương Mộ, có thể tham khảo mật đồ của Long Ngũ Thái Gia, ngoài ra nếu lạc đường có thể tìm Thi thể nhà thám hiểm để hỏi thông tin.\n• Giao bản đồ có được cho [Thần Tiêu - Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]] trong doanh trại nghĩa quân.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000227.xml",
+          "dialog_npc_id": 4237,
+          "dialog_npc_name": "Thần Tiêu [<color=green>Long Ngũ Thái Gia Thân Truyền Đệ Tử<color>]",
+          "steps": [
+            {
+              "id": 2424,
+              "sub_id": 551,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillBoss; KillBoss; KillBoss; KillNpc4Item; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:AddTaskValueOnStart",
+              "target_params": "4181,0,1,Xin chào!,Ngươi thật đáng khen; 4182,0,1,Xin chào!,Ngươi thật đáng khen; 4183,0,1,Xin chào!,Ngươi thật đáng khen; 4184,0,{808,},1,1,false; 1022,176,1; 1022,176,0; 1024,52,1"
+            },
+            {
+              "id": 2425,
+              "sub_id": 551,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "4237,0,<subtaskname>,<npc=4237>: \"Cực cho ngươi quá, lần này quân đội Hàn đại nhân có thể thuận lợi tiến đánh Kim Quốc.\"<end>,Giao bản đồ có được cho Thần Tiêu,Giao bản đồ có được cho Thần Tiêu,Xin chào!,Ngươi thật đáng khen; {808,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 725,
+              "sub_id": 551,
+              "phase": "start",
+              "cleaned_text": "[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Gần đây biết được thông tin nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Kim Quốc Hoàn Nhan Lượng, trong vật mai táng theo có một bản đồ long mạch phong thủy Đại Kim, nếu có được nó, nghĩa quân có thể phá hủy phong thủy long mạch, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\"\n[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Thu Di đã tính toán kỹ cuối cùng đã quyết định, nhiệm vụ này sẽ giao cho ngươi.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 368,
+      "task_id_hex": "0000000000000170",
+      "name": "Hải Lăng Vương Mộ (Hằng ngày)",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ quân doanh",
+      "category_desc": "Hằng ngày",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "5",
+      "file_path": "Stories\\task_publish\\task\\0000000000000170.xml",
+      "subtasks": [
+        {
+          "sub_id": 552,
+          "sub_id_hex": "0000000000000228",
+          "task_id": 368,
+          "name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 130)",
+          "describe_cleaned": "Long Ngũ Thái Gia vẫn cứ nghi hoặc mãi, gần đây Kim Quốc dựa vào long mạch mà có thể điều khiển càn khôn, muốn thâu tóm thiên hạ. Bọn chúng có thể chiếm phương bắc, và có thể duy trì đến giờ, là cũng do nguyên nhân này. Khi Thái Tổ Hoàn Nhan đánh vào biên giới, đã được một vị cao nhân chỉ điểm, đúc long mạch cũng hội đủ ba điều kiện thiên thời, địa lợi, nhân hòa. Gần đây nghe được thông tin, nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Hải Lăng Vương Hoàn Nhan Lượng, trong vật mai táng đem theo có bản đồ phong thủy long mạch Đại Kim, nếu có được nghĩa quân chắc chắn sẽ phá được phong thủy này, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\n• Vào Hải Lăng Vương Mộ, dựa vào mật đồ tìm quan tài của Hoàng Nhan Lượng, bản đồ phong thủy long mạch Đại Kim chắc chắn ở đây.  Nhắc nhở:  Trong quá trình tìm kiếm trong Hải Lăng Vương Mộ, có thể tham khảo mật đồ của Long Ngũ Thái Gia, ngoài ra nếu lạc đường có thể tìm Thi thể nhà thám hiểm để hỏi thông tin.\n• Giao bản đồ có được cho [Thần Tiêu - Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]] trong doanh trại nghĩa quân.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000228.xml",
+          "dialog_npc_id": 4237,
+          "dialog_npc_name": "Thần Tiêu [<color=green>Long Ngũ Thái Gia Thân Truyền Đệ Tử<color>]",
+          "steps": [
+            {
+              "id": 2426,
+              "sub_id": 552,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillBoss; KillBoss; KillBoss; KillNpc4Item; TaskAct:SetTaskValueOnStart; TaskAct:SetTaskValueOnFinish; TaskAct:AddTaskValueOnStart",
+              "target_params": "4181,0,1,Xin chào!,Ngươi thật đáng khen; 4182,0,1,Xin chào!,Ngươi thật đáng khen; 4183,0,1,Xin chào!,Ngươi thật đáng khen; 4184,0,{808,},1,1,false; 1022,176,1; 1022,176,0; 1024,51,1"
+            },
+            {
+              "id": 2427,
+              "sub_id": 552,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "4237,0,<subtaskname>,<npc=4237>: \"Cực cho ngươi quá, lần này quân đội Hàn đại nhân có thể thuận lợi tiến đánh Kim Quốc.\"<end>,Giao bản đồ có được cho Thần Tiêu,Giao bản đồ có được cho Thần Tiêu,Xin chào!,Ngươi thật đáng khen; {808,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 726,
+              "sub_id": 552,
+              "phase": "start",
+              "cleaned_text": "[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Gần đây biết được thông tin nghĩa quân thám thính được vị trí lăng mộ hoàng đế tiền triều Kim Quốc Hoàn Nhan Lượng, trong vật mai táng theo có một bản đồ long mạch phong thủy Đại Kim, nếu có được nó, nghĩa quân có thể phá hủy phong thủy long mạch, giúp Hàn đại nhân trong cuộc chiến Bắt phạt.\"\n[Thần Tiêu [Long Ngũ Thái Gia Thân Truyền Đệ Tử]]: \"Thu Di đã tính toán kỹ cuối cùng đã quyết định, nhiệm vụ này sẽ giao cho ngươi.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 466,
+      "task_id_hex": "00000000000001d2",
+      "name": "Chúc Tết Năm Mới",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Nhiệm vụ chính tuyến",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\00000000000001D2.xml",
+      "subtasks": [
+        {
+          "sub_id": 659,
+          "sub_id_hex": "0000000000000293",
+          "task_id": 466,
+          "name": "Tân Mão Cát Tường",
+          "describe_cleaned": "Nàng Xuân gõ cửa báo hiệu một năm mới đang đến, ta cũng phải đi chúc tết các thúc phụ tỷ tỷ trong nghĩa quân mới được.\n• Trong tiếng chuông chùa báo hiệu xuân sang, bỗng nhiên ta thấy nhớ nhà da diết. Trở về nghĩa quân, việc đầu tiên là phải đến chúc tết [Thu Di - Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]].\n• Từ biệt Thu Di, ta phải đến thăm hỏi [Long Ngũ Thái Gia - Long Ngũ Thái Gia [Nguyên Lão Nghĩa Quân]].\n• Từ biệt Long Ngũ Thái Gia, ta nhanh chân đến chúc tết [Điềm Tửu thúc - Điềm Tửu Thúc [Chủ Tiệm Binh Khí]].\n• Điềm Tửu thúc đang mải thưởng thức rượu Tây Bắc Vọng, ta tranh thủ ghé thăm [Hà Diệp tỷ - Thẩm Hà Diệp [Chủ Tiệm Phòng Cụ]].\n• Từ biệt Hà Diệp tỷ, ta không quên ghé sang chào hỏi [Phiêu Tịnh tỷ - Hách Phiêu Tịnh [Chủ Tiệm Trang Sức]].\n• Giờ đây, ta lại tiếp tục đi chúc tết quân y nổi tiếng [Trương Trảm Kinh - Trương Trảm Kinh [Chủ Tiệm Thuốc]].\n• Đã lâu không gặp [Bất Động Tiên Sinh - Bất Động Tiên Sinh [Chủ Tiệm Tạp Hóa]], ta rất nhớ ông ấy.\n• Từ biệt Bất Động Tiên Sinh hài hước, ta lại đến chào hỏi [Đại Lão Bạch - Đại Lão Bạch [Chủ Tửu Lầu]].\n• Ta phải mau đến thăm hỏi Chủ Tiền Trang [Tạ Hiền - Tạ Hiền [Chủ Tiền Trang]] nữa.\n• Nhân vật cuối cùng không thể bỏ sót trong nghĩa quân chính là Quân Bị [Bao Vạn Đồng], ta phải đến chào hỏi ngay.\n• Sau khi chúc tết tất cả thúc phụ tỷ muội trong quân, ta lại trở về tìm [Thu Di - Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000293.xml",
+          "dialog_npc_id": 3570,
+          "dialog_npc_name": "Bạch Thu Lâm [<color=green>Thủ Lĩnh Nghĩa Quân<color>]",
+          "steps": [
+            {
+              "id": 2916,
+              "sub_id": 659,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3570,0,<subtaskname>,<playername>: \"Hồi chuông Tân Mão vang khắp, Thỏ Ngọc năm mới đúng giờ xuất phát, mang theo những khoảnh khắc khó phai cùng nghênh đón một năm mới tràn đầy sức sống. Ta nguyện muôn dân bá tánh được ấm no hạnh phúc, những người thân yêu được sống yên vui và chúc Thu Di dồi dào sức khỏe.\"<end>\n<npc=3570>: \"Thu Di cám ơn tấm lòng của <playername> và chúc ngươi năm mới hạnh phúc vui vẻ. Đúng rồi, gần đây Long Ngũ Thái Gia luôn miệng nhắc đến ngươi, hãy mau sang chúc tết ông ấy.\"<end>,Đối thoại với Thu Di,Đối thoại với Thu Di; Đến chúc tết Long Ngũ Thái Gia"
+            },
+            {
+              "id": 2917,
+              "sub_id": 659,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3571,0,<subtaskname>,<playername>: \"Thái Gia, <playername> đến chúc tết người đây, bao lì xì đặc biệt, bên trong chứa đầy hạnh phúc, hàng vạn niềm vui và muôn vàn sức khỏe.\"<end>\n<npc=3571>: \"<playername> đó à? Ha ha ha, ngươi ngày càng biết cách ăn nói rồi đấy! Ta cứ trông mãi, cuối cùng ngươi cũng đã về. Lại một năm nữa qua đi, bộ râu bạc của ta lại một dài thêm, trong khi các ngươi đã trưởng thành, trở thành trụ cột cho nghĩa quân.\"<end>\n<playername>: \"Đa tạ sự động viên của Thái Gia. Lần này <playername> quay về chính là muốn dành thời gian bên cạnh các thúc phụ tỷ tỷ trong nghĩa quân, nhiều năm nay Thu Di và Thái Gia luôn tận tâm với công việc của nghĩa quân, thật khiến <playername> cảm động và khâm phục.\"<end>\n<npc=3571>: \"Ấy ấy, đừng nói thế. Thân già này có làm việc thêm 5 - 10 năm nữa cũng không thành vấn đề. Thôi, ta đừng nói những chuyện này nữa, ngươi đã đến chúc tết ta thì cũng đừng quên các trưởng bối khác trong quân, hãy mau đến chúc tết họ đi.\"<end>,Đối thoại với Long Ngũ Thái Gia,Đối thoại với Long Ngũ Thái Gia; Đến chúc tết Điềm Tửu Thúc"
+            },
+            {
+              "id": 2918,
+              "sub_id": 659,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3561,0,<subtaskname>,<playername>: \"Điềm Tửu Thúc, <playername> đến chúc tết người đây. <playername> xin chúc người năm mới nhiều may mắn, mạnh khỏe và luôn vui vẻ!\"<end>\n<npc=3561>: \"<playername> đã về đó à! Điềm Tửu Thúc cũng chúc ngươi năm mới đại cát đại lợi, tiền đồ sáng lạng.\"<end>\n<playername>: \"Đa tạ Điềm Tửu Thúc. À phải, lần này <playername> còn đem cả rượu Tây Bắc Vọng thượng hạng của vùng biên giới cho thúc thưởng thức.\"<end>\n<npc=3561>: \"Vậy à? Tốt lắm tốt lắm, Điềm Tửu ta thích nhất là uống rượu, <playername> thật có lòng...\"<end>\n<npc=3561>: \"Ôi... Đây là rượu Tây Bắc Vọng ngon nhất mà ta từng được uống đấy. Thưởng thức rượu này ta mới thật sự cảm nhận được sự bao la và cô quạnh của vùng Tây Bắc. Nếu phải đánh giá về rượu này, ta thấy chỉ có từ này là thích hợp nhất: Vô Song!\"<end>\n<playername>: \"Điềm Tửu Thúc thích là tốt rồi, rượu này là quà đáp lễ của một ông lão khi <playername> tình cờ cứu được lão trên sa mạc.\"<end>\n<npc=3561>: \"Ừm, thôi đừng quấy rầy ta, để ta tập trung thưởng thức rượu nào.\"<end>,Đối thoại với Điềm Tửu Thúc,Đối thoại với Điềm Tửu Thúc; Đến chúc tết Hà Diệp tỷ"
+            },
+            {
+              "id": 2919,
+              "sub_id": 659,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3562,0,<subtaskname>,<npc=3562>: \"<playername> đến rồi à, mau vào đây. Tỷ tỷ đã chờ ngươi lâu lắm rồi đó!\"<end>\n<playername>: \"Hà Diệp tỷ, <playername> đến chúc tết tỷ đây. Chúc tỷ năm mới luôn vui vẻ, đại cát đại lợi.\"<end>\n<npc=3562>: \"Cám ơn, tỷ có chuẩn bị rất nhiều hương nang cho mọi người, chúng sẽ phù hộ cho các đệ được bình an để yên tâm góp sức xây dựng nghĩa quân.\"<end>\n<playername>: \"<playername> thay mặt các huynh đệ tỷ muội nghĩa quân đa tạ Hà Diệp tỷ.\"<end>,Đối thoại với Thẩm Hà Diệp,Đối thoại với Thẩm Hà Diệp; Đến chúc tết Phiêu Tịnh tỷ"
+            },
+            {
+              "id": 2920,
+              "sub_id": 659,
+              "step_index": 5,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3563,0,<subtaskname>,<npc=3563>: \"Xuân xuân ơi xuân đến rồi... (hát nghêu ngao)\"<end>\n<playername>: \"Phiêu Tịnh tỷ, sao hôm nay yêu đời vậy, hát hay quá!\"<end>\n<npc=3563>: \"<playername> đến rồi à. Ta đang dạy bọn trẻ trong nghĩa quân hát bài mừng xuân ấy mà. Năm mới tết đến, những đơn hàng trang sức đón xuân nhiều đến nỗi ta làm không xuể đấy.\"<end>\n<playername>: \"Vậy à! Ta cũng xin chúc Phiêu Tịnh tỷ năm mới yêu đời, ngày càng trẻ đẹp.\"<end>\n<npc=3563>: \"Ha ha, cám ơn lời chúc của ngươi, hãy mau đến chúc tết Trảm Kinh thúc kia kìa.\"<end>,Đối thoại với Hách Phiêu Tịnh,Đối thoại với Hách Phiêu Tịnh; Đến chúc tết Trương Trảm Kinh"
+            },
+            {
+              "id": 2921,
+              "sub_id": 659,
+              "step_index": 6,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3564,0,<subtaskname>,<npc=3564>: \"<playername>, đến đây. Lâu lắm Trảm Kinh thúc mới được gặp ngươi, ngươi lại ốm đi à? Nhưng trông tinh thần rất sung mãn. Ha ha...\"<end>\n<playername>: \"Trảm Kinh thúc, đúng là <playername> đã lâu không ghé thăm thúc. Năm mới chúc thúc may mắn hạnh phúc, làm ăn phát tài.\"<end>\n<npc=3564>: \"Ha ha, ngươi thật khéo nói. À, gần đây nhiều người mắc bệnh phong hàn, ngươi ra ngoài nhớ phải chú ý giữ gìn sức khỏe. Ta có vài mẹo nhỏ, ngươi hãy nghe cho kỹ nhé.\"<end>\n<npc=3564>: \"Phòng bệnh cảm đầu tiên phải lưu ý ăn uống thanh đạm, chế độ ăn nhiều dầu mỡ và đường sẽ làm giảm sức đề kháng, nếu ăn quá mặn sẽ làm giảm chất kháng khuẩn trong khoang miệng, sẽ dễ bị lây bệnh qua đường hô hấp. Ngoài ra cần lưu ý giữ tinh thần sảng khoái, bởi theo ta thấy người hay lo lắng bồn chồn hoặc buồn bực trong người cũng làm giảm đề kháng, dễ bị cảm. Cuối cùng là phải nhớ nghỉ ngơi đầy đủ.\"<end>\n<playername>: \"Những điều Trảm Kinh thúc nói <playername> đều đã ghi nhớ, năm mới con nhất định sẽ chú ý giữ gìn sức khỏe.\"<end>,Đối thoại với Trương Trảm Kinh,Đối thoại với Trương Trảm Kinh; Đến chúc tết Bất Động Tiên Sinh"
+            },
+            {
+              "id": 2922,
+              "sub_id": 659,
+              "step_index": 7,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3565,0,<subtaskname>,<playername>: \"Bất Động đại ca, <playername> đến chúc tết người đây. Chúc đại ca năm mới thuận buồm xuôi gió, làm ăn phát đạt.\"<end>\n<npc=3565>: \"Ha ha, đa tạ <playername>, ngươi còn nhớ truyện cười mà tết năm ngoái ta đã kể không?\"<end>\n<playername>: \"Vẫn nhớ như in, đó là câu chuyện tàu hủ đá, đúng không? Năm nay đại ca lại có truyện cười cho ta à?\"<end>\n<npc=3565>: \"Năm nay ta sẽ ra chơi trò ai nhanh trí hơn nhé. Nếu có một chiếc xe ngựa, người nài ngựa là thái tử, người ngồi trong xe là công chúa, vậy chiếc xe ngựa này của ai?\"<end>\n<playername>: \"Ờ... là của \"nếu\" chứ gì! Ha ha ha...\"<end>\n<npc=3565>: \"Ôi, cả câu này ngươi cũng đoán trúng ư? Thôi được, không đùa với ngươi nữa, hãy mau đến chúc tết Đại Lão Bạch đi.\"<end>,Đối thoại với Bất Động tiên sinh,Đối thoại với Bất Động tiên sinh; Đến chúc tết Đại Lão Bạch"
+            },
+            {
+              "id": 2923,
+              "sub_id": 659,
+              "step_index": 8,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3566,0,<subtaskname>,<playername>: \"Đại Lão Bạch, chúc người năm mới tiền vô như nước, niềm vui đến mỗi ngày.\"<end>\n<npc=3566>: \"Ha ha, đúng là khéo ăn nói. Ngươi thường bôn ba bên ngoài nhớ phải chú ý việc ăn uống, nhớ điều tiết việc ăn uống theo khí hậu từng mùa nữa. Hạn chế các món có tính hàn, nhưng cũng đừng ăn nóng quá. Cũng nên chú ý bồi bổ sức khỏe.\"<end>\n<playername>: \"Những điều người nói con đều ghi nhớ, năm nay nhất định <playername> sẽ thật khỏe mạnh.<end>,Đối thoại với Đại Lão Bạch,Đối thoại với Đại Lão Bạch; Đến chúc tết chủ tiền trang Tạ Hiền"
+            },
+            {
+              "id": 2924,
+              "sub_id": 659,
+              "step_index": 9,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3567,0,<subtaskname>,<playername>: \"Tạ Hiền thúc, <playername> đến chúc tết thúc đây. Năm mới chúc thúc sức khỏe dồi dào, gia đình hạnh phúc, tiền vô như nước.\"<end>\n<npc=3567>: \"Ha ha, cám ơn lời chúc của ngươi. <playername> vẫn chưa thành thân đó chứ? Ta có đứa con cũng trạc tuổi ngươi, chắc là hai đứa sẽ rất xứng đôi...\"<end>\n<playername>: \"Ấy, <playername> còn phải chúc tết Bao thúc nữa, xin cáo từ trước đây.\"<end>,Đối thoại với chủ tiền trang Tạ Hiền,Đối thoại với chủ tiền trang Tạ Hiền; Đến chúc tết Bao Vạn Đồng"
+            },
+            {
+              "id": 2925,
+              "sub_id": 659,
+              "step_index": 10,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3573,0,<subtaskname>,<npc=3573>: \"Ma Đạo Thạch, Hộ Giáp Phiến, Ngũ Hành Thạch, cấp thấp thì để bên kia, cấp cao thì để bên này...\"<end>\n<playername>: \"Bao thúc, năm mới tết đến mà thúc còn bận rộn vậy sao? <playername> đến chúc tết thúc đây! Năm mới chúc thúc mạnh khỏe, làm ăn phát tài.\"<end>\n<npc=3573>: \"Bao thúc thích nhất là nghe ngươi nói đó. Ha ha...trong năm mới này, ngươi cũng phải tiếp tục cố gắng thu thập quân nhu giúp thúc nhé!\"<end>\n<playername>: \"Bao thúc yên tâm, con nhất định hết lòng vì nghĩa quân.\"<end>,Đối thoại với Bao Vạn Đồng,Đối thoại với Bao Vạn Đồng; Đối thoại với Thu Di"
+            },
+            {
+              "id": 2926,
+              "sub_id": 659,
+              "step_index": 11,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:SetTaskValueOnFinish",
+              "target_params": "3570,0,<subtaskname>,<playername>: \"Thu Di, <playername> đã thăm hỏi tất cả thúc phụ tỷ tỷ trong nghĩa quân, đồng thời gửi lời chúc đến mọi người rồi.\"<end>\n<npc=3570>: \"Tốt lắm. Nhân tài là rường cột của nước nhà, Thu Di hy vọng trong năm mới này ngươi sẽ cố gắng hơn nữa, góp sức cho nghĩa quân và bá tánh.\"<end>\n<playername>: \"Vâng, nhất định <playername> sẽ dốc hết sức mình.\"<end>,Đối thoại với Thu Di,Đối thoại với Thu Di; 1025,14,1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 836,
+              "sub_id": 659,
+              "phase": "start",
+              "cleaned_text": "[Đại Hiệp]: \"Thu Di, [Đại Hiệp] đến thăm người đây.\"\n[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"[Đại Hiệp] đến rồi à! Thấm thoắt một năm đã qua đi, còn nhớ năm ngoái tâm nguyện của ta và ngươi đều là hy vọng giang sơn xã tắc vững bền, và chúng ta đều đã nỗ lực để thực hiện mục tiêu này. Năm vừa qua ngươi đã vất vả nhiều, trong năm mới này ngươi sẽ ước điều gì?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 467,
+      "task_id_hex": "00000000000001d3",
+      "name": "Lương Duyên Tiền Định",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Nhiệm vụ chính tuyến",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\00000000000001D3.xml",
+      "subtasks": [
+        {
+          "sub_id": 660,
+          "sub_id_hex": "0000000000000294",
+          "task_id": 467,
+          "name": "Lương Duyên Tiền Định",
+          "describe_cleaned": "Hồng Nương có thư đến, chắc có tin vui gì đây. Chẳng lẽ duyên phận của ta đã đến?\n• Tìm [Hồng Nương tại Giang Tân Thôn (1633/2941)] hỏi rõ sự việc.\n• Theo lời dặn của [Hồng Nương tại Giang Tân Thôn (1633/2941)], tìm hiểu các thông tin về kết hôn.\n• Trả lời câu hỏi [Hồng Nương tại Giang Tân Thôn (1633/2941)].\n• Đi tìm Thương Nhân Hôn Lễ [Vạn Hữu Toàn tại Giang Tân Thôn (1641/2954)], xem hắn có món gì hay.\n• [Vạn Hữu Toàn tại Giang Tân Thôn (1641/2954)] cho ta 1 số pháo hoa, ta thử đốt xem hiệu quả thế nào.\n• Báo cáo tình hình với [Hồng Nương tại Giang Tân Thôn (1633/2941)].\n• Đi tìm[Nguyệt Lão tại Giang Tân Thôn (1638/2945)], xem ông ấy có rảnh đưa ta tham quan sân khấu hôn lễ hay không.\n• Đến Hiệp Sĩ Danh Cư theo lời dặn của [Nguyệt Lão tại Giang Tân Thôn (1638/2945)], tìm [Vạn Phúc tại Hiệp Sĩ Danh Cư (1757/3155)]. Nhắc nhở:  Có thể đến chỗ [Nguyệt Lão tại Giang Tân Thôn (1638/2945)] ở Giang Tân Thôn chọn truyền tống đến bản đồ kết hôn nhất định.\n• Đến tham quan Trang Viên Quý Tộc, theo lời dặn của Vạn Phúc, đi tìm [Vạn Lộc tại Trang Viên Quý Tộc (1599/3175)]. Nhắc nhở:  Tìm [Vạn Lý Đạt tại Hiệp Sĩ Danh Cư (1633/3309)] ở Lối vào Hiệp Sĩ Danh Cư để truyền tống đến bản đồ kết hôn, hoặc dùng Truyền Tống Phù về chỗ [Nguyệt Lão tại Giang Tân Thôn (1638/2945)] ở Giang Tân Thôn để đi.\n• Đến tham quan Bãi Biển Vương Hầu, theo lời dặn của Vạn Lộc, đi tìm [Vạn Thọ tại Bãi Biển Vương Hầu (1689/3089)]. Nhắc nhở:  Tìm [Vạn Lý Đạt tại Trang Viên Quý Tộc (1466/3292)] ở Lối vào Trang Viên Quý Tộc để truyền tống đến bản đồ kết hôn, hoặc dùng Truyền Tống Phù về chỗ [Nguyệt Lão tại Giang Tân Thôn (1638/2945)] ở Giang Tân Thôn để đi.\n• Đến tham quan Hoàng Gia Tiên Cảnh, theo lời dặn của Vạn Thọ, đi tìm [Vạn Hỷ tại Hoàng Gia Tiên Cảnh (1586/3220)]. Nhắc nhở:  Tìm [Vạn Lý Đạt tại Bãi Biển Vương Hầu (1601/3185)] ở Lối vào Bãi Biển Vương Hầu để truyền tống đến bản đồ kết hôn, hoặc Truyền Tống Phù về chỗ [Nguyệt Lão tại Giang Tân Thôn (1638/2945)] ở Giang Tân Thôn để đi.\n• Đi hết 1 vòng, xem như đã nắm được trình tự kết hôn, trở về báo cáo với [Hồng Nương tại Giang Tân Thôn (1633/2941)]. Nhắc nhở:  Tìm [Vạn Lý Đạt tại Hoàng Gia Tiên Cảnh (1494/3378)] ở Lối vào Hoàng Gia Tiên Cảnh để truyền tống về Giang Tân Thôn.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000294.xml",
+          "dialog_npc_id": 6513,
+          "dialog_npc_name": "Hồng Di [<color=gold>Hướng dẫn Điển Lễ <color>]",
+          "steps": [
+            {
+              "id": 2927,
+              "sub_id": 660,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "6513,5,<subtaskname>,<npc=6513>: \"Thời gian thoi đưa, ngươi đã đến tuổi kết hôn, trưởng bối như ta đương nhiên phải giúp một tay rồi.\"<end>\n<playername>: \"Đa tạ Hồng Nương, việc này nên để vãn bối tự xử lý mới phải.\"<end>\n<npc=6513>: \"Ừ, học hỏi thêm kiến thức cũng là điều tốt, vậy ta sẽ hướng dẫn ngươi 1 số kiến thức về kết hôn, sau đó ta sẽ thử tài của ngươi.\"<end>,Đến Giang Tân Thôn tìm Hồng Nương tìm hiểu sự việc,Đến Giang Tân Thôn tìm Hồng Nương tìm hiểu sự việc,Xin chào!,Ngươi thật đáng khen"
+            },
+            {
+              "id": 2928,
+              "sub_id": 660,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "RequireTaskValue; RequireTaskValue; RequireTaskValue; RequireTaskValue; RequireTaskValue; RequireTaskValue",
+              "target_params": "1022,216,0,1,Giới thiệu hệ thống kết hôn,Giới thiệu hệ thống kết hôn; 1022,217,0,1,Tìm hiểu Hoa Tình,Tìm hiểu Hoa Tình; 1022,218,0,1,Các bước kết hôn,Các bước kết hôn; 1022,219,0,1,Lợi ích kết hôn,Lợi ích kết hôn; 1022,220,0,1,NPC chính,NPC chính; 1022,221,0,1,Lễ cưới và tiệc cưới,Lễ cưới và tiệc cưới"
+            },
+            {
+              "id": 2929,
+              "sub_id": 660,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "AnsewerTheQuestion_A",
+              "target_params": "6513,5,<subtaskname>,Chuẩn bị xong chưa? Để ta thử tài ngươi nhé,Khá lắm, xem ra ngươi đã nhớ hết rồi, hãy đi tìm Vạn Hữu Toàn, hắn có chuẩn bị món quà cho ngươi!,Trả lời sai rồi, thử lại đi.,10,5,52,53,54,55,56,Kim Cang: Ngươi có thể về trả nhiệm vụ,false,Xin chào!,Ngươi thật đáng khen"
+            },
+            {
+              "id": 2930,
+              "sub_id": 660,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "GivePlayerItem",
+              "target_params": "6511,5,<subtaskname>,<npc=6511>: \"Thời gian này nghĩa quân của Tân Thủ Thôn đều rất bận rộn, Điềm Tửu Thúc, Hà Diệp tỷ, Phiêu Tịnh muội muội đều phải chuẩn bị lễ cưới, đây là Pháo Hoàng Gia, hãy thử tài nghệ của Bất Động Tiên Sinh nào.\"<end>,{Pháo Hoàng Gia,20,1,576,1,0,1},Đi tìm Vạn Hữu Toàn lấy pháo hoa,Đi tìm Vạn Hữu Toàn lấy pháo hoa,Xin chào!,Ngươi thật đáng khen"
+            },
+            {
+              "id": 2931,
+              "sub_id": 660,
+              "step_index": 5,
+              "instruction": "",
+              "target_function": "CastSkill",
+              "target_params": "{20,1,576,1,0,-1,},1561"
+            },
+            {
+              "id": 2932,
+              "sub_id": 660,
+              "step_index": 6,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "6513,5,<subtaskname>,<npc=6513>: \"Sao nào, ngạc nhiên không?\"<end>\n<playername>: \"Trong lúc ta xông pha giang hồ, mọi người ở nhà cũng đã vất vả không ít.\"<end>\n<npc=6513>: \"Ha ha, còn nhiều điều bất ngờ lắm, hãy đi tìm Nguyệt Lão, ông ta sẽ đưa ngươi đi xem sân khấu hôn lễ mà mọi người đang chuẩn bị, chắc chắn sẽ náo nhiệt lắm.\"<end>,Báo cáo tình hình với Hồng Nương,Báo cáo tình hình với Hồng Nương,Xin chào!,Ngươi thật đáng khen"
+            },
+            {
+              "id": 2933,
+              "sub_id": 660,
+              "step_index": 7,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "6510,5,<subtaskname>,<npc=6510>: \"<playername>, đã lâu không gặp, nay ngươi cũng đã xây dựng được một khoảng trời riêng cho mình rồi, đúng là hậu sinh khả úy.\"<end>\n<playername>: \"Người quá khen, Hồng Nương nói Người có vật muốn đưa tại hạ xem?\"<end>\n<npc=6510>: \"Đúng vậy, ngươi hãyđến Hiệp Sĩ Danh Cư tìm đệ tử của ta là Vạn Phúc, hắn sẽ đưa ngươi đi tham quan.\"<end>,Tìm Nguyệt Lão hỏi tình hình sân khấu hôn lễ,Tìm Nguyệt Lão hỏi tình hình sân khấu hôn lễ,Xin chào!,Ngươi thật đáng khen"
+            },
+            {
+              "id": 2934,
+              "sub_id": 660,
+              "step_index": 8,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "6514,498,<subtaskname>,<npc=6514>: \"Nơi này non nước hữu tình, quả đúng là mảnh đất lành. Ngôi nhà tuy đơn sơ nhưng phong thủy rất tốt. Nhìn mọi người nói cười rôm rả, ta cũng muốn được hòa mình vào không khí náo nhiệt này. Cùng nhảy nào, hula hula...\"<end>,Đến Hiệp Sĩ Danh Cư tìm Vạn Phúc,Đến Hiệp Sĩ Danh Cư tìm Vạn Phúc,Xin chào!,Ngươi thật đáng khen"
+            },
+            {
+              "id": 2935,
+              "sub_id": 660,
+              "step_index": 9,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "6515,499,<subtaskname>,<npc=6515>: \"Hoan nghênh đến tham quan phủ đệ Quý Tộc. Trong đêm đèn hoa náo nhiệt này, phải chăng ngươi vẫn cảm thấy có chút trống trải cô đơn? Dòng đời ngược xuôi, chỉ khi tìm về nơi sông nước yên bình này, lòng người mới được khuây khỏa.\"<end>\n<npc=6515>: \"Nếu có thêm giai nhân bên cạnh, hồng tụ thiêm hương thì đúng là không còn gì bằng. Có thể chính trong đêm nay số phận sẽ gõ cửa đấy, ngươi còn chờ gì nữa?\"<end>,Đến Trang Viên Quý Tộc tìm Vạn Lộc,Đến Trang Viên Quý Tộc tìm Vạn Lộc,Xin chào!,Ngươi thật đáng khen"
+            },
+            {
+              "id": 2936,
+              "sub_id": 660,
+              "step_index": 10,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "6516,500,<subtaskname>,<npc=6516>: \"Trời xanh nước biếc, dải cát mịn màng... Hẳn ai cũng từng mơ có ngày được tay trong tay cùng người yêu dạo bước trên bãi biển, để mỗi dấu chân trên cát đều là một kỷ niệm đẹp.\"<end>,Đến Bãi Biển Vương Hầu tìm Vạn Thọ,Đến Bãi Biển Vương Hầu tìm Vạn Thọ,Xin chào!,Ngươi thật đáng khen"
+            },
+            {
+              "id": 2937,
+              "sub_id": 660,
+              "step_index": 11,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "6517,575,<subtaskname>,<npc=6517>: \"Ta là chú chim nhỏ tung cánh bay lượn, tuy không phải thần tiên, nhưng giây phút này ta thấy mình hạnh phúc hơn cả tất cả.\"<end>,Đến Hoàng Gia Tiên Cảnh tìm Vạn Hỷ,Đến Hoàng Gia Tiên Cảnh tìm Vạn Hỷ,Xin chào!,Ngươi thật đáng khen"
+            },
+            {
+              "id": 2938,
+              "sub_id": 660,
+              "step_index": 12,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "6513,5,<subtaskname>,<npc=6513>: \"Sao nào, đã tham quan hết 4 sân khấu hôn lễ rồi chứ?\"<end>\n<playername>: \"Thật tuyệt vời, ta cũng muốn kết hôn!\"<end>\n<npc=6513>: \"Được thôi, khi nào ngươi tìm được ý chung nhân hãy đến tìm ta.\"<end>\n<npc=6513>: \"Thập lý bình hồ sương mãn thiên, thốn thốn thanh ti sầu hoa niên. Đối nguyệt hình đơn vọng tương hộ, chỉ tiễn ương uyên bất tiễn tiên.\"<end>,Về tìm Hồng Nương nhận thưởng,Về tìm Hồng Nương nhận thưởng,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 837,
+              "sub_id": 660,
+              "phase": "start",
+              "cleaned_text": "[Hồng Di [Hướng dẫn Điển Lễ ]]: \"Cuối cùng thì ngươi đã tới, ta có tin tốt cho ngươi đây.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 468,
+      "task_id_hex": "00000000000001d4",
+      "name": "\"Vô Tự Thiên Thư\"",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Nhiệm vụ chính tuyến",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\00000000000001D4.xml",
+      "subtasks": [
+        {
+          "sub_id": 661,
+          "sub_id_hex": "0000000000000295",
+          "task_id": 468,
+          "name": "\"Vô Tự Thiên Thư\"",
+          "describe_cleaned": "Trở về nghĩa quân gặp Thu Di, người rất vui mừng, nhưng cũng không quên nhắc nhở ta phải chuyên tâm rèn luyện võ nghệ. Gần đây Thu Di có được 1 quyển Vô Tự Thiên Thư, biết rằng vật này ẩn chứa 1 bí mật to lớn, nhưng lại không cách nào lĩnh ngộ được. Được biết Thiếu chủ Phục Ngưu Sơn Quân Doanh-Phòng Thiếu Long có manh mối, ta quyết định đến đó thử xem sao.\n• Thu Di nhờ ta đi tìm Trang chủ Phục Ngưu Sơn Quân Doanh [Phòng Thiếu Long tại Map_s1 (1688/2988)] phá giải bí mật Thiên Thư, có thể nhờ Truyền Tống Quân Doanh ở Tân Thủ Thôn đưa đi.  Nhắc nhở:  Lúc nhận mật tịch dựa vào môn phái lúc đó làm chuẩn, người chơi có Phụ tu môn phái xin suy nghĩ kỹ môn phái của mình khi nhận thưởng.\n• Đến Phục Ngưu Sơn Trang, Phòng Thiếu Long bảo ta đến [Thiền Viện tại Map_s1 (1436/2998)] dâng hương cho Linh Tuệ Thiền Sư - người đã viết quyển mật tịch này.  Nhắc nhở:  Lúc nhận mật tịch dựa vào môn phái lúc đó làm chuẩn, người chơi có Phụ tu môn phái xin suy nghĩ kỹ môn phái của mình khi nhận thưởng.\n• Dâng hương xong, Phòng Thiếu Long bảo ta đi tìm [Đại Thông Thiền Sư tại Map_s1 (1426/2990)] tìm hiểu cách phá giải Thiên Thư.  Nhắc nhở:  Lúc nhận mật tịch dựa vào môn phái lúc đó làm chuẩn, người chơi có Phụ tu môn phái xin suy nghĩ kỹ môn phái của mình khi nhận thưởng.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000295.xml",
+          "dialog_npc_id": 3570,
+          "dialog_npc_name": "Bạch Thu Lâm [<color=green>Thủ Lĩnh Nghĩa Quân<color>]",
+          "steps": [
+            {
+              "id": 2939,
+              "sub_id": 661,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "GivePlayerItem; TaskAct:StepOverEvent",
+              "target_params": "4057,0,<subtaskname>,<playername>: \"Phòng trang chủ, ta là <playername>, phụng lệnh thủ lĩnh nghĩa quân Bạch Thu Lâm đến thỉnh giáo về \"Vô Tự Thiên Thư\".\"<end>\n<npc=4057>: \"Lại là ngươi à! Ta xem nào... Quả đúng là cốt cách phi phàm, ta nhớ trước đây ngươi có đến mượn \"Bách Xích Kinh\", đã chiêm nghiệm tinh thông hết chưa?\"<end>\n<playername>: \"Đã thông suốt từ lâu, nên quyển \"Vô Tự Thiên Thư\" này...\"<end>\n<npc=4057>: \"Không cần nhiều lời, ngươi hãy đi tìm Đại Thông Thiền Sư đi.\"<end>,{Nhang đèn,20,1,627,1,0,1},Tìm được Phòng Thiếu Long,Tìm được Phòng Thiếu Long,Xin chào!,Ngươi thật đáng khen; Đến Linh Tuệ Thiền Viện dâng hương"
+            },
+            {
+              "id": 2940,
+              "sub_id": 661,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "CastSkillAtArea; TaskAct:StepOverWithTalk",
+              "target_params": "{20,1,627,1,0,-1,},306,0,1436,2998,5; <npc=4049>: \"Thiện tai! Thiện tai! Người có duyên cuối cùng đã đến!\"<end>,Tìm Đại Thông Thiền Sư thỉnh giáo về \"Vô Tự Thiên Thư\""
+            },
+            {
+              "id": 2941,
+              "sub_id": 661,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "4049,0,<subtaskname>,<playername>: \"Đại sư!\"<end>\n<npc=4049>: \"Phật nói: Không cần nói, không cần nói! Thí chủ đã đến đây một lần rồi, lão nạp cũng không nói nhiều nữa, rồi ngươi sẽ hiểu thôi!\"<end>,Thỉnh giáo \"Vô Tự Thiên Thư\",Thỉnh giáo \"Vô Tự Thiên Thư\",Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 838,
+              "sub_id": 661,
+              "phase": "start",
+              "cleaned_text": "[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"[Đại Hiệp], từ sau lần luyện \"Bách Xích Kinh\", võ công đến nay có tiến triển gì không?\"\n[Đại Hiệp]: \"Nói ra thật hổ thẹn, gần đây võ công dường như dậm chân tại chỗ, khiến ta rất phiền não.\"\n[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Chớ nóng vội. Đây là quá trình mà bất kỳ người học võ nào cũng sẽ gặp phải. Nếu muốn đạt được thành tựu cao hơn, người học võ cần phải đột phá được cực hạn của bản thân, nhưng đây là điều rất khó khăn. Gần đây ta có được 1 quyển \"Vô Tự Thiên Thư\", trong nghĩa quân không ai có thể nắm bắt được sự kỳ diệu trong nó, ngươi có muốn thử sức không?\"\n[Đại Hiệp]: \"Nhưng không có manh mối, ta biết phải bắt đầu từ đâu?\"\n[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Trang chủ Phục Ngưu Sơn Trang - Phòng Thiếu Long chắc sẽ có manh mối gì đó. \"Bách Xích Kinh\" lần trước cũng có được từ chỗ hắn. Ngươi có thể tìm người truyền tống quân doanh Vương Thương Ân để được đưa đến đó.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 469,
+      "task_id_hex": "00000000000001d5",
+      "name": "Tâm Nguyện",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Nhiệm vụ chính tuyến",
+      "order_type": "linear",
+      "repeat": 1,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\00000000000001D5.xml",
+      "subtasks": [
+        {
+          "sub_id": 662,
+          "sub_id_hex": "0000000000000296",
+          "task_id": 469,
+          "name": "Tâm Nguyện",
+          "describe_cleaned": "西南大部地区遭受百年不遇的旱灾, 百姓饮水极度困难, 万亩良田绝收.西北部地区更是遭受了七级强烈地震.当地百姓sinh lực财产损失严重!让我们每天节约用水, 让我们尽一份自己的绵薄之力, 让我们为灾区的兄弟姐妹们chúc phúc吧!让我们心连心, 手拉手, 共同走出阴霾!\n• 前方千里加急, 仿佛有大事发生了.赶回军中第一个要拜见的是[Thu Lâm - Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]], 了解详情.\n• 听得Thu Lâm此番话, 我不知如何安慰, 带着沉重的心情, 我要赶往[Long Ngũ Thái Gia - Long Ngũ Thái Gia [Nguyên Lão Nghĩa Quân]]处, 希望他老人家安好.\n• 告别了Long Ngũ Thái Gia, 我要去[斩经叔 - Trương Trảm Kinh [Chủ Tiệm Thuốc]]处, 了解灾区疾病防治情况.\n• 灾区情况不容乐观, 许多干旱地区卫生状况让人忧虑, 我将赶到[荷叶姐 - Thẩm Hà Diệp [Chủ Tiệm Phòng Cụ]]处, 希望能得到其他有用的信息.\n• 拜别了荷叶姐, 我似乎看到了希望, 因为有这么多的兄弟姐妹在关注着灾区的情况, [谢贤 - Tạ Hiền [Chủ Tiền Trang]]似乎已经为灾区做了很多事.\n• 大爱穿越千山万水, 一批批的救灾物资已经送到了震区和旱区, 只要团结一心, 没有战胜不了的困难, 现在就去找[Thu Lâm - Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]吧.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000296.xml",
+          "dialog_npc_id": 3570,
+          "dialog_npc_name": "Bạch Thu Lâm [<color=green>Thủ Lĩnh Nghĩa Quân<color>]",
+          "steps": [
+            {
+              "id": 2942,
+              "sub_id": 662,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent; TaskAct:AddExp",
+              "target_params": "3570,0,<subtaskname>,<npc=3570>: \"我国西南部今年遭受了百年不遇的特大旱灾, 目前已有五个地区受灾严重, 当地百姓缺少生活用水, 大量牲畜死亡, 万亩良田绝收!\"<end>\n<npc=3570>: \"而就在四月十四日, 我国西北部高原地区又发生了强烈地震, 据加急消息反馈, 当地无数民房倒塌, 百姓伤亡惨重, 急需救援!\"<end>\n<playername>: \"这……这是天灾啊!纵然我们有着善良美好的心灵, 却是最终敌不过天灾.<playername>的心好疼!\"<end>\n<npc=3570>: \"Thu Lâm能理解你此刻的心情!但<playername>, 现在不是我们哭泣的时刻, 因为前方的灾情需要我们, 西南旱灾地区的百姓需要我们, 西北震区的兄弟姐妹需要我们, 我们此刻必须尽自己所能最大程度缓解灾情.\"<end>\n<npc=3570>: \"擦干你的眼泪!现在义军各部Thủ Lĩnh都已经得到了各类相关的灾情讯息, 去找他们进行深入的了解吧!\"<end>,Đối thoại với Thu Lâm,Đối thoại với Thu Lâm; Đến Tân Thủ Thôn tìm Long Ngũ Thái Gia; 20000"
+            },
+            {
+              "id": 2943,
+              "sub_id": 662,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent; TaskAct:AddExp",
+              "target_params": "3571,0,<subtaskname>,<playername>: \"太爷, <playername>来了, 方才听Thu Lâm说了关于西南地区旱灾和不久前发生的西北地区强烈地震, 真是祸不单行!\"<end>\n<npc=3571>: \"是<playername>啊?你终于来了!因为赈灾这事儿, 义军之中已经忙不过来了, 义军的赈灾先遣部队已经随时待命可以出发前往灾区, 听到西部受灾的消息, 许多百姓也自发的捐献物资, 这让老太爷我很是欣慰啊!\"<end>\n<playername>: \"<playername>此lần赶回军中的路途上也有听闻, 只要大家团结一心, 没有过不去的坎儿!不过话说回来, 太爷您也要注意休息, 莫要操劳坏了身体才是!\"<end>\n<npc=3571>: \"瞧瞧, 又来了不是?我这把老骨头再折腾上个十年八年还是没问题的.好了, 现在我没工夫和你闲扯皮, 方才我听人说张斩经那儿有收集到灾区的其他情况, 你这就去打探打探吧.\"<end>\n<playername>: \"<playername>这就前去找张叔.\"<end>,Đối thoại với Long Ngũ Thái Gia,Đối thoại với Long Ngũ Thái Gia; Ta phải đi tìm Trương thúc để nắm tình hình mới nhất; 20000"
+            },
+            {
+              "id": 2944,
+              "sub_id": 662,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent; TaskAct:AddExp",
+              "target_params": "3564,0,<subtaskname>,<npc=3564>: \"<playername>, 来来来.这儿正好有些讯息要带给你!\"<end>\n<playername>: \"斩经叔, <playername>此lần回来是听说西部的两大灾情, 你这里是否得到了关于两大灾情的最新消息?\"<end>\n<npc=3564>: \"灾情不容乐观啊, 据西南部旱灾地区传来的消息, 受灾人口已经达到两千多万人,饮水困难人口近千万人.农作物受旱面积近一亿亩\"<end>\n<playername>: \"这数字, 真是触目惊心!让人听在耳里, 疼在心上!\"<end>\n<npc=3564>: \"我何尝不疼, 灾情目前仍很严峻, 河水断流. 水井干涸. 农田龟裂.震区的信息我还未得到最新的消息, 我最担心的便是疾病的肆虐!\"\n<npc=3564>: \"愿上天保佑我朝百姓们平安无事!我们一定能携手战胜这场灾难!\"<end>\n<playername>: \"灾情刻不容缓, 我这便去荷叶姐处.\"<end>,Đối thoại với Trương Trảm Kinh,Đối thoại với Trương Trảm Kinh; 救灾行动刻不容缓, 我这便去找荷叶姐; 20000"
+            },
+            {
+              "id": 2945,
+              "sub_id": 662,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent; TaskAct:AddExp",
+              "target_params": "3562,0,<subtaskname>,<npc=3562>: \"<playername>来了啊, 快过来坐, 姐姐现在有些忙.\"<end>\n<playername>: \"荷叶姐, <playername>就是回到军中帮忙来了.旱区和震区的灾情我已经了解了一些基本信息.\"<end>\n<npc=3562>: \"谢谢你, 义军的上上下下现在都忙开了.我刚从情报员处得到的震区情况, 目前震区很缺帐篷, 也缺少御寒的衣物, 不过更严重的是灾区的水已经遭到污染, 食物和水缺乏, 希望支援的食物最好是干粮等易于保存的, 因为它们不宜腐烂\".<end>\n<playername>: \"这些都是灾后容易发生的情况啊!荷叶姐, 你先和姐妹们赶制衣物帐篷, 你说的这些信息我将传达给Thu Lâm.现在我便去找谢贤叔.\"<end>,Đối thoại với Thẩm Hà Diệp,Đối thoại với Thẩm Hà Diệp; Đối thoại với Tạ Hiền; 20000"
+            },
+            {
+              "id": 2946,
+              "sub_id": 662,
+              "step_index": 5,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent; TaskAct:AddExp",
+              "target_params": "3567,0,<subtaskname>,<playername>: \"谢贤叔, <playername>这lần是专门为了灾区赈灾之事前来拜访.\"<end>\n<npc=3567>: \"<playername>, 你的出现一定能帮上不少忙, 现在我正动员军中的兄弟姐妹以及附近的百姓为灾区捐资捐物!很多百姓把自己的被褥. 衣物. 帐篷和水都送到了军中, 可是西南和西北部路途遥远, 我担心时间上会有拖沓啊!\"<end>\n<playername>: \"这……事情总有办法可以解决的, 我们可以快马加鞭联系当地义军分营, 当地的将军已经在筹备赈灾物资了\"<end>\n<npc=3567>: \"远水解不了近渴啊, 我听说当地的孩子们很久没洗手了, 因为缺水, 孩子们甚至喝脏水解渴, 这让我情何以堪……\"<end>\n<playername>: \"谢贤叔莫要心酸, 八方有难, 五湖四海支援.地震无情, 旱灾无情, 人有情.我们都在为之做着哪怕是微小的努力, 一切都会好起来!\"<end>,Đối thoại với Tạ Hiền,Đối thoại với Tạ Hiền; Báo cáo tình hình với Thu Lâm; 20000"
+            },
+            {
+              "id": 2947,
+              "sub_id": 662,
+              "step_index": 6,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:SetTaskValueOnFinish",
+              "target_params": "3570,0,<subtaskname>,<playername>: \"Thu Lâm, 方才我从各处得到的关于灾情的讯息, 西南方面, 饮用水是当前急需解决的问题; 而震区灾情则更为紧急, 瓦砾下的生还者必须用最快速度进行救援; 另外各种物资的紧缺也是需要解决的问题……\"<end>\n<npc=3570>: \"我多希望这是一场梦!一场恶梦, 快醒吧!\"<end>\n<playername>: \"自然灾难人所不愿, 但是即然已经出现, 就让我们一起勇敢面对吧!在这里为死者节哀, 为伤者祈祷, 为救援者加油.\"<end>\n<npc=3570>: \"为了明天, 为了希望, 为了孩子们天真可爱的笑容, 让我们用爱来为灾区的人们送出自己最温馨的祝福!因为我们是一家人!\"<end>,Đối thoại với Thu Lâm,Đối thoại với Thu Lâm; 1025,16,1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 839,
+              "sub_id": 662,
+              "phase": "start",
+              "cleaned_text": "[Đại Hiệp]: \"Thu Lâm, [Đại Hiệp] đến rồi, có chuyện gì mà vội vậy?\"\n[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Xem ra ngươi vẫn chưa biết gì, chuyện quan trọng liên quan đến tính mạng đó!\""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -37,7 +37,6 @@ GENEALOGY_FILE = Path("worldbuilding/factions/genealogy_matrix.md")
 FACTIONS_FILE = Path("worldbuilding/factions/factions_ledger.md")
 ORGS_FILE = Path("worldbuilding/factions/organizations_ledger.md")
 ARTIFACTS_FILE = Path("worldbuilding/artifacts/artifacts_ledger.md")
-TRAVEL_MATRIX_FILE = Path("worldbuilding/geography/travel_matrix.md")
 LEXICON_FILE = Path("worldbuilding/style/wuxia_lexicon.json")
 CHAPTERS_DIR = Path("chapters")
 
@@ -100,12 +99,9 @@ def load_canonical_entities() -> dict[str, set[str]]:
             if clean_art:
                 entities["artifacts"].add(clean_art)
 
-    # 5. Load from worldbuilding/geography/travel_matrix.md (Geographical Locations & Routes)
-    if TRAVEL_MATRIX_FILE.exists():
-        text = TRAVEL_MATRIX_FILE.read_text(encoding="utf-8")
-        locs = re.findall(r"\b([A-ZÀ-ỸĐ][a-zà-ỹđ]+(?:\s+[A-ZÀ-ỸĐ][a-zà-ỹđ]+){1,3})\b", text)
-        for loc in locs:
-            entities["locations"].add(loc.strip())
+    # D-064: legacy travel estimates are not an entity allowlist or evidence.
+    # This scanner cannot certify geography, travel time or knowledge transfer.
+    # Review those claims against chapter receipts and the temporal contract.
 
     # 6. Load Factions and Organizations
     for f_path in [FACTIONS_FILE, ORGS_FILE]:

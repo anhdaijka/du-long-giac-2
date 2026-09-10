@@ -129,59 +129,18 @@ def check_gates():
     return 0
 
 def check_temporal_continuity():
-    """Programmatic enforcement of Rule TC-1 to TC-4: Zero Age Drift & Temporal Continuity."""
-    print("\n=== [TEMPORAL-GUARD] SCANNING TEMPORAL CONTINUITY & AGE CONSISTENCY ===")
-    chronology_file = os.path.join("plot", "chronology_matrix.md")
-    if not os.path.exists(chronology_file):
-        print("  [FAIL] Missing master chronology matrix: plot/chronology_matrix.md")
-        return ["[TEMPORAL-FAIL] Missing plot/chronology_matrix.md!"]
-
-    expected_ages_v1 = {
-        "tĩnh xuyên": 20,
-        "tiêu phùng": 17,
-        "hạ nương": 16,
-    }
-
-    errors = []
-    if os.path.exists(BRIEFS_DIR):
-        for bf_name in sorted(os.listdir(BRIEFS_DIR)):
-            if not bf_name.endswith("_brief.md"):
-                continue
-            bf_path = os.path.join(BRIEFS_DIR, bf_name)
-            with open(bf_path, "r", encoding="utf-8") as f:
-                content = f.read()
-
-            # Check age consistency in Volume 1
-            for char_name, exp_age in expected_ages_v1.items():
-                wrong_age_matches = re.findall(rf"{char_name}\s*[\(—–\s]*(\d+)\s*tuổi", content, re.IGNORECASE)
-                for age_str in wrong_age_matches:
-                    age_val = int(age_str)
-                    if age_val != exp_age:
-                        errors.append(
-                            f"[TEMPORAL-FAIL] {bf_name}: Character '{char_name.title()}' has age {age_val} tuổi, "
-                            f"expected {exp_age} tuổi in Volume 1 (1191) per plot/chronology_matrix.md!"
-                        )
-
-            pov_age_match = re.search(r"pov_age:\s*(\d+)", content)
-            pov_match = re.search(r"pov:\s*[\"']?([^\"'\n\r]+)[\"']?", content)
-            if pov_age_match and pov_match:
-                pov_name = pov_match.group(1).strip().lower()
-                declared_age = int(pov_age_match.group(1))
-                if pov_name in expected_ages_v1:
-                    exp = expected_ages_v1[pov_name]
-                    if declared_age != exp:
-                        errors.append(
-                            f"[TEMPORAL-FAIL] {bf_name}: Declared pov_age {declared_age} does not match "
-                            f"canonical age {exp} for {pov_name.title()}!"
-                        )
-
-    if errors:
-        for err in errors:
-            print(f"  {err}")
-        return errors
-    else:
-        print("  [PASS] All Chapter Briefs comply with Rule TC-1 (Zero Age Drift) & Chronology Matrix!")
-        return []
+    """Validate authority routing; semantic temporal review remains chapter-scoped."""
+    import runpy
+    from pathlib import Path
+    checker = runpy.run_path(str(Path(__file__).with_name("temporal-routing-check.py")))
+    errors = checker["check"]()
+    for error in errors:
+        print(f"[TEMPORAL-ROUTING FAIL] {error}")
+    if not errors:
+        print("[TEMPORAL-ROUTING PASS] Current authority references checked.")
+    print("[TEMPORAL SEMANTICS NOT CHECKED] Review checkpoint ages, before/after "
+          "edges, travel and knowledge receipts against the current manuscript.")
+    return errors
 
 if __name__ == "__main__":
     gate_ret = check_gates()

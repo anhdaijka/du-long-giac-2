@@ -1,0 +1,2455 @@
+{
+  "label": "Arc locator 05",
+  "provenance": {
+    "sqlite_path": "story_database.sqlite3",
+    "sqlite_sha256": "b5c30040c9449f2223cf40bfec9866216423a60a82e2333b5cedb4fb5261bdb0",
+    "query_parameters": {
+      "task_ids": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ]
+    },
+    "query_templates": {
+      "task": "SELECT task_id, task_id_hex, name, describe_cleaned, category, category_desc, order_type, repeat, task_type_code, file_path FROM tasks WHERE task_id = ?",
+      "subtasks": "SELECT sub_id, sub_id_hex, task_id, name, describe_cleaned, file_path, dialog_npc_id, dialog_npc_name FROM subtasks WHERE task_id = ? ORDER BY sub_id",
+      "steps": "SELECT id, sub_id, step_index, instruction, target_function, target_params FROM steps WHERE sub_id = ? ORDER BY step_index, id",
+      "dialogues": "SELECT id, sub_id, phase, cleaned_text FROM dialogues WHERE sub_id = ? ORDER BY id"
+    },
+    "result_container": "tasks"
+  },
+  "task_ids": [
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150
+  ],
+  "tasks": [
+    {
+      "task_id": 111,
+      "task_id_hex": "000000000000006f",
+      "name": "Tấn Lang Tửu",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000006F.xml",
+      "subtasks": [
+        {
+          "sub_id": 260,
+          "sub_id_hex": "0000000000000104",
+          "task_id": 111,
+          "name": "Tìm Kim Khoáng",
+          "describe_cleaned": "Lão Túy Đầu ở Hổ Khẩu Trấn rất thích sưu tầm các cách pha chế rượu ngon trong thiên hạ, ông nghe nói rượu ngâm xương của Tấn Lang vị ngọt thơm nồng liền nghĩ cách ngâm một bình Tấn Lang Tửu. Nghe nói Tấn Lang đã từng xuất hiện ở ốc đảo phía Tây Nam, Lão Túy Đầu bèn ra giá cao để mua lại Tấn Lang Cốt từ thương khách.\n• Lão Túy Đầu muốn ngâm một bình Tấn Lang Tửu đã đi khắp nơi để mua Tấn Lang Cốt, nghe nói [ốc đảo tại Cư Diên Trạch (1648/3497)] ở phía Tây Nam thường có Tấn Lang Cốt xuất hiện.\n• Ta cực khổ lắm mới có được Tấn Lang Cốt, bỏ Tấn Lang Cốt vào trong [bã rượu của Lão Túy Đầu tại Cư Diên Trạch (1934/3272)].\n• Tấn Lang Tửu đã bắt đầu ngâm, đòi [Lão Túy Đầu tại Cư Diên Trạch (1935/3269)] tiền công.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000104.xml",
+          "dialog_npc_id": 571,
+          "dialog_npc_name": "Lão Túy Đầu",
+          "steps": [
+            {
+              "id": 1215,
+              "sub_id": 260,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc4Item; TaskAct:StepOverEvent",
+              "target_params": "594,94,{340,},0.6,9,false; Bỏ Tấn Lang Cốt vào bã rượu của Lão Túy Đầu"
+            },
+            {
+              "id": 1216,
+              "sub_id": 260,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "WithProcessStatic; TaskAct:StepOverEvent; TaskAct:DelItem",
+              "target_params": "1242,94,10,Bỏ Lang Cốt vào,Bỏ Lang Cốt vào bã rượu,Thất bại,1,Bỏ Lang Cốt vào bã rượu,Bỏ Lang Cốt vào bã rượu,Xin chào!,Ngươi thật đáng khen; Tìm Lão Túy Đầu nhận tiền công; {340,},-1"
+            },
+            {
+              "id": 1217,
+              "sub_id": 260,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "571,94,<subtaskname>,<playername>: \"Ta đã bỏ Tấn Lang Cốt vào bã rượu của ông, tin rằng sẽ nhanh chóng ủ ra Tấn Lang Tửu.\"<end>\n<npc=571>: \"Đa tạ ngươi, đây là phần thưởng hãy nhận lấy!\"<end>,Tìm Lão Túy Đầu nhận tiền công,Tìm Lão Túy Đầu nhận tiền công,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 397,
+              "sub_id": 260,
+              "phase": "start",
+              "cleaned_text": "[Lão Túy Đầu]: \"Vị khách quan này đến từ ốc đảo phía tây nam sao? Ta sẽ mua Tấn Lang Cốt với giá cao.\"\n[Đại Hiệp]: \"Tấn Lang Cốt là vật gì? Có tác dụng gì?\"\n[Lão Túy Đầu]: \"Lão phu nghe nói rượu ủ từ Tấn Lang Cốt rất đậm đà. Cuộc đời ta thích nhất là thu thập cách bào chế các loại mỹ tửu, Tấn Lang Tửu là loại rượu ta luôn muốn ủ được. Nhưng Tấn Lang Cốt rất khó tìm, nghe nói ốc đảo phía tây nam thường xuất hiện Tấn Lang nên lão phu mới ra giá cao với thương khách để mua Tấn Lang Cốt. Nếu ngươi lấy được nó, ta sẽ hậu tạ!\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 112,
+      "task_id_hex": "0000000000000070",
+      "name": "Tiểu Mặc Nhĩ",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000070.xml",
+      "subtasks": [
+        {
+          "sub_id": 261,
+          "sub_id_hex": "0000000000000105",
+          "task_id": 112,
+          "name": "Chấp Tử Chi Thủ",
+          "describe_cleaned": "Tiểu Mặc Nhĩ cãi nhau đòi tỉ thí võ công với ca ca là Đại Mặc Nhĩ, bị Đại Mặc Nhĩ đánh bại rồi thì ấm ức bỏ chạy đi. Đại Mặc Nhĩ rất lo lắng nhưng không dám bỏ đi vì sợ Tiểu Mặc Nhĩ sẽ đột nhiên quay về. Trước đây Tiểu Mặc Nhĩ khi tức giận thường đến Tử Mộc Lâm chơi, Đại Mặc Nhĩ nhờ ta đến Tử Mộc Lâm khuyên Tiểu Mặc Nhĩ quay về.\n• Đại Mặc Nhĩ nhờ ta đến Tử Mộc Lâm khuyên [Tiểu Mặc Nhĩ tại Cư Diên Trạch (1902/3727)] quay về.\n• Ta tìm thấy Tiểu Mặc Nhĩ ở gần Tử Mộc Lâm nhưng Tiểu Mặc Nhĩ đã bị rắn của Người bắt rắn cắn bị thương rồi. [Người bắt rắn tại Cư Diên Trạch (1961/3824)] bá chiếm Tử Mộc Lâm, còn đánh bị thương Tiểu Mặc Nhĩ, ta phải dạy cho hắn một bài học mới được đồng thời kiếm [Thuốc giải độc tại Cư Diên Trạch (1945/3893)] về cho Tiểu Mặc Nhĩ.\n• Đem thuốc giải độc cho [Tiểu Mặc Nhĩ tại Cư Diên Trạch (1902/3727)].\n• Trải qua sự việc lần này, Tiểu Mặc Nhĩ hứa sẽ không tự ý bỏ đi nữa, y nhờ ta nói với [Đại Mặc Nhĩ tại Cư Diên Trạch (1891/3334)] lát nữa sẽ về nhà.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000105.xml",
+          "dialog_npc_id": 603,
+          "dialog_npc_name": "Đại Mặc Nhĩ",
+          "steps": [
+            {
+              "id": 1218,
+              "sub_id": 261,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "602,94,<subtaskname>,<npc=602>: \"Hu hu...\"<end>\n<playername>: \"Cậu chính là Tiểu Mặc Nhĩ? Anh trai Đại Mặc Nhĩ nhờ ta đến đưa cậu về, cậu đừng giận anh ấy nữa!\"<end>\n<npc=602>: \"Hu hu... đệ vừa vào Tử Mộc Lâm thì phát hiện nhiều Người bắt rắn ở đó, họ không cho đệ vào còn thả rắn cắn đệ. Chân đệ tê quá, <if me.nSex==0>ca ca<else>tỷ tỷ<endif> có thể giúp ta vào Tử Mộc Lâm tìm thảo dược trị độc rắn không? Nhớ phải cẩn thận bọn Người bắt rắn, chúng rất hung ác!\"<end>\n<playername>: \"Bọn người đó thật ngang ngược, đệ đợi ở đây, ta đi về nhanh thôi.\"<end>,Đến Tử Mộc Lâm tìm Tiểu Mặc Nhĩ,Đến Tử Mộc Lâm tìm Tiểu Mặc Nhĩ,Xin chào!,Ngươi thật đáng khen; Trừng trị Người bắt rắn trong Tử Mộc Lâm rồi lấy một ít Xà dược"
+            },
+            {
+              "id": 1219,
+              "sub_id": 261,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "KillNpc; WithProcess; TaskAct:StepOverEvent",
+              "target_params": "598,94,5,Xin chào!,Ngươi thật đáng khen; 601,94,5,Đang hái,Được Xà dược,Thất bại,{Xà dược,20,1,341,1,0,1},5,Hái được %d/5 Xà dược,Tiến đến Tử Mộc Lâm,Xin chào!,Ngươi thật đáng khen,1981,3816\n1980,3874\n1961,3890\n1981,3915\n1968,3940\n1971,3966\n1956,3961\n1941,3974\n1940,3897\n1960,3881\n1912,3864,30; Đem Xà dược cho Tiểu Mặc Nhĩ"
+            },
+            {
+              "id": 1220,
+              "sub_id": 261,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent; TaskAct:DelItem",
+              "target_params": "602,94,<subtaskname>,<npc=602>: \"Hu hu...\"<end>\n<playername>: \"Đây là Xà dược, đệ mau đắp lên vết thương.\"<end>\n<npc=602>: \"Hu hu… ta sẽ không bỏ nhà đi nữa… xin <if me.nSex==0>ca ca<else>tỷ tỷ<endif> bảo anh Đại Mặc Nhĩ đừng lo, ta sẽ về nhà ngay.\"<end>,Đem thuốc giải cho Tiểu Mặc Nhĩ,Đem thuốc giải cho Tiểu Mặc Nhĩ,Xin chào!,Ngươi thật đáng khen; Báo tin của Tiểu Mặc Nhĩ cho Đại Mặc Nhĩ; {341,},-1"
+            },
+            {
+              "id": 1221,
+              "sub_id": 261,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "603,94,<subtaskname>,<npc=603>: \"<if me.nSex==0>Ca ca<else>Tỷ tỷ<endif> thấy đệ đệ của ta chưa?\"<end>\n<playername>: \"Thấy rồi, nó bị rắn cắn nhưng ta đã đắp thuốc cho nó. Ngươi đừng lo nó sẽ về nhà ngay thôi.\"<end>\n<npc=603>: \"Tạ ơn trời đất! Đa tạ <if me.nSex==0>ca ca<else>tỷ tỷ<endif>! Nếu không cha mà về sẽ đánh ta chết mất!\"<end>,Tìm gặp Đại Mặc Nhĩ,Tìm gặp Đại Mặc Nhĩ,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 398,
+              "sub_id": 261,
+              "phase": "start",
+              "cleaned_text": "[Đại Mặc Nhĩ]: \"Trên đường đi [Nam: ca ca / Nữ: tỷ tỷ] có thấy một thiếu niên tay cầm thương không?\"\n[Đại Hiệp]: \"Không, cậu ấy là?\"\n[Đại Mặc Nhĩ]: \"Nó là Tiểu Mặc Nhĩ em của ta. Sáng nay nó đòi thi đấu thương pháp với ta, sau khi thua thì khóc rồi bỏ nhà ra đi. Ta muốn ra ngoài tìm nhưng lại sợ nó bất chợt về nhà nên đợi ở đây. Lúc trước khi Tiểu Mặc Nhĩ tức giận đều một mình chạy đến Tử Mộc Lâm chơi, nếu [Nam: ca ca / Nữ: tỷ tỷ] không bận việc thì giúp ta tìm em trai về được không?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 113,
+      "task_id_hex": "0000000000000071",
+      "name": "Mua Đi Bán Lại",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000071.xml",
+      "subtasks": [
+        {
+          "sub_id": 262,
+          "sub_id_hex": "0000000000000106",
+          "task_id": 113,
+          "name": "Cờ Đầu Lâu",
+          "describe_cleaned": "Cư Diên Trạch có một loại cỏ quý gọi là Phúc Long Thảo, đeo theo loại cỏ này không chỉ làm cơ thể tỏa ra một hương thơm ngào ngạt mà nghe nói còn có thể đem đến may mắn. Lăng Hoa nghe nói có loại cỏ này xong thì rất muốn có được nó, Tiền Đa Đa sau khi say rượu muốn khoa trương nên đã nhận lời, còn nói sẽ lấy cờ đầu lâu của mã tặc cho Lăng Hoa xem. Tiền Đa Đa sau khi tỉnh rượu vô cùng hối hận, chỉ có thể nhờ Khoái Đao Môn giúp giải quyết việc này. Vân Đại Đao được nhờ đến Cư Diên Trạch, được biết Phúc Long Thảo là loại cỏ may mắn của mã tặc còn cờ đầu lâu thì trong tay kỳ thủ của chúng. Vân Đại Đao biết sức mình không thể nào làm được vụ làm ăn này nên cứ ở lại Hổ Khẩu Trấn muốn chuyển qua cho người khác.\n• Ta tiếp nhận từ Vân Đại Đao vụ làm ăn này, Phúc Long Thảo là cỏ may mắn của [Phi Thương Thủ tại Cư Diên Trạch (1659/3946)], còn cờ đầu lâu thì ở trong tay của [Mã Tặc Kỳ Thủ tại Cư Diên Trạch (1635/3925)].\n• Lấy được cờ đầu lâu và Phúc Long Thảo đúng như kế hoạch, đem giao cho [Lăng Hoa tại Thành Đô Phủ (1592/3240)] ở Thành Đô nhận tiền thưởng.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000106.xml",
+          "dialog_npc_id": 846,
+          "dialog_npc_name": "Vân Đại Đao [Khoái Đao Môn]",
+          "steps": [
+            {
+              "id": 1222,
+              "sub_id": 262,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc4Item; KillBoss4Item; TaskAct:StepOverEvent",
+              "target_params": "841,94,{366,},0.2,6,false,Xin chào!,Ngươi thật đáng khen; 854,94,{20,1,93,1,0,-1,},1,1,false; Mang Cờ đầu lâu cho Lăng Hoa"
+            },
+            {
+              "id": 1223,
+              "sub_id": 262,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem; TaskAct:DelItem",
+              "target_params": "529,27,Mua Đi Bán Lại,<playername>: \"Lăng Hoa cô nương, đây là Cờ đầu lâu mà Tiền công tử tặng cô.\"<end>\n<npc=529>: \"Đây là...đúng nó rồi, Tiền công tử quả là người giữ lời, ta chỉ nói đùa mà huynh ấy lại làm thật. Ơ, chẳng lẽ mùi trên cơ thể ngươi là Phúc Long Thảo? Bán cho ta đi, ta sẽ ra giá cao để mua nó.\"<end>,Đem cờ cho Lăng Hoa,Đem cờ cho Lăng Hoa,Xin chào!,Ngươi thật đáng khen; {93,},-1; {366,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 399,
+              "sub_id": 262,
+              "phase": "start",
+              "cleaned_text": "[Vân Đại Đao [Khoái Đao Môn]]: \"[Nam: Thiếu hiệp / Nữ: Cô nương] muốn nhận vụ làm ăn lớn không? Nếu thành công bảo đảm ngươi giàu to.\"\n[Đại Hiệp]: \"Làm ăn gì? Nói nghe thử xem.\"\n[Vân Đại Đao [Khoái Đao Môn]]: \"Tiền công tử ở Thành Đô sau khi rượu vào đã lỡ nhận lời tặng Cờ đầu lâu của Mã Tặc cho Lăng Hoa chơi, nên ra giá cao cho Khoái Đao Môn ta để có được nó. Sau khi đến đây ta tìm được sào huyệt của Mã Tặc, ta còn phát hiện trên người chúng có Phúc Long Thảo. Khi đeo loại cỏ này toàn thân sẽ tỏa ra mùi thơm ngào ngạt, mang lại may mắn cho người đeo. Hiện giờ loại cỏ này tuy có giá nhưng không có hàng cung ứng. Nếu lấy được Cờ đầu lâu với một ít Phúc Long Thảo, há không phải giàu to sao?\"\n[Đại Hiệp]: \"Vụ làm ăn béo bở thế sao ngươi không tự đi làm?\"\n[Vân Đại Đao [Khoái Đao Môn]]: \"Ta chỉ sợ mình không đủ bản lĩnh, chuyện chưa làm xong thì đã mất mạng rồi. Ta cũng lo lỡ lấy không được Cờ đầu lâu sẽ làm mất uy tín Khoái Đao Môn nên mới nói với ngươi. Nếu muốn làm thì hãy đi tiêu diệt bọn Mã Tặc trong sào huyệt. Cờ đầu lâu trong tay Kỳ Thủ của chúng, còn Phúc Long Thảo thì phải xem vận may của ngươi rồi.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 114,
+      "task_id_hex": "0000000000000072",
+      "name": "Trừng Phạt",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000072.xml",
+      "subtasks": [
+        {
+          "sub_id": 263,
+          "sub_id_hex": "0000000000000107",
+          "task_id": 114,
+          "name": "Sự Trả Thù Điên Cuồng",
+          "describe_cleaned": "Từ khi ở sơn cốc phía Tây Nam của Điểm Thương Sơn xuất hiện một Phường Đúc Kiếm thì sơn trại trong vùng đã gặp phải tai ương. Binh khí làm ra từ Phường Đúc Kiếm đều cung cấp cho quân đội Đại Lý Quốc, do giới quyền thế nắm giữ, Thủ Lĩnh Giám Công và bọn Giám Công dám tác oai tác quái một cách trắng trợn. Em vợ của A Nặc trên đường về nhà thì bị bọn chúng làm nhục, quá xấu hổ nên đã tự vẫn. Mã Thị ngày ngày khóc nức nở, A Nặc nhờ ta đến Phường Đúc Kiếm dạy cho đám ngông cuồng đó một bài học để bọn chúng không còn dám làm càn nữa.\n• A Nặc nhờ ta đến Phường Đúc Kiếm ở Điểm Thương Sơn dạy cho đám [Thủ Lĩnh Giám Công tại Điểm Thương Sơn (1603/3735)] và [Giám Công tại Điểm Thương Sơn (1603/3735)] một bài học.\n• Báo tin đã trừng phạt bọn Thủ Lĩnh Giám Công và bọn Giám Công cho [Mã Thị tại Điểm Thương Sơn (1798/3728)].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000107.xml",
+          "dialog_npc_id": 579,
+          "dialog_npc_name": "A Nặc",
+          "steps": [
+            {
+              "id": 1224,
+              "sub_id": 263,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; TaskAct:StepOverEvent",
+              "target_params": "580,98,3,Xin chào!,Ngươi thật đáng khen; 582,98,10,Xin chào!,Ngươi thật đáng khen; Báo tin kẻ xấu ở phường đúc kiếm đã bị trừng trị cho Mã thị, vợ của A Nặc"
+            },
+            {
+              "id": 1225,
+              "sub_id": 263,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "1046,0,<subtaskname>,<playername>: \"Đại tẩu đừng quá đau buồn, ta đã trừng trị bọn ác tặc ở phường đúc kiếm.\"<end>\n<npc=1046>: \"Thật sao? <if me.nSex==0>Thiếu hiệp<else>Cô nương<endif> đúng là đại ân nhân của sơn trại! Tiếc là em ta đã mất, nhưng dù sao cũng trả được thù rồi...\"<end>,Tìm được Mã thị,Tìm được Mã thị"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 400,
+              "sub_id": 263,
+              "phase": "start",
+              "cleaned_text": "[A Nặc]: \"Ôi, bà vợ ngày nào cũng than khóc, phiền chết đi được!\"\n[Đại Hiệp]: \"Vì sao thế?\"\n[A Nặc]: \"[Nam: Thiếu hiệp / Nữ: Cô nương] không biết đâu, nơi này vốn rất yên bình. Sau khi triều đình xây một phường đúc kiếm ở phía tây nam cốc thì bắt đầu không ai được yên. Phường đúc kiếm đó do bọn quyền quý quản lý, vật đúc được sẽ cung cấp trực tiếp cho quân đội mà không bị quản thúc. Vì thế bọn thủ lĩnh giám công và thuộc hạ càng tác oai tác quái, làm chuyện cưỡng hiếp dân nữ.\"\n[Đại Hiệp]: \"Chuyện này liên quan gì đến vợ ngươi?\"\n[A Nặc]: \"Ôi! Em vợ ta trên đường về nhà đã bị bọn xấu đó làm nhục, xấu hổ đã nhảy sông tự vẫn nên ngày nào vợ ta cũng rửa mặt bằng nước mắt... nếu ai có thể trừng trị bọn xấu đó thì người trong sơn trại sẽ vô cùng cảm kích.\""
+            },
+            {
+              "id": 401,
+              "sub_id": 263,
+              "phase": "prize",
+              "cleaned_text": "[Mã Thị]: \"Có lúc con người phải bất đắc dĩ mà phản kháng và tranh đoạt một số chuyện!\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 115,
+      "task_id_hex": "0000000000000073",
+      "name": "Kim Khoáng",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000073.xml",
+      "subtasks": [
+        {
+          "sub_id": 264,
+          "sub_id_hex": "0000000000000108",
+          "task_id": 115,
+          "name": "Sát Nhân Diệt Khẩu",
+          "describe_cleaned": "Phục Ngưu Sơn nằm trên biên giới Tống Kim, do nằm trên dãy núi cao nên quân lính của cả 2 nước đều rất ít hoạt động ở đây. Trong một lần tình cờ, thành viên Nghĩa Quân phát hiện được ở đây một Kim Khoáng, Bạch Thu Lâm ra lệnh cho một người tên là Đồng Gia Dư dẫn theo một nhóm người lên đó đào vàng để tiếp viện cho Nghĩa Quân. Không ngờ Đồng Gia Dư sau khi đến Phục Ngưu Sơn thì bặt vô âm tín, vì thế Bạch Thu Lâm lệnh cho ta đến kim khoáng ở Phục Ngưu Sơn truy tìm tông tích của Đồng Gia Dư.\n• [Đồng Gia Dư tại Phục Ngưu Sơn (1675/3378)] phục mệnh đến Phục Ngưu Sơn xong thì bặt vô âm tín, Bạch Thu Lâm muốn ta đến kim khoáng ở Phục Ngưu Sơn tìm tông tích của y.\n• Không ngờ Đồng Gia Dư lại cấu kết với sơn tặc của Ngưu Lan Trại, những nghĩa quân dẫn theo đều đã bị sát hại. Ta nhất định phải diệt [Gấu Rống tại Phục Ngưu Sơn (1658/3297)] để báo thù cho bọn họ, đem [Kim khoáng thạch tại Phục Ngưu Sơn (1690/3300)] mà họ vất vả đào được về cho Nghĩa Quân.\n• Ta đã giết chết Gấu Rống và Đồng Gia Dư báo thù cho huynh đệ nghĩa quân, đem Kim Khoáng Thạch về cho [Bạch Thu Lâm - Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000108.xml",
+          "dialog_npc_id": 3570,
+          "dialog_npc_name": "Bạch Thu Lâm [<color=green>Thủ Lĩnh Nghĩa Quân<color>]",
+          "steps": [
+            {
+              "id": 1226,
+              "sub_id": 264,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "DialogNpc2FightNpc; TaskAct:StepOverWithTalk",
+              "target_params": "95,1675,3378,632,<subtaskname>,<playername>: \"Ngươi là Đồng Gia Dư à? Ta phụng mệnh Bạch Thu Lâm đến đây. Huynh đệ nghĩa quân ngươi dẫn theo giờ đang ở đâu? Những người có vẻ mặt hung hãn ở Kim khoáng là ai?\"<end>\n<npc=632>: \"Đây...\"<end>\n<npc=570>: \"Lão Đồng, không ngờ nghĩa quân các ngươi lại tìm đến đây. Ngươi còn đứng đó làm gì, hãy bảo các huynh đệ giết <if me.nSex==0>hắn<else>ả<endif>, để <if me.nSex==0>hắn<else>ả<endif> có thể sớm gặp lại nghĩa quân của <if me.nSex==0>hắn<else>ả<endif> dưới Diêm Vương. Sao ngươi còn chưa động thủ.\"<end>\n<npc=632>: \"Ta...\"<end>\n<npc=570>: \"Mau động thủ đi, Hùng Hống Nhị Đương Gia nếu nhìn thấy bộ dạng hiện tại của ngươi, ngươi sẽ không thoát khỏi Ngưu Lan Trại đâu. Còn không mau động thủ!\"<end>\n<npc=632>: \"...\"<end>,605,65,45,Tìm Đồng Gia Dư,Tìm Đồng Gia Dư,Xin chào!,Ngươi thật đáng khen; Không ngờ Đồng Gia Dư lại liên kết với sơn tặc hại chết huynh đệ nghĩa quân, ta nhất định phải giết Hùng Hống để báo thù cho họ. Kim khoáng họ vất vả đào được, ta cũng phải mang về cho nghĩa quân.,Giết Hùng Hống và mang Kim khoáng thạch về"
+            },
+            {
+              "id": 1227,
+              "sub_id": 264,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "KillNpc; WithProcess; TaskAct:StepOverEvent",
+              "target_params": "980,95,1,Xin chào!,Ngươi thật đáng khen; 633,95,5,Đang tìm...,Được Kim khoáng thạch,Thất bại,{Kim khoáng thạch,20,1,90,1,0,1},10,Tìm về %d/10 Kim khoáng thạch,Kim khoáng ở Phục Ngưu Sơn,Xin chào!,Ngươi thật đáng khen,1692,3319\n1702,3310\n1698,3295\n1689,3286\n1701,3279\n1675,3285\n1663,3280\n1635,3303\n1707,3332\n1688,3400\n1675,3414\n1697,3417\n1700,3432\n1697,3394,30; Nói cho Thủ lĩnh nghĩa quân Bạch Thu Lâm biết chuyện xảy ra ở Phục Ngưu Sơn"
+            },
+            {
+              "id": 1228,
+              "sub_id": 264,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "3570,0,<subtaskname>,<npc=3570>: \"Ngươi về rồi, tìm được huynh đệ không?\"<end>\n<playername>: \"Chuyện này... chắc là Đồng Gia Dư kết cấu với sơn tặc Ngưu Lan Trại hại chết họ rồi. Ta đã giết Hùng Hống Nhị Đương Gia của chúng và tên cẩu tặc Đồng Gia Dư báo thù cho họ. Đây là Kim khoáng thạch mà họ đã vất vả đào được\"<end>\n<npc=3570>: \"Chuyện này... phải trách ta... là ta không suy nghĩ chu đáo... ta xin lỗi......\"<end>,Tìm Bạch Thu Lâm,Tìm Bạch Thu Lâm,Xin chào!,Ngươi thật đáng khen; {90,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 402,
+              "sub_id": 264,
+              "phase": "start",
+              "cleaned_text": "[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Có một chuyện phải nói cho ngươi biết, cách đây không lâu có huynh đệ nghĩa quân phát hiện Kim khoáng ở Phục Ngưu Sơn, ta liền phái người đến đó đào, muốn đào một ít để tiếp tế cho nghĩa quân. Nghĩa quân được phái đi do Đồng Gia Dư chỉ huy, đến Phục Ngưu Sơn cũng khá lâu nhưng không thấy tin tức. Ta rất lo, bây giờ không có ai thích hợp đến đó xem,...\"\n[Đại Hiệp]: \"Đến đó đào vàng liệu có bị quan phủ truy bắt không?\"\n[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Không đâu, biên giới Tống Kim ở Phục Ngưu Sơn, địa thế hiểm trở, có rất ít quan binh đến đó. Điều ta lo là sơn tặc ở đó, với một nơi như thế sẽ có sơn tặc chiếm giữ. Huynh đệ nghĩa quân không nhiều, nếu có đánh nhau, hậu quả thật khó lường.\"\n[Đại Hiệp]: \"Đã như vậy thì để ta đi Phục Ngưu Sơn xem thử!\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 116,
+      "task_id_hex": "0000000000000074",
+      "name": "A Lợi Tư",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000074.xml",
+      "subtasks": [
+        {
+          "sub_id": 265,
+          "sub_id_hex": "0000000000000109",
+          "task_id": 116,
+          "name": "Nghi Thức Tà Nguyệt Tam Tinh",
+          "describe_cleaned": "Ngân Vũ Nạp Tư là một thằng bé của Nạp Tư tộc, ca ca của nó là Kim Vũ Nạp Tư lúc nhỏ đã bị một con sói cái tên là A Lợi Tư tha đi mất. Từ đó về sau cha của Ngân Vũ là Nộ Hầu Nạp Tư quyết chí trở thành một Thần Xạ Thủ, bắn chết sói A Lợi Tư. A Lợi Tư là một con sói rất xảo quyệt, Nộ Hầu Nạp Tư đã theo đuổi nó suốt mấy năm trời nhưng lần nào cũng để nó chạy thoát. Lần này Nộ Hầu Nạp Tư đã chuẩn bị đầy đủ, lại đến khu vực bầy sói hoạt động nhiều nhất. Ngân Vũ hơi lo lắng cho cha nên nhờ ta đến đó tìm Nộ Hầu Nạp Tư.\n• Ngân Vũ Nạp Tư nhờ ta đến khu vực bầy sói hoạt động nhiều nhất tìm cha nó là [Nộ Hầu Nạp Tư tại Bành Lãi Cổ Trạch (1531/2612)].\n• Ta tìm thấy Nộ Hầu Nạp Tư đang ẩn nấp tại đó, y nhờ ta bỏ miếng mồi có tẩm thuốc độc vào [Khu vực hoạt động tại Bành Lãi Cổ Trạch (1572/2562)] của bầy sói và giết chết con sói hung tàn [A Lợi Tư tại Bành Lãi Cổ Trạch (1600/2546)].\n• Ta đã giết chết con sói A Lợi Tư, báo tin này cho [Nộ Hầu Nạp Tư tại Bành Lãi Cổ Trạch (1531/2612)].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000109.xml",
+          "dialog_npc_id": 588,
+          "dialog_npc_name": "Ngân Vũ Nạp Tư",
+          "steps": [
+            {
+              "id": 1229,
+              "sub_id": 265,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "GivePlayerItem; TaskAct:StepOverEvent",
+              "target_params": "599,0,A Lợi Tư,<npc=599>: \"Cẩn thận coi chừng bị sói hoang phát hiện tung tích của ngươi, chúng hung dữ lắm đấy!\"<end>\n<playername>: \"Ông là Nộ Hầu Nạp Tư trong thôn à? Con trai của ông Ngân Vũ Nạp Tư rất lo cho ông, kêu ta đến đây thăm ông!\"<end>\n<npc=599>: \"Ngân Vũ từ nhỏ rất hiểu chuyện, nếu ca ca của nó Kim Vũ còn sống chắc cũng hiểu chuyện như vậy... Ta ở đây mấy ngày rồi, không dám manh động. Bầy sói hoang này rất cảnh giác, chúng đã biết mùi của ta. Một khi nó tấn công ta cũng không có cách ứng phó. Cho nên ta đã chuẩn bị Độc Nhĩ, hạ độc chúng. Nhưng cái này chỉ có tác dụng với sói thường, Sói Mẹ tuyệt đối sẽ không bị lừa. Ngươi đồng ý giúp ta không?\"<end>\n<playername>: \"Giúp gì nào?\"<end>\n<npc=599>: \"Ta đuổi theo Sói Mẹ đã mấy năm rồi, dựa vào sức mạnh của ta muốn giết được nó e rằng rất khó. Nếu dựa vào sức mình tiêu diệt nó, ta thà để nó bị người khác giết chết nó. Cho nên chuyện ta nhờ ngươi là giết chết Sói Mẹ A Lợi Tư, mang Độc Nhĩ ta làm để vào nơi hoạt động của sói hoang.\"<end>,{Độc Nhĩ,20,1,342,1,0,1},Tìm Nộ Hầu Nạp Tư,Tìm Nộ Hầu Nạp Tư,Xin chào!,Ngươi thật đáng khen; Giết A Lợi Tư, bỏ Độc Nhĩ"
+            },
+            {
+              "id": 1230,
+              "sub_id": 265,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "AddObj; KillNpc; TaskAct:StepOverEvent",
+              "target_params": "{20,1,342,1,0,-1,},540,Độc Nhĩ,99,1572,2562,15,Tàn tích nơi sói hoang hoạt động; 600,99,1,Xin chào!,Ngươi thật đáng khen; Nói cho Nộ Hầu Nạp Tư biết chuyện giết chết A Lợi Tư"
+            },
+            {
+              "id": 1231,
+              "sub_id": 265,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "599,0,<subtaskname>,<playername>: \"Ta đã giúp ông giết chết Sói Mẹ, Độc Nhĩ cũng đã để rồi.\"<end>\n<npc=599>: \"Tốt quá! Ngươi có thấy bầy Lang Hài xuất hiện không, ta luôn cảm thấy bầy Lang Hài này có điểm khác lạ, nhưng không nói được khác lạ chỗ nào! Thôi bỏ đi. Về nhà trước đã, Ngân Vũ đang đợi ta.\"<end>,Tìm Nộ Hầu Nạp Tư,Tìm Nộ Hầu Nạp Tư"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 403,
+              "sub_id": 265,
+              "phase": "start",
+              "cleaned_text": "[Ngân Vũ Nạp Tư]: \"[Nam: Ca ca / Nữ: Tỷ tỷ] có thể giúp ta không?\"\n[Đại Hiệp]: \"Chuyện gì?\"\n[Ngân Vũ Nạp Tư]: \"Ta tên Ngân Vũ Nạp Tư, ca ca ta tên Kim Vũ Nạp Tư. Ca ca ta từ nhỏ bị Sói Mẹ tên là A Lợi Tư tha đi mất, mọi người nói đã bị nó ăn mất rồi. Từ đó về sau cha ta lập chí trở thành Thần Xạ Thủ, giết A Lợi Tư để báo thù cho ca ca. Nhưng A Lợi Tư rất gian xảo, cha ta đuổi theo nó mấy năm rồi mà vẫn chưa bắt được. Mấy hôm trước cha ta có chuẩn bị, đi bắt giết A Lợi Tư, ta rất lo....\"\n[Đại Hiệp]: \"Lo chuyện gì?\"\n[Ngân Vũ Nạp Tư]: \"Ta không nói được, chỉ biết là lo. A Lợi Tư và sói hoang đang ở tàn tích phía Bắc, cha ta đã đến đó. [Nam: Ca ca / Nữ: Tỷ tỷ] giúp ta đến đó xem tình hình hiện giờ của cha ta thế nào? Người trong thôn không ai muốn đến đó, họ nói ở đó rất nguy hiểm.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 117,
+      "task_id_hex": "0000000000000075",
+      "name": "Gia Thù",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000075.xml",
+      "subtasks": [
+        {
+          "sub_id": 266,
+          "sub_id_hex": "000000000000010a",
+          "task_id": 117,
+          "name": "Tiên Phát Chế Nhân",
+          "describe_cleaned": "Tại sơn trại Ô Bố trên Điểm Thương Sơn gặp được Tử Sở bỏ trốn qua đây từ Đại Tống. Tử Sở kể với ta sau khi Hoàng Thượng đăng cơ, cục diện trong triều có một số biến đổi, giờ đây trong triều ai cũng cảm thấy lo sợ. Gia Vương sau khi đăng cơ đại phong công thần, Triệu Nhữ Như trở thành tể tướng tân triều, bắt đầu việc thanh trừng bè đảng của Lý Hậu. Trong lúc này, Triệu Nhữ Nhu đã lung lạc một nhóm thân tín của mình, đối với những kẻ phản đối mình thì quy là bè đảng của Lý Hậu, cả nhà của Tử Sở đã bị truy sát trong lần thanh trừng này. Sau khi biết được nguyên nhân thật sự việc cả nhà Tử Sở gặp nạn, ta quyết định giúp họ báo mối thù này.\n• Phụ thân của Tử Sở bị thuộc hạ của y là [Thống quân tại Hổ Khâu Kiếm Trì (1941/3776)] và [Giám quân tại Hổ Khâu Kiếm Trì (1921/3788)] hợp sức mưu hại, Tử Sở nhờ ta giúp đỡ tiêu diệt những kẻ độc ác này và đội quân [Trừ Gian Binh tại Hổ Khâu Kiếm Trì (1924/3743)] do bọn chúng xây dựng nên.\n• Quay về Điểm Thương Sơn báo tin đã trả được thù cho [Tử Sở tại Điểm Thương Sơn (1833/3676)].",
+          "file_path": "Stories\\task_publish\\sub\\000000000000010A.xml",
+          "dialog_npc_id": 596,
+          "dialog_npc_name": "Tử Sở",
+          "steps": [
+            {
+              "id": 1232,
+              "sub_id": 266,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; KillNpc; TaskAct:StepOverEvent",
+              "target_params": "589,0,1,Xin chào!,Ngươi thật đáng khen; 590,0,3,Xin chào!,Ngươi thật đáng khen; 591,0,10,Xin chào!,Ngươi thật đáng khen; Về Điểm Thương Sơn tìm Tử Sở"
+            },
+            {
+              "id": 1233,
+              "sub_id": 266,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "596,0,<subtaskname>,<playername>: \"Thù của ngươi đã báo, ngươi có thể an ủi người thân nơi chín suối!\"<end>\n<npc=596>: \"Thật sao? Đa tạ ân đức của <if me.nSex==0>thiếu hiệp<else>nữ hiệp<endif>!\"<end>,Tìm Tử Sở,Tìm Tử Sở"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 404,
+              "sub_id": 266,
+              "phase": "start",
+              "cleaned_text": "[Tử Sở]: \"[Nam: Thiếu hiệp / Nữ: Cô nương] có thể giúp ta một chuyện không?\"\n[Đại Hiệp]: \"Chuyện gì?\"\n[Tử Sở]: \"Chuyện là thế này, ta là con trai của Đại tướng Đại Tống Tử Hiền, vì cả nhà bị hại mà chạy đến đây. Từ lúc Hoàng thượng đăng cơ đến nay, trong triều bắt đầu có đại loạn. Triệu Nhữ Nhu ỷ mình là Thừa tướng, bè cánh đấu đá, vì cha ta và y không hợp ý, nên y đã tâu rằng cha ta là bè cánh của Lý hậu, vì thế tai họa đã ập đến nhà ta, chỉ có mình ta là thoát được.\"\n[Đại Hiệp]: \"Có chuyện này sao?\"\n[Tử Sở]: \"Bè cánh đấu đá vốn là chuyện thường thấy trong triều, nhưng tướng lĩnh thuộc hạ của cha ta vì hám danh lợi đã tạo chứng cứ cha ta cấu kết với Lý hậu, tạo cơ hội cho lão tặc Triệu Nhữ Nhu. Tên này còn phụng mệnh của lão Triệu giết hết cả nhà ta và còn bẩm lên Hoàng thượng là sợ tội tự sát. Ta đi khắp nơi tìm người giúp ta rửa mối hận này, thuộc hạ của cha ta được phong là Vạn Tự Doanh, ở Hổ Khâu Kiếm Trì. Không biết [Nam: thiếu hiệp / Nữ: nữ hiệp] có thể thay ta báo thù không?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 118,
+      "task_id_hex": "0000000000000076",
+      "name": "Tử Ngọc Băng Xà",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000076.xml",
+      "subtasks": [
+        {
+          "sub_id": 267,
+          "sub_id_hex": "000000000000010b",
+          "task_id": 118,
+          "name": "Bắt Tử Ngọc Băng Xà",
+          "describe_cleaned": "Trong Hưởng Thủy Động có Tử Ngọc Khoáng Thạch quý, mài nó ra thành bột trị vết thương rất tốt. Loài Băng Xà sống dựa vào Tử Ngọc cũng là một loại linh dược có rất nhiều công năng. Bất Động tiên sinh sau khi biết tin này đã nhờ Bạch Thu Lâm tuyển chọn ra một nhóm tinh binh đến Hưởng Thủy Động thu thập Tử Ngọc, bắt Băng Xà; Bạch Thu Lâm quyết định phái ta đến đó.\n• Theo như Bất Động tiên sinh nói phía Tây Bắc của Hưởng Thủy Động có 3 chỗ [mạch khoáng Tử Ngọc tại Hưởng Thủy Động (1688/3333)], còn [Băng Xà tại Hưởng Thủy Động (1680/3312)] sống ở gần Tử Ngọc; lúc thu thập Tử Ngọc phải coi chừng bị Băng Xà tấn công.\n• Đem Tử Thạch và Băng Xà bắt được cho [Bất Động Tiên Sinh - Bất Động Tiên Sinh [Chủ Tiệm Tạp Hóa]].",
+          "file_path": "Stories\\task_publish\\sub\\000000000000010B.xml",
+          "dialog_npc_id": 3570,
+          "dialog_npc_name": "Bạch Thu Lâm [<color=green>Thủ Lĩnh Nghĩa Quân<color>]",
+          "steps": [
+            {
+              "id": 1234,
+              "sub_id": 267,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "CatchNpc; WithProcess; TaskAct:StepOverEvent",
+              "target_params": "593,97,{20,1,98,1,0,-1,},0.5,6,0,Xin chào!,Ngươi thật đáng khen; 1528,97,5,Đang đào,Được Tử Ngọc Khoáng Thạch,Thất bại,{Tử Ngọc Khoáng Thạch,20,1,99,1,0,1},10,Đào %d/10 Tử Ngọc Khoáng Thạch,Đào Tử Ngọc,Xin chào!,Ngươi thật đáng khen,1613,3358\n1622,3325\n1620,3340\n1617,3373\n1624,3363\n1641,3340\n1634,3329\n1659,3294\n1663,3315\n1674,3288\n1673,3320\n1675,3305\n1693,3295\n1692,3308\n1686,3331\n1741,3214\n1741,3235\n1757,3196\n1775,3212\n1768,3222\n1766,3236\n1780,3196\n1782,3365\n1795,3442\n1796,3427\n1809,3383,30; Mang Tử Ngọc và Băng Xà cho Bất Động tiên sinh"
+            },
+            {
+              "id": 1235,
+              "sub_id": 267,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem; TaskAct:DelItem",
+              "target_params": "3565,0,<subtaskname>,<npc=3565>: \"Nghe nói ngươi đi tìm Tử Ngọc và Băng Xà, kết quả thế nào rồi?\"<end>\n<playername>: \"Tìm được rồi, xem này!\"<end>\n<npc=3565>: \"Ái dà! Thật tốt quá! Trương lão đầu sẽ rất mừng!\"<end>,Tìm Bất Động tiên sinh,Tìm Bất Động tiên sinh,Xin chào!,Ngươi thật đáng khen; {99,},-1; {98,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 405,
+              "sub_id": 267,
+              "phase": "start",
+              "cleaned_text": "[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Đúng rồi, có chuyện quan trọng cần ngươi làm!\"\n[Đại Hiệp]: \"Thu Di cứ nói!\"\n[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Nghe nói Hưởng Thủy Động có Tử Ngọc Khoáng Thạch quý, mài nó ra thành bột trị vết thương rất tốt. Còn có một loại Băng Xà, sống gần Tử Ngọc, cũng là một dược liệu quý. Bất Động tiên sinh muốn dùng hai vật này để mừng thọ Đại gia Trương Trảm Kinh, nên đến nhờ ta. Ta thấy chuyện này cũng tốt cho nghĩa quân, cho nên quyết định phái ngươi đi. Lễ mừng thọ Đại gia Trương Trảm Kinh còn mấy ngày nữa, ngươi không cần phải gấp rút.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 119,
+      "task_id_hex": "0000000000000077",
+      "name": "Hôn Quan",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000077.xml",
+      "subtasks": [
+        {
+          "sub_id": 268,
+          "sub_id_hex": "000000000000010c",
+          "task_id": 119,
+          "name": "Cảnh Cáo Thái Học",
+          "describe_cleaned": "Tại Ô Bố Trại gặp được Cáp Ca Ô Man Tộc. Cáp Ca vốn đã bất mãn với những hành vi của người ở Phường Đúc Kiếm, đã mấy lần đến làm loạn nhưng cũng chưa làm gì được. Nghe nói gần đây có một tổng quản sự tên là Lý Bản Nguyên đến Phường Đúc Kiếm khiến Cáp Ca cảm thấy trong lòng thấp thỏm. Vì Lý Bản Nguyên là hôn quan có tiếng trong thành Đại Lý, do tàn sát dân lành nên mới bị phái đến đây. Nói đến đây Cáp Ca rất phẫn nộ, quyết tâm đuổi Lý Bản Nguyên ra khỏi Điểm Thương Sơn để tránh nguy hại cho trại dân ở đây. Nhưng y biết rằng năng lực của mình không đủ nên đã nhờ ta trợ giúp.\n• Nói đến[Lý Bản Nguyên tại Điểm Thương Sơn (1609/3717)], Cáp Ca vô cùng phẫn nộ, đối với những tên hôn quan xem mạng người như cỏ rác này thì có giết chết hắn cũng đáng. Trong Phường Đúc Kiếm có một đống [Sinh Thiết Khoáng Thạch tại Điểm Thương Sơn (1672/3739)], có thể lấy một ít cho trại dân làm nông cụ.\n• Đem Sinh Thiết Khoáng Thạch lấy từ Phường Đúc Kiếm cho [Cáp Ca tại Điểm Thương Sơn (1837/3651)] ở sơn trại.",
+          "file_path": "Stories\\task_publish\\sub\\000000000000010C.xml",
+          "dialog_npc_id": 586,
+          "dialog_npc_name": "Cáp Ca",
+          "steps": [
+            {
+              "id": 1236,
+              "sub_id": 268,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc; WithProcess; TaskAct:StepOverEvent",
+              "target_params": "585,98,1; 584,98,5,Đang tìm...,Được Sinh Thiết Khoáng Thạch,Thất bại,{Sinh Thiết Khoáng Thạch,20,1,118,1,0,1},10,Tìm %d/10 Sinh Thiết Khoáng Thạch,Được Sinh Thiết Khoáng Thạch,Xin chào!,Ngươi thật đáng khen,1600,3737\n1610,3751\n1614,3749\n1630,3704\n1617,3716\n1629,3744\n1631,3746\n1616,3746\n1634,3705\n1646,3692\n1646,3699\n1647,3747\n1650,3667\n1649,3673\n1658,3723\n1648,3745\n1665,3703\n1668,3711\n1669,3743\n1672,3739\n1664,3753,35; Mang Sinh Thiết Khoáng Thạch đưa cho Cáp Ca ở sơn trại Điểm Thương Sơn"
+            },
+            {
+              "id": 1237,
+              "sub_id": 268,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "586,98,<subtaskname>,<npc=586>: \"<if me.nSex==0>Thiếu hiệp<else>Cô nương<endif> về rồi, chuyện ra sao?\"<end>\n<playername>: \"Rất thuận lợi, đây là Sinh Thiết Khoáng Thạch, ngươi lấy đi làm nông cụ đi!\"<end>\n<npc=586>: \"Thật là cảm kích, ta nhất định sẽ ca ngợi ân đức của ngươi!\"<end>,Mang khoáng thạch cho Cáp Ca,Mang khoáng thạch cho Cáp Ca,Xin chào!,Ngươi thật đáng khen; {118,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 406,
+              "sub_id": 268,
+              "phase": "start",
+              "cleaned_text": "[Cáp Ca]: \"Ta nhất định phải đuổi tên cẩu tặc Lý Bản Nguyên ra khỏi Điểm Thương Sơn...\"\n[Đại Hiệp]: \"Vị huynh đệ này tức giận chuyện gì thế?\"\n[Cáp Ca]: \"[Nam: Thiếu hiệp / Nữ: Cô nương], mấy hôm trước phường đúc kiếm có tổng quản mới đến, tên là Lý Bản Nguyên. Người này là hôn quan nổi danh trong Đại Lý Thành, do tham ô mới bị đưa đến đây. Tên cẩu tặc ở phường đúc kiếm đã làm náo loạn sơn trại chúng ta, nếu thêm Lý Bản Nguyên há chẳng phải họa vô đơn chí, đâu còn đường sống?\"\n[Đại Hiệp]: \"Thế ngươi có dự định gì không?\"\n[Cáp Ca]: \"Tên cẩu quan Lý Bản Nguyên này, chết trăm lần cũng không đủ. Đáng tiếc ta võ nghệ không giỏi, sắp thành lại bại. Thấy [Nam: thiếu hiệp / Nữ: cô nương] cũng là người trong võ lâm, nếu có thể diệt trừ nạn này cho sơn trại ta, chúng ta sẽ rất cảm kích. Nếu ngươi mang về một ít Sinh Thiết Khoáng Thạch cho chúng ta đúc nông cụ, thật đa tạ!\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 120,
+      "task_id_hex": "0000000000000078",
+      "name": "Mua Bán Lớn",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000078.xml",
+      "subtasks": [
+        {
+          "sub_id": 269,
+          "sub_id_hex": "000000000000010d",
+          "task_id": 120,
+          "name": "Điều Tra Gian Tế",
+          "describe_cleaned": "Nạp Tư tộc nhân dần dần ra khỏi Bành Lãi Cổ Trạch, những việc liên quan đến Bành Lãi Cổ Trạch cũng dần được người ta biết đến. Sau khi Tào Bang biết tin Bành Lãi Cổ Trạch có rất nhiều Hươu Rừng, Ngựa Hoang và Thổ Long đã quyết định kiếm lợi từ đây. Tuy nhiên những người từng đến Bành Lãi Cổ Trạch rất ít, biết rằng ta đã từng đến nơi đó nên y muốn mời ta cùng hợp tác.\n• Ân Bốc Nguyên nhờ ta đến Bành Lãi Cổ Trạch bắt một ít [Ngựa Hoang tại Bành Lãi Cổ Trạch (1487/2763)], rồi săn lấy sừng [Hươu Rừng tại Bành Lãi Cổ Trạch (1342/2600)] ở đó, rồi lấy một số Thổ Long Bì từ [Thổ Long tại Bành Lãi Cổ Trạch (1434/2646)].\n• Đem những thứ lấy được cho [Ân Bốc Nguyên tại Tương Dương Phủ (1624/2990)] ở Tương Dương Phủ.",
+          "file_path": "Stories\\task_publish\\sub\\000000000000010D.xml",
+          "dialog_npc_id": 801,
+          "dialog_npc_name": "Ân Bốc Nguyên [Bang Chủ Tào Bang]",
+          "steps": [
+            {
+              "id": 1238,
+              "sub_id": 269,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc4Item; KillNpc4Item; CatchNpc; TaskAct:StepOverEvent",
+              "target_params": "2150,0,{347,},0.5,10,false,Xin chào!,Ngươi thật đáng khen; 847,0,{348,},0.5,10,false; 2152,0,{20,1,349,1,0,-1,},0.5,10,0,Xin chào!,Ngươi thật đáng khen; Mang đồ lấy được đưa cho Ân Bốc Nguyên ở Tương Dương"
+            },
+            {
+              "id": 1239,
+              "sub_id": 269,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem; TaskAct:DelItem; TaskAct:DelItem",
+              "target_params": "801,0,<subtaskname>,<npc=801>: \"Tốt quá, ta đã liên hệ với người mua, chỉ còn đợi ngươi về thôi!\"<end>,Tìm Ân Bốc Nguyên,Tìm Ân Bốc Nguyên,Xin chào!,Ngươi thật đáng khen; {347,},-1; {348,},-1; {349,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 407,
+              "sub_id": 269,
+              "phase": "start",
+              "cleaned_text": "[Ân Bốc Nguyên [Bang Chủ Tào Bang]]: \"Gần đây Tương Dương xuất hiện dị tộc tự xưng là người Nạp Tư, họ đến từ Bành Lãi Cổ Trạch, họ nói ở đó có hươu rừng và ngựa hoang sống thành đàn, còn có thổ long rất quý hiếm. Ta nghĩ đây là thời cơ tốt, nhưng nơi đó ít có người qua lại. Ta chợt nhớ đến ngươi, nghe nói ngươi đã từng đến đó, cho nên muốn tìm ngươi bàn chuyện làm ăn này.\"\n[Đại Hiệp]: \"Phải làm sao?\"\n[Ân Bốc Nguyên [Bang Chủ Tào Bang]]: \"Ngươi đến Bành Lãi Cổ Trạch săn lấy sừng hươu và thổ long bì, bắt ngựa hoang khỏe để bổn bang bán, được không?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 121,
+      "task_id_hex": "0000000000000079",
+      "name": "Bình Loạn",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000079.xml",
+      "subtasks": [
+        {
+          "sub_id": 270,
+          "sub_id_hex": "000000000000010e",
+          "task_id": 121,
+          "name": "Cướp Lấy Hành Động",
+          "describe_cleaned": "Triều đình ra lệnh cho thống soái Vạn Tự Doanh là Tần Khuê, yêu cầu y xuất quân dẹp quân phản loạn ở Nam Doanh và Bắc Doanh Hổ Khâu Kiếm Trì. Tần Khuê hiện đang chiêu mộ binh sĩ để đi dẹp loạn, có nên tham gia không?\n• Theo chỉ thị của Tần Khuê, muốn dẹp yên lần phản loạn này cần phải tiêu diệt [đại tướng Bắc Doanh tại Hổ Khâu Kiếm Trì (1833/3436)] và [đại tướng Nam Doanh tại Hổ Khâu Kiếm Trì (1581/3481)], như vậy tàn quân của [cấm quân Bắc Doanh tại Hổ Khâu Kiếm Trì (1950/3401)] và [cấm quân Nam Doanh tại Hổ Khâu Kiếm Trì (1590/3753)] càng dễ dàng đối phó. (Gợi ý: đại tướng Nam Doanh và đại tướng Bắc Doanh lần lượt ẩn nấp trong cấm quân Nam Doanh và cấm quân Bắc Doanh, hãy tìm kỹ.)\n• Ta theo kế hoạch của Tần Khuê đi dẹp quân phản loạn, giờ có thể đi tìm [Tần Khuê tại Hổ Khâu Kiếm Trì (1959/3600)] lãnh thưởng.",
+          "file_path": "Stories\\task_publish\\sub\\000000000000010E.xml",
+          "dialog_npc_id": 606,
+          "dialog_npc_name": "Tần Khuê [Vạn Tự Doanh]",
+          "steps": [
+            {
+              "id": 1240,
+              "sub_id": 270,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; KillNpc; KillNpc; TaskAct:StepOverEvent",
+              "target_params": "1010,0,1,Xin chào!,Ngươi thật đáng khen; 2147,0,30,Xin chào!,Ngươi thật đáng khen; 1011,0,1,Xin chào!,Ngươi thật đáng khen; 2148,0,30,Xin chào!,Ngươi thật đáng khen; Tìm Tần Khuê Vạn Tự Doanh ở Hổ Khâu Kiếm Trì phục mệnh"
+            },
+            {
+              "id": 1241,
+              "sub_id": 270,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "606,0,<subtaskname>,<npc=606>: \"Ngươi làm rất tốt! Triều đình nhất định sẽ trọng thưởng!\"<end>,Tìm Tần Khuê phục mệnh,Tìm Tần Khuê phục mệnh,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 408,
+              "sub_id": 270,
+              "phase": "start",
+              "cleaned_text": "[Tần Khuê [Vạn Tự Doanh]]: \"Gần đây nhận được công văn của triều đình, đồn trú ở Cấm Quân Bắc Doanh và Cấm Quân Nam Doanh ở Hổ Khâu Kiếm Trì có hành vi tạo phản, đang âm mưu lật đổ triều đình. Triều đình đưa công văn muốn Vạn Tự Doanh ta  khởi binh dẹp loạn. Loạn thế dụng trọng điển, ta đang chiêu mộ nhân tài bình loạn, không biết ngươi có muốn thử không?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 122,
+      "task_id_hex": "000000000000007a",
+      "name": "Lang Hài",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000007A.xml",
+      "subtasks": [
+        {
+          "sub_id": 271,
+          "sub_id_hex": "000000000000010f",
+          "task_id": 122,
+          "name": "Sưu Tập Tội Chứng",
+          "describe_cleaned": "Mại Thán Ông và A Thổ Bá là hảo bằng hữu, A Thổ Bá nghe nói có một đứa trẻ kỳ quái được gọi là Lang Hài, đứa trẻ này được sói nuôi lớn. Lang Hài có cả trí tuệ của người và sự hung tàn của loài sói, nếu gặp phải nó thì khó mà thoát chết. A Thổ Bá cảm thấy rất hiếu kỳ về Lang Hài, nhất quyết phải tìm bắt cho bằng được Lang Hài. Sau khi nghe Hành Cước Thương đã xuất hiện ở Bành Lãi Cổ Trạch, A Thổ Bá liền đến đó, đến nay vẫn bặt vô âm tín, Mại Thán Ông nói ta nếu gặp được A Thổ Bá thì hãy khuyên y quay về, đừng mạo hiểm nữa.\n• [A Thổ Bá tại Bành Lãi Cổ Trạch (1376/3115)] vì truy tìm tông tích của Lang Hài đã đến Bành Lãi Cổ Trạch rất lâu rồi, có thể sẽ tìm thấy y ở đó.\n• Ta tìm thấy A Thổ Bá ở Bành Lãi Cổ Trạch, ngờ đâu y và Lang Hài đã từng giao đấu với nhau. A Thổ Bá không may bị thương, may mà có người Nạp Tư cứu giúp mới bảo toàn được tính mạng. A Thổ Bá muốn ta đến ngôi nhà nát nơi Lang Hài ở và nghĩ cách bắt [Lang Hài tại Bành Lãi Cổ Trạch (1554/2538)] đem về.\n• Không ngờ Lang Hài lại tấn công mãnh liệt như vậy, xem ra giấc mơ của A Thổ Bá khó mà thực hiện được, báo tin tức của Lang Hài cho [A Thổ Bá tại Bành Lãi Cổ Trạch (1376/3115)] thôi.",
+          "file_path": "Stories\\task_publish\\sub\\000000000000010F.xml",
+          "dialog_npc_id": 667,
+          "dialog_npc_name": "Mại Thán Ông",
+          "steps": [
+            {
+              "id": 1242,
+              "sub_id": 271,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "855,0,<subtaskname>,<npc=855>: \"Nếu gặp Lang Hài, ngươi sẽ cảm thấy rất kinh ngạc. Đáng tiếc ta vừa mới tìm thấy nó thì bị nó làm cho trọng thương. Nếu không phải nhờ có huynh đệ Nạp Tư tộc ra tay cứu giúp, thì ta đã sớm bị bầy sói hoang đó xé ra làm trăm mảnh rồi. Nguy hiểm quá!\"<end>\n<playername>: \"Xem ra huynh chính là A Thổ Bá rồi! Hồ Bá bán than nhờ ta đến kêu huynh trở về, đừng tìm Lang Hài nữa, vợ huynh đang đợi huynh về.\"<end>\n<npc=855>: \"Ta không đi, ta phải xem Lang Hài rốt cuộc có hình dáng thế nào, lần trước ta chưa thấy rõ. Thấy ngươi ăn mặc giống như người có võ, nếu ngươi giúp ta bắt Lang Hài, ta sẽ không bạc đãi ngươi. Lang Hài trong ngôi nhà nát ở phía bắc, ở đó có rất nhiều sói hoang. Nếu ngươi đến đó, hãy cẩn thận!\"<end>,Tìm A Thổ Bá,Tìm A Thổ Bá; A Thổ Bá nhờ ta đến ngôi nhà nát ở phía bắc tìm tung tích Lang Hài"
+            },
+            {
+              "id": 1243,
+              "sub_id": 271,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "DialogNpc2FightNpc; TaskAct:StepOverWithTalk",
+              "target_params": "99,1549,2532,856,<subtaskname>,<npc=856>: (Một con sói hung ác nhìn bạn, phát ra tiềng gầm.....)<end>\n<playername>: \"Ngươi đừng sợ, ta sẽ không làm hại ngươi! Ngươi cùng với ta vào trong thôn đi!\"<end>\n<npc=856>: (Hai mắt phát ra vẻ hung tợn, đột nhiên nhảy xổ vào bạn.)<end>,857,70,45,Tìm thấy Lang Hài,Tìm thấy Lang Hài; <playername>: \"Lang Hài đột nhiên tấn công ta, sau khi bị ta đánh trọng thương liền chạy khỏi đây. Xem ra A Thổ Bá muốn bắt Lang Hài thật quá ngây thơ!\"<end>,Nói cho A Thổ Bá biết chuyện Lang Hài chạy mất"
+            },
+            {
+              "id": 1244,
+              "sub_id": 271,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "855,0,<subtaskname>,<npc=855>: \"Sao? Gặp Lang Hài chưa? Bắt được nó không?\"<end>\n<playername>: \"Ta vừa mới gặp nó, nó tấn công ta. Sau khi bị ta đánh trọng thương liền chạy mất rồi, ta nghĩ muốn bắt được nó thật không phải là chuyện dễ!\"<end>\n<npc=855>: \"Sao? Ngươi đả thương nó, thật tội nghiệp...\"<end>,Tìm A Thổ Bá,Tìm A Thổ Bá"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 409,
+              "sub_id": 271,
+              "phase": "start",
+              "cleaned_text": "[Mại Thán Ông]: \"Ta có người bằng hữu cũ tên A Thổ Bá, tính tình giống lão ngoan đồng. Y nghe người ta nói có một loại Lang Hài, nửa người nửa sói, rất có hứng thú với nó, muốn tìm nó cho bằng được. Nhưng ta nghe nói, Lang Hài là do Sói Mẹ nuôi dưỡng, có trí tuệ của người và hung tợn của sói, rất khủng khiếp. Ta cũng có khuyên y, nhưng y cố chấp muốn đi tìm Lang Hài.\"\n[Đại Hiệp]: \"Kết quả thế nào?\"\n[Mại Thán Ông]: \"Giờ chưa có kết quả. Sau khi y nghe Hành Cước Thương nói Bành Lãi Cổ Trạch có Lang Hài xuất hiện, liền đến đó, đến nay không thấy tin tức gì. A Thổ Bá làm tiêu khách mấy năm nay, sơn tặc không phải là đối thủ của hắn. Ta sợ y trêu tức Lang Hài, sẽ mất mạng. Nếu ngươi có dịp đi ngang Bành Lãi Cổ Trạch gặp y, phải giúp ta khuyên y, để y sớm quay về, tẩu tẩu đang đợi y.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 123,
+      "task_id_hex": "000000000000007b",
+      "name": "Trọng Thưởng",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000007B.xml",
+      "subtasks": [
+        {
+          "sub_id": 272,
+          "sub_id_hex": "0000000000000110",
+          "task_id": 123,
+          "name": "Huyền Thưởng Bình Loạn",
+          "describe_cleaned": "Ma Bổ Đầu ở Thái Hành Cổ Kính đang chiêu mộ dũng sĩ đi bắt hung thủ bộ tộc Thú Nhân ở Dược Vương Động, bộ tộc Thú Vương bản tính hiếu chiến, chỉ cần có thực lực là có thể tham gia.\n• Đến Dược Vương Động bắt [Thú Vương Thợ Săn tại Dược Vương Động (1797/3767)] và [Thú Vương Tuần Du tại Dược Vương Động (1883/3729)].\n• Giao Thú Vương Thợ Săn và Thú Vương Tuần Du cho [Ma Bổ Đầu tại Thái Hành Cổ Kính (1623/3246)] của Thái Hành Cổ Kính ở [ngoài Dược Vương Động tại Dược Vương Động (1921/3733)].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000110.xml",
+          "dialog_npc_id": 1243,
+          "dialog_npc_name": "Ma Bổ Đầu",
+          "steps": [
+            {
+              "id": 1245,
+              "sub_id": 272,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "CatchNpc; CatchNpc; TaskAct:StepOverEvent",
+              "target_params": "2139,0,{20,1,344,1,0,-1,},1,30,0,Xin chào!,Ngươi thật đáng khen; 2140,0,{20,1,345,1,0,-1,},1,30,0,Xin chào!,Ngươi thật đáng khen; Tìm Ma bổ đầu lãnh thưởng"
+            },
+            {
+              "id": 1246,
+              "sub_id": 272,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem; TaskAct:DelItem",
+              "target_params": "1243,0,<subtaskname>,<npc=1243>: \"Làm rất tốt! Của ngươi đây!\"<end>,Tìm Ma bổ đầu lãnh thưởng,Tìm Ma bổ đầu lãnh thưởng,Xin chào!,Ngươi thật đáng khen; {345,},-1; {344,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 410,
+              "sub_id": 272,
+              "phase": "start",
+              "cleaned_text": "[Ma Bổ Đầu]: \"Trong Dược Vương Động có Man Tộc từ Tây Nam tới, họ tự xưng là Thú Vương Bộ Tộc. Man Tộc này sau khi đến đây, liên tục quấy phá cư dân vùng này. Tính cách hiếu chiến, gần đây Thú Vương Bộ Tộc lại đả thương, đánh chết cư dân trong vùng, Huyện lệnh đại nhân tức giận đưa ra thưởng vàng cho ai bắt được Man Tộc. Nếu ngươi có thực lực thì bắt chúng mang lại đây cho ta, vàng thưởng nhất định sẽ không ít.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 124,
+      "task_id_hex": "000000000000007c",
+      "name": "Tầm Hồi Quái Vật",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000007C.xml",
+      "subtasks": [
+        {
+          "sub_id": 273,
+          "sub_id_hex": "0000000000000111",
+          "task_id": 124,
+          "name": "Mật Thám Hồi Báo",
+          "describe_cleaned": "Biết được một ít về lịch sử của Ô Man Tộc từ A Nặc, đồng thời cũng biết được ý nghĩa quan trọng của tượng Khổ Thần và Bia đá Thập Bát Linh đối với Ô Man Tộc. Ta đồng ý thỉnh cầu của A Nặc, quyết định lên đường tìm quái vật.\n• A Nặc nói với ta, đám người mấy chục năm nay rời bỏ Ô Man Tộc hiện đang sống trong Dược Vương Động, [tượng Khổ Thần tại Dược Vương Động (1931/3307)] cũng ở đó, y nhờ ta giúp tìm lại tượng Khổ Thần.\n• Ta tìm thấy tượng Khổ Thần trong Dược Vương Động nhưng đó chỉ là đồ giả, giờ chỉ có thể đoạt lấy Bia đá Thập Bát Linh từ trong tay của [Thú Vương Tế Tư tại Dược Vương Động (1767/3396)].\n• Đem Bia đá Thập Bát Linh cho [A Nặc tại Điểm Thương Sơn (1828/3692)] ở Điểm Thương Sơn.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000111.xml",
+          "dialog_npc_id": 579,
+          "dialog_npc_name": "A Nặc",
+          "steps": [
+            {
+              "id": 1247,
+              "sub_id": 273,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "WithProcessStatic; TaskAct:StepOverWithTalk",
+              "target_params": "1530,0,5,Đang tìm,Tìm xong,Thất bại,1,Tìm tượng Khổ Thần,Đến Dược Vương Động,Xin chào!,Ngươi thật đáng khen; Không có tượng Khổ Thần nào giống A Nặc nói là có hàng chữ nhỏ ở dưới đế cả, xem ra là tượng giả.,Đoạt lại bia đá Thập Bát Linh từ tay Thú Vương Tế Tư"
+            },
+            {
+              "id": 1248,
+              "sub_id": 273,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "KillNpc4Item; TaskAct:StepOverEvent",
+              "target_params": "2138,93,{111,},0.6,18,false; Mang bia đá Thập Bát Linh đưa cho A Nặc ở Điểm Thương Sơn"
+            },
+            {
+              "id": 1249,
+              "sub_id": 273,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "579,0,<subtaskname>,<npc=579>: \"Tìm được không?\"<end>\n<playername>: \"Linh bia thạch đã tìm được rồi, nhưng tượng Khổ Thần xem ra không phải là thật, có lẽ không phải họ lấy.\"<end>\n<npc=579>: \"Như vậy là đã rất cảm kích rồi, ơn nghĩa của <if me.nSex==0>thiếu hiệp<else>cô nương<endif>, người Ô Man Tộc chúng ta sẽ luôn ghi nhớ.\"<end>,Tìm A Nặc,Tìm A Nặc,Xin chào!,Ngươi thật đáng khen; {111,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 411,
+              "sub_id": 273,
+              "phase": "start",
+              "cleaned_text": "[A Nặc]: \"Có chuyện muốn nhờ [Nam: thiếu hiệp / Nữ: cô nương] giúp đỡ, không biết có thể ra tay nghĩa hiệp không?\"\n[Đại Hiệp]: \"Cứ nói đi!\"\n[A Nặc]: \"[Nam: Thiếu hiệp / Nữ: Cô nương] có biết Ô Man Tộc ta là bộ tộc lớn, thờ thần tên gọi Khổ Thần. Tổ tiên ta để lại một bia đá ghi chép lại lịch sử Ô Man Tộc, do vô ý bia đá bị vỡ thành 18 mảnh, chúng ta gọi nó là bia đá Thập Bát Linh. Bia đá Thập Bát Linh và tượng Khổ Thần là thánh vật của Ô Man Tộc chúng ta, luôn được giữ ở chỗ tộc trưởng, nhưng hơn 10 năm trước đã không cánh mà bay rồi.\"\n[Đại Hiệp]: \"Sao lại không cánh mà bay?\"\n[A Nặc]: \"Nhiều năm trước có tộc trưởng của một bộ do không hợp ý với tộc trưởng đã dẫn một bộ rời khỏi Đại Lý, từ đó đến nay bặt vô âm tín. Sau này chúng ta được biết họ trú trong Dược Vương Động ở phía bắc, và phái người trộm tượng Khổ Thần và bia đá Thập Bát Linh của chúng ta. Ta muốn nhờ [Nam: thiếu hiệp / Nữ: cô nương] đến Dược Vương Động đoạt lại Linh bia thạch từ tay Tế Tư, và tìm tượng Khổ Thần. Đế của tượng Khổ Thần thật có hàng chữ nhỏ, đừng quên nhé.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 125,
+      "task_id_hex": "000000000000007d",
+      "name": "Đào Ly",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000007D.xml",
+      "subtasks": [
+        {
+          "sub_id": 274,
+          "sub_id_hex": "0000000000000112",
+          "task_id": 125,
+          "name": "Thê Tình Kiếm",
+          "describe_cleaned": "Ta biết được những việc liên quan đến Nhậm Ngọc Anh và Nhậm Gia Trang. Nhậm Ngọc Anh vì người trong mộng đã rời bỏ gia tộc của mình nhưng đây lại là một việc cực kỳ khó khăn. Quy tắc của Nhậm gia là muốn tự lập thì phải vượt ải đánh bại từng người trong gia tộc. Nhậm Ngọc Anh tự biết sức mình không đủ, nên đến nhờ Lý Cổ Nạp Tư cùng sống trên núi giúp đỡ. Lý Cổ Nạp Tư sau khi gặp ta thì chợt nghĩ đến việc nhờ ta giúp Nhậm Ngọc Anh thoát khỏi gia trang.\n• Lý Cổ Nạp Tư nhờ ta đến Nhậm gia trang ở Phục Ngưu Sơn giúp [Nhậm Ngọc Anh tại Phục Ngưu Sơn (1698/3852)] thoát khỏi gia tộc.\n• Nhậm Ngọc Anh nói với ta hiện tại tất cả nam tử của Nhậm gia đã đi ra ngoài hết, chỉ còn một vài nữ nhi ở nhà, đây chính là lúc rời khỏi đây tốt nhất. Tuy nhiên vẫn còn phải đánh bại Lão Tổ Mẫu, đại tẩu và cô cô của nàng. Cô cô ngày thường rất thân với ta, hy vọng [cô cô tại Phục Ngưu Sơn (1706/3793)] sẽ nương tay.\n• Cô cô của Nhậm Ngọc Anh đã chấp nhận thỉnh cầu của ta và để cho ta dẫn [Nhậm Ngọc Anh tại Phục Ngưu Sơn (1698/3852)] mau chóng rời khỏi.\n• Cực khổ lắm cuối cùng ta cũng đã dẫn Nhậm Ngọc Anh thoát khỏi Nhậm Gia Trang, Nhậm Ngọc Anh nhờ [Mại Thán Ông tại Phục Ngưu Sơn (1625/3653)] đưa lễ vật tạ ơn cho ta.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000112.xml",
+          "dialog_npc_id": 978,
+          "dialog_npc_name": "Lý Cổ Nạp Tư",
+          "steps": [
+            {
+              "id": 1250,
+              "sub_id": 274,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "GoPos; TaskAct:StepOverWithTalk",
+              "target_params": "95,1698,3852,5,Tìm được Nhậm Ngọc Anh; <playername>: Cô nương là Ngọc Anh cô nương? Lý Cổ Nạp Tư lão tiên sinh nhờ ta đến giúp nàng rời khỏi Nhậm gia trang, nàng có diệu kế gì nói ta nghe thử.\"<end>\n<npc=608>: \"Diệu kế... Ôi... Nếu có diệu kế thật thì tốt rồi. Bá phụ nhất định đã kể với ngươi quy củ của nhà ta rồi, nếu không làm theo, thì cho dù trốn đến chân trời góc biển cũng bị bắt về thôi. May mà bây giờ tất cả nam nhân trong nhà đều đi làm ăn, chỉ có nữ nhân ở nhà, là thời cơ tốt để bỏ trốn, nhưng cũng không dễ tí nào.\"<end>\n<playername>: \"Sao lại không dễ?\"<end>\n<npc=608>: \"Trong nhà có 4 người nữ, ngoài ta ra còn có Đại Cô, Đại Tẩu và Tổ Mẫu. Trong 3 người, võ công Tổ Mẫu cao thâm khó lường nhất, kế đến là Đại Cô, sau nữa là Đại Tẩu. Thường ngày Đại Cô thương ta nhất, nếu được cô âm thầm giúp đỡ thì ta bớt được một đối thủ mạnh. Đại Tẩu tuy còn trẻ nhưng võ nghệ không bằng ta, võ nghệ Tổ Mẫu tinh thâm nhưng tuổi đã cao, sức lực cũng yếu đi. Nên ta muốn nhờ ngươi thuyết phục Đại Cô ta đừng động thủ với ta.\"<end>,Thuyết phục Đại Cô của Nhậm Ngọc Anh"
+            },
+            {
+              "id": 1251,
+              "sub_id": 274,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "610,95,<subtaskname>,<playername>: \"Vị đại tẩu này là Đại Cô của Ngọc Anh cô nương phải không? Tâm ý của Ngọc Anh chắc người cũng hiểu rõ rồi chứ?\"<end>\n<npc=610>: \"Ngươi là ai? Sao lại xuất hiện ở đây? Nếu bị mẫu thân và cháu dâu ta nhìn thấy thì không hay đâu.\"<end>\n<playername>: \"Không sao, ta đến để nhờ người giúp Ngọc Anh cô nương rời khỏi Nhậm gia trang. Chắc người cũng biết rõ tâm ý của Ngọc Anh, nàng ấy không muốn người mình yêu phải ở rể nên chỉ có thể chọn con đường này, mong người khoan dung để tránh làm nàng ấy khó xử.\"<end>\n<npc=610>: \"Ôi! Đứa cháu tội nghiệp, ngươi đi nói với nó, Đại Cô sẽ không làm khó nó, bảo nó cứ yên tâm! Còn Tổ Mẫu và Đại Tẩu của nó thì phải lưu ý nhiều hơn. Nếu thật sự không được thì năn nỉ vài lời, tránh nguy hiểm đến tính mạng!\"<end>,Thuyết phục Đại Cô của Nhậm Ngọc Anh,Thuyết phục Đại Cô của Nhậm Ngọc Anh; Đem những lời của Đại Cô nói cho Nhậm Ngọc Anh nghe"
+            },
+            {
+              "id": 1252,
+              "sub_id": 274,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "ProtectNpc; TaskAct:StepOverWithTalk",
+              "target_params": "608,1698,3852,100,<subtaskname>,<npc=608>: \"Thế nào rồi? Đại Cô ta đồng ý giúp đỡ không?\"<end>\n<playername>: \"Có, bà ấy đồng ý giúp, và còn nói nếu thật sự không được thì cô nương nên năn nỉ vài lời, tránh nguy hiểm đến tính mạng.\"<end>\n<npc=608>: \"Sự việc đến nước này không còn nghĩ được nhiều vậy nữa, chúng ta khởi hành thôi, may mà gia pháp tổ tông không cấm nhờ người khác giúp đỡ, mọi việc đều phải làm phiền ngươi rồi!\"<end>,897,64,95,45,3000,1620,3655,2,1695,3860\n1689,3864\n1681,3865\n1675,3867\n1668,3868\n1663,3867\n1657,3864\n1654,3857\n1651,3848\n1651,3837\n1653,3835\n1657,3818\n1660,3811\n1665,3801\n1669,3797\n1673,3796\n1677,3796\n1683,3797\n1686,3803\n1689,3809\n1693,3811\n1695,3807\n1698,3805\n1701,3802\n1704,3798\n1705,3793\n1704,3790\n1701,3789\n1698,3787\n1694,3787\n1690,3787\n1686,3786\n1683,3787\n1680,3787\n1678,3786\n1678,3782\n1679,3777\n1680,3774\n1682,3762\n1684,3764\n1686,3761\n1690,3753\n1690,3742\n1678,3730\n1669,3718\n1656,3708\n1644,3696\n1634,3682\n1632,3669\n1629,3663\n1628,3656\n1620,3655,Xin chào!,Ngươi thật đáng khen,1; <npc=667>: \"A! Cuối cùng cô nương cũng trốn thoát rồi sao? Mỗi ngày ta đều đến đây đợi nàng, cuối cùng cũng đợi được.\"<end>\n<npc=608>: \"Khổ cho ngươi rồi, Hồ Bá. Chính vị <if me.nSex==0>thiếu hiệp<else>tỷ tỷ<endif> này dẫn ta trốn đi. Nơi này không nên ở lâu, ngươi hãy đưa thứ mà ta nhờ ngươi bảo quản cho vị <if me.nSex==0>thiếu hiệp<else>tỷ tỷ<endif> này để tạ lễ rồi chúng ta đi ngay!\"<end>\n<npc=667>: \"Cô nương đi đường cẩn thận, Vương công tử đang đợi cô ở Biện Kinh!\"<end>,Nhận tạ lễ của Nhậm Ngọc Anh ở chỗ Mại Thán Ông"
+            },
+            {
+              "id": 1253,
+              "sub_id": 274,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "667,95,<subtaskname>,<npc=667>: \"Đa tạ ngươi đã giúp Ngọc Anh cô nương trốn thoát, đây là tạ lễ, mong ngươi nhận cho!\"<end>,Tìm Mại Thán Ông nhận thưởng,Tìm Mại Thán Ông nhận thưởng,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 412,
+              "sub_id": 274,
+              "phase": "start",
+              "cleaned_text": "[Lý Cổ Nạp Tư]: \"Nhìn ngươi ta chợt nhớ đến một cô gái tội nghiệp tên là Nhậm Ngọc Anh. Ngọc Anh là con gái trang chủ Nhậm gia trang ở gần đây, tổ tiên Nhậm gia đều làm nghề \"đạo tặc một chân\". Gọi \"đạo tặc một chân\" là vì thường ngày họ đều xuất hiện với thân phận hương thân trước mặt người khác, cứ cách 3 tháng hay nửa năm thì đi gây án một lần. Địa điểm gây án thường rất xa, như vậy sẽ không ai nghi ngờ họ. Thủ pháp gây án khá tàn nhẫn, diệt cỏ tận gốc để tránh dẫn lửa thiêu thân.\"\n[Đại Hiệp]: \"Việc này có quan hệ gì với Nhậm Ngọc Anh chứ?\"\n[Lý Cổ Nạp Tư]: \"Có chứ! Nha đầu Ngọc Anh này yêu một thư sinh, hai người tâm đầu ý hợp. Nhưng theo quy củ của Nhậm gia, chỉ được ở rể, không thể gả đi để bí mật trong nhà không bị tiết lộ dẫn đến họa sát thân. Nếu muốn rời khỏi gia tộc thì phải đánh bại từng thành viên trong đó, khó khăn vô cùng. Lão phu và Nhậm lão đầu cũng có qua lại với nhau, biết được nội tình nên Ngọc Anh mới đến nhờ vả ta. Nhưng lúc này ta lực bất tòng tâm nên muốn nhờ ngươi tương trợ.\"\n[Đại Hiệp]: \"Không biết bây giờ Ngọc Anh cô nương ở đâu? Tiên sinh muốn ta giúp gì?\"\n[Lý Cổ Nạp Tư]: \"Ngọc Anh ở Nhậm gia trang cách đây không xa về phía Tây Nam, người nhà họ vô cùng hung hãn, ngươi phải cẩn thận. Còn việc giúp thế nào, ngươi gặp cô nương ấy rồi sẽ rõ.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 126,
+      "task_id_hex": "000000000000007e",
+      "name": "Cựu Hận",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000007E.xml",
+      "subtasks": [
+        {
+          "sub_id": 275,
+          "sub_id_hex": "0000000000000113",
+          "task_id": 126,
+          "name": "Yêu Công Thỉnh Thưởng",
+          "describe_cleaned": "Trương Trảm Kinh thời trẻ rất thích đi đây đó để học y, mỗi lần đi là 3,4 năm. Trong nhà chỉ có mình nương tử của y khó nhọc chăm sóc con thơ và mẹ già, cuộc sống có thể coi là ấm no. Đáng tiếc tiệc vui thường chóng tàn, cuộc sống khá giả của Trương gia đã khiến cho một đám đạo tặc một chân tìm đến. Bọn chúng không chỉ cướp đi của cải của Trương gia mà còn sát hại tàn nhẫn mẹ già và thê nhi của Trương Trảm Kinh. Trương Trảm Kinh sau khi quay về đã lập lời thề quyết tìm bằng được hung thủ để trả thù cho người thân, nhưng đạo tặc một chân hành tung bí ẩn, không biết phải tìm kiếm từ đâu. Trương Trảm Kinh tìm kiếm nhiều năm cuối cùng vẫn không tìm ra được. Cũng may trời xanh có mắt, Tạ Hiền vô tình biết được tung tích kẻ đã giết hại cả nhà Trương gia năm đó từ một người bằng hữu, bèn nhờ ta bắt kẻ đó về để làm lễ vật mừng thọ Trương lão gia.\n• Theo như bằng hữu của Tạ Hiền nói, tên đạo tặc một chân này là [Cam Thượng Hổ tại Hưởng Thủy Động (1654/3662)], hiện đang ẩn nấp ở Hưởng Thủy Động.\n• Đem thủ cấp của Cam Thượng Hổ về cho ông chủ tiền trang [Tạ Hiền - Tạ Hiền [Chủ Tiền Trang]].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000113.xml",
+          "dialog_npc_id": 3567,
+          "dialog_npc_name": "Tạ Hiền [<color=green>Chủ Tiền Trang<color>]",
+          "steps": [
+            {
+              "id": 1254,
+              "sub_id": 275,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillBoss4Item; TaskAct:StepOverEvent",
+              "target_params": "613,0,{20,1,346,1,0,-1,},1,1,false; Đem đầu Cam Thượng Hổ đến cho chủ tiền trang Tạ Hiền"
+            },
+            {
+              "id": 1255,
+              "sub_id": 275,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "3567,0,<subtaskname>,<npc=3567>: \"Có như vậy tâm nguyện cả đời của Trương lão gia mới hoàn thành được.\"<end>,Tìm thấy Tạ Hiền,Tìm thấy Tạ Hiền,Xin chào!,Ngươi thật đáng khen; {346,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 413,
+              "sub_id": 275,
+              "phase": "start",
+              "cleaned_text": "[Tạ Hiền [Chủ Tiền Trang]]: \"Khi chủ tiệm thuốc Trương Trảm Kinh còn trẻ rất thích chu du bốn bể học y thuật, một lần đi là 3, 4 năm không về. Mọi việc trong nhà đều do nương tử chăm lo. Năm nọ, khi Trương lão gia đi ngao du, một tên \"đạo tặc một chân\" lẻn vào, không những lấy hết tài sản trong nhà mà còn giết cả phụ mẫu và vợ con của Trương Trảm Kinh. Trương lão gia cực khổ tìm kiếm hung thủ đã lâu nhưng vẫn chưa tìm ra.\"\n[Đại Hiệp]: \"Sau đó thì sao?\"\n[Tạ Hiền [Chủ Tiền Trang]]: \"Vài ngày trước, một vị lão bằng hữu cho ta biết tung tích của tên đạo tặc đó, hiện hắn đang ẩn náu ở Hưởng Thủy Động. Ngươi hãy đến đó bắt hắn, ta phải lấy đầu hắn làm lễ vật mừng thọ cho Trương lão gia.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 127,
+      "task_id_hex": "000000000000007f",
+      "name": "Khơi Thông",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000007F.xml",
+      "subtasks": [
+        {
+          "sub_id": 276,
+          "sub_id_hex": "0000000000000114",
+          "task_id": 127,
+          "name": "Mê Đoàn 99",
+          "describe_cleaned": "Kể từ khi Lý Thăng Dương bất ngờ trở về Tây Hạ, uy thế của Nhất Phẩm Đường lập tức trở nên vang dội. Những nhân vật có máu mặt của các ngành nghề trong Phượng Tường Phủ đều chuẩn bị đủ loại lễ vật để đến thăm, tất cả đều là vì Nhất Phẩm Đường ở Tây Hạ có thực lực rất mạnh, Lý Thăng Dương lại là hồng nhân trước mặt Hoàng Thượng. Ai cũng không muốn bỏ qua cơ hội này để nịnh bợ y, kẻ biết lợi dụng quan hệ như Phí Sĩ Tương thì không cần phải nói. Lý Thăng Dương trong những năm mất tích đã trúng hàn độc rất nặng, mỗi khi trăng tròn thì sẽ đau đớn rất khó chịu, Phí Sĩ Tương định dâng lên Hoa Thi Vu để lấy lòng Lý Thăng Dương.\n• Phí Sĩ Tương nghe nói có loài Hoa Thi Vu sống ký sinh trên xác người chết có thể trị liệu hàn độc, bèn nhờ ta đi kiếm. Nghe nói ở Mê Cung Sa Mạc ngoài Phượng Tường Phủ có một [bãi tha ma tại Mê Cung Sa Mạc (1650/3674)], ở đó có rất nhiều Hoa Thi Vu.\n• Ta đã tìm được rất nhiều Hoa Thi Vu ở bãi tha ma, đem đến cho [Lý Thăng Dương tại Tây Hạ Nhất Phẩm Đường (1742/3217)] ở Tây Hạ Nhất Phẩm Đường.\n• Lý Thăng Dương khi nhìn thấy Hoa Thi Vu đã vô cùng mừng rỡ, nhờ ta gửi lời cho [Phí Sĩ Tương tại Phượng Tường Phủ (1657/3531)] là Nhất Phẩm Đường ngày sau nhất định sẽ chiếu cố ý.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000114.xml",
+          "dialog_npc_id": 638,
+          "dialog_npc_name": "Phí Sĩ Tương",
+          "steps": [
+            {
+              "id": 1256,
+              "sub_id": 276,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "WithProcess; TaskAct:StepOverEvent",
+              "target_params": "1584,101,5,Đang hái,Được Hoa Thi Vu,Thất bại,{Hoa Thi Vu,20,1,401,1,0,1},5,Thu thập %d/5 đóa Hoa Thi Vu,Thu thập Hoa Thi Vu,Xin chào!,Ngươi thật đáng khen,1621,3610\n1628,3635\n1623,3651\n1616,3671\n1645,3669\n1650,3586\n1648,3618\n1656,3649\n1667,3595\n1665,3628,30; Đem Hoa Thi Vu cho Tây Hạ Nhất Phẩm Đường Lý Thăng Dương"
+            },
+            {
+              "id": 1257,
+              "sub_id": 276,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent; TaskAct:DelItem",
+              "target_params": "3495,0,<subtaskname>,<playername>: \"Đây là Hoa Thi Vu do Tổng tiêu đầu Phượng Tường tiêu cục Phí Sĩ Tương nhờ ta mang đến cho ngài, nghe nói hoa này trị hàn độc rất tốt.\"<end>\n<npc=3495>: \"Phí tổng tiêu đầu đúng là có lòng, rất nhiều lễ vật được đưa đến nhưng duy chỉ có món này là hợp ý ta. Phiền chuyển lời với Phí tổng tiêu đầu, sau này có việc gì thí cứ tìm ta.\"<end>,Tìm thấy Lý Thăng Dương,Tìm thấy Lý Thăng Dương,Xin chào!,Ngươi thật đáng khen; Chuyển lời của Lý Thăng Dương cho Phí Sĩ Tương; {401,},-1"
+            },
+            {
+              "id": 1258,
+              "sub_id": 276,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "638,0,<subtaskname>,<playername>: \"Đã làm xong rồi.\"<end>\n<npc=638>: \"Sau này ta không còn phải lo gì nữa rồi.\"<end>,Tìm thấy Phí Sĩ Tương,Tìm thấy Phí Sĩ Tương,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 414,
+              "sub_id": 276,
+              "phase": "start",
+              "cleaned_text": "[Phí Sĩ Tương]: \"Nghe Lý Thăng Dương đường chủ đột ngột quay về, ai cũng tranh nhau tặng lễ vật để giành được thiện cảm của ông ta. Chúng ta mở tiêu cục, chủ yếu dựa vào quan hệ, xem ra ta phải tiêu tốn một lần rồi, nếu không lỡ đắc tội với Nhất Phẩm Đường thì đừng mong ở lại Phượng Tường nữa.\"\n[Đại Hiệp]: \"Vậy người định tặng lễ vật gì?\"\n[Phí Sĩ Tương]: \"Mấy năm nay không biết Lý Thăng Dương đã làm gì, nghe nói bị nhiễm hàn độc, cứ đến trăng tròn thì đau đớn vô cùng. Ta nghe sư phụ nói có loại Hoa Thi Vu ký sinh trên cơ thể người chết, giải hàn độc cực tốt, chúng chỉ mọc ở bãi tha ma Mê Cung Sa Mạc. Lát nữa ta có một chuyến tiêu phải đi gấp, nếu ngươi giúp ta đi tặng Hoa Thi Vu cho Lý Thăng Dương, sau khi trở về ta sẽ trọng thưởng.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 128,
+      "task_id_hex": "0000000000000080",
+      "name": "Võng Khai Nhất Diện",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000080.xml",
+      "subtasks": [
+        {
+          "sub_id": 277,
+          "sub_id_hex": "0000000000000115",
+          "task_id": 128,
+          "name": "Khu Mộ Đặc Biệt",
+          "describe_cleaned": "Sau khi Gia Vương đăng cơ trở thành Hoàng đế, trong triều bắt đầu tiến hành một đợt thanh trừ, dần dà đã trở thành cuộc tranh đấu giữa các quyền thần. Trong cuộc tranh đấu này, Hàn Thác Trụ đã giành thắng lợi, trở thành đại thần lớn nhất trong triều. Những triều thần vốn đối địch với hắn đương nhiên đều bị loại trừ, lần lượt bị trục xuất khỏi triều đình, Phương Trọng Sinh cũng không thoát khỏi. Do Phương Trọng Sinh nhiều lần âm thầm giúp đỡ nghĩa quân, lại là một vị thanh quan hiếm có. Bạch Thu Lâm phái ta đến Lâm An Phủ gặp Hàn Thác Trụ nhờ y khoan hồng cho Phương Trọng Sinh.\n• Phương Trọng Sinh nhiều lần đắc tội Hàn Thác Trụ, Bạch Thu Lâm lo sợ trên đường đi đày sẽ bị ám hại, nhờ ta đến Lâm An xin [Hàn Thác Trụ tại Lâm An Phủ (1413/3960)] khoan hồng.\n• Để xin tha cho Phương Trọng Sinh, ta tìm đến Lâm An để bái kiến Hàn Thác Trụ. Sau một hồi suy nghĩ, Hàn Thác Trụ đồng ý nể mặt nghĩa quân mà bỏ qua cho Phương Trọng Sinh và nói cho ta biết Phương Trọng Sinh hiện đang bị giam giữ trong Tư Quá Doanh ở Thục Cương. Đại tướng quân của Tư Quá Doanh là [Tất Toàn tại Thục Cương Sơn (1851/3361)] phụ trách mọi việc ở đó.\n• Tất Toàn nói với ta Phương Trọng Sinh bị độc trùng cắn bị thương đã mấy ngày, Tư Quá Doanh lại không có thuốc điều trị, muốn cứu Phương Trọng Sinh thì phải đi hái [Thanh Độc Thảo tại Thục Cương Sơn (1949/3680)] về.\n• Ta đã hái một ít Thanh Độc Thảo về, đưa cho quân y là [Đỗ Tân tại Thục Cương Sơn (1886/3334)] điều chế thuốc giải độc.\n• Ta đã điều chế thuốc giải độc cho [Phương Trọng Sinh tại Thục Cương Sơn (1804/3346)], cho y uống thuốc giải xong thì đưa y rời khỏi Tư Quá Doanh.\n• Ta đưa Phương Trọng Sinh rời khỏi Tư Quá Doanh, báo lại tin này cho [Bạch Thu Lâm - Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]] ở Tân Thủ Thôn.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000115.xml",
+          "dialog_npc_id": 3570,
+          "dialog_npc_name": "Bạch Thu Lâm [<color=green>Thủ Lĩnh Nghĩa Quân<color>]",
+          "steps": [
+            {
+              "id": 1259,
+              "sub_id": 277,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "556,0,<subtaskname>,<playername>: \"Bái kiến Hàn đại nhân, ta phụng mệnh Thủ lĩnh nghĩa quân Bạch Thu Lâm đến xin người một việc, xin đại nhân nghĩ đến giao tình giữa chúng ta mà thôi làm khó Phương Trọng Sinh.\"<end>\n<npc=556>: \"Phương Trọng Sinh? Ta vốn không định tính toán với hắn, chỉ lưu đày hắn đến Tư Quá Doanh để hắn suy nghĩ, các người đã đến đây xin cho hắn thì ta sẽ thả hắn đi. Tư Quá Doanh nằm ở Thục Cương Sơn bên ngoài Dương Châu Thành, Đại tướng quân Tất Toàn ở đó là cựu bộ của ta, ngươi chỉ cần nói tên ta ra là được.\"<end>,Bái kiến Hàn Thác Trụ,Bái kiến Hàn Thác Trụ,Xin chào!,Ngươi thật đáng khen; Đến Thục Cương Sơn Tư Quá Doanh tìm Tất Toàn"
+            },
+            {
+              "id": 1260,
+              "sub_id": 277,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "1052,0,<subtaskname>,<playername>: \"Bái kiến Tất Đại tướng quân, ta từ chỗ Lâm An Phủ Hàn Thác Trụ đại nhân đến, xin tướng quân thả Phương Trọng Sinh khỏi Tư Quá Doanh.\"<end>\n<npc=1052>: \"Phương Trọng Sinh? Chỉ sợ hắn không thể rời khỏi đây, vài ngày trước hắn bị độc trùng cắn, vết thương ngày càng nghiêm trọng. Ở đây không có thuốc giải độc, quân y nói vùng Đông Nam có một loại Thanh độc thảo có thể trị cho hắn. Nhưng ở đó có rất nhiều rắn, không ai dám đi. Ngươi muốn cứu hắn, trước hết phải tìm thấy Thanh độc thảo.\"<end>,Tìm thấy Tất Toàn,Tìm thấy Tất Toàn,Xin chào!,Ngươi thật đáng khen; Tìm Thanh độc thảo ở Thục Cương Sơn"
+            },
+            {
+              "id": 1261,
+              "sub_id": 277,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "WithProcess; TaskAct:StepOverEvent",
+              "target_params": "1558,103,5,Đang hái,Được Thanh độc thảo,Thất bại,{Thanh độc thảo,20,1,101,1,0,1},10,Thu thập %d/10 Thanh độc thảo,Thu thập Thanh độc thảo,Xin chào!,Ngươi thật đáng khen,1971,3708\n1961,3703\n1949,3692\n1945,3681\n1932,3671\n1950,3656\n1949,3644\n1965,3653\n1981,3678\n1977,3710\n1970,3670,25; Đem Thanh độc thảo cho Đỗ Tân ở Tư Quá Doanh"
+            },
+            {
+              "id": 1262,
+              "sub_id": 277,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "GivePlayerItem; TaskAct:StepOverEvent; TaskAct:DelItem",
+              "target_params": "1053,0,<subtaskname>,<playername>: \"Đỗ tiên sinh, đây là Thanh độc thảo, xin ngài giúp ta bào chế thuốc giải độc!\"<end>\n<npc=1053>: \"Được, ngươi đợi một lát! Xong rồi, của ngươi đây.\"<end>,{Thuốc giải độc,20,1,102,1,0,1},Tìm Đỗ Tân bào chế thuốc giải,Tìm Đỗ Tân bào chế thuốc giải,Xin chào!,Ngươi thật đáng khen; Cho Phương Trọng Sinh uống thuốc giải rồi dẫn ông ấy rời khỏi đây; {101,},-1"
+            },
+            {
+              "id": 1263,
+              "sub_id": 277,
+              "step_index": 5,
+              "instruction": "",
+              "target_function": "ProtectNpc; TaskAct:StepOverWithTalk; TaskAct:DelItem",
+              "target_params": "1050,1803,3344,30,<subtaskname>,<playername>: \"Phương đại nhân, đây là thuốc giải độc, ngài mau uống đi. Đợi ngài khỏe hơn, chúng ta lập tức rời khỏi đây!\"<end>\n<npc=1050>: \"Ngươi là?\"<end>\n<playername>: \"Ta là nghĩa quân, Thủ lĩnh Bạch Thu Lâm đã xin Hàn Thác Trụ khoan hồng không làm khó ngài. Hay chúng ta rời khỏi đây rồi nói tiếp.\"<end>,1051,75,103,45,3000,1786,3482,5,1808,3354\n1820,3384\n1802,3413\n1775,3412\n1755,3431\n1766,3463\n1786,3482,Xin chào!,Ngươi thật đáng khen,0.2; <npc=1050>: \"Ta mệt rồi, hãy nghỉ một lát. Ta không sao rồi, có thể tự mình đi tiếp. Xin chuyển lời với thủ lĩnh ngươi, Phương Trọng Sinh không bao giờ quên ơn cứu mạng này.\"<end>\n<playername>: \"Phương đại nhân quá lời rồi, ngài đi đường cẩn thận.\"<end>,Về Tân Thủ Thôn tìm Bạch Thu Lâm phục mệnh; {102,},-1"
+            },
+            {
+              "id": 1264,
+              "sub_id": 277,
+              "step_index": 6,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "3570,0,<subtaskname>,<npc=3570>: \"Sự việc tiến triển thế nào?\"<end>\n<playername>: \"Phương đại nhân đã an toàn rời khỏi Tư Quá Doanh, Thu Di yên tâm.\"<end>\n<npc=3570>: \"Ôi...Triều đình lúc nào mới có thể yên ổn thật sự đây...\"<end>,Tìm Bạch Thu Lâm phục mệnh,Tìm Bạch Thu Lâm phục mệnh,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 415,
+              "sub_id": 277,
+              "phase": "start",
+              "cleaned_text": "[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Sau khi Gia Vương đăng cơ trở thành Hoàng đế, trong triều bắt đầu tiến hành một đợt thanh trừ, dần dà đã trở thành cuộc tranh đấu giữa các quyền thần. Trong cuộc tranh đấu này, Hàn Thác Trụ đã giành thắng lợi, trở thành đại thần lớn nhất trong triều. Những triều thần vốn đối địch với hắn đương nhiên đều bị loại trừ, lần lượt bị trục xuất khỏi triều đình, Phương Trọng Sinh cũng không thoát khỏi.\"\n[Đại Hiệp]: \"Phương Trọng Sinh là ai? Tại sao Thu Di lại quan tâm đến hắn như vậy?\"\n[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Phương Trọng Sinh là thanh quan hiếm có, nhiều lần âm thầm giúp đỡ Nghĩa quân ta, lần này cũng do bản tính quá khí khái mà rước lấy tai họa. Hàn Thác Trụ từng có giao hảo với ta, nên ta định nhờ ngươi đến cầu xin hắn, xin hắn khoan hồng, đừng làm khó Phương Trọng Sinh nữa.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 129,
+      "task_id_hex": "0000000000000081",
+      "name": "Cảnh Chung",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000081.xml",
+      "subtasks": [
+        {
+          "sub_id": 278,
+          "sub_id_hex": "0000000000000116",
+          "task_id": 129,
+          "name": "Tìm Kiếm Bí Mật",
+          "describe_cleaned": "Kể từ sau khi Lý Thăng Dương trở về Tây Hạ Nhất Phẩm Đường, binh sĩ của y ngày càng khó quản thúc. Lý Thăng Dương là hồng nhân trong mắt Hoàng thượng, ngay cả Tuần Kiểm Sứ cũng phải nể y đôi phần. Để ra hiệu cho Lý Thăng Dương tăng cường quản thúc với thuộc hạ của mình, Tuần Kiểm Sứ và Lý An Toàn sau khi bàn bạc quyết định phái người đi dạy cho thuộc hạ của Lý Thăng Dương một bài học để cảnh cáo.\n• Tuần Kiểm Sứ và Lý An Toàn nhờ ta đến Mê Cung Sa Mạc dạy cho thuộc hạ của Lý Thăng Dương là [Sĩ Binh Hậu Thổ Doanh tại Mê Cung Sa Mạc (1847/3448)] và [Hắc Thủy Khoái Kỵ Mã tại Mê Cung Sa Mạc (1616/3846)].\n• Quay về tìm [Tuần Kiểm Sứ tại Phượng Tường Phủ (1947/3409)] báo cáo kết quả.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000116.xml",
+          "dialog_npc_id": 985,
+          "dialog_npc_name": "Tuần Kiểm Sứ",
+          "steps": [
+            {
+              "id": 1265,
+              "sub_id": 278,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; TaskAct:StepOverEvent",
+              "target_params": "902,0,10,Xin chào!,Ngươi thật đáng khen; 2176,0,30,Xin chào!,Ngươi thật đáng khen; Báo tin trừng trị bộ hạ Lý Thăng Dương cho Tuần Kiểm Sứ"
+            },
+            {
+              "id": 1266,
+              "sub_id": 278,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "985,0,<subtaskname>,<npc=985>: \"Việc này không được tiết lộ ra ngoài!\"<end>\n<npc=986>: \"Đúng vậy!\"<end>,Tìm Tuần Kiểm Sứ nhận thưởng,Tìm Tuần Kiểm Sứ nhận thưởng,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 416,
+              "sub_id": 278,
+              "phase": "start",
+              "cleaned_text": "[Tuần Kiểm Sứ]: \"Đúng như lời Quận Vương, từ sau khi Lý Thăng Dương trở về, sĩ binh của hắn lại càng khó khống chế hơn trước.\"\n[Lý An Toàn]: \"Theo ta nên dạy cho chúng một bài học để chúng nhớ lâu hơn, cũng để cho Lý Thăng Dương kiêng nể, quản lý bộ hạ của hắn chặt hơn.\"\n[Tuần Kiểm Sứ]: \"Việc này dường như không hợp lẽ cho lắm!\"\n[Lý An Toàn]: \"Có gì khó chứ, chỉ cần tìm một số cao thủ giang hồ là được thôi. Nếu không, ngày nào đó thế lực của hắn lớn mạnh, ngươi và ta có còn đường sống không?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 130,
+      "task_id_hex": "0000000000000082",
+      "name": "Y Giả Tâm",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000082.xml",
+      "subtasks": [
+        {
+          "sub_id": 279,
+          "sub_id_hex": "0000000000000117",
+          "task_id": 130,
+          "name": "Minh Phủ Quy Khách",
+          "describe_cleaned": "Quân y của Tư Quá Doanh là Đỗ Tân nói với ta, mưa to trong nhiều ngày đã làm đục nước trong cái giếng duy nhất ở Tư Quá Doanh. Các quan viên bị đày đến đây sau khi uống nước giếng thì thường bị tiêu chảy. Do những người bị đày đến đây đa số là những người đắc tội với các quyền thần trong triều nên đại tướng Tất Toàn thường không để ý đến sự sống chết của họ, nước uống của y được lấy từ một con sông ở gần đó. Đỗ Tân thấy không ổn, nhờ ta đến khu vực Tiến Cúc Động kiếm một ít Hàn Diêm. Hàn Diêm có thể giúp làm sạch nước giếng và tiệt trùng.\n• Quân y của Tư Quá Doanh là Đỗ Tân nhờ ta đến Tiến Cúc Động tìm [Hàn Diêm tại Thục Cương Sơn (1691/3202)] về cho y.\n• Ta đã tìm được Hàn Diêm mà Đỗ Tân nói, đưa Hàn Diêm cho [Đỗ Tân tại Thục Cương Sơn (1886/3334)].\n• Đỗ Tân nói với ta Hàn Diêm có thể bỏ trực tiếp vào nước giếng, hắn nhờ ta đi làm sạch [nước giếng tại Thục Cương Sơn (1847/3391)].\n• Đã làm sạch nước giếng theo sự chỉ dẫn của Đỗ Tân, báo tin này cho đại tướng quân [Tất Toàn tại Thục Cương Sơn (1851/3361)].\n• Mọi việc đã làm xong, rời khỏi Tư Quá Doanh sau khi cáo biệt [Đỗ Tân tại Thục Cương Sơn (1886/3334)].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000117.xml",
+          "dialog_npc_id": 1053,
+          "dialog_npc_name": "Đỗ Tân [Quân Y]",
+          "steps": [
+            {
+              "id": 1267,
+              "sub_id": 279,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "WithProcess; TaskAct:StepOverEvent",
+              "target_params": "1557,103,5,Đang hái,Được Hàn Diêm,Thất bại,{Hàn Diêm,20,1,100,1,0,1},3,Lấy %d/3 Hàn Diêm,Lấy được Hàn Diêm,Xin chào!,Ngươi thật đáng khen,1691,3194\n1679,3204\n1677,3224\n1705,3202\n1704,3224\n1695,3222\n1654,3241\n1615,3280\n1634,3266,30; Đem Hàn Diêm lấy được đưa cho Đỗ Tân"
+            },
+            {
+              "id": 1268,
+              "sub_id": 279,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "1053,0,<subtaskname>,<playername>: \"Tiên sinh, ta tìm được Hàn Diêm rồi, ngài xem tiếp theo nên làm gì?\"<end>\n<npc=1053>: \"Chỉ cần đổ vào giếng, Hàn Diêm sẽ tự phát huy tác dụng, ngươi đổ nó vào trong giếng nước đi. Sau khi đổ xong, báo tin này cho Tất Toàn. Vài ngày trước, ta nghe nói hắn muốn hạn chế uống nước để chống tiêu chảy, biện pháp hoang đường này chỉ có hắn mới nghĩ ra thôi.\"<end>,Tìm thấy Đỗ Tân,Tìm thấy Đỗ Tân,Xin chào!,Ngươi thật đáng khen; Đổ Hàn Diêm vào giếng nước ở Tư Quá Doanh"
+            },
+            {
+              "id": 1269,
+              "sub_id": 279,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "WithProcessStatic; TaskAct:StepOverEvent; TaskAct:DelItem",
+              "target_params": "1580,103,10,Đang làm sạch,Nước giếng đã được làm sạch,Thất bại,1,Nhấp chuột trái để làm sạch nước giếng ở Tư Quá Doanh,Làm sạch nước giếng ở Tư Quá Doanh,Xin chào!,Ngươi thật đáng khen; Báo tin nước giếng được làm sạch cho Tất Toàn; {100,},-1"
+            },
+            {
+              "id": 1270,
+              "sub_id": 279,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "1052,0,<subtaskname>,<playername>: \"Bái kiến Tất Đại tướng quân, Đỗ tiên sinh nhờ ta đến báo với ngài là nước giếng ở đây đã được làm sạch, sau này uống sẽ không bị tiêu chảy nữa.\"<end>\n<npc=1052>: \"Thật sao? Đỗ tiên sinh quả là tài giỏi!\"<end>,Đối thoại với Tất Toàn,Đối thoại với Tất Toàn,Xin chào!,Ngươi thật đáng khen; Từ biệt Đỗ Tân rồi rời khỏi Tư Quá Doanh"
+            },
+            {
+              "id": 1271,
+              "sub_id": 279,
+              "step_index": 5,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "1053,0,<subtaskname>,<playername>: \"Đỗ tiên sinh! Ta phải rời khỏi đây, ta đến để từ biệt ngài!\"<end>\n<npc=1053>: \"Lần này may mà có ngươi tương trợ, ta thay mặt mọi người ở đây đa tạ ngươi.\"<end>,Từ biệt Đỗ Tân,Từ biệt Đỗ Tân,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 417,
+              "sub_id": 279,
+              "phase": "start",
+              "cleaned_text": "[Đỗ Tân [Quân Y]]: \"Thời gian này mưa lớn liên miên, nước giếng bị mưa lớn vẩn đục, sinh ra một số tiểu độc trùng. Người uống phải nước giếng này sẽ bị tiêu chảy, đau đớn vô cùng. Do đa số các quan viên này bị đày đến đây, vì vậy Tất Toàn không hề màn đến sống chết của họ, miệng nói không có gì nhưng lại sai người lấy nước sông để mình uống.\"\n[Đại Hiệp]: \"Vậy tiên sinh có cách nào diệt sạch từ đầu nguồn không?\"\n[Đỗ Tân [Quân Y]]: \"Ta nhớ ở Tiến Cúc Động có một loại Hàn Diêm hiếm thấy, nói là muối nhưng lại không phải, có tác dụng làm sạch nước, còn có thể giết chết tiểu độc trùng trong nước. Nếu có thể đem về ít Hàn Diêm, những người này không phải chịu khổ nữa.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 131,
+      "task_id_hex": "0000000000000083",
+      "name": "Thiết Mẫu",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000083.xml",
+      "subtasks": [
+        {
+          "sub_id": 280,
+          "sub_id_hex": "0000000000000118",
+          "task_id": 131,
+          "name": "Hợp Tác Với Đông Ô Man",
+          "describe_cleaned": "Ở Phong Lăng Độ ta gặp được một nam tử tên là Lạt Lị Đầu, hắn cho ta biết chuyện liên quan đến Nhị A. Như Ảnh định lợi dụng Nhị A để ép cha của Nhị A là Mã Thiết Tượng giao ra Thiết Mẫu đã cất giữ bao nhiêu năm nay nhưng Mã Thiết Tượng thà để mất con gái cũng không chịu giao ra Thiết Mẫu. Lạt Lị Đầu nhận ra ta là người có thân pháp tuyệt kỹ nên nhờ ta đi cứu Nhị A về cho Mã Thiết Tượng.\n• Mã Thiết Tương thà chịu mất con gái cũng không giao ra Thiết Mẫu, Lạt Lị Đầu nhờ ta cứu [Nhị A tại Phong Lăng Độ (1729/3353)].\n• Ta đã cứu Nhị A về cho Mã Thiết Tượng, [Mã Thiết Tượng tại Phong Lăng Độ (1892/3406)] ôm chặt bảo vật không chịu cứu con mình quả thật là độc ác, phải đi nói lý lẽ với y mới được.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000118.xml",
+          "dialog_npc_id": 1039,
+          "dialog_npc_name": "Lạt Lị Đầu",
+          "steps": [
+            {
+              "id": 1272,
+              "sub_id": 280,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "ProtectNpc; TaskAct:StepOverWithTalk",
+              "target_params": "1037,1727,3350,45,<subtaskname>,<playername>: \"Nha đầu, đi theo ta nào, ta đưa con về chỗ cha con.\"<end>\n<npc=1037>: \"Không, con không muốn, cha luôn đánh con mắng con, con muốn ở đây chơi, con không về đâu.\"<end>\n<playername>: \"Con... con ở đây thì sẽ mất mạng đó!\"<end>\n<npc=1037>: \"Vậy... vậy con đi theo người.\"<end>,1038,75,100,45,3000,1893,3410,5,1729,3378\n1747,3407\n1774,3413\n1809,3421\n1836,3426\n1872,3395\n1893,3410,Xin chào!,Ngươi thật đáng khen,0; <npc=1037>: \"Cha… Con về rồi...\"<end>\n<npc=1040>: \"Nha đầu chết tiệt, ngươi còn về đây làm gì?\"<end>\n<playername>: (Tên Mã Thiết Cương này đáng ghét thật, phải nói lý lẽ với hắn mới được.)<end>,Tranh luận với Mã Thiết Cương"
+            },
+            {
+              "id": 1273,
+              "sub_id": 280,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "1040,0,<subtaskname>,<playername>: \"Sao ngươi lại đáng ghét vậy chứ, cứ giữ khư khư một miếng sắt vụn, ngay cả con gái cũng không quan tâm. Nay con gái bình yên trở về, ngươi lại có thái độ này. Đúng thật là đáng ghét!\"<end>\n<npc=1040>: \"Nha đầu chết tiệt, mày dẫn ai về đây vậy? Mày dẫn hắn về để xả giận phải không? Mày cút đi, đi mà tìm bà mẹ không cần thể diện của mày đi! Đúng là mẹ nào con nấy, chỉ biết dụ dỗ đàn ông.\"<end>\n<npc=1037>: \"Cha...con...\"<end>\n<npc=1040>: \"Chuyện gia đình nhà ta không cần ngươi quản!\"<end>,Tranh luận với Mã Thiết Cương,Tranh luận với Mã Thiết Cương,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 418,
+              "sub_id": 280,
+              "phase": "start",
+              "cleaned_text": "[Lạt Lị Đầu]: \"Vị [Nam: tiểu huynh đệ / Nữ: cô nương] này, ngươi ăn mặc như người có tuyệt thế võ công, có thể đáp ứng một yêu cầu quá đáng của ta không? Ngươi yên tâm, ta tuyệt đối không nhờ ngươi làm việc xấu, nghe ta nói xong, ngươi nhất định sẽ giúp ta.\"\n[Đại Hiệp]: \"Ngài cứ nói!\"\n[Lạt Lị Đầu]: \"[Nam: Tiểu huynh đệ / Nữ: Cô nương] đến đây mà phòng bị kỹ lưỡng như vậy thì cũng đã biết đây là nơi nào rồi. Không sai, đây chính là căn cứ bí mật của Như Ảnh. Ta là thôn dân gần đây, bị bắt đến nhóm lửa nấu cơm, người trong thôn đều gọi ta là Lạt Lị Đầu. Ở đây có bé gái tên là Nhị A, là con gái của Mã Thiết Tượng trong thôn. Mã Thiết Tượng có một hạt Thiết Mẫu có thể luyện thần binh lợi khí. Như Ảnh biết được liền ép hắn bán, bị hắn cự tuyệt, Như Ảnh liền bắt Nhị A tới đây, nếu Mã Thiết Cương không chịu giao Thiết Mẫu thì sẽ giết Nhị A.\"\n[Đại Hiệp]: \"Lại có chuyện như vậy sao, vậy Mã Thiết Tượng nói sao?\"\n[Lạt Lị Đầu]: \"Tên lòng lang dạ sói đó thà giương mắt nhìn Nhị A bị giết chứ không chịu giao ra Thiết Mẫu. Ta nhìn thấy Nhị A trưởng thành, không nỡ thấy con bé bị Như Ảnh làm hại. Vì vậy nhờ [Nam: tiểu huynh đệ / Nữ: cô nương] cứu Nhị A đem đến chỗ Mã Thiết Cương.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 132,
+      "task_id_hex": "0000000000000084",
+      "name": "Đại Án Tử Mẫu Hoàn",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000084.xml",
+      "subtasks": [
+        {
+          "sub_id": 281,
+          "sub_id_hex": "0000000000000119",
+          "task_id": 132,
+          "name": "Tìm Ra Đầu Mối",
+          "describe_cleaned": "Ta gặp được thống lĩnh ngự tiền thị vệ Cốc Nam ở Biện Kinh Phủ, y nói với ta chuyện liên quan đến Tử Mẫu Hoàn. Tử Mẫu Hoàn là một bảo vật do một nhóm người đào cát tình cờ phát hiện ra, được Tề Vương mua lại với giá cao chuẩn bị dâng lên cho Hoàng thượng. Không ngờ trên đường vận chuyển vào cung thì bị một nhóm cao thủ bịt mặt chận cướp giữa đường. Tề Vương không hề nghĩ rằng sẽ có kẻ dám cướp nên đã không phái nhiều người đi cùng. Khi biết chuyện Tề Vương đã nổi trận lôi đình, hạ lệnh cho người đã phụ trách áp giải là Cốc Nam phải lấy lại cho bằng được, nếu không sẽ bẩm báo lên Hoàng thượng. Như thế không chỉ Cốc Nam phải rơi đầu mà tất cả thị binh đều khó thoát được cái chết. Cốc Nam đành phải dò tìm khắp nơi tung tích của Tử Mẫu Hoàn và nhờ người khác giúp đỡ.\n• Sau nhiều lần nghe ngóng, Cốc Nam biết được việc này là do Như Ảnh của tổ chức bí mật Ảnh Tử Hội của Kim quốc gây ra. Như Ảnh chuyên việc tìm kiếm những kỳ trân dị bảo, sau khi đoạt lấy sẽ kiếm người bán lại với giá cao. Được biết, Như Ảnh có một [căn cứ bí mật tại Phong Lăng Độ (1737/3394)] ở Phong Lăng Độ.\n• Ta đến Phong Lăng Độ và tìm được căn cứ bí mật của Như Ảnh mà Cốc Nam nói, nơi đây quả là có rất nhiều [Như Ảnh tại Phong Lăng Độ (1728/3379)] ẩn náu. Tử Mẫu Hoàn nhất định là ở chỗ Như Ảnh, nghĩ cách đoạt lại Tử Mẫu Hoàn.\n• Giao Tử Mẫu Hoàn cho [Cốc Nam tại Biện Kinh Phủ (1598/3165)] ở Biện Kinh Phủ.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000119.xml",
+          "dialog_npc_id": 569,
+          "dialog_npc_name": "Cốc Nam [Thống Lĩnh Thị Vệ Ngự Tiền]",
+          "steps": [
+            {
+              "id": 1274,
+              "sub_id": 281,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "GoPos; TaskAct:StepOverWithTalk",
+              "target_params": "100,1737,3394,20,Đến căn cứ bí mật của Như Ảnh ở Phong Lăng Độ; <playername>: (Nơi đây quả có nhiều Như Ảnh ẩn nấp, xem thử Tử Mẫu Hoàn có trên người chúng không.)<end>,Tìm được Tử Mẫu Hoàn từ chỗ Như Ảnh"
+            },
+            {
+              "id": 1275,
+              "sub_id": 281,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "KillNpc4Item; TaskAct:StepOverEvent",
+              "target_params": "1032,0,{104,},0.3,1,false; Đem Tử Mẫu Hoàn giao lại cho Cốc Nam ở Biện Kinh"
+            },
+            {
+              "id": 1276,
+              "sub_id": 281,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "569,0,<subtaskname>,<playername>: \"Ngài xem có phải đã mất đi vật này không?\"<end>\n<npc=569>: \"Để ta xem xem… Đúng là Tử Mẫu Hoàn! Lần này huynh đệ của ta được cứu rồi.\"<end>,Giao Tử Mẫu Hoàn cho Cốc Nam,Giao Tử Mẫu Hoàn cho Cốc Nam,Xin chào!,Ngươi thật đáng khen; {104,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 419,
+              "sub_id": 281,
+              "phase": "start",
+              "cleaned_text": "[Cốc Nam [Thống Lĩnh Thị Vệ Ngự Tiền]]: \"Nếu ngày mai vẫn không tìm thấy Tử Mẫu Hoàn, các huynh đệ phải uổng mạng rồi......\"\n[Đại Hiệp]: \"Sao lại vậy?\"\n[Cốc Nam [Thống Lĩnh Thị Vệ Ngự Tiền]]: \"Ngươi không biết đó thôi, vài ngày trước, nhóm đào cát ở bãi sông phát hiện một cặp Tử Mẫu Hoàn. Tề Vương biết được nên trả giá cao mua bảo vật này tặng cho Hoàng thượng, không ngờ trong quá trình áp tải, tiểu đệ đã làm mất chúng. Tề Vương lệnh cho ta và huynh đệ phải tìm lại bảo vật trong 3 ngày, nếu không sẽ tấu lên Hoàng thượng, đến lúc đó ta chỉ có con đường chết mà thôi.\"\n[Đại Hiệp]: \"Tử Mẫu Hoàn là báu vật thế nào mà khiến Tề Vương nổi giận như vậy? Mà kẻ nào lại cả gan dám động đến cống phẩm?\"\n[Cốc Nam [Thống Lĩnh Thị Vệ Ngự Tiền]]: \"Tử Mẫu Hoàn kỳ diệu ở chỗ, nếu 1 người đeo Tử Hoàn, 1 người đeo Mẫu Hoàn thì Tử Hoàn có thể cảm nhận được Mẫu Hoàn đang ở nơi nào. Đích thân Tề Vương đã thử qua, người đeo Mẫu Hoàn cho dù ở nơi đâu cũng đều bị Tử Hoàn tìm thấy. Gần đây trong nước nổi lên một tổ chức gọi là Ảnh Tử Hội, nghe nói trong đó có đội Như Ảnh chuyên cướp kỳ bảo rồi lại bán đi. Ta nghĩ Tử Mẫu Hoàn chắc chắn bị chúng cướp đi rồi.\"\n[Đại Hiệp]: \"Đã biết vậy sao không đuổi theo mà còn ở đây than vãn?\"\n[Cốc Nam [Thống Lĩnh Thị Vệ Ngự Tiền]]: \"Ta là Thống lĩnh Thị vệ Ngự Tiền, luôn phải sẵn sàng đợi lệnh, nếu đi nghĩa là tự tiện rời bỏ cương vị, cũng là tử tội; hơn nữa đã từng giao chiến, không phải là đối thủ của chúng. Ta biết Như Ảnh có căn cứ bí mật ở Phong Lăng Độ nên mới tìm người đi đoạt lại bảo vật. Nhưng biển người mênh mông, ai có thể giúp ta đây?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 133,
+      "task_id_hex": "0000000000000085",
+      "name": "Đại Án Thâm Khuê",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000085.xml",
+      "subtasks": [
+        {
+          "sub_id": 282,
+          "sub_id_hex": "000000000000011a",
+          "task_id": 133,
+          "name": "Giải Quyết Tận Gốc",
+          "describe_cleaned": "Gần đây Dương Châu xảy ra một chuyện, thiên kim của Tư Mã Trung Hằng là Tư Mã Thiên Thiên bị mất tích ngay trong khuê phòng. Tư Mã Trung Hằng - thương gia gạo lớn nhất vùng này, rất giàu có, có người cho rằng có kẻ gian muốn nhân cơ hội tống tiền. Nhưng Tư Mã Thiên Thiên mất tích nhiều ngày, lại không có người gửi thư tống tiền. Tư Mã Trung Hằng chỉ còn cách cầu cứu quan phủ, quan phủ điều tra nhiều ngày liền vẫn không có tin tức gì. Long Nhất Hiện nhờ ta hỗ trợ điều tra việc này.\n• Long Nhất Hiện nhờ ta hỗ trợ tìm kiếm Tư Mã Thiên Thiên, muốn tìm Tư Mã Thiên Thiên phải hỏi [Tư Mã Trung Hằng tại Dương Châu Phủ (1630/3273)] chi tiết sự việc.\n• Thông qua Tư Mã Trung Hằng ta biết được, Tư Mã Thiên Thiên ước hẹn với một công tử nhà quyền quý là Từ Lương bị Tư Mã Trung Hằng kịch liệt phản đối. Tư Mã Trung Hằng cho rằng việc này nhất định có liên quan đến Từ Lương nhưng khổ nỗi là không có bằng chứng. Muốn tra rõ việc này phải đến [nhà của Từ Lương tại Dương Châu Phủ (1490/3214)] tìm hiểu.\n• Ta đến nhà của Từ Lương nhưng không gặp được y, theo như tam thúc của Từ Lương noithì có lẽ y đã đến Thục Cương Sơn, ta thoáng nghĩ Tư Mã Thiên Thiên có lẽ cũng ở [nơi nào đó tại Thục Cương Sơn (1858/3624)] ở Thục Cương Sơn.\n• Ta đến Thục Cương Sơn, không ngờ Từ Lương và Tư Mã Thiên Thiên quả thực đang ở đây, xem điệu bộ có lẽ Tư Mã Thiên Thiên không đồng ý cách làm của [Từ Lương tại Thục Cương Sơn (1858/3619)], đến hỏi thực hư thế nào.\n• Từ Lương thẹn quá hóa giận đã động thủ với ta nhưng y làm sao có thể là đối thủ của ta được, trừng trị y xong ta quyết định dẫn [Tư Mã Thiên Thiên tại Thục Cương Sơn (1858/3619)] về Dương Châu Phủ.\n• Tư Mã Thiên Thiên lúc này có lẽ đã quay về Dương Châu rồi, tìm [Tư Mã Trung Hằng tại Dương Châu Phủ (1630/3273)] nhận phần thưởng y đã hứa.",
+          "file_path": "Stories\\task_publish\\sub\\000000000000011A.xml",
+          "dialog_npc_id": 562,
+          "dialog_npc_name": "Long Nhất Hiện",
+          "steps": [
+            {
+              "id": 1277,
+              "sub_id": 282,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "909,0,<subtaskname>,<playername>: \"Tư Mã lão gia, ta đến vì chuyện lệnh thiên kim bị mất tích. Xin hỏi, lệnh thiên kim trước khi mất tich có gì khác thường?\"<end>\n<npc=909>: \"Khác thường? Khác thường gì chứ, con gái ta làm sao có gì khác thường chứ? Bổ Khoái các ngươi không tìm được con gái ta nên nghi ngờ lung tung, cẩn thận nếu không ta nói cho tri phủ giáo huấn các ngươi một trận.\"<end>\n<playername>: \"Tư Mã lão gia xem ra không quan tâm đến việc tìm lệnh thiên kim về, vậy xin cáo từ!\"<end>\n<npc=909>: \"Khoan đã! Ngươi...thật sự có thể tìm được Thiên Thiên?\"<end>\n<playername>: \"Việc này còn phải nhờ Tư Mã lão gia nói ra những điều mình biết. Nếu có chút giấu giếm, ta cũng không dám bảo đảm tìm được lệnh thiên kim.\"<end>\n<npc=909>: \"Thôi được, việc đã đến bước này cũng không còn gì ngại nữa. Nửa năm trước Thiên Thiên quen biết thiếu gia Từ Lương của Từ Phủ, hai người nhiều lần lén gặp nhau, thề non hẹn biển. Ta biết được nổi trận lôi đình, nhốt Thiên Thiên trong phòng không cho ra ngoài. Tên tiểu tử Từ Lương đó ỷ có chút gia sản tổ tiên để lại, suốt ngày chơi bời lêu lổng, ta làm sao gả con gái cho loại người như hắn?\"<end>\n<playername>: \"Việc này nếu có liên quan tới Từ Lương, vậy an nguy của lệnh thiên kim không còn đáng lo nữa. Ta sẽ đến Từ Phủ một chuyến, xem Từ Lương có trong phủ không.\"<end>\n<npc=909>: \"Nếu tìm được Thiên Thiên về, lão phu nhất định hậu tạ!\"<end>,Tìm được Tư Mã Trung Hằng,Tìm được Tư Mã Trung Hằng,Xin chào!,Ngươi thật đáng khen; Đến Từ Lương Phủ thám thính"
+            },
+            {
+              "id": 1278,
+              "sub_id": 282,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "1028,0,<subtaskname>,<playername>: \"Xin hỏi lão trượng đây có phải là Từ Lương Phủ?\"<end>\n<npc=1028>: \"Là ngươi à Tiểu Hầu Tử! Sao lâu rồi không đến thăm ta? Đến tìm Từ Lương ca à? Nhóc con ngươi còn đùa với Tam Thúc Công, xem như người nhà rồi, còn không quen biết sao? Từ Lương ca ngươi đến Thục Cương Sơn rồi, nói là một thời gian nữa mới về. Thật hay ngươi đến ở với ta vài ngày đi.\"<end>\n<playername>: (Vị Tam Thúc Công này nhận lầm người rồi, nhưng xem ra Từ Lương có hơi kỳ lạ, chi bằng đến Thục Cương Sơn thăm dò.)\"<end>\n<npc=1028>: \"Này! Tiểu Hầu Tử ngươi đừng đi! Nhóc con này...\"<end>,Đến Từ Phủ thám thính,Đến Từ Phủ thám thính,Xin chào!,Ngươi thật đáng khen; Đến Thục Cương Sơn tìm tin tức Từ Lương và Tư Mã Thiên Thiên"
+            },
+            {
+              "id": 1279,
+              "sub_id": 282,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "GoPos; TaskAct:StepOverWithTalk",
+              "target_params": "103,1858,3624,15,Tìm được Từ Lương và Tư Mã Thiên Thiên; <npc=1034>: \"Lương ca, ta muốn về nhà, ta nhớ cha...\"<end>\n<npc=1030>: \"Thiên Thiên, nhẫn nại chút. Đợi cha nàng chịu thua rồi chúng ta về, giờ về chúng ta há chẳng phải công dã tràng sao?\"<end>\n<npc=1034>: \"Đều tại huynh không tốt, thuê đám người Huyết Ảnh đó mang ta đến đây trong đêm tối. Sau khi mẹ ta mất, một mình cha vừa làm cha vừa làm mẹ nuôi ta khôn lớn, giờ đối xử với cha như vậy, ta còn mặt mũi nào gặp mẹ... Hu hu...\"<end>\n<npc=1030>: \"Nàng đừng khóc, cha nàng canh giữ nghiêm ngặt vậy, nếu không phải tốn tiền mời người của Ảnh Tử Hội, ta có thể gặp được nàng?\"<end>\n<npc=1034>: \"Ta mặc kệ, ta muốn về nhà, muốn về nhà...\"<end>\n<playername>: (Từ Lương và Tư Mã Thiên Thiên quả thật là đi cùng nhau, xem ra Từ Lương không muốn Tư Mã Thiên Thiên về Dương Châu, ta thử thuyết phục xem.)<end>,Thuyết phục Từ Lương dẫn Tư Mã Thiên Thiên về Dương Châu"
+            },
+            {
+              "id": 1280,
+              "sub_id": 282,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "DialogNpc2FightNpc; TaskAct:StepOverWithTalk",
+              "target_params": "103,1858,3616,1031,<subtaskname>,<playername>: \"Vị huynh đài này, nếu Thiên Thiên cô nương đã muốn về, ngươi đưa cô ấy về đi. Các ngươi hà tất bỏ trốn như vậy? Sau này sao đối mặt với Tư Mã lão gia?\"<end>\n<npc=1030>: \"Ngươi là ai? Sao lại xen vào chuyện riêng tư của người khác như vậy?\"<end>\n<playername>: \"Ta được Tư Mã lão gia ủy thác đưa Thiên Thiên cô nương trở về, xin đừng ngăn cản.\"<end>\n<npc=1030>: \"Sao? Ta làm sao có thể để ngươi đưa Thiên Thiên về? Cô ấy là của ta, không ai có thể đoạt được cô ấy từ tay ta!!\"<end>,1030,75,5,Thuyết phục Từ Lương,Thuyết phục Từ Lương,Xin chào!,Ngươi thật đáng khen; <npc=1034>: \"Lương ca! Lương ca! Huynh sao rồi?\"<end>,Dẫn Tư Mã Thiên Thiên về Dương Châu"
+            },
+            {
+              "id": 1281,
+              "sub_id": 282,
+              "step_index": 5,
+              "instruction": "",
+              "target_function": "ProtectNpc; TaskAct:StepOverWithTalk",
+              "target_params": "1035,1858,3622,45,<subtaskname>,<playername>: \"Thiên Thiên cô nương, chúng ta nhanh chóng trở về Dương Châu. Không chỉ cha cô lo lắng, mà nha dịch liên can của Dương Châu cũng khổ.\"<end>\n<npc=1034>: \"Nhưng Lương ca...\"<end>\n<playername>: \"Không sao, chỉ là hôn mê thôi, mau trở về Dương Châu!\"<end>\n<npc=1034>: \"Ta... vậy chúng ta đi thôi...\"<end>,1034,75,103,45,3000,1801,3908,5,1854,3622\n1845,3631\n1833,3655\n1830,3680\n1819,3699\n1803,3729\n1783,3757\n1765,3802\n1776,3845\n1784,3881\n1801,3908,Xin chào!,Ngươi thật đáng khen,0; <npc=1034>: \"Phía trước là thành Dương Châu, ta muốn tự về, tránh bị người ta nhìn thấy rồi bàn tán xôn xao.\"<end>,Tìm Tư Mã Trung Hằng nhận phần thưởng"
+            },
+            {
+              "id": 1282,
+              "sub_id": 282,
+              "step_index": 6,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "909,0,<subtaskname>,<playername>: \"Tư Mã lão gia, lệnh thiên kim đã về đến rồi phải không?\"<end>\n<npc=909>: \"Về rồi, về rồi, đa tạ <if me.nSex==0>thiếu hiệp<else>cô nương<endif> tương trợ, sẽ không thiếu phần thưởng cho đại hiệp.\"<end>\n<playername>: \"Việc này không cần gấp gáp, chuyện hôn nhân xin Tư Mã lão gia nhìn xa chút mới phải.\"<end>\n<npc=909>: \"Đã xảy ra sự tình như vậy, lão phu cũng rất khó xử...\"<end>,Tìm Tư Mã Trung Hằng nhận phần thưởng,Tìm Tư Mã Trung Hằng nhận phần thưởng,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 420,
+              "sub_id": 282,
+              "phase": "start",
+              "cleaned_text": "[Long Nhất Hiện]: \"Gần đây Dương Châu xảy ra một chuyện, thiên kim của nhà Tư Mã Trung Hằng là Tư Mã Thiên Thiên bị mất tích ngay khuê phòng. Tư Mã Trung Hằng là thương gia gạo lớn nhất vùng này, rất giàu có, có người cho rằng có kẻ gian muốn nhân cơ hội tống tiền. Nhưng Tư Mã Thiên Thiên mất tích nhiều ngày, lại không có người gửi thư tống tiền. Ông chủ Tư Mã và tri phủ đại nhân có quan hệ tốt, đại nhân vì chuyện này mà nổi trận lôi đình, muốn ta nội trong ba ngày phải tìm được Tư Mã Thiên Thiên.\"\n[Đại Hiệp]: \"Quan phủ không phái người tìm sao?\"\n[Long Nhất Hiện]: \"Có, làm sao dám không tìm chứ? Sự tình kỳ lạ, Tư Mã Trung Hằng chỉ nói lệnh thiên kim mất tích, ngoài ra không biết gì. Ta nghĩ chuyện này không hề đơn giản, nhờ [Nam: thiếu hiệp / Nữ: nữ hiệp] ra tay trượng nghĩa, nếu không tri phủ đại nhân sẽ phạt đòn ta chết mất.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 134,
+      "task_id_hex": "0000000000000086",
+      "name": "Tế Sống",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000086.xml",
+      "subtasks": [
+        {
+          "sub_id": 283,
+          "sub_id_hex": "000000000000011b",
+          "task_id": 134,
+          "name": "Tiên Hạ Thủ Vi Cường",
+          "describe_cleaned": "Tam Bạng Tử bị bọn tà giáo ở Kê Quán động gạt đến đây, để làm vật tế sống cho Tà thần của chúng. Tam Bạng Tử nhân lúc bọn lính trông coi lỏng lẻo, đã đào một mật đạo để thoát thân, nhưng trước khi đi phải cho bọn chúng một trận mới hả giận.\n• Tam Bạng Tử nhờ ta trừng trị bọn [Nam Đệ Tử Tà Giáo tại Kê Quán Động (1368/3155)], [Nữ Đệ Tử Tà Giáo tại Kê Quán Động (1270/2915)] và [Tà Giáo Bốc Sư tại Kê Quán Động (1306/3156)].\n• Về Kê Quán động báo tin đã trừng trị bọn tà giáo giúp [Tam Bạng Tử tại Kê Quán Động (1268/3124)].",
+          "file_path": "Stories\\task_publish\\sub\\000000000000011B.xml",
+          "dialog_npc_id": 1041,
+          "dialog_npc_name": "Tam Bạng Tử",
+          "steps": [
+            {
+              "id": 1283,
+              "sub_id": 283,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; KillNpc; TaskAct:StepOverEvent",
+              "target_params": "2164,0,50,Xin chào!,Ngươi thật đáng khen; 2162,0,50,Xin chào!,Ngươi thật đáng khen; 2163,0,50,Xin chào!,Ngươi thật đáng khen; Mang tin đệ tử tà giáo đã bị trừng trị báo cho Tam Bạng Tử"
+            },
+            {
+              "id": 1284,
+              "sub_id": 283,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "1041,0,<subtaskname>,<playername>: \"Ngươi có thể yên tâm rời khỏi đây, ta đã giúp ngươi giáo huấn bọn chúng rồi.\"<end>\n<npc=1041>: \"Rất tốt, tặng ngươi món quà mọn này.\"<end>\n<npc=1097>: \"Huynh đệ sau này có duyên sẽ gặp lại!\"<end>\n<npc=1041>: \"Miệng thúi như ngươi, lão tử thật không muốn gặp lại chút nào.\"<end>,Về tìm Tam Bạng Tử,Về tìm Tam Bạng Tử,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 421,
+              "sub_id": 283,
+              "phase": "start",
+              "cleaned_text": "[Tam Bạng Tử]: \"Bọn người Đạo Nhất Thiên Giáo này gạt lão tử đến nơi đây, nói tốt này tốt nọ, không ngờ mang ta làm vật tế thần. Cũng may ta bị xếp cuối cùng, nhân cơ hội này đào thông đạo trốn đi. Chỉ là mối hận này nuốt không trôi, nếu có người thay ta xóa sổ đám tà giáo này, lão tử sẽ dâng tặng tất cả bảo bối của những người đã chết.\"\n[La Thành [Đệ Tử Ngũ Độc Giáo]]: \"Ngươi quả là rộng rãi.\"\n[Tam Bạng Tử]: \"Ngươi đừng nói nữa, có bản lĩnh thì đừng thoát thân bằng địa đạo ta đào sẵn!\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 135,
+      "task_id_hex": "0000000000000087",
+      "name": "Tín Đồ",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000087.xml",
+      "subtasks": [
+        {
+          "sub_id": 284,
+          "sub_id_hex": "000000000000011c",
+          "task_id": 135,
+          "name": "Tu Sửa Cơ Quan",
+          "describe_cleaned": "Đệ tử của Đạo Nhất Thiên Giáo đến thôn của Ngô Tẩu để truyền đạo, dụ dỗ Ngô lão tứ gia nhập giáo, Ngô Tẩu đã nghe rất nhiều về việc Đạo Nhất Thiên giáo dùng người sống để tế thần, nên đã âm thầm lẻn vào Kê Quán động định kéo Ngô lão tứ về. Nhưng Kê Quán động mênh mông như vầy, biết Ngô lão tứ ở đâu mà tìm? Ngô Tẩu nhờ bạn tìm giúp Ngô lão tứ.\n• Bạn hứa đi tìm [Ngô lão tứ tại Kê Quán Động (1274/3198)] giúp Ngô tẩu.\n• [Ngô Tẩu tại Kê Quán Động (1149/3001)] vô cùng cảm kích, tặng bạn một món quà nhỏ.",
+          "file_path": "Stories\\task_publish\\sub\\000000000000011C.xml",
+          "dialog_npc_id": 1042,
+          "dialog_npc_name": "Ngô Tẩu",
+          "steps": [
+            {
+              "id": 1285,
+              "sub_id": 284,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "ProtectNpc; TaskAct:StepOverWithTalk",
+              "target_params": "1043,1278,3200,45,<subtaskname>,<playername>: \"Ngô đại ca, mau đi cùng ta, Ngô đại tẩu đến tìm huynh về!\"<end>\n<npc=1043>: \"Ấy, ta sớm đã muốn quay về, do có người canh giữ nên không đi được. Giờ ngươi đến cứu thật tốt quá!\"<end>,1044,75,102,45,3000,1149,3002,5,1264,3185\n1266,3170\n1288,3151\n1315,3121\n1308,3098\n1292,3070\n1276,3049\n1284,3032\n1261,3001\n1232,2988\n1208,3003\n1181,3007\n1149,3002,Xin chào!,Ngươi thật đáng khen,0.5; <npc=1042>: \"Lão đầu tử ta tìm được ngươi rồi! <if me.nSex==0>Thiếu hiệp<else>Cô nương<endif>, lão thân có chút quà mọn tặng ngươi này.\"<end>,Nói chuyện với Ngô tẩu"
+            },
+            {
+              "id": 1286,
+              "sub_id": 284,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "1042,0,<subtaskname>,<npc=1042>: \"Chúng ta đều là người nghèo khổ, không có vật gì đáng giá. Lão Tứ là trụ cột nhà ta, <if me.nSex==0>thiếu hiệp<else>cô nương<endif> đã cứu lão, lão thân cho dù thế nào cũng phải đáp tạ.\"<end>,Nói chuyện với Ngô tẩu,Nói chuyện với Ngô tẩu,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 422,
+              "sub_id": 284,
+              "phase": "start",
+              "cleaned_text": "[Ngô Tẩu]: \"Xem vẻ mặt [Nam: thiếu hiệp / Nữ: cô nương] không giống người xấu, có thể giúp lão thân một việc?\"\n[Đại Hiệp]: \"Đại tẩu xin cứ nói!\"\n[Ngô Tẩu]: \"Ta là Ngô tẩu ở thôn lân cận, đến đây tìm chồng ta là Ngô Lão Tứ. Mấy ngày trước người của Đạo Nhất Thiên Giáo đến thôn ta truyền đạo, chồng ta lại tin lời họ bỏ vợ con đến đây. Ta nghe người ta nói Đạo Nhất Thiên Giáo là tà giáo, thường dùng người sống làm tế phẩm. Trong lòng rất lo sợ, liền đến đây tìm chồng trở về, nhưng động lớn như vậy, khắp nơi đều là người của chúng, ta không dám hành động. Ngươi có thể giúp ta tìm chồng không?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 136,
+      "task_id_hex": "0000000000000088",
+      "name": "Luân Hồi",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000088.xml",
+      "subtasks": [
+        {
+          "sub_id": 285,
+          "sub_id_hex": "000000000000011d",
+          "task_id": 136,
+          "name": "Hợp Tác Với Tây Ô Man",
+          "describe_cleaned": "Tại ngôi mộ trên Cửu Nghi Khê, ta phát hiện ra tấm bia của một tăng nhân Thiên Trúc, trên tấm bia kể lại việc các tăng nhân Thiên Trúc lưu lạc và chết thảm ở Nam Tống. Người này chưa viết xong văn bia thì đã kiệt sức mà chết, ông ta hy vọng có người hảo tâm giúp tìm hài cốt của các huynh đệ tăng nhân để cùng mai táng một chỗ.\n• Đọc xong bài văn, ta cảm thấy xúc động nên tự nguyện đi tìm các [hài cốt tăng nhân Thiên Trúc tại Cửu Nghi Khê (1911/3650)] về mai táng.\n• Theo di ngôn, tăng nhân Thiên Trúc muốn được hoả táng. Ta theo di ngôn dùng [Bất diệt hỏa tại Cửu Nghi Khê (1888/3699)] hoả táng các hài cốt.\n• Trong lúc hoả táng phát hiện ra các viên xá lợi. Mang chúng lên Thiếu Lâm nhờ [Huyền Từ phương trượng tại Thiếu Lâm Phái (1733/3060)] cầu siêu cho họ.\n• Huyền Từ phương trượng nghe chuyện các tăng nhân Thiên Trúc, lòng rất phiền muộn. Nhờ ta mang các viên xá lợi đó ra mai táng ở [Tháp Lâm tại Thiếu Lâm Phái (1643/2948)].\n• Mọi việc đã hoàn thành, sau khi giã từ [Huyền Từ phương trượng tại Thiếu Lâm Phái (1733/3060)] có thể rời khỏi Thiếu Lâm",
+          "file_path": "Stories\\task_publish\\sub\\000000000000011D.xml",
+          "dialog_npc_id": 618,
+          "dialog_npc_name": "Bia đá",
+          "steps": [
+            {
+              "id": 1287,
+              "sub_id": 285,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "WithProcess; TaskAct:StepOverEvent",
+              "target_params": "1559,106,5,Đang tìm...,Nhặt được di hài Thiên Trúc Tăng,Thất bại,{Di hài Thiên Trúc Tăng,20,1,107,1,0,1},10,Nhặt được %d/10 di hài Thiên Trúc Tăng,Nhặt lấy di hài Thiên Trúc Tăng Cửu Nghi Khê,Xin chào!,Ngươi thật đáng khen,1912,3651\n1932,3645\n1910,3620\n1928,3596\n1935,3626\n1920,3663\n1922,3687\n1913,3706\n1924,3648\n1901,3618\n1924,3627,30; Tìm được Bất diệt hỏa hỏa táng di hài Thiên Trúc Tăng"
+            },
+            {
+              "id": 1288,
+              "sub_id": 285,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "WithProcessStatic; TaskAct:StepOverWithTalk; TaskAct:DelItem",
+              "target_params": "1563,106,10,Đang hỏa táng,Đã hỏa táng di hài Thiên Trúc Tăng,Ngại quá!,{Xá Lợi Tử,20,1,106,1,0,1}\n{Tro xương Thiên Trúc Tăng,20,1,105,1,0,1},3,Đã hỏa táng %d/3 di hài Thiên Trúc Tăng,Hỏa táng di hài Thiên Trúc Tăng trong ngọn lửa,Xin chào!,Ngươi thật đáng khen; <playername>: (Sau khi hỏa táng di hài Thiên Trúc Tăng, phát hiện mấy hạt đá ngũ sắc lấp lánh giống như Xá Lợi Tử trong truyền thuyết. Xá Lợi Tử và tro xương Thiên Trúc Tăng không biết nên xử trí như thế nào, chi bằng đem đến Thiếu Lâm, thỉnh giáo Huyền Từ phương trượng.\")<end>,Đem Xá Lợi Tử và hộp tro xương Thiên Trúc Tăng đến cho Huyền Từ phương trượng Thiếu Lâm; {107,},-1"
+            },
+            {
+              "id": 1289,
+              "sub_id": 285,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3512,0,<subtaskname>,<playername>: \"Ta thấy một số di hài của Thiên Trúc Tăng ở Cửu Nghi Khê, liền hỏa táng, không nghĩ trong đó lại có Xá Lợi Tử. Tro xương và Xá Lợi Tử này, ta không biết nên làm thế nào, nên đến thỉnh giáo đại sư.\"<end>\n<npc=3512>: \"A Di Đà Phật, thí chủ thật có tấm lòng bồ tát. Mười năm trước có một số Thiên Trúc Tăng đến bổn tự, để lại một viên Thất Bảo Xá Lợi Tử, rồi rời khỏi bổn tự. Lúc này trong Thiên Trúc Thiên Hóa Tự nổi lên phân hóa, tăng nhân trong chùa có sự bất đồng trong việc lĩnh ngộ phật pháp, nên số Thiên Trúc Tăng này mang bảo vật trấn tự đến trung thổ. Không ngờ lại mất tại đây, thiện tai, thiện tai!\"<end>\n<playername>: \"Theo di ngôn Thiên Trúc Tăng, chắc là tăng chúng Thiên Hóa Tự đến trung thổ tìm bảo vật, hai bên xảy ra tranh chấp, vì vậy mà chết.\"<end>\n<npc=3512>: \"A Di Đà Phật, tội lỗi, tội lỗi! Lão tăng từng để đệ tử mang Thất Bảo Xá Lợi thờ cúng trong Luân Hồi Tháp phía sau núi, thí chủ xin mang Xá Lợi Tử và tro xương Thiên Trúc Tăng đặt trong Luân Hồi Tháp, để họ sớm quay về miền cực lạc!\"<end>,Tìm được Huyền Từ phương trượng của Thiếu Lâm,Tìm được Huyền Từ phương trượng của Thiếu Lâm,Xin chào!,Ngươi thật đáng khen; Đặt Xá Lợi Tử và tro xương Thiên Trúc Tăng vào Luân Hồi Tháp của Thiếu Lâm"
+            },
+            {
+              "id": 1290,
+              "sub_id": 285,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "WithProcessStatic; TaskAct:StepOverWithTalk; TaskAct:DelItem; TaskAct:DelItem",
+              "target_params": "1560,0,10,Đang đặt,Đặt thành công,Thất bại,1,Đặt Xá Lợi Tử và tro xương Thiên Trúc Tăng,Đặt Xá Lợi Tử và tro xương Thiên Trúc Tăng,Xin chào!,Ngươi thật đáng khen; Ta đã đặt Xá Lợi Tử và tro xương Thiên Trúc Tăng, bỗng nhiên nổi lên một cơn gió nhẹ, có lẽ là lời đáp tạ của Thiên Trúc Tăng đối với ta...,Cáo từ Huyền Từ đại sư rời khỏi Thiếu Lâm; {105,},-1; {106,},-1"
+            },
+            {
+              "id": 1291,
+              "sub_id": 285,
+              "step_index": 5,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "3512,0,<subtaskname>,<playername>: \"Tất cả đã sắp xếp thỏa đáng, vãn bối xin cáo từ.\"<end>\n<npc=3512>: \"A Di Đà Phật, thí chủ tấm lòng bồ tát, Phật Tổ sẽ phù hộ!\"<end>,Từ biệt Huyền Từ,Từ biệt Huyền Từ,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 423,
+              "sub_id": 285,
+              "phase": "start",
+              "cleaned_text": "[Bia đá]: \"Mười năm trước, Dư và các sư huynh đệ bị trục xuất khỏi Thiên Trúc Thiên Hóa Tự, lưu lạc đến đây. Sau đó đại sư huynh đuổi đến đây, đòi giao ra Thất Bảo Xá Lợi của sư tổ để lại. Dư liều mạng bảo vệ, các vị sư huynh đệ lần lượt chết hết, Dư cũng bị trọng thương mà chết. Ta chết không tiếc, nhưng Xá Lợi rơi vào tay ác đồ, chết không nhắm mắt. Sức cùng lực kiệt không thể chôn cất đồng môn. Chỉ mong có người thương xót chúng ta, mà hỏa táng, xin vạn tạ...\"\n[Đại Hiệp]: (Nghĩ đến di hài Thiên Trúc Tăng này nằm ngoài trời nhiều năm, ta động lòng trắc ẩn, hỏa táng từng người, để an ủi vong linh họ.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 137,
+      "task_id_hex": "0000000000000089",
+      "name": "Thích Khách",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000089.xml",
+      "subtasks": [
+        {
+          "sub_id": 286,
+          "sub_id_hex": "000000000000011e",
+          "task_id": 137,
+          "name": "Thám Hiểm Mê Cung",
+          "describe_cleaned": "Tạ Mãn Đình ở Đại Lý Phủ đang tìm người mang thức ăn vào đại lao cho thích khách bị giam, nhưng những người nhận làm chuyện này đều từ chối giữ bí mật.\n• Nếu đáp ứng được điều kiện của [Tạ Mãn Đình tại Đại Lý Phủ (1504/3433)], có thể gặp ông ta nhận nhiệm vụ mang thức ăn cho thích khách.\n• Mang thức ăn đến đại lao cho [thích khách bị giam tại Đại Lý Phủ (1409/3326)].\n• Quay về gặp [Tạ Mãn Đình tại Đại Lý Phủ (1504/3433)].",
+          "file_path": "Stories\\task_publish\\sub\\000000000000011E.xml",
+          "dialog_npc_id": 1048,
+          "dialog_npc_name": "Tạ Mãn Đình",
+          "steps": [
+            {
+              "id": 1292,
+              "sub_id": 286,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "GivePlayerItem; TaskAct:StepOverEvent",
+              "target_params": "1048,0,Ta muốn đi,<npc=1048>: \"Được, ngươi hãy đem thức ăn này cho thích khách bị bắt trong ngục, là món ăn hắn thích. Sau khi hắn ăn xong, ngươi về tìm ta.\",{Món ăn thần bí,20,1,103,1,0,1},Tìm Tạ Mãn Đình nhận món ăn,Tìm Tạ Mãn Đình nhận món ăn,Xin chào!,Ngươi thật đáng khen; Mang món ăn cho thích khách bị bắt trong lao"
+            },
+            {
+              "id": 1293,
+              "sub_id": 286,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "GiveItem; TaskAct:StepOverEvent",
+              "target_params": "1047,0,Đây là món ăn ngươi thích nhất,<npc=1047>: \"Ồ! Đây là bánh tổ ta thích nhất, đa tạ ngươi, ngươi tốt quá!\",{Món ăn thần bí,20,1,103,1,0,1},Xin chào!,Ngươi thật đáng khen; Về tìm Tạ Mãn Đình"
+            },
+            {
+              "id": 1294,
+              "sub_id": 286,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "1048,0,<subtaskname>,<npc=1048>: \"Cầm tiền thưởng đi mau, đừng ở đây, coi chừng bị người ta phát hiện.\",Tìm được Tạ Mãn Đình,Tìm được Tạ Mãn Đình,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 424,
+              "sub_id": 286,
+              "phase": "start",
+              "cleaned_text": "[Tạ Mãn Đình]: \"Ta muốn nhờ người đem món ăn này cho thích khách bị nhốt trong nhà lao, sau khi hoàn thành sẽ hậu tạ. Nhưng việc này phải giữ bí mật. Nếu ngươi làm được thì đến tìm ta lấy món ăn đem cho hắn!\"\n[Đại Hiệp]: \"Món ăn này có gì đặc biệt sao?\"\n[Tạ Mãn Đình]: \"Không được hỏi.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 138,
+      "task_id_hex": "000000000000008a",
+      "name": "Diệt Sạch Báo Thù",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000008A.xml",
+      "subtasks": [
+        {
+          "sub_id": 287,
+          "sub_id_hex": "000000000000011f",
+          "task_id": 138,
+          "name": "Tử Ngọc Băng Xà",
+          "describe_cleaned": "Ta gặp Mộc La Sam ở Cửu Nghi Khê, cô ta muốn nhờ ta giúp báo mối thù tàn sát cả gia đình.\n• Mộc La Sam nhờ ta tiêu diệt [Đao Khách Giang Hồ tại Cửu Nghi Khê (1713/3343)], [Kiếm Khách Giang Hồ tại Cửu Nghi Khê (1755/3497)] và [Đại Nội Mật Thám tại Cửu Nghi Khê (1720/3707)].\n• Về Cửu Nghi Khê báo tin đã giúp [Mộc La Sam tại Cửu Nghi Khê (1653/3421)] báo thù.",
+          "file_path": "Stories\\task_publish\\sub\\000000000000011F.xml",
+          "dialog_npc_id": 1049,
+          "dialog_npc_name": "Mộc La Sam [Người May Mắn]",
+          "steps": [
+            {
+              "id": 1295,
+              "sub_id": 287,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; KillNpc; TaskAct:StepOverEvent",
+              "target_params": "2172,0,30,Xin chào!,Ngươi thật đáng khen; 2171,0,30,Xin chào!,Ngươi thật đáng khen; 2173,0,30,Xin chào!,Ngươi thật đáng khen; Tìm người may mắn sống sót Mộc La Sam"
+            },
+            {
+              "id": 1296,
+              "sub_id": 287,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "1049,0,<subtaskname>,<playername>: \"Ta đã làm theo lời ngươi nói, cáo từ!\"<end>\n<npc=1049>: \"Ngươi...\"<end>,Tìm được Mộc La Sam,Tìm được Mộc La Sam,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 425,
+              "sub_id": 287,
+              "phase": "start",
+              "cleaned_text": "[Mộc La Sam [Người May Mắn]]: \"Ai đấy?\"\n[Đại Hiệp]: \"Ta chỉ là người qua đường thôi, không có ác ý, xin đừng sợ!\"\n[Mộc La Sam [Người May Mắn]]: \"Đi đi! Ta hận tận xương tủy đám giang hồ các ngươi, đừng đến gần ta, nếu không ta sẽ liều mạng với ngươi.\"\n[Đại Hiệp]: \"Ngươi sao vậy, phải chăng có chuyện gì khó khăn, nói ra xem ta giúp được không.\"\n[Mộc La Sam [Người May Mắn]]: \"Giúp ta? Ha ha! Toàn bộ người trong thôn ta đều bị chết dưới tay các ngươi, ngươi còn giả nhân giả nghĩa làm gì? Giết ta đi, ta không sợ đâu, chỉ sợ là không còn ai báo thù cho họ! Gia gia, nải nải, Tiểu Thúy, Tiểu Xuyên... ta có lỗi với các người...\"\n[Đại Hiệp]: \"Rốt cuộc đã xảy ra chuyện gì?\"\n[Mộc La Sam [Người May Mắn]]: \"Ngươi đừng giả bộ nữa, nếu không phải các ngươi bí mật lập nhóm lật đổ Hàn gì đó, âm mưu lật đổ thừa tướng Hàn Thác Trụ, thì thôn ta đâu có bị Đại Nội Mật Thám tàn sát như vậy? Ta làm sao sống khổ sở một mình? Ngươi đã nói ngươi với họ không phải cùng một phe, vậy đuổi hết bọn Kiếm Khách Giang Hồ và Đao Khách Giang Hồ vô danh kia đi, rồi giết chết bọn Cao Thủ Đại Nội mất nhân tính kia báo thù cho dân thôn ta.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 139,
+      "task_id_hex": "000000000000008b",
+      "name": "Hoàng Lăng",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000008B.xml",
+      "subtasks": [
+        {
+          "sub_id": 288,
+          "sub_id_hex": "0000000000000120",
+          "task_id": 139,
+          "name": "Lời Nói Cho Người Chết",
+          "describe_cleaned": "Vũ Thanh Phong cho biết, gần đây Đại Lý bỗng xuất hiện một đám quý tộc tà tâm, chúng lợi dụng bản tính háo sắc của Đoàn Trí Hưng để tấn công, khiến Đoàn gia bỏ bê triều chính. Vũ Thanh Phong phát hiện ra sự tình, đã nhiều lần cảnh báo Hoàng thượng nhưng bọn quý tộc này vây cánh quá đông, thậm chí chúng còn định thích sát Đoàn Trí Hưng nhưng nhờ có Thanh Phong ngăn cản. Đoàn Trí Hưng tâm tính nhân từ, không muốn truy cứu chuyện này. Đám quý tộc đó liền chuyển mục tiêu tấn công sang Hoàng Lăng. Vũ Thanh Phong bảo ta đi gặp người phụ trách tu sửa Hoàng Lăng là Hổ Kính Huy, xem bọn chúng có động tịnh gì.\n• Vũ Thanh Phong nhờ ta đến Hoàng Lăng tìm [Hổ Kính Huy tại Hoàng Lăng Đoàn Thị (1414/3523)] hỏi xem bọn quý tộc Đại Lý đang có hành động gì.\n• Hổ Kính Huy cho ta biết đám quý tộc đó đã mua chuộc bọn Thổ Bố Tộc Nhân phụ trách sửa chữa Hoàng Lăng, lợi dụng chúng phá hoại phong thuỷ của Hoàng Lăng. Hổ Kính Huy nhờ ta đi giáo huấn bọn [Thổ Bố Tộc Nhân tại Hoàng Lăng Đoàn Thị (1397/3486)] và [Thổ Bố Bốc Sư tại Hoàng Lăng Đoàn Thị (1613/3352)] và tu sửa lại hoàn thiện [Đông Trắc Cơ Quan Tổng Khu tại Hoàng Lăng Đoàn Thị (1770/3316)] và [Tây Trắc Cơ Quan Tổng Khu tại Hoàng Lăng Đoàn Thị (1389/3468)] đã bị bọn chúng phá hoại.\n• Báo cáo lại sự tình Hoàng Lăng cho [Vũ Thanh Phong tại Đại Lý Đoàn Thị (1649/3226)].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000120.xml",
+          "dialog_npc_id": 3498,
+          "dialog_npc_name": "Vũ Thanh Phong",
+          "steps": [
+            {
+              "id": 1297,
+              "sub_id": 288,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "4108,0,<subtaskname>,<playername>: \"Hổ đại ca, Võ đại nhân nhờ ta đến hỏi quý tộc trong triều có biểu hiện gì khác thường hay không?\"<end>\n<npc=4108>: \"Có, có, đám người này thật là không biết đang muốn gì. Chúng mua chuộc Thổ Bố Tộc Nhân phụ trách sửa chữa, muốn phá hoại phong thủy và cơ quan nơi đây, thật là liều lĩnh. Ngươi đã đến đây, thì hãy cho chúng biết tay, tiện thể sửa hai Cơ Quan Tổng Khu Đông Tây luôn.\"<end>,Tìm được Hổ Kính Huy,Tìm được Hổ Kính Huy,Xin chào!,Ngươi thật đáng khen; Cảnh cáo Cáp Bố Tộc Nhân và sửa Hoàng Lăng Cơ Quan Tổng Khu"
+            },
+            {
+              "id": 1298,
+              "sub_id": 288,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; WithProcessStatic; WithProcessStatic; TaskAct:StepOverEvent",
+              "target_params": "2178,0,15,Xin chào!,Ngươi thật đáng khen; 2177,0,15,Xin chào!,Ngươi thật đáng khen; 1530,0,5,Đang sửa,Sửa Đông Trắc Cơ Quan Tổng Khu,Thất bại,1,Sửa Đông Trắc Cơ Quan Tổng Khu,Sửa Đông Trắc Cơ Quan Tổng Khu,Xin chào!,Ngươi thật đáng khen; 1547,0,5,Đang sửa,Sửa Tây Trắc Cơ Quan Tổng Khu,Thất bại,1,Sửa Tây Trắc Cơ Quan Tổng Khu,Sửa Tây Trắc Cơ Quan Tổng Khu,Xin chào!,Ngươi thật đáng khen; Hồi báo cho Vũ Thanh Phong về chuyện Hoàng Lăng"
+            },
+            {
+              "id": 1299,
+              "sub_id": 288,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "3498,0,<subtaskname>,<npc=3498>: \"Thế nào?\"<end>\n<playername>: \"Các quý tộc muốn phá hoại cơ quan và phong thủy Hoàng Lăng, ta đã giáo huấn bọn Thổ Bố Tộc Nhân rồi, cũng đã sửa Cơ Quan Tổng Khu bị phá hoại. Nhưng việc này chưa phải đã giải quyết triệt để mọi rắc rối, vì vậy mong đại nhân phải nghĩ thêm cách khác.\"<end>\n<npc=3498>: \"Bọn ác tặc này, uổng công ta nể tình với chúng, lại làm ra chuyện tổn hại âm đức này. Lần này nhất định không thể tha cho chúng!\"<end>,Tìm được Vũ Thanh Phong,Tìm được Vũ Thanh Phong,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 426,
+              "sub_id": 288,
+              "phase": "start",
+              "cleaned_text": "[Vũ Thanh Phong]: \"Từ khi Hoàng thượng đưa mỹ nhân La Tuyết về thì suốt ngày chỉ ở hậu cung, buông lỏng việc triều chính, dẫn đến sự bất mãn của đại thần và quý tộc trong nước. Đại Lý vốn là nơi phức tạp, các thế lực dòng họ rối ren. Có một số người bất mãn với Hoàng thượng sẽ nhân cơ hội này lật đổ Hoàng thượng, tuy cách nghĩ này thật tức cười, nhưng thần tử chúng ta cũng phải đề cao cảnh giác.\"\n[Đại Hiệp]: \"Các quý tộc có thể sẽ hành động ư?\"\n[Vũ Thanh Phong]: \"Sao lại không chứ? Chúng mua chuộc thích khách âm mưu hành thích Hoàng thượng, cũng may bị ta phát hiện kịp thời. Võ công tên thích khách đó không có gì đáng lo đối với Hoàng thượng. Nhưng nếu dẫn đến triều đình rối loạn, sẽ không hay. Hoàng thượng tấm lòng nhân hậu, không truy cứu việc này. Nhưng ta biết bọn quý tộc này sẽ không bỏ cuộc, muốn mượn việc trùng tu Hoàng Lăng để phá rối. Ngươi có thể đến Hoàng Lăng Đoàn Thị tìm Hổ Kính Huy, thám thính chúng đã bắt đầu hành động hay chưa.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 140,
+      "task_id_hex": "000000000000008c",
+      "name": "Cựu Ái Sở Tại",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000008C.xml",
+      "subtasks": [
+        {
+          "sub_id": 289,
+          "sub_id_hex": "0000000000000121",
+          "task_id": 140,
+          "name": "Nghi Thức Giải Trừ Kiếp Vận",
+          "describe_cleaned": "Ta đến Hoàng Hạc Lâu gặp Cổ Yên Nhiên, người kể cho ta nghe một câu chuyện đã xảy ra và nhờ ta đến Đại Nhật sơn trại ở Thiên Long Tự tìm một người con gái tên Đồ Nhã. Đồ Nhã năm xưa do Cổ Yên Nhiên và Hoàn Nhan Tương cứu được trong một lần du ngoạn, lúc đó còn cứu thêm được một bé trai mới vừa tròn tháng. Cổ Yên Nhiên đặt tên cho bé trai này là A Bố và gửi nó cùng Đồ Nhã trong Đại Nhật sơn trại của Đại Nhật La. Sau nhiều năm, Cổ Yên Nhiên bỗng nhiên nhớ ra hai người này này, nhờ ta đến Đại Nhật sơn trại ở Thiên Long Tự tìm Đồ Nhã A Bố, xem chúng sống có được hạnh phúc không.\n• Cổ Yên Nhiên nhờ ta đến Đại Nhật sơn trại ở Thiên Long Tự tìm một người tên là [Đồ Nhã tại Thiên Long Tự (1852/3612)] và A Bố.\n• Ta đến Thiên Long Tự tìm được Đồ Nhã, cô ta cho biết A Bố đã bị quân sư của Đại Nhật La bắt đi. Xem ra ta cần phải đến chỗ quân sư ở [Thượng Tiên Trang tại Thiên Long Tự (1747/3820)] dò thám một chuyến và tìm cơ hội cứu A Bố.\n• Đến Thượng Tiên Trang tìm quân sư, phía sau hậu viện nhìn thấy [Tiểu A Bố tại Thiên Long Tự (1703/3762)], lập tức đưa cậu ta về Đại Nhật sơn trại với Đồ Nhã.\n• Đưa Tiểu A Bố về Đại Nhật sơn trại, [Đồ Nhã tại Thiên Long Tự (1852/3612)] còn chuyện muốn nói với ta.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000121.xml",
+          "dialog_npc_id": 1088,
+          "dialog_npc_name": "Cổ Yên Nhiên",
+          "steps": [
+            {
+              "id": 1300,
+              "sub_id": 289,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "651,0,<subtaskname>,<Playername>: \"Có phải là Đồ Nhã đại tẩu?\"<end>\n<npc=651>: \"Đúng vậy, ngươi là... ?\"<end>\n<Playername>: \"Là thế này, Cổ Yên Nhiên phái ta tới xem tình hình hiện nay của đại tẩu và A Bố, sao không thấy A Bố?\"<end>\n<npc=651>: \"Nó... hu hu... \"<end>\n<Playername>: \"Đừng khóc, A Bố bị sao?\"<end>\n<npc=651>: \"Mấy ngày trước quân sư đi qua nhà ta, thấy A Bố tư chất thông minh, liền nhận nó làm đệ tử. Ta nhờ trại chủ nói giúp tìm nó về, nhưng ông ta nói quân sư là kỳ nhân hiện nay, A Bố trở thành đệ tử ông ta là phúc đức kiếp trước. Nhưng ta nghĩ, tà khí trên mặt vị quân sư này, và những việc hắn làm rất quái lạ so với người thường. Còn nam nữ hỗn cư, không tránh khỏi hiềm nghi. Nữ đệ tử tên Yêu Yêu đó mê hoặc trại chủ, ta làm sao dám để A Bố đi cùng chúng.\"<end>\n<Playername>: \"Sau đó?\"<end>\n<npc=651>: \"Ta đã từng đến Thượng Tiên Trang nơi ở của quân sư tìm A Bố, bị chúng đuổi về. Ta ngày đêm mong Cổ cô nương có thể xuất hiện cùng với Hoàn Nhan công tử, giúp ta mang A Bố trở về... hu hu... \"<end>\n<Playername>: \"Xin đừng khóc nữa, đợi ta đến đó thăm dò.\"<end>,Tìm được Đồ Nhã và A Bố,Tìm được Đồ Nhã và A Bố,Xin chào!,Ngươi thật đáng khen; Đến Thượng Tiên Trang tìm A Bố"
+            },
+            {
+              "id": 1301,
+              "sub_id": 289,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "GoPos; TaskAct:StepOverWithTalk",
+              "target_params": "112,1747,3820,15,Đến tìm Tiểu A Bố; <npc=629>: \"Hu hu… Ta muốn về… muốn về...\"<end>\n<npc=625>: \"Suỵt… tổ gia gia của ta, đừng khóc nữa, nếu để quân sư nghe được lại nổi giận...\"<end>\n<Playername>: (Xem ra A Bố ở đây rồi, ta phải nghĩ cách cứu nó ra.)<end>,Đưa A Bố rời khỏi đây"
+            },
+            {
+              "id": 1302,
+              "sub_id": 289,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "ProtectNpc; TaskAct:StepOverWithTalk",
+              "target_params": "662,1703,3759,45,<subtaskname>,<Playername>: \"A Bố ngoan! <if me.nSex==0>Ca ca<else>Tỷ tỷ<endif> dẫn A Bố về tìm mẹ Đồ Nhã nha?<end>\n<npc=629>: \"Thật sao? Không gạt A Bố chứ? Giờ chúng ta đi đi!\"<end>\n<npc=625>: \"Ai dám cả gan xông vào quân doanh?\"<end>,629,85,112,45,3000,1857,3606,5,1703,3767\n1701,3782\n1715,3794\n1723,3803\n1730,3796\n1733,3801\n1736,3805\n1753,3818\n1761,3794\n1762,3753\n1778,3741\n1791,3732\n1796,3725\n1807,3717\n1827,3701\n1844,3698\n1855,3670\n1869,3644\n1860,3630\n1850,3616\n1857,3606,Xin chào!,Ngươi thật đáng khen,0; <npc=629>: \"Mẹ, A Bố về rồi!\"<end>\n<npc=651>: \"Mau trốn vào phòng, ta và vị <if me.nSex==0>ca ca<else>tỷ tỷ<endif> này còn có chuyện muốn nói!\"<end>,Xem Đồ Nhã có gì muốn nói với ta"
+            },
+            {
+              "id": 1303,
+              "sub_id": 289,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "651,0,<subtaskname>,<Playername>: \"Đồ Nhã đại tẩu có gì muốn nói với ta?\"<end>\n<npc=651>: \"Suỵt, chuyện này không thể nói lớn.\"<end>,Nói chuyện với Đồ Nhã,Nói chuyện với Đồ Nhã,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 427,
+              "sub_id": 289,
+              "phase": "start",
+              "cleaned_text": "[Cổ Yên Nhiên]: \"[Đại Hiệp], ngươi tin trên đời này có nhân quả không?\"\n[Đại Hiệp]: \"Nhân giả kiến nhân, trí giả kiến trí! Ngươi nói có thì có, không có thì không có.\"\n[Cổ Yên Nhiên]: \"Vậy sao? Xem ra lời người nói còn có ẩn ý! Mấy năm trước ta cùng Hoàn Nhan Tương phá hủy một hang động, cứu thoát một cô gái tên Đồ Nhã và một đứa trẻ vừa tròn tháng, ta đặt tên cho nó là A Bố. Đồng thời thu xếp cho họ ở trong Man Nhân Sơn Trại tại Đại Nhật La Trại, trại chủ ở đó có giao tình với ta. Xa nhiều năm, ta bỗng nhiên muốn biết tình hình của họ, ngươi có thể giúp ta không?\"\n[Đại Hiệp]: \"Cổ giáo chủ xin đừng khách sáo!\"\n[Cổ Yên Nhiên]: \"Được, ta muốn nhờ ngươi đến đó thăm Đồ Nhã và A Bố. Mấy ngày nay ta nằm mơ thấy A Bố đang khóc, đây chẳng phải là điềm lành.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 141,
+      "task_id_hex": "000000000000008d",
+      "name": "Nghĩa Chi Sở Tại",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000008D.xml",
+      "subtasks": [
+        {
+          "sub_id": 290,
+          "sub_id_hex": "0000000000000122",
+          "task_id": 141,
+          "name": "Huyết Tinh Phục Thù",
+          "describe_cleaned": "Kiếm Môn Quan là biên giới giữa Tống và Tây Hạ, quân đội của 2 nước trấn thủ nơi đây thường phát sinh xung đột. Quân Tây Hạ thường xuyên kéo quân sang quấy nhiễu bá tánh Nam Tống khiến tình hình lúc nào cũng bất an. Đầu lĩnh nghĩa quân Bạch Thu Lâm đã phái Nhiếp Văn Thành mang quân đến đây trấn thủ, có điều quân số vốn không đông, mà quân Tây Hạ thì vô cùng xảo quyệt, chúng dùng kỵ binh đến cướp phá rất nhanh rồi đi, khiến nghĩa quân đến tiếp cứu không kịp. Nhiếp Văn Thành quyết định nhờ ta có dịp phải giáo huấn cho đám kỵ binh Tây Hạ đó một phen.\n• Nhiếp Văn Thành nhờ ta đi giáo huấn [Hắc Thủy Vân Kỵ Binh tại Kiếm Môn Quan (1836/3777)] và [Thống Lĩnh Kỵ Binh tại Kiếm Môn Quan (1815/3890)].\n• Ta đã dạy dỗ cho chúng một trận, có thể về phục mệnh [Nhiếp Văn Thành tại Kiếm Môn Quan (1712/3809)]!",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000122.xml",
+          "dialog_npc_id": 1007,
+          "dialog_npc_name": "Nhiếp Văn Thành [Hộ Quan Thống Soái]",
+          "steps": [
+            {
+              "id": 1304,
+              "sub_id": 290,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; TaskAct:StepOverWithTalk",
+              "target_params": "2188,111,50; 1091,111,3,Xin chào!,Ngươi thật đáng khen; <Playername>: \"Nếu còn xâm phạm, nhất định không tha!\"<end>,Quay về doanh trại nghĩa quân phục mệnh với Nhiếp Văn Thành"
+            },
+            {
+              "id": 1305,
+              "sub_id": 290,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "1007,0,<subtaskname>,<Playername>: \"Mọi việc đã làm theo lời tướng quân!\"<end>\n<npc=1007>: \"Vất vả cho nhà ngươi rồi! Ta thay mặt cho dân chúng cảm tạ ngươi!\"<end>,Phục mệnh với Nhiếp Văn Thành,Phục mệnh với Nhiếp Văn Thành,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 428,
+              "sub_id": 290,
+              "phase": "start",
+              "cleaned_text": "[Nhiếp Văn Thành [Hộ Quan Thống Soái]]: \"Kiếm Môn Quan nằm ở biên giới Đại Tống và Tây Hạ, là nơi các binh gia tranh giành nhau. Do hai phía đều không chịu nhường nhịn dẫn đến chiến tranh liên miên, người chịu khổ chính là dân chúng. Kỵ Binh Tây Hạ thường lấy cớ tuần tra để cướp bóc, thủ lĩnh vì muốn bảo vệ người dân nên phái ta đóng quân ở đây.\"\n[Đại Hiệp]: \"Thì ra là thế, vất vả cho Nhiếp tướng quân rồi!\"\n[Nhiếp Văn Thành [Hộ Quan Thống Soái]]: \"Khổ thì không có, chỉ là quân số nghĩa quân ít, cộng thêm quân Tống thủ quan không chịu hỗ trợ, không dám tấn công nên Kỵ Binh Tây Hạ vẫn cướp bóc như thường. Ta thấy ngươi võ công cao cường, vượt trội hơn so với ta. Nên muốn nhờ ngươi hãy dạy cho bọn Hắc Thủy Vân Kỵ Binh dám đột nhập lãnh thổ Đại Tống một trận, ngươi thấy thế nào?\"\n[Đại Hiệp]: \"Tại hạ sẽ làm hết sức mình!\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 142,
+      "task_id_hex": "000000000000008e",
+      "name": "Tình Ý Miên Man",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000008E.xml",
+      "subtasks": [
+        {
+          "sub_id": 291,
+          "sub_id_hex": "0000000000000123",
+          "task_id": 142,
+          "name": "Xuất Kỳ Bất Ý",
+          "describe_cleaned": "Man nữ Lê Mộ và Đại Tráng có tình ý với nhau, nhưng gia đình Lê Mộ chê Đại Tráng nghèo, không muốn gả con gái cho anh ta. Đại Tráng vì quyết tâm cưới Lê Mộ, nên đã một mình lên Đại Lý kiếm tiền. Lê Mộ nghe được tin đó, vô cùng thương xót, nên đã hái rất nhiều Tiên Mật Quả định nhờ người mang lên cho Đại Tráng bán lấy tiền. Không ngờ sự việc bị cha của Lê Mộ phát hiện, nên đã phá nát hết số Tiên Mật Quả đó. Lê Mộ đau khổ ra bờ sông ngồi khóc, gặp ta đang đi đến đó nên nhờ ta giúp đỡ.\n• Man Nữ Lê Mộ nhờ ta đến xung quanh sơn trại hái một số [Tiên Mật Quả tại Thiên Long Tự (1854/3756)], ở Đại Lý họ rất thích loại trái này, nhất định sẽ kiếm được ít tiền. Tiên Mật Quả có thể tìm xung quanh [Quỷ Chủ Cư Sở tại Thiên Long Tự (1890/3702)].\n• Đại Tráng đang vất vả kiếm tiền ở Đại Lý, Lê Mộ nhờ ta mang Tiên Mật Quả đến cho [Đại Tráng tại Đại Lý Phủ (1500/3275)].\n• Nhận được Tiên Mật Quả, Đại Tráng vô cùng xúc động, Anh ta nhờ ta chuyển lời, nói Đại Tráng nhất định sẽ cưới [Lê Mộ tại Thiên Long Tự (1809/3720)] làm vợ.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000123.xml",
+          "dialog_npc_id": 643,
+          "dialog_npc_name": "Lê Mộ",
+          "steps": [
+            {
+              "id": 1306,
+              "sub_id": 291,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "WithProcess; TaskAct:StepOverEvent",
+              "target_params": "1807,112,3,Đang hái,Nhận được Tiên Mật Quả,Thất bại,{Tiên Mật Quả,20,1,381,1,0,1},15,Bạn đã thu thập %d/15 Tiên Mật Quả,Thu nhặt Tiên Mật Quả,Xin chào!,Ngươi thật đáng khen,1837,3568\n1844,3599\n1832,3620\n1866,3623\n1905,3660\n1912,3676\n1914,3690\n1912,3700\n1915,3722\n1913,3735\n1909,3738\n1913,3757\n1906,3773\n1893,3787\n1887,3771\n1884,3752\n1876,3740\n1886,3728\n1893,3716\n1900,3725\n1897,3675\n1885,3676\n1870,3685\n1860,3679\n1855,3728\n1863,3746\n1867,3764\n1871,3784\n1873,3798\n1864,3796\n1856,3810\n1845,3788\n1838,3799\n1812,3777\n1833,3758\n1854,3756,10; Đem Tiên Mật Quả cho Đại Tráng trong Đại Lý Thành"
+            },
+            {
+              "id": 1307,
+              "sub_id": 291,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent; TaskAct:DelItem",
+              "target_params": "650,0,<subtaskname>,<Playername>: \"Ngươi là Đại Tráng từ Thiên Long Tự ra mãi nghệ?\"<end>\n<npc=650>: \"Chính ta đây, ngươi là... ?\"<end>\n<Playername>: \"Đây là Tiên Mật Quả do Lê Mộ cô nương nhờ ta đem cho ngươi, bảo ngươi bán để lấy tiền.\"<end>\n<npc=650>: \"À...ta biết rồi, ta nhất định không phụ lòng nàng. Nếu có đến Thiên Long Tự hãy nói giúp ta, bảo nàng hãy đợi ta, nhất định ta sẽ quay về lấy nàng.\"<end>,Tìm thấy Đại Tráng,Tìm thấy Đại Tráng,Xin chào!,Ngươi thật đáng khen; Quay về Thiên Long Tự tìm Man Nữ Lê Mộ; {381,},-1"
+            },
+            {
+              "id": 1308,
+              "sub_id": 291,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "643,0,<subtaskname>,<Playername>: \"Lê Mộ cô nương, ta vừa từ Đại Lý trở về. Đại Tráng nhờ ta chuyển lời rằng cô nhất định phải đợi y trở về lấy cô!\"<end>\n<npc=643>: \"Đa tạ <if me.nSex==0>thiếu hiệp<else>cô nương<endif> giúp đỡ, về sau ta và Đại Tráng thành thân, nhớ đến uống rượu mừng.\"<end>,Tìm gặp Lê Mộ,Tìm gặp Lê Mộ,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 429,
+              "sub_id": 291,
+              "phase": "start",
+              "cleaned_text": "[Lê Mộ]: \"Mẫu thân ơi... hu hu... \"\n[Đại Hiệp]: \"Vị cô nương đây có việc gì vậy?\"\n[Lê Mộ]: \"[Nam: Thiếu hiệp / Nữ: Cô nương] có biết không, ta và Đại Tráng ca là thanh mai trúc mã đã đính ước từ nhỏ, giờ cha ta lại chê nhà Đại Tráng ca nghèo không muốn gả ta cho chàng. Đại Tráng ca trong lúc tức giận đã đến Đại Lý Thành để kiếm tiền, nghe dân trong trại trở về kể lại, đại ca sống nhờ việc mãi nghệ. Vốn ta muốn hái một ít Tiên Mật Quả để cho ca bán lấy tiền nhưng lại bị cha ta vứt hết đi. Phụ thân tính tình cố chấp, nếu không có đủ sính lễ thì sẽ nhất định không gả ta cho Tráng đại ca, ta phải làm sao đây... hu hu...\"\n[Đại Hiệp]: \"Ta có thể giúp được gì không?\"\n[Lê Mộ]: \"Ta nghe nói người thành Đại Lý rất thích ăn Tiên Mật Quả, loại quả này trong sơn trại bọn ta rất nhiều. Nếu như [Nam: thiếu hiệp / Nữ: cô nương] có thể đem đến cho Tráng ca, ca nhất định sẽ kiếm được rất nhiều tiền. Phụ thân ta mấy bữa nay canh chừng rất nghiêm ta không dám đi hái quả.\"\n[Đại Hiệp]: \"Việc này thì dễ thôi!\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 143,
+      "task_id_hex": "000000000000008f",
+      "name": "Hoàng Lăng Bí Sự",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\000000000000008F.xml",
+      "subtasks": [
+        {
+          "sub_id": 292,
+          "sub_id_hex": "0000000000000124",
+          "task_id": 143,
+          "name": "Khôi phục Công Thành Xa",
+          "describe_cleaned": "Gần Phượng Tường Phủ gần đây xuất hiện một người tên Hắc Phong, nghe nói chỉ cần ai làm đúng theo lời anh ta hướng dẫn, sẽ nhận được rất nhiều phần thưởng. Không ai biết được lai lịch của người này và những người anh ta nhờ thì đều giúp đỡ không cần do dự. Lần này nghe nói y đang muốn tìm người đến Hoàng Lăng Tây Hạ tiến hành việc cơ mật gì đó.\n• Hắc Phong nhờ ta đến Hoàng Lăng Tây Hạ, vào [Nội bộ tại Hoàng Lăng Tây Hạ (1945/2951)], xem thử trong đó có phải đã bí mật bố trí rất nhiều Hoàng Lăng Khán Thủ.\n• Ta đến Hoàng Lăng Tây Hạ, phát hiện nơi đây quả nhiên có rất nhiều [Hoàng Lăng Khán Thủ tại Hoàng Lăng Tây Hạ (1936/2933)] và [Thống Lĩnh Khán Thủ tại Hoàng Lăng Tây Hạ (1941/2977)]. Hắc Phong bảo ta hãy diệt sạch bọn chúng.\n• Theo Hắc Phong nói, đám Hoàng Lăng Thủ Vệ đến đây để canh giữ một vật tuyệt mật. Lần này còn có [Hứa Như tại Hoàng Lăng Tây Hạ (1974/2893)] là hảo thủ của Nhất Phẩm Đường giúp sức, chỉ cần đánh bại hắn là có thể tiếp cận với bảo vật.\n• Cạnh chỗ Hứa Như ta phát hiện ra một chiếc rương, [vật tuyệt mật tại Hoàng Lăng Tây Hạ (1974/2893)] Hắc Phong nói chắc là ở trong rương này.\n• Thật không ngờ vật tuyệt mật đó chỉ là một bức thư, mang thư này về Phượng Tường Phủ giao cho [Hắc Phong tại Phượng Tường Phủ (1923/3406)].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000124.xml",
+          "dialog_npc_id": 912,
+          "dialog_npc_name": "Hắc Phong [Huyền Thưởng Mộ Chiêu]",
+          "steps": [
+            {
+              "id": 1309,
+              "sub_id": 292,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "GoPos; TaskAct:StepOverWithTalk",
+              "target_params": "108,1945,2951,20,Vào trong Hoàng Lăng Tây Hạ; <Playername>: (Sâu dưới Hoàng Lăng bốn bề đều có thủ vệ, xem ra chỉ có thể hành động theo lời của Hắc Phong.)<end>,Tiêu diệt Khán Thủ và Thống Lĩnh Hoàng Lăng"
+            },
+            {
+              "id": 1310,
+              "sub_id": 292,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; TaskAct:StepOverWithTalk",
+              "target_params": "2195,0,50,Xin chào!,Ngươi thật đáng khen; 1092,0,3,Xin chào!,Ngươi thật đáng khen; <Playername>: (Trong Hoàng Lăng có Hứa Như trấn thủ, ta phải cẩn thận mới được!)<end>,Chế ngự cao thủ Hứa Như của Nhất Phẩm Đường trong Hoàng Lăng"
+            },
+            {
+              "id": 1311,
+              "sub_id": 292,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "KillNpc; TaskAct:StepOverWithTalk",
+              "target_params": "913,0,1,Xin chào!,Ngươi thật đáng khen; <Playername>: (Hứa Như có đem theo một chiếc rương khiến ta chú ý......)<end>,Mở rương Hứa Như đem theo"
+            },
+            {
+              "id": 1312,
+              "sub_id": 292,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "WithProcessStatic; TaskAct:StepOverWithTalk",
+              "target_params": "915,108,5,Mở rương,Nhận được thư dán bằng sáp,Thất bại,{Thư dán bằng sáp,20,1,382,1,0,1},1,Lấy được %d vật phẩm,Đến vườn đào của Vương Mẫu nương nương hái dưa hấu,Xin chào!,Ngươi thật đáng khen; <Playername>: (Không ngờ trong rương lại là một ống đựng thư...Hắc Phong cần bức thư này để làm gì...)<end>,Đem thư trong rương cho Hắc Phong trong Phượng Tường Phủ"
+            },
+            {
+              "id": 1313,
+              "sub_id": 292,
+              "step_index": 5,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "912,0,<subtaskname>,<npc=912>: \"Có tìm được vật tuyệt mật không?\"<end>\n<Playername>: \"Tìm mãi chỉ thấy ống đựng thư này thôi.\"<end>\n<npc=912>: \"Không sai, chính là nó! Đám ngu ngốc trước đây đều không tìm được nó, xem ra ngươi là kẻ giỏi nhất, sau này có việc cần phải nhờ đến ngươi! Việc này tuyệt đối không thể nói cho người khác biết nếu không đối với ta và ngươi đều không có lợi\"<end>,Tìm gặp Hắc Phong,Tìm gặp Hắc Phong,Xin chào!,Ngươi thật đáng khen; {382,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 430,
+              "sub_id": 292,
+              "phase": "start",
+              "cleaned_text": "[Hắc Phong [Huyền Thưởng Mộ Chiêu]]: \"Ta thấy ngươi giống con nhà võ, có một việc bí mật muốn ngươi làm, xong việc sẽ có thưởng.\"\n[Đại Hiệp]: \"Là việc gì?\"\n[Hắc Phong [Huyền Thưởng Mộ Chiêu]]: \"Gần đây có một vật tuyệt mật xuất phát từ Hoàng Lăng Tây Hạ, vật này có quan hệ rất nhiều với ta, ta nhất định phải có được. Hoàng Lăng sụp đổ khiến Hoàng đế chú ý phái thêm rất nhiều lính gác, còn có cao thủ Nhất Phẩm Đường Hứa Như trấn thủ, đúng là khó càng thêm khó. Nếu ngươi lấy được vật tuyệt mật đó ta sẽ trọng thưởng. Việc này liên hệ đến những kẻ quyền quý, làm việc phải gọn gàng để tránh hậu hoạn.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 144,
+      "task_id_hex": "0000000000000090",
+      "name": "Địch Nhân Chi Hữu",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000090.xml",
+      "subtasks": [
+        {
+          "sub_id": 293,
+          "sub_id_hex": "0000000000000125",
+          "task_id": 144,
+          "name": "Tướng Soái Thất Hòa",
+          "describe_cleaned": "Tây Hạ hiện có hai phe phái đang ngầm tranh giành quyền lực, một phe do Lý Thăng Dương làm đầu lĩnh, một phe do Lý An Toàn làm đầu lĩnh. Lý Thăng Dương tuy mưu kế hơn người, nhưng do mê cung bị vây nên đã chịu nhường Lý An Toàn chiếm thế thượng phong. Lý An Toàn ôm mối hận phụ mẫu bị bức tử, quyết tâm bành trướng thế lực. Bạch Thu Lâm quyết định phái ta đến Tây Hạ một chuyến, điều tra nguyên nhân xung đột giữa Lý An Toàn và Lý Thăng Dương.\n• Theo lời của Bạch Thu Lâm, phụ thân của Lý An Toàn là Việt Vương Lý Nhân Hữu vì mắc chứng nan y mà lâm chung, nguyên nhân sâu xa chỉ có quân sư Thanh Phong tiên sinh là biết rõ nhất. Thanh Phong tiên sinh mới đây cũng đã quy tiên, chỉ còn cận vệ [Đồ Tử Đan tại Long Môn Thạch Quật (1707/3453)] là biết nhiều chuyện nhất!\n• Tìm gặp Đồ Tử Đan, biết được các nội tình của Việt Vương, đồng thời biết được Thanh Phong tiên sinh có lưu lại một bức di thư ở chỗ [thất muội tại Long Môn Thạch Quật (1717/3258)].\n• Nhận được di thư của Thanh Phong tiên sinh từ tay thất muội, quyết định mang thư đến cho [Lý An Toàn tại Phượng Tường Phủ (1951/3409)]\n• Lý An Toàn xem xong thư sợ toát mồ hôi, xem ra Tây Hạ đã bắt đầu phát sinh nội chiến. Có thể về gặp [Bạch Thu Lâm - Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]] phục mệnh rồi!",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000125.xml",
+          "dialog_npc_id": 3570,
+          "dialog_npc_name": "Bạch Thu Lâm [<color=green>Thủ Lĩnh Nghĩa Quân<color>]",
+          "steps": [
+            {
+              "id": 1314,
+              "sub_id": 293,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "649,0,<subtaskname>,<Playername>: \"Cho hỏi đại ca có phải là đệ tử Đồ Tử Đan của Thanh Phong tiên sinh không?\"<end>\n<npc=649>: \"Đúng vậy, có việc gì?\"<end>\n<Playername>: \"Ta tìm đại ca hỏi thăm về việc Việt Vương đột tử và việc truyền lại tước vị của người, nhờ đại ca tiết lộ chút ít.\"<end>\n<npc=649>: \"Là ai đã phái ngươi đến đây? Mà cũng chẳng sao, sư phụ đã qua đời cũng không cấm ta nói việc này. Lúc đầu Lý Thăng Dương hết mực ngăn cản Hoàng thượng truyền ngôi cho Lý An Toàn, nói tính của y thâm độc về sau sẽ làm phản. Sư phụ ta lại nói chỉ có cho Lý An Toàn lợi ích hậu hĩnh thì mới yên bình được, nếu không truyền ngôi thì hắn sẽ làm phản. Sư phụ ta cũng tiết lộ rằng cái chết của Việt Vương và có quan hệ chặt chẽ với Lý Thăng Dương, còn cụ thể ra sao thì không nói. À, sư phụ có để lại một bức di chúc, đang ở trong tay của thất muội.\"<end>\n<Playername>: \"Thất muội là ai?\"<end>\n<npc=649>: \"Ngày trước đi theo sư phụ có bảy người hiện nay chỉ còn ta và thất muội còn sống. Sư phụ trước lúc lâm chung có để lại một di thư giao cho thất muội, nói rằng ngày sau nhất định sẽ có người hỏi nguyên nhân cái chết của Việt Vương, bảo muội ấy giữ cẩn thận. Thất muội tính tình hấp tấp, bướng bỉnh. Nếu ngươi tìm muội ấy đòi di thư, muội ấy nhất định sẽ không đưa, nếu ngươi không thắng được muội ấy thì đừng nói đến chuyện khác. Thất muội hiện giờ đang ở Tư Quá Đài tĩnh tâm, ngươi có thể đến đó tìm xem.\"<end>,Tìm được Đồ Tử Đan,Tìm được Đồ Tử Đan,Xin chào!,Ngươi thật đáng khen; Đến Tư Quá Đài tìm thất muội"
+            },
+            {
+              "id": 1315,
+              "sub_id": 293,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "KillNpc4Item; TaskAct:StepOverWithTalk",
+              "target_params": "652,0,{383,},1,1,false; <Playername>: \"Đắc tội rồi, xin cho ta xem qua di thư của Thanh Phong tiên sinh.<end>\n<npc=652>: \"Thì ra là vậy, nội dung sư phụ nhắn nhủ chẳng qua chỉ là nói Lý Thăng Dương lo rằng quyền lực của Việt Vương cao hơn tân hoàng mà nghĩ ra âm mưu hạ bệ y, ngoài ra không nói gì nữa. Nếu ngươi có hứng thú như vậy thì cứ lấy đi.\"<end>\n<Playername>: (Xem ra Thu Di đoán không sai, có âm mưu đằng sau cái chết của Việt Vương. Nếu đem di thư này cho Lý An Toàn thì y và Lý Thăng Dương không thể cùng tồn tại bên nhau. Nếu hai người này bắt đầu đấu đá với nhau, thì Lý Thăng Dương sẽ không còn hơi sức đâu mà can thiệp chuyện trong giang hồ.)<end>,Đem di chúc của Thanh Phong tiên sinh cho Lý An Toàn"
+            },
+            {
+              "id": 1316,
+              "sub_id": 293,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent; TaskAct:DelItem",
+              "target_params": "986,0,<subtaskname>,<Playername>: \"Bẩm Quận Vương, ta có di thư của Thanh Phong tiên sinh để lại, xin Quận Vương xem qua!\"<end>\n<npc=986>: \"Thanh Phong tiên sinh? Di thư của y sao lại đưa cho bổn vương xem?...Việc này... hay cho tặc tử... ta thề không đội trời chung với ngươi!!\"<end>\n<Playername>: (Xem ra Lý An Toàn quả thực đã trúng kế, trước tiên hãy quay về báo lại với Thu Di.)<end>,Tìm gặp Lý An Toàn,Tìm gặp Lý An Toàn,Xin chào!,Ngươi thật đáng khen; Về Tân Thủ Thôn tìm Bạch Thu Lâm; {383,},-1"
+            },
+            {
+              "id": 1317,
+              "sub_id": 293,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "3570,0,<subtaskname>,<Playername>: \"Thu Di, con về rồi, đã làm theo ý của Thu Di. Con đã tìm được di thư của Thanh Phong tiên sinh, trong đó có việc Lý Thăng Dương mưu hại Việt Vương. Lý An Toàn xem xong di thư đã nổi trận lôi đình, quyết không đội trời chung với Lý Thăng Dương.\"<end>\n<npc=3570>: \"Như vậy càng tốt, Lý Thăng Dương phen này sẽ bận rộn đây!\"<end>,Về Tân Thủ Thôn tìm Bạch Thu Lâm,Về Tân Thủ Thôn tìm Bạch Thu Lâm,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 431,
+              "sub_id": 293,
+              "phase": "start",
+              "cleaned_text": "[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Từ sau khi Lý Thăng Dương trở về Tây Hạ, sự cân bằng thực lực của Tây Hạ đột nhiên thay đổi. Ủng Hoàng Phái do Lý Thăng Dương đứng đầu và Tân Chính Phái do Lý An Toàn đứng đầu do bất đồng chính kiến, hai bên đấu đá không ngừng. Theo ta, Lý An Toàn và Lý Thăng Dương trở thành kẻ địch với nhau có lẽ vì cái chết bí ẩn của cha chúng, Lý Thăng Dương lại ngăn cản y kế thừa tước vị. Có lẽ thực lực của Lý An Toàn chưa đủ, chiến thắng thường thuộc về Lý Thăng Dương.\"\n[Đại Hiệp]: \"Thu Di dường như đã có chủ ý!\"\n[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Việc này thì chưa rõ nhưng quân sư quá cố Thanh Phong tiên sinh của Lý Thăng Dương chắc chắn biết được nội tình, ta biết đệ tử thân cận của y là Đồ Tử Đan đang ở trong Chân Ngôn Tự tại Long Môn Thạch Quật, ngươi hãy đi hỏi hắn xem sao.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 145,
+      "task_id_hex": "0000000000000091",
+      "name": "Dĩ Tiểu Kiến Đại",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000091.xml",
+      "subtasks": [
+        {
+          "sub_id": 294,
+          "sub_id_hex": "0000000000000126",
+          "task_id": 145,
+          "name": "Thoát Vi Nhi Xuất",
+          "describe_cleaned": "Đại Nhật La của Đại Nhật La trại trong một lần lên kinh diện kiến Hoàng thượng đã gặp một người con gái bị thương tên là Yêu Yêu, đã mang về sơn trại trị thương. Về sau Yêu Yêu trở thành thê tử của Đại Nhật La, đã dùng lời lẽ mật ngọt thuyết phục Đại Nhật La mời Tiêu Dao Tử về làm quân sư, nghe nói chính là sư phụ của cô ta. Nghe những người trong sơn trại nói, Tiêu Dao Tử là người rất có dã tâm, ông ta nhiều lần khuyên Đại Nhật La liên hợp với 6 trại khác nhưng Đại Nhật La chưa đồng ý. Đồ Nhã rất hoài nghi thân phận của Tiêu Dao Tử và Yêu Yêu, nhờ ta bí mật điều tra.\n• Tiêu Dao Tử không ở trong sơn trại, mà ở tại [Thượng Tiên Trang tại Thiên Long Tự (1720/3780)], Đồ Nhã nhờ ta đến đó dọ thám.\n• Đối thoại với Tiêu Dao Tử và Thần Đồ biết được âm mưu của Tiêu Dao Tử, nhưng cũng chưa rõ ràng lắm, phải tìm nhân vật chính của âm mưu này là [Quý Như tại Thiên Long Tự (1830/3725)] chắc sẽ có manh mối!\n• Quý Như đã xác nhận những điều ta nghe được ở Thượng Tiên Trang là sự thật, đồng thời cũng tỏ thái độ bất mãn đối với Tiêu Dao Tử và nhờ ta chuyển giùm số [Lạc Đà tại Thiên Long Tự (1834/3715)] chở binh khí đến chỗ Ma Ma Nhĩ.\n• Ma Ma Nhĩ cho ta biết Tiêu Dao Tử bảo hắn cất số binh khí này ở đây nhưng chưa biết để làm gì, y cảm thấy sau chuyện này có gì đó mờ ám, nhờ ta đi thỉnh giáo ý kiến [La Mẫu Tư tại Thiên Long Tự (1856/3647)].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000126.xml",
+          "dialog_npc_id": 651,
+          "dialog_npc_name": "Đồ Nhã",
+          "steps": [
+            {
+              "id": 1318,
+              "sub_id": 294,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "GoPos; TaskAct:StepOverWithTalk",
+              "target_params": "112,1720,3780,15,Đến Thượng Tiên Trang dò hỏi; <npc=1077>: \"Binh khí chuẩn bị đến đâu rồi?\"<end>\n<npc=625>: \"Bẩm sư phụ, đã lệnh cho thợ rèn Quý Như gấp rút hoàn thành, hôm nay y sẽ giao đợt binh khí đầu tiên.\"<end>\n<npc=1077>: \"Tốt lắm, các ngươi phải chú ý quan sát, đám Man Tử này không cực khổ thì không chịu tuân lệnh. Còn nữa, nhắc Yêu Yêu cẩn thận, bỏ thuốc đừng quá mạnh tay, ngươi đi đi!\"<end>\n<Playername>: (Xem ra Tiêu Dao Tử thực sự có âm mưu! Thợ rèn Hứa Như hình như là tên của thợ rèn trong sơn trại này, tìm y dò hỏi xem.)<end>,Đến Đại Nhật Sơn Trại tìm thợ rèn Quý Như hỏi thăm"
+            },
+            {
+              "id": 1319,
+              "sub_id": 294,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "627,0,<subtaskname>,<npc=627>: \"Khách quan muốn rèn binh khí xin đi tiệm khác, hiện ta đang rất bận.\"<end>\n<Playername>: \"Hiện không phải ngày mùa cũng không phải thời chiến, một tiệm thợ rèn bé nhỏ sao lại bận rộn đến thế?\"<end>\n<npc=627>: \"Khách quan không biết rồi, quân sư ra lệnh phải rèn xong năm trăm binh đao, mỗi năm ngày phải giao một đợt. Tiệm của ta không có ai phụ, làm hụt hơi mới gần được năm mươi cái. Hôm nay phải giao đợt đầu tiên, nhưng vẫn còn thiếu nhiều lắm, ta đang vội đây.\"<end>\n<Playername>: \"Thì ra là thế, nếu như chỉ để thao luyện thì đã không cần gấp như vậy, lẽ nào là vì việc gì khác?\"<end>\n<npc=627>: \"Việc gấp? Hắn làm gì có việc gấp! Binh khí làm xong không phải dùng ngay mà là muốn ta đưa vào kho phía Tây cất giữ, ta bận muốn quần quật làm gì có thời gian đi.\"<end>\n<Playername>: \"Hay là thế này, để ta đem giúp ngươi để ngươi có ít thời gian sửa giúp ta binh khí.\"<end>\n<npc=627>: \"Thật sao? Vậy thì tốt quá! Đi về hướng Tây có một cái đình, ngươi chỉ cần dẫn lạc đà chở binh khí đem đến cho Khán Thủ Ma Ma Nhĩ ở đó là được rồi.\"<end>,Tìm thợ rèn Quý Như hỏi thăm,Tìm thợ rèn Quý Như hỏi thăm,Xin chào!,Ngươi thật đáng khen; Giao binh khí Quý Như đã rèn xong cho Ma Ma Nhĩ ở kho phía Tây."
+            },
+            {
+              "id": 1320,
+              "sub_id": 294,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "ProtectNpc; TaskAct:StepOverWithTalk",
+              "target_params": "1079,1834,3715,45,<subtaskname>,<npc=627>: \"Cẩn thận đừng chọc giận nó, nó đá đó!\"<end>,1078,85,112,45,3000,1619,3399,5,1842,3702\n1853,3672\n1868,3642\n1854,3622\n1840,3604\n1829,3565\n1834,3533\n1830,3477\n1819,3455\n1799,3473\n1768,3486\n1755,3518\n1726,3546\n1703,3521\n1688,3485\n1675,3440\n1654,3415\n1641,3388\n1627,3378\n1618,3389\n1619,3399,Xin chào!,Ngươi thật đáng khen,0; <Playername>: \"Đại ca, đây là vũ khí thợ rèn Quý Như giao, xin kiểm tra lại!\"<end>\n<npc=653>: \"Ây da! Ta cảm thấy lo giùm hắn, nhiều binh khí như vậy một người sao có thể làm nổi? Nếu không phải do trại chủ bị ả đàn bà đó bị mê hoặc thì chúng ta không cần phải cực khổ như vậy... Thôi đi! Ta cũng không nên nói chuyện này với người ngoài như ngươi.\"<end>\n<Playername>: \"Đại ca có biết những binh khí này để làm gì không?\"<end>\n<npc=653>: \"Điều này làm sao ta biết được? Thứ dùng để giết người thì ngoài để giết người ra còn dùng để làm gì nữa đâu? Vấn đề chỉ là giết ai mà thôi, chỉ mong sẽ không dùng nó với những người trong trại ta. Nếu như La Mẫu Tư có thể khuyên can trại chủ thì tốt quá rồi, hiện tại trại chủ chỉ chịu nghe lời của y. Nhưng ai có thể nhờ La Mẫu Tư giúp được chứ!\"<end>\n<Playername>: (Xem ra tìm La Mẫu Tư chắc sẽ có phát hiện mới!)<end>,Đến Đại Nhật Sơn Trại tìm La Mẫu Tư"
+            },
+            {
+              "id": 1321,
+              "sub_id": 294,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "631,0,<subtaskname>,<Playername>: \"Xin hỏi có phải là La Mẫu Tư?\"<end>\n<npc=631>: \"Chính là ta! Ngươi tìm ta có việc gì?\"<end>\n<Playername>: \"Quân sư đã âm thầm cho rèn và tích trữ binh khí, ngài thấy sao?\"<end>\n<npc=631>: \"Việc này... trại chủ tự đã có chủ ý, cần gì lão già như ta phải lo lắng chứ?\"<end>\n<Playername>: \"Trại chủ bị Yêu Yêu mê hoặc thất điên bát đảo, làm gì còn thời gian suy nghĩ. Nghe nói ngài là người trại chủ kính trọng, nhờ ngài báo chuyện này với trại chủ, để có sự phòng bị.\"<end>\n<npc=631>: \"Việc này... việc này không bằng không chứng nếu chỉ nghe một bên thì chỉ vô dụng. Ta cũng từng để ý nhưng cũng cần phải tiếp tục làm rõ, không thể nóng vội, nếu không đả thảo kinh xà thì sẽ không hay.\"<end>,Đi tìm La Mẫu Tư,Đi tìm La Mẫu Tư,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 432,
+              "sub_id": 294,
+              "phase": "start",
+              "cleaned_text": "[Đồ Nhã]: \"Đại Nhật La Trại ta là một trong thất trại của Đại Lý, trại chủ Đại Nhật La là người trẻ nhất trong Thất Đại Trại Chủ, nhưng kể từ đem Yêu Yêu về vào cuối thu năm ngoái thì tất cả đều đã thay đổi. Ả đàn bà này gian xảo hơn người, ả đã mê hoặc Đại Nhật La cho sư phụ của ả là Tiêu Dao Tử làm quân sư, quản lý mọi việc trong trại. Tiêu Dao Tử lúc đầu còn rất hòa nhã với người trong trại nhưng dần dần đã lộ nguyên hình, dường như y rất có hứng thú với Man Binh trong trại.\"\n[Đại Hiệp]: \"Như vậy là sao?\"\n[Đồ Nhã]: \"Yêu Yêu mê hoặc Đại Nhật La để Tiêu Dao Tử huấn luyện cho bọn họ, Tiêu Dao Tử không chỉ có thể huấn luyện bất cứ lúc nào, mà còn có thể toàn quyền điều động Man Binh trong trại. Ta cũng là người đọc sách, biết rõ mất đi đại quyền sẽ là lúc nguy hiểm rình rập. Đại Nhật La có ân với ta và A Bố, ta không nỡ để y bị mê hoặc như vậy nhưng ta thân phận nữ nhi cũng không thể làm gì được. Hôm ngay có cơ duyên quen biết [Nam: thiếu hiệp / Nữ: cô nương], xin [Nam: thiếu hiệp / Nữ: cô nương] trượng nghĩa giúp đỡ, giúp đỡ dân chúng trong trại sắp gặp nạn này.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 146,
+      "task_id_hex": "0000000000000092",
+      "name": "Khiêu Sơn Chấn Hổ",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000092.xml",
+      "subtasks": [
+        {
+          "sub_id": 295,
+          "sub_id_hex": "0000000000000127",
+          "task_id": 146,
+          "name": "Thuật Giam Cầm",
+          "describe_cleaned": "Diêm Bang đang rất thèm khát Du Long Giác, chúng đã nhiều lần ra tay nhưng chưa thành công. Đám đệ tử Diêm Bang trong Tiến Cúc Động đã nhiều lần xâm phạm đến nghĩa quân ở Đạo Hương Thôn. Bạch Thu Lâm muốn dằn mặt bọn Diêm Bang, phái ta đến Tiến Cúc Động tiêu diệt đám đệ tử này.\n• Bạch Thu Lâm phái ta đến Tiến Cúc Động tiêu diệt đám [bang chúng Diêm Bang tại Tiến Cúc Động (1463/3069)] và bọn đồng lưu ô hợp [bang chúng Bắc Mã tại Tiến Cúc Động (1543/3183)].\n• Đã dạy dỗ đám ô hợp trong Tiến Cúc Động, có thể về Tân Thủ Thôn phục mệnh [Bạch Thu Lâm - Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]].",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000127.xml",
+          "dialog_npc_id": 3570,
+          "dialog_npc_name": "Bạch Thu Lâm [<color=green>Thủ Lĩnh Nghĩa Quân<color>]",
+          "steps": [
+            {
+              "id": 1322,
+              "sub_id": 295,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; TaskAct:StepOverEvent",
+              "target_params": "2189,0,50,Xin chào!,Ngươi thật đáng khen; 2191,0,50,Xin chào!,Ngươi thật đáng khen; Về Tân Thủ Thôn tìm Bạch Thu Lâm phục mệnh"
+            },
+            {
+              "id": 1323,
+              "sub_id": 295,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "3570,0,<subtaskname>,<Playername>: \"Thu Di, ta đã về rồi đây!\"<end>\n<npc=3570>: \"Tốt lắm! Hôm nay đã bêu xấu nhau rồi thì chúng ta cũng không cần nể mặt hắn nữa!\"<end>,Tìm Bạch Thu Lâm phục mệnh,Tìm Bạch Thu Lâm phục mệnh,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 433,
+              "sub_id": 295,
+              "phase": "start",
+              "cleaned_text": "[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Từ Bân Kiếm nhiều lần bức bách, muốn đoạt Du Long Giác ta đã không nói, lại còn lệnh cho bang chúng đến Đạo Hương Thôn gây hấn, thật đáng căm giận!\"\n[Đại Hiệp]: \"Thu Di tức giận làm gì, chúng ta phải cho chúng biết mặt mới được!\"\n[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Đúng! Nếu không hắn sẽ khinh thường bá khí nghĩa quân ta! Ngươi cứ đi đến Tiến Cúc Động, bọn Diêm Bang ở đó là ngang tàng nhất, ngoài ra còn có bọn đồng lưu ô hợp Bắc Mã, hãy để cho chúng biết lợi hại của nghĩa quân ta.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 147,
+      "task_id_hex": "0000000000000093",
+      "name": "Đại Vị Khu Trục",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000093.xml",
+      "subtasks": [
+        {
+          "sub_id": 296,
+          "sub_id_hex": "0000000000000128",
+          "task_id": 147,
+          "name": "Thanh Trừ Long Mạch",
+          "describe_cleaned": "Tại Long Môn Thạch Quật gặp được Thu đại sư ẩn cư nơi đây, ông ta kể cho ta nghe về tình hình bang chúng Ảnh Tử Hội quấy phá. Bọn chúng đóng ở phía nam Chân Ngôn Tự, hình như đang muốn tìm vật gì đó. Thu đại sư không muốn chúng làm ảnh hưởng đến sự yên tịnh của Chân Ngôn Tự, nhờ ta điều tra nguyên nhân và đuổi chúng ra khỏi khu vực Chân Ngôn Tự.\n• Thu đại sư muốn ta đến [doanh địa tại Long Môn Thạch Quật (1634/3629)] của Ảnh Tử Hội điều tra nguyên nhân chúng đến đây.\n• Thì ra bọn Ảnh Tử Hội đến đây là để truy tìm thương khố của Ứng thái tử. Theo lời của Thu đại sư, đuổi sạch [Phương Viên Viên tại Long Môn Thạch Quật (1630/3628)], [Đoạn Chấn Nham tại Long Môn Thạch Quật (1630/3628)], [Trác Mộc Á tại Long Môn Thạch Quật (1630/3628)] và đám [bang chúng Ảnh Hội tại Long Môn Thạch Quật (1656/3638)] ra khỏi đây.\n• Đã đuổi hết bọn Ảnh Tử Hội, về báo tin cho [Thu đại sư tại Long Môn Thạch Quật (1679/3450)].\n• Thu đại sư cùng ta đàm luận về chuyện thương khố của Ứng thái tử và bảo ta về kể lại chuyện này cho [Bạch Thu Lâm - Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]] nghe.",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000128.xml",
+          "dialog_npc_id": 1058,
+          "dialog_npc_name": "Thu Đại Sư",
+          "steps": [
+            {
+              "id": 1324,
+              "sub_id": 296,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "GoPos; TaskAct:StepOverWithTalk",
+              "target_params": "107,1634,3629,15,Đến doanh trại của Ảnh Tử Hội; <npc=1081>: \"Sư tỷ, đã tìm nhiều ngày rồi vẫn không tìm ra, lẽ nào thương khố của Ứng Thái Tử chỉ là giả?\"<end>\n<npc=1082>: \"Đừng nói bậy, lời của Tông Chủ nói sao có thể là giả được chứ? Ứng Thái Tử vốn là một đại hào thương, suy tính hơn người, thương khố của y sao có thể dễ dàng tìm ra được chứ......\"<end>\n<Playername>: (Những kẻ này ham muốn của cải của người khác, phải đuổi bọn chúng ra khỏi đây.)<end>,Trục xuất người của Ảnh Tử Hội ra khỏi đây"
+            },
+            {
+              "id": 1325,
+              "sub_id": 296,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; KillNpc; KillNpc; TaskAct:StepOverEvent",
+              "target_params": "1081,107,1,Xin chào!,Ngươi thật đáng khen; 1082,107,1,Xin chào!,Ngươi thật đáng khen; 1122,107,1,Xin chào!,Ngươi thật đáng khen; 2182,107,30,Xin chào!,Ngươi thật đáng khen; Quay về Chân Ngôn Tự gặp Thu đại sư phục mệnh"
+            },
+            {
+              "id": 1326,
+              "sub_id": 296,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "1058,0,<subtaskname>,<npc=1058>: \"Thế nào rồi?\"<end>\n<Playername>: \"Họ đến tìm một vị hào thương tên là Ứng Thái Tử có thương khố ở đây, không biết Thu đại sư có từng nghe qua vị hào thương này chưa?\"<end>\n<npc=1058>: \"Ứng Thái Tử? Chính là hắn! Ứng Thái Tử là bằng hữu của cha ngươi, lúc trước học đạo trong thâm sơn, về sau không biết vì sao nhập vào thế tục, có tham gia vào rất nhiều ngành nghề nhưng mua bán là chủ yếu. Nghe đồn y có một thương khố bí mật. Cách kinh doanh của y là hè trữ đông bán, đông nhập, hạ xuất, kinh doanh trái thời vụ, thu rất nhiều lợi nhuận. Bỗng có một ngày, Ứng Thái Tử biến mất không để lại dấu vết. Không ai biết y đã đi đâu, còn thương khố của y thì ai cũng chưa ai tìm ra.\"<end>\n<Playername>: \"Thì ra là như thế, đúng là kỳ nhân!\"<end>\n<npc=1058>: \"Đúng vậy, nếu Ảnh Tử Hội đã truy đuổi đến đây, chắc rằng thương khố đang ở đây. Ngươi hãy đem tin này báo cho Thu Lâm, nhờ y cho người đến tìm, nếu tìm được cũng là một việc tốt. Cho dù không muốn chiếm làm của mình thì đem đồ đạc trong đó phân phát cho người nghèo cũng là một việc thiện.\"<end>,Tìm được Thu đại sư,Tìm được Thu đại sư,Xin chào!,Ngươi thật đáng khen; Chuyển lời của Thu đại sư cho Bạch Thu Lâm ở Tân Thủ Thôn"
+            },
+            {
+              "id": 1327,
+              "sub_id": 296,
+              "step_index": 4,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "3570,0,<subtaskname>,<npc=3570>: \"Ngươi đột nhiên quay về chắc có việc quan trọng?\"<end>\n<Playername>: \"Ta đã phát hiện ra thương khố mà Ứng Thái Tử để lại, Thu Di có thể đến đó tìm biết đâu sẽ có thu hoạch.\"<end>\n<npc=3570>: \"Thật sao? Nghe đồn thương khố của Ứng Thái Tử thứ gì cũng có, nếu tìm được thì đúng là một chuyện tốt.\"<end>,Tìm Bạch Thu Lâm,Tìm Bạch Thu Lâm,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 434,
+              "sub_id": 296,
+              "phase": "start",
+              "cleaned_text": "[Thu Đại Sư]: \"Ngươi hành tẩu giang hồ đã lâu, chắc đã từng nghe đến Ảnh Tử Hội, những người này gần đây đã chiếm cứ phía nam của Chân Ngôn Tự, không biết là có mưu đồ gì. Ngươi hãy đến đó tìm hiểu, cho dù ý đồ của chúng là gì thì cũng phải dốc hết sức đuổi chúng ra khỏi đó. Ta ẩn cư ở đây không muốn việc tu hành bị chúng quấy nhiễu.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 148,
+      "task_id_hex": "0000000000000094",
+      "name": "Sơn Môn Nạn",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000094.xml",
+      "subtasks": [
+        {
+          "sub_id": 297,
+          "sub_id_hex": "0000000000000129",
+          "task_id": 148,
+          "name": "Khám Phá Hoàng Lăng",
+          "describe_cleaned": "Tiêu Dao Tử muốn thôn tính Thiên Long Tự từ lâu. Thiên Long Tự vốn thuộc Hoàng gia nên Tiêu Dao Tử chưa dám manh động, mà chuyển mục tiêu sang Hóa Sinh Tự. Tiêu Dao Tử đã thuyết phục được Đại Nhật La mang quân bao vây Hóa Sinh Tự, tuyên bố ngày nào Huệ Minh thiền sư chưa nhường lại Hóa Sinh Tự, sẽ không bãi binh. Huệ Minh thiền sư nhiều lần phái người đi cầu viện, nhưng đều không ra khỏi vòng vây. Ta vô tình biết được chuyện này nên Huệ Minh thiền sư nhờ ta giúp đỡ\n• Huệ Minh thiền sư nhờ ta đến Đại Lý cầu cứu [Đại Giới thiền sư tại Đại Lý Đoàn Thị (1759/3162)].\n• Đại Giới thiền sư nghe tin Hóa Sinh Tự gặp nạn, lập tức nghĩ cách tương trợ, trước tiên sai ta đi giúp Huệ Minh thiền sư đuổi đám [Man binh tại Thiên Long Tự (1856/3168)].\n• Ta chỉ diệt được vài tên Man binh, vì chúng quá đông, viện binh của Đại Giới thiền sư vẫn chưa tới, đi xem tình hình bên [Huệ Minh thiền sư tại Thiên Long Tự (1884/3140)] thế nào rồi!",
+          "file_path": "Stories\\task_publish\\sub\\0000000000000129.xml",
+          "dialog_npc_id": 630,
+          "dialog_npc_name": "Huệ Minh Thiền Sư",
+          "steps": [
+            {
+              "id": 1328,
+              "sub_id": 297,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "3496,0,<subtaskname>,<npc=3496>: \"A Di Đà Phật! Thí chủ đến có việc gì?\"<end>\n<Playername>: \"Huệ Minh thiền sư nhờ ta đến cầu viện đại sư, quân sư của Đại Nhật La Tiêu Dao Tử phái người bao vây hòng chiếm đoạt Hóa Sinh Tự, mong đại sư ra tay tương trợ. \"<end>\n<npc=3496>: \"A Di Đà Phật! Ta có nghe tiếng xấu của kẻ này nhưng không ngờ hắn ngang ngược đến vậy. Nhắn với Huệ Minh sư huynh rằng ta nhất định giúp huynh ấy. Trước khi ta đến nơi mong thí chủ giúp đuổi Man Binh!\"<end>,Tìm Đại Giới thiền sư,Tìm Đại Giới thiền sư,Xin chào!,Ngươi thật đáng khen; Về Hóa Sinh Tự đuổi Man Binh"
+            },
+            {
+              "id": 1329,
+              "sub_id": 297,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "KillNpc; TaskAct:StepOverEvent",
+              "target_params": "575,0,12,Xin chào!,Ngươi thật đáng khen; Về Hóa Sinh Tự tìm Huệ Minh thiền sư bàn đối sách"
+            },
+            {
+              "id": 1330,
+              "sub_id": 297,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "630,0,<subtaskname>,<npc=630>: \"A Di Đà Phật! Thí chủ có báo được tin chưa?\"<end>\n<Playername>: \"Đại Giới thiền sư hứa sẽ tương trợ, nhưng đến giờ vẫn chưa thấy viện binh.\"<end>\n<npc=630>: \"Người xuất gia không nói dối, nếu thiền sư đã nói vậy thì ắt sẽ đến, chúng ta cứ kiên nhẫn chờ đợi.\"<end>,Tìm Huệ Minh thiền sư,Tìm Huệ Minh thiền sư,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 435,
+              "sub_id": 297,
+              "phase": "pop",
+              "cleaned_text": ""
+            },
+            {
+              "id": 436,
+              "sub_id": 297,
+              "phase": "start",
+              "cleaned_text": "[Huệ Minh Thiền Sư]: \"A Di Đà Phật, thí chủ có thể đưa tin đến cho Đại Giới thiền sư ở Đại Lý Đoàn Thị giúp lão tăng không?\"\n[Đại Hiệp]: \"Đại sư cứ nói!\"\n[Huệ Minh Thiền Sư]: \"Quân sư của Đại Nhật La Tiêu Dao Tử muốn chiếm Hóa Sinh Tự làm đạo trường nên phái Man Binh đến bao vây tự viện. Lão tăng từng phái người cầu viện nhưng đều bị Man Binh cản lại. Hôm nay xin nhờ thí chủ tương trợ!\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 149,
+      "task_id_hex": "0000000000000095",
+      "name": "Tín Đồ Nổi Giận",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000095.xml",
+      "subtasks": [
+        {
+          "sub_id": 298,
+          "sub_id_hex": "000000000000012a",
+          "task_id": 149,
+          "name": "Tiếp Tế",
+          "describe_cleaned": "Tiêu Dao Tử trở thành quân sư thì đi khắp nơi rao giảng đạo pháp, ý đồ muốn biến các giáo đồ thành tín đồ của mình, chỉ có Sài Đình và số ít trại dân là vẫn trung thành với tín ngưỡng của mình. Sau khi nghe Tiêu Dao Tử phái người bao vây Hóa Sinh Tự, Sài Đình vô cùng khẩn trương, cô ta nhờ ta hiệp trợ chúng tăng ở Hóa Sinh Tự, tiêu diệt bọn ngu muội dưới trướng Tiêu Dao Tử.\n• Sài Đình ở Đại Nhật sơn trại nhờ ta giúp đỡ chúng tăng ở Hóa Sinh Tự đuổi bọn [Man binh tại Thiên Long Tự (1856/3168)] và trừng trị các [tín đồ tại Thiên Long Tự (1743/3815)] ngu muội của Tiêu Dao Tử.\n• [Sài Đình tại Thiên Long Tự (1827/3685)] nhắc ta sau khi hoàn thành thì trở về sơn trại tìm cô ấy.\n• Sài Đình đã chuẩn bị rất nhiều lương thực cho Hóa Sinh Tự, nhờ ta mang đến cho [Huệ Minh thiền sư tại Thiên Long Tự (1884/3140)].",
+          "file_path": "Stories\\task_publish\\sub\\000000000000012A.xml",
+          "dialog_npc_id": 642,
+          "dialog_npc_name": "Sài Đình",
+          "steps": [
+            {
+              "id": 1331,
+              "sub_id": 298,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; TaskAct:StepOverEvent",
+              "target_params": "575,0,12,Xin chào!,Ngươi thật đáng khen; 625,0,12,Xin chào!,Ngươi thật đáng khen; Về Đại Nhật Sơn Trại gặp Sài Đình phục mệnh"
+            },
+            {
+              "id": 1332,
+              "sub_id": 298,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "GivePlayerItem; TaskAct:StepOverEvent",
+              "target_params": "642,0,<subtaskname>,<npc=642>: \"Thế nào?\"<end>\n<Playername>: \"Đã làm theo lời cô nương rồi đấy!\"<end>\n<npc=642>: \"Hay quá! Đây là thức ăn chay chúng ta vừa chuẩn bị, phiền <if me.nSex==0>thiếu hiệp<else>cô nương<endif> đưa đến cho Huệ Minh thiền sư, Sài Đình vô cùng cảm kích.\"<end>,{Thức ăn chay,20,1,384,1,0,1},Tìm Sài Đình,Tìm Sài Đình,Xin chào!,Ngươi thật đáng khen; Đưa thức ăn chay cho Huệ Minh thiền sư ở Hóa Sinh Tự"
+            },
+            {
+              "id": 1333,
+              "sub_id": 298,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:DelItem",
+              "target_params": "630,0,<subtaskname>,<Playername>: \"Đây là thức ăn chay do Sài Đình ở Đại Nhật Sơn Trại chuẩn bị, xin đại sư nhận lấy!\"<end>\n<npc=630>: \"A Di Đà Phật! Phật nói có nhân ắt có quả, xem ra từ mười mấy năm trước đã định sẵn sẽ có ngày này!\"<end>,Tìm Huệ Minh thiền sư,Tìm Huệ Minh thiền sư,Xin chào!,Ngươi thật đáng khen; {384,},-1"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 437,
+              "sub_id": 298,
+              "phase": "start",
+              "cleaned_text": "[Sài Đình]: \"Sư phụ trong núi đã bị vây mấy ngày, phải làm sao đây?\"\n[Đại Hiệp]: \"Cô nương lo phiền điều chi?\"\n[Sài Đình]: \"Quân sư muốn chiếm Hóa Sinh Tự làm đạo trường, nhưng vậy thì các sư phụ trong tự sẽ về đâu? Đám Trại Dân đó dễ dàng cải giáo như vậy, làm Phật Tổ cũng phải mất mặt. Ta định tìm người đuổi Man Binh giúp họ, không biết [Nam: thiếu hiệp / Nữ: cô nương] giúp được chăng?\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": 150,
+      "task_id_hex": "0000000000000096",
+      "name": "Thân Bạn Nguy Cơ",
+      "describe_cleaned": "",
+      "category": "Nhiệm vụ chính tuyến",
+      "category_desc": "Loại editor nhiệm vụ thông dụng",
+      "order_type": "linear",
+      "repeat": 0,
+      "task_type_code": "2",
+      "file_path": "Stories\\task_publish\\task\\0000000000000096.xml",
+      "subtasks": [
+        {
+          "sub_id": 299,
+          "sub_id_hex": "000000000000012b",
+          "task_id": 150,
+          "name": "Kế Hoạch Tuyệt Mật",
+          "describe_cleaned": "Quay lại doanh trại nghĩa quân, nghe Bạch Thu Lâm cho biết gần đây Từ Bân Kiếm đã tụ tập một đám lưu manh hiếu chiến trong Bang Nguyên Bí Động, chúng đã nhiều lần tham gia tranh đoạt Du Long Giác. Bạch Thu Lâm phái ta đến Bang Nguyên Bí Động hội họp với trinh sát nghĩa quân Lôi Lão Cửu, nhân tiện cho bọn lưu manh kia biết thế nào lễ độ.\n• Bạch Thu Lâm phái ta đến Bang Nguyên Bí Động hội họp với [Lôi Lão Cửu tại Bang Nguyên Bí Động (1896/3386)].\n• Lôi Lão Cửu cho biết Từ Bân Kiếm chiêu mộ đám lưu manh vô liêm sỉ và nhờ ta dạy dỗ cho đám tự xưng là [Giang Nam nghĩa sĩ tại Bang Nguyên Bí Động (1834/3411)], [Giang Bắc nghĩa sĩ tại Bang Nguyên Bí Động (1586/3523)], [Đông Nam nghĩa sĩ tại Bang Nguyên Bí Động (1778/3489)].\n• Báo sự việc ở Bang Nguyên Bí Động cho [Bạch Thu Lâm - Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]].",
+          "file_path": "Stories\\task_publish\\sub\\000000000000012B.xml",
+          "dialog_npc_id": 3570,
+          "dialog_npc_name": "Bạch Thu Lâm [<color=green>Thủ Lĩnh Nghĩa Quân<color>]",
+          "steps": [
+            {
+              "id": 1334,
+              "sub_id": 299,
+              "step_index": 1,
+              "instruction": "",
+              "target_function": "TalkWithNpc; TaskAct:StepOverEvent",
+              "target_params": "1083,0,<subtaskname>,<npc=1083>: \"Lũ cuồng đồ này dám chống đối nghĩa quân ta, tự xưng nghĩa sĩ mà không biết chúng chỉ bị người khác lợi dụng. Ngươi phải cho chúng nếm mùi để chúng từ bỏ ý định.\"<end>\n<Playername>: \"Lão ca đợi tin tốt của ta nhé!\"<end>,Tìm Lôi Lão Cửu,Tìm Lôi Lão Cửu,Xin chào!,Ngươi thật đáng khen; Dạy dỗ Cuồng Đồ trong Bang Nguyên Bí Động"
+            },
+            {
+              "id": 1335,
+              "sub_id": 299,
+              "step_index": 2,
+              "instruction": "",
+              "target_function": "KillNpc; KillNpc; KillNpc; TaskAct:StepOverEvent",
+              "target_params": "2192,0,30,Xin chào!,Ngươi thật đáng khen; 2193,0,30,Xin chào!,Ngươi thật đáng khen; 2194,0,30,Xin chào!,Ngươi thật đáng khen; Về Tân Thủ Thôn tìm Bạch Thu Lâm"
+            },
+            {
+              "id": 1336,
+              "sub_id": 299,
+              "step_index": 3,
+              "instruction": "",
+              "target_function": "TalkWithNpc",
+              "target_params": "3570,0,<subtaskname>,<npc=3570>: \"Công việc làm đến đâu rồi?\"<end>\n<Playername>: \"Đã làm theo lời Thu Di!\"<end>\n<npc=3570>: \"Trong giang hồ mạnh được yếu thua, để chúng kiêng dè nghĩa quân ta là tốt. Nhưng làm người không nên quá ngang ngược, nếu không sẽ có nhiều kẻ thù!\"<end>,Tìm Bạch Thu Lâm,Tìm Bạch Thu Lâm,Xin chào!,Ngươi thật đáng khen"
+            }
+          ],
+          "dialogues": [
+            {
+              "id": 438,
+              "sub_id": 299,
+              "phase": "start",
+              "cleaned_text": "[Bạch Thu Lâm [Thủ Lĩnh Nghĩa Quân]]: \"Gần đây nghe nói Từ Bân Kiếm câu kết với một bọn nhiễu sự tụ tập ở Bang Nguyên Bí Động bên ngoài Long Tuyền Thôn định chống đối chúng ta, nơi đó rất gần nghĩa quân, ta không thể không đề phòng. Ta đã phái Lôi Lão Cửu đến đó do thám, ngươi hãy cho chúng nếm mùi để chúng tự rút lui. \"\n[Đại Hiệp]: \"Vâng!\""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "locator": {
+    "path": "migration/source_corpus/02_Narrative_Book/01_Chinh_Tuyen/Arc_05_Nam_Bac_Doi_Dau.md",
+    "sha256": "7150dc58df8c9492c14de2a702e8a9d16845e32de6093f3295e8aca56db33001",
+    "role": "membership locator only"
+  }
+}

@@ -1,3 +1,5 @@
+> D-064/R-90: Read migration/restructure_2026_09/temporal-continuity-contract.md first. Exact dates, volume ages and travel estimates require evidence/decision; UNKNOWN is valid. Current allocation: migration/restructure_2026_09/series-chapter-allocation-index.md. Canon diffs must name approved state destinations; never write chapter state into policy/index.
+
 # Rule 04: Prose Drafting Engine (Bộ Chấp Bút Văn Xuôi)
 
 > **CỔNG CHẶN TIÊN QUYẾT BẮT BUỘC (PRECONDITION HARD STOP)**:
@@ -13,7 +15,7 @@ Mandatory Quality Binding:
 Core Architectural Protocols (The 5 Generalized Invariants):
 
 1. **Spatiotemporal Realism Protocol (Giao thức Hiện thực Không - Thời gian)**:
-   - Before drafting any scene involving travel, communication, or external news, consult `worldbuilding/geography/travel_matrix.md`.
+   - Before drafting any scene involving travel, communication, or external news, consult `migration/restructure_2026_09/temporal-continuity-contract.md`.
    - All physical movement, messenger birds, and rumor propagation must strictly respect terrain and transit duration. Prohibit instantaneous travel and cross-regional telepathy between parallel POV arcs.
 
 2. **Epistemic Horizon & Anti-Omniscience Protocol (Giao thức Ranh giới Tri thức Nhân vật)**:

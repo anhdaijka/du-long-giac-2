@@ -1,5 +1,7 @@
 node_modules/
 dist/
+__pycache__/
+*.py[cod]
 .novel-os-tmp/
 .DS_Store
 Thumbs.db
@@ -7,6 +9,10 @@ Thumbs.db
 # Skills are reproducibly installed by scripts/bootstrap.mjs from pinned upstreams.
 .agents/skills/*
 !.agents/skills/.gitkeep
+!.agents/skills/dlg-source-preflight/
+!.agents/skills/dlg-source-writer/
+!.agents/skills/dlg-source-review/
+!.agents/skills/dlg-source-revision/
 
 # Disposable exports/builds
 exports/*

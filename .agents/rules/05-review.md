@@ -1,3 +1,5 @@
+> D-064/R-90: Read migration/restructure_2026_09/temporal-continuity-contract.md first. Exact dates, volume ages and travel estimates require evidence/decision; UNKNOWN is valid. Current allocation: migration/restructure_2026_09/series-chapter-allocation-index.md. Canon diffs must name approved state destinations; never write chapter state into policy/index.
+
 # Review Rule & Adversarial Red-Team Review Protocol
 
 Review before rewriting.
@@ -32,7 +34,7 @@ Mandatory Quality Binding:
 - **Gate A: Minimal Hard Regression, Provenance Lock & Closed-World Grounding**
   - Provenance: YAML frontmatter BẮT BUỘC khớp 1-1 với Task ID/Subtask ID trong SQLite `story_database.sqlite3`.
   - Closed-World Assumption: 100% nhân vật, địa danh xuất hiện phải có trong SQLite, `genealogy_matrix.md`, hoặc `supporting_cast.md`. Báo động ngay nếu phát hiện thực thể "tự sinh".
-  - Không - thời gian: Tuân thủ Rule TC-1 đến TC-4 (`plot/timeline.md` và `travel_matrix.md`).
+  - Không - thời gian: Tuân thủ D-064 temporal contract (`migration/restructure_2026_09/temporal-continuity-contract.md` và `migration/restructure_2026_09/temporal-continuity-contract.md`).
   - Ranh giới tri thức: Nhân vật chỉ biết những gì ngũ quan tiếp nhận; không có rò rỉ toàn tri.
 - **Gate B: Blind Reader, Narrative Propulsion & Genre Discipline**
   - Nhịp điệu kịch tính tự nhiên (organic pacing), không đốt cháy giai đoạn, có khoảng thở sinh hoạt.

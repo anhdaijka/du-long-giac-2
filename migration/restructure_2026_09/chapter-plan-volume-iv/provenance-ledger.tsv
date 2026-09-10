@@ -1,0 +1,29 @@
+chapter_key	function_key	primary_packet	result_refs	evidence_class	writer_escalation
+V4-CH-01	V4-EW-01	../evidence/source-packets/arc_09.json	tasks[task_id=313].subtasks[sub_id=488];tasks[task_id=314].subtasks[sub_id=489]	GAME_ALT_HISTORY + NPC_REPORT + GAME_CAUSAL_TRACE	conspiracy/document/custody/medicine/actor
+V4-CH-02	V4-EW-01	../evidence/source-packets/arc_09.json	tasks[task_id=315].subtasks[sub_id=490]	NPC_GUIDANCE + GAME_OBJECTIVE + AVATAR_INFERENCE	identity/motive/culprit/document-truth/actor
+V4-CH-03	V4-EW-02	../evidence/source-packets/arc_09.json	tasks[task_id=316].subtasks[sub_id=491]	SOURCE_BIOGRAPHY_REPORT + OCCULT_CLAIM + PROPOSED_APERTURE	biography-truth/occult-mechanism/love/Hạ-contact
+V4-CH-04	V4-EW-02	../evidence/source-packets/arc_09.json	tasks[task_id=317].subtasks[sub_id=492]	DIRECT_GAME_PLAN + MEDICAL_OCCULT_EFFECT_CLAIM	formula/efficacy/death-state/Hạ-action/mechanism
+V4-CH-05	V4-EW-02	../evidence/source-packets/arc_09.json	tasks[task_id=318].subtasks[sub_id=493]	DIRECT_GAME_AFTERMATH + COVER_DIAGNOSIS + GAMEPLAY	recovery-mechanism/betrayal/document-contents/custody/actor
+V4-CH-06	V4-EW-03	../evidence/source-packets/arc_09.json	tasks[task_id=319].subtasks[sub_id=494]	NPC_ALLEGATION + LABOR_HARM_REPORT + GAMEPLAY	guilt/casualty/history/Hạ-action/remedy
+V4-CH-07	V4-EW-03	../evidence/source-packets/arc_09.json	tasks[task_id=320].subtasks[sub_id=495]	GAME_ALT_HISTORY + SOURCE_REPORT + GAME_EVENT	instigator/motive/command/battle/chronology
+V4-CH-08	V4-EW-03	../evidence/source-packets/arc_10.json	tasks[task_id=321].subtasks[sub_id=496]	GAME_ALT_HISTORY + ORGANIZATION_ACTION + GAMEPLAY	Tĩnh-command/alliance/casualty/outcome/history
+V4-CH-09	V4-EW-03	../evidence/source-packets/arc_10.json	tasks[task_id=322].subtasks[sub_id=497]	GAME_ALT_HISTORY + NARRATOR_JUDGMENT + LEGENDARY_LORE	succession/ordination/martial-lineage/canon-profile
+V4-CH-10	V4-EW-04	../evidence/source-packets/arc_10.json	tasks[task_id=323].subtasks[sub_id=498]	NPC_INTELLIGENCE_REPORT + GAME_OBJECTIVE	list-content/truth/custody/Tĩnh-mission/action
+V4-CH-11	V4-EW-05	../evidence/source-packets/arc_10.json	tasks[task_id=324].subtasks[sub_id=499]	DIRECT_SOURCE_CONTEXT + NARRATOR_INFERENCE + GAMEPLAY	magic/future/age/trauma/Tiêu-care
+V4-CH-12	V4-EW-05	../evidence/source-packets/arc_10.json	tasks[task_id=325].subtasks[sub_id=500]	GAME_ALT_HISTORY + PERSECUTION_REPORT + GAMEPLAY	historical-policy/Tiêu-action/rescue/outcome
+V4-CH-13	V4-EW-05	../evidence/source-packets/arc_10.json	tasks[task_id=326].subtasks[sub_id=501]	SOLDIER_TESTIMONY + MEDICAL_SURVIVAL_CLAIM + GAMEPLAY	history/duration/medical-truth/Tiêu-rescue
+V4-CH-14	V4-EW-05	../evidence/source-packets/arc_10.json	tasks[task_id=327].subtasks[sub_id=502]	COERCION_REPORT + MEDICAL_ALLEGATION + LETTER_OBJECTIVE	pregnancy/poison/guilt/Hạ-action/exoneration
+V4-CH-15	V4-EW-05	../evidence/source-packets/arc_10.json	tasks[task_id=328].subtasks[sub_id=503]	MERCHANT_REPORT + GAME_EVENT + GAMEPLAY	Tiêu-action/route/casualty/list-custody/outcome
+V4-CH-16	V4-EW-05	../evidence/source-packets/arc_10.json	tasks[task_id=329].subtasks[sub_id=504]	LABOR_REPORT + FAMILY_CONTEXT + GAMEPLAY	Hạ-action/guilt/reunion/labor-outcome/history
+V4-CH-17	V4-EW-06	../evidence/source-packets/arc_10.json	tasks[task_id=331].subtasks[sub_id=506]	SOURCE_STATISTIC_REPORT + DOCUMENT_CLUE + GAMEPLAY_JUDGMENT	statistic-truth/guilt/Tĩnh-investigation/execution/outcome
+V4-CH-18	V4-EW-07	../evidence/source-packets/arc_10.json	tasks[task_id=332].subtasks[sub_id=507]	CHARACTER_DOCUMENT_CLAIM + RELIABILITY_LOCK + GAME_OBJECTIVE	contents/custody/mechanism/corroboration/route/revelation
+V4-CH-19	V4-EW-08	../evidence/source-packets/arc_10.json	tasks[task_id=352].subtasks[sub_id=527]	MEGA_CHAIN_SETUP + ORGANIZATION_REPORT + AVATAR_ROUTE	avatar-mapping/trio-substitution/command/escort/travel
+V4-CH-20	V4-EW-08	../evidence/source-packets/arc_10.json	tasks[task_id=352].subtasks[sub_id=528]	DIRECT_GAME_EVENT + ASSAILANT_REPORT + MEDICAL_CLAIM	chronology/motive/history/treatment/Tĩnh-action
+V4-CH-21	V4-EW-08	../evidence/source-packets/arc_10.json	tasks[task_id=352].subtasks[sub_id=529];tasks[task_id=352].subtasks[sub_id=530]	MEDICAL_EFFECT_CLAIM + RELATIONSHIP_INFERENCE + GAMEPLAY	medicine/recovery/love/promise/Hạ-presence
+V4-CH-22	V4-EW-08	../evidence/source-packets/arc_10.json	tasks[task_id=352].subtasks[sub_id=531];tasks[task_id=352].subtasks[sub_id=532]	RELATIONSHIP_REPORT + INTELLIGENCE_CLUE + GAMEPLAY	map-truth/motive/history/Tĩnh-infiltration/knowledge
+V4-CH-23	V4-EW-08	../evidence/source-packets/arc_10.json	tasks[task_id=352].subtasks[sub_id=533];tasks[task_id=352].subtasks[sub_id=534]	COVERT_GAME_ACTION + PUBLIC_POWER_DISPLAY + GAMEPLAY	rank/combat/leadership-plan/Tiêu-action
+V4-CH-24	V4-EW-08	../evidence/source-packets/arc_10.json	tasks[task_id=352].subtasks[sub_id=535]	CAPTIVITY_REPORT + SEXUAL_VIOLENCE_THREAT + DIRECT_GAME_OUTCOME	graphicization/drug-mechanism/Hạ-rescue/motive/combat-credit
+V4-CH-25	V4-EW-08	../evidence/source-packets/arc_10.json	tasks[task_id=352].subtasks[sub_id=536]	DIRECT_SOURCE_DECISION + POLITICAL_COUNTERFACTUAL + ROUTE_EXIT	war-certainty/whereabouts/relationship/recovery/trio-substitution
+V4-CH-26	V4-EW-09	../evidence/source-packets/arc_10.json	tasks[task_id=354].subtasks[sub_id=538];tasks[task_id=356].subtasks[sub_id=540]	SPEAKER_MEMORY + FRIENDSHIP_REPORT + GAMEPLAY_RESOLUTION	historical-truth/shared-chronology/complete-absolution/Tiêu-action
+V4-CH-27	V4-EW-09	../evidence/source-packets/arc_10.json	tasks[task_id=357].subtasks[sub_id=541]	SOLDIER_TESTIMONY + FAMILY_REPORT + GAMEPLAY	conscription-policy/history/Tiêu-action/family-outcome
+V4-CH-28	V4-EW-09	../evidence/source-packets/arc_10.json	tasks[task_id=360].subtasks[sub_id=544]	DIRECT_SOURCE_CONTEXT + INJURY_REPORT + MEDICAL_EFFECT_CLAIM	attacker/Hạ-rescue/medicine/efficacy/recovery/chronology

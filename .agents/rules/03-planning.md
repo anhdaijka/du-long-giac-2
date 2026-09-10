@@ -1,15 +1,17 @@
+> D-064/R-90: Read migration/restructure_2026_09/temporal-continuity-contract.md first. Exact dates, volume ages and travel estimates require evidence/decision; UNKNOWN is valid. Current allocation: migration/restructure_2026_09/series-chapter-allocation-index.md. Canon diffs must name approved state destinations; never write chapter state into policy/index.
+
 # Rule 03: Planning Engine (Bộ Thiết Kế Kịch Bản Chi Tiết)
 
-> **Trách nhiệm duy nhất (Single Responsibility)**: Thiết lập bản đặc tả kịch bản chương truyện (`IChapterPlan` / Chapter Brief) chuẩn xác từ bản thảo phân cảnh `plot/volume_XX_deck.md` trước khi chấp bút.
+> **Trách nhiệm duy nhất (Single Responsibility)**: Thiết lập bản đặc tả kịch bản chương truyện (`IChapterPlan` / Chapter Brief) chuẩn xác từ bản thảo phân cảnh `migration/restructure_2026_09/series-chapter-allocation-index.md` trước khi chấp bút.
 
 ---
 
 ## 1. ĐẦU VÀO BẮT BUỘC (PLANNING INPUT CONTRACTS)
 Trước khi lập plan cho một chương mới, Agent bắt buộc nạp:
-1. **Dàn ý phân cảnh**: Tương ứng trong `plot/volume_XX_deck.md` (được coi là Macro Event Milestones).
+1. **Dàn ý phân cảnh**: Tương ứng trong `migration/restructure_2026_09/series-chapter-allocation-index.md` (được coi là Macro Event Milestones).
 2. **Nguồn gốc xác thực**: Truy vấn SQLite theo `.agents/rules/10-provenance-kernel.md` để lấy dữ liệu Task/Subtask và đối thoại gốc.
 3. **Hồ sơ nhân vật trung tâm (POV)**: Đọc `characters/<character_id>.md` để nắm rõ ranh giới tri thức (`epistemic ledger`) và tầng bậc võ công hiện hành.
-4. **Không - thời gian thực tế**: Tra cứu `worldbuilding/geography/travel_matrix.md` để đảm bảo địa bàn và thời gian di chuyển hợp lý.
+4. **Không - thời gian thực tế**: Tra cứu `migration/restructure_2026_09/temporal-continuity-contract.md` để đảm bảo địa bàn và thời gian di chuyển hợp lý.
 5. **Sổ Cái Thương Tật & Thể Trạng**: Tra cứu `worldbuilding/medical/injuries_ledger.md` để kế thừa chính xác các vết thương thực thể (L1 – L5) chưa lành từ các chương trước.
 6. **Sổ Động Thái Võ Học**: Tra cứu `worldbuilding/martial/martial_dynamics.md` để đối soát bậc cảnh giới (Tier 0 – Tier 5) và các mầm mống võ học tiềm năng.
 7. **Hệ Thống Môn Phái - Đảng Phái - Tổ Chức (FOR System)**:
@@ -36,7 +38,7 @@ Trước khi lập plan cho một chương mới, Agent bắt buộc nạp:
 
 ## 3. CẤU TRÚC ĐẶC TẢ BẢN PLAN (ICHAPTERPLAN SPECIFICATION)
 Một bản kế hoạch chương hoàn chỉnh phải bao gồm đầy đủ các mục:
-1. **Metadata & Provenance**: Số chương, Tên chương, POV, Địa bàn, Ngày tháng (năm 1191), Mã nguồn Task/Subtask SQLite.
+1. **Metadata & Provenance**: Số chương, Tên chương, POV, Địa bàn, Thời gian tương đối/UNKNOWN và decision reference, Mã nguồn Task/Subtask SQLite.
 2. **Mục tiêu kịch bản (Chapter Purpose)**: Xung đột trung tâm cần giải quyết; sự biến chuyển tâm lý hoặc mối quan hệ.
 3. **Thương Tật Kế Thừa & Rào Cản Sinh Học (Inherited Injuries & Trauma)**: Liệt kê rõ các vết thương từ chương trước (mức độ L1 – L5, vị trí giải phẫu, đau đớn, hạn chế hô hấp hoặc phát lực trong chương này).
 4. **Đề Xuất Tiến Trình Võ Học Linh Hoạt (Emergent Martial Proposition)**:

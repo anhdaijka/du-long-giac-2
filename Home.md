@@ -1,3 +1,5 @@
+> D-064/R-90: Read migration/restructure_2026_09/temporal-continuity-contract.md first. Exact dates, volume ages and travel estimates require evidence/decision; UNKNOWN is valid. Current allocation: migration/restructure_2026_09/series-chapter-allocation-index.md. Canon diffs must name approved state destinations; never write chapter state into policy/index.
+
 # Novel OS Dashboard
 
 > Open this repository root as an Obsidian vault. The plain Markdown links work without plugins; Dataview blocks become live dashboards when Dataview is installed.
@@ -11,7 +13,7 @@
 - [[author/decisions|Author Decisions]]
 - [[author/session-state|Session State (non-canonical)]]
 - [[continuity/state|Continuity State]]
-- [[plot/timeline|Timeline]]
+- [Temporal continuity](migration/restructure_2026_09/temporal-continuity-contract.md)
 - [[docs/WORKFLOW|Chapter Workflow]]
 - [[docs/QUALITY_GATES|Quality Gates]]
 - [[docs/SESSION_OPERATIONS|Session Operations]]

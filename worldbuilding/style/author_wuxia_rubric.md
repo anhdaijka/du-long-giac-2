@@ -40,7 +40,7 @@
 
 *Mục tiêu: Độc giả đọc một câu thoại mà không cần nhìn tên nhân vật vẫn biết chính xác ai đang nói.*
 
-#### 1. Tiêu Phùng (17 tuổi — Trục Khởi Nguyên Nghĩa Quân Ba Lăng)
+#### 1. Tiêu Phùng (18 tuổi — Trục Khởi Nguyên Nghĩa Quân Ba Lăng)
 - **Cá tính**: Dân dã bãi sậy, bắng nhắng, lém lỉnh, tự trào, tinh quái; có sĩ diện bến bãi nhưng sâu thẳm lại rất nhạy cảm với thân phận cô nhi và sự khinh miệt địa vị; hay dùng sự cợt nhả, bông đùa để giải tỏa căng thẳng và che giấu vết thương lòng.
 - **Dấu ấn ngôn ngữ**:
   - Hay dùng quán ngữ sông nước Động Đình, ví von đời thường bến chợ: cá mè, mỡ gà, nồi cháo hoa, cọng rơm ướt.

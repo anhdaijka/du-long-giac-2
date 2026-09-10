@@ -1,3 +1,5 @@
+> D-064/R-90: Read migration/restructure_2026_09/temporal-continuity-contract.md first. Exact dates, volume ages and travel estimates require evidence/decision; UNKNOWN is valid. Current allocation: migration/restructure_2026_09/series-chapter-allocation-index.md. Canon diffs must name approved state destinations; never write chapter state into policy/index.
+
 # Chapter Brief
 
 ## Chapter
@@ -5,22 +7,22 @@
 - Number:
 - Working title:
 - POV:
-- POV chronological age (aligned with `plot/chronology_matrix.md`):
-- Exact calendar date (aligned with `plot/timeline.md`):
+- POV age at checkpoint or UNKNOWN (authority: `migration/restructure_2026_09/temporal-continuity-contract.md`):
+- Time window or UNKNOWN; exact date requires author decision (authority: `migration/restructure_2026_09/temporal-continuity-contract.md`):
 - Delta T from last appearance:
 - Primary location:
 - Arc(s):
 
 ## Temporal continuity verification
 
-- Calendar date alignment:
+- Required before/after edges and time-window evidence:
 - Age consistency check:
-- Transition requirement (if $\Delta T \ge 3$ days):
-- Travel latency check (`worldbuilding/geography/travel_matrix.md`):
+- POV transition clarity and known elapsed time (UNKNOWN permitted):
+- Travel latency check (`migration/restructure_2026_09/temporal-continuity-contract.md`):
 
 ## NPC Pedigree & Biological Age Verification (Mandatory Gate 1 Check)
 
-| NPC Name | Provenance (Task/Subtask/SQLite) | Role & Kinship (`genealogy_matrix.md`) | Birth Year & Age (1191) | Biological Age Check ($\text{Age}_{\text{parent}} \ge \text{Age}_{\text{child}} + 16$) | Generational Addressing (POV <-> NPC, NPC <-> NPC) |
+| NPC Name | Provenance (Task/Subtask/SQLite) | Role & Kinship (`genealogy_matrix.md`) | Approved age/birth year or UNKNOWN | Source/decision-backed kinship chronology; no invented ages | Generational Addressing (POV <-> NPC, NPC <-> NPC) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | | | | | | |
 

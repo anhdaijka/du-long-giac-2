@@ -1,0 +1,712 @@
+{
+  "manifest_id": "restructure_source_survey_2026_09",
+  "scope": "Source reconstruction, approved architecture, preliminary world coverage and authorized noncanonical Volume I pilot; no prose or canon promotion.",
+  "deliverables": [
+    {
+      "id": "D01",
+      "description": "Record author decisions, source identity, and source inventory.",
+      "requires": [],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/README.md"}
+      ]
+    },
+    {
+      "id": "D02",
+      "description": "Generate Arc membership evidence and identify unclassified tasks.",
+      "requires": ["D01"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/arc-membership.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/arc-membership-report.md"}
+      ]
+    },
+    {
+      "id": "D03",
+      "description": "Complete source graph, branch matrix, and semantic survey across all Arc locators and unclassified tasks.",
+      "requires": ["D02"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/source-graph.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/branch-matrix.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/semantic-survey.md"}
+      ]
+    },
+    {
+      "id": "D04",
+      "description": "Present contradictions and an adaptation contract for author approval before volume planning.",
+      "requires": ["D03"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/foundation-contradictions.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/adaptation-contract-draft.md"}
+      ]
+    },
+    {
+      "id": "D05",
+      "description": "Persist AQ-01–05 and remove superseded Foundation claims before volume planning.",
+      "requires": ["D04"],
+      "checks": [
+        {"type": "file_nonempty", "path": "characters/tieu_phung.md"},
+        {"type": "file_nonempty", "path": "worldbuilding/artifacts/du_long_giac.md"},
+        {"type": "file_nonempty", "path": "rejected/unsupported-foundation/README.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D06",
+      "description": "Prepare a source-backed, non-canonical volume architecture proposal and stop at author review.",
+      "requires": ["D05"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/volume-architecture-proposal.md"}
+      ]
+    },
+    {
+      "id": "D07",
+      "description": "Persist VAQ-01–04 and promote the five-volume structure to approved planning authority without opening route bibles.",
+      "requires": ["D06"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/volume-architecture-proposal.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D08",
+      "description": "Prepare the Route Arc Bible phase spec and stop at a separate author approval gate.",
+      "requires": ["D07"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/route-arc-bible-phase-spec.md"}
+      ]
+    },
+    {
+      "id": "D09",
+      "description": "Persist RABQ-01–03 while holding Route Bible implementation for the expanded world-coverage decision.",
+      "requires": ["D08"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/route-arc-bible-phase-spec.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"}
+      ]
+    },
+    {
+      "id": "D10",
+      "description": "Prepare a Living Wulin coverage spec for events outside the trio and stop at author review.",
+      "requires": ["D09"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/living-wulin-coverage-spec.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D11",
+      "description": "Persist LWCQ-01–04 and remove the obsolete implementation hold.",
+      "requires": ["D10"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/living-wulin-coverage-spec.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"}
+      ]
+    },
+    {
+      "id": "D12",
+      "description": "Produce preliminary coverage for every task; file checks do not certify semantic audit or source correctness.",
+      "requires": ["D11"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/world-coverage/ledger.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/world-coverage/ledger.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/world-coverage/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/world-coverage/editorial-notes.md"}
+      ]
+    },
+    {
+      "id": "D13",
+      "description": "Deliver five Volume I pilot artifacts for author review, with new bridges unapproved and later volumes left as placeholders.",
+      "requires": ["D12"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/route-bibles/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/route-bibles/tieu-phung.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/route-bibles/tinh-xuyen.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/route-bibles/ha-nuong.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/route-bibles/convergence-matrix.md"}
+      ]
+    },
+    {
+      "id": "D14",
+      "description": "Persist V1PQ-01–04 approval and scoped pilot planning status without opening later volumes, mechanism resolution or canon.",
+      "requires": ["D13"],
+      "checks": [
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/route-bibles/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/foundation-contradictions.md"}
+      ]
+    },
+    {
+      "id": "D15",
+      "description": "Survey approved Volume I bridge feasibility with exact source locators, while retaining author decisions and no-scene limits.",
+      "requires": ["D14"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/bridge-feasibility-volume-i.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D16",
+      "description": "Persist BFCQ-01–04 as scoped Volume I planning authority while retaining unresolved actors, chronology, custody and no-scene limits.",
+      "requires": ["D15"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/bridge-feasibility-volume-i.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/route-bibles/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D17",
+      "description": "Prepare a bounded Volume I continuity-detail spec with source-backed handoffs, explicit open slots and a protected Tinh Xuyen-An Dong future invariant; stop at author review.",
+      "requires": ["D16"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/continuity-detail-spec-volume-i.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/foundation-contradictions.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D18",
+      "description": "Persist CDQ-01–05 as Volume I continuity-detail planning authority without creating chapter allocation, exact chronology, prose or later-volume routes.",
+      "requires": ["D17"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/continuity-detail-spec-volume-i.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/route-bibles/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D19",
+      "description": "Propose a Volume I chapter-architecture phase spec with emergent count, causal braid, World Spine integration and a separate author gate; create no chapter candidates yet.",
+      "requires": ["D18"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture-phase-spec-volume-i.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/foundation-contradictions.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D20",
+      "description": "Persist CAPQ-01–06 as authorization to create six candidate architecture artifacts while retaining no-number, no-brief and no-prose boundaries.",
+      "requires": ["D19"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture-phase-spec-volume-i.md"},
+        {"type": "file_nonempty", "path": "author/creative-constitution.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/foundation-contradictions.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D21",
+      "description": "Build the six Volume I candidate chapter-architecture artifacts with source locators, irregular causal braid, World Spine selection and density inference; stop at V1CAQ author review.",
+      "requires": ["D20"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture/chapter-function-matrix.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture/chapter-function-matrix.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture/interleave-and-dependency-map.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture/world-spine-selection.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture/validation-report.md"},
+        {"type": "file_nonempty", "path": "scripts/check_chapter_architecture.py"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D22",
+      "description": "Persist V1CAQ-01–06 approval of the 25-function default Volume I architecture, defer the optional satellite, select the political relay and open proposal-level numbering, titles and briefs without opening prose or canon.",
+      "requires": ["D21"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture/chapter-function-matrix.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture/validation-report.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D23",
+      "description": "Propose a 25-chapter Volume I reading sequence, working titles, provenance ledger and bounded chapter briefs from the V1CAQ-approved architecture; stop at V1CBQ author review without scene planning or prose.",
+      "requires": ["D22"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/chapter-sequence.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/provenance-ledger.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/briefs/chapter_01.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/briefs/chapter_25.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/validation-report.md"},
+        {"type": "file_nonempty", "path": "scripts/build_volume_i_chapter_briefs.py"},
+        {"type": "file_nonempty", "path": "scripts/check_volume_i_chapter_briefs.py"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D24",
+      "description": "Persist V1CBQ-01–06 approval of the 25-chapter Volume I baseline, working titles, irregular POV sequence and bounded briefs as planning authority; open only a scene-plan phase-spec proposal without creating scenes or prose.",
+      "requires": ["D23"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/chapter-sequence.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/briefs/chapter_01.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/briefs/chapter_25.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/validation-report.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D25",
+      "description": "Propose a bounded Volume I scene-plan phase specification with provenance-first scene schema, knowledge and continuity invariants, density/split review and a separate SPQ author gate; create no scene-plan outputs or prose.",
+      "requires": ["D24"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/scene-plan-phase-spec-volume-i.md"},
+        {"type": "file_nonempty", "path": "scripts/check_scene_plan_phase_spec.py"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/chapter-sequence.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/briefs/chapter_01.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D26",
+      "description": "Persist SPQ-01–06 approval of the Volume I scene-plan phase spec, authorizing only a candidate scene-plan package while retaining the V1SPAQ, no-prose, no-chronology and protected-canon gates.",
+      "requires": ["D25"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/scene-plan-phase-spec-volume-i.md"},
+        {"type": "file_nonempty", "path": "scripts/check_scene_plan_phase_spec.py"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/README.md"}
+      ]
+    },
+    {
+      "id": "D27",
+      "description": "Record the author-approved pivot away from scene-plan implementation and present a concise 13-Arc-to-five-volume role map for macro review without adding chapters, scenes, prose or new micro-planning gates.",
+      "requires": ["D26"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/series-arc-volume-map.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/README.md"}
+      ]
+    },
+    {
+      "id": "D28",
+      "description": "Persist author approval of the 13-Arc-to-five-volume macro map, retain the scene-plan freeze, and authorize only a Volume II–V Arc/POV role-map proposal.",
+      "requires": ["D27"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/series-arc-volume-map.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/README.md"}
+      ]
+    },
+    {
+      "id": "D29",
+      "description": "Propose a concise Volume II–V Arc/POV role map from the approved macro map and stop at V2VRQ author review without opening route bibles, scenes or prose.",
+      "requires": ["D28"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/volume-ii-v-role-map-proposal.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/series-arc-volume-map.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D30",
+      "description": "Persist V2VRQ-01–04 approval of the Volume II–V role map and authorize only a macro cross-volume convergence-matrix proposal.",
+      "requires": ["D29"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/volume-ii-v-role-map-proposal.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/README.md"}
+      ]
+    },
+    {
+      "id": "D31",
+      "description": "Propose a four-row cross-volume convergence matrix at pressure, knowledge and world-return level, then stop at CMQ author review.",
+      "requires": ["D30"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/cross-volume-convergence-matrix.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/volume-ii-v-role-map-proposal.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D32",
+      "description": "Persist CMQ-01–03 approval, close Volume II–V macro design, and retain freezes on further design artifacts pending an author-selected scope.",
+      "requires": ["D31"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/cross-volume-convergence-matrix.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/README.md"}
+      ]
+    },
+    {
+      "id": "D33",
+      "description": "Perform a non-design macro consolidation review that indexes approved authority and corrects stale status references without opening a new phase.",
+      "requires": ["D32"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/macro-authority-index.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/cross-volume-convergence-matrix.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D34",
+      "description": "Propose a Volume I writer-readiness gate for constrained non-canon drafting and stop at WRGQ review before packets, scene plans or prose.",
+      "requires": ["D33"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-readiness-gate-volume-i.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/scene-plan-phase-spec-volume-i.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D35",
+      "description": "Persist WRGQ-01–04 approval and authorize only a non-prose Chapter 01–03 preflight packet sample.",
+      "requires": ["D34"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-readiness-gate-volume-i.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D36",
+      "description": "Record the Gemini-primary, author-gated fail-closed source protocol without opening packets, scenes, prose or canon.",
+      "requires": ["D35"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-readiness-gate-volume-i.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D37",
+      "description": "Create a Gemini-primary candidate preflight packet for Chapters 01–03 with source-report and open-slot safeguards, then stop at author review.",
+      "requires": ["D36"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-i/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-i/chapters_01_03.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-readiness-gate-volume-i.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D38",
+      "description": "Persist author approval of the Gemini preflight model and create a full Volume I query/result coverage ledger without opening scene plans, prose or canon.",
+      "requires": ["D37"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-i/volume-i-coverage-ledger.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-i/chapters_01_03.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/provenance-ledger.tsv"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D39",
+      "description": "Deep-survey Volume II source windows and create a source-window query/result coverage ledger without inventing chapters, scenes, prose or canon.",
+      "requires": ["D38"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/volume-ii-source-window-map.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/volume-ii-source-window-coverage-ledger.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_04.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_05.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_07.json"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D40",
+      "description": "Propose a source-limited Volume II chapter architecture, retain unresolved density and bridge gaps, and stop at the V2CAQ author gate before chapters, scenes, prose or canon.",
+      "requires": ["D39"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture-phase-spec-volume-ii.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/volume-ii-source-window-map.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/volume-ii-source-window-coverage-ledger.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D41",
+      "description": "Persist V2CAQ-01–05 approval, retaining unresolved POV/density gaps and authorizing only one bounded deep survey before any Volume II chapter plan.",
+      "requires": ["D40"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture-phase-spec-volume-ii.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/README.md"}
+      ]
+    },
+    {
+      "id": "D42",
+      "description": "Deep-survey only the bounded Volume II Hạ Nương/density evidence families and stop at the V2HDAQ author gate without chapters, scenes, prose or canon.",
+      "requires": ["D41"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/volume-ii-ha-density-deep-survey.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/volume-ii-source-window-map.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/volume-ii-source-window-coverage-ledger.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_05.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_07.json"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D43",
+      "description": "Persist V2HDAQ-01–03 approval: retain the narrow Hạ Bridge ceiling, exclude T118/S267, and authorize only a future Volume II chapter-architecture proposal.",
+      "requires": ["D42"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/volume-ii-ha-density-deep-survey.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/README.md"}
+      ]
+    },
+    {
+      "id": "D44",
+      "description": "Propose a bounded 5–7 functional-container Volume II chapter architecture and stop at V2CABQ-01–06 without creating a V2-CH projection, chapters, scenes, prose or canon.",
+      "requires": ["D43"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture-volume-ii-proposal.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/volume-ii-source-window-map.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/volume-ii-ha-density-deep-survey.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D45",
+      "description": "Apply default-progress planning and create the Volume II V2-CH candidate projection and fail-closed coverage ledger without chapters, scenes, prose or canon.",
+      "requires": ["D44"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture-volume-ii/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-architecture-volume-ii/candidate-coverage-ledger.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-readiness-gate-volume-i.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D46",
+      "description": "Create the minimal source-safe 5–7 chapter allocation for Volume II with function, provenance and writer-boundary columns, without scene planning or prose.",
+      "requires": ["D45"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-ii/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-ii/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-ii/provenance-ledger.tsv"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D47",
+      "description": "Survey bounded Arc 08 and Arc 09 military-camp windows and create a minimal source-safe seven-function Volume III allocation without scenes, prose or canon.",
+      "requires": ["D46"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iii/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iii/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iii/provenance-ledger.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_08.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_09.json"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D48",
+      "description": "Survey the Arc 09 Đại Lý slice and Arc 10, then create a minimal source-safe seven-function Volume IV allocation without scenes, prose or canon.",
+      "requires": ["D47"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iv/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iv/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iv/provenance-ledger.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_09.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_10.json"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D49",
+      "description": "Expand Volume II from its seven-function spine into a source-safe 24-chapter allocation using deeper Arc 04, 05 and 07 evidence, without scenes, prose, chronology or canon.",
+      "requires": ["D48"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-ii/volume-ii-expanded-source-windows.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-ii/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-ii/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-ii/provenance-ledger.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_04.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_05.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_07.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D50",
+      "description": "Expand Volume III from its seven-function spine into a source-safe 28-chapter allocation using Arc 08 and only the Phục Ngưu military-camp slice of Arc 09, without scenes, prose, chronology or canon.",
+      "requires": ["D49"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-iii/volume-iii-expanded-source-windows.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iii/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iii/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iii/provenance-ledger.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_08.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_09.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D51",
+      "description": "Expand Volume IV from its seven-function spine into a source-safe 28-chapter allocation using the late Arc 09 Dali cluster, selected Arc 10 windows and the ordered Task 352 chain, without scenes, prose, chronology or canon.",
+      "requires": ["D50"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-iv/volume-iv-expanded-source-windows.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iv/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iv/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iv/provenance-ledger.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_09.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_10.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D52",
+      "description": "Create the full source-safe 35-chapter Volume V allocation from Arc 11-12 plus the protected T4 An Dong outcome, retaining reliability, corroboration and chronology gates without scenes, prose or canon.",
+      "requires": ["D51"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-preflight-volume-v/volume-v-expanded-source-windows.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-v/README.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-v/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-v/provenance-ledger.tsv"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_00.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_11.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/evidence/source-packets/arc_12.json"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D53",
+      "description": "Validate the complete 140-function chapter allocation across Volumes I-V and create one consolidated Gemini routing index without scenes, prose, chronology or canon.",
+      "requires": ["D52"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/series-chapter-allocation-index.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-i/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-ii/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iii/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-iv/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/chapter-plan-volume-v/chapter-sequence.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D54",
+      "description": "Create one Gemini on-demand chapter workflow router that builds local source receipts and preflight only for a requested chapter, retaining all author gates and no-prose boundaries.",
+      "requires": ["D53"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/gemini-chapter-workflow-router.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/series-chapter-allocation-index.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/writer-readiness-gate-volume-i.md"},
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/author-decisions.md"},
+        {"type": "file_nonempty", "path": "author/decision-log.md"},
+        {"type": "file_nonempty", "path": "author/session-state.md"}
+      ]
+    },
+    {
+      "id": "D55",
+      "description": "Install four Antigravity workflows and source-aware chapter skills; structural checks do not certify Gemini runtime or semantic review.",
+      "requires": ["D54"],
+      "checks": [
+        {"type": "file_nonempty", "path": "docs/playbooks/gemini-evidence-review.md"},
+        {"type": "file_nonempty", "path": "docs/antigravity-novel-workflows.md"},
+        {"type": "file_nonempty", "path": ".agents/workflows/dlg-preflight.md"},
+        {"type": "file_nonempty", "path": ".agents/workflows/dlg-write.md"},
+        {"type": "file_nonempty", "path": ".agents/workflows/dlg-review.md"},
+        {"type": "file_nonempty", "path": ".agents/workflows/dlg-revise.md"},
+        {"type": "file_nonempty", "path": ".agents/skills/dlg-source-preflight/SKILL.md"},
+        {"type": "file_nonempty", "path": ".agents/skills/dlg-source-writer/SKILL.md"},
+        {"type": "file_nonempty", "path": ".agents/skills/dlg-source-review/SKILL.md"},
+        {"type": "file_nonempty", "path": ".agents/skills/dlg-source-revision/SKILL.md"}
+      ]
+    },
+    {
+      "id": "D56",
+      "description": "D-064/R-90 temporal and creative policy: migrate operational references, archive prior matrices and remove hard-coded temporal ages; routing validation is not semantic continuity verification.",
+      "requires": ["D55"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/temporal-continuity-contract.md"},
+        {"type": "file_nonempty", "path": "scripts/temporal-routing-check.py"},
+        {"type": "file_nonempty", "path": "scripts/temporal-routing-test.py"},
+        {"type": "file_nonempty", "path": "archive/pre_restructure_2026_09/temporal_before_D064/plot/chronology_matrix.md"},
+        {"type": "file_nonempty", "path": "archive/pre_restructure_2026_09/temporal_before_D064/worldbuilding/geography/travel_matrix.md"}
+      ]
+    },
+    {
+      "id": "D57",
+      "description": "D-065/R-91: persist the approved temporal/character framework as direction distinct from game fact, scene/prose authorization and canon state.",
+      "requires": ["D56"],
+      "checks": [
+        {"type": "file_nonempty", "path": "migration/restructure_2026_09/temporal-character-framework.md"},
+        {"type": "file_nonempty", "path": "scripts/temporal-character-framework-check.py"},
+        {"type": "file_nonempty", "path": "scripts/temporal-character-framework-test.py"}
+      ]
+    },
+    {
+      "id": "D58",
+      "description": "D-067/R-93: initialize the Canon Registry empty/on-demand with a provenance-only schema and open-slot pointers, without seed facts or canon state.",
+      "requires": ["D57"],
+      "checks": [
+        {"type": "file_nonempty", "path": "canon-registry/README.md"},
+        {"type": "file_nonempty", "path": "canon-registry/registry-index.tsv"},
+        {"type": "file_nonempty", "path": "canon-registry/registry-open-slots.md"},
+        {"type": "file_nonempty", "path": "canon-registry/changes/README.md"},
+        {"type": "file_nonempty", "path": "scripts/canon-registry-check.py"}
+      ]
+    }
+  ]
+}

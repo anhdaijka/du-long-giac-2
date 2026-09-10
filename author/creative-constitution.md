@@ -73,18 +73,21 @@
 
 ---
 
-## 6. CÔNG THỨC NHỊP ĐIỆU CHUYỂN HÓA LORE (CADENCE FORMULA: 3 - 1 - 1)
-Áp dụng cho mỗi hồi truyện (Arc) để tích hợp hữu cơ toàn bộ kho tàng nhiệm vụ phụ, quân doanh, thương hội và phong thổ:
+## 6. NHỊP ĐIỆU CHUYỂN HÓA LORE — HEURISTIC 3-1-1, KHÔNG PHẢI QUOTA
+
+3-1-1 là công cụ kiểm tra độ nghẹt ở cấp series, không phải chu kỳ bắt buộc năm chương, không khóa số chương và không được thắng các ràng buộc continuity đã duyệt. Áp dụng linh hoạt để tích hợp hữu cơ kho tàng nhiệm vụ phụ, quân doanh, thương hội và phong thổ:
 - **3 Chương Cốt truyện Trọng tâm (Core Plot)**: Vận hành trục biến cố chính của môn phái và thời cuộc.
 - **1 Chương Trầm tích Giang hồ / Quân doanh dã sử (Living Lore & Mystery)**: Giải quyết một ca bệnh nan y, một vụ án dân gian, hoặc một chiến trường quân doanh tàn khốc (`armycamp_lore`, `linktask_tales`).
-- **1 Chương Khoảng lặng Lữ hành & Tương tác Bộ ba (Road Novel & Character Deepening)**: Không gian thở của hành trình: miếu hoang, trạm dịch, nồi cháo chia ba, đối thoại đốp chát, thấu hiểu vết thương lòng của nhau.
+- **1 Chương Khoảng lặng Lữ hành & Character Deepening (Road Novel)**: Không gian thở của hành trình. Trước khi continuity cho phép hội tụ thể chất, khoảng lặng phải thuộc một POV hoặc là dư chấn của thế giới; tuyệt đối không ép bộ ba gặp sớm chỉ để đủ nhịp. Sau khi continuity cho phép, tương tác giữa các nhân vật có thể được dùng nhưng vẫn phải phát sinh tự nhiên từ quan hệ nhân quả.
+
+Mọi chương lore hoặc khoảng lặng phải có causal return: nó phải đổi lựa chọn, quan hệ, rủi ro hoặc cách hiểu; không dùng 3-1-1 để tạo filler.
 
 ---
 
 ## 7. NGUYÊN TẮC VÕ HỌC KIM DUNG: "VÕ CÔNG ĐỒNG HÀNH VỚI CHARACTER ARC"
 - Võ công không phải là thanh chỉ số game hay món quà phát bừa; võ công là ẩn dụ của sự va đập số phận và độ dày nhân cách.
-- **Tuyệt đối cấm truyền dạy tuyệt kỹ tối cao ở đầu truyện**:
-  - *Tiêu Phùng* dùng gậy gỗ nghiến bãi sậy suốt Quyển 1, học Lục Hợp Bổng ở Quyển 2, chiến đấu cận chiến Ảnh Xã ở Quyển 3. Đến tận Quyển 4 (20 tuổi, sau đại nạn Cái Bang) mới được khẩu truyền chiêu thức đầu tiên *Kháng Long Hữu Hối* bằng máu và nước mắt; Quyển 5 mới đạt cảnh giới Đại thành.
-  - *Tĩnh Xuyên* từ cỗ máy quân lệnh sa trường (Q1) $\rightarrow$ Đoản đao gián điệp Mộc Nhất Lâu (Q2) $\rightarrow$ Tâm ma vì hạ sát Ân Đồng (Q3) $\rightarrow$ Đoán Kim Hóa Kình (Q4) $\rightarrow$ Trấn Quốc Thần Thương dẹp yên can qua (Q5).
-  - *Hạ Nương* từ y đạo thực chứng đoản kiếm (Q1) $\rightarrow$ Sụp đổ lý trí trước huyết kiếp Thúy Yên & Băng Phách Ngân Châm (Q2) $\rightarrow$ Nữ quân y dã chiến Bách Man Sơn (Q3) $\rightarrow$ Băng Tâm Triệt Cốt bách độc bất xâm (Q4) $\rightarrow$ Y Thánh cứu vớt vạn quân (Q5).
-
+- **Tuyệt đối cấm truyền dạy tuyệt kỹ tối cao ở đầu truyện**. Tiến trình ba nhân vật phải theo các giai đoạn nhân quả, không khóa sẵn theo năm quyển:
+  - *Tiêu Phùng*: sinh tồn bằng gậy và mưu mẹo trước; học kỷ luật bang hội sau; tuyệt kỹ chỉ đến khi có đủ thời gian, truyền thừa và cái giá.
+  - *Tĩnh Xuyên*: kỷ luật chiến tuyến $\rightarrow$ chính trị–tình báo $\rightarrow$ bi kịch Mộc Nhất Lâu/Ân Đồng $\rightarrow$ học chịu trách nhiệm mà không tự phong quyền phán quyết.
+  - *Hạ Nương*: y đạo thực chứng $\rightarrow$ đối diện thương vong Bách Hoa $\rightarrow$ y thuật trong giang hồ/chiến tuyến $\rightarrow$ lựa chọn cứu người trước quyền lực bảo vật.
+  - Mọi chiêu thức, tuổi, niên đại và điểm đại thành phải được volume architecture/chronology mới duyệt riêng.

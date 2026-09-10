@@ -1,0 +1,25 @@
+chapter_key	function_key	primary_packet	query_result_container	evidence_class	writer_escalation
+V2-CH-01	V2-EW-01	../evidence/source-packets/arc_05.json	tasks[task_id=146].subtasks[sub_id=295]	SOURCE_REPORT + GAME_EVENT + PROPOSED_APERTURE	relay/venue/action/outcome
+V2-CH-02	V2-EW-02	../evidence/source-packets/arc_04.json	tasks[task_id=93].subtasks[sub_id=242]	DIRECT_ENCOUNTER + NPC_INFERENCE	identity/allegiance/history/linkage
+V2-CH-03	V2-EW-02	../evidence/source-packets/arc_04.json	tasks[task_id=92].subtasks[sub_id=241]	SPEAKER_MEMORY + SOURCE_REPORT	objective-history/name-resolution/culprit
+V2-CH-04	V2-EW-02	../evidence/source-packets/arc_04.json	tasks[task_id=77].subtasks[sub_id=226]	NPC_REPORT + DIRECT_TASK_EVENT	sender/secret/poison-mechanism/linkage
+V2-CH-05	V2-EW-02	../evidence/source-packets/arc_04.json	tasks[task_id=79].subtasks[sub_id=228];tasks[task_id=87].subtasks[sub_id=236]	SPEAKER_MEMORY + SECOND_HAND_REPORT	truth/chronology/mastermind/combat
+V2-CH-06	V2-EW-03	../evidence/source-packets/arc_04.json	tasks[task_id=86].subtasks[sub_id=235];tasks[task_id=82].subtasks[sub_id=231];tasks[task_id=83].subtasks[sub_id=232]	CORROBORATED_DECLINE + NPC_SELF_REPORT + TASK_LOCAL_TRANSFER	durable-alliance/motive/item-effect/actor
+V2-CH-07	V2-EW-04	../evidence/source-packets/arc_04.json	tasks[task_id=96].subtasks[sub_id=245];tasks[task_id=97].subtasks[sub_id=246]	CONTESTED_PARALLEL_NPC_REPORTS + GAMEPLAY	truth-selection/policy/history/trio-outcome
+V2-CH-08	V2-EW-04	../evidence/source-packets/arc_04.json	tasks[task_id=100].subtasks[sub_id=249]	SOURCE_REPORT + TASK_LOCAL_CORROBORATION	age/quota/policy/rescuer/outcome
+V2-CH-09	V2-EW-04	../evidence/source-packets/arc_04.json	tasks[task_id=103].subtasks[sub_id=252];tasks[task_id=109].subtasks[sub_id=258]	NPC_INVESTIGATION + ORGANIZATION_RESPONSE	objective-guilt/network/assault/outcome
+V2-CH-10	V2-EW-05	../evidence/source-packets/arc_05.json	tasks[task_id=115].subtasks[sub_id=264]	SOURCE_REPORT + GAME_SCOPE	death/betrayal/order/trio-credit
+V2-CH-11	V2-EW-05	../evidence/source-packets/arc_05.json	tasks[task_id=128].subtasks[sub_id=277]	GAME_ALT_HISTORY + INSTITUTIONAL_REPORT	historical-truth/rescue/political-outcome
+V2-CH-12	V2-EW-05	../evidence/source-packets/arc_05.json	tasks[task_id=130].subtasks[sub_id=279]	SOURCE_REPORT + GAMEPLAY_TRANSLATION + R76_NARROW_BRIDGE	diagnosis/mechanism/cure/patient/outcome
+V2-CH-13	V2-EW-05	../evidence/source-packets/arc_05.json	tasks[task_id=131].subtasks[sub_id=280];tasks[task_id=132].subtasks[sub_id=281]	TASK_LOCAL_OBJECT_AND_HOSTAGE_REPORT	chronology/item-power/custody/trio-action
+V2-CH-14	V2-EW-05	../evidence/source-packets/arc_05.json	tasks[task_id=138].subtasks[sub_id=287]	SURVIVOR_REPORT + POLITICAL_LABEL	culprit/plot/order/revenge-outcome
+V2-CH-15	V2-EW-06	../evidence/source-packets/arc_05.json	tasks[task_id=147].subtasks[sub_id=296]	OVERHEARD_REPORT + GAME_ACTION	treasure-truth/network/avatar-mapping
+V2-CH-16	V2-EW-06	../evidence/source-packets/arc_07.json	tasks[task_id=198].subtasks[sub_id=361]	MULTI_WITNESS_STORY + LIVING_LORE	objective-truth/direct-meeting/investigation
+V2-CH-17	V2-EW-06	../evidence/source-packets/arc_07.json	tasks[task_id=215].subtasks[sub_id=390];tasks[task_id=217].subtasks[sub_id=392]	INSTITUTION_REPORT + SPEAKER_MEMORY	event-merger/historical-truth/parentage
+V2-CH-18	V2-EW-01	../evidence/source-packets/arc_05.json	tasks[task_id=150].subtasks[sub_id=299]	SOURCE_REPORT + GAME_EVENT + PROPOSED_APERTURE	faction-merger/duty/relay/action/outcome
+V2-CH-19	V2-EW-06	../evidence/source-packets/arc_07.json	tasks[task_id=216].subtasks[sub_id=391]	RUMOR + SOURCE_REPORT	assassination/list-content/location/network/custody
+V2-CH-20	V2-EW-06	../evidence/source-packets/arc_07.json	tasks[task_id=197].subtasks[sub_id=360];tasks[task_id=202].subtasks[sub_id=365]	SOURCE_FRAME + NPC_TESTIMONY + LEGENDARY_LORE	objective-history/death/identity/martial-art
+V2-CH-21	V2-EW-07	R-67 + R-74	functional-bridge-only	AUTHOR_DEFAULTED_FUNCTIONAL_BRIDGE	summons/venue/dialogue/combat/custody/outcome
+V2-CH-22	V2-EW-08	../evidence/source-packets/arc_07.json	tasks[task_id=223].subtasks[sub_id=398]	DIRECT_SOURCE_CONTEXT + R76_NARROW_BRIDGE	meeting/item-use/efficacy/rescue
+V2-CH-23	V2-EW-09	../evidence/source-packets/arc_07.json	tasks[task_id=225].subtasks[sub_id=400].strategic_transition_subset	DIRECT_GAME_TRANSITION + SOURCE_REPORT	authority/command/path/action/history/outcome
+V2-CH-24	V2-EW-09	../evidence/source-packets/arc_07.json	tasks[task_id=225].subtasks[sub_id=400].material_labor_subset	DIRECT_SOURCE_CONTEXT + GAMEPLAY_TRANSLATION	resource-count/coercion/chronology/trio-logistics/outcome

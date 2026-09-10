@@ -30,7 +30,7 @@
   * Các đội viên chia hai cấp bậc: **Hồng Y Cao Thủ** (ngoại vi/tiên phong) và **Tử Y Cao Thủ** (tinh anh/thủ lĩnh phân đội).
   * Sử dụng kỳ môn binh khí nặng và tầm xa: Đoản kích, chùy gai thép nguội, nỏ tay liên châu; tinh thông kỳ độc Miêu Cương và chưởng lực tàn bạo nghiền nát xương cốt.
 * **Ý đồ chiến lược**:
-  * Thâm nhập biên viễn Nam Tống và vùng Bách Hoa Cốc (Đại Lý) nhằm đánh cắp hung ngọc **Du Long Giác** và tìm kiếm các tọa độ Trụ Thần Thạch.
+  * Thâm nhập các tuyến biên viễn và tham dự cuộc tranh đoạt **Du Long Giác**; mục tiêu cụ thể phải giữ theo từng lời thoại/task thay vì suy thành một mạng tọa độ toàn quốc.
   * Thu Thạch Tiên Sinh từng nhận xét: Kế hoạch của Lý Thăng Dương nếu thành công dựa vào bí mật Du Long Giác có thể đoạt lấy thiên hạ.
 * **CSDL Provenance**: `subtasks.sub_id = 54, 55, 56 (Kinh Tâm Động Phách, Thâu Thiên Hoán Nhật), 86 (Du Long Xuất Thế)`.
 
@@ -61,12 +61,12 @@
 
 ### 5. ORG-MAY-PHAI: MA Y PHÁI / MA Y CỐC
 * **Thuộc tính**: Dị phái thuật số cổ truyền độc lập.
-* **Nhân vật then chốt**: Cố danh sĩ **Tiêu Lăng Phong** (thân phụ Tiêu Phùng); Dị nhân phong thủy **Ma Y Thần Tướng**.
+* **Nhân vật then chốt**: **Minh Dương** (thân phụ Tiêu Phùng; `Tiêu Lăng Phong` là bí danh Novelization Bridge); Dị nhân phong thủy **Ma Y Thần Tướng**.
 * **Tín vật & Pháp cụ**:
   * La bàn đồng thau 24 phương vị Bát Quái mặt kính thạch anh.
   * Con dấu đầu quạ ngậm quẻ Càn khắc chìm trên sáp niêm phong; trục cuốn sấm thi cổ dệt trên lụa tơ tằm.
 * **Bản chất**:
-  * Tinh thông thuật Kham Dư tầm long tróc mạch, dịch học và y thuật cứu người. Nắm giữ những bí mật cổ xưa về Long Mạch, Long Cung và mối nguy hại từ trường của các khối thiên thạch ngàn năm như Du Long Giác.
+  * Có liên hệ với tướng số/Kham Dư và các manh mối quanh Long Cung trong lời kể nguồn. Không suy công năng từ trường, thiên thạch hoặc cơ chế Du Long Giác nếu chưa có proposition-level evidence.
 * **CSDL Provenance**: `Task 12: Subtask 85; Task 157: Subtask 313; subtasks.sub_id = 85, 313`.
 
 ---
